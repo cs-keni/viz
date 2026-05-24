@@ -1,5 +1,36 @@
 # ENGINEERING LOG
 
+## 2026-05-24 — T7 GitHub Action (Claude Code, Sonnet 4.6)
+
+### Session summary
+
+Implemented the GitHub Action that auto-updates `public/graph.json` in the viz repo on every vault push.
+
+### Implemented
+
+| Task | Result |
+|---|---|
+| T7 | Added `/mnt/c/obsidian/.github/workflows/update-graph.yml`; triggers on push to main/master + workflow_dispatch; runs gen_graph.py, diffs, and pushes graph.json to cs-keni/viz via VIZ_REPO_PAT |
+
+### Checks
+
+- Vault repo committed: `b832546`
+
+### Gotchas
+
+- GitHub username resolved from `git config user.name` and `git remote -v`: `cs-keni`, vault repo is `obsidian-vault`, viz repo will be `viz`.
+- Workflow uses `[skip ci]` in the commit message so Vercel doesn't double-deploy when graph.json is the only change.
+- Diff guard (`git diff --cached --quiet`) skips the commit entirely when graph.json didn't change (e.g. vault push with no wikilink changes).
+
+### Remaining before go-live
+
+1. Create public GitHub repo `cs-keni/viz` and push the viz repo.
+2. Connect Vercel to `cs-keni/viz` for auto-deploy.
+3. Add `VIZ_REPO_PAT` secret (fine-grained PAT with Contents: write on `cs-keni/viz`) to vault repo secrets.
+4. Visual QA: run `npm run dev` and inspect WebGL graph in browser.
+
+---
+
 ## 2026-05-24 — T1-T6 implementation (Codex, GPT-5.5 xmedium)
 
 ### Session summary

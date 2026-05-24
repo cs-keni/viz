@@ -1,7 +1,7 @@
 # HANDOFF
 
-**Last updated:** 2026-05-24 by Codex (GPT-5.5 xmedium)
-**Session:** T1-T6 implementation complete. T7 GitHub Action remains.
+**Last updated:** 2026-05-24 by Claude Code (Sonnet 4.6)
+**Session:** T1-T7 complete. Phase 1 implementation done — deployment pending.
 
 ## State
 
@@ -45,8 +45,18 @@ Vault repo:
 - `python -m pytest tests/test_gen_graph.py` in `/mnt/c/obsidian` — 6 passed
 - `python .github/scripts/gen_graph.py /mnt/c/obsidian > /mnt/c/dev/viz/public/graph.json`
 
-## Remaining Work
+## Remaining Work (Deployment)
 
-T7 is still pending: add `/mnt/c/obsidian/.github/workflows/update-graph.yml` to generate graph data on vault pushes and commit/push `public/graph.json` to the viz repo using `VIZ_REPO_PAT`.
+All code is written. What's left is infrastructure:
 
-Recommended follow-up before deploy: run the app in a browser and visually inspect the live WebGL graph on desktop and mobile-width viewport. Automated tests/build pass, but visual effects need human inspection.
+1. **Create GitHub repo** — Kenny creates `cs-keni/viz` (public) on GitHub.
+2. **Push viz repo** — `git remote add origin git@github.com:cs-keni/viz.git && git push -u origin main`
+3. **Connect Vercel** — import `cs-keni/viz` on vercel.com; framework preset: Vite; no env vars needed.
+4. **Create PAT** — GitHub → Settings → Developer Settings → Fine-grained tokens → New token:
+   - Resource owner: cs-keni
+   - Repository access: Only `cs-keni/viz`
+   - Permissions: Contents → Read and write
+   - Copy the token value
+5. **Add secret to vault repo** — `cs-keni/obsidian-vault` → Settings → Secrets and variables → Actions → New secret → Name: `VIZ_REPO_PAT`, Value: (pasted token)
+6. **Visual QA** — run `npm run dev` and inspect the WebGL graph in browser on desktop + mobile viewport.
+7. **End-to-end test** — push a note to vault; verify graph.json updates in viz repo and Vercel redeploys.

@@ -2,7 +2,7 @@
 
 ## Phase 1 — Standalone hosted site
 
-### Status: T1-T6 complete. T7 GitHub Action remains.
+### Status: T1-T7 complete. Phase 1 implementation done — deployment pending.
 
 ### Active Tasks (in order)
 
@@ -47,11 +47,11 @@
 - In `src/App.jsx`: wrap Graph3D in `React.lazy(() => import('./components/Graph3D'))` + `<Suspense fallback={<LoadingSkeleton />}>`
 - Loading skeleton: centered CSS spinner + navy background
 
-**T7 — GitHub Action (vault repo) — Pending**
+**T7 — GitHub Action (vault repo) — Complete**
 - Path: `/mnt/c/obsidian/.github/workflows/update-graph.yml`
-- Trigger: `on: push`
-- Steps: checkout vault, run gen_graph.py, checkout viz repo (using VIZ_REPO_PAT secret), commit + push graph.json
-- See HANDOFF.md for full YAML template
+- Trigger: `on: push` to main/master, plus `workflow_dispatch`
+- Steps: checkout vault → gen_graph.py → checkout cs-keni/viz via VIZ_REPO_PAT → commit + push graph.json (skips if no diff)
+- Committed to vault repo: `b832546`
 
 ### Not in scope for this task
 
