@@ -29,9 +29,9 @@ function baseEmissiveForDegree(degree) {
 }
 
 function edgeColorForDegree(degree) {
-  if (degree >= 9) return '#6a4820'
-  if (degree >= 3) return '#4a3060'
-  return '#2e4080'
+  if (degree >= 9) return '#d4881a'
+  if (degree >= 3) return '#8860cc'
+  return '#4a78e0'
 }
 
 // --- scene object builders ---
@@ -127,8 +127,8 @@ function buildNebulae(scene) {
   ].map(({ pos, r, emissive, opacity }) => {
     const geo = new THREE.SphereGeometry(r, 32, 32)
     const mat = new THREE.MeshStandardMaterial({
-      color: '#000000', emissive, emissiveIntensity: 0.6,
-      transparent: true, opacity, depthWrite: false, side: THREE.DoubleSide,
+      color: '#000000', emissive, emissiveIntensity: 0.25,
+      transparent: true, opacity, depthWrite: false, side: THREE.BackSide,
     })
     const mesh = new THREE.Mesh(geo, mat)
     mesh.position.set(pos[0], pos[1], pos[2])
@@ -174,6 +174,7 @@ export default function Graph3D({ data }) {
   const hoveredNodeRef = useRef(null)
   const mouseRef = useRef({ x: 0, y: 0 })
   const orbitResumeTimerRef = useRef(null)
+  const isAutoRotatingRef = useRef(true)
   const [graphData, setGraphData] = useState(data)
   const [selectedNodeId, setSelectedNodeId] = useState(null)
   const [hoveredNode, setHoveredNode] = useState(null)
@@ -207,16 +208,17 @@ export default function Graph3D({ data }) {
     const controls = instance.controls()
     if (controls) {
       controls.maxDistance = 1500
-      controls.autoRotate = true
-      controls.autoRotateSpeed = 0.8
+      controls.autoRotate = false  // manual rotation via applyAxisAngle — more reliable across Three.js versions
+      controls.enableDamping = true
+      controls.dampingFactor = 0.08
       // Pause orbit on grab; resume 3s after release
       controls.addEventListener('start', () => {
-        controls.autoRotate = false
+        isAutoRotatingRef.current = false
         clearTimeout(orbitResumeTimerRef.current)
       })
       controls.addEventListener('end', () => {
         orbitResumeTimerRef.current = setTimeout(() => {
-          controls.autoRotate = true
+          isAutoRotatingRef.current = true
         }, ORBIT_RESUME_DELAY)
       })
     }
@@ -242,10 +244,9 @@ export default function Graph3D({ data }) {
     }
   }, [])
 
-  // Ensure auto-orbit is running once physics settles (guards against timing edge cases)
+  // Ensure auto-orbit is running once physics settles
   const onEngineStop = useCallback(() => {
-    const controls = fgRef.current?.controls()
-    if (controls) controls.autoRotate = true
+    isAutoRotatingRef.current = true
   }, [])
 
   const nodeThreeObject = useCallback((node) => {
@@ -320,9 +321,20 @@ export default function Graph3D({ data }) {
   }, [selectedNodeId])
 
   const onRenderFramePost = useCallback(() => {
-    // Drive OrbitControls autoRotate — the library doesn't call update() itself
     const controls = fgRef.current?.controls()
-    if (controls) controls.update()
+    if (controls) {
+      controls.update()
+      // Manual orbit — applyAxisAngle is reliable across Three.js versions;
+      // OrbitControls.autoRotate requires a deltaTime arg in r147+ which the
+      // library doesn't supply, so we rotate the camera position directly.
+      if (isAutoRotatingRef.current) {
+        const camera = fgRef.current?.camera()
+        if (camera) {
+          camera.position.applyAxisAngle(new THREE.Vector3(0, 1, 0), 0.001)
+          camera.lookAt(controls.target)
+        }
+      }
+    }
 
     const graph = graphRef.current
     if (!graph) return
@@ -412,7 +424,7 @@ export default function Graph3D({ data }) {
         onNodeHover={onNodeHover}
         onEngineStop={onEngineStop}
         linkColor={getLinkColor}
-        linkOpacity={0.6}
+        linkOpacity={0.85}
         linkWidth={1.0}
         linkDirectionalParticles={3}
         linkDirectionalParticleSpeed={0.001}
