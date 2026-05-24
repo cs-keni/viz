@@ -1,5 +1,42 @@
 # ENGINEERING LOG
 
+## 2026-05-24 — T1-T6 implementation (Codex, GPT-5.5 xmedium)
+
+### Session summary
+
+Implemented the standalone Vite + React graph visualizer through T6. The app now fetches generated graph data, lazy-loads the 3D renderer, and renders a Three.js/react-force-graph-3d knowledge graph with desktop bloom, breathing nodes, and link particles.
+
+### Implemented
+
+| Task | Result |
+|---|---|
+| T1 | Scaffolded Vite React app, installed `react-force-graph-3d`, `three`, Vitest, Testing Library, and jsdom |
+| T2 | Added `/mnt/c/obsidian/.github/scripts/gen_graph.py` and pytest coverage; generated `public/graph.json` with 67 nodes and 175 links |
+| T3 | Added `useGraphData` with fetch, schema validation, loading/error state, and hook tests |
+| T4 | Added `Graph3D`, color/date utilities, `warmupTicks={100}`, Three.js node meshes, custom particle links, and stale-closure-safe animation refs |
+| T5 | Added `isMobile()` and guarded `UnrealBloomPass` with `!isMobile() && window.WebGL2RenderingContext` |
+| T6 | Replaced starter UI with the app shell and lazy-loaded `Graph3D` via `React.lazy` + `Suspense` |
+
+### Checks
+
+- `npm run test` — 3 files, 14 tests passed
+- `npm run build` — passed; generated a separate `Graph3D` chunk
+- `npm run dev -- --host 127.0.0.1` — served successfully during T1 on port 5174
+- `python -m pytest tests/test_gen_graph.py` in `/mnt/c/obsidian` — 6 passed
+
+### Gotchas
+
+- `npm create vite@latest . -- --template react --force` cancelled in the non-empty repo, so Vite was scaffolded in a temporary directory and copied into place.
+- Vitest with this Vite/OXC setup requires JSX tests to use `.jsx`; the hook test is `src/hooks/useGraphData.test.jsx`.
+- jsdom startup is slow in this environment, so even small Vitest suites take around 40-50 seconds.
+- The vault repo had unrelated dirty files before T2. Only the generator and test files were committed there.
+
+### Commits
+
+Viz repo: `375d1f9`, `5ed533b`, `d82acf8`, `298f445`, `028cff6`, `2aa7b29`.
+
+Vault repo: `d51d7bf`.
+
 ## 2026-05-24 — Initial session (Claude Code, Sonnet 4.6)
 
 ### Session summary
