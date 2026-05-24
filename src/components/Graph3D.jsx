@@ -46,11 +46,28 @@ function randomOnSphere(r) {
   )
 }
 
-function spawnComet(scene, spawnT) {
-  const start = randomOnSphere(STAR_RADIUS)
-  let end = randomOnSphere(STAR_RADIUS)
-  while (start.dot(end) / (STAR_RADIUS * STAR_RADIUS) > 0.6) {
-    end = randomOnSphere(STAR_RADIUS)
+function spawnComet(scene, spawnT, camera) {
+  const camFwd = new THREE.Vector3()
+  camera.getWorldDirection(camFwd)
+  const camRight = new THREE.Vector3().crossVectors(camFwd, camera.up).normalize()
+  const camUp2 = new THREE.Vector3().crossVectors(camRight, camFwd).normalize()
+
+  // Spawn in camera's forward hemisphere so comets are always visible
+  const mkPt = () => {
+    const ru = (Math.random() - 0.5) * STAR_RADIUS * 1.4
+    const rv = (Math.random() - 0.5) * STAR_RADIUS * 0.8
+    return camFwd.clone()
+      .multiplyScalar(STAR_RADIUS * 0.8)
+      .addScaledVector(camRight, ru)
+      .addScaledVector(camUp2, rv)
+      .normalize()
+      .multiplyScalar(STAR_RADIUS)
+  }
+
+  const start = mkPt()
+  let end = mkPt()
+  while (start.distanceTo(end) < STAR_RADIUS * 0.3) {
+    end = mkPt()
   }
 
   const positions = new Float32Array(COMET_TRAIL * 3)
@@ -183,6 +200,10 @@ export default function Graph3D({ data }) {
     fgRef.current = instance
     if (!instance) return
 
+    // Push nodes apart — default charge is too weak for 67 nodes, causing dense clusters
+    if (instance.d3Force('charge')) instance.d3Force('charge').strength(-180)
+    if (instance.d3Force('link')) instance.d3Force('link').distance(60)
+
     const controls = instance.controls()
     if (controls) {
       controls.maxDistance = 1500
@@ -299,6 +320,10 @@ export default function Graph3D({ data }) {
   }, [selectedNodeId])
 
   const onRenderFramePost = useCallback(() => {
+    // Drive OrbitControls autoRotate — the library doesn't call update() itself
+    const controls = fgRef.current?.controls()
+    if (controls) controls.update()
+
     const graph = graphRef.current
     if (!graph) return
     const t = (performance.now() - startTimeRef.current) / 1000
@@ -366,8 +391,9 @@ export default function Graph3D({ data }) {
       }
       return !done
     })
-    if (t >= nextCometRef.current && scene && cometsRef.current.length < 3) {
-      cometsRef.current.push(spawnComet(scene, t))
+    const camera = fgRef.current?.camera()
+    if (t >= nextCometRef.current && scene && camera && cometsRef.current.length < 3) {
+      cometsRef.current.push(spawnComet(scene, t, camera))
       nextCometRef.current = t + 5 + Math.random() * 6
     }
   }, [])
