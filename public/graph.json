@@ -50,6 +50,13 @@
       "degree": 0
     },
     {
+      "id": "Daily Notes/2026-05-24",
+      "label": "2026-05-24",
+      "folder": "Daily Notes",
+      "created": "2026-05-24",
+      "degree": 0
+    },
+    {
       "id": "Maps/Bobby",
       "label": "Bobby",
       "folder": "Maps",
@@ -96,14 +103,14 @@
       "label": "Backlog",
       "folder": "Projects",
       "created": "2026-05-19",
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Projects/Bobby",
       "label": "Bobby",
       "folder": "Projects",
       "created": "2026-05-19",
-      "degree": 11
+      "degree": 13
     },
     {
       "id": "Projects/Bobby Brain Viz",
@@ -124,7 +131,7 @@
       "label": "Onsite",
       "folder": "Projects",
       "created": "2026-05-19",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Projects/Shuckler",
@@ -152,14 +159,21 @@
       "label": "Agent Evaluation",
       "folder": "Resources",
       "created": "2026-05-22",
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/Agent Memory",
       "label": "Agent Memory",
       "folder": "Resources",
       "created": "2026-05-22",
-      "degree": 4
+      "degree": 5
+    },
+    {
+      "id": "Resources/Agent Security",
+      "label": "Agent Security",
+      "folder": "Resources",
+      "created": "2026-05-24",
+      "degree": 9
     },
     {
       "id": "Resources/Bobby Commands",
@@ -180,7 +194,7 @@
       "label": "CI CD",
       "folder": "Resources",
       "created": "2026-05-22",
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Caching",
@@ -229,7 +243,7 @@
       "label": "Data Engineering",
       "folder": "Resources",
       "created": "2026-05-22",
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Databases",
@@ -264,7 +278,7 @@
       "label": "Formal Methods Agent Safety",
       "folder": "Resources",
       "created": "2026-05-22",
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Geospatial",
@@ -285,14 +299,21 @@
       "label": "Kubernetes",
       "folder": "Resources",
       "created": "2026-05-22",
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/LLM System Design",
       "label": "LLM System Design",
       "folder": "Resources",
       "created": "2026-05-21",
-      "degree": 9
+      "degree": 11
+    },
+    {
+      "id": "Resources/MLOps and ML Engineering",
+      "label": "MLOps and ML Engineering",
+      "folder": "Resources",
+      "created": "2026-05-24",
+      "degree": 10
     },
     {
       "id": "Resources/Mechanistic Interpretability",
@@ -341,7 +362,7 @@
       "label": "Observability",
       "folder": "Resources",
       "created": "2026-05-21",
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Process Reward Models",
@@ -404,7 +425,7 @@
       "label": "Security",
       "folder": "Resources",
       "created": "2026-05-21",
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Software Engineering Tools",
@@ -460,7 +481,7 @@
       "label": "VAULT_INDEX",
       "folder": null,
       "created": null,
-      "degree": 3
+      "degree": 5
     },
     {
       "id": "wikilink",
@@ -720,6 +741,42 @@
       "target": "Resources/RAG and Bobby Vector Search"
     },
     {
+      "source": "Resources/Agent Security",
+      "target": "Projects/Bobby"
+    },
+    {
+      "source": "Resources/Agent Security",
+      "target": "Resources/Agent Evaluation"
+    },
+    {
+      "source": "Resources/Agent Security",
+      "target": "Resources/Agent Memory"
+    },
+    {
+      "source": "Resources/Agent Security",
+      "target": "Resources/Formal Methods Agent Safety"
+    },
+    {
+      "source": "Resources/Agent Security",
+      "target": "Resources/Kubernetes"
+    },
+    {
+      "source": "Resources/Agent Security",
+      "target": "Resources/LLM System Design"
+    },
+    {
+      "source": "Resources/Agent Security",
+      "target": "Resources/MLOps and ML Engineering"
+    },
+    {
+      "source": "Resources/Agent Security",
+      "target": "Resources/Security"
+    },
+    {
+      "source": "Resources/Agent Security",
+      "target": "VAULT_INDEX"
+    },
+    {
       "source": "Resources/Bobby Commands",
       "target": "Resources/Bobby Memory Architecture"
     },
@@ -938,6 +995,42 @@
     {
       "source": "Resources/LLM System Design",
       "target": "Resources/RAG and Bobby Vector Search"
+    },
+    {
+      "source": "Resources/MLOps and ML Engineering",
+      "target": "Projects/Backlog"
+    },
+    {
+      "source": "Resources/MLOps and ML Engineering",
+      "target": "Projects/Bobby"
+    },
+    {
+      "source": "Resources/MLOps and ML Engineering",
+      "target": "Projects/Onsite"
+    },
+    {
+      "source": "Resources/MLOps and ML Engineering",
+      "target": "Resources/Agent Evaluation"
+    },
+    {
+      "source": "Resources/MLOps and ML Engineering",
+      "target": "Resources/CI CD"
+    },
+    {
+      "source": "Resources/MLOps and ML Engineering",
+      "target": "Resources/Data Engineering"
+    },
+    {
+      "source": "Resources/MLOps and ML Engineering",
+      "target": "Resources/LLM System Design"
+    },
+    {
+      "source": "Resources/MLOps and ML Engineering",
+      "target": "Resources/Observability"
+    },
+    {
+      "source": "Resources/MLOps and ML Engineering",
+      "target": "VAULT_INDEX"
     },
     {
       "source": "Resources/Mechanistic Interpretability",
