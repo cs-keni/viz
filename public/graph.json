@@ -103,14 +103,14 @@
       "label": "Backlog",
       "folder": "Projects",
       "created": "2026-05-19",
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Projects/Bobby",
       "label": "Bobby",
       "folder": "Projects",
       "created": "2026-05-19",
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "Projects/Bobby Brain Viz",
@@ -159,7 +159,7 @@
       "label": "Agent Evaluation",
       "folder": "Resources",
       "created": "2026-05-22",
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Agent Memory",
@@ -194,14 +194,14 @@
       "label": "CI CD",
       "folder": "Resources",
       "created": "2026-05-22",
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Caching",
       "label": "Caching",
       "folder": "Resources",
       "created": "2026-05-21",
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Claude Code Skills",
@@ -253,18 +253,25 @@
       "degree": 4
     },
     {
+      "id": "Resources/Database Internals Deep Dive",
+      "label": "Database Internals Deep Dive",
+      "folder": "Resources",
+      "created": "2026-05-24",
+      "degree": 5
+    },
+    {
       "id": "Resources/Databases",
       "label": "Databases",
       "folder": "Resources",
       "created": "2026-05-21",
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Distributed Systems",
       "label": "Distributed Systems",
       "folder": "Resources",
       "created": "2026-05-21",
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/Docker",
@@ -278,7 +285,7 @@
       "label": "Engineering Judgment and Tool Tradeoffs",
       "folder": "Resources",
       "created": "2026-05-24",
-      "degree": 12
+      "degree": 16
     },
     {
       "id": "Resources/FlashAttention",
@@ -299,7 +306,7 @@
       "label": "Geospatial",
       "folder": "Resources",
       "created": "2026-05-22",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/IaaS PaaS SaaS",
@@ -334,7 +341,7 @@
       "label": "MLOps and ML Engineering",
       "folder": "Resources",
       "created": "2026-05-24",
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Mechanistic Interpretability",
@@ -348,7 +355,7 @@
       "label": "Message Queues",
       "folder": "Resources",
       "created": "2026-05-21",
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Multi-Agent RL",
@@ -383,7 +390,7 @@
       "label": "Observability",
       "folder": "Resources",
       "created": "2026-05-21",
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Process Reward Models",
@@ -432,14 +439,14 @@
       "label": "Scaling",
       "folder": "Resources",
       "created": "2026-05-22",
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Search Systems",
       "label": "Search Systems",
       "folder": "Resources",
       "created": "2026-05-22",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Security",
@@ -449,6 +456,13 @@
       "degree": 6
     },
     {
+      "id": "Resources/Software Architecture",
+      "label": "Software Architecture",
+      "folder": "Resources",
+      "created": "2026-05-24",
+      "degree": 5
+    },
+    {
       "id": "Resources/Software Engineering Tools",
       "label": "Software Engineering Tools",
       "folder": "Resources",
@@ -456,11 +470,25 @@
       "degree": 0
     },
     {
+      "id": "Resources/System Design Case Studies",
+      "label": "System Design Case Studies",
+      "folder": "Resources",
+      "created": "2026-05-24",
+      "degree": 9
+    },
+    {
       "id": "Resources/System Design Notes",
       "label": "System Design Notes",
       "folder": "Resources",
       "created": "2026-05-19",
-      "degree": 15
+      "degree": 17
+    },
+    {
+      "id": "Resources/Testing Strategy",
+      "label": "Testing Strategy",
+      "folder": "Resources",
+      "created": "2026-05-24",
+      "degree": 7
     },
     {
       "id": "Resources/Transformer Architecture",
@@ -914,6 +942,26 @@
       "target": "Resources/System Design Notes"
     },
     {
+      "source": "Resources/Database Internals Deep Dive",
+      "target": "Resources/Databases"
+    },
+    {
+      "source": "Resources/Database Internals Deep Dive",
+      "target": "Resources/Distributed Systems"
+    },
+    {
+      "source": "Resources/Database Internals Deep Dive",
+      "target": "Resources/Engineering Judgment and Tool Tradeoffs"
+    },
+    {
+      "source": "Resources/Database Internals Deep Dive",
+      "target": "Resources/Observability"
+    },
+    {
+      "source": "Resources/Database Internals Deep Dive",
+      "target": "Resources/Scaling"
+    },
+    {
       "source": "Resources/Databases",
       "target": "Resources/Caching"
     },
@@ -1319,6 +1367,82 @@
     },
     {
       "source": "Resources/Security",
+      "target": "Resources/Observability"
+    },
+    {
+      "source": "Resources/Software Architecture",
+      "target": "Resources/Distributed Systems"
+    },
+    {
+      "source": "Resources/Software Architecture",
+      "target": "Resources/Engineering Judgment and Tool Tradeoffs"
+    },
+    {
+      "source": "Resources/Software Architecture",
+      "target": "Resources/System Design Case Studies"
+    },
+    {
+      "source": "Resources/Software Architecture",
+      "target": "Resources/System Design Notes"
+    },
+    {
+      "source": "Resources/Software Architecture",
+      "target": "Resources/Testing Strategy"
+    },
+    {
+      "source": "Resources/System Design Case Studies",
+      "target": "Projects/Backlog"
+    },
+    {
+      "source": "Resources/System Design Case Studies",
+      "target": "Resources/Caching"
+    },
+    {
+      "source": "Resources/System Design Case Studies",
+      "target": "Resources/Engineering Judgment and Tool Tradeoffs"
+    },
+    {
+      "source": "Resources/System Design Case Studies",
+      "target": "Resources/Geospatial"
+    },
+    {
+      "source": "Resources/System Design Case Studies",
+      "target": "Resources/Message Queues"
+    },
+    {
+      "source": "Resources/System Design Case Studies",
+      "target": "Resources/Scaling"
+    },
+    {
+      "source": "Resources/System Design Case Studies",
+      "target": "Resources/Search Systems"
+    },
+    {
+      "source": "Resources/System Design Case Studies",
+      "target": "Resources/System Design Notes"
+    },
+    {
+      "source": "Resources/Testing Strategy",
+      "target": "Projects/Bobby"
+    },
+    {
+      "source": "Resources/Testing Strategy",
+      "target": "Resources/Agent Evaluation"
+    },
+    {
+      "source": "Resources/Testing Strategy",
+      "target": "Resources/CI CD"
+    },
+    {
+      "source": "Resources/Testing Strategy",
+      "target": "Resources/Engineering Judgment and Tool Tradeoffs"
+    },
+    {
+      "source": "Resources/Testing Strategy",
+      "target": "Resources/MLOps and ML Engineering"
+    },
+    {
+      "source": "Resources/Testing Strategy",
       "target": "Resources/Observability"
     },
     {
