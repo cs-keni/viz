@@ -19,7 +19,7 @@
       "label": "Job Search",
       "folder": "Areas",
       "created": "2026-05-19",
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Areas/Pokemon Collection",
@@ -103,14 +103,14 @@
       "label": "Backlog",
       "folder": "Projects",
       "created": "2026-05-19",
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Projects/Bobby",
       "label": "Bobby",
       "folder": "Projects",
       "created": "2026-05-19",
-      "degree": 15
+      "degree": 17
     },
     {
       "id": "Projects/Bobby Brain Viz",
@@ -124,14 +124,14 @@
       "label": "Klip",
       "folder": "Projects",
       "created": "2026-05-19",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "Projects/Onsite",
       "label": "Onsite",
       "folder": "Projects",
       "created": "2026-05-19",
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Projects/Shuckler",
@@ -152,7 +152,7 @@
       "label": "API Design",
       "folder": "Resources",
       "created": "2026-05-21",
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Agent Evaluation",
@@ -173,7 +173,7 @@
       "label": "Agent Security",
       "folder": "Resources",
       "created": "2026-05-24",
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Bobby Commands",
@@ -250,7 +250,7 @@
       "label": "Data Structures and Algorithms Patterns",
       "folder": "Resources",
       "created": "2026-05-24",
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Database Internals Deep Dive",
@@ -285,7 +285,7 @@
       "label": "Engineering Judgment and Tool Tradeoffs",
       "folder": "Resources",
       "created": "2026-05-24",
-      "degree": 16
+      "degree": 19
     },
     {
       "id": "Resources/FlashAttention",
@@ -316,11 +316,18 @@
       "degree": 4
     },
     {
+      "id": "Resources/Interview Communication",
+      "label": "Interview Communication",
+      "folder": "Resources",
+      "created": "2026-05-24",
+      "degree": 7
+    },
+    {
       "id": "Resources/Kubernetes",
       "label": "Kubernetes",
       "folder": "Resources",
       "created": "2026-05-22",
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/LLM Capabilities and AI Ethics",
@@ -341,7 +348,7 @@
       "label": "MLOps and ML Engineering",
       "folder": "Resources",
       "created": "2026-05-24",
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/Mechanistic Interpretability",
@@ -400,6 +407,13 @@
       "degree": 5
     },
     {
+      "id": "Resources/Product Engineering",
+      "label": "Product Engineering",
+      "folder": "Resources",
+      "created": "2026-05-24",
+      "degree": 6
+    },
+    {
       "id": "Resources/RAG and Bobby Vector Search",
       "label": "RAG and Bobby Vector Search",
       "folder": "Resources",
@@ -453,6 +467,13 @@
       "label": "Security",
       "folder": "Resources",
       "created": "2026-05-21",
+      "degree": 7
+    },
+    {
+      "id": "Resources/Security Deep Dive",
+      "label": "Security Deep Dive",
+      "folder": "Resources",
+      "created": "2026-05-24",
       "degree": 6
     },
     {
@@ -474,7 +495,7 @@
       "label": "System Design Case Studies",
       "folder": "Resources",
       "created": "2026-05-24",
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/System Design Notes",
@@ -488,7 +509,7 @@
       "label": "Testing Strategy",
       "folder": "Resources",
       "created": "2026-05-24",
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Transformer Architecture",
@@ -1082,6 +1103,34 @@
       "target": "Resources/Kubernetes"
     },
     {
+      "source": "Resources/Interview Communication",
+      "target": "Areas/Job Search"
+    },
+    {
+      "source": "Resources/Interview Communication",
+      "target": "Projects/Backlog"
+    },
+    {
+      "source": "Resources/Interview Communication",
+      "target": "Projects/Bobby"
+    },
+    {
+      "source": "Resources/Interview Communication",
+      "target": "Projects/Onsite"
+    },
+    {
+      "source": "Resources/Interview Communication",
+      "target": "Resources/Data Structures and Algorithms Patterns"
+    },
+    {
+      "source": "Resources/Interview Communication",
+      "target": "Resources/Engineering Judgment and Tool Tradeoffs"
+    },
+    {
+      "source": "Resources/Interview Communication",
+      "target": "Resources/System Design Case Studies"
+    },
+    {
       "source": "Resources/Kubernetes",
       "target": "Resources/Cloud Services"
     },
@@ -1278,6 +1327,30 @@
       "target": "Resources/RLHF and Alignment"
     },
     {
+      "source": "Resources/Product Engineering",
+      "target": "Projects/Backlog"
+    },
+    {
+      "source": "Resources/Product Engineering",
+      "target": "Projects/Bobby"
+    },
+    {
+      "source": "Resources/Product Engineering",
+      "target": "Projects/Klip"
+    },
+    {
+      "source": "Resources/Product Engineering",
+      "target": "Projects/Onsite"
+    },
+    {
+      "source": "Resources/Product Engineering",
+      "target": "Resources/Engineering Judgment and Tool Tradeoffs"
+    },
+    {
+      "source": "Resources/Product Engineering",
+      "target": "Resources/MLOps and ML Engineering"
+    },
+    {
       "source": "Resources/RAG and Bobby Vector Search",
       "target": "Maps/Bobby"
     },
@@ -1368,6 +1441,30 @@
     {
       "source": "Resources/Security",
       "target": "Resources/Observability"
+    },
+    {
+      "source": "Resources/Security Deep Dive",
+      "target": "Resources/API Design"
+    },
+    {
+      "source": "Resources/Security Deep Dive",
+      "target": "Resources/Agent Security"
+    },
+    {
+      "source": "Resources/Security Deep Dive",
+      "target": "Resources/Engineering Judgment and Tool Tradeoffs"
+    },
+    {
+      "source": "Resources/Security Deep Dive",
+      "target": "Resources/Kubernetes"
+    },
+    {
+      "source": "Resources/Security Deep Dive",
+      "target": "Resources/Security"
+    },
+    {
+      "source": "Resources/Security Deep Dive",
+      "target": "Resources/Testing Strategy"
     },
     {
       "source": "Resources/Software Architecture",
