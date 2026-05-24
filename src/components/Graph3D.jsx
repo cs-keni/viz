@@ -10,8 +10,8 @@ const STAR_COUNT = 1500
 const STAR_RADIUS = 800
 const LINK_PARTICLE_COLOR = '#a0c0ff'
 const DIM_COLOR = '#070a1a'
-const COMET_TRAIL = 30
-const COMET_TRAIL_DEPTH = 0.15
+const COMET_TRAIL = 25
+const COMET_TRAIL_DEPTH = 0.18
 
 function shouldUseBloom() {
   if (typeof window === 'undefined') return false
@@ -51,6 +51,7 @@ function spawnComet(scene, spawnT) {
   while (start.dot(end) / (STAR_RADIUS * STAR_RADIUS) > 0.6) {
     end = randomOnSphere(STAR_RADIUS)
   }
+
   const positions = new Float32Array(COMET_TRAIL * 3)
   const colors = new Float32Array(COMET_TRAIL * 3)
   for (let i = 0; i < COMET_TRAIL; i++) {
@@ -58,13 +59,23 @@ function spawnComet(scene, spawnT) {
     positions[i * 3 + 1] = start.y
     positions[i * 3 + 2] = start.z
   }
+
   const geo = new THREE.BufferGeometry()
   geo.setAttribute('position', new THREE.BufferAttribute(positions, 3))
   geo.setAttribute('color', new THREE.BufferAttribute(colors, 3))
-  const mat = new THREE.LineBasicMaterial({ vertexColors: true, depthWrite: false })
-  const line = new THREE.Line(geo, mat)
-  scene.add(line)
-  return { start, end, spawnT, duration: 2.0 + Math.random() * 1.5, object: line }
+
+  // Points instead of Line — WebGL ignores linewidth > 1px, so Lines are invisible at distance
+  const mat = new THREE.PointsMaterial({
+    vertexColors: true,
+    size: 3,
+    sizeAttenuation: false,
+    transparent: true,
+    opacity: 0.92,
+    depthWrite: false,
+  })
+  const points = new THREE.Points(geo, mat)
+  scene.add(points)
+  return { start, end, spawnT, duration: 2.5 + Math.random() * 2.0, object: points }
 }
 
 function buildStarfield() {
@@ -98,19 +109,34 @@ function buildNebulae(scene) {
   ].map(({ pos, r, emissive, opacity }) => {
     const geo = new THREE.SphereGeometry(r, 32, 32)
     const mat = new THREE.MeshStandardMaterial({
-      color: '#000000',
-      emissive,
-      emissiveIntensity: 0.6,
-      transparent: true,
-      opacity,
-      depthWrite: false,
-      side: THREE.DoubleSide,
+      color: '#000000', emissive, emissiveIntensity: 0.6,
+      transparent: true, opacity, depthWrite: false, side: THREE.DoubleSide,
     })
     const mesh = new THREE.Mesh(geo, mat)
     mesh.position.set(pos[0], pos[1], pos[2])
     scene.add(mesh)
     return mesh
   })
+}
+
+// --- tooltip styles ---
+
+const tooltipBase = {
+  position: 'fixed',
+  background: 'rgba(5, 8, 32, 0.88)',
+  border: '1px solid rgba(160, 192, 255, 0.25)',
+  color: '#a0c0ff',
+  padding: '5px 11px',
+  borderRadius: '5px',
+  fontSize: '12px',
+  fontFamily: "'Inter', system-ui, sans-serif",
+  letterSpacing: '0.04em',
+  backdropFilter: 'blur(10px)',
+  boxShadow: '0 0 16px rgba(74, 80, 160, 0.35)',
+  pointerEvents: 'none',
+  userSelect: 'none',
+  whiteSpace: 'nowrap',
+  transition: 'opacity 0.18s ease, transform 0.18s ease',
 }
 
 // --- component ---
@@ -126,13 +152,30 @@ export default function Graph3D({ data }) {
   const nextCometRef = useRef(5 + Math.random() * 3)
   const selectedNodeRef = useRef(null)
   const neighborSetRef = useRef(new Set())
+  const tooltipDivRef = useRef(null)
+  const hoveredNodeRef = useRef(null)
+  const mouseRef = useRef({ x: 0, y: 0 })
   const [graphData, setGraphData] = useState(data)
   const [selectedNodeId, setSelectedNodeId] = useState(null)
+  const [hoveredNode, setHoveredNode] = useState(null)
 
   useEffect(() => {
     graphRef.current = data
     setGraphData(data)
   }, [data])
+
+  // Track mouse position to place tooltip without re-renders
+  useEffect(() => {
+    const onMove = (e) => {
+      mouseRef.current = { x: e.clientX, y: e.clientY }
+      if (tooltipDivRef.current && hoveredNodeRef.current) {
+        tooltipDivRef.current.style.left = `${e.clientX + 14}px`
+        tooltipDivRef.current.style.top  = `${e.clientY - 10}px`
+      }
+    }
+    window.addEventListener('mousemove', onMove)
+    return () => window.removeEventListener('mousemove', onMove)
+  }, [])
 
   const setForceGraphRef = useCallback((instance) => {
     fgRef.current = instance
@@ -140,8 +183,7 @@ export default function Graph3D({ data }) {
 
     const controls = instance.controls()
     if (controls) {
-      controls.autoRotate = true
-      controls.autoRotateSpeed = 0.4
+      controls.maxDistance = 750
     }
 
     if (!starfieldRef.current) {
@@ -158,12 +200,19 @@ export default function Graph3D({ data }) {
       const composer = instance.postProcessingComposer()
       const bloomPass = new UnrealBloomPass(
         new THREE.Vector2(window.innerWidth, window.innerHeight),
-        1.4,
-        0.4,
-        0.15,
+        1.4, 0.4, 0.15,
       )
       composer.addPass(bloomPass)
       bloomAddedRef.current = true
+    }
+  }, [])
+
+  // Enable auto-orbit after the physics simulation settles
+  const onEngineStop = useCallback(() => {
+    const controls = fgRef.current?.controls()
+    if (controls && !controls.autoRotate) {
+      controls.autoRotate = true
+      controls.autoRotateSpeed = 0.4
     }
   }, [])
 
@@ -174,13 +223,9 @@ export default function Graph3D({ data }) {
     const base = baseEmissiveForDegree(node.degree ?? 0)
     const geometry = new THREE.SphereGeometry(radius, 16, 16)
     const material = new THREE.MeshStandardMaterial({
-      color,
-      emissive: color,
-      emissiveIntensity: base,
-      roughness: 0.55,
-      metalness: 0.05,
-      transparent: true,
-      opacity: 1.0,
+      color, emissive: color, emissiveIntensity: base,
+      roughness: 0.55, metalness: 0.05,
+      transparent: true, opacity: 1.0,
     })
     node._phase = Math.random() * Math.PI * 2
     node._glimmerPhase = Math.random() * Math.PI * 2
@@ -215,6 +260,12 @@ export default function Graph3D({ data }) {
 
   const onNodeHover = useCallback((node) => {
     document.body.style.cursor = node ? 'pointer' : ''
+    hoveredNodeRef.current = node
+    setHoveredNode(node || null)
+    if (tooltipDivRef.current) {
+      tooltipDivRef.current.style.left = `${mouseRef.current.x + 14}px`
+      tooltipDivRef.current.style.top  = `${mouseRef.current.y - 10}px`
+    }
   }, [])
 
   const getLinkColor = useCallback((link) => {
@@ -223,9 +274,7 @@ export default function Graph3D({ data }) {
     if (selectedNodeId) {
       const srcId = typeof src === 'object' && src ? src.id : src
       const tgtId = typeof link.target === 'object' && link.target ? link.target.id : link.target
-      if (!neighborSetRef.current.has(srcId) && !neighborSetRef.current.has(tgtId)) {
-        return DIM_COLOR
-      }
+      if (!neighborSetRef.current.has(srcId) && !neighborSetRef.current.has(tgtId)) return DIM_COLOR
     }
     return edgeColorForDegree(degree)
   }, [selectedNodeId])
@@ -235,8 +284,7 @@ export default function Graph3D({ data }) {
     const srcId = typeof link.source === 'object' && link.source ? link.source.id : link.source
     const tgtId = typeof link.target === 'object' && link.target ? link.target.id : link.target
     return neighborSetRef.current.has(srcId) || neighborSetRef.current.has(tgtId)
-      ? LINK_PARTICLE_COLOR
-      : DIM_COLOR
+      ? LINK_PARTICLE_COLOR : DIM_COLOR
   }, [selectedNodeId])
 
   const onRenderFramePost = useCallback(() => {
@@ -254,8 +302,9 @@ export default function Graph3D({ data }) {
       const amplitude = node._baseEmissive > 0.5 ? 0.08 : 0.04
       node.__threeObj.scale.setScalar(1 + amplitude * Math.sin(t * 1.2 + (node._phase || 0)))
 
-      const glimmer = Math.pow(Math.max(0, Math.sin(t * 1.0 + (node._glimmerPhase || 0))), 8) * 0.45
-      mat.emissiveIntensity = (node._baseEmissive || 0.2) + glimmer
+      // Firefly: smooth slow sine (glow ↑ then ↓ like a firefly, not a sharp flash)
+      const glow = (1 + Math.sin(t * 0.7 + (node._glimmerPhase || 0))) * 0.5
+      mat.emissiveIntensity = (node._baseEmissive || 0.2) + glow * 0.35
     })
 
     // Star twinkling
@@ -312,24 +361,37 @@ export default function Graph3D({ data }) {
   }, [])
 
   return (
-    <ForceGraph3D
-      ref={setForceGraphRef}
-      graphData={graphData}
-      backgroundColor={BACKGROUND_COLOR}
-      warmupTicks={100}
-      nodeLabel="label"
-      nodeThreeObject={nodeThreeObject}
-      onNodeClick={onNodeClick}
-      onBackgroundClick={onBackgroundClick}
-      onNodeHover={onNodeHover}
-      linkColor={getLinkColor}
-      linkOpacity={0.35}
-      linkWidth={0.5}
-      linkDirectionalParticles={3}
-      linkDirectionalParticleSpeed={0.002}
-      linkDirectionalParticleWidth={1.5}
-      linkDirectionalParticleColor={getLinkParticleColor}
-      onRenderFramePost={onRenderFramePost}
-    />
+    <>
+      <ForceGraph3D
+        ref={setForceGraphRef}
+        graphData={graphData}
+        backgroundColor={BACKGROUND_COLOR}
+        warmupTicks={100}
+        nodeLabel=""
+        nodeThreeObject={nodeThreeObject}
+        onNodeClick={onNodeClick}
+        onBackgroundClick={onBackgroundClick}
+        onNodeHover={onNodeHover}
+        onEngineStop={onEngineStop}
+        linkColor={getLinkColor}
+        linkOpacity={0.6}
+        linkWidth={1.0}
+        linkDirectionalParticles={3}
+        linkDirectionalParticleSpeed={0.001}
+        linkDirectionalParticleWidth={1.5}
+        linkDirectionalParticleColor={getLinkParticleColor}
+        onRenderFramePost={onRenderFramePost}
+      />
+      <div
+        ref={tooltipDivRef}
+        style={{
+          ...tooltipBase,
+          opacity: hoveredNode ? 1 : 0,
+          transform: hoveredNode ? 'translateY(0)' : 'translateY(5px)',
+        }}
+      >
+        {hoveredNode?.label}
+      </div>
+    </>
   )
 }
