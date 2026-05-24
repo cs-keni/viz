@@ -152,7 +152,7 @@
       "label": "API Design",
       "folder": "Resources",
       "created": "2026-05-21",
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Agent Evaluation",
@@ -201,7 +201,7 @@
       "label": "Caching",
       "folder": "Resources",
       "created": "2026-05-21",
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Claude Code Skills",
@@ -236,7 +236,7 @@
       "label": "DSA Practice",
       "folder": "Resources",
       "created": "2026-05-19",
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Data Engineering",
@@ -246,11 +246,18 @@
       "degree": 5
     },
     {
+      "id": "Resources/Data Structures and Algorithms Patterns",
+      "label": "Data Structures and Algorithms Patterns",
+      "folder": "Resources",
+      "created": "2026-05-24",
+      "degree": 4
+    },
+    {
       "id": "Resources/Databases",
       "label": "Databases",
       "folder": "Resources",
       "created": "2026-05-21",
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Distributed Systems",
@@ -265,6 +272,13 @@
       "folder": "Resources",
       "created": "2026-05-22",
       "degree": 7
+    },
+    {
+      "id": "Resources/Engineering Judgment and Tool Tradeoffs",
+      "label": "Engineering Judgment and Tool Tradeoffs",
+      "folder": "Resources",
+      "created": "2026-05-24",
+      "degree": 9
     },
     {
       "id": "Resources/FlashAttention",
@@ -306,7 +320,7 @@
       "label": "LLM System Design",
       "folder": "Resources",
       "created": "2026-05-21",
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/MLOps and ML Engineering",
@@ -327,7 +341,7 @@
       "label": "Message Queues",
       "folder": "Resources",
       "created": "2026-05-21",
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Multi-Agent RL",
@@ -411,7 +425,7 @@
       "label": "Scaling",
       "folder": "Resources",
       "created": "2026-05-22",
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Search Systems",
@@ -439,7 +453,7 @@
       "label": "System Design Notes",
       "folder": "Resources",
       "created": "2026-05-19",
-      "degree": 13
+      "degree": 15
     },
     {
       "id": "Resources/Transformer Architecture",
@@ -881,6 +895,18 @@
       "target": "Resources/Message Queues"
     },
     {
+      "source": "Resources/Data Structures and Algorithms Patterns",
+      "target": "Resources/DSA Practice"
+    },
+    {
+      "source": "Resources/Data Structures and Algorithms Patterns",
+      "target": "Resources/Engineering Judgment and Tool Tradeoffs"
+    },
+    {
+      "source": "Resources/Data Structures and Algorithms Patterns",
+      "target": "Resources/System Design Notes"
+    },
+    {
       "source": "Resources/Databases",
       "target": "Resources/Caching"
     },
@@ -915,6 +941,38 @@
     {
       "source": "Resources/Docker",
       "target": "Resources/OS Fundamentals"
+    },
+    {
+      "source": "Resources/Engineering Judgment and Tool Tradeoffs",
+      "target": "Resources/API Design"
+    },
+    {
+      "source": "Resources/Engineering Judgment and Tool Tradeoffs",
+      "target": "Resources/Caching"
+    },
+    {
+      "source": "Resources/Engineering Judgment and Tool Tradeoffs",
+      "target": "Resources/Data Structures and Algorithms Patterns"
+    },
+    {
+      "source": "Resources/Engineering Judgment and Tool Tradeoffs",
+      "target": "Resources/Databases"
+    },
+    {
+      "source": "Resources/Engineering Judgment and Tool Tradeoffs",
+      "target": "Resources/LLM System Design"
+    },
+    {
+      "source": "Resources/Engineering Judgment and Tool Tradeoffs",
+      "target": "Resources/Message Queues"
+    },
+    {
+      "source": "Resources/Engineering Judgment and Tool Tradeoffs",
+      "target": "Resources/Scaling"
+    },
+    {
+      "source": "Resources/Engineering Judgment and Tool Tradeoffs",
+      "target": "Resources/System Design Notes"
     },
     {
       "source": "Resources/FlashAttention",
