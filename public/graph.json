@@ -19,7 +19,7 @@
       "label": "Job Search",
       "folder": "Areas",
       "created": "2026-05-19",
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Areas/Pokemon Collection",
@@ -236,7 +236,7 @@
       "label": "DSA Practice",
       "folder": "Resources",
       "created": "2026-05-19",
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Data Engineering",
@@ -250,14 +250,14 @@
       "label": "Data Structures and Algorithms Patterns",
       "folder": "Resources",
       "created": "2026-05-24",
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Database Internals Deep Dive",
       "label": "Database Internals Deep Dive",
       "folder": "Resources",
       "created": "2026-05-24",
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Databases",
@@ -281,11 +281,25 @@
       "degree": 7
     },
     {
+      "id": "Resources/Dynamic Programming Deep Dive",
+      "label": "Dynamic Programming Deep Dive",
+      "folder": "Resources",
+      "created": "2026-05-24",
+      "degree": 3
+    },
+    {
+      "id": "Resources/Economics and Personal Finance",
+      "label": "Economics and Personal Finance",
+      "folder": "Resources",
+      "created": "2026-05-24",
+      "degree": 4
+    },
+    {
       "id": "Resources/Engineering Judgment and Tool Tradeoffs",
       "label": "Engineering Judgment and Tool Tradeoffs",
       "folder": "Resources",
       "created": "2026-05-24",
-      "degree": 19
+      "degree": 21
     },
     {
       "id": "Resources/FlashAttention",
@@ -320,7 +334,7 @@
       "label": "Interview Communication",
       "folder": "Resources",
       "created": "2026-05-24",
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Kubernetes",
@@ -397,7 +411,14 @@
       "label": "Observability",
       "folder": "Resources",
       "created": "2026-05-21",
-      "degree": 7
+      "degree": 8
+    },
+    {
+      "id": "Resources/Observability Case Studies",
+      "label": "Observability Case Studies",
+      "folder": "Resources",
+      "created": "2026-05-24",
+      "degree": 5
     },
     {
       "id": "Resources/Process Reward Models",
@@ -411,7 +432,7 @@
       "label": "Product Engineering",
       "folder": "Resources",
       "created": "2026-05-24",
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/RAG and Bobby Vector Search",
@@ -495,7 +516,7 @@
       "label": "System Design Case Studies",
       "folder": "Resources",
       "created": "2026-05-24",
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/System Design Notes",
@@ -509,7 +530,7 @@
       "label": "Testing Strategy",
       "folder": "Resources",
       "created": "2026-05-24",
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Transformer Architecture",
@@ -1019,6 +1040,34 @@
       "target": "Resources/OS Fundamentals"
     },
     {
+      "source": "Resources/Dynamic Programming Deep Dive",
+      "target": "Resources/DSA Practice"
+    },
+    {
+      "source": "Resources/Dynamic Programming Deep Dive",
+      "target": "Resources/Data Structures and Algorithms Patterns"
+    },
+    {
+      "source": "Resources/Dynamic Programming Deep Dive",
+      "target": "Resources/Interview Communication"
+    },
+    {
+      "source": "Resources/Economics and Personal Finance",
+      "target": "Areas/Job Search"
+    },
+    {
+      "source": "Resources/Economics and Personal Finance",
+      "target": "Resources/Engineering Judgment and Tool Tradeoffs"
+    },
+    {
+      "source": "Resources/Economics and Personal Finance",
+      "target": "Resources/Interview Communication"
+    },
+    {
+      "source": "Resources/Economics and Personal Finance",
+      "target": "Resources/Product Engineering"
+    },
+    {
       "source": "Resources/Engineering Judgment and Tool Tradeoffs",
       "target": "Projects/Bobby"
     },
@@ -1313,6 +1362,26 @@
     {
       "source": "Resources/Observability",
       "target": "Resources/System Design Notes"
+    },
+    {
+      "source": "Resources/Observability Case Studies",
+      "target": "Resources/Database Internals Deep Dive"
+    },
+    {
+      "source": "Resources/Observability Case Studies",
+      "target": "Resources/Engineering Judgment and Tool Tradeoffs"
+    },
+    {
+      "source": "Resources/Observability Case Studies",
+      "target": "Resources/Observability"
+    },
+    {
+      "source": "Resources/Observability Case Studies",
+      "target": "Resources/System Design Case Studies"
+    },
+    {
+      "source": "Resources/Observability Case Studies",
+      "target": "Resources/Testing Strategy"
     },
     {
       "source": "Resources/Process Reward Models",
