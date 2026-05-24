@@ -3,6 +3,7 @@ import ForceGraph3D from 'react-force-graph-3d'
 import * as THREE from 'three'
 import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js'
 import { colorForDegree, isRecentlyAdded, sizeForDegree } from '../utils/colors'
+import { isMobile } from '../utils/device'
 
 const BACKGROUND_COLOR = '#050820'
 const PARTICLE_COUNT = 5
@@ -11,9 +12,7 @@ const PARTICLE_SPEED = 0.003
 function shouldUseBloom() {
   if (typeof window === 'undefined') return false
   if (!window.WebGL2RenderingContext) return false
-  return !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-    window.navigator?.userAgent ?? '',
-  )
+  return !isMobile()
 }
 
 function linkKey(link) {
