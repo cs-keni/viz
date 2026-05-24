@@ -12,6 +12,7 @@ const LINK_PARTICLE_COLOR = '#a0c0ff'
 const DIM_COLOR = '#070a1a'
 const COMET_TRAIL = 25
 const COMET_TRAIL_DEPTH = 0.18
+const ORBIT_RESUME_DELAY = 3000
 
 function shouldUseBloom() {
   if (typeof window === 'undefined') return false
@@ -67,10 +68,10 @@ function spawnComet(scene, spawnT) {
   // Points instead of Line — WebGL ignores linewidth > 1px, so Lines are invisible at distance
   const mat = new THREE.PointsMaterial({
     vertexColors: true,
-    size: 3,
+    size: 6,
     sizeAttenuation: false,
     transparent: true,
-    opacity: 0.92,
+    opacity: 0.95,
     depthWrite: false,
   })
   const points = new THREE.Points(geo, mat)
@@ -149,12 +150,13 @@ export default function Graph3D({ data }) {
   const starfieldRef = useRef(null)
   const nebulaeRef = useRef([])
   const cometsRef = useRef([])
-  const nextCometRef = useRef(5 + Math.random() * 3)
+  const nextCometRef = useRef(3 + Math.random() * 2)
   const selectedNodeRef = useRef(null)
   const neighborSetRef = useRef(new Set())
   const tooltipDivRef = useRef(null)
   const hoveredNodeRef = useRef(null)
   const mouseRef = useRef({ x: 0, y: 0 })
+  const orbitResumeTimerRef = useRef(null)
   const [graphData, setGraphData] = useState(data)
   const [selectedNodeId, setSelectedNodeId] = useState(null)
   const [hoveredNode, setHoveredNode] = useState(null)
@@ -183,7 +185,19 @@ export default function Graph3D({ data }) {
 
     const controls = instance.controls()
     if (controls) {
-      controls.maxDistance = 750
+      controls.maxDistance = 1500
+      controls.autoRotate = true
+      controls.autoRotateSpeed = 0.8
+      // Pause orbit on grab; resume 3s after release
+      controls.addEventListener('start', () => {
+        controls.autoRotate = false
+        clearTimeout(orbitResumeTimerRef.current)
+      })
+      controls.addEventListener('end', () => {
+        orbitResumeTimerRef.current = setTimeout(() => {
+          controls.autoRotate = true
+        }, ORBIT_RESUME_DELAY)
+      })
     }
 
     if (!starfieldRef.current) {
@@ -207,13 +221,10 @@ export default function Graph3D({ data }) {
     }
   }, [])
 
-  // Enable auto-orbit after the physics simulation settles
+  // Ensure auto-orbit is running once physics settles (guards against timing edge cases)
   const onEngineStop = useCallback(() => {
     const controls = fgRef.current?.controls()
-    if (controls && !controls.autoRotate) {
-      controls.autoRotate = true
-      controls.autoRotateSpeed = 0.4
-    }
+    if (controls) controls.autoRotate = true
   }, [])
 
   const nodeThreeObject = useCallback((node) => {
@@ -302,18 +313,19 @@ export default function Graph3D({ data }) {
       const amplitude = node._baseEmissive > 0.5 ? 0.08 : 0.04
       node.__threeObj.scale.setScalar(1 + amplitude * Math.sin(t * 1.2 + (node._phase || 0)))
 
-      // Firefly: smooth slow sine (glow ↑ then ↓ like a firefly, not a sharp flash)
-      const glow = (1 + Math.sin(t * 0.7 + (node._glimmerPhase || 0))) * 0.5
-      mat.emissiveIntensity = (node._baseEmissive || 0.2) + glow * 0.35
+      // Firefly: oscillates below and above baseEmissive so nodes actually go near-dark
+      const glow = Math.sin(t * 0.7 + (node._glimmerPhase || 0)) * 0.3
+      mat.emissiveIntensity = Math.max(0, (node._baseEmissive || 0.2) + glow)
     })
 
-    // Star twinkling
+    // Star twinkling — each star has its own speed + phase so they never sync
     const sf = starfieldRef.current
     if (sf) {
       const colors = sf.points.geometry.attributes.color
       for (let i = 0; i < STAR_COUNT; i++) {
-        const v = 0.35 + 0.65 * Math.abs(Math.sin(t * (0.4 + sf.phases[i] * 1.2) + sf.phases[i]))
-        colors.setXYZ(i, v * 0.7, v * 0.75, v)
+        const speed = 0.25 + sf.phases[i] * 0.5
+        const v = 0.3 + 0.7 * (0.5 + 0.5 * Math.sin(t * speed + sf.phases[i] * 2.0))
+        colors.setXYZ(i, v * 0.65, v * 0.7, v)
       }
       colors.needsUpdate = true
     }
@@ -354,9 +366,9 @@ export default function Graph3D({ data }) {
       }
       return !done
     })
-    if (t >= nextCometRef.current && scene && cometsRef.current.length < 2) {
+    if (t >= nextCometRef.current && scene && cometsRef.current.length < 3) {
       cometsRef.current.push(spawnComet(scene, t))
-      nextCometRef.current = t + 8 + Math.random() * 7
+      nextCometRef.current = t + 5 + Math.random() * 6
     }
   }, [])
 
