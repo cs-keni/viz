@@ -110,7 +110,7 @@
       "label": "Bobby",
       "folder": "Projects",
       "created": "2026-05-19",
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Projects/Bobby Brain Viz",
@@ -145,7 +145,7 @@
       "label": "AI Workflow",
       "folder": "Resources",
       "created": "2026-05-19",
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/API Design",
@@ -159,7 +159,7 @@
       "label": "Agent Evaluation",
       "folder": "Resources",
       "created": "2026-05-22",
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Agent Memory",
@@ -173,7 +173,7 @@
       "label": "Agent Security",
       "folder": "Resources",
       "created": "2026-05-24",
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Bobby Commands",
@@ -278,7 +278,7 @@
       "label": "Engineering Judgment and Tool Tradeoffs",
       "folder": "Resources",
       "created": "2026-05-24",
-      "degree": 9
+      "degree": 12
     },
     {
       "id": "Resources/FlashAttention",
@@ -316,18 +316,25 @@
       "degree": 10
     },
     {
+      "id": "Resources/LLM Capabilities and AI Ethics",
+      "label": "LLM Capabilities and AI Ethics",
+      "folder": "Resources",
+      "created": "2026-05-24",
+      "degree": 7
+    },
+    {
       "id": "Resources/LLM System Design",
       "label": "LLM System Design",
       "folder": "Resources",
       "created": "2026-05-21",
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/MLOps and ML Engineering",
       "label": "MLOps and ML Engineering",
       "folder": "Resources",
       "created": "2026-05-24",
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Mechanistic Interpretability",
@@ -944,6 +951,10 @@
     },
     {
       "source": "Resources/Engineering Judgment and Tool Tradeoffs",
+      "target": "Projects/Bobby"
+    },
+    {
+      "source": "Resources/Engineering Judgment and Tool Tradeoffs",
       "target": "Resources/API Design"
     },
     {
@@ -957,6 +968,10 @@
     {
       "source": "Resources/Engineering Judgment and Tool Tradeoffs",
       "target": "Resources/Databases"
+    },
+    {
+      "source": "Resources/Engineering Judgment and Tool Tradeoffs",
+      "target": "Resources/LLM Capabilities and AI Ethics"
     },
     {
       "source": "Resources/Engineering Judgment and Tool Tradeoffs",
@@ -1033,6 +1048,30 @@
     {
       "source": "Resources/Kubernetes",
       "target": "Resources/OS Fundamentals"
+    },
+    {
+      "source": "Resources/LLM Capabilities and AI Ethics",
+      "target": "Resources/AI Workflow"
+    },
+    {
+      "source": "Resources/LLM Capabilities and AI Ethics",
+      "target": "Resources/Agent Evaluation"
+    },
+    {
+      "source": "Resources/LLM Capabilities and AI Ethics",
+      "target": "Resources/Agent Security"
+    },
+    {
+      "source": "Resources/LLM Capabilities and AI Ethics",
+      "target": "Resources/Engineering Judgment and Tool Tradeoffs"
+    },
+    {
+      "source": "Resources/LLM Capabilities and AI Ethics",
+      "target": "Resources/LLM System Design"
+    },
+    {
+      "source": "Resources/LLM Capabilities and AI Ethics",
+      "target": "Resources/MLOps and ML Engineering"
     },
     {
       "source": "Resources/LLM System Design",
