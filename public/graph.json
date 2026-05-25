@@ -1,6 +1,15 @@
 {
   "nodes": [
     {
+      "id": "A/B Testing Design",
+      "label": "B Testing Design",
+      "folder": "A",
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 3
+    },
+    {
       "id": "Areas/Dev Setup",
       "label": "Dev Setup",
       "folder": "Areas",
@@ -63,6 +72,15 @@
       "degree": 1
     },
     {
+      "id": "Bayes' Theorem",
+      "label": "Bayes' Theorem",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Blue-Green vs Canary vs Rolling Deployments",
       "label": "Blue-Green vs Canary vs Rolling Deployments",
       "folder": null,
@@ -108,6 +126,15 @@
       "degree": 6
     },
     {
+      "id": "Calibration and Epistemic Humility",
+      "label": "Calibration and Epistemic Humility",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Chain Rule (in Context of Backprop)",
       "label": "Chain Rule (in Context of Backprop)",
       "folder": null,
@@ -135,13 +162,13 @@
       "degree": 1
     },
     {
-      "id": "Consensus Algorithms (Raft, Paxos)",
-      "label": "Consensus Algorithms (Raft, Paxos)",
+      "id": "Confidence Intervals",
+      "label": "Confidence Intervals",
       "folder": null,
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 3
     },
     {
       "id": "Container Security",
@@ -151,15 +178,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 2
-    },
-    {
-      "id": "Content Delivery and Edge Computing",
-      "label": "Content Delivery and Edge Computing",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
     },
     {
       "id": "Daily Notes/2026-05-19",
@@ -226,24 +244,6 @@
       "degree": 2
     },
     {
-      "id": "Design a Chat Application",
-      "label": "Design a Chat Application",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Design a Notification System",
-      "label": "Design a Notification System",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Error Budgets",
       "label": "Error Budgets",
       "folder": null,
@@ -255,6 +255,15 @@
     {
       "id": "Game Theory Fundamentals",
       "label": "Game Theory Fundamentals",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "How to Update Beliefs Gracefully (Bayesian Updating)",
+      "label": "How to Update Beliefs Gracefully (Bayesian Updating)",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -282,15 +291,6 @@
     {
       "id": "Kubernetes YAML — Deployment, Service, Ingress",
       "label": "Kubernetes YAML — Deployment, Service, Ingress",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Leader Election",
-      "label": "Leader Election",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -360,6 +360,15 @@
       "degree": 4
     },
     {
+      "id": "Metrics and KPIs — How to Choose",
+      "label": "Metrics and KPIs — How to Choose",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
+    },
+    {
       "id": "Note Title",
       "label": "Note Title",
       "folder": null,
@@ -405,13 +414,22 @@
       "degree": 1
     },
     {
+      "id": "Probability Distributions (Normal, Binomial, Poisson, Exponential)",
+      "label": "Probability Distributions (Normal, Binomial, Poisson, Exponential)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Product Analytics Fundamentals",
       "label": "Product Analytics Fundamentals",
       "folder": null,
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 3
     },
     {
       "id": "Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)",
@@ -519,13 +537,13 @@
       "degree": 2
     },
     {
-      "id": "Real-Time Systems Design",
-      "label": "Real-Time Systems Design",
-      "folder": null,
+      "id": "Redis Patterns (Caching, Pub/Sub, Job Queues, Rate Limiting)",
+      "label": "Sub, Job Queues, Rate Limiting)",
+      "folder": "Redis Patterns (Caching, Pub",
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 2
+      "degree": 1
     },
     {
       "id": "Resources/AI & Machine Learning/AI Agents and Tool Use",
@@ -873,7 +891,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
@@ -1077,7 +1095,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)",
@@ -1173,7 +1191,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 13
+      "degree": 15
     },
     {
       "id": "Resources/AI & Machine Learning/Vision-Language Models",
@@ -1214,7 +1232,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Resources/Agent Evaluation",
@@ -1312,7 +1330,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "Resources/Claude Code Skills",
@@ -1351,7 +1369,7 @@
         "study",
         "systems"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Cloud Services",
@@ -1364,7 +1382,7 @@
         "study",
         "systems"
       ],
-      "degree": 15
+      "degree": 17
     },
     {
       "id": "Resources/DSA Practice",
@@ -1392,7 +1410,79 @@
         "study",
         "systems"
       ],
-      "degree": 6
+      "degree": 9
+    },
+    {
+      "id": "Resources/Data Science & Analytics/A-B Testing Design",
+      "label": "A-B Testing Design",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "A/B testing compares product or system variants using randomized assignment and statistical analysis. Good test design defines the hypothesis, unit of randomization, metrics, sample size, guardrails, and stopping rules before launch.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Data Science & Analytics/Bayesian Statistics",
+      "label": "Bayesian Statistics",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Bayesian statistics treats probability as a degree of belief updated by evidence. It combines prior beliefs with observed data to produce posterior beliefs.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Data Science & Analytics/Hypothesis Testing",
+      "label": "Hypothesis Testing",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Hypothesis testing evaluates whether observed data is surprising under a null hypothesis. It is useful for experiments, but it depends heavily on assumptions, sample size, and careful interpretation.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 9
+    },
+    {
+      "id": "Resources/Data Science & Analytics/P-values and Statistical Significance",
+      "label": "P-values and Statistical Significance",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "P-values measure how surprising observed data would be under a null hypothesis. Statistical significance is a thresholding convention, not proof that an effect is real, large, or important.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Data Science & Analytics/Probability Theory Basics",
+      "label": "Probability Theory Basics",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Probability theory models uncertainty using events, random variables, distributions, expectation, and conditional probability. It underpins statistics, machine learning, experimentation, and risk reasoning.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)",
+      "label": "Statistics Fundamentals (Mean, Median, Mode, Std Dev)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Statistics fundamentals summarize data with measures of center and spread. Mean, median, mode, variance, and standard deviation are the starting vocabulary for reasoning about datasets.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 8
     },
     {
       "id": "Resources/Data Structures and Algorithms Patterns",
@@ -1450,7 +1540,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 24
+      "degree": 26
     },
     {
       "id": "Resources/Docker",
@@ -1549,7 +1639,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/IaaS PaaS SaaS",
@@ -1590,7 +1680,7 @@
         "study",
         "systems"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/LLM Capabilities and AI Ethics",
@@ -1638,7 +1728,7 @@
         "system-design",
         "bobby"
       ],
-      "degree": 22
+      "degree": 23
     },
     {
       "id": "Resources/Mechanistic Interpretability",
@@ -1705,7 +1795,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/Notification System Design",
@@ -1719,7 +1809,7 @@
         "architecture",
         "interview-prep"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/OS Fundamentals",
@@ -1746,7 +1836,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Resources/Observability Case Studies",
@@ -1789,7 +1879,7 @@
         "startups",
         "projects"
       ],
-      "degree": 9
+      "degree": 11
     },
     {
       "id": "Resources/Programming Languages",
@@ -1840,7 +1930,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/References/VanossGaming - Dewit",
@@ -1896,7 +1986,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Security",
@@ -1910,7 +2000,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 9
+      "degree": 11
     },
     {
       "id": "Resources/Security Deep Dive",
@@ -1987,7 +2077,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 13
+      "degree": 16
     },
     {
       "id": "Resources/Software Engineering/API Design — Server-Sent Events",
@@ -1999,7 +2089,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Software Engineering/API Design — WebSockets",
@@ -2011,7 +2101,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 8
+      "degree": 11
     },
     {
       "id": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers",
@@ -2275,7 +2365,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "Resources/Software Engineering/Feature Flags and Progressive Rollout",
@@ -2467,7 +2557,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Software Engineering/Software Estimation Techniques",
@@ -2565,7 +2655,7 @@
         "architecture",
         "interview-prep"
       ],
-      "degree": 14
+      "degree": 19
     },
     {
       "id": "Resources/System Design Interview Rubric",
@@ -2616,7 +2706,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/System Design/CDN Architecture",
@@ -2628,7 +2718,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Resources/System Design/Cache Invalidation Patterns",
@@ -2640,7 +2730,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)",
@@ -2652,7 +2742,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 10
+      "degree": 13
     },
     {
       "id": "Resources/System Design/Circuit Breaker Pattern",
@@ -2667,6 +2757,18 @@
       "degree": 8
     },
     {
+      "id": "Resources/System Design/Consensus Algorithms (Raft, Paxos)",
+      "label": "Consensus Algorithms (Raft, Paxos)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Consensus algorithms let distributed nodes agree on a value or ordered log despite failures. Raft and Paxos are foundational protocols for replicated state machines and strongly consistent coordination.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 7
+    },
+    {
       "id": "Resources/System Design/Consistent Hashing",
       "label": "Consistent Hashing",
       "folder": "Resources",
@@ -2676,7 +2778,19 @@
         "resource",
         "system-design"
       ],
-      "degree": 8
+      "degree": 10
+    },
+    {
+      "id": "Resources/System Design/Content Delivery and Edge Computing",
+      "label": "Content Delivery and Edge Computing",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Content delivery and edge computing move data and computation closer to users. They reduce latency, origin load, and bandwidth costs while introducing cache, consistency, deployment, and observability tradeoffs.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 7
     },
     {
       "id": "Resources/System Design/Database Replication",
@@ -2688,7 +2802,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 10
+      "degree": 13
     },
     {
       "id": "Resources/System Design/Database Sharding",
@@ -2700,7 +2814,175 @@
         "resource",
         "system-design"
       ],
+      "degree": 10
+    },
+    {
+      "id": "Resources/System Design/Design Twitter X Feed",
+      "label": "Design Twitter X Feed",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Designing a Twitter/X feed tests fanout, timeline generation, ranking, social graph storage, media handling, caching, and realtime updates. The core tradeoff is fanout-on-write versus fanout-on-read.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/System Design/Design Uber Ride-Sharing Backend",
+      "label": "Design Uber Ride-Sharing Backend",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Designing an Uber-like backend tests geospatial indexing, realtime location updates, matching, dispatch, pricing, trip state, payments, and reliability. It is a stateful realtime marketplace problem.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/System Design/Design a Chat Application",
+      "label": "Design a Chat Application",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Designing a chat application tests realtime delivery, message storage, ordering, presence, fanout, read receipts, offline sync, and notification behavior. It combines realtime systems with durable data modeling.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Design/Design a Distributed Cache",
+      "label": "Design a Distributed Cache",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Designing a distributed cache tests key partitioning, replication, eviction, consistency, failure recovery, hot keys, and client routing. It is a core infrastructure system for reducing backend load.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/System Design/Design a File Storage System (S3-like)",
+      "label": "Design a File Storage System (S3-like)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Designing an S3-like file storage system tests object APIs, metadata, chunking, durability, replication, consistency, access control, and lifecycle management. The main challenge is cheap durable storage at massive scale.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Design/Design a Notification System",
+      "label": "Design a Notification System",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Designing a notification system tests event ingestion, user preferences, aggregation, channel delivery, idempotency, retries, rate limits, and fatigue controls. It separates social/product notifications from transactional reliability needs.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 11
+    },
+    {
+      "id": "Resources/System Design/Design a Payment System",
+      "label": "Design a Payment System",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Designing a payment system tests correctness, idempotency, ledger modeling, provider integration, retries, reconciliation, fraud checks, and auditability. Reliability matters more than raw throughput.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Design/Design a Rate Limiter",
+      "label": "Design a Rate Limiter",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Designing a rate limiter tests algorithms, distributed counters, identity keys, storage, latency, consistency, and failure behavior. The goal is to protect systems while being predictable for legitimate clients.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Design/Design a Recommendation System",
+      "label": "Design a Recommendation System",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Designing a recommendation system tests candidate generation, ranking, feedback loops, feature pipelines, online serving, evaluation, and exploration. The architecture connects ML with product metrics.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
       "degree": 9
+    },
+    {
+      "id": "Resources/System Design/Design a Scheduling System (like Calendly)",
+      "label": "Design a Scheduling System (like Calendly)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Designing a Calendly-like scheduling system tests availability calculation, calendar integrations, time zones, booking holds, conflict prevention, notifications, and consistency. Time handling is the hidden complexity.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/System Design/Design a Search Engine",
+      "label": "Design a Search Engine",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Designing a search engine tests crawling or ingestion, indexing, ranking, query processing, freshness, autocomplete, and relevance evaluation. Search systems combine data pipelines with low-latency serving.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/System Design/Design a URL Shortener",
+      "label": "Design a URL Shortener",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Designing a URL shortener tests API design, key generation, redirects, storage, caching, analytics, abuse prevention, and high-read scalability. It is a classic compact system design problem.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/System Design/Design a Video Streaming Platform",
+      "label": "Design a Video Streaming Platform",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Designing a video streaming platform tests upload, transcoding, storage, CDN delivery, adaptive bitrate streaming, metadata, recommendations, and analytics. It is a media-heavy system with extreme bandwidth concerns.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/System Design/Design an API Gateway",
+      "label": "Design an API Gateway",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Designing an API gateway tests request routing, authentication, authorization, rate limiting, load balancing, observability, protocol translation, and failure handling. It is the front door for many service architectures.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 5
     },
     {
       "id": "Resources/System Design/Distributed Locking",
@@ -2712,7 +2994,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 5
+      "degree": 8
     },
     {
       "id": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)",
@@ -2724,7 +3006,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 11
+      "degree": 13
     },
     {
       "id": "Resources/System Design/Eventual Consistency",
@@ -2748,7 +3030,19 @@
         "resource",
         "system-design"
       ],
-      "degree": 10
+      "degree": 13
+    },
+    {
+      "id": "Resources/System Design/Leader Election",
+      "label": "Leader Election",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Leader election is the process of selecting one node to coordinate work in a distributed system. It is used for primary replicas, schedulers, singleton jobs, and consensus groups.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 7
     },
     {
       "id": "Resources/System Design/Load Balancing Strategies",
@@ -2760,7 +3054,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)",
@@ -2772,7 +3066,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 9
+      "degree": 13
     },
     {
       "id": "Resources/System Design/PACELC Theorem",
@@ -2796,7 +3090,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
@@ -2808,7 +3102,19 @@
         "resource",
         "system-design"
       ],
-      "degree": 6
+      "degree": 10
+    },
+    {
+      "id": "Resources/System Design/Real-Time Systems Design",
+      "label": "Real-Time Systems Design",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Real-time systems deliver updates with tight latency expectations. Design choices depend on latency budget, fanout, ordering, delivery guarantees, transport, backpressure, and failure handling.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 11
     },
     {
       "id": "Resources/System Design/Scalability — Horizontal vs Vertical",
@@ -2828,6 +3134,18 @@
       "folder": "Resources",
       "created": "2026-05-25",
       "excerpt": "A system design interview framework gives a repeatable structure for turning vague product prompts into scalable architectures. It keeps candidates from jumping to boxes before clarifying requirements, scale, data, APIs, tradeoffs, and failure modes.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Design/WebRTC Architecture",
+      "label": "WebRTC Architecture",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "WebRTC enables low-latency peer-to-peer audio, video, and data communication in browsers and apps. Its architecture combines signaling, ICE, STUN, TURN, RTP media, and optional SFU/MCU servers.",
       "tags": [
         "resource",
         "system-design"
@@ -4504,6 +4822,126 @@
       "target": "Resources/Message Queues"
     },
     {
+      "source": "Resources/Data Science & Analytics/A-B Testing Design",
+      "target": "Metrics and KPIs — How to Choose"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/A-B Testing Design",
+      "target": "Product Analytics Fundamentals"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/A-B Testing Design",
+      "target": "Resources/Data Science & Analytics/Hypothesis Testing"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/A-B Testing Design",
+      "target": "Resources/Data Science & Analytics/P-values and Statistical Significance"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/A-B Testing Design",
+      "target": "Resources/System Design/Design a Recommendation System"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Bayesian Statistics",
+      "target": "Bayes' Theorem"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Bayesian Statistics",
+      "target": "Calibration and Epistemic Humility"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Bayesian Statistics",
+      "target": "How to Update Beliefs Gracefully (Bayesian Updating)"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Bayesian Statistics",
+      "target": "Resources/Data Science & Analytics/Hypothesis Testing"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Bayesian Statistics",
+      "target": "Resources/Data Science & Analytics/Probability Theory Basics"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Hypothesis Testing",
+      "target": "A/B Testing Design"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Hypothesis Testing",
+      "target": "Confidence Intervals"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Hypothesis Testing",
+      "target": "Product Analytics Fundamentals"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Hypothesis Testing",
+      "target": "Resources/Data Science & Analytics/P-values and Statistical Significance"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Hypothesis Testing",
+      "target": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/P-values and Statistical Significance",
+      "target": "A/B Testing Design"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/P-values and Statistical Significance",
+      "target": "Confidence Intervals"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/P-values and Statistical Significance",
+      "target": "Resources/Data Science & Analytics/Bayesian Statistics"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/P-values and Statistical Significance",
+      "target": "Resources/Data Science & Analytics/Hypothesis Testing"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/P-values and Statistical Significance",
+      "target": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Probability Theory Basics",
+      "target": "Probability Distributions (Normal, Binomial, Poisson, Exponential)"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Probability Theory Basics",
+      "target": "Resources/Data Science & Analytics/Bayesian Statistics"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Probability Theory Basics",
+      "target": "Resources/Data Science & Analytics/Hypothesis Testing"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Probability Theory Basics",
+      "target": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Probability Theory Basics",
+      "target": "Resources/MLOps and ML Engineering"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)",
+      "target": "Confidence Intervals"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)",
+      "target": "Metrics and KPIs — How to Choose"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)",
+      "target": "Resources/Data Science & Analytics/P-values and Statistical Significance"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)",
+      "target": "Resources/Data Science & Analytics/Probability Theory Basics"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)",
+      "target": "Resources/Observability"
+    },
+    {
       "source": "Resources/Data Structures and Algorithms Patterns",
       "target": "Resources/DSA Practice"
     },
@@ -5185,14 +5623,6 @@
     },
     {
       "source": "Resources/Software Engineering/API Design — Server-Sent Events",
-      "target": "Design a Notification System"
-    },
-    {
-      "source": "Resources/Software Engineering/API Design — Server-Sent Events",
-      "target": "Real-Time Systems Design"
-    },
-    {
-      "source": "Resources/Software Engineering/API Design — Server-Sent Events",
       "target": "Resources/API Design"
     },
     {
@@ -5204,16 +5634,16 @@
       "target": "Resources/Software Engineering/API Design — WebSockets"
     },
     {
-      "source": "Resources/Software Engineering/API Design — WebSockets",
-      "target": "Design a Chat Application"
+      "source": "Resources/Software Engineering/API Design — Server-Sent Events",
+      "target": "Resources/System Design/Design a Notification System"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — Server-Sent Events",
+      "target": "Resources/System Design/Real-Time Systems Design"
     },
     {
       "source": "Resources/Software Engineering/API Design — WebSockets",
       "target": "Pub/Sub Architecture"
-    },
-    {
-      "source": "Resources/Software Engineering/API Design — WebSockets",
-      "target": "Real-Time Systems Design"
     },
     {
       "source": "Resources/Software Engineering/API Design — WebSockets",
@@ -5222,6 +5652,14 @@
     {
       "source": "Resources/Software Engineering/API Design — WebSockets",
       "target": "Resources/Software Engineering/API Design — Server-Sent Events"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — WebSockets",
+      "target": "Resources/System Design/Design a Chat Application"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — WebSockets",
+      "target": "Resources/System Design/Real-Time Systems Design"
     },
     {
       "source": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers",
@@ -6237,10 +6675,6 @@
     },
     {
       "source": "Resources/System Design/CDN Architecture",
-      "target": "Content Delivery and Edge Computing"
-    },
-    {
-      "source": "Resources/System Design/CDN Architecture",
       "target": "Resources/Cloud Services"
     },
     {
@@ -6254,6 +6688,10 @@
     {
       "source": "Resources/System Design/CDN Architecture",
       "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
+    },
+    {
+      "source": "Resources/System Design/CDN Architecture",
+      "target": "Resources/System Design/Content Delivery and Edge Computing"
     },
     {
       "source": "Resources/System Design/Cache Invalidation Patterns",
@@ -6316,6 +6754,26 @@
       "target": "Resources/System Design/Load Balancing Strategies"
     },
     {
+      "source": "Resources/System Design/Consensus Algorithms (Raft, Paxos)",
+      "target": "Resources/Distributed Systems"
+    },
+    {
+      "source": "Resources/System Design/Consensus Algorithms (Raft, Paxos)",
+      "target": "Resources/System Design/CAP Theorem"
+    },
+    {
+      "source": "Resources/System Design/Consensus Algorithms (Raft, Paxos)",
+      "target": "Resources/System Design/Database Replication"
+    },
+    {
+      "source": "Resources/System Design/Consensus Algorithms (Raft, Paxos)",
+      "target": "Resources/System Design/Distributed Locking"
+    },
+    {
+      "source": "Resources/System Design/Consensus Algorithms (Raft, Paxos)",
+      "target": "Resources/System Design/Leader Election"
+    },
+    {
       "source": "Resources/System Design/Consistent Hashing",
       "target": "Resources/Caching"
     },
@@ -6334,6 +6792,26 @@
     {
       "source": "Resources/System Design/Consistent Hashing",
       "target": "Resources/System Design/Load Balancing Strategies"
+    },
+    {
+      "source": "Resources/System Design/Content Delivery and Edge Computing",
+      "target": "Resources/Cloud Networking"
+    },
+    {
+      "source": "Resources/System Design/Content Delivery and Edge Computing",
+      "target": "Resources/Cloud Services"
+    },
+    {
+      "source": "Resources/System Design/Content Delivery and Edge Computing",
+      "target": "Resources/System Design/CDN Architecture"
+    },
+    {
+      "source": "Resources/System Design/Content Delivery and Edge Computing",
+      "target": "Resources/System Design/Cache Invalidation Patterns"
+    },
+    {
+      "source": "Resources/System Design/Content Delivery and Edge Computing",
+      "target": "Resources/System Design/Real-Time Systems Design"
     },
     {
       "source": "Resources/System Design/Database Replication",
@@ -6376,16 +6854,292 @@
       "target": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)"
     },
     {
-      "source": "Resources/System Design/Distributed Locking",
-      "target": "Consensus Algorithms (Raft, Paxos)"
+      "source": "Resources/System Design/Design Twitter X Feed",
+      "target": "Resources/System Design Case Studies"
     },
     {
-      "source": "Resources/System Design/Distributed Locking",
-      "target": "Leader Election"
+      "source": "Resources/System Design/Design Twitter X Feed",
+      "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
+    },
+    {
+      "source": "Resources/System Design/Design Twitter X Feed",
+      "target": "Resources/System Design/Design a Notification System"
+    },
+    {
+      "source": "Resources/System Design/Design Twitter X Feed",
+      "target": "Resources/System Design/Design a Recommendation System"
+    },
+    {
+      "source": "Resources/System Design/Design Twitter X Feed",
+      "target": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)"
+    },
+    {
+      "source": "Resources/System Design/Design Uber Ride-Sharing Backend",
+      "target": "Resources/Geospatial"
+    },
+    {
+      "source": "Resources/System Design/Design Uber Ride-Sharing Backend",
+      "target": "Resources/System Design/Design a Notification System"
+    },
+    {
+      "source": "Resources/System Design/Design Uber Ride-Sharing Backend",
+      "target": "Resources/System Design/Design a Payment System"
+    },
+    {
+      "source": "Resources/System Design/Design Uber Ride-Sharing Backend",
+      "target": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)"
+    },
+    {
+      "source": "Resources/System Design/Design Uber Ride-Sharing Backend",
+      "target": "Resources/System Design/Real-Time Systems Design"
+    },
+    {
+      "source": "Resources/System Design/Design a Chat Application",
+      "target": "Resources/Software Engineering/API Design — WebSockets"
+    },
+    {
+      "source": "Resources/System Design/Design a Chat Application",
+      "target": "Resources/System Design Case Studies"
+    },
+    {
+      "source": "Resources/System Design/Design a Chat Application",
+      "target": "Resources/System Design/Design a Notification System"
+    },
+    {
+      "source": "Resources/System Design/Design a Chat Application",
+      "target": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)"
+    },
+    {
+      "source": "Resources/System Design/Design a Chat Application",
+      "target": "Resources/System Design/Real-Time Systems Design"
+    },
+    {
+      "source": "Resources/System Design/Design a Distributed Cache",
+      "target": "Resources/Caching"
+    },
+    {
+      "source": "Resources/System Design/Design a Distributed Cache",
+      "target": "Resources/System Design/Cache Invalidation Patterns"
+    },
+    {
+      "source": "Resources/System Design/Design a Distributed Cache",
+      "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
+    },
+    {
+      "source": "Resources/System Design/Design a Distributed Cache",
+      "target": "Resources/System Design/Consistent Hashing"
+    },
+    {
+      "source": "Resources/System Design/Design a Distributed Cache",
+      "target": "Resources/System Design/Design a Rate Limiter"
+    },
+    {
+      "source": "Resources/System Design/Design a File Storage System (S3-like)",
+      "target": "Resources/Cloud Services"
+    },
+    {
+      "source": "Resources/System Design/Design a File Storage System (S3-like)",
+      "target": "Resources/Data Engineering"
+    },
+    {
+      "source": "Resources/System Design/Design a File Storage System (S3-like)",
+      "target": "Resources/System Design/CDN Architecture"
+    },
+    {
+      "source": "Resources/System Design/Design a File Storage System (S3-like)",
+      "target": "Resources/System Design/Consistent Hashing"
+    },
+    {
+      "source": "Resources/System Design/Design a File Storage System (S3-like)",
+      "target": "Resources/System Design/Database Replication"
+    },
+    {
+      "source": "Resources/System Design/Design a Notification System",
+      "target": "Resources/Notification System Design"
+    },
+    {
+      "source": "Resources/System Design/Design a Notification System",
+      "target": "Resources/Software Engineering/Event-Driven Architecture"
+    },
+    {
+      "source": "Resources/System Design/Design a Notification System",
+      "target": "Resources/System Design/Idempotency in Distributed Systems"
+    },
+    {
+      "source": "Resources/System Design/Design a Notification System",
+      "target": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)"
+    },
+    {
+      "source": "Resources/System Design/Design a Notification System",
+      "target": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)"
+    },
+    {
+      "source": "Resources/System Design/Design a Payment System",
+      "target": "Resources/Security"
+    },
+    {
+      "source": "Resources/System Design/Design a Payment System",
+      "target": "Resources/System Design Case Studies"
+    },
+    {
+      "source": "Resources/System Design/Design a Payment System",
+      "target": "Resources/System Design/Design a Notification System"
+    },
+    {
+      "source": "Resources/System Design/Design a Payment System",
+      "target": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)"
+    },
+    {
+      "source": "Resources/System Design/Design a Payment System",
+      "target": "Resources/System Design/Idempotency in Distributed Systems"
+    },
+    {
+      "source": "Resources/System Design/Design a Rate Limiter",
+      "target": "Redis Patterns (Caching, Pub/Sub, Job Queues, Rate Limiting)"
+    },
+    {
+      "source": "Resources/System Design/Design a Rate Limiter",
+      "target": "Resources/Rate Limiting"
+    },
+    {
+      "source": "Resources/System Design/Design a Rate Limiter",
+      "target": "Resources/Security"
+    },
+    {
+      "source": "Resources/System Design/Design a Rate Limiter",
+      "target": "Resources/Software Engineering/API Design — REST Principles"
+    },
+    {
+      "source": "Resources/System Design/Design a Rate Limiter",
+      "target": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)"
+    },
+    {
+      "source": "Resources/System Design/Design a Recommendation System",
+      "target": "A/B Testing Design"
+    },
+    {
+      "source": "Resources/System Design/Design a Recommendation System",
+      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
+    },
+    {
+      "source": "Resources/System Design/Design a Recommendation System",
+      "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
+    },
+    {
+      "source": "Resources/System Design/Design a Recommendation System",
+      "target": "Resources/Data Engineering"
+    },
+    {
+      "source": "Resources/System Design/Design a Recommendation System",
+      "target": "Resources/Product Engineering"
+    },
+    {
+      "source": "Resources/System Design/Design a Scheduling System (like Calendly)",
+      "target": "Resources/Product Engineering"
+    },
+    {
+      "source": "Resources/System Design/Design a Scheduling System (like Calendly)",
+      "target": "Resources/Software Engineering/API Design — REST Principles"
+    },
+    {
+      "source": "Resources/System Design/Design a Scheduling System (like Calendly)",
+      "target": "Resources/System Design/Design a Notification System"
+    },
+    {
+      "source": "Resources/System Design/Design a Scheduling System (like Calendly)",
+      "target": "Resources/System Design/Distributed Locking"
+    },
+    {
+      "source": "Resources/System Design/Design a Scheduling System (like Calendly)",
+      "target": "Resources/System Design/Idempotency in Distributed Systems"
+    },
+    {
+      "source": "Resources/System Design/Design a Search Engine",
+      "target": "Resources/AI & Machine Learning/Semantic Search vs Keyword Search"
+    },
+    {
+      "source": "Resources/System Design/Design a Search Engine",
+      "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
+    },
+    {
+      "source": "Resources/System Design/Design a Search Engine",
+      "target": "Resources/Data Engineering"
+    },
+    {
+      "source": "Resources/System Design/Design a Search Engine",
+      "target": "Resources/Search Systems"
+    },
+    {
+      "source": "Resources/System Design/Design a Search Engine",
+      "target": "Resources/System Design/Design a Recommendation System"
+    },
+    {
+      "source": "Resources/System Design/Design a URL Shortener",
+      "target": "Resources/System Design Case Studies"
+    },
+    {
+      "source": "Resources/System Design/Design a URL Shortener",
+      "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
+    },
+    {
+      "source": "Resources/System Design/Design a URL Shortener",
+      "target": "Resources/System Design/Database Sharding"
+    },
+    {
+      "source": "Resources/System Design/Design a URL Shortener",
+      "target": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)"
+    },
+    {
+      "source": "Resources/System Design/Design a URL Shortener",
+      "target": "Resources/System Design/System Design Interview Framework"
+    },
+    {
+      "source": "Resources/System Design/Design a Video Streaming Platform",
+      "target": "Resources/System Design Case Studies"
+    },
+    {
+      "source": "Resources/System Design/Design a Video Streaming Platform",
+      "target": "Resources/System Design/CDN Architecture"
+    },
+    {
+      "source": "Resources/System Design/Design a Video Streaming Platform",
+      "target": "Resources/System Design/Design a File Storage System (S3-like)"
+    },
+    {
+      "source": "Resources/System Design/Design a Video Streaming Platform",
+      "target": "Resources/System Design/Design a Recommendation System"
+    },
+    {
+      "source": "Resources/System Design/Design a Video Streaming Platform",
+      "target": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)"
+    },
+    {
+      "source": "Resources/System Design/Design an API Gateway",
+      "target": "Resources/API Design"
+    },
+    {
+      "source": "Resources/System Design/Design an API Gateway",
+      "target": "Resources/Software Engineering/API Design — REST Principles"
+    },
+    {
+      "source": "Resources/System Design/Design an API Gateway",
+      "target": "Resources/Software Engineering/Service Mesh (Istio, Linkerd)"
+    },
+    {
+      "source": "Resources/System Design/Design an API Gateway",
+      "target": "Resources/System Design/Load Balancing Strategies"
+    },
+    {
+      "source": "Resources/System Design/Design an API Gateway",
+      "target": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)"
     },
     {
       "source": "Resources/System Design/Distributed Locking",
       "target": "Resources/Distributed Systems"
+    },
+    {
+      "source": "Resources/System Design/Distributed Locking",
+      "target": "Resources/System Design/Consensus Algorithms (Raft, Paxos)"
     },
     {
       "source": "Resources/System Design/Distributed Locking",
@@ -6394,6 +7148,10 @@
     {
       "source": "Resources/System Design/Distributed Locking",
       "target": "Resources/System Design/Idempotency in Distributed Systems"
+    },
+    {
+      "source": "Resources/System Design/Distributed Locking",
+      "target": "Resources/System Design/Leader Election"
     },
     {
       "source": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)",
@@ -6454,6 +7212,26 @@
     {
       "source": "Resources/System Design/Idempotency in Distributed Systems",
       "target": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)"
+    },
+    {
+      "source": "Resources/System Design/Leader Election",
+      "target": "Resources/Distributed Systems"
+    },
+    {
+      "source": "Resources/System Design/Leader Election",
+      "target": "Resources/Kubernetes"
+    },
+    {
+      "source": "Resources/System Design/Leader Election",
+      "target": "Resources/System Design/Consensus Algorithms (Raft, Paxos)"
+    },
+    {
+      "source": "Resources/System Design/Leader Election",
+      "target": "Resources/System Design/Database Replication"
+    },
+    {
+      "source": "Resources/System Design/Leader Election",
+      "target": "Resources/System Design/Distributed Locking"
     },
     {
       "source": "Resources/System Design/Load Balancing Strategies",
@@ -6556,6 +7334,26 @@
       "target": "Security Headers (CSP, HSTS, X-Frame-Options)"
     },
     {
+      "source": "Resources/System Design/Real-Time Systems Design",
+      "target": "Resources/Notification System Design"
+    },
+    {
+      "source": "Resources/System Design/Real-Time Systems Design",
+      "target": "Resources/Software Engineering/API Design — Server-Sent Events"
+    },
+    {
+      "source": "Resources/System Design/Real-Time Systems Design",
+      "target": "Resources/Software Engineering/API Design — WebSockets"
+    },
+    {
+      "source": "Resources/System Design/Real-Time Systems Design",
+      "target": "Resources/System Design/Pub Sub Architecture"
+    },
+    {
+      "source": "Resources/System Design/Real-Time Systems Design",
+      "target": "Resources/System Design/WebRTC Architecture"
+    },
+    {
       "source": "Resources/System Design/Scalability — Horizontal vs Vertical",
       "target": "Resources/Scaling"
     },
@@ -6594,6 +7392,22 @@
     {
       "source": "Resources/System Design/System Design Interview Framework",
       "target": "Resources/System Design/Scalability — Horizontal vs Vertical"
+    },
+    {
+      "source": "Resources/System Design/WebRTC Architecture",
+      "target": "Resources/Networking"
+    },
+    {
+      "source": "Resources/System Design/WebRTC Architecture",
+      "target": "Resources/Software Engineering/API Design — WebSockets"
+    },
+    {
+      "source": "Resources/System Design/WebRTC Architecture",
+      "target": "Resources/System Design/Content Delivery and Edge Computing"
+    },
+    {
+      "source": "Resources/System Design/WebRTC Architecture",
+      "target": "Resources/System Design/Real-Time Systems Design"
     },
     {
       "source": "Resources/Testing Strategy",
@@ -6660,5 +7474,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-25T19:29:29Z"
+  "generated_at": "2026-05-25T19:40:42Z"
 }
