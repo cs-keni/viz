@@ -33,17 +33,22 @@ viz repo (this repo — public)
       "label": "Bobby Brain Viz",
       "folder": "Projects",
       "created": "2026-05-24",
-      "degree": 3
+      "degree": 3,
+      "excerpt": "First ~200 chars of note body, markdown stripped…",
+      "tags": ["project", "ai"]
     }
   ],
   "links": [
     { "source": "Projects/Bobby Brain Viz", "target": "Maps/Bobby" }
   ],
-  "generated": "2026-05-24T12:00:00Z"
+  "generated_at": "2026-05-24T12:00:00Z"
 }
 ```
 
-`degree` is computed during generation and stored in JSON (not recalculated client-side).
+- `degree` is computed during generation and stored in JSON (not recalculated client-side).
+- `excerpt` and `tags` are added in T8 (Phase 2). `excerpt` may be `""` for notes with no body.
+- `generated_at` replaces the old `generated` field (T8). Used by the stats overlay for "Updated X ago".
+- Schema validation in `useGraphData` treats `excerpt`, `tags`, `generated_at` as optional — old graph.json without them is still valid.
 
 ## Stack
 

@@ -1,5 +1,181 @@
 # ENGINEERING LOG
 
+## 2026-05-25 — Visual polish debug marathon + Phase 2 planning (Claude Code, Sonnet 4.6)
+
+### Session summary
+
+Full visual QA pass on the live site using `/browse`, surfacing and fixing six separate bugs in the 3D graph renderer. Then planned Phase 2 (fly-to, info panel, stats overlay, gen_graph.py extension).
+
+### Bugs Debugged and Fixed
+
+#### Bug 1 — Auto-orbit not working (Three.js r184 breaking change)
+
+**Symptom:** Camera never rotated. `/browse` screenshots taken 8 seconds apart showed identical camera positions.
+
+**Root cause:** Three.js r147+ requires `controls.update(deltaTime)` with an explicit delta for `autoRotate` to apply rotation. The `react-force-graph-3d` library calls `controls.update()` with no argument, so the delta defaults to zero and rotation never accumulates.
+
+**Fix:** Disabled `controls.autoRotate = false`. Implemented manual orbit in the independent rAF loop:
+```js
+camera.position.applyAxisAngle(new THREE.Vector3(0,1,0), 0.001)
+camera.lookAt(controls.target)
+```
+Orbit pauses on `controls 'start'` event, resumes 3s after `'end'` event via `setTimeout`.
+
+**Key learning:** Never rely on `OrbitControls.autoRotate` in projects where the library controls the update loop. Manual `applyAxisAngle` is portable across all Three.js versions.
+
+---
+
+#### Bug 2 — Comets never appeared (onRenderFramePost reliability)
+
+**Symptom:** No comets visible ever, even with correct spawn logic.
+
+**Root cause:** `onRenderFramePost` is tied to the react-force-graph-3d render tick, which is itself coupled to the d3 physics simulation. Once the simulation settles (~5-10s after load), `onRenderFramePost` stops being called reliably or stops entirely. The comet spawn check was inside `onRenderFramePost` — so it fired during physics warmup and then stopped.
+
+**Fix:** Moved ALL comet logic (spawn, animate trail/head, cleanup) into the same independent `requestAnimationFrame` loop that handles orbit. The loop runs unconditionally every frame for the lifetime of the component.
+
+```js
+useEffect(() => {
+  let rafId
+  const tick = () => {
+    // orbit + comets here
+    rafId = requestAnimationFrame(tick)
+  }
+  rafId = requestAnimationFrame(tick)
+  return () => cancelAnimationFrame(rafId)
+}, [])
+```
+
+**Key learning:** `onRenderFramePost` is suitable for per-frame updates to existing Three.js objects (node breathing, star twinkling, nebula drift) but is NOT a reliable driver for persistent effects that must survive after physics settles. Independent rAF is the correct pattern.
+
+---
+
+#### Bug 3 — Comets spawning behind camera (randomOnSphere distributes evenly)
+
+**Symptom:** Even when comets ran, most were invisible because they spawned/moved behind the camera.
+
+**Root cause:** `randomOnSphere()` distributes uniformly across the full sphere surface. ~50% of spawn points are in the rear hemisphere, invisible to the camera. The comet sweeps from a random point to another random point — often fully out of view.
+
+**Fix:** Camera-relative cone-angle spawning. `mkEdge()` samples a direction 60-80° from `camera.getWorldDirection()` using cross products to build a camera-aligned coordinate frame:
+
+```js
+const camFwd = camera.getWorldDirection(...)
+const camRight = crossVectors(camFwd, camera.up).normalize()
+const camUp2 = crossVectors(camRight, camFwd).normalize()
+const coneAngle = (Math.PI / 180) * (60 + Math.random() * 20)
+const spin = Math.random() * Math.PI * 2
+direction = camFwd * cos(coneAngle) + camRight * sin(coneAngle)*cos(spin) + camUp2 * sin(coneAngle)*sin(spin)
+```
+
+Comets now always spawn at screen edges and sweep across visible space.
+
+---
+
+#### Bug 4 — Comet points rendered as squares (PointsMaterial default)
+
+**Symptom:** At the tail fade, distinct squares were visible instead of soft circular glowing points.
+
+**Root cause:** `THREE.PointsMaterial` renders WebGL `gl_PointCoord` quads — square pixels with no alpha masking. The circular appearance requires an explicit alpha texture.
+
+**Fix:** Module-level cached canvas texture (`getCircleTex()`) — 64×64 canvas with a radial gradient (opaque white center → transparent edge), set as `map` with `alphaTest: 0.01`:
+
+```js
+const g = ctx.createRadialGradient(32, 32, 0, 32, 32, 32)
+g.addColorStop(0, 'rgba(255,255,255,1)')
+g.addColorStop(0.4, 'rgba(255,255,255,0.6)')
+g.addColorStop(1, 'rgba(255,255,255,0)')
+```
+
+Applied to both the trail (`PointsMaterial`) and the head point. Module-level caching ensures only one `CanvasTexture` is ever allocated.
+
+---
+
+#### Bug 5 — Nebula spheres showing visible outline ring (THREE.DoubleSide)
+
+**Symptom:** Large translucent nebula spheres showed a visible circular outline, like a faint ring floating in space. Visible when orbiting.
+
+**Root cause:** `THREE.DoubleSide` renders both front AND back faces. At a sphere's silhouette edge, both faces align and their opacity adds together, creating a visible seam/ring. The camera is positioned *inside* the nebula spheres (they're large background elements, r=165-230, centered near origin where camera starts).
+
+**Fix:** Changed to `THREE.BackSide`. Camera inside the sphere → only inner surface is relevant. BackSide renders the interior surface correctly, and the silhouette doubling never occurs.
+
+---
+
+#### Bug 6 — Edges nearly invisible (edgeColorForDegree too dark)
+
+**Symptom:** Links between nodes were almost invisible against the dark navy background.
+
+**Root cause:** Original `edgeColorForDegree` returned dark colors (`#2e4080`, `#4a3060`, `#6a4820`) — these have RGB values well below bloom threshold and no emissive boost, so they vanish into the background.
+
+**Fix:** Brightened to vivid blue-violet-gold: `#4a78e0` (low degree), `#8860cc` (mid), `#d4881a` (high). Also raised `linkOpacity` from 0.6 → 0.85.
+
+---
+
+#### Bug 7 — Node clustering too dense (d3 charge too weak)
+
+**Symptom:** 67 nodes with 175 links collapsed into a tight cluster. Highly connected nodes occupied the same position.
+
+**Root cause:** Default d3 `charge.strength(-30)` is too weak — link tension at 175 edges dominates and pulls everything toward the center.
+
+**Fix:** Three-part physics tuning:
+1. `charge().strength(-200)` — stronger repulsion
+2. `link().distance(70)` — explicit preferred edge length
+3. `forceCollide(n => sizeForDegree(n.degree) * 2.5 + 12)` — hard constraint that prevents overlap regardless of link tension (imported from `d3-force-3d`)
+
+`forceCollide` is the critical addition because it acts as a rigid body constraint that link forces cannot override.
+
+---
+
+#### Bug 8 — Nebula background too blue / overbright (bloom threshold too low)
+
+**Symptom:** Background nebulae glowed intensely, washing out the foreground nodes. The overall look was more "blue fog" than "deep space."
+
+**Root cause:** `emissiveIntensity: 0.6` on nebula meshes + bloom `threshold: 0.15` meant the nebulae themselves triggered bloom amplification.
+
+**Fix:** `emissiveIntensity: 0.12` (5× reduction) + bloom threshold raised to `0.25`. Nebulae are now subtle ambient atmosphere; bloom activates only on bright node cores.
+
+---
+
+#### Git pattern: push rejections from GitHub Action commits
+
+**Symptom:** `git push` rejected because Vercel/GitHub Action had committed to main since last pull.
+
+**Pattern:** `git stash && git pull --rebase origin main && git stash pop && git push origin main`
+
+Using rebase (not merge) keeps the linear history clean.
+
+---
+
+### Implemented This Session
+
+| Item | Result |
+|---|---|
+| Manual orbit via `applyAxisAngle` | Replaces broken `autoRotate` across Three.js versions |
+| Comet logic in independent rAF | Survives physics simulation settling |
+| Camera-relative comet spawning | Comets always visible (60-80° cone from camera fwd) |
+| Circle texture for PointsMaterial | Soft circular glowing comets, not squares |
+| `THREE.BackSide` on nebulae | Eliminated silhouette outline ring |
+| Bright `edgeColorForDegree` | Visible blue/violet/gold links |
+| Physics: charge -200, collide force | Open, readable node layout |
+| Bloom threshold 0.25 | Nebulae don't trigger bloom amplification |
+
+### Phase 2 Planned
+
+T8: gen_graph.py extension (excerpt, tags, generated_at)
+T9: Stats info overlay (note count, connections, last updated)
+T10: Camera fly-to + floating info panel on node click
+
+### Current State
+
+Live at Vercel. All Phase 1 visual effects working:
+- Manual orbit (pauses on drag, resumes after 3s)
+- Comets (camera-relative, staggered fade, circular points)
+- Nebulae (BackSide, subtle emissive)
+- Node clustering (charge -200, forceCollide)
+- Bloom (threshold 0.25)
+
+Commits this session: `8f93d7e` through `98172a6` (multiple comet/orbit fix iterations).
+
+---
+
 ## 2026-05-24 — T7 GitHub Action (Claude Code, Sonnet 4.6)
 
 ### Session summary
