@@ -9,7 +9,7 @@ import InfoPanel from './InfoPanel'
 
 const BACKGROUND_COLOR = '#050820'
 const STAR_COUNT = 1500
-const STAR_RADIUS = 800
+const STAR_RADIUS = 4000
 const LINK_PARTICLE_COLOR = '#a0c0ff'
 const COMET_TRAIL = 25
 const COMET_TRAIL_DEPTH = 0.18
@@ -151,9 +151,9 @@ function buildStarfield() {
 
 function buildNebulae(scene) {
   return [
-    { pos: [-60, 40, -80],  r: 200, emissive: '#2a0050', opacity: 0.055 },
-    { pos: [100, -60, -60], r: 165, emissive: '#005040', opacity: 0.045 },
-    { pos: [-10, -60,  40], r: 230, emissive: '#1a0068', opacity: 0.035 },
+    { pos: [-120, 80, -160], r: 320, emissive: '#2a0050', opacity: 0.055 },
+    { pos: [200, -120, -120], r: 270, emissive: '#005040', opacity: 0.045 },
+    { pos: [-20, -120,  80], r: 370, emissive: '#1a0068', opacity: 0.035 },
   ].map(({ pos, r, emissive, opacity }) => {
     const geo = new THREE.SphereGeometry(r, 32, 32)
     const mat = new THREE.MeshStandardMaterial({
@@ -336,7 +336,7 @@ export default function Graph3D({ data }) {
 
     const controls = instance.controls()
     if (controls) {
-      controls.maxDistance = 1500
+      controls.maxDistance = 3000
       controls.autoRotate = false  // manual rotation via applyAxisAngle — more reliable across Three.js versions
       controls.enableDamping = true
       controls.dampingFactor = 0.08
@@ -360,6 +360,15 @@ export default function Graph3D({ data }) {
 
     if (!nebulaeRef.current.length) {
       nebulaeRef.current = buildNebulae(instance.scene())
+    }
+
+    // Cap pixel ratio on mobile — phones report 3× DPR which kills GPU throughput
+    if (instance.renderer) {
+      const renderer = instance.renderer()
+      if (renderer) {
+        const maxDPR = isMobile() ? 1 : Math.min(2, window.devicePixelRatio)
+        renderer.setPixelRatio(maxDPR)
+      }
     }
 
     if (!bloomAddedRef.current && shouldUseBloom()) {
