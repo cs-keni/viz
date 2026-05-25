@@ -37,6 +37,23 @@ function edgeColorForDegree(degree) {
 
 // --- scene object builders ---
 
+// Cached circular sprite texture — makes Points render as soft circles, not squares
+let _circleTex = null
+function getCircleTex() {
+  if (_circleTex) return _circleTex
+  const canvas = document.createElement('canvas')
+  canvas.width = 64; canvas.height = 64
+  const ctx = canvas.getContext('2d')
+  const g = ctx.createRadialGradient(32, 32, 0, 32, 32, 32)
+  g.addColorStop(0,   'rgba(255,255,255,1)')
+  g.addColorStop(0.4, 'rgba(255,255,255,0.6)')
+  g.addColorStop(1,   'rgba(255,255,255,0)')
+  ctx.fillStyle = g
+  ctx.fillRect(0, 0, 64, 64)
+  _circleTex = new THREE.CanvasTexture(canvas)
+  return _circleTex
+}
+
 function randomOnSphere(r) {
   const theta = Math.random() * Math.PI * 2
   const phi = Math.acos(2 * Math.random() - 1)
@@ -82,24 +99,27 @@ function spawnComet(scene, spawnT, camera) {
   const trailGeo = new THREE.BufferGeometry()
   trailGeo.setAttribute('position', new THREE.BufferAttribute(trailPositions, 3))
   trailGeo.setAttribute('color', new THREE.BufferAttribute(trailColors, 3))
+  const tex = getCircleTex()
   const trailMat = new THREE.PointsMaterial({
-    vertexColors: true, size: 10, sizeAttenuation: false,
-    transparent: true, opacity: 0.92, depthWrite: false,
+    vertexColors: true, size: 7, sizeAttenuation: false,
+    map: tex, alphaTest: 0.01,
+    transparent: true, opacity: 0.7, depthWrite: false,
   })
   const trail = new THREE.Points(trailGeo, trailMat)
   scene.add(trail)
 
-  // Bright head — separate single point so it can be much larger
+  // Bright head — separate single point, larger soft circle
   const headGeo = new THREE.BufferGeometry()
   headGeo.setAttribute('position', new THREE.BufferAttribute(new Float32Array([start.x, start.y, start.z]), 3))
   const headMat = new THREE.PointsMaterial({
-    color: '#d8f0ff', size: 20, sizeAttenuation: false,
-    transparent: true, opacity: 0.98, depthWrite: false,
+    color: '#d8f0ff', size: 15, sizeAttenuation: false,
+    map: tex, alphaTest: 0.01,
+    transparent: true, opacity: 0.65, depthWrite: false,
   })
   const head = new THREE.Points(headGeo, headMat)
   scene.add(head)
 
-  return { start, end, spawnT, duration: 2.5 + Math.random() * 2.0, trail, head }
+  return { start, end, spawnT, duration: 1.2 + Math.random() * 1.0, trail, head }
 }
 
 function buildStarfield() {
@@ -173,7 +193,7 @@ export default function Graph3D({ data }) {
   const starfieldRef = useRef(null)
   const nebulaeRef = useRef([])
   const cometsRef = useRef([])
-  const nextCometRef = useRef(3 + Math.random() * 2)
+  const nextCometRef = useRef(2 + Math.random() * 1)
   const selectedNodeRef = useRef(null)
   const neighborSetRef = useRef(new Set())
   const tooltipDivRef = useRef(null)
@@ -261,15 +281,14 @@ export default function Graph3D({ data }) {
           return !done
         })
 
-        // Spawn new comet
-        if (t >= nextCometRef.current && scene && camera && cometsRef.current.length < 3) {
+        // Spawn new comet — up to 5 concurrent, interval 2-4s
+        if (t >= nextCometRef.current && scene && camera && cometsRef.current.length < 5) {
           const fwd = new THREE.Vector3()
           camera.getWorldDirection(fwd)
-          // Only spawn if we have a valid camera direction (not at origin)
           if (fwd.lengthSq() > 0.5) {
             cometsRef.current.push(spawnComet(scene, t, camera))
           }
-          nextCometRef.current = t + 5 + Math.random() * 6
+          nextCometRef.current = t + 2 + Math.random() * 2
         }
       }
 
