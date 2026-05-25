@@ -90,6 +90,15 @@
       "degree": 6
     },
     {
+      "id": "Chain Rule (in Context of Backprop)",
+      "label": "Chain Rule (in Context of Backprop)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Changelog and Release Notes Writing",
       "label": "Changelog and Release Notes Writing",
       "folder": null,
@@ -101,6 +110,15 @@
     {
       "id": "Circuit Breaker Pattern",
       "label": "Circuit Breaker Pattern",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Clustering Algorithms (K-Means, DBSCAN, Hierarchical)",
+      "label": "Clustering Algorithms (K-Means, DBSCAN, Hierarchical)",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -208,6 +226,15 @@
       "degree": 1
     },
     {
+      "id": "Direct Preference Optimization (DPO)",
+      "label": "Direct Preference Optimization (DPO)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Distributed Transactions (2PC, Saga Pattern)",
       "label": "Distributed Transactions (2PC, Saga Pattern)",
       "folder": null,
@@ -219,6 +246,15 @@
     {
       "id": "Error Budgets",
       "label": "Error Budgets",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Hallucination — Causes and Mitigations",
+      "label": "Hallucination — Causes and Mitigations",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -324,6 +360,33 @@
       "degree": 1
     },
     {
+      "id": "Model Evaluation Metrics",
+      "label": "Model Evaluation Metrics",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 4
+    },
+    {
+      "id": "Model Quantization (INT4, INT8, GGUF)",
+      "label": "Model Quantization (INT4, INT8, GGUF)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Multimodal Models",
+      "label": "Multimodal Models",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Note Title",
       "label": "Note Title",
       "folder": null,
@@ -340,6 +403,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 2
+    },
+    {
+      "id": "Optimization — Convex vs Non-Convex",
+      "label": "Optimization — Convex vs Non-Convex",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "Performance Profiling (CPU, Memory, I/O)",
@@ -474,6 +546,15 @@
       "degree": 1
     },
     {
+      "id": "ReAct Prompting Pattern",
+      "label": "ReAct Prompting Pattern",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Real-Time Systems Design",
       "label": "Real-Time Systems Design",
       "folder": null,
@@ -481,6 +562,306 @@
       "excerpt": "",
       "tags": [],
       "degree": 2
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)",
+      "label": "Activation Functions (ReLU, GELU, Softmax)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Activation functions introduce nonlinear behavior into neural networks and shape how signals flow through layers. ReLU, GELU, sigmoid, tanh, and softmax each serve different roles in modern models.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 9
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Attention Mechanism — Self-Attention",
+      "label": "Attention Mechanism — Self-Attention",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Self-attention lets each token in a sequence dynamically read information from other tokens. It is the core mechanism that allows transformers to build contextual representations.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 10
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Backpropagation Explained",
+      "label": "Backpropagation Explained",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Backpropagation is the algorithm that computes gradients for neural network parameters efficiently. It applies the chain rule backward through the network so optimizers know how to reduce loss.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Batch Normalization and Layer Normalization",
+      "label": "Batch Normalization and Layer Normalization",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Batch normalization and layer normalization stabilize neural network training by normalizing intermediate activations. BatchNorm is common in CNNs, while LayerNorm is central to transformers and sequence models.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Chain-of-Thought Prompting",
+      "label": "Chain-of-Thought Prompting",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Chain-of-thought prompting encourages a model to work through intermediate reasoning steps before answering. It can improve complex task performance, but production systems often need concise hidden reasoning or structured scratchpads rather than verbose explanations.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Chunking Strategies for RAG",
+      "label": "Chunking Strategies for RAG",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Chunking strategies decide how documents are split before retrieval in RAG systems. Good chunks preserve enough context to answer questions while staying small enough for precise search and prompt budgets.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)",
+      "label": "Convolutional Neural Networks (CNNs)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Convolutional neural networks use learned filters to detect local spatial patterns in images and grid-like data. Their inductive bias makes them efficient for vision tasks such as classification, detection, and segmentation.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics",
+      "label": "Cosine Similarity and Distance Metrics",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Cosine similarity and distance metrics define how vector representations are compared. The metric choice affects semantic search, clustering, recommendations, and nearest-neighbor retrieval quality.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning",
+      "label": "Few-Shot and Zero-Shot Learning",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Few-shot and zero-shot learning describe a model's ability to perform tasks with little or no task-specific training data. In LLMs, these capabilities often come from prompting rather than updating model weights.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)",
+      "label": "Gradient Descent Variants (SGD, Adam, AdaGrad)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Gradient descent variants are optimization algorithms that update model parameters using gradients. SGD, AdaGrad, and Adam differ in how they use noise, learning history, momentum, and per-parameter step sizes.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 10
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Long Short-Term Memory (LSTM)",
+      "label": "Long Short-Term Memory (LSTM)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Long Short-Term Memory networks are recurrent models with gates that control what information is stored, forgotten, and emitted. They were a major solution to long-range dependency problems before transformers.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Loss Functions",
+      "label": "Loss Functions",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Loss functions define what a model is penalized for during training. They convert prediction errors into a scalar objective that optimization algorithms can minimize.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 10
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Multi-Head Attention",
+      "label": "Multi-Head Attention",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Multi-head attention runs several attention operations in parallel so a model can capture different relationships at once. Each head learns its own projections and contributes to the layer output.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Neural Network Fundamentals",
+      "label": "Neural Network Fundamentals",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Neural network fundamentals cover how layered mathematical models learn patterns by adjusting weights from data. The core ideas are neurons, parameters, activations, loss, backpropagation, and gradient-based optimization.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Positional Encoding",
+      "label": "Positional Encoding",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Positional encoding gives transformers information about token order. Because self-attention alone is permutation-insensitive, models need positional signals such as sinusoidal embeddings, learned positions, or RoPE.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Pre-training vs Fine-tuning",
+      "label": "Pre-training vs Fine-tuning",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Pre-training teaches a model broad statistical representations from large datasets, while fine-tuning adapts that model to narrower tasks or behaviors. The distinction explains why modern ML often starts from foundation models instead of training from scratch.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals",
+      "label": "Prompt Engineering Fundamentals",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Prompt engineering is the practice of structuring instructions, context, examples, and constraints so an LLM produces useful outputs. It is less about magic phrasing and more about clear task specification and feedback loops.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Recurrent Neural Networks (RNNs)",
+      "label": "Recurrent Neural Networks (RNNs)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Recurrent neural networks process sequences by carrying hidden state from one step to the next. They were historically important for language, speech, and time series before transformers became dominant.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Regularization (L1, L2, Dropout, Early Stopping)",
+      "label": "Regularization (L1, L2, Dropout, Early Stopping)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Regularization techniques reduce overfitting by constraining how a model learns from training data. L1, L2, dropout, data augmentation, and early stopping encourage better generalization.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)",
+      "label": "Retrieval-Augmented Generation (RAG)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Retrieval-Augmented Generation combines search with LLM generation by adding relevant external documents to the prompt. It helps models answer with current or private knowledge without retraining.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 11
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Tokenization — BPE, WordPiece, SentencePiece",
+      "label": "Tokenization — BPE, WordPiece, SentencePiece",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Tokenization converts raw text into model-readable token IDs. BPE, WordPiece, and SentencePiece use subword units so models can handle large vocabularies, rare words, and multilingual text.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Transfer Learning",
+      "label": "Transfer Learning",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Transfer learning reuses knowledge learned on one dataset or task to improve performance on another. It is the reason pre-trained models can be adapted efficiently to new domains with less data.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive",
+      "label": "Transformer Architecture Deep Dive",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Transformer architecture uses self-attention, feed-forward layers, residual connections, normalization, and positional information to model sequences in parallel. It is the foundation of modern large language models.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 14
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)",
+      "label": "Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Vector databases store embeddings and support fast nearest-neighbor search with metadata filtering. They are commonly used for semantic search, recommendations, and RAG systems.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Vector Embeddings — How They Work",
+      "label": "Vector Embeddings — How They Work",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Vector embeddings represent items such as text, images, users, or products as numerical vectors where distance captures semantic similarity. They make semantic search, clustering, recommendations, and RAG retrieval possible.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 9
     },
     {
       "id": "Resources/AI Workflow",
@@ -535,7 +916,7 @@
         "study",
         "ai"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Agent Security",
@@ -817,7 +1198,7 @@
         "study",
         "ai"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Formal Methods Agent Safety",
@@ -917,7 +1298,7 @@
         "bobby",
         "ai"
       ],
-      "degree": 14
+      "degree": 22
     },
     {
       "id": "Resources/MLOps and ML Engineering",
@@ -933,7 +1314,7 @@
         "system-design",
         "bobby"
       ],
-      "degree": 13
+      "degree": 18
     },
     {
       "id": "Resources/Mechanistic Interpretability",
@@ -946,7 +1327,7 @@
         "study",
         "ai"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Message Queues",
@@ -1069,7 +1450,7 @@
         "study",
         "ai"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Product Engineering",
@@ -1108,7 +1489,7 @@
         "resource",
         "bobby"
       ],
-      "degree": 5
+      "degree": 8
     },
     {
       "id": "Resources/RLHF and Alignment",
@@ -1121,7 +1502,7 @@
         "study",
         "ai"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/Rate Limiting",
@@ -1191,7 +1572,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Security",
@@ -1915,7 +2296,7 @@
         "study",
         "ai"
       ],
-      "degree": 7
+      "degree": 13
     },
     {
       "id": "Resources/Vault Structure",
@@ -1997,6 +2378,15 @@
       "degree": 1
     },
     {
+      "id": "Semantic Search vs Keyword Search",
+      "label": "Semantic Search vs Keyword Search",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
+    },
+    {
       "id": "Serverless Architecture",
       "label": "Serverless Architecture",
       "folder": null,
@@ -2006,6 +2396,15 @@
       "degree": 1
     },
     {
+      "id": "Speech Recognition (Whisper, Wav2Vec)",
+      "label": "Speech Recognition (Whisper, Wav2Vec)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
+    },
+    {
       "id": "Supply Chain Security",
       "label": "Supply Chain Security",
       "folder": null,
@@ -2013,6 +2412,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 2
+    },
+    {
+      "id": "Time Series Analysis",
+      "label": "Time Series Analysis",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "User Stories and Jobs to Be Done",
@@ -2031,6 +2439,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 5
+    },
+    {
+      "id": "Vision-Language Models",
+      "label": "Vision-Language Models",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
     },
     {
       "id": "Writing Good Documentation",
@@ -2268,6 +2685,506 @@
     {
       "source": "Projects/Shuckler",
       "target": "Areas/Pokemon Collection"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)",
+      "target": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)",
+      "target": "Resources/AI & Machine Learning/Loss Functions"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)",
+      "target": "Resources/AI & Machine Learning/Neural Network Fundamentals"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)",
+      "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)",
+      "target": "Resources/Transformer Architecture"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Attention Mechanism — Self-Attention",
+      "target": "Resources/AI & Machine Learning/Multi-Head Attention"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Attention Mechanism — Self-Attention",
+      "target": "Resources/AI & Machine Learning/Positional Encoding"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Attention Mechanism — Self-Attention",
+      "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Attention Mechanism — Self-Attention",
+      "target": "Resources/FlashAttention"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Attention Mechanism — Self-Attention",
+      "target": "Resources/Mechanistic Interpretability"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Backpropagation Explained",
+      "target": "Chain Rule (in Context of Backprop)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Backpropagation Explained",
+      "target": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Backpropagation Explained",
+      "target": "Resources/AI & Machine Learning/Loss Functions"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Backpropagation Explained",
+      "target": "Resources/AI & Machine Learning/Neural Network Fundamentals"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Backpropagation Explained",
+      "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Batch Normalization and Layer Normalization",
+      "target": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Batch Normalization and Layer Normalization",
+      "target": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Batch Normalization and Layer Normalization",
+      "target": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Batch Normalization and Layer Normalization",
+      "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Batch Normalization and Layer Normalization",
+      "target": "Resources/Transformer Architecture"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Chain-of-Thought Prompting",
+      "target": "ReAct Prompting Pattern"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Chain-of-Thought Prompting",
+      "target": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Chain-of-Thought Prompting",
+      "target": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Chain-of-Thought Prompting",
+      "target": "Resources/LLM System Design"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Chain-of-Thought Prompting",
+      "target": "Resources/Process Reward Models"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Chunking Strategies for RAG",
+      "target": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Chunking Strategies for RAG",
+      "target": "Resources/AI & Machine Learning/Tokenization — BPE, WordPiece, SentencePiece"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Chunking Strategies for RAG",
+      "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Chunking Strategies for RAG",
+      "target": "Resources/RAG and Bobby Vector Search"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Chunking Strategies for RAG",
+      "target": "Semantic Search vs Keyword Search"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)",
+      "target": "Multimodal Models"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)",
+      "target": "Resources/AI & Machine Learning/Batch Normalization and Layer Normalization"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)",
+      "target": "Resources/AI & Machine Learning/Neural Network Fundamentals"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)",
+      "target": "Resources/MLOps and ML Engineering"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)",
+      "target": "Vision-Language Models"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics",
+      "target": "Clustering Algorithms (K-Means, DBSCAN, Hierarchical)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics",
+      "target": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics",
+      "target": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics",
+      "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics",
+      "target": "Resources/Search Systems"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning",
+      "target": "Model Evaluation Metrics"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning",
+      "target": "Resources/AI & Machine Learning/Chain-of-Thought Prompting"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning",
+      "target": "Resources/AI & Machine Learning/Pre-training vs Fine-tuning"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning",
+      "target": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning",
+      "target": "Resources/LLM System Design"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)",
+      "target": "Optimization — Convex vs Non-Convex"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)",
+      "target": "Resources/AI & Machine Learning/Backpropagation Explained"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)",
+      "target": "Resources/AI & Machine Learning/Loss Functions"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)",
+      "target": "Resources/AI & Machine Learning/Regularization (L1, L2, Dropout, Early Stopping)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)",
+      "target": "Resources/MLOps and ML Engineering"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Long Short-Term Memory (LSTM)",
+      "target": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Long Short-Term Memory (LSTM)",
+      "target": "Resources/AI & Machine Learning/Attention Mechanism — Self-Attention"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Long Short-Term Memory (LSTM)",
+      "target": "Resources/AI & Machine Learning/Recurrent Neural Networks (RNNs)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Long Short-Term Memory (LSTM)",
+      "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Long Short-Term Memory (LSTM)",
+      "target": "Speech Recognition (Whisper, Wav2Vec)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Loss Functions",
+      "target": "Direct Preference Optimization (DPO)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Loss Functions",
+      "target": "Model Evaluation Metrics"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Loss Functions",
+      "target": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Loss Functions",
+      "target": "Resources/AI & Machine Learning/Backpropagation Explained"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Loss Functions",
+      "target": "Resources/RLHF and Alignment"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Multi-Head Attention",
+      "target": "Model Quantization (INT4, INT8, GGUF)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Multi-Head Attention",
+      "target": "Resources/AI & Machine Learning/Attention Mechanism — Self-Attention"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Multi-Head Attention",
+      "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Multi-Head Attention",
+      "target": "Resources/LLM System Design"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Multi-Head Attention",
+      "target": "Resources/Transformer Architecture"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Neural Network Fundamentals",
+      "target": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Neural Network Fundamentals",
+      "target": "Resources/AI & Machine Learning/Backpropagation Explained"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Neural Network Fundamentals",
+      "target": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Neural Network Fundamentals",
+      "target": "Resources/AI & Machine Learning/Loss Functions"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Neural Network Fundamentals",
+      "target": "Resources/MLOps and ML Engineering"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Positional Encoding",
+      "target": "Resources/AI & Machine Learning/Attention Mechanism — Self-Attention"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Positional Encoding",
+      "target": "Resources/AI & Machine Learning/Tokenization — BPE, WordPiece, SentencePiece"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Positional Encoding",
+      "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Positional Encoding",
+      "target": "Resources/LLM System Design"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Positional Encoding",
+      "target": "Resources/Transformer Architecture"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Pre-training vs Fine-tuning",
+      "target": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Pre-training vs Fine-tuning",
+      "target": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Pre-training vs Fine-tuning",
+      "target": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Pre-training vs Fine-tuning",
+      "target": "Resources/AI & Machine Learning/Transfer Learning"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Pre-training vs Fine-tuning",
+      "target": "Resources/RLHF and Alignment"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals",
+      "target": "Hallucination — Causes and Mitigations"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals",
+      "target": "Resources/AI & Machine Learning/Chain-of-Thought Prompting"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals",
+      "target": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals",
+      "target": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals",
+      "target": "Resources/LLM System Design"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Recurrent Neural Networks (RNNs)",
+      "target": "Resources/AI & Machine Learning/Attention Mechanism — Self-Attention"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Recurrent Neural Networks (RNNs)",
+      "target": "Resources/AI & Machine Learning/Long Short-Term Memory (LSTM)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Recurrent Neural Networks (RNNs)",
+      "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Recurrent Neural Networks (RNNs)",
+      "target": "Speech Recognition (Whisper, Wav2Vec)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Recurrent Neural Networks (RNNs)",
+      "target": "Time Series Analysis"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Regularization (L1, L2, Dropout, Early Stopping)",
+      "target": "Model Evaluation Metrics"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Regularization (L1, L2, Dropout, Early Stopping)",
+      "target": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Regularization (L1, L2, Dropout, Early Stopping)",
+      "target": "Resources/AI & Machine Learning/Loss Functions"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Regularization (L1, L2, Dropout, Early Stopping)",
+      "target": "Resources/AI & Machine Learning/Transfer Learning"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Regularization (L1, L2, Dropout, Early Stopping)",
+      "target": "Resources/MLOps and ML Engineering"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)",
+      "target": "Resources/AI & Machine Learning/Chunking Strategies for RAG"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)",
+      "target": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)",
+      "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)",
+      "target": "Resources/LLM System Design"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)",
+      "target": "Resources/RAG and Bobby Vector Search"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Tokenization — BPE, WordPiece, SentencePiece",
+      "target": "Resources/AI & Machine Learning/Chunking Strategies for RAG"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Tokenization — BPE, WordPiece, SentencePiece",
+      "target": "Resources/AI & Machine Learning/Positional Encoding"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Tokenization — BPE, WordPiece, SentencePiece",
+      "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Tokenization — BPE, WordPiece, SentencePiece",
+      "target": "Resources/LLM System Design"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Tokenization — BPE, WordPiece, SentencePiece",
+      "target": "Resources/Transformer Architecture"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Transfer Learning",
+      "target": "Model Evaluation Metrics"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Transfer Learning",
+      "target": "Resources/AI & Machine Learning/Pre-training vs Fine-tuning"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Transfer Learning",
+      "target": "Resources/AI & Machine Learning/Regularization (L1, L2, Dropout, Early Stopping)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Transfer Learning",
+      "target": "Resources/MLOps and ML Engineering"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Transfer Learning",
+      "target": "Vision-Language Models"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive",
+      "target": "Resources/AI & Machine Learning/Attention Mechanism — Self-Attention"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive",
+      "target": "Resources/AI & Machine Learning/Multi-Head Attention"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive",
+      "target": "Resources/AI & Machine Learning/Positional Encoding"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive",
+      "target": "Resources/LLM System Design"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive",
+      "target": "Resources/Transformer Architecture"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)",
+      "target": "Resources/AI & Machine Learning/Chunking Strategies for RAG"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)",
+      "target": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)",
+      "target": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)",
+      "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)",
+      "target": "Resources/RAG and Bobby Vector Search"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Vector Embeddings — How They Work",
+      "target": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Vector Embeddings — How They Work",
+      "target": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Vector Embeddings — How They Work",
+      "target": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Vector Embeddings — How They Work",
+      "target": "Resources/Agent Memory"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Vector Embeddings — How They Work",
+      "target": "Semantic Search vs Keyword Search"
     },
     {
       "source": "Resources/API Design",
@@ -4206,5 +5123,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-25T18:58:21Z"
+  "generated_at": "2026-05-25T19:08:20Z"
 }
