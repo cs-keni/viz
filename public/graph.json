@@ -5,6 +5,13 @@
       "label": "Dev Setup",
       "folder": "Areas",
       "created": "2026-05-19",
+      "excerpt": "Dev Setup My complete development environment as of May 2026. OS & Shell - OS: Windows 11 with WSL2 (Ubuntu-based distro) - Shell: zsh - Terminal: Windows Terminal Python - Manager: miniconda -…",
+      "tags": [
+        "area",
+        "dev",
+        "environment",
+        "wsl2"
+      ],
       "degree": 5
     },
     {
@@ -12,6 +19,11 @@
       "label": "Gaming",
       "folder": "Areas",
       "created": "2026-05-19",
+      "excerpt": "Gaming Games I play, their current status, and notes on each. Active Games League of Legends - Status: Casual — playing with friends - Notes: Used to grind ranked. Now it's a hangout activity — hop…",
+      "tags": [
+        "area",
+        "gaming"
+      ],
       "degree": 3
     },
     {
@@ -19,6 +31,12 @@
       "label": "Job Search",
       "folder": "Areas",
       "created": "2026-05-19",
+      "excerpt": "Job Search Active new grad SWE job search — May 2026. BS Computer Science, University of Oregon, Winter 2026 (Dean's List). What I'm Looking For - Role: Full-stack or backend SWE (new grad / junior…",
+      "tags": [
+        "area",
+        "job-search",
+        "career"
+      ],
       "degree": 9
     },
     {
@@ -26,6 +44,13 @@
       "label": "Pokemon Collection",
       "folder": "Areas",
       "created": "2026-05-19",
+      "excerpt": "Pokémon Collection Notes on my Pokémon TCG collection — pulls, acquisitions, trades, and the ongoing hunt. Favorite Card Shuckle-GX — Lost Thunder 215/214 (Secret Rare) The full-art secret rare. One…",
+      "tags": [
+        "area",
+        "pokemon",
+        "tcg",
+        "collection"
+      ],
       "degree": 3
     },
     {
@@ -33,6 +58,10 @@
       "label": "2026-05-19",
       "folder": "Daily Notes",
       "created": "2026-05-19",
+      "excerpt": "2026-05-19 Session 1 Topics covered - Bootstrapped the entire Obsidian vault from scratch - Learned what Obsidian is, what it can and can't do, and the right workflow for this setup - Discussed the…",
+      "tags": [
+        "daily"
+      ],
       "degree": 4
     },
     {
@@ -40,6 +69,10 @@
       "label": "2026-05-21",
       "folder": "Daily Notes",
       "created": "2026-05-21",
+      "excerpt": "Session 1 Topics covered - Caching at a system design and low level - Databases deep dive: SQL, NoSQL, PostgreSQL, indexing, query planning, N+1, connection pooling What was learned or decided -…",
+      "tags": [
+        "daily"
+      ],
       "degree": 0
     },
     {
@@ -47,6 +80,10 @@
       "label": "2026-05-22",
       "folder": "Daily Notes",
       "created": "2026-05-22",
+      "excerpt": "Session 1 Topics covered - Transformer architecture internals — full deep dive from tokenization through KV cache and modern improvements - FlashAttention — GPU memory hierarchy, tiling algorithm,…",
+      "tags": [
+        "daily"
+      ],
       "degree": 0
     },
     {
@@ -54,6 +91,10 @@
       "label": "2026-05-24",
       "folder": "Daily Notes",
       "created": "2026-05-24",
+      "excerpt": "Session 1 Topics covered - Looked through the vault to identify natural next learning directions based on existing notes and recent study momentum. - Discussed MLOps / ML Engineering as the next…",
+      "tags": [
+        "daily"
+      ],
       "degree": 0
     },
     {
@@ -61,6 +102,12 @@
       "label": "Bobby",
       "folder": "Maps",
       "created": "2026-05-19",
+      "excerpt": "Bobby Everything related to the Bobby personal AI voice assistant project. Core Docs - Projects/Bobby — full project overview, phase history, open questions - Resources/Bobby Commands — cheat sheet…",
+      "tags": [
+        "map",
+        "bobby",
+        "ai"
+      ],
       "degree": 10
     },
     {
@@ -68,6 +115,11 @@
       "label": "Engineering",
       "folder": "Maps",
       "created": "2026-05-19",
+      "excerpt": "Engineering MOC for all software and development content. Projects - Projects/Bobby — personal AI voice assistant (Python, Claude API, ChromaDB) - Projects/Backlog — AI-powered job search platform…",
+      "tags": [
+        "map",
+        "engineering"
+      ],
       "degree": 12
     },
     {
@@ -75,6 +127,11 @@
       "label": "Gaming",
       "folder": "Maps",
       "created": "2026-05-19",
+      "excerpt": "Gaming MOC for games and gaming-adjacent content. Notes - Areas/Gaming — active games, status per game, Nuzlocke history log - Areas/Pokemon Collection — TCG collection, Shuckle-GX, Japan trip,…",
+      "tags": [
+        "map",
+        "gaming"
+      ],
       "degree": 3
     },
     {
@@ -82,6 +139,11 @@
       "label": "Home",
       "folder": "Maps",
       "created": "2026-05-19",
+      "excerpt": "Home Welcome to Kenny's personal knowledge vault — a second brain for engineering work, job hunting, gaming, and the Bobby AI project. Everything here is meant to be useful, not decorative. Maps…",
+      "tags": [
+        "map",
+        "home"
+      ],
       "degree": 9
     },
     {
@@ -89,6 +151,12 @@
       "label": "Job Search",
       "folder": "Maps",
       "created": "2026-05-19",
+      "excerpt": "Job Search MOC for the new grad SWE job hunt (May 2026 cohort). Core Notes - Areas/Job Search — application tracker (Kanban), target companies, strategy - Resources/DSA Practice — patterns, tricks,…",
+      "tags": [
+        "map",
+        "job-search",
+        "career"
+      ],
       "degree": 4
     },
     {
@@ -96,6 +164,8 @@
       "label": "Note Title",
       "folder": null,
       "created": null,
+      "excerpt": "",
+      "tags": [],
       "degree": 1
     },
     {
@@ -103,6 +173,14 @@
       "label": "Backlog",
       "folder": "Projects",
       "created": "2026-05-19",
+      "excerpt": "Backlog Backlog is a full-stack job search platform for new grad SWEs who want a timing advantage — see job postings the moment they go live, before the hundreds-of-applicants wave arrives. Why I…",
+      "tags": [
+        "project",
+        "full-stack",
+        "job-search",
+        "nextjs",
+        "supabase"
+      ],
       "degree": 9
     },
     {
@@ -110,6 +188,13 @@
       "label": "Bobby",
       "folder": "Projects",
       "created": "2026-05-19",
+      "excerpt": "Bobby Bobby is my personal AI voice assistant — an always-on local agent that knows my context, controls my OS, and gets smarter over time. Built because every existing assistant is too generic, too…",
+      "tags": [
+        "project",
+        "ai",
+        "python",
+        "voice-assistant"
+      ],
       "degree": 17
     },
     {
@@ -117,6 +202,11 @@
       "label": "Bobby Brain Viz",
       "folder": "Projects",
       "created": "2026-05-24",
+      "excerpt": "Bobby Brain Viz A live 3D knowledge graph visualizer for this vault — hosted publicly so it can be embedded in Kenny's eportfolio and viewed on mobile. The goal is to show Bobby growing: a visual of…",
+      "tags": [
+        "project",
+        "bobby"
+      ],
       "degree": 2
     },
     {
@@ -124,6 +214,15 @@
       "label": "Klip",
       "folder": "Projects",
       "created": "2026-05-19",
+      "excerpt": "Klip Klip is an Electron desktop video editor built for turning OBS recordings into YouTube-ready content quickly — without the overhead of Premiere or DaVinci Resolve. Context I record OBS clips and…",
+      "tags": [
+        "project",
+        "desktop",
+        "electron",
+        "video",
+        "react",
+        "typescript"
+      ],
       "degree": 2
     },
     {
@@ -131,6 +230,14 @@
       "label": "Onsite",
       "folder": "Projects",
       "created": "2026-05-19",
+      "excerpt": "Onsite Onsite is a technical interview simulation platform — practice interviews that feel like the real thing, with a live coding environment, a conversational AI interviewer, and a substantive…",
+      "tags": [
+        "project",
+        "interview-prep",
+        "react",
+        "python",
+        "fastapi"
+      ],
       "degree": 6
     },
     {
@@ -138,6 +245,14 @@
       "label": "Shuckler",
       "folder": "Projects",
       "created": "2026-05-19",
+      "excerpt": "Shuckler Shuckler is an Android music app for playing and managing music that streaming services don't carry — especially niche J-pop, K-pop, V-pop, C-pop, and other tracks that Spotify and Apple…",
+      "tags": [
+        "project",
+        "android",
+        "kotlin",
+        "music",
+        "jetpack-compose"
+      ],
       "degree": 2
     },
     {
@@ -145,6 +260,14 @@
       "label": "AI Workflow",
       "folder": "Resources",
       "created": "2026-05-19",
+      "excerpt": "AI Workflow My multi-model AI development workflow as of May 2026. Model Roster | Model | Tool | Role | |---|---|---| | Claude Sonnet 4.6 | Claude Code (CLI) | Default — implementation, debugging,…",
+      "tags": [
+        "resource",
+        "ai",
+        "workflow",
+        "claude",
+        "codex"
+      ],
       "degree": 6
     },
     {
@@ -152,6 +275,13 @@
       "label": "API Design",
       "folder": "Resources",
       "created": "2026-05-21",
+      "excerpt": "API Design Deep reference on API design — REST principles, HTTP semantics, idempotency, pagination, versioning, auth, real-time patterns, and SOAP. Companion to Resources/System Design Notes and…",
+      "tags": [
+        "resource",
+        "system-design",
+        "study",
+        "interview-prep"
+      ],
       "degree": 9
     },
     {
@@ -159,6 +289,12 @@
       "label": "Agent Evaluation",
       "folder": "Resources",
       "created": "2026-05-22",
+      "excerpt": "Agent Evaluation How we measure whether agents are capable and safe — both pre-deployment and in production. Why Agent Evaluation Is Harder Than LLM Evaluation Static LLM eval: give it a question,…",
+      "tags": [
+        "resource",
+        "study",
+        "ai"
+      ],
       "degree": 12
     },
     {
@@ -166,6 +302,12 @@
       "label": "Agent Memory",
       "folder": "Resources",
       "created": "2026-05-22",
+      "excerpt": "Agent Memory Architectures The context window is working memory — fast, immediately accessible, finite, and ephemeral. Real agents need more. Memory architecture is the design of what an agent…",
+      "tags": [
+        "resource",
+        "study",
+        "ai"
+      ],
       "degree": 5
     },
     {
@@ -173,6 +315,15 @@
       "label": "Agent Security",
       "folder": "Resources",
       "created": "2026-05-24",
+      "excerpt": "Agent Security Agent security is the discipline of safely building AI systems that can use tools, access memory, retrieve private context, and take actions. A chatbot answers. An agent acts.…",
+      "tags": [
+        "resource",
+        "ai",
+        "agents",
+        "security",
+        "bobby",
+        "mlops"
+      ],
       "degree": 11
     },
     {
@@ -180,6 +331,13 @@
       "label": "Bobby Commands",
       "folder": "Resources",
       "created": "2026-05-19",
+      "excerpt": "Bobby Commands Cheat sheet for all working Bobby voice commands as of Phase 11A. Working Commands App Control | Command | What it does | |---|---| | | Launches the named app via pywinauto; app name…",
+      "tags": [
+        "resource",
+        "bobby",
+        "reference",
+        "commands"
+      ],
       "degree": 3
     },
     {
@@ -187,6 +345,14 @@
       "label": "Bobby Memory Architecture",
       "folder": "Resources",
       "created": "2026-05-19",
+      "excerpt": "Bobby Memory Architecture How Bobby stores and retrieves information across sessions. Three layers, used in order from fastest to richest. Overview ```sentence-transformers\"remember that…",
+      "tags": [
+        "resource",
+        "bobby",
+        "architecture",
+        "memory",
+        "chromadb"
+      ],
       "degree": 8
     },
     {
@@ -194,6 +360,12 @@
       "label": "CI CD",
       "folder": "Resources",
       "created": "2026-05-22",
+      "excerpt": "CI/CD Continuous Integration and Continuous Delivery/Deployment. The practice of automatically building, testing, and deploying code on every change — compressing the gap between \"code written\" and…",
+      "tags": [
+        "resource",
+        "study",
+        "systems"
+      ],
       "degree": 8
     },
     {
@@ -201,6 +373,13 @@
       "label": "Caching",
       "folder": "Resources",
       "created": "2026-05-21",
+      "excerpt": "Caching Deep reference on caching — how it works, where it lives, what breaks it, and how Redis fits in. Companion to Resources/System Design Notes. The Core Trade-off Every caching decision trades…",
+      "tags": [
+        "resource",
+        "system-design",
+        "study",
+        "interview-prep"
+      ],
       "degree": 10
     },
     {
@@ -208,6 +387,12 @@
       "label": "Claude Code Skills",
       "folder": "Resources",
       "created": "2026-05-22",
+      "excerpt": "Claude Code Skills How Claude Code skills work under the hood — what they are, how gstack was built, and how to make your own. Related: Resources/AI Workflow. --- What Skills Actually Are Skills are…",
+      "tags": [
+        "resource",
+        "ai-tooling",
+        "bobby"
+      ],
       "degree": 1
     },
     {
@@ -215,6 +400,12 @@
       "label": "Cloud Cost Optimization",
       "folder": "Resources",
       "created": "2026-05-22",
+      "excerpt": "Cloud Cost Optimization Cloud cost optimization is about matching resource capacity to actual demand and choosing the right pricing model for each access pattern. The biggest lever is almost always…",
+      "tags": [
+        "resource",
+        "study",
+        "systems"
+      ],
       "degree": 5
     },
     {
@@ -222,6 +413,12 @@
       "label": "Cloud Networking",
       "folder": "Resources",
       "created": "2026-05-22",
+      "excerpt": "Cloud Networking How cloud providers implement virtual networks — VPCs, routing between them, and connecting to the outside world. Builds on Resources/Networking fundamentals (IP, routing, TCP). VPC…",
+      "tags": [
+        "resource",
+        "study",
+        "systems"
+      ],
       "degree": 6
     },
     {
@@ -229,6 +426,12 @@
       "label": "Cloud Services",
       "folder": "Resources",
       "created": "2026-05-22",
+      "excerpt": "Cloud Services (AWS and GCP) Cloud providers sell slices of their global infrastructure as pay-per-use services. AWS (2006, market leader), GCP (Google, best-in-class ML/data), Azure…",
+      "tags": [
+        "resource",
+        "study",
+        "systems"
+      ],
       "degree": 12
     },
     {
@@ -236,6 +439,14 @@
       "label": "DSA Practice",
       "folder": "Resources",
       "created": "2026-05-19",
+      "excerpt": "DSA Practice Patterns, tricks, and study notes for technical interviews. Organized by category. Spaced Repetition Using SM-2-inspired review — also built into Projects/Backlog's DSA tracker. Core…",
+      "tags": [
+        "resource",
+        "dsa",
+        "algorithms",
+        "study",
+        "interview-prep"
+      ],
       "degree": 8
     },
     {
@@ -243,6 +454,12 @@
       "label": "Data Engineering",
       "folder": "Resources",
       "created": "2026-05-22",
+      "excerpt": "Data Engineering Building pipelines that move, transform, and store data reliably — making raw data usable for analytics, ML, and business intelligence. The discipline between operational systems…",
+      "tags": [
+        "resource",
+        "study",
+        "systems"
+      ],
       "degree": 5
     },
     {
@@ -250,6 +467,14 @@
       "label": "Data Structures and Algorithms Patterns",
       "folder": "Resources",
       "created": "2026-05-24",
+      "excerpt": "Data Structures and Algorithms Patterns Data structures and algorithms are not about memorizing isolated LeetCode answers. They are about recognizing the shape of a problem, choosing the right…",
+      "tags": [
+        "resource",
+        "dsa",
+        "leetcode",
+        "neetcode",
+        "interview-prep"
+      ],
       "degree": 6
     },
     {
@@ -257,6 +482,14 @@
       "label": "Database Internals Deep Dive",
       "folder": "Resources",
       "created": "2026-05-24",
+      "excerpt": "Database Internals Deep Dive Database internals explain how databases preserve correctness while serving concurrent reads/writes, surviving crashes, and staying fast under scale. The more serious the…",
+      "tags": [
+        "resource",
+        "databases",
+        "postgres",
+        "internals",
+        "system-design"
+      ],
       "degree": 6
     },
     {
@@ -264,6 +497,13 @@
       "label": "Databases",
       "folder": "Resources",
       "created": "2026-05-21",
+      "excerpt": "Databases Deep reference on databases — how they physically work, SQL vs NoSQL, PostgreSQL specifics, indexing, query planning, and common pitfalls. Companion to Resources/System Design Notes and…",
+      "tags": [
+        "resource",
+        "system-design",
+        "study",
+        "interview-prep"
+      ],
       "degree": 12
     },
     {
@@ -271,6 +511,13 @@
       "label": "Distributed Systems",
       "folder": "Resources",
       "created": "2026-05-21",
+      "excerpt": "Distributed Systems Fundamentals Deep reference on distributed systems — why they're hard, consistency models, replication, consensus (Raft), distributed transactions, clocks, and failure detection.…",
+      "tags": [
+        "resource",
+        "system-design",
+        "study",
+        "interview-prep"
+      ],
       "degree": 10
     },
     {
@@ -278,6 +525,12 @@
       "label": "Docker",
       "folder": "Resources",
       "created": "2026-05-22",
+      "excerpt": "Docker Docker packages applications into containers — isolated, reproducible environments that run consistently anywhere. Containers are not VMs: they share the host kernel, using Linux namespaces…",
+      "tags": [
+        "resource",
+        "study",
+        "systems"
+      ],
       "degree": 7
     },
     {
@@ -285,6 +538,14 @@
       "label": "Dynamic Programming Deep Dive",
       "folder": "Resources",
       "created": "2026-05-24",
+      "excerpt": "Dynamic Programming Deep Dive Dynamic programming is cached recursion over overlapping subproblems. It is not a magic category of formulas. It is a way to avoid recomputing the same decision state…",
+      "tags": [
+        "resource",
+        "dsa",
+        "dynamic-programming",
+        "leetcode",
+        "interview-prep"
+      ],
       "degree": 3
     },
     {
@@ -292,6 +553,14 @@
       "label": "Economics and Personal Finance",
       "folder": "Resources",
       "created": "2026-05-24",
+      "excerpt": "Economics and Personal Finance Economics is the study of incentives, scarcity, tradeoffs, and coordination. Personal finance is applying those ideas to your own life so money becomes a tool instead…",
+      "tags": [
+        "resource",
+        "economics",
+        "personal-finance",
+        "career",
+        "life"
+      ],
       "degree": 4
     },
     {
@@ -299,6 +568,15 @@
       "label": "Engineering Judgment and Tool Tradeoffs",
       "folder": "Resources",
       "created": "2026-05-24",
+      "excerpt": "Engineering Judgment and Tool Tradeoffs Moving beyond junior engineering is less about knowing more tool names and more about knowing when a tool fits, when it fails, and what tradeoff is accepted by…",
+      "tags": [
+        "resource",
+        "engineering",
+        "system-design",
+        "architecture",
+        "tradeoffs",
+        "interview-prep"
+      ],
       "degree": 21
     },
     {
@@ -306,6 +584,12 @@
       "label": "FlashAttention",
       "folder": "Resources",
       "created": "2026-05-22",
+      "excerpt": "FlashAttention FlashAttention (Dao et al., 2022) is why we can have 128k-context models. The insight: the bottleneck in attention isn't compute — it's memory bandwidth. The GPU Memory Hierarchy…",
+      "tags": [
+        "resource",
+        "study",
+        "ai"
+      ],
       "degree": 3
     },
     {
@@ -313,6 +597,12 @@
       "label": "Formal Methods Agent Safety",
       "folder": "Resources",
       "created": "2026-05-22",
+      "excerpt": "Formal Methods for Agent Safety Formal methods use mathematically rigorous techniques to prove properties about systems — not just \"we tested it a lot\" but \"we proved it.\" The challenge: classical…",
+      "tags": [
+        "resource",
+        "study",
+        "ai"
+      ],
       "degree": 6
     },
     {
@@ -320,6 +610,13 @@
       "label": "Geospatial",
       "folder": "Resources",
       "created": "2026-05-22",
+      "excerpt": "Geospatial Systems Deep reference on spatial data structures and proximity system design: geohashing, quadtrees, S2 geometry, Yelp-like proximity search, Uber-like live driver matching, and map tile…",
+      "tags": [
+        "resource",
+        "system-design",
+        "study",
+        "interview-prep"
+      ],
       "degree": 4
     },
     {
@@ -327,6 +624,12 @@
       "label": "IaaS PaaS SaaS",
       "folder": "Resources",
       "created": "2026-05-22",
+      "excerpt": "IaaS, PaaS, SaaS Service models that describe how much of the stack the provider owns vs how much you own. ```apt install`, you're in IaaS territory. PaaS (Platform as a Service) Deploy application…",
+      "tags": [
+        "resource",
+        "study",
+        "systems"
+      ],
       "degree": 4
     },
     {
@@ -334,6 +637,14 @@
       "label": "Interview Communication",
       "folder": "Resources",
       "created": "2026-05-24",
+      "excerpt": "Interview Communication Interview communication is the ability to make your thinking easy to evaluate. It is not about sounding rehearsed. It is about being structured, concrete, and honest under…",
+      "tags": [
+        "resource",
+        "interview-prep",
+        "career",
+        "communication",
+        "job-search"
+      ],
       "degree": 9
     },
     {
@@ -341,6 +652,12 @@
       "label": "Kubernetes",
       "folder": "Resources",
       "created": "2026-05-22",
+      "excerpt": "Kubernetes Kubernetes (k8s) is a container orchestration system. It answers: \"I have N containers to run across M machines — which machine runs which container? What happens when a container crashes?…",
+      "tags": [
+        "resource",
+        "study",
+        "systems"
+      ],
       "degree": 11
     },
     {
@@ -348,6 +665,15 @@
       "label": "LLM Capabilities and AI Ethics",
       "folder": "Resources",
       "created": "2026-05-24",
+      "excerpt": "LLM Capabilities and AI Ethics Large language models are general-purpose language and reasoning engines trained to predict and generate text. In practice, that makes them feel like a super…",
+      "tags": [
+        "resource",
+        "ai",
+        "llm",
+        "ethics",
+        "philosophy",
+        "engineering"
+      ],
       "degree": 7
     },
     {
@@ -355,6 +681,15 @@
       "label": "LLM System Design",
       "folder": "Resources",
       "created": "2026-05-21",
+      "excerpt": "LLM System Design Deep reference on LLM application architecture — tokens, context windows, prompt caching, streaming, tool use, RAG, multi-agent systems, evals, and cost optimization. Directly…",
+      "tags": [
+        "resource",
+        "system-design",
+        "study",
+        "interview-prep",
+        "bobby",
+        "ai"
+      ],
       "degree": 13
     },
     {
@@ -362,6 +697,15 @@
       "label": "MLOps and ML Engineering",
       "folder": "Resources",
       "created": "2026-05-24",
+      "excerpt": "MLOps and ML Engineering MLOps is the discipline of making machine learning systems repeatable, deployable, monitorable, and improvable after they leave the notebook. ML engineering is the broader…",
+      "tags": [
+        "resource",
+        "ml",
+        "mlops",
+        "ai",
+        "system-design",
+        "bobby"
+      ],
       "degree": 13
     },
     {
@@ -369,6 +713,12 @@
       "label": "Mechanistic Interpretability",
       "folder": "Resources",
       "created": "2026-05-22",
+      "excerpt": "Mechanistic Interpretability The field of reverse-engineering trained neural networks to understand what algorithms they implement. Associated with Chris Olah (Anthropic), Neel Nanda (Google…",
+      "tags": [
+        "resource",
+        "study",
+        "ai"
+      ],
       "degree": 5
     },
     {
@@ -376,6 +726,13 @@
       "label": "Message Queues",
       "folder": "Resources",
       "created": "2026-05-21",
+      "excerpt": "Message Queues Deep reference on message queues — delivery guarantees, Kafka internals, SQS, RabbitMQ, messaging patterns, and backpressure. Companion to Resources/Distributed Systems and…",
+      "tags": [
+        "resource",
+        "system-design",
+        "study",
+        "interview-prep"
+      ],
       "degree": 9
     },
     {
@@ -383,6 +740,12 @@
       "label": "Multi-Agent RL",
       "folder": "Resources",
       "created": "2026-05-22",
+      "excerpt": "Multi-Agent Reinforcement Learning (MARL) RL where multiple agents operate in the same environment, each learning from their own experience while the environment includes other learning agents. The…",
+      "tags": [
+        "resource",
+        "study",
+        "ai"
+      ],
       "degree": 3
     },
     {
@@ -390,6 +753,12 @@
       "label": "Multi-Agent Systems",
       "folder": "Resources",
       "created": "2026-05-22",
+      "excerpt": "Multi-Agent Systems Multiple LLM agents interacting to solve problems that exceed what a single agent can do. Why Multi-Agent Single agents hit four limits: 1. Context window ceiling — complex tasks…",
+      "tags": [
+        "resource",
+        "study",
+        "ai"
+      ],
       "degree": 10
     },
     {
@@ -397,6 +766,13 @@
       "label": "Networking",
       "folder": "Resources",
       "created": "2026-05-21",
+      "excerpt": "Networking Fundamentals Deep reference on networking — OSI model, IP/NAT, TCP internals, UDP, DNS, TLS, HTTP/1.1 vs HTTP/2 vs HTTP/3 (QUIC), and load balancers. Companion to Resources/API Design and…",
+      "tags": [
+        "resource",
+        "system-design",
+        "study",
+        "interview-prep"
+      ],
       "degree": 8
     },
     {
@@ -404,6 +780,12 @@
       "label": "OS Fundamentals",
       "folder": "Resources",
       "created": "2026-05-22",
+      "excerpt": "OS Fundamentals The operating system is the software layer between your code and the hardware. Understanding it is what separates \"I ran a program\" from \"I know why this crashes under load.\"…",
+      "tags": [
+        "resource",
+        "study",
+        "systems"
+      ],
       "degree": 6
     },
     {
@@ -411,6 +793,13 @@
       "label": "Observability",
       "folder": "Resources",
       "created": "2026-05-21",
+      "excerpt": "Observability Deep reference on observability — the three pillars (logs, metrics, traces), OpenTelemetry, SLOs/error budgets, and the difference between monitoring and observability. Companion to…",
+      "tags": [
+        "resource",
+        "system-design",
+        "study",
+        "interview-prep"
+      ],
       "degree": 8
     },
     {
@@ -418,6 +807,14 @@
       "label": "Observability Case Studies",
       "folder": "Resources",
       "created": "2026-05-24",
+      "excerpt": "Observability Case Studies Observability is the ability to understand what a system is doing from the outside. Monitoring tells you something is wrong. Observability helps you ask new questions when…",
+      "tags": [
+        "resource",
+        "observability",
+        "production",
+        "debugging",
+        "system-design"
+      ],
       "degree": 5
     },
     {
@@ -425,6 +822,12 @@
       "label": "Process Reward Models",
       "folder": "Resources",
       "created": "2026-05-22",
+      "excerpt": "Process Reward Models Standard RLHF uses Outcome Reward Models (ORMs) — one reward signal for the entire final response. PRMs assign a reward to each step in a reasoning chain. The Credit Assignment…",
+      "tags": [
+        "resource",
+        "study",
+        "ai"
+      ],
       "degree": 5
     },
     {
@@ -432,6 +835,14 @@
       "label": "Product Engineering",
       "folder": "Resources",
       "created": "2026-05-24",
+      "excerpt": "Product Engineering Product engineering is the craft of building software that actually changes user behavior. It is where technical skill meets user value. The core question is not:…",
+      "tags": [
+        "resource",
+        "product",
+        "engineering",
+        "startups",
+        "projects"
+      ],
       "degree": 7
     },
     {
@@ -439,6 +850,11 @@
       "label": "RAG and Bobby Vector Search",
       "folder": "Resources",
       "created": "2026-05-21",
+      "excerpt": "RAG and Bobby Vector Search What RAG Is RAG (Retrieval-Augmented Generation) is a methodology for giving LLMs access to external knowledge at inference time. Instead of relying on training data…",
+      "tags": [
+        "resource",
+        "bobby"
+      ],
       "degree": 5
     },
     {
@@ -446,6 +862,12 @@
       "label": "RLHF and Alignment",
       "folder": "Resources",
       "created": "2026-05-22",
+      "excerpt": "RLHF and Alignment How you turn a next-token predictor into a model that's helpful, harmless, and honest. The Problem A pretrained LLM predicts statistically likely internet text. This is not the…",
+      "tags": [
+        "resource",
+        "study",
+        "ai"
+      ],
       "degree": 10
     },
     {
@@ -453,6 +875,13 @@
       "label": "Rate Limiting",
       "folder": "Resources",
       "created": "2026-05-22",
+      "excerpt": "Rate Limiting Deep reference on rate limiting algorithms, distributed enforcement, and production patterns. Companion to Resources/Scaling, Resources/System Design Notes, and Resources/API Design.…",
+      "tags": [
+        "resource",
+        "system-design",
+        "study",
+        "interview-prep"
+      ],
       "degree": 3
     },
     {
@@ -460,6 +889,13 @@
       "label": "VanossGaming - Dewit",
       "folder": "Resources",
       "created": "2026-05-19",
+      "excerpt": "VanossGaming - Dewit Source: YouTube clip at 0:53 Reference: Tyler says \"Dewit\", meaning \"Do it.\" Use this when Kenny says \"Dewit\" as a compressed/memey version of \"Do it.\" This reference comes from…",
+      "tags": [
+        "resource",
+        "references",
+        "youtube",
+        "vanossgaming"
+      ],
       "degree": 3
     },
     {
@@ -467,6 +903,13 @@
       "label": "VanossGaming - Oh I Have a Boner",
       "folder": "Resources",
       "created": "2026-05-19",
+      "excerpt": "VanossGaming - Oh I Have a Boner Source: YouTube clip at 3:13 Reference: Nogla says \"Oh, I'm getting my bow and arrow\", but slurs it so it sounds like \"Oh, I have a boner.\" Context: Evan drank an…",
+      "tags": [
+        "resource",
+        "references",
+        "youtube",
+        "vanossgaming"
+      ],
       "degree": 3
     },
     {
@@ -474,6 +917,13 @@
       "label": "Scaling",
       "folder": "Resources",
       "created": "2026-05-22",
+      "excerpt": "Scaling Systems Deep reference on scaling strategies — vertical vs. horizontal, sharding (range, hash, consistent hashing, directory-based), replication, and tail latency mitigation. Companion to…",
+      "tags": [
+        "resource",
+        "system-design",
+        "study",
+        "interview-prep"
+      ],
       "degree": 9
     },
     {
@@ -481,6 +931,13 @@
       "label": "Search Systems",
       "folder": "Resources",
       "created": "2026-05-22",
+      "excerpt": "Search Systems Deep reference on full-text search: inverted indexes, BM25, Elasticsearch internals, autocomplete design, and vector/hybrid search. Companion to Resources/Databases, Resources/Scaling,…",
+      "tags": [
+        "resource",
+        "system-design",
+        "study",
+        "interview-prep"
+      ],
       "degree": 4
     },
     {
@@ -488,6 +945,13 @@
       "label": "Security",
       "folder": "Resources",
       "created": "2026-05-21",
+      "excerpt": "Security Basics Deep reference on web application security — threat modeling, auth patterns, OWASP Top 10, common vulnerabilities, secrets management, and security headers. Companion to Resources/API…",
+      "tags": [
+        "resource",
+        "system-design",
+        "study",
+        "interview-prep"
+      ],
       "degree": 7
     },
     {
@@ -495,6 +959,14 @@
       "label": "Security Deep Dive",
       "folder": "Resources",
       "created": "2026-05-24",
+      "excerpt": "Security Deep Dive Security is not a checklist of scary acronyms. It is adversarial engineering: assume someone will use the system in ways you did not intend, then reduce the blast radius. The core…",
+      "tags": [
+        "resource",
+        "security",
+        "system-design",
+        "engineering",
+        "interview-prep"
+      ],
       "degree": 6
     },
     {
@@ -502,6 +974,13 @@
       "label": "Software Architecture",
       "folder": "Resources",
       "created": "2026-05-24",
+      "excerpt": "Software Architecture Software architecture is the discipline of organizing code and system boundaries so change remains cheap. It is not about making diagrams impressive. It is about deciding where…",
+      "tags": [
+        "resource",
+        "architecture",
+        "engineering",
+        "system-design"
+      ],
       "degree": 5
     },
     {
@@ -509,6 +988,11 @@
       "label": "Software Engineering Tools",
       "folder": "Resources",
       "created": "2026-05-23",
+      "excerpt": "Software Engineering Tools Landscape A survey of the tools engineers encounter across the full stack of a modern team. Organized by category. Assumes familiarity with Jira and agile workflows. Design…",
+      "tags": [
+        "resource",
+        "study"
+      ],
       "degree": 0
     },
     {
@@ -516,6 +1000,13 @@
       "label": "System Design Case Studies",
       "folder": "Resources",
       "created": "2026-05-24",
+      "excerpt": "System Design Case Studies System design case studies are where component knowledge turns into engineering judgment. Notes about Redis, Kafka, Postgres, caches, queues, search, and geospatial indexes…",
+      "tags": [
+        "resource",
+        "system-design",
+        "architecture",
+        "interview-prep"
+      ],
       "degree": 11
     },
     {
@@ -523,6 +1014,13 @@
       "label": "System Design Notes",
       "folder": "Resources",
       "created": "2026-05-19",
+      "excerpt": "System Design Notes Ongoing notes on system design concepts studied for new grad SWE interviews. Updated as I learn and review. Scalability - Vertical scaling (bigger machine) hits hardware limits…",
+      "tags": [
+        "resource",
+        "system-design",
+        "study",
+        "interview-prep"
+      ],
       "degree": 17
     },
     {
@@ -530,6 +1028,14 @@
       "label": "Testing Strategy",
       "folder": "Resources",
       "created": "2026-05-24",
+      "excerpt": "Testing Strategy Testing is how engineers buy confidence. It does not prove a system is perfect; it reduces the chance of important regressions at acceptable maintenance cost. The useful question is…",
+      "tags": [
+        "resource",
+        "testing",
+        "engineering",
+        "quality",
+        "interview-prep"
+      ],
       "degree": 9
     },
     {
@@ -537,6 +1043,12 @@
       "label": "Transformer Architecture",
       "folder": "Resources",
       "created": "2026-05-22",
+      "excerpt": "Transformer Architecture The transformer (Vaswani et al., 2017) replaced sequential RNNs with a single insight: every token should directly attend to every other token simultaneously. Everything else…",
+      "tags": [
+        "resource",
+        "study",
+        "ai"
+      ],
       "degree": 7
     },
     {
@@ -544,6 +1056,12 @@
       "label": "Vault Structure",
       "folder": "Resources",
       "created": "2026-05-19",
+      "excerpt": "Vault Structure What each folder is for and what goes in it. Projects/ Work with a defined end. A project is something you're actively building or doing that will eventually be finished (or…",
+      "tags": [
+        "resource",
+        "obsidian",
+        "reference"
+      ],
       "degree": 2
     },
     {
@@ -551,6 +1069,13 @@
       "label": "WSL2 Setup",
       "folder": "Resources",
       "created": "2026-05-19",
+      "excerpt": "WSL2 Setup Reference note for WSL2 gotchas I've solved. Treated as a living document — updated each time I hit a new one. PortAudio / Audio in WSL2 Problem: returns 0. ALSA has no sound devices…",
+      "tags": [
+        "resource",
+        "wsl2",
+        "devops",
+        "reference"
+      ],
       "degree": 5
     },
     {
@@ -558,6 +1083,11 @@
       "label": "Web Animation",
       "folder": "Resources",
       "created": "2026-05-23",
+      "excerpt": "Web Animation for Engineers Animation in web development spans pure CSS, JavaScript libraries, designer-to-engineer pipelines, and 3D. The craft is learnable by engineers — the technical APIs are…",
+      "tags": [
+        "resource",
+        "study"
+      ],
       "degree": 0
     },
     {
@@ -565,6 +1095,12 @@
       "label": "What Is Obsidian",
       "folder": "Resources",
       "created": "2026-05-19",
+      "excerpt": "What Is Obsidian Obsidian is a local-first Markdown editor. Every note is a plain file on disk. Its one killer feature: bidirectional links — every is tracked, so Obsidian shows not just what a note…",
+      "tags": [
+        "resource",
+        "obsidian",
+        "pkm"
+      ],
       "degree": 6
     },
     {
@@ -572,6 +1108,8 @@
       "label": "VAULT_INDEX",
       "folder": null,
       "created": null,
+      "excerpt": "",
+      "tags": [],
       "degree": 5
     },
     {
@@ -579,6 +1117,8 @@
       "label": "wikilink",
       "folder": null,
       "created": null,
+      "excerpt": "",
+      "tags": [],
       "degree": 2
     }
   ],
@@ -1651,5 +2191,6 @@
       "source": "Resources/What Is Obsidian",
       "target": "wikilink"
     }
-  ]
+  ],
+  "generated_at": "2026-05-25T07:51:45Z"
 }
