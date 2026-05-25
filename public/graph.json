@@ -99,15 +99,6 @@
       "degree": 1
     },
     {
-      "id": "Bulkhead Pattern",
-      "label": "Bulkhead Pattern",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "CI/CD Pipeline Design",
       "label": "CD Pipeline Design",
       "folder": "CI",
@@ -135,8 +126,8 @@
       "degree": 2
     },
     {
-      "id": "Circuit Breaker Pattern",
-      "label": "Circuit Breaker Pattern",
+      "id": "Clustering Algorithms (K-Means, DBSCAN, Hierarchical)",
+      "label": "Clustering Algorithms (K-Means, DBSCAN, Hierarchical)",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -144,8 +135,8 @@
       "degree": 1
     },
     {
-      "id": "Clustering Algorithms (K-Means, DBSCAN, Hierarchical)",
-      "label": "Clustering Algorithms (K-Means, DBSCAN, Hierarchical)",
+      "id": "Consensus Algorithms (Raft, Paxos)",
+      "label": "Consensus Algorithms (Raft, Paxos)",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -160,6 +151,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 2
+    },
+    {
+      "id": "Content Delivery and Edge Computing",
+      "label": "Content Delivery and Edge Computing",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "Daily Notes/2026-05-19",
@@ -226,15 +226,6 @@
       "degree": 2
     },
     {
-      "id": "Database Replication",
-      "label": "Database Replication",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Design a Chat Application",
       "label": "Design a Chat Application",
       "folder": null,
@@ -246,15 +237,6 @@
     {
       "id": "Design a Notification System",
       "label": "Design a Notification System",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Distributed Transactions (2PC, Saga Pattern)",
-      "label": "Distributed Transactions (2PC, Saga Pattern)",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -289,15 +271,6 @@
       "degree": 1
     },
     {
-      "id": "Idempotency in Distributed Systems",
-      "label": "Idempotency in Distributed Systems",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
-    },
-    {
       "id": "Information Theory — Entropy, Cross-Entropy, KL Divergence",
       "label": "Information Theory — Entropy, Cross-Entropy, KL Divergence",
       "folder": null,
@@ -316,8 +289,8 @@
       "degree": 1
     },
     {
-      "id": "Local LLMs (Ollama, llama.cpp, LM Studio)",
-      "label": "Local LLMs (Ollama, llama.cpp, LM Studio)",
+      "id": "Leader Election",
+      "label": "Leader Election",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -385,15 +358,6 @@
         "career"
       ],
       "degree": 4
-    },
-    {
-      "id": "Message Queues (Kafka, RabbitMQ, SQS)",
-      "label": "Message Queues (Kafka, RabbitMQ, SQS)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
     },
     {
       "id": "Note Title",
@@ -552,7 +516,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "Real-Time Systems Design",
@@ -573,7 +537,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/AI & Machine Learning/AI Alignment Overview",
@@ -585,7 +549,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 10
+      "degree": 13
     },
     {
       "id": "Resources/AI & Machine Learning/AI Memory Architectures",
@@ -598,6 +562,18 @@
         "ai-ml"
       ],
       "degree": 7
+    },
+    {
+      "id": "Resources/AI & Machine Learning/AI Safety — Interpretability Research",
+      "label": "AI Safety — Interpretability Research",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "AI interpretability research tries to understand what neural networks represent internally and why they produce particular outputs. It supports safety by making model behavior less opaque and easier to audit.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 5
     },
     {
       "id": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)",
@@ -657,7 +633,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/AI & Machine Learning/Chain-of-Thought Prompting",
@@ -705,7 +681,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)",
@@ -753,7 +729,19 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 10
+      "degree": 11
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Emergent Abilities in Large Models",
+      "label": "Emergent Abilities in Large Models",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Emergent abilities are capabilities that appear suddenly or become measurable only after models reach sufficient scale. The concept is debated because some emergence reflects real phase changes, while some reflects metric and evaluation artifacts.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning",
@@ -765,7 +753,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/AI & Machine Learning/Generative Adversarial Networks (GANs)",
@@ -816,6 +804,18 @@
       "degree": 6
     },
     {
+      "id": "Resources/AI & Machine Learning/Local LLMs (Ollama, llama.cpp, LM Studio)",
+      "label": "Local LLMs (Ollama, llama.cpp, LM Studio)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Local LLMs run open-weight language models on personal or self-managed hardware using tools such as Ollama, llama.cpp, and LM Studio. They trade frontier-model quality for privacy, offline use, customization, and cost control.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 6
+    },
+    {
       "id": "Resources/AI & Machine Learning/Long Short-Term Memory (LSTM)",
       "label": "Long Short-Term Memory (LSTM)",
       "folder": "Resources",
@@ -849,7 +849,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/AI & Machine Learning/Model Context Protocol (MCP)",
@@ -873,7 +873,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
@@ -885,7 +885,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/AI & Machine Learning/Multi-Head Attention",
@@ -933,7 +933,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/AI & Machine Learning/Positional Encoding",
@@ -970,6 +970,18 @@
         "ai-ml"
       ],
       "degree": 11
+    },
+    {
+      "id": "Resources/AI & Machine Learning/RLHF vs RLAIF",
+      "label": "RLHF vs RLAIF",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "RLHF uses human preference feedback while RLAIF uses AI-generated feedback to train model behavior. Both optimize preference signals, but they differ in cost, scalability, bias, oversight, and failure modes.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 5
     },
     {
       "id": "Resources/AI & Machine Learning/ReAct Prompting Pattern",
@@ -1029,7 +1041,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)",
@@ -1042,6 +1054,18 @@
         "ai-ml"
       ],
       "degree": 14
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Scaling Laws",
+      "label": "Scaling Laws",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Scaling laws describe predictable relationships between model performance, parameter count, dataset size, and compute. They help labs allocate training budgets and forecast capability improvements.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 7
     },
     {
       "id": "Resources/AI & Machine Learning/Semantic Search vs Keyword Search",
@@ -1113,7 +1137,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)",
@@ -1176,7 +1200,7 @@
         "claude",
         "codex"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/API Design",
@@ -1232,7 +1256,7 @@
         "bobby",
         "mlops"
       ],
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "Resources/Bobby Commands",
@@ -1288,7 +1312,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 12
+      "degree": 15
     },
     {
       "id": "Resources/Claude Code Skills",
@@ -1340,7 +1364,7 @@
         "study",
         "systems"
       ],
-      "degree": 13
+      "degree": 15
     },
     {
       "id": "Resources/DSA Practice",
@@ -1368,7 +1392,7 @@
         "study",
         "systems"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Data Structures and Algorithms Patterns",
@@ -1398,7 +1422,7 @@
         "internals",
         "system-design"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Databases",
@@ -1412,7 +1436,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 16
+      "degree": 19
     },
     {
       "id": "Resources/Distributed Systems",
@@ -1426,7 +1450,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 15
+      "degree": 24
     },
     {
       "id": "Resources/Docker",
@@ -1511,7 +1535,7 @@
         "study",
         "ai"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Geospatial",
@@ -1582,7 +1606,7 @@
         "philosophy",
         "engineering"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/LLM System Design",
@@ -1598,7 +1622,7 @@
         "bobby",
         "ai"
       ],
-      "degree": 29
+      "degree": 31
     },
     {
       "id": "Resources/MLOps and ML Engineering",
@@ -1614,7 +1638,7 @@
         "system-design",
         "bobby"
       ],
-      "degree": 21
+      "degree": 22
     },
     {
       "id": "Resources/Mechanistic Interpretability",
@@ -1627,7 +1651,7 @@
         "study",
         "ai"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Message Queues",
@@ -1641,7 +1665,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Resources/Multi-Agent RL",
@@ -1681,7 +1705,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/Notification System Design",
@@ -1722,7 +1746,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 10
+      "degree": 13
     },
     {
       "id": "Resources/Observability Case Studies",
@@ -1802,7 +1826,7 @@
         "study",
         "ai"
       ],
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "Resources/Rate Limiting",
@@ -1816,7 +1840,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/References/VanossGaming - Dewit",
@@ -1858,7 +1882,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 11
+      "degree": 15
     },
     {
       "id": "Resources/Search Systems",
@@ -1886,7 +1910,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Security Deep Dive",
@@ -1963,7 +1987,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 11
+      "degree": 13
     },
     {
       "id": "Resources/Software Engineering/API Design — Server-Sent Events",
@@ -2095,7 +2119,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Software Engineering/Clean Code Principles",
@@ -2239,7 +2263,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Software Engineering/Event-Driven Architecture",
@@ -2251,7 +2275,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 10
+      "degree": 15
     },
     {
       "id": "Resources/Software Engineering/Feature Flags and Progressive Rollout",
@@ -2383,7 +2407,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Software Engineering/Property-Based Testing",
@@ -2541,7 +2565,7 @@
         "architecture",
         "interview-prep"
       ],
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Resources/System Design Interview Rubric",
@@ -2554,7 +2578,7 @@
         "system-design",
         "interview-prep"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/System Design Notes",
@@ -2569,6 +2593,246 @@
         "interview-prep"
       ],
       "degree": 18
+    },
+    {
+      "id": "Resources/System Design/Bulkhead Pattern",
+      "label": "Bulkhead Pattern",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "The bulkhead pattern isolates resources so one failing dependency or workload cannot exhaust the entire system. It is inspired by ship compartments that prevent one leak from sinking everything.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/System Design/CAP Theorem",
+      "label": "CAP Theorem",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "CAP theorem says that during a network partition, a distributed data system must choose between consistency and availability. It is a partition-time tradeoff, not a general excuse for simplistic database labels.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/System Design/CDN Architecture",
+      "label": "CDN Architecture",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "A content delivery network caches and serves content from edge locations close to users. CDNs improve latency, absorb traffic spikes, reduce origin load, and add security controls.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Design/Cache Invalidation Patterns",
+      "label": "Cache Invalidation Patterns",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Cache invalidation is the process of removing or updating stale cached data. The right pattern depends on freshness requirements, write frequency, ownership, and tolerance for temporary inconsistency.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)",
+      "label": "Caching Strategies (LRU, LFU, TTL)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Caching stores frequently used data closer to callers to reduce latency, cost, and backend load. LRU, LFU, and TTL are common policies for deciding what stays fresh and what gets evicted.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 10
+    },
+    {
+      "id": "Resources/System Design/Circuit Breaker Pattern",
+      "label": "Circuit Breaker Pattern",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "The circuit breaker pattern stops calls to a failing dependency before failures cascade. It moves between closed, open, and half-open states based on recent success or failure.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/System Design/Consistent Hashing",
+      "label": "Consistent Hashing",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Consistent hashing distributes keys across changing sets of nodes while minimizing remapping. It is useful for caches, sharded storage, load distribution, and systems where nodes frequently join or leave.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/System Design/Database Replication",
+      "label": "Database Replication",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Database replication copies data from one database node to others for read scaling, high availability, disaster recovery, or geographic locality. Replication design determines consistency, failover behavior, and data-loss risk.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 10
+    },
+    {
+      "id": "Resources/System Design/Database Sharding",
+      "label": "Database Sharding",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Database sharding horizontally partitions data across multiple nodes. It increases capacity but introduces routing, resharding, hotspot, transaction, and query-complexity tradeoffs.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 9
+    },
+    {
+      "id": "Resources/System Design/Distributed Locking",
+      "label": "Distributed Locking",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Distributed locking coordinates exclusive access to shared resources across multiple processes or machines. It is useful but risky because lock correctness depends on timeouts, ownership, failures, and the underlying consistency model.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)",
+      "label": "Distributed Transactions (2PC, Saga Pattern)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Distributed transactions coordinate changes across multiple services or databases. Two-phase commit preserves atomicity through coordination, while sagas use local transactions and compensating actions.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 11
+    },
+    {
+      "id": "Resources/System Design/Eventual Consistency",
+      "label": "Eventual Consistency",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Eventual consistency means replicas may temporarily disagree but will converge if no new updates occur. It improves availability and latency at the cost of stale reads and conflict handling.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 11
+    },
+    {
+      "id": "Resources/System Design/Idempotency in Distributed Systems",
+      "label": "Idempotency in Distributed Systems",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Idempotency means an operation can be applied multiple times with the same intended effect as applying it once. It is essential for safe retries, duplicate messages, and unreliable networks.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 10
+    },
+    {
+      "id": "Resources/System Design/Load Balancing Strategies",
+      "label": "Load Balancing Strategies",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Load balancing distributes traffic across multiple servers to improve capacity, availability, and latency. Strategy choices depend on protocol, health checks, statefulness, geography, and failure behavior.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 9
+    },
+    {
+      "id": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)",
+      "label": "Message Queues (Kafka, RabbitMQ, SQS)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Message queues decouple producers and consumers by storing work or events between them. Kafka, RabbitMQ, and SQS represent different tradeoffs in ordering, durability, throughput, routing, and operations.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 9
+    },
+    {
+      "id": "Resources/System Design/PACELC Theorem",
+      "label": "PACELC Theorem",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "PACELC extends CAP by saying distributed systems trade consistency for availability during partitions, else trade latency for consistency during normal operation. It is often more useful than CAP for real architecture decisions.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Design/Pub Sub Architecture",
+      "label": "Pub Sub Architecture",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Publish/subscribe architecture lets producers publish messages to topics without knowing which consumers receive them. It is useful for fanout, event-driven integration, and decoupled workflows.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
+      "label": "Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Rate limiting controls how many requests a user, client, or system can make in a period. Token bucket, leaky bucket, and sliding-window algorithms trade burst tolerance, smoothness, precision, and storage cost.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Design/Scalability — Horizontal vs Vertical",
+      "label": "Scalability — Horizontal vs Vertical",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Scalability is a system's ability to handle more load by adding resources or improving efficiency. Vertical scaling makes individual machines stronger, while horizontal scaling adds more machines.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/System Design/System Design Interview Framework",
+      "label": "System Design Interview Framework",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "A system design interview framework gives a repeatable structure for turning vague product prompts into scalable architectures. It keeps candidates from jumping to boxes before clarifying requirements, scale, data, APIs, tradeoffs, and failure modes.",
+      "tags": [
+        "resource",
+        "system-design"
+      ],
+      "degree": 5
     },
     {
       "id": "Resources/Testing Strategy",
@@ -2651,24 +2915,6 @@
       "degree": 6
     },
     {
-      "id": "Scalability — Horizontal vs Vertical",
-      "label": "Scalability — Horizontal vs Vertical",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Scaling Laws",
-      "label": "Scaling Laws",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Secret Management (Vault, AWS Secrets Manager)",
       "label": "Secret Management (Vault, AWS Secrets Manager)",
       "folder": null,
@@ -2680,6 +2926,15 @@
     {
       "id": "Security Auditing",
       "label": "Security Auditing",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Security Headers (CSP, HSTS, X-Frame-Options)",
+      "label": "Security Headers (CSP, HSTS, X-Frame-Options)",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -3029,6 +3284,26 @@
       "target": "Resources/RAG and Bobby Vector Search"
     },
     {
+      "source": "Resources/AI & Machine Learning/AI Safety — Interpretability Research",
+      "target": "Resources/AI & Machine Learning/AI Alignment Overview"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Safety — Interpretability Research",
+      "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Safety — Interpretability Research",
+      "target": "Resources/Agent Security"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Safety — Interpretability Research",
+      "target": "Resources/Formal Methods Agent Safety"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Safety — Interpretability Research",
+      "target": "Resources/Mechanistic Interpretability"
+    },
+    {
       "source": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)",
       "target": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)"
     },
@@ -3289,6 +3564,26 @@
       "target": "Resources/RLHF and Alignment"
     },
     {
+      "source": "Resources/AI & Machine Learning/Emergent Abilities in Large Models",
+      "target": "Resources/AI & Machine Learning/AI Alignment Overview"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Emergent Abilities in Large Models",
+      "target": "Resources/AI & Machine Learning/Benchmarks — MMLU, HumanEval, GSM8K, GPQA"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Emergent Abilities in Large Models",
+      "target": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Emergent Abilities in Large Models",
+      "target": "Resources/AI & Machine Learning/Scaling Laws"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Emergent Abilities in Large Models",
+      "target": "Resources/LLM Capabilities and AI Ethics"
+    },
+    {
       "source": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning",
       "target": "Resources/AI & Machine Learning/Chain-of-Thought Prompting"
     },
@@ -3389,6 +3684,26 @@
       "target": "Resources/MLOps and ML Engineering"
     },
     {
+      "source": "Resources/AI & Machine Learning/Local LLMs (Ollama, llama.cpp, LM Studio)",
+      "target": "Resources/AI & Machine Learning/AI Agents and Tool Use"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Local LLMs (Ollama, llama.cpp, LM Studio)",
+      "target": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Local LLMs (Ollama, llama.cpp, LM Studio)",
+      "target": "Resources/AI & Machine Learning/OpenAI API and GPT Models"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Local LLMs (Ollama, llama.cpp, LM Studio)",
+      "target": "Resources/AI Workflow"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Local LLMs (Ollama, llama.cpp, LM Studio)",
+      "target": "Resources/LLM System Design"
+    },
+    {
       "source": "Resources/AI & Machine Learning/Long Short-Term Memory (LSTM)",
       "target": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)"
     },
@@ -3434,6 +3749,10 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Mixture of Experts (MoE)",
+      "target": "Resources/AI & Machine Learning/Scaling Laws"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Mixture of Experts (MoE)",
       "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
     },
     {
@@ -3443,10 +3762,6 @@
     {
       "source": "Resources/AI & Machine Learning/Mixture of Experts (MoE)",
       "target": "Resources/Transformer Architecture"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Mixture of Experts (MoE)",
-      "target": "Scaling Laws"
     },
     {
       "source": "Resources/AI & Machine Learning/Model Context Protocol (MCP)",
@@ -3490,11 +3805,11 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
-      "target": "Local LLMs (Ollama, llama.cpp, LM Studio)"
+      "target": "Resources/AI & Machine Learning/Knowledge Distillation"
     },
     {
       "source": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
-      "target": "Resources/AI & Machine Learning/Knowledge Distillation"
+      "target": "Resources/AI & Machine Learning/Local LLMs (Ollama, llama.cpp, LM Studio)"
     },
     {
       "source": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
@@ -3649,6 +3964,26 @@
       "target": "Resources/LLM System Design"
     },
     {
+      "source": "Resources/AI & Machine Learning/RLHF vs RLAIF",
+      "target": "Resources/AI & Machine Learning/AI Alignment Overview"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/RLHF vs RLAIF",
+      "target": "Resources/AI & Machine Learning/Constitutional AI"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/RLHF vs RLAIF",
+      "target": "Resources/AI & Machine Learning/Direct Preference Optimization (DPO)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/RLHF vs RLAIF",
+      "target": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/RLHF vs RLAIF",
+      "target": "Resources/RLHF and Alignment"
+    },
+    {
       "source": "Resources/AI & Machine Learning/ReAct Prompting Pattern",
       "target": "Resources/AI & Machine Learning/AI Agents and Tool Use"
     },
@@ -3767,6 +4102,26 @@
     {
       "source": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)",
       "target": "Resources/RAG and Bobby Vector Search"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Scaling Laws",
+      "target": "Resources/AI & Machine Learning/Emergent Abilities in Large Models"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Scaling Laws",
+      "target": "Resources/AI & Machine Learning/Mixture of Experts (MoE)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Scaling Laws",
+      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Scaling Laws",
+      "target": "Resources/LLM System Design"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Scaling Laws",
+      "target": "Resources/MLOps and ML Engineering"
     },
     {
       "source": "Resources/AI & Machine Learning/Semantic Search vs Keyword Search",
@@ -4990,10 +5345,6 @@
     },
     {
       "source": "Resources/Software Engineering/CQRS Pattern",
-      "target": "Database Replication"
-    },
-    {
-      "source": "Resources/Software Engineering/CQRS Pattern",
       "target": "Resources/Databases"
     },
     {
@@ -5007,6 +5358,10 @@
     {
       "source": "Resources/Software Engineering/CQRS Pattern",
       "target": "Resources/Software Engineering/Event-Driven Architecture"
+    },
+    {
+      "source": "Resources/Software Engineering/CQRS Pattern",
+      "target": "Resources/System Design/Database Replication"
     },
     {
       "source": "Resources/Software Engineering/Canary Releases",
@@ -5030,14 +5385,6 @@
     },
     {
       "source": "Resources/Software Engineering/Chaos Engineering",
-      "target": "Bulkhead Pattern"
-    },
-    {
-      "source": "Resources/Software Engineering/Chaos Engineering",
-      "target": "Circuit Breaker Pattern"
-    },
-    {
-      "source": "Resources/Software Engineering/Chaos Engineering",
       "target": "Error Budgets"
     },
     {
@@ -5047,6 +5394,14 @@
     {
       "source": "Resources/Software Engineering/Chaos Engineering",
       "target": "Resources/Distributed Systems"
+    },
+    {
+      "source": "Resources/Software Engineering/Chaos Engineering",
+      "target": "Resources/System Design/Bulkhead Pattern"
+    },
+    {
+      "source": "Resources/Software Engineering/Chaos Engineering",
+      "target": "Resources/System Design/Circuit Breaker Pattern"
     },
     {
       "source": "Resources/Software Engineering/Clean Code Principles",
@@ -5270,10 +5625,6 @@
     },
     {
       "source": "Resources/Software Engineering/Event Sourcing",
-      "target": "Distributed Transactions (2PC, Saga Pattern)"
-    },
-    {
-      "source": "Resources/Software Engineering/Event Sourcing",
       "target": "Resources/Databases"
     },
     {
@@ -5289,12 +5640,8 @@
       "target": "Resources/Software Engineering/Event-Driven Architecture"
     },
     {
-      "source": "Resources/Software Engineering/Event-Driven Architecture",
-      "target": "Idempotency in Distributed Systems"
-    },
-    {
-      "source": "Resources/Software Engineering/Event-Driven Architecture",
-      "target": "Message Queues (Kafka, RabbitMQ, SQS)"
+      "source": "Resources/Software Engineering/Event Sourcing",
+      "target": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)"
     },
     {
       "source": "Resources/Software Engineering/Event-Driven Architecture",
@@ -5307,6 +5654,14 @@
     {
       "source": "Resources/Software Engineering/Event-Driven Architecture",
       "target": "Resources/Software Engineering/Event Sourcing"
+    },
+    {
+      "source": "Resources/Software Engineering/Event-Driven Architecture",
+      "target": "Resources/System Design/Idempotency in Distributed Systems"
+    },
+    {
+      "source": "Resources/Software Engineering/Event-Driven Architecture",
+      "target": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)"
     },
     {
       "source": "Resources/Software Engineering/Feature Flags and Progressive Rollout",
@@ -5426,7 +5781,7 @@
     },
     {
       "source": "Resources/Software Engineering/Load Testing and Performance Testing",
-      "target": "Scalability — Horizontal vs Vertical"
+      "target": "Resources/System Design/Scalability — Horizontal vs Vertical"
     },
     {
       "source": "Resources/Software Engineering/Microservices Architecture",
@@ -5530,10 +5885,6 @@
     },
     {
       "source": "Resources/Software Engineering/Property-Based Testing",
-      "target": "Idempotency in Distributed Systems"
-    },
-    {
-      "source": "Resources/Software Engineering/Property-Based Testing",
       "target": "Resources/Data Structures and Algorithms Patterns"
     },
     {
@@ -5543,6 +5894,10 @@
     {
       "source": "Resources/Software Engineering/Property-Based Testing",
       "target": "Resources/Software Engineering/Test-Driven Development (TDD)"
+    },
+    {
+      "source": "Resources/Software Engineering/Property-Based Testing",
+      "target": "Resources/System Design/Idempotency in Distributed Systems"
     },
     {
       "source": "Resources/Software Engineering/Property-Based Testing",
@@ -5841,6 +6196,406 @@
       "target": "Resources/System Design Notes"
     },
     {
+      "source": "Resources/System Design/Bulkhead Pattern",
+      "target": "Resources/Observability"
+    },
+    {
+      "source": "Resources/System Design/Bulkhead Pattern",
+      "target": "Resources/Scaling"
+    },
+    {
+      "source": "Resources/System Design/Bulkhead Pattern",
+      "target": "Resources/Software Engineering/Chaos Engineering"
+    },
+    {
+      "source": "Resources/System Design/Bulkhead Pattern",
+      "target": "Resources/System Design/Circuit Breaker Pattern"
+    },
+    {
+      "source": "Resources/System Design/Bulkhead Pattern",
+      "target": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)"
+    },
+    {
+      "source": "Resources/System Design/CAP Theorem",
+      "target": "Resources/Databases"
+    },
+    {
+      "source": "Resources/System Design/CAP Theorem",
+      "target": "Resources/Distributed Systems"
+    },
+    {
+      "source": "Resources/System Design/CAP Theorem",
+      "target": "Resources/System Design/Database Replication"
+    },
+    {
+      "source": "Resources/System Design/CAP Theorem",
+      "target": "Resources/System Design/Eventual Consistency"
+    },
+    {
+      "source": "Resources/System Design/CAP Theorem",
+      "target": "Resources/System Design/PACELC Theorem"
+    },
+    {
+      "source": "Resources/System Design/CDN Architecture",
+      "target": "Content Delivery and Edge Computing"
+    },
+    {
+      "source": "Resources/System Design/CDN Architecture",
+      "target": "Resources/Cloud Services"
+    },
+    {
+      "source": "Resources/System Design/CDN Architecture",
+      "target": "Resources/Networking"
+    },
+    {
+      "source": "Resources/System Design/CDN Architecture",
+      "target": "Resources/System Design/Cache Invalidation Patterns"
+    },
+    {
+      "source": "Resources/System Design/CDN Architecture",
+      "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
+    },
+    {
+      "source": "Resources/System Design/Cache Invalidation Patterns",
+      "target": "Resources/Caching"
+    },
+    {
+      "source": "Resources/System Design/Cache Invalidation Patterns",
+      "target": "Resources/Distributed Systems"
+    },
+    {
+      "source": "Resources/System Design/Cache Invalidation Patterns",
+      "target": "Resources/Software Engineering/Event-Driven Architecture"
+    },
+    {
+      "source": "Resources/System Design/Cache Invalidation Patterns",
+      "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
+    },
+    {
+      "source": "Resources/System Design/Cache Invalidation Patterns",
+      "target": "Resources/System Design/Eventual Consistency"
+    },
+    {
+      "source": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)",
+      "target": "Resources/Caching"
+    },
+    {
+      "source": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)",
+      "target": "Resources/Rate Limiting"
+    },
+    {
+      "source": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)",
+      "target": "Resources/System Design/CDN Architecture"
+    },
+    {
+      "source": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)",
+      "target": "Resources/System Design/Cache Invalidation Patterns"
+    },
+    {
+      "source": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)",
+      "target": "Resources/System Design/Consistent Hashing"
+    },
+    {
+      "source": "Resources/System Design/Circuit Breaker Pattern",
+      "target": "Resources/Distributed Systems"
+    },
+    {
+      "source": "Resources/System Design/Circuit Breaker Pattern",
+      "target": "Resources/Observability"
+    },
+    {
+      "source": "Resources/System Design/Circuit Breaker Pattern",
+      "target": "Resources/Software Engineering/Chaos Engineering"
+    },
+    {
+      "source": "Resources/System Design/Circuit Breaker Pattern",
+      "target": "Resources/System Design/Bulkhead Pattern"
+    },
+    {
+      "source": "Resources/System Design/Circuit Breaker Pattern",
+      "target": "Resources/System Design/Load Balancing Strategies"
+    },
+    {
+      "source": "Resources/System Design/Consistent Hashing",
+      "target": "Resources/Caching"
+    },
+    {
+      "source": "Resources/System Design/Consistent Hashing",
+      "target": "Resources/Distributed Systems"
+    },
+    {
+      "source": "Resources/System Design/Consistent Hashing",
+      "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
+    },
+    {
+      "source": "Resources/System Design/Consistent Hashing",
+      "target": "Resources/System Design/Database Sharding"
+    },
+    {
+      "source": "Resources/System Design/Consistent Hashing",
+      "target": "Resources/System Design/Load Balancing Strategies"
+    },
+    {
+      "source": "Resources/System Design/Database Replication",
+      "target": "Resources/Database Internals Deep Dive"
+    },
+    {
+      "source": "Resources/System Design/Database Replication",
+      "target": "Resources/Databases"
+    },
+    {
+      "source": "Resources/System Design/Database Replication",
+      "target": "Resources/System Design/Database Sharding"
+    },
+    {
+      "source": "Resources/System Design/Database Replication",
+      "target": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)"
+    },
+    {
+      "source": "Resources/System Design/Database Replication",
+      "target": "Resources/System Design/Eventual Consistency"
+    },
+    {
+      "source": "Resources/System Design/Database Sharding",
+      "target": "Resources/Databases"
+    },
+    {
+      "source": "Resources/System Design/Database Sharding",
+      "target": "Resources/Scaling"
+    },
+    {
+      "source": "Resources/System Design/Database Sharding",
+      "target": "Resources/System Design/Consistent Hashing"
+    },
+    {
+      "source": "Resources/System Design/Database Sharding",
+      "target": "Resources/System Design/Database Replication"
+    },
+    {
+      "source": "Resources/System Design/Database Sharding",
+      "target": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)"
+    },
+    {
+      "source": "Resources/System Design/Distributed Locking",
+      "target": "Consensus Algorithms (Raft, Paxos)"
+    },
+    {
+      "source": "Resources/System Design/Distributed Locking",
+      "target": "Leader Election"
+    },
+    {
+      "source": "Resources/System Design/Distributed Locking",
+      "target": "Resources/Distributed Systems"
+    },
+    {
+      "source": "Resources/System Design/Distributed Locking",
+      "target": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)"
+    },
+    {
+      "source": "Resources/System Design/Distributed Locking",
+      "target": "Resources/System Design/Idempotency in Distributed Systems"
+    },
+    {
+      "source": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)",
+      "target": "Resources/Distributed Systems"
+    },
+    {
+      "source": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)",
+      "target": "Resources/Software Engineering/Event Sourcing"
+    },
+    {
+      "source": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)",
+      "target": "Resources/System Design/Eventual Consistency"
+    },
+    {
+      "source": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)",
+      "target": "Resources/System Design/Idempotency in Distributed Systems"
+    },
+    {
+      "source": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)",
+      "target": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)"
+    },
+    {
+      "source": "Resources/System Design/Eventual Consistency",
+      "target": "Resources/Distributed Systems"
+    },
+    {
+      "source": "Resources/System Design/Eventual Consistency",
+      "target": "Resources/Software Engineering/Event-Driven Architecture"
+    },
+    {
+      "source": "Resources/System Design/Eventual Consistency",
+      "target": "Resources/System Design/CAP Theorem"
+    },
+    {
+      "source": "Resources/System Design/Eventual Consistency",
+      "target": "Resources/System Design/Database Replication"
+    },
+    {
+      "source": "Resources/System Design/Eventual Consistency",
+      "target": "Resources/System Design/Idempotency in Distributed Systems"
+    },
+    {
+      "source": "Resources/System Design/Idempotency in Distributed Systems",
+      "target": "Resources/Distributed Systems"
+    },
+    {
+      "source": "Resources/System Design/Idempotency in Distributed Systems",
+      "target": "Resources/Software Engineering/API Design — REST Principles"
+    },
+    {
+      "source": "Resources/System Design/Idempotency in Distributed Systems",
+      "target": "Resources/Software Engineering/Event-Driven Architecture"
+    },
+    {
+      "source": "Resources/System Design/Idempotency in Distributed Systems",
+      "target": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)"
+    },
+    {
+      "source": "Resources/System Design/Idempotency in Distributed Systems",
+      "target": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)"
+    },
+    {
+      "source": "Resources/System Design/Load Balancing Strategies",
+      "target": "Resources/Cloud Services"
+    },
+    {
+      "source": "Resources/System Design/Load Balancing Strategies",
+      "target": "Resources/Networking"
+    },
+    {
+      "source": "Resources/System Design/Load Balancing Strategies",
+      "target": "Resources/System Design/Circuit Breaker Pattern"
+    },
+    {
+      "source": "Resources/System Design/Load Balancing Strategies",
+      "target": "Resources/System Design/Consistent Hashing"
+    },
+    {
+      "source": "Resources/System Design/Load Balancing Strategies",
+      "target": "Resources/System Design/Scalability — Horizontal vs Vertical"
+    },
+    {
+      "source": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)",
+      "target": "Pub/Sub Architecture"
+    },
+    {
+      "source": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)",
+      "target": "Resources/Message Queues"
+    },
+    {
+      "source": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)",
+      "target": "Resources/Observability"
+    },
+    {
+      "source": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)",
+      "target": "Resources/Software Engineering/Event-Driven Architecture"
+    },
+    {
+      "source": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)",
+      "target": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)"
+    },
+    {
+      "source": "Resources/System Design/PACELC Theorem",
+      "target": "Resources/Distributed Systems"
+    },
+    {
+      "source": "Resources/System Design/PACELC Theorem",
+      "target": "Resources/Scaling"
+    },
+    {
+      "source": "Resources/System Design/PACELC Theorem",
+      "target": "Resources/System Design/CAP Theorem"
+    },
+    {
+      "source": "Resources/System Design/PACELC Theorem",
+      "target": "Resources/System Design/Database Replication"
+    },
+    {
+      "source": "Resources/System Design/PACELC Theorem",
+      "target": "Resources/System Design/Eventual Consistency"
+    },
+    {
+      "source": "Resources/System Design/Pub Sub Architecture",
+      "target": "Resources/Data Engineering"
+    },
+    {
+      "source": "Resources/System Design/Pub Sub Architecture",
+      "target": "Resources/Software Engineering/Event-Driven Architecture"
+    },
+    {
+      "source": "Resources/System Design/Pub Sub Architecture",
+      "target": "Resources/Software Engineering/OpenAPI and API Documentation"
+    },
+    {
+      "source": "Resources/System Design/Pub Sub Architecture",
+      "target": "Resources/System Design/Eventual Consistency"
+    },
+    {
+      "source": "Resources/System Design/Pub Sub Architecture",
+      "target": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)"
+    },
+    {
+      "source": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
+      "target": "Resources/Rate Limiting"
+    },
+    {
+      "source": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
+      "target": "Resources/Security"
+    },
+    {
+      "source": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
+      "target": "Resources/Software Engineering/API Design — REST Principles"
+    },
+    {
+      "source": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
+      "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
+    },
+    {
+      "source": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
+      "target": "Security Headers (CSP, HSTS, X-Frame-Options)"
+    },
+    {
+      "source": "Resources/System Design/Scalability — Horizontal vs Vertical",
+      "target": "Resources/Scaling"
+    },
+    {
+      "source": "Resources/System Design/Scalability — Horizontal vs Vertical",
+      "target": "Resources/System Design Interview Rubric"
+    },
+    {
+      "source": "Resources/System Design/Scalability — Horizontal vs Vertical",
+      "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
+    },
+    {
+      "source": "Resources/System Design/Scalability — Horizontal vs Vertical",
+      "target": "Resources/System Design/Database Sharding"
+    },
+    {
+      "source": "Resources/System Design/Scalability — Horizontal vs Vertical",
+      "target": "Resources/System Design/Load Balancing Strategies"
+    },
+    {
+      "source": "Resources/System Design/System Design Interview Framework",
+      "target": "Resources/System Design Case Studies"
+    },
+    {
+      "source": "Resources/System Design/System Design Interview Framework",
+      "target": "Resources/System Design Interview Rubric"
+    },
+    {
+      "source": "Resources/System Design/System Design Interview Framework",
+      "target": "Resources/System Design/Database Sharding"
+    },
+    {
+      "source": "Resources/System Design/System Design Interview Framework",
+      "target": "Resources/System Design/Load Balancing Strategies"
+    },
+    {
+      "source": "Resources/System Design/System Design Interview Framework",
+      "target": "Resources/System Design/Scalability — Horizontal vs Vertical"
+    },
+    {
       "source": "Resources/Testing Strategy",
       "target": "Projects/Bobby"
     },
@@ -5905,5 +6660,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-25T19:20:22Z"
+  "generated_at": "2026-05-25T19:29:29Z"
 }
