@@ -190,25 +190,92 @@ export default function Graph3D({ data }) {
     setGraphData(data)
   }, [data])
 
-  // Independent rAF orbit loop — does not depend on react-force-graph-3d's
-  // animation loop, so it keeps running even after the physics simulation stops.
+  // Independent rAF loop — runs orbit and comets unconditionally every frame,
+  // regardless of whether the physics simulation is still ticking.
   useEffect(() => {
     const axis = new THREE.Vector3(0, 1, 0)
     let rafId
+
     const tick = () => {
-      if (isAutoRotatingRef.current) {
-        const fg = fgRef.current
-        if (fg) {
-          const camera = fg.camera?.()
-          const controls = fg.controls?.()
-          if (camera && controls) {
-            camera.position.applyAxisAngle(axis, 0.001)
-            camera.lookAt(controls.target)
-          }
+      const fg = fgRef.current
+      const t = (performance.now() - startTimeRef.current) / 1000
+
+      // --- Orbit ---
+      if (isAutoRotatingRef.current && fg) {
+        const camera = fg.camera?.()
+        const controls = fg.controls?.()
+        if (camera && controls) {
+          camera.position.applyAxisAngle(axis, 0.001)
+          camera.lookAt(controls.target)
         }
       }
+
+      // --- Comets ---
+      if (fg) {
+        const scene = fg.scene?.()
+        const camera = fg.camera?.()
+
+        // Animate existing comets
+        cometsRef.current.forEach((comet) => {
+          const progress = (t - comet.spawnT) / comet.duration
+          const envelope = Math.min(1, progress * 10) * Math.min(1, (1 - progress) * 5)
+
+          const tPos = comet.trail.geometry.attributes.position
+          const tCol = comet.trail.geometry.attributes.color
+          for (let i = 0; i < COMET_TRAIL; i++) {
+            const trailT = Math.max(0, progress - (i / COMET_TRAIL) * COMET_TRAIL_DEPTH)
+            tPos.setXYZ(
+              i,
+              comet.start.x + (comet.end.x - comet.start.x) * trailT,
+              comet.start.y + (comet.end.y - comet.start.y) * trailT,
+              comet.start.z + (comet.end.z - comet.start.z) * trailT,
+            )
+            const brightness = (1 - i / COMET_TRAIL) * envelope
+            tCol.setXYZ(i, brightness * 0.85, brightness * 0.92, brightness)
+          }
+          tPos.needsUpdate = true
+          tCol.needsUpdate = true
+
+          const hPos = comet.head.geometry.attributes.position
+          hPos.setXYZ(
+            0,
+            comet.start.x + (comet.end.x - comet.start.x) * progress,
+            comet.start.y + (comet.end.y - comet.start.y) * progress,
+            comet.start.z + (comet.end.z - comet.start.z) * progress,
+          )
+          hPos.needsUpdate = true
+          comet.head.material.opacity = envelope * 0.98
+        })
+
+        // Remove finished comets
+        cometsRef.current = cometsRef.current.filter((comet) => {
+          const done = t - comet.spawnT >= comet.duration
+          if (done && scene) {
+            scene.remove(comet.trail)
+            scene.remove(comet.head)
+            comet.trail.geometry.dispose()
+            comet.trail.material.dispose()
+            comet.head.geometry.dispose()
+            comet.head.material.dispose()
+          }
+          return !done
+        })
+
+        // Spawn new comet
+        if (t >= nextCometRef.current && scene && camera && cometsRef.current.length < 3) {
+          const fwd = new THREE.Vector3()
+          camera.getWorldDirection(fwd)
+          // Only spawn if we have a valid camera direction (not at origin)
+          if (fwd.lengthSq() > 0.5) {
+            cometsRef.current.push(spawnComet(scene, t, camera))
+          }
+          nextCometRef.current = t + 5 + Math.random() * 6
+        }
+      }
+
       rafId = requestAnimationFrame(tick)
     }
+
     rafId = requestAnimationFrame(tick)
     return () => cancelAnimationFrame(rafId)
   }, [])
@@ -392,57 +459,6 @@ export default function Graph3D({ data }) {
       nebula.rotation.x = t * 0.007 * (i % 2 === 0 ? -1 : 1)
     })
 
-    // Comets
-    const scene = fgRef.current?.scene()
-    cometsRef.current.forEach((comet) => {
-      const progress = (t - comet.spawnT) / comet.duration
-      const envelope = Math.min(1, progress * 10) * Math.min(1, (1 - progress) * 5)
-
-      // Update trail points
-      const tPos = comet.trail.geometry.attributes.position
-      const tCol = comet.trail.geometry.attributes.color
-      for (let i = 0; i < COMET_TRAIL; i++) {
-        const trailT = Math.max(0, progress - (i / COMET_TRAIL) * COMET_TRAIL_DEPTH)
-        tPos.setXYZ(
-          i,
-          comet.start.x + (comet.end.x - comet.start.x) * trailT,
-          comet.start.y + (comet.end.y - comet.start.y) * trailT,
-          comet.start.z + (comet.end.z - comet.start.z) * trailT,
-        )
-        const brightness = (1 - i / COMET_TRAIL) * envelope
-        tCol.setXYZ(i, brightness * 0.85, brightness * 0.92, brightness)
-      }
-      tPos.needsUpdate = true
-      tCol.needsUpdate = true
-
-      // Update head position (always at the leading point)
-      const hPos = comet.head.geometry.attributes.position
-      hPos.setXYZ(
-        0,
-        comet.start.x + (comet.end.x - comet.start.x) * progress,
-        comet.start.y + (comet.end.y - comet.start.y) * progress,
-        comet.start.z + (comet.end.z - comet.start.z) * progress,
-      )
-      hPos.needsUpdate = true
-      comet.head.material.opacity = envelope * 0.98
-    })
-    cometsRef.current = cometsRef.current.filter((comet) => {
-      const done = t - comet.spawnT >= comet.duration
-      if (done && scene) {
-        scene.remove(comet.trail)
-        scene.remove(comet.head)
-        comet.trail.geometry.dispose()
-        comet.trail.material.dispose()
-        comet.head.geometry.dispose()
-        comet.head.material.dispose()
-      }
-      return !done
-    })
-    const camera = fgRef.current?.camera()
-    if (t >= nextCometRef.current && scene && camera && cometsRef.current.length < 3) {
-      cometsRef.current.push(spawnComet(scene, t, camera))
-      nextCometRef.current = t + 5 + Math.random() * 6
-    }
   }, [])
 
   return (
