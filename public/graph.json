@@ -871,6 +871,18 @@
       "degree": 7
     },
     {
+      "id": "Resources/Programming Languages",
+      "label": "Programming Languages",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "When to use each programming language and why — covering the core mental model (control vs. convenience, performance predictability), plus deep reasoning for every major language from C to COBOL, organized by domain.",
+      "tags": [
+        "resource",
+        "study"
+      ],
+      "degree": 2
+    },
+    {
       "id": "Resources/RAG and Bobby Vector Search",
       "label": "RAG and Bobby Vector Search",
       "folder": "Resources",
@@ -1006,7 +1018,7 @@
         "engineering",
         "system-design"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Software Engineering Tools",
@@ -1018,7 +1030,7 @@
         "resource",
         "study"
       ],
-      "degree": 0
+      "degree": 1
     },
     {
       "id": "Resources/System Design Case Studies",
@@ -2026,6 +2038,14 @@
       "target": "Resources/MLOps and ML Engineering"
     },
     {
+      "source": "Resources/Programming Languages",
+      "target": "Resources/Software Architecture"
+    },
+    {
+      "source": "Resources/Programming Languages",
+      "target": "Resources/Software Engineering Tools"
+    },
+    {
       "source": "Resources/RAG and Bobby Vector Search",
       "target": "Maps/Bobby"
     },
@@ -2298,5 +2318,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-25T11:14:17Z"
+  "generated_at": "2026-05-25T18:41:47Z"
 }
