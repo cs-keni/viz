@@ -72,6 +72,33 @@
       "degree": 1
     },
     {
+      "id": "Bobby's Personality and Tone Guide",
+      "label": "Bobby's Personality and Tone Guide",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
+    },
+    {
+      "id": "Bobby's Voice Pipeline Architecture",
+      "label": "Bobby's Voice Pipeline Architecture",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Bobby's Wake Word and Audio Pipeline",
+      "label": "Bobby's Wake Word and Audio Pipeline",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Bulkhead Pattern",
       "label": "Bulkhead Pattern",
       "folder": null,
@@ -226,15 +253,6 @@
       "degree": 1
     },
     {
-      "id": "Direct Preference Optimization (DPO)",
-      "label": "Direct Preference Optimization (DPO)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Distributed Transactions (2PC, Saga Pattern)",
       "label": "Distributed Transactions (2PC, Saga Pattern)",
       "folder": null,
@@ -253,8 +271,8 @@
       "degree": 1
     },
     {
-      "id": "Hallucination — Causes and Mitigations",
-      "label": "Hallucination — Causes and Mitigations",
+      "id": "Game Theory Fundamentals",
+      "label": "Game Theory Fundamentals",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -280,8 +298,26 @@
       "degree": 2
     },
     {
+      "id": "Information Theory — Entropy, Cross-Entropy, KL Divergence",
+      "label": "Information Theory — Entropy, Cross-Entropy, KL Divergence",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Kubernetes YAML — Deployment, Service, Ingress",
       "label": "Kubernetes YAML — Deployment, Service, Ingress",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Local LLMs (Ollama, llama.cpp, LM Studio)",
+      "label": "Local LLMs (Ollama, llama.cpp, LM Studio)",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -353,33 +389,6 @@
     {
       "id": "Message Queues (Kafka, RabbitMQ, SQS)",
       "label": "Message Queues (Kafka, RabbitMQ, SQS)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Model Evaluation Metrics",
-      "label": "Model Evaluation Metrics",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 4
-    },
-    {
-      "id": "Model Quantization (INT4, INT8, GGUF)",
-      "label": "Model Quantization (INT4, INT8, GGUF)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Multimodal Models",
-      "label": "Multimodal Models",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -546,15 +555,6 @@
       "degree": 1
     },
     {
-      "id": "ReAct Prompting Pattern",
-      "label": "ReAct Prompting Pattern",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Real-Time Systems Design",
       "label": "Real-Time Systems Design",
       "folder": null,
@@ -562,6 +562,42 @@
       "excerpt": "",
       "tags": [],
       "degree": 2
+    },
+    {
+      "id": "Resources/AI & Machine Learning/AI Agents and Tool Use",
+      "label": "AI Agents and Tool Use",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "AI agents use models to choose actions, call tools, observe results, and continue toward a goal. Tool use turns an LLM from a text generator into a system that can retrieve data, execute operations, and affect external state.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 11
+    },
+    {
+      "id": "Resources/AI & Machine Learning/AI Alignment Overview",
+      "label": "AI Alignment Overview",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "AI alignment is the problem of making AI systems pursue goals and behaviors that match human intent, values, and safety constraints. It includes instruction following, truthfulness, robustness, oversight, and control.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 10
+    },
+    {
+      "id": "Resources/AI & Machine Learning/AI Memory Architectures",
+      "label": "AI Memory Architectures",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "AI memory architectures organize how agents store, retrieve, update, and use information over time. Useful memory systems combine short-term context, long-term retrieval, summaries, user preferences, and safety controls.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 7
     },
     {
       "id": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)",
@@ -612,6 +648,18 @@
       "degree": 6
     },
     {
+      "id": "Resources/AI & Machine Learning/Benchmarks — MMLU, HumanEval, GSM8K, GPQA",
+      "label": "Benchmarks — MMLU, HumanEval, GSM8K, GPQA",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "AI benchmarks are standardized tasks used to compare model capabilities. MMLU, HumanEval, GSM8K, and GPQA test different slices of knowledge, coding, math reasoning, and expert-level question answering.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 6
+    },
+    {
       "id": "Resources/AI & Machine Learning/Chain-of-Thought Prompting",
       "label": "Chain-of-Thought Prompting",
       "folder": "Resources",
@@ -621,7 +669,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/AI & Machine Learning/Chunking Strategies for RAG",
@@ -636,6 +684,30 @@
       "degree": 8
     },
     {
+      "id": "Resources/AI & Machine Learning/Claude API and Anthropic SDK",
+      "label": "Claude API and Anthropic SDK",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "The Claude API exposes Anthropic's Claude models through a Messages-style interface and official SDKs. Practical use centers on model selection, message structure, max tokens, streaming, tool use, safety, and cost control.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Constitutional AI",
+      "label": "Constitutional AI",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Constitutional AI trains models using explicit principles that guide critique, revision, and preference selection. It aims to improve helpfulness and harmlessness while reducing dependence on direct human labeling for every case.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 7
+    },
+    {
       "id": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)",
       "label": "Convolutional Neural Networks (CNNs)",
       "folder": "Resources",
@@ -645,7 +717,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics",
@@ -657,7 +729,31 @@
         "resource",
         "ai-ml"
       ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Diffusion Models",
+      "label": "Diffusion Models",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Diffusion models generate data by learning to reverse a gradual noising process. They are widely used for image, audio, and video generation because they produce high-quality samples with controllable conditioning.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
       "degree": 7
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Direct Preference Optimization (DPO)",
+      "label": "Direct Preference Optimization (DPO)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Direct Preference Optimization trains language models directly from preference pairs without fitting a separate reward model and running an RL loop. It is a simpler alternative to classic RLHF for many alignment workflows.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 10
     },
     {
       "id": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning",
@@ -672,6 +768,18 @@
       "degree": 8
     },
     {
+      "id": "Resources/AI & Machine Learning/Generative Adversarial Networks (GANs)",
+      "label": "Generative Adversarial Networks (GANs)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Generative Adversarial Networks train a generator and discriminator in competition. GANs can create sharp samples but are difficult to train and have largely been displaced by diffusion models for many image-generation tasks.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 7
+    },
+    {
       "id": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)",
       "label": "Gradient Descent Variants (SGD, Adam, AdaGrad)",
       "folder": "Resources",
@@ -682,6 +790,30 @@
         "ai-ml"
       ],
       "degree": 10
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Hallucination — Causes and Mitigations",
+      "label": "Hallucination — Causes and Mitigations",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Hallucination is when a model produces unsupported, false, or fabricated output. It comes from next-token generation, incomplete context, weak uncertainty calibration, and objective mismatch, so mitigation requires retrieval, constraints, verification, and good UX.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Knowledge Distillation",
+      "label": "Knowledge Distillation",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Knowledge distillation trains a smaller student model to imitate a larger or stronger teacher model. It can reduce inference cost while preserving much of the teacher's behavior.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/AI & Machine Learning/Long Short-Term Memory (LSTM)",
@@ -705,7 +837,55 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 10
+      "degree": 14
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Mixture of Experts (MoE)",
+      "label": "Mixture of Experts (MoE)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Mixture of Experts models route each input token or example through a subset of specialized expert networks. MoE increases total model capacity while keeping per-token compute lower than a dense model of the same size.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Model Context Protocol (MCP)",
+      "label": "Model Context Protocol (MCP)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Model Context Protocol is an open protocol for connecting AI applications to external tools and context providers. MCP servers expose capabilities such as tools, resources, and prompts through a standardized interface.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Model Evaluation Metrics",
+      "label": "Model Evaluation Metrics",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Model evaluation metrics measure whether a model is performing the task that matters. Good evaluation separates training loss from real-world quality, reliability, safety, latency, and cost.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 14
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
+      "label": "Model Quantization (INT4, INT8, GGUF)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Model quantization compresses neural network weights and activations into lower-precision formats such as INT8 or INT4. It reduces memory and inference cost, often with some quality tradeoff.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 8
     },
     {
       "id": "Resources/AI & Machine Learning/Multi-Head Attention",
@@ -720,11 +900,35 @@
       "degree": 7
     },
     {
+      "id": "Resources/AI & Machine Learning/Multimodal Models",
+      "label": "Multimodal Models",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Multimodal models process and relate more than one data type, such as text, images, audio, video, or actions. They make AI systems more useful because real-world tasks rarely arrive as text alone.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 10
+    },
+    {
       "id": "Resources/AI & Machine Learning/Neural Network Fundamentals",
       "label": "Neural Network Fundamentals",
       "folder": "Resources",
       "created": "2026-05-25",
       "excerpt": "Neural network fundamentals cover how layered mathematical models learn patterns by adjusting weights from data. The core ideas are neurons, parameters, activations, loss, backpropagation, and gradient-based optimization.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/AI & Machine Learning/OpenAI API and GPT Models",
+      "label": "OpenAI API and GPT Models",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "The OpenAI API provides access to GPT and specialized models through interfaces such as the Responses API. Practical integration involves model choice, structured outputs, tools, streaming, embeddings, safety identifiers, and cost control.",
       "tags": [
         "resource",
         "ai-ml"
@@ -753,7 +957,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals",
@@ -761,6 +965,18 @@
       "folder": "Resources",
       "created": "2026-05-25",
       "excerpt": "Prompt engineering is the practice of structuring instructions, context, examples, and constraints so an LLM produces useful outputs. It is less about magic phrasing and more about clear task specification and feedback loops.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 11
+    },
+    {
+      "id": "Resources/AI & Machine Learning/ReAct Prompting Pattern",
+      "label": "ReAct Prompting Pattern",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "ReAct is a prompting pattern that interleaves reasoning and acting. It helps language-model agents decide what to do, call tools, observe results, and continue with updated context.",
       "tags": [
         "resource",
         "ai-ml"
@@ -777,7 +993,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/AI & Machine Learning/Regularization (L1, L2, Dropout, Early Stopping)",
@@ -792,6 +1008,30 @@
       "degree": 7
     },
     {
+      "id": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals",
+      "label": "Reinforcement Learning Fundamentals",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Reinforcement learning trains agents to choose actions that maximize reward over time. Its core frame is agent, environment, state, action, reward, policy, value, and exploration.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)",
+      "label": "Reinforcement Learning from Human Feedback (RLHF)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Reinforcement Learning from Human Feedback trains models toward human-preferred behavior using preference data, reward models, and policy optimization. It is a key method behind instruction-following assistants.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 9
+    },
+    {
       "id": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)",
       "label": "Retrieval-Augmented Generation (RAG)",
       "folder": "Resources",
@@ -801,7 +1041,43 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 11
+      "degree": 14
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Semantic Search vs Keyword Search",
+      "label": "Semantic Search vs Keyword Search",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Semantic search retrieves by meaning using embeddings, while keyword search retrieves by exact or lexical term matching. Strong search systems often combine both because each fails in different ways.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)",
+      "label": "Speech Recognition (Whisper, Wav2Vec)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Speech recognition converts audio into text using acoustic modeling, sequence modeling, and language context. Whisper and Wav2Vec represent modern neural approaches that learn robust audio representations.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 9
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
+      "label": "Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Text-to-speech models convert text into natural-sounding audio. Modern TTS systems model linguistic content, speaker identity, prosody, timing, and waveform generation.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 7
     },
     {
       "id": "Resources/AI & Machine Learning/Tokenization — BPE, WordPiece, SentencePiece",
@@ -837,7 +1113,19 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 14
+      "degree": 18
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)",
+      "label": "Variational Autoencoders (VAEs)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Variational Autoencoders learn a structured latent space by encoding data into probability distributions and decoding samples back into data. They are useful for representation learning, generation, and latent compression.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 7
     },
     {
       "id": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)",
@@ -849,7 +1137,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/AI & Machine Learning/Vector Embeddings — How They Work",
@@ -857,6 +1145,18 @@
       "folder": "Resources",
       "created": "2026-05-25",
       "excerpt": "Vector embeddings represent items such as text, images, users, or products as numerical vectors where distance captures semantic similarity. They make semantic search, clustering, recommendations, and RAG retrieval possible.",
+      "tags": [
+        "resource",
+        "ai-ml"
+      ],
+      "degree": 13
+    },
+    {
+      "id": "Resources/AI & Machine Learning/Vision-Language Models",
+      "label": "Vision-Language Models",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Vision-language models connect visual inputs with language understanding and generation. They support image captioning, visual question answering, document understanding, UI analysis, and multimodal agents.",
       "tags": [
         "resource",
         "ai-ml"
@@ -876,7 +1176,7 @@
         "claude",
         "codex"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/API Design",
@@ -903,7 +1203,7 @@
         "study",
         "ai"
       ],
-      "degree": 12
+      "degree": 15
     },
     {
       "id": "Resources/Agent Memory",
@@ -916,7 +1216,7 @@
         "study",
         "ai"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Agent Security",
@@ -932,7 +1232,7 @@
         "bobby",
         "mlops"
       ],
-      "degree": 11
+      "degree": 15
     },
     {
       "id": "Resources/Bobby Commands",
@@ -961,7 +1261,7 @@
         "memory",
         "chromadb"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/CI CD",
@@ -1001,7 +1301,7 @@
         "ai-tooling",
         "bobby"
       ],
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "Resources/Cloud Cost Optimization",
@@ -1282,7 +1582,7 @@
         "philosophy",
         "engineering"
       ],
-      "degree": 7
+      "degree": 10
     },
     {
       "id": "Resources/LLM System Design",
@@ -1298,7 +1598,7 @@
         "bobby",
         "ai"
       ],
-      "degree": 22
+      "degree": 29
     },
     {
       "id": "Resources/MLOps and ML Engineering",
@@ -1314,7 +1614,7 @@
         "system-design",
         "bobby"
       ],
-      "degree": 18
+      "degree": 21
     },
     {
       "id": "Resources/Mechanistic Interpretability",
@@ -1354,7 +1654,7 @@
         "study",
         "ai"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Multi-Agent Systems",
@@ -1367,7 +1667,7 @@
         "study",
         "ai"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Networking",
@@ -1450,7 +1750,7 @@
         "study",
         "ai"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Product Engineering",
@@ -1489,7 +1789,7 @@
         "resource",
         "bobby"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/RLHF and Alignment",
@@ -1502,7 +1802,7 @@
         "study",
         "ai"
       ],
-      "degree": 12
+      "degree": 16
     },
     {
       "id": "Resources/Rate Limiting",
@@ -1572,7 +1872,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Security",
@@ -2296,7 +2596,7 @@
         "study",
         "ai"
       ],
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Resources/Vault Structure",
@@ -2360,6 +2660,15 @@
       "degree": 1
     },
     {
+      "id": "Scaling Laws",
+      "label": "Scaling Laws",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Secret Management (Vault, AWS Secrets Manager)",
       "label": "Secret Management (Vault, AWS Secrets Manager)",
       "folder": null,
@@ -2378,15 +2687,6 @@
       "degree": 1
     },
     {
-      "id": "Semantic Search vs Keyword Search",
-      "label": "Semantic Search vs Keyword Search",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
-    },
-    {
       "id": "Serverless Architecture",
       "label": "Serverless Architecture",
       "folder": null,
@@ -2394,15 +2694,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 1
-    },
-    {
-      "id": "Speech Recognition (Whisper, Wav2Vec)",
-      "label": "Speech Recognition (Whisper, Wav2Vec)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
     },
     {
       "id": "Supply Chain Security",
@@ -2439,15 +2730,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 5
-    },
-    {
-      "id": "Vision-Language Models",
-      "label": "Vision-Language Models",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
     },
     {
       "id": "Writing Good Documentation",
@@ -2687,6 +2969,66 @@
       "target": "Areas/Pokemon Collection"
     },
     {
+      "source": "Resources/AI & Machine Learning/AI Agents and Tool Use",
+      "target": "Resources/AI & Machine Learning/AI Memory Architectures"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Agents and Tool Use",
+      "target": "Resources/AI & Machine Learning/Model Context Protocol (MCP)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Agents and Tool Use",
+      "target": "Resources/AI & Machine Learning/ReAct Prompting Pattern"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Agents and Tool Use",
+      "target": "Resources/Agent Security"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Agents and Tool Use",
+      "target": "Resources/Multi-Agent Systems"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Alignment Overview",
+      "target": "Resources/AI & Machine Learning/Constitutional AI"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Alignment Overview",
+      "target": "Resources/AI & Machine Learning/Direct Preference Optimization (DPO)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Alignment Overview",
+      "target": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Alignment Overview",
+      "target": "Resources/Agent Security"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Alignment Overview",
+      "target": "Resources/RLHF and Alignment"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Memory Architectures",
+      "target": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Memory Architectures",
+      "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Memory Architectures",
+      "target": "Resources/Agent Memory"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Memory Architectures",
+      "target": "Resources/Bobby Memory Architecture"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Memory Architectures",
+      "target": "Resources/RAG and Bobby Vector Search"
+    },
+    {
       "source": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)",
       "target": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)"
     },
@@ -2767,8 +3109,24 @@
       "target": "Resources/Transformer Architecture"
     },
     {
-      "source": "Resources/AI & Machine Learning/Chain-of-Thought Prompting",
-      "target": "ReAct Prompting Pattern"
+      "source": "Resources/AI & Machine Learning/Benchmarks — MMLU, HumanEval, GSM8K, GPQA",
+      "target": "Resources/AI & Machine Learning/AI Alignment Overview"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Benchmarks — MMLU, HumanEval, GSM8K, GPQA",
+      "target": "Resources/AI & Machine Learning/Chain-of-Thought Prompting"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Benchmarks — MMLU, HumanEval, GSM8K, GPQA",
+      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Benchmarks — MMLU, HumanEval, GSM8K, GPQA",
+      "target": "Resources/Agent Evaluation"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Benchmarks — MMLU, HumanEval, GSM8K, GPQA",
+      "target": "Resources/LLM System Design"
     },
     {
       "source": "Resources/AI & Machine Learning/Chain-of-Thought Prompting",
@@ -2777,6 +3135,10 @@
     {
       "source": "Resources/AI & Machine Learning/Chain-of-Thought Prompting",
       "target": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Chain-of-Thought Prompting",
+      "target": "Resources/AI & Machine Learning/ReAct Prompting Pattern"
     },
     {
       "source": "Resources/AI & Machine Learning/Chain-of-Thought Prompting",
@@ -2792,6 +3154,10 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Chunking Strategies for RAG",
+      "target": "Resources/AI & Machine Learning/Semantic Search vs Keyword Search"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Chunking Strategies for RAG",
       "target": "Resources/AI & Machine Learning/Tokenization — BPE, WordPiece, SentencePiece"
     },
     {
@@ -2803,12 +3169,44 @@
       "target": "Resources/RAG and Bobby Vector Search"
     },
     {
-      "source": "Resources/AI & Machine Learning/Chunking Strategies for RAG",
-      "target": "Semantic Search vs Keyword Search"
+      "source": "Resources/AI & Machine Learning/Claude API and Anthropic SDK",
+      "target": "Resources/AI & Machine Learning/AI Agents and Tool Use"
     },
     {
-      "source": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)",
-      "target": "Multimodal Models"
+      "source": "Resources/AI & Machine Learning/Claude API and Anthropic SDK",
+      "target": "Resources/AI & Machine Learning/Model Context Protocol (MCP)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Claude API and Anthropic SDK",
+      "target": "Resources/AI & Machine Learning/OpenAI API and GPT Models"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Claude API and Anthropic SDK",
+      "target": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Claude API and Anthropic SDK",
+      "target": "Resources/AI Workflow"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Constitutional AI",
+      "target": "Bobby's Personality and Tone Guide"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Constitutional AI",
+      "target": "Resources/AI & Machine Learning/AI Alignment Overview"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Constitutional AI",
+      "target": "Resources/AI & Machine Learning/Direct Preference Optimization (DPO)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Constitutional AI",
+      "target": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Constitutional AI",
+      "target": "Resources/LLM Capabilities and AI Ethics"
     },
     {
       "source": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)",
@@ -2816,15 +3214,19 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)",
+      "target": "Resources/AI & Machine Learning/Multimodal Models"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)",
       "target": "Resources/AI & Machine Learning/Neural Network Fundamentals"
     },
     {
       "source": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)",
-      "target": "Resources/MLOps and ML Engineering"
+      "target": "Resources/AI & Machine Learning/Vision-Language Models"
     },
     {
       "source": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)",
-      "target": "Vision-Language Models"
+      "target": "Resources/MLOps and ML Engineering"
     },
     {
       "source": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics",
@@ -2847,12 +3249,52 @@
       "target": "Resources/Search Systems"
     },
     {
-      "source": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning",
-      "target": "Model Evaluation Metrics"
+      "source": "Resources/AI & Machine Learning/Diffusion Models",
+      "target": "Resources/AI & Machine Learning/Generative Adversarial Networks (GANs)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Diffusion Models",
+      "target": "Resources/AI & Machine Learning/Multimodal Models"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Diffusion Models",
+      "target": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Diffusion Models",
+      "target": "Resources/AI & Machine Learning/Vision-Language Models"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Diffusion Models",
+      "target": "Resources/LLM Capabilities and AI Ethics"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Direct Preference Optimization (DPO)",
+      "target": "Resources/AI & Machine Learning/AI Alignment Overview"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Direct Preference Optimization (DPO)",
+      "target": "Resources/AI & Machine Learning/Loss Functions"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Direct Preference Optimization (DPO)",
+      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Direct Preference Optimization (DPO)",
+      "target": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Direct Preference Optimization (DPO)",
+      "target": "Resources/RLHF and Alignment"
     },
     {
       "source": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning",
       "target": "Resources/AI & Machine Learning/Chain-of-Thought Prompting"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning",
+      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
     },
     {
       "source": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning",
@@ -2865,6 +3307,26 @@
     {
       "source": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning",
       "target": "Resources/LLM System Design"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Generative Adversarial Networks (GANs)",
+      "target": "Resources/AI & Machine Learning/Diffusion Models"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Generative Adversarial Networks (GANs)",
+      "target": "Resources/AI & Machine Learning/Loss Functions"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Generative Adversarial Networks (GANs)",
+      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Generative Adversarial Networks (GANs)",
+      "target": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Generative Adversarial Networks (GANs)",
+      "target": "Resources/MLOps and ML Engineering"
     },
     {
       "source": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)",
@@ -2887,6 +3349,46 @@
       "target": "Resources/MLOps and ML Engineering"
     },
     {
+      "source": "Resources/AI & Machine Learning/Hallucination — Causes and Mitigations",
+      "target": "Resources/AI & Machine Learning/AI Alignment Overview"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Hallucination — Causes and Mitigations",
+      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Hallucination — Causes and Mitigations",
+      "target": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Hallucination — Causes and Mitigations",
+      "target": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Hallucination — Causes and Mitigations",
+      "target": "Resources/LLM Capabilities and AI Ethics"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Knowledge Distillation",
+      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Knowledge Distillation",
+      "target": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Knowledge Distillation",
+      "target": "Resources/AI & Machine Learning/OpenAI API and GPT Models"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Knowledge Distillation",
+      "target": "Resources/AI & Machine Learning/Pre-training vs Fine-tuning"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Knowledge Distillation",
+      "target": "Resources/MLOps and ML Engineering"
+    },
+    {
       "source": "Resources/AI & Machine Learning/Long Short-Term Memory (LSTM)",
       "target": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)"
     },
@@ -2900,19 +3402,11 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Long Short-Term Memory (LSTM)",
-      "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
+      "target": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)"
     },
     {
       "source": "Resources/AI & Machine Learning/Long Short-Term Memory (LSTM)",
-      "target": "Speech Recognition (Whisper, Wav2Vec)"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Loss Functions",
-      "target": "Direct Preference Optimization (DPO)"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Loss Functions",
-      "target": "Model Evaluation Metrics"
+      "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
     },
     {
       "source": "Resources/AI & Machine Learning/Loss Functions",
@@ -2924,15 +3418,103 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Loss Functions",
+      "target": "Resources/AI & Machine Learning/Direct Preference Optimization (DPO)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Loss Functions",
+      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Loss Functions",
       "target": "Resources/RLHF and Alignment"
     },
     {
-      "source": "Resources/AI & Machine Learning/Multi-Head Attention",
-      "target": "Model Quantization (INT4, INT8, GGUF)"
+      "source": "Resources/AI & Machine Learning/Mixture of Experts (MoE)",
+      "target": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Mixture of Experts (MoE)",
+      "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Mixture of Experts (MoE)",
+      "target": "Resources/LLM System Design"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Mixture of Experts (MoE)",
+      "target": "Resources/Transformer Architecture"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Mixture of Experts (MoE)",
+      "target": "Scaling Laws"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Model Context Protocol (MCP)",
+      "target": "Resources/AI & Machine Learning/AI Agents and Tool Use"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Model Context Protocol (MCP)",
+      "target": "Resources/AI & Machine Learning/AI Memory Architectures"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Model Context Protocol (MCP)",
+      "target": "Resources/AI & Machine Learning/ReAct Prompting Pattern"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Model Context Protocol (MCP)",
+      "target": "Resources/Agent Security"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Model Context Protocol (MCP)",
+      "target": "Resources/Claude Code Skills"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Model Evaluation Metrics",
+      "target": "Resources/AI & Machine Learning/Benchmarks — MMLU, HumanEval, GSM8K, GPQA"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Model Evaluation Metrics",
+      "target": "Resources/AI & Machine Learning/Hallucination — Causes and Mitigations"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Model Evaluation Metrics",
+      "target": "Resources/AI & Machine Learning/Loss Functions"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Model Evaluation Metrics",
+      "target": "Resources/Agent Evaluation"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Model Evaluation Metrics",
+      "target": "Resources/MLOps and ML Engineering"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
+      "target": "Local LLMs (Ollama, llama.cpp, LM Studio)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
+      "target": "Resources/AI & Machine Learning/Knowledge Distillation"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
+      "target": "Resources/AI & Machine Learning/OpenAI API and GPT Models"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
+      "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
+      "target": "Resources/LLM System Design"
     },
     {
       "source": "Resources/AI & Machine Learning/Multi-Head Attention",
       "target": "Resources/AI & Machine Learning/Attention Mechanism — Self-Attention"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Multi-Head Attention",
+      "target": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)"
     },
     {
       "source": "Resources/AI & Machine Learning/Multi-Head Attention",
@@ -2945,6 +3527,26 @@
     {
       "source": "Resources/AI & Machine Learning/Multi-Head Attention",
       "target": "Resources/Transformer Architecture"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Multimodal Models",
+      "target": "Resources/AI & Machine Learning/AI Agents and Tool Use"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Multimodal Models",
+      "target": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Multimodal Models",
+      "target": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Multimodal Models",
+      "target": "Resources/AI & Machine Learning/Vision-Language Models"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Multimodal Models",
+      "target": "Resources/LLM System Design"
     },
     {
       "source": "Resources/AI & Machine Learning/Neural Network Fundamentals",
@@ -2965,6 +3567,26 @@
     {
       "source": "Resources/AI & Machine Learning/Neural Network Fundamentals",
       "target": "Resources/MLOps and ML Engineering"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/OpenAI API and GPT Models",
+      "target": "Resources/AI & Machine Learning/AI Agents and Tool Use"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/OpenAI API and GPT Models",
+      "target": "Resources/AI & Machine Learning/Claude API and Anthropic SDK"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/OpenAI API and GPT Models",
+      "target": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/OpenAI API and GPT Models",
+      "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/OpenAI API and GPT Models",
+      "target": "Resources/LLM System Design"
     },
     {
       "source": "Resources/AI & Machine Learning/Positional Encoding",
@@ -3008,10 +3630,6 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals",
-      "target": "Hallucination — Causes and Mitigations"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals",
       "target": "Resources/AI & Machine Learning/Chain-of-Thought Prompting"
     },
     {
@@ -3020,11 +3638,35 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals",
+      "target": "Resources/AI & Machine Learning/Hallucination — Causes and Mitigations"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals",
       "target": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)"
     },
     {
       "source": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals",
       "target": "Resources/LLM System Design"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/ReAct Prompting Pattern",
+      "target": "Resources/AI & Machine Learning/AI Agents and Tool Use"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/ReAct Prompting Pattern",
+      "target": "Resources/AI & Machine Learning/Chain-of-Thought Prompting"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/ReAct Prompting Pattern",
+      "target": "Resources/AI & Machine Learning/Model Context Protocol (MCP)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/ReAct Prompting Pattern",
+      "target": "Resources/Agent Evaluation"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/ReAct Prompting Pattern",
+      "target": "Resources/Agent Security"
     },
     {
       "source": "Resources/AI & Machine Learning/Recurrent Neural Networks (RNNs)",
@@ -3036,19 +3678,15 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Recurrent Neural Networks (RNNs)",
+      "target": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Recurrent Neural Networks (RNNs)",
       "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
     },
     {
       "source": "Resources/AI & Machine Learning/Recurrent Neural Networks (RNNs)",
-      "target": "Speech Recognition (Whisper, Wav2Vec)"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Recurrent Neural Networks (RNNs)",
       "target": "Time Series Analysis"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Regularization (L1, L2, Dropout, Early Stopping)",
-      "target": "Model Evaluation Metrics"
     },
     {
       "source": "Resources/AI & Machine Learning/Regularization (L1, L2, Dropout, Early Stopping)",
@@ -3060,11 +3698,55 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Regularization (L1, L2, Dropout, Early Stopping)",
+      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Regularization (L1, L2, Dropout, Early Stopping)",
       "target": "Resources/AI & Machine Learning/Transfer Learning"
     },
     {
       "source": "Resources/AI & Machine Learning/Regularization (L1, L2, Dropout, Early Stopping)",
       "target": "Resources/MLOps and ML Engineering"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals",
+      "target": "Game Theory Fundamentals"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals",
+      "target": "Resources/AI & Machine Learning/Direct Preference Optimization (DPO)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals",
+      "target": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals",
+      "target": "Resources/Multi-Agent RL"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals",
+      "target": "Resources/RLHF and Alignment"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)",
+      "target": "Resources/AI & Machine Learning/AI Alignment Overview"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)",
+      "target": "Resources/AI & Machine Learning/Constitutional AI"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)",
+      "target": "Resources/AI & Machine Learning/Direct Preference Optimization (DPO)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)",
+      "target": "Resources/Process Reward Models"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)",
+      "target": "Resources/RLHF and Alignment"
     },
     {
       "source": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)",
@@ -3085,6 +3767,66 @@
     {
       "source": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)",
       "target": "Resources/RAG and Bobby Vector Search"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Semantic Search vs Keyword Search",
+      "target": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Semantic Search vs Keyword Search",
+      "target": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Semantic Search vs Keyword Search",
+      "target": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Semantic Search vs Keyword Search",
+      "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Semantic Search vs Keyword Search",
+      "target": "Resources/Search Systems"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)",
+      "target": "Bobby's Voice Pipeline Architecture"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)",
+      "target": "Resources/AI & Machine Learning/Multimodal Models"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)",
+      "target": "Resources/AI & Machine Learning/Recurrent Neural Networks (RNNs)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)",
+      "target": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)",
+      "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
+      "target": "Bobby's Personality and Tone Guide"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
+      "target": "Bobby's Wake Word and Audio Pipeline"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
+      "target": "Resources/AI & Machine Learning/Multimodal Models"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
+      "target": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
+      "target": "Resources/LLM System Design"
     },
     {
       "source": "Resources/AI & Machine Learning/Tokenization — BPE, WordPiece, SentencePiece",
@@ -3108,7 +3850,7 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Transfer Learning",
-      "target": "Model Evaluation Metrics"
+      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
     },
     {
       "source": "Resources/AI & Machine Learning/Transfer Learning",
@@ -3120,11 +3862,11 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Transfer Learning",
-      "target": "Resources/MLOps and ML Engineering"
+      "target": "Resources/AI & Machine Learning/Vision-Language Models"
     },
     {
       "source": "Resources/AI & Machine Learning/Transfer Learning",
-      "target": "Vision-Language Models"
+      "target": "Resources/MLOps and ML Engineering"
     },
     {
       "source": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive",
@@ -3147,6 +3889,26 @@
       "target": "Resources/Transformer Architecture"
     },
     {
+      "source": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)",
+      "target": "Information Theory — Entropy, Cross-Entropy, KL Divergence"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)",
+      "target": "Resources/AI & Machine Learning/Diffusion Models"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)",
+      "target": "Resources/AI & Machine Learning/Generative Adversarial Networks (GANs)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)",
+      "target": "Resources/AI & Machine Learning/Loss Functions"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)",
+      "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
+    },
+    {
       "source": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)",
       "target": "Resources/AI & Machine Learning/Chunking Strategies for RAG"
     },
@@ -3176,6 +3938,10 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Vector Embeddings — How They Work",
+      "target": "Resources/AI & Machine Learning/Semantic Search vs Keyword Search"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Vector Embeddings — How They Work",
       "target": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)"
     },
     {
@@ -3183,8 +3949,24 @@
       "target": "Resources/Agent Memory"
     },
     {
-      "source": "Resources/AI & Machine Learning/Vector Embeddings — How They Work",
-      "target": "Semantic Search vs Keyword Search"
+      "source": "Resources/AI & Machine Learning/Vision-Language Models",
+      "target": "Resources/AI & Machine Learning/AI Agents and Tool Use"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Vision-Language Models",
+      "target": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Vision-Language Models",
+      "target": "Resources/AI & Machine Learning/Multimodal Models"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Vision-Language Models",
+      "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Vision-Language Models",
+      "target": "Resources/LLM System Design"
     },
     {
       "source": "Resources/API Design",
@@ -5123,5 +5905,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-25T19:08:20Z"
+  "generated_at": "2026-05-25T19:20:22Z"
 }
