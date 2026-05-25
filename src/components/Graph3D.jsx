@@ -242,7 +242,13 @@ export default function Graph3D({ data }) {
         // Animate existing comets
         cometsRef.current.forEach((comet) => {
           const progress = (t - comet.spawnT) / comet.duration
-          const envelope = Math.min(1, progress * 10) * Math.min(1, (1 - progress) * 5)
+          const fadeIn = Math.min(1, progress * 12)
+          // Head fades out first (starts at 55%, gone by 82%)
+          const headFade = Math.max(0, 1 - Math.max(0, (progress - 0.55) / 0.27))
+          // Trail lingers (starts at 70%, gone by 100%)
+          const trailFade = Math.max(0, 1 - Math.max(0, (progress - 0.70) / 0.30))
+          const headEnv = fadeIn * headFade
+          const trailEnv = fadeIn * trailFade
 
           const tPos = comet.trail.geometry.attributes.position
           const tCol = comet.trail.geometry.attributes.color
@@ -254,8 +260,8 @@ export default function Graph3D({ data }) {
               comet.start.y + (comet.end.y - comet.start.y) * trailT,
               comet.start.z + (comet.end.z - comet.start.z) * trailT,
             )
-            // Ice-white trail: near-white at head end, fades to transparent
-            const brightness = (1 - i / COMET_TRAIL) * envelope
+            // Ice-white trail fading with its own envelope
+            const brightness = (1 - i / COMET_TRAIL) * trailEnv
             tCol.setXYZ(i, brightness, brightness * 0.96, brightness * 0.92)
           }
           tPos.needsUpdate = true
@@ -269,7 +275,7 @@ export default function Graph3D({ data }) {
             comet.start.z + (comet.end.z - comet.start.z) * progress,
           )
           hPos.needsUpdate = true
-          comet.head.material.opacity = envelope * 0.98
+          comet.head.material.opacity = headEnv * 0.55
         })
 
         // Remove finished comets
