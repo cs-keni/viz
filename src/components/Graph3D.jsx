@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import ForceGraph3D from 'react-force-graph-3d'
 import * as THREE from 'three'
 import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js'
+import { forceCollide } from 'd3-force-3d'
 import { colorForDegree, isRecentlyAdded, sizeForDegree } from '../utils/colors'
 import { isMobile } from '../utils/device'
 
@@ -70,30 +71,35 @@ function spawnComet(scene, spawnT, camera) {
     end = mkPt()
   }
 
-  const positions = new Float32Array(COMET_TRAIL * 3)
-  const colors = new Float32Array(COMET_TRAIL * 3)
+  // Trail
+  const trailPositions = new Float32Array(COMET_TRAIL * 3)
+  const trailColors = new Float32Array(COMET_TRAIL * 3)
   for (let i = 0; i < COMET_TRAIL; i++) {
-    positions[i * 3]     = start.x
-    positions[i * 3 + 1] = start.y
-    positions[i * 3 + 2] = start.z
+    trailPositions[i * 3]     = start.x
+    trailPositions[i * 3 + 1] = start.y
+    trailPositions[i * 3 + 2] = start.z
   }
-
-  const geo = new THREE.BufferGeometry()
-  geo.setAttribute('position', new THREE.BufferAttribute(positions, 3))
-  geo.setAttribute('color', new THREE.BufferAttribute(colors, 3))
-
-  // Points instead of Line — WebGL ignores linewidth > 1px, so Lines are invisible at distance
-  const mat = new THREE.PointsMaterial({
-    vertexColors: true,
-    size: 6,
-    sizeAttenuation: false,
-    transparent: true,
-    opacity: 0.95,
-    depthWrite: false,
+  const trailGeo = new THREE.BufferGeometry()
+  trailGeo.setAttribute('position', new THREE.BufferAttribute(trailPositions, 3))
+  trailGeo.setAttribute('color', new THREE.BufferAttribute(trailColors, 3))
+  const trailMat = new THREE.PointsMaterial({
+    vertexColors: true, size: 10, sizeAttenuation: false,
+    transparent: true, opacity: 0.92, depthWrite: false,
   })
-  const points = new THREE.Points(geo, mat)
-  scene.add(points)
-  return { start, end, spawnT, duration: 2.5 + Math.random() * 2.0, object: points }
+  const trail = new THREE.Points(trailGeo, trailMat)
+  scene.add(trail)
+
+  // Bright head — separate single point so it can be much larger
+  const headGeo = new THREE.BufferGeometry()
+  headGeo.setAttribute('position', new THREE.BufferAttribute(new Float32Array([start.x, start.y, start.z]), 3))
+  const headMat = new THREE.PointsMaterial({
+    color: '#d8f0ff', size: 20, sizeAttenuation: false,
+    transparent: true, opacity: 0.98, depthWrite: false,
+  })
+  const head = new THREE.Points(headGeo, headMat)
+  scene.add(head)
+
+  return { start, end, spawnT, duration: 2.5 + Math.random() * 2.0, trail, head }
 }
 
 function buildStarfield() {
@@ -127,7 +133,7 @@ function buildNebulae(scene) {
   ].map(({ pos, r, emissive, opacity }) => {
     const geo = new THREE.SphereGeometry(r, 32, 32)
     const mat = new THREE.MeshStandardMaterial({
-      color: '#000000', emissive, emissiveIntensity: 0.25,
+      color: '#000000', emissive, emissiveIntensity: 0.12,
       transparent: true, opacity, depthWrite: false, side: THREE.BackSide,
     })
     const mesh = new THREE.Mesh(geo, mat)
@@ -184,6 +190,29 @@ export default function Graph3D({ data }) {
     setGraphData(data)
   }, [data])
 
+  // Independent rAF orbit loop — does not depend on react-force-graph-3d's
+  // animation loop, so it keeps running even after the physics simulation stops.
+  useEffect(() => {
+    const axis = new THREE.Vector3(0, 1, 0)
+    let rafId
+    const tick = () => {
+      if (isAutoRotatingRef.current) {
+        const fg = fgRef.current
+        if (fg) {
+          const camera = fg.camera?.()
+          const controls = fg.controls?.()
+          if (camera && controls) {
+            camera.position.applyAxisAngle(axis, 0.001)
+            camera.lookAt(controls.target)
+          }
+        }
+      }
+      rafId = requestAnimationFrame(tick)
+    }
+    rafId = requestAnimationFrame(tick)
+    return () => cancelAnimationFrame(rafId)
+  }, [])
+
   // Track mouse position to place tooltip without re-renders
   useEffect(() => {
     const onMove = (e) => {
@@ -201,9 +230,11 @@ export default function Graph3D({ data }) {
     fgRef.current = instance
     if (!instance) return
 
-    // Push nodes apart — default charge is too weak for 67 nodes, causing dense clusters
-    if (instance.d3Force('charge')) instance.d3Force('charge').strength(-180)
-    if (instance.d3Force('link')) instance.d3Force('link').distance(60)
+    // Push nodes apart — default charge is too weak for 67 nodes with 175 links
+    if (instance.d3Force('charge')) instance.d3Force('charge').strength(-200)
+    if (instance.d3Force('link')) instance.d3Force('link').distance(70)
+    // Collision force prevents nodes from physically overlapping regardless of link tension
+    instance.d3Force('collide', forceCollide(n => sizeForDegree(n.degree) * 2.5 + 12))
 
     const controls = instance.controls()
     if (controls) {
@@ -237,7 +268,7 @@ export default function Graph3D({ data }) {
       const composer = instance.postProcessingComposer()
       const bloomPass = new UnrealBloomPass(
         new THREE.Vector2(window.innerWidth, window.innerHeight),
-        1.4, 0.4, 0.15,
+        1.4, 0.4, 0.25,
       )
       composer.addPass(bloomPass)
       bloomAddedRef.current = true
@@ -321,20 +352,8 @@ export default function Graph3D({ data }) {
   }, [selectedNodeId])
 
   const onRenderFramePost = useCallback(() => {
-    const controls = fgRef.current?.controls()
-    if (controls) {
-      controls.update()
-      // Manual orbit — applyAxisAngle is reliable across Three.js versions;
-      // OrbitControls.autoRotate requires a deltaTime arg in r147+ which the
-      // library doesn't supply, so we rotate the camera position directly.
-      if (isAutoRotatingRef.current) {
-        const camera = fgRef.current?.camera()
-        if (camera) {
-          camera.position.applyAxisAngle(new THREE.Vector3(0, 1, 0), 0.001)
-          camera.lookAt(controls.target)
-        }
-      }
-    }
+    // Keep OrbitControls damping alive (damping decays _sphericalDelta each frame)
+    fgRef.current?.controls()?.update()
 
     const graph = graphRef.current
     if (!graph) return
@@ -377,29 +396,45 @@ export default function Graph3D({ data }) {
     const scene = fgRef.current?.scene()
     cometsRef.current.forEach((comet) => {
       const progress = (t - comet.spawnT) / comet.duration
-      const positions = comet.object.geometry.attributes.position
-      const cColors = comet.object.geometry.attributes.color
+      const envelope = Math.min(1, progress * 10) * Math.min(1, (1 - progress) * 5)
+
+      // Update trail points
+      const tPos = comet.trail.geometry.attributes.position
+      const tCol = comet.trail.geometry.attributes.color
       for (let i = 0; i < COMET_TRAIL; i++) {
         const trailT = Math.max(0, progress - (i / COMET_TRAIL) * COMET_TRAIL_DEPTH)
-        positions.setXYZ(
+        tPos.setXYZ(
           i,
           comet.start.x + (comet.end.x - comet.start.x) * trailT,
           comet.start.y + (comet.end.y - comet.start.y) * trailT,
           comet.start.z + (comet.end.z - comet.start.z) * trailT,
         )
-        const envelope = Math.min(1, progress * 10) * Math.min(1, (1 - progress) * 5)
         const brightness = (1 - i / COMET_TRAIL) * envelope
-        cColors.setXYZ(i, brightness * 0.9, brightness * 0.95, brightness)
+        tCol.setXYZ(i, brightness * 0.85, brightness * 0.92, brightness)
       }
-      positions.needsUpdate = true
-      cColors.needsUpdate = true
+      tPos.needsUpdate = true
+      tCol.needsUpdate = true
+
+      // Update head position (always at the leading point)
+      const hPos = comet.head.geometry.attributes.position
+      hPos.setXYZ(
+        0,
+        comet.start.x + (comet.end.x - comet.start.x) * progress,
+        comet.start.y + (comet.end.y - comet.start.y) * progress,
+        comet.start.z + (comet.end.z - comet.start.z) * progress,
+      )
+      hPos.needsUpdate = true
+      comet.head.material.opacity = envelope * 0.98
     })
     cometsRef.current = cometsRef.current.filter((comet) => {
       const done = t - comet.spawnT >= comet.duration
       if (done && scene) {
-        scene.remove(comet.object)
-        comet.object.geometry.dispose()
-        comet.object.material.dispose()
+        scene.remove(comet.trail)
+        scene.remove(comet.head)
+        comet.trail.geometry.dispose()
+        comet.trail.material.dispose()
+        comet.head.geometry.dispose()
+        comet.head.material.dispose()
       }
       return !done
     })
