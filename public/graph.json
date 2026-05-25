@@ -54,6 +54,24 @@
       "degree": 3
     },
     {
+      "id": "Backward Compatibility Strategies",
+      "label": "Backward Compatibility Strategies",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 3
+    },
+    {
+      "id": "Conventional Commits",
+      "label": "Conventional Commits",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
+    },
+    {
       "id": "Daily Notes/2026-05-19",
       "label": "2026-05-19",
       "folder": "Daily Notes",
@@ -107,6 +125,69 @@
         "daily"
       ],
       "degree": 0
+    },
+    {
+      "id": "Database Replication",
+      "label": "Database Replication",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Dependency Management",
+      "label": "Dependency Management",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
+    },
+    {
+      "id": "Design a Chat Application",
+      "label": "Design a Chat Application",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Design a Notification System",
+      "label": "Design a Notification System",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Distributed Transactions (2PC, Saga Pattern)",
+      "label": "Distributed Transactions (2PC, Saga Pattern)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Idempotency in Distributed Systems",
+      "label": "Idempotency in Distributed Systems",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
+    },
+    {
+      "id": "Integration Testing Strategies",
+      "label": "Integration Testing Strategies",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 3
     },
     {
       "id": "Maps/Bobby",
@@ -171,8 +252,35 @@
       "degree": 4
     },
     {
+      "id": "Message Queues (Kafka, RabbitMQ, SQS)",
+      "label": "Message Queues (Kafka, RabbitMQ, SQS)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Note Title",
       "label": "Note Title",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Open Source Licensing (MIT, Apache, GPL, etc.)",
+      "label": "Open Source Licensing (MIT, Apache, GPL, etc.)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "OpenAPI and API Documentation",
+      "label": "OpenAPI and API Documentation",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -267,6 +375,24 @@
       "degree": 2
     },
     {
+      "id": "Pub/Sub Architecture",
+      "label": "Sub Architecture",
+      "folder": "Pub",
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Real-Time Systems Design",
+      "label": "Real-Time Systems Design",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
+    },
+    {
       "id": "Resources/AI Workflow",
       "label": "AI Workflow",
       "folder": "Resources",
@@ -293,7 +419,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 9
+      "degree": 12
     },
     {
       "id": "Resources/Agent Evaluation",
@@ -486,7 +612,7 @@
         "neetcode",
         "interview-prep"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Database Internals Deep Dive",
@@ -515,7 +641,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 14
+      "degree": 16
     },
     {
       "id": "Resources/Distributed Systems",
@@ -529,7 +655,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 11
+      "degree": 14
     },
     {
       "id": "Resources/Docker",
@@ -588,7 +714,7 @@
         "tradeoffs",
         "interview-prep"
       ],
-      "degree": 22
+      "degree": 23
     },
     {
       "id": "Resources/FlashAttention",
@@ -701,7 +827,7 @@
         "bobby",
         "ai"
       ],
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Resources/MLOps and ML Engineering",
@@ -744,7 +870,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 11
+      "degree": 13
     },
     {
       "id": "Resources/Multi-Agent RL",
@@ -784,7 +910,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Notification System Design",
@@ -868,7 +994,7 @@
         "startups",
         "projects"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Programming Languages",
@@ -880,7 +1006,7 @@
         "resource",
         "study"
       ],
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "Resources/RAG and Bobby Vector Search",
@@ -1018,7 +1144,7 @@
         "engineering",
         "system-design"
       ],
-      "degree": 6
+      "degree": 14
     },
     {
       "id": "Resources/Software Engineering Tools",
@@ -1031,6 +1157,306 @@
         "study"
       ],
       "degree": 1
+    },
+    {
+      "id": "Resources/Software Engineering/API Design — GraphQL",
+      "label": "API Design — GraphQL",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "GraphQL is an API query language and runtime that lets clients request exactly the data shape they need. It is strongest for product surfaces that aggregate many backend entities, but it requires discipline around schema design, authorization, and query cost control.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Software Engineering/API Design — REST Principles",
+      "label": "API Design — REST Principles",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "REST API design uses HTTP resources, methods, status codes, and representations to expose predictable service interfaces. Good REST design is less about purity and more about stable contracts, clear semantics, and operational usability.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 9
+    },
+    {
+      "id": "Resources/Software Engineering/API Design — Server-Sent Events",
+      "label": "API Design — Server-Sent Events",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Server-Sent Events are a simple HTTP-based way for servers to stream updates to clients. SSE is a good fit for one-way live updates where WebSockets would add unnecessary connection and protocol complexity.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Software Engineering/API Design — WebSockets",
+      "label": "API Design — WebSockets",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "WebSockets provide a persistent bidirectional connection between client and server. They are useful for low-latency interactive features, but they require explicit handling for connection state, scaling, authentication, and backpressure.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers",
+      "label": "API Design — gRPC and Protocol Buffers",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "gRPC is a high-performance RPC framework that uses Protocol Buffers to define typed service contracts. It is commonly used for internal service communication where latency, streaming, and strongly typed generated clients matter.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Software Engineering/Anti-Patterns and Code Smells",
+      "label": "Anti-Patterns and Code Smells",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Anti-patterns and code smells are warning signs that a design may be harder to understand, test, or change than it needs to be. They are not automatic proof of bad code, but they are prompts for closer inspection.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 12
+    },
+    {
+      "id": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
+      "label": "Behavior-Driven Development (BDD)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Behavior-Driven Development extends test-first development by describing system behavior in language shared by engineering, product, and domain stakeholders. It is most useful when examples clarify requirements across roles.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Software Engineering/CQRS Pattern",
+      "label": "CQRS Pattern",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "CQRS separates commands that change state from queries that read state. It is useful when write models and read models have different complexity, performance, or scaling needs.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Software Engineering/Clean Code Principles",
+      "label": "Clean Code Principles",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Clean code principles explain how to write software that other engineers can safely read, change, and extend. The practical focus is clarity, intention-revealing structure, and reducing surprise rather than chasing aesthetic purity.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Software Engineering/Code Review Best Practices",
+      "label": "Code Review Best Practices",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Code review is a collaborative quality gate for correctness, maintainability, security, and shared understanding. Strong reviews focus on risk and clarity rather than personal preference.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Software Engineering/Design Patterns — Behavioral (Observer, Strategy, Command, State, Iterator)",
+      "label": "Design Patterns — Behavioral (Observer, Strategy, Command, State, Iterator)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Behavioral design patterns organize runtime interaction between objects. They help separate algorithms, events, state transitions, commands, and traversal logic from the objects that use them.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 9
+    },
+    {
+      "id": "Resources/Software Engineering/Design Patterns — Creational (Factory, Builder, Singleton, Prototype)",
+      "label": "Design Patterns — Creational (Factory, Builder, Singleton, Prototype)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Creational design patterns centralize object construction so callers do not need to know every setup detail. They are most valuable when construction has branching logic, required sequencing, or expensive shared resources.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Software Engineering/Design Patterns — Structural (Adapter, Bridge, Composite, Decorator, Facade)",
+      "label": "Design Patterns — Structural (Adapter, Bridge, Composite, Decorator, Facade)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Structural design patterns organize how objects and interfaces fit together. They help engineers adapt incompatible APIs, compose nested structures, add behavior safely, and hide subsystem complexity.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Software Engineering/Domain-Driven Design (DDD)",
+      "label": "Domain-Driven Design (DDD)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Domain-Driven Design is an approach to modeling software around the language, rules, and boundaries of the business domain. Its most useful ideas are ubiquitous language, bounded contexts, and keeping domain logic explicit.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Software Engineering/Event Sourcing",
+      "label": "Event Sourcing",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Event sourcing stores every state-changing event as the source of truth instead of only storing the latest state. It enables auditability and temporal reconstruction, but requires careful event schema, replay, and operational discipline.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Software Engineering/Event-Driven Architecture",
+      "label": "Event-Driven Architecture",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Event-driven architecture coordinates systems through published facts about things that happened. It decouples producers from consumers, but shifts complexity into event design, ordering, idempotency, and observability.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 10
+    },
+    {
+      "id": "Resources/Software Engineering/Hexagonal Architecture (Ports and Adapters)",
+      "label": "Hexagonal Architecture (Ports and Adapters)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Hexagonal architecture places domain logic at the center and connects external systems through ports and adapters. It helps keep business rules independent from frameworks, databases, and transport details.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 9
+    },
+    {
+      "id": "Resources/Software Engineering/Microservices Architecture",
+      "label": "Microservices Architecture",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Microservices architecture decomposes a system into independently deployable services aligned around business capabilities. It can improve team autonomy and scaling, but it introduces distributed systems complexity that must be justified.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Software Engineering/Monolith vs Microservices Tradeoffs",
+      "label": "Monolith vs Microservices Tradeoffs",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "The monolith versus microservices decision is a tradeoff between simplicity and independent service autonomy. The right answer depends on team size, domain boundaries, deployment needs, and operational maturity.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Software Engineering/Property-Based Testing",
+      "label": "Property-Based Testing",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Property-based testing checks general invariants over many generated inputs instead of only testing hand-picked examples. It is strongest for parsers, serializers, state machines, algorithms, and code with clear mathematical or domain properties.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Software Engineering/Refactoring Techniques",
+      "label": "Refactoring Techniques",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Refactoring is the disciplined process of improving code structure without changing observable behavior. Good refactoring is incremental, test-backed, and focused on reducing the next change's cost.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 9
+    },
+    {
+      "id": "Resources/Software Engineering/SOLID Principles",
+      "label": "SOLID Principles",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "SOLID is a set of object-oriented design principles for keeping classes and modules focused, replaceable, and easier to change. It is useful as a review lens, but harmful when applied mechanically without regard for simpler designs.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Software Engineering/Semantic Versioning",
+      "label": "Semantic Versioning",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Semantic Versioning is a version numbering convention that communicates compatibility expectations through MAJOR.MINOR.PATCH numbers. It helps package users understand whether an update should be safe, additive, or breaking.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Software Engineering/Technical Debt — Types and Management",
+      "label": "Technical Debt — Types and Management",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Technical debt is the future cost created by implementation choices that make later change harder. Managing it means distinguishing deliberate tradeoffs from accidental decay and paying down the debt that blocks important work.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 9
+    },
+    {
+      "id": "Resources/Software Engineering/Test-Driven Development (TDD)",
+      "label": "Test-Driven Development (TDD)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Test-Driven Development is a workflow where tests are written before implementation to clarify desired behavior and guide design. Its value is fastest feedback and design pressure, not simply having more tests.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 10
     },
     {
       "id": "Resources/System Design Case Studies",
@@ -1086,7 +1512,7 @@
         "quality",
         "interview-prep"
       ],
-      "degree": 9
+      "degree": 15
     },
     {
       "id": "Resources/Transformer Architecture",
@@ -1152,6 +1578,24 @@
         "pkm"
       ],
       "degree": 6
+    },
+    {
+      "id": "Software Estimation Techniques",
+      "label": "Software Estimation Techniques",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "User Stories and Jobs to Be Done",
+      "label": "User Stories and Jobs to Be Done",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "VAULT_INDEX",
@@ -2182,6 +2626,506 @@
       "target": "Resources/Testing Strategy"
     },
     {
+      "source": "Resources/Software Engineering/API Design — GraphQL",
+      "target": "Backward Compatibility Strategies"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — GraphQL",
+      "target": "Resources/API Design"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — GraphQL",
+      "target": "Resources/Software Engineering/API Design — REST Principles"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — GraphQL",
+      "target": "Resources/Software Engineering/API Design — WebSockets"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — GraphQL",
+      "target": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — REST Principles",
+      "target": "OpenAPI and API Documentation"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — REST Principles",
+      "target": "Resources/API Design"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — REST Principles",
+      "target": "Resources/Software Engineering/API Design — GraphQL"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — REST Principles",
+      "target": "Resources/Software Engineering/API Design — WebSockets"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — REST Principles",
+      "target": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — Server-Sent Events",
+      "target": "Design a Notification System"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — Server-Sent Events",
+      "target": "Real-Time Systems Design"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — Server-Sent Events",
+      "target": "Resources/API Design"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — Server-Sent Events",
+      "target": "Resources/LLM System Design"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — Server-Sent Events",
+      "target": "Resources/Software Engineering/API Design — WebSockets"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — WebSockets",
+      "target": "Design a Chat Application"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — WebSockets",
+      "target": "Pub/Sub Architecture"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — WebSockets",
+      "target": "Real-Time Systems Design"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — WebSockets",
+      "target": "Resources/Networking"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — WebSockets",
+      "target": "Resources/Software Engineering/API Design — Server-Sent Events"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers",
+      "target": "Backward Compatibility Strategies"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers",
+      "target": "Resources/Distributed Systems"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers",
+      "target": "Resources/Software Engineering/API Design — GraphQL"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers",
+      "target": "Resources/Software Engineering/API Design — REST Principles"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers",
+      "target": "Resources/Software Engineering/Microservices Architecture"
+    },
+    {
+      "source": "Resources/Software Engineering/Anti-Patterns and Code Smells",
+      "target": "Resources/Software Engineering/Clean Code Principles"
+    },
+    {
+      "source": "Resources/Software Engineering/Anti-Patterns and Code Smells",
+      "target": "Resources/Software Engineering/Code Review Best Practices"
+    },
+    {
+      "source": "Resources/Software Engineering/Anti-Patterns and Code Smells",
+      "target": "Resources/Software Engineering/Refactoring Techniques"
+    },
+    {
+      "source": "Resources/Software Engineering/Anti-Patterns and Code Smells",
+      "target": "Resources/Software Engineering/Technical Debt — Types and Management"
+    },
+    {
+      "source": "Resources/Software Engineering/Anti-Patterns and Code Smells",
+      "target": "Resources/Testing Strategy"
+    },
+    {
+      "source": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
+      "target": "Integration Testing Strategies"
+    },
+    {
+      "source": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
+      "target": "Resources/Product Engineering"
+    },
+    {
+      "source": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
+      "target": "Resources/Software Engineering/Test-Driven Development (TDD)"
+    },
+    {
+      "source": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
+      "target": "Resources/Testing Strategy"
+    },
+    {
+      "source": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
+      "target": "User Stories and Jobs to Be Done"
+    },
+    {
+      "source": "Resources/Software Engineering/CQRS Pattern",
+      "target": "Database Replication"
+    },
+    {
+      "source": "Resources/Software Engineering/CQRS Pattern",
+      "target": "Resources/Databases"
+    },
+    {
+      "source": "Resources/Software Engineering/CQRS Pattern",
+      "target": "Resources/Software Engineering/Design Patterns — Behavioral (Observer, Strategy, Command, State, Iterator)"
+    },
+    {
+      "source": "Resources/Software Engineering/CQRS Pattern",
+      "target": "Resources/Software Engineering/Event Sourcing"
+    },
+    {
+      "source": "Resources/Software Engineering/CQRS Pattern",
+      "target": "Resources/Software Engineering/Event-Driven Architecture"
+    },
+    {
+      "source": "Resources/Software Engineering/Clean Code Principles",
+      "target": "Resources/Software Architecture"
+    },
+    {
+      "source": "Resources/Software Engineering/Clean Code Principles",
+      "target": "Resources/Software Engineering/Anti-Patterns and Code Smells"
+    },
+    {
+      "source": "Resources/Software Engineering/Clean Code Principles",
+      "target": "Resources/Software Engineering/Code Review Best Practices"
+    },
+    {
+      "source": "Resources/Software Engineering/Clean Code Principles",
+      "target": "Resources/Software Engineering/Refactoring Techniques"
+    },
+    {
+      "source": "Resources/Software Engineering/Clean Code Principles",
+      "target": "Resources/Software Engineering/Technical Debt — Types and Management"
+    },
+    {
+      "source": "Resources/Software Engineering/Code Review Best Practices",
+      "target": "Conventional Commits"
+    },
+    {
+      "source": "Resources/Software Engineering/Code Review Best Practices",
+      "target": "Resources/Software Engineering/Anti-Patterns and Code Smells"
+    },
+    {
+      "source": "Resources/Software Engineering/Code Review Best Practices",
+      "target": "Resources/Software Engineering/Clean Code Principles"
+    },
+    {
+      "source": "Resources/Software Engineering/Code Review Best Practices",
+      "target": "Resources/Software Engineering/Technical Debt — Types and Management"
+    },
+    {
+      "source": "Resources/Software Engineering/Code Review Best Practices",
+      "target": "Resources/Testing Strategy"
+    },
+    {
+      "source": "Resources/Software Engineering/Design Patterns — Behavioral (Observer, Strategy, Command, State, Iterator)",
+      "target": "Resources/Software Architecture"
+    },
+    {
+      "source": "Resources/Software Engineering/Design Patterns — Behavioral (Observer, Strategy, Command, State, Iterator)",
+      "target": "Resources/Software Engineering/Anti-Patterns and Code Smells"
+    },
+    {
+      "source": "Resources/Software Engineering/Design Patterns — Behavioral (Observer, Strategy, Command, State, Iterator)",
+      "target": "Resources/Software Engineering/CQRS Pattern"
+    },
+    {
+      "source": "Resources/Software Engineering/Design Patterns — Behavioral (Observer, Strategy, Command, State, Iterator)",
+      "target": "Resources/Software Engineering/Event-Driven Architecture"
+    },
+    {
+      "source": "Resources/Software Engineering/Design Patterns — Behavioral (Observer, Strategy, Command, State, Iterator)",
+      "target": "Resources/Software Engineering/SOLID Principles"
+    },
+    {
+      "source": "Resources/Software Engineering/Design Patterns — Creational (Factory, Builder, Singleton, Prototype)",
+      "target": "Dependency Management"
+    },
+    {
+      "source": "Resources/Software Engineering/Design Patterns — Creational (Factory, Builder, Singleton, Prototype)",
+      "target": "Resources/Programming Languages"
+    },
+    {
+      "source": "Resources/Software Engineering/Design Patterns — Creational (Factory, Builder, Singleton, Prototype)",
+      "target": "Resources/Software Engineering/Anti-Patterns and Code Smells"
+    },
+    {
+      "source": "Resources/Software Engineering/Design Patterns — Creational (Factory, Builder, Singleton, Prototype)",
+      "target": "Resources/Software Engineering/Design Patterns — Behavioral (Observer, Strategy, Command, State, Iterator)"
+    },
+    {
+      "source": "Resources/Software Engineering/Design Patterns — Creational (Factory, Builder, Singleton, Prototype)",
+      "target": "Resources/Software Engineering/Design Patterns — Structural (Adapter, Bridge, Composite, Decorator, Facade)"
+    },
+    {
+      "source": "Resources/Software Engineering/Design Patterns — Structural (Adapter, Bridge, Composite, Decorator, Facade)",
+      "target": "Resources/Software Architecture"
+    },
+    {
+      "source": "Resources/Software Engineering/Design Patterns — Structural (Adapter, Bridge, Composite, Decorator, Facade)",
+      "target": "Resources/Software Engineering/API Design — REST Principles"
+    },
+    {
+      "source": "Resources/Software Engineering/Design Patterns — Structural (Adapter, Bridge, Composite, Decorator, Facade)",
+      "target": "Resources/Software Engineering/Design Patterns — Behavioral (Observer, Strategy, Command, State, Iterator)"
+    },
+    {
+      "source": "Resources/Software Engineering/Design Patterns — Structural (Adapter, Bridge, Composite, Decorator, Facade)",
+      "target": "Resources/Software Engineering/Design Patterns — Creational (Factory, Builder, Singleton, Prototype)"
+    },
+    {
+      "source": "Resources/Software Engineering/Design Patterns — Structural (Adapter, Bridge, Composite, Decorator, Facade)",
+      "target": "Resources/Software Engineering/Hexagonal Architecture (Ports and Adapters)"
+    },
+    {
+      "source": "Resources/Software Engineering/Domain-Driven Design (DDD)",
+      "target": "Resources/Software Architecture"
+    },
+    {
+      "source": "Resources/Software Engineering/Domain-Driven Design (DDD)",
+      "target": "Resources/Software Engineering/Event-Driven Architecture"
+    },
+    {
+      "source": "Resources/Software Engineering/Domain-Driven Design (DDD)",
+      "target": "Resources/Software Engineering/Hexagonal Architecture (Ports and Adapters)"
+    },
+    {
+      "source": "Resources/Software Engineering/Domain-Driven Design (DDD)",
+      "target": "Resources/Software Engineering/Microservices Architecture"
+    },
+    {
+      "source": "Resources/Software Engineering/Domain-Driven Design (DDD)",
+      "target": "Resources/Software Engineering/Monolith vs Microservices Tradeoffs"
+    },
+    {
+      "source": "Resources/Software Engineering/Event Sourcing",
+      "target": "Distributed Transactions (2PC, Saga Pattern)"
+    },
+    {
+      "source": "Resources/Software Engineering/Event Sourcing",
+      "target": "Resources/Databases"
+    },
+    {
+      "source": "Resources/Software Engineering/Event Sourcing",
+      "target": "Resources/Message Queues"
+    },
+    {
+      "source": "Resources/Software Engineering/Event Sourcing",
+      "target": "Resources/Software Engineering/CQRS Pattern"
+    },
+    {
+      "source": "Resources/Software Engineering/Event Sourcing",
+      "target": "Resources/Software Engineering/Event-Driven Architecture"
+    },
+    {
+      "source": "Resources/Software Engineering/Event-Driven Architecture",
+      "target": "Idempotency in Distributed Systems"
+    },
+    {
+      "source": "Resources/Software Engineering/Event-Driven Architecture",
+      "target": "Message Queues (Kafka, RabbitMQ, SQS)"
+    },
+    {
+      "source": "Resources/Software Engineering/Event-Driven Architecture",
+      "target": "Resources/Message Queues"
+    },
+    {
+      "source": "Resources/Software Engineering/Event-Driven Architecture",
+      "target": "Resources/Software Engineering/CQRS Pattern"
+    },
+    {
+      "source": "Resources/Software Engineering/Event-Driven Architecture",
+      "target": "Resources/Software Engineering/Event Sourcing"
+    },
+    {
+      "source": "Resources/Software Engineering/Hexagonal Architecture (Ports and Adapters)",
+      "target": "Resources/Software Architecture"
+    },
+    {
+      "source": "Resources/Software Engineering/Hexagonal Architecture (Ports and Adapters)",
+      "target": "Resources/Software Engineering/Design Patterns — Structural (Adapter, Bridge, Composite, Decorator, Facade)"
+    },
+    {
+      "source": "Resources/Software Engineering/Hexagonal Architecture (Ports and Adapters)",
+      "target": "Resources/Software Engineering/Domain-Driven Design (DDD)"
+    },
+    {
+      "source": "Resources/Software Engineering/Hexagonal Architecture (Ports and Adapters)",
+      "target": "Resources/Software Engineering/SOLID Principles"
+    },
+    {
+      "source": "Resources/Software Engineering/Hexagonal Architecture (Ports and Adapters)",
+      "target": "Resources/Software Engineering/Test-Driven Development (TDD)"
+    },
+    {
+      "source": "Resources/Software Engineering/Microservices Architecture",
+      "target": "Resources/Distributed Systems"
+    },
+    {
+      "source": "Resources/Software Engineering/Microservices Architecture",
+      "target": "Resources/Software Architecture"
+    },
+    {
+      "source": "Resources/Software Engineering/Microservices Architecture",
+      "target": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers"
+    },
+    {
+      "source": "Resources/Software Engineering/Microservices Architecture",
+      "target": "Resources/Software Engineering/Event-Driven Architecture"
+    },
+    {
+      "source": "Resources/Software Engineering/Microservices Architecture",
+      "target": "Resources/Software Engineering/Monolith vs Microservices Tradeoffs"
+    },
+    {
+      "source": "Resources/Software Engineering/Monolith vs Microservices Tradeoffs",
+      "target": "Resources/Distributed Systems"
+    },
+    {
+      "source": "Resources/Software Engineering/Monolith vs Microservices Tradeoffs",
+      "target": "Resources/Software Architecture"
+    },
+    {
+      "source": "Resources/Software Engineering/Monolith vs Microservices Tradeoffs",
+      "target": "Resources/Software Engineering/Domain-Driven Design (DDD)"
+    },
+    {
+      "source": "Resources/Software Engineering/Monolith vs Microservices Tradeoffs",
+      "target": "Resources/Software Engineering/Hexagonal Architecture (Ports and Adapters)"
+    },
+    {
+      "source": "Resources/Software Engineering/Monolith vs Microservices Tradeoffs",
+      "target": "Resources/Software Engineering/Microservices Architecture"
+    },
+    {
+      "source": "Resources/Software Engineering/Property-Based Testing",
+      "target": "Idempotency in Distributed Systems"
+    },
+    {
+      "source": "Resources/Software Engineering/Property-Based Testing",
+      "target": "Integration Testing Strategies"
+    },
+    {
+      "source": "Resources/Software Engineering/Property-Based Testing",
+      "target": "Resources/Data Structures and Algorithms Patterns"
+    },
+    {
+      "source": "Resources/Software Engineering/Property-Based Testing",
+      "target": "Resources/Software Engineering/Test-Driven Development (TDD)"
+    },
+    {
+      "source": "Resources/Software Engineering/Property-Based Testing",
+      "target": "Resources/Testing Strategy"
+    },
+    {
+      "source": "Resources/Software Engineering/Refactoring Techniques",
+      "target": "Resources/Software Engineering/Anti-Patterns and Code Smells"
+    },
+    {
+      "source": "Resources/Software Engineering/Refactoring Techniques",
+      "target": "Resources/Software Engineering/Clean Code Principles"
+    },
+    {
+      "source": "Resources/Software Engineering/Refactoring Techniques",
+      "target": "Resources/Software Engineering/Technical Debt — Types and Management"
+    },
+    {
+      "source": "Resources/Software Engineering/Refactoring Techniques",
+      "target": "Resources/Software Engineering/Test-Driven Development (TDD)"
+    },
+    {
+      "source": "Resources/Software Engineering/Refactoring Techniques",
+      "target": "Resources/Testing Strategy"
+    },
+    {
+      "source": "Resources/Software Engineering/SOLID Principles",
+      "target": "Resources/Software Architecture"
+    },
+    {
+      "source": "Resources/Software Engineering/SOLID Principles",
+      "target": "Resources/Software Engineering/Anti-Patterns and Code Smells"
+    },
+    {
+      "source": "Resources/Software Engineering/SOLID Principles",
+      "target": "Resources/Software Engineering/Design Patterns — Behavioral (Observer, Strategy, Command, State, Iterator)"
+    },
+    {
+      "source": "Resources/Software Engineering/SOLID Principles",
+      "target": "Resources/Software Engineering/Hexagonal Architecture (Ports and Adapters)"
+    },
+    {
+      "source": "Resources/Software Engineering/SOLID Principles",
+      "target": "Resources/Software Engineering/Test-Driven Development (TDD)"
+    },
+    {
+      "source": "Resources/Software Engineering/Semantic Versioning",
+      "target": "Backward Compatibility Strategies"
+    },
+    {
+      "source": "Resources/Software Engineering/Semantic Versioning",
+      "target": "Conventional Commits"
+    },
+    {
+      "source": "Resources/Software Engineering/Semantic Versioning",
+      "target": "Dependency Management"
+    },
+    {
+      "source": "Resources/Software Engineering/Semantic Versioning",
+      "target": "Open Source Licensing (MIT, Apache, GPL, etc.)"
+    },
+    {
+      "source": "Resources/Software Engineering/Semantic Versioning",
+      "target": "Resources/Software Engineering/API Design — REST Principles"
+    },
+    {
+      "source": "Resources/Software Engineering/Technical Debt — Types and Management",
+      "target": "Resources/Engineering Judgment and Tool Tradeoffs"
+    },
+    {
+      "source": "Resources/Software Engineering/Technical Debt — Types and Management",
+      "target": "Resources/Software Engineering/Anti-Patterns and Code Smells"
+    },
+    {
+      "source": "Resources/Software Engineering/Technical Debt — Types and Management",
+      "target": "Resources/Software Engineering/Code Review Best Practices"
+    },
+    {
+      "source": "Resources/Software Engineering/Technical Debt — Types and Management",
+      "target": "Resources/Software Engineering/Refactoring Techniques"
+    },
+    {
+      "source": "Resources/Software Engineering/Technical Debt — Types and Management",
+      "target": "Software Estimation Techniques"
+    },
+    {
+      "source": "Resources/Software Engineering/Test-Driven Development (TDD)",
+      "target": "Integration Testing Strategies"
+    },
+    {
+      "source": "Resources/Software Engineering/Test-Driven Development (TDD)",
+      "target": "Resources/Software Engineering/Behavior-Driven Development (BDD)"
+    },
+    {
+      "source": "Resources/Software Engineering/Test-Driven Development (TDD)",
+      "target": "Resources/Software Engineering/Property-Based Testing"
+    },
+    {
+      "source": "Resources/Software Engineering/Test-Driven Development (TDD)",
+      "target": "Resources/Software Engineering/Refactoring Techniques"
+    },
+    {
+      "source": "Resources/Software Engineering/Test-Driven Development (TDD)",
+      "target": "Resources/Testing Strategy"
+    },
+    {
       "source": "Resources/System Design Case Studies",
       "target": "Projects/Backlog"
     },
@@ -2318,5 +3262,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-25T18:41:47Z"
+  "generated_at": "2026-05-25T18:50:38Z"
 }
