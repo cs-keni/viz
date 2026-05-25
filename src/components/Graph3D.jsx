@@ -11,7 +11,6 @@ const BACKGROUND_COLOR = '#050820'
 const STAR_COUNT = 1500
 const STAR_RADIUS = 800
 const LINK_PARTICLE_COLOR = '#a0c0ff'
-const DIM_COLOR = '#070a1a'
 const COMET_TRAIL = 25
 const COMET_TRAIL_DEPTH = 0.18
 const ORBIT_RESUME_DELAY = 3000
@@ -464,21 +463,19 @@ export default function Graph3D({ data }) {
   const getLinkColor = useCallback((link) => {
     const src = link.source
     const degree = typeof src === 'object' && src !== null ? (src.degree ?? 0) : 0
-    if (selectedNodeId) {
-      const srcId = typeof src === 'object' && src ? src.id : src
-      const tgtId = typeof link.target === 'object' && link.target ? link.target.id : link.target
-      if (!neighborSetRef.current.has(srcId) && !neighborSetRef.current.has(tgtId)) return DIM_COLOR
-    }
     return edgeColorForDegree(degree)
-  }, [selectedNodeId])
+  }, [])
 
-  const getLinkParticleColor = useCallback((link) => {
-    if (!selectedNodeId) return LINK_PARTICLE_COLOR
+  // Hide non-neighbor links entirely when a node is selected — avoids dark
+  // lines rendering on top of the background (Three.js lines ignore alpha).
+  const getLinkVisibility = useCallback((link) => {
+    if (!selectedNodeId) return true
     const srcId = typeof link.source === 'object' && link.source ? link.source.id : link.source
     const tgtId = typeof link.target === 'object' && link.target ? link.target.id : link.target
     return neighborSetRef.current.has(srcId) || neighborSetRef.current.has(tgtId)
-      ? LINK_PARTICLE_COLOR : DIM_COLOR
   }, [selectedNodeId])
+
+  const getLinkParticleColor = useCallback(() => LINK_PARTICLE_COLOR, [])
 
   const onRenderFramePost = useCallback(() => {
     // Keep OrbitControls damping alive (damping decays _sphericalDelta each frame)
@@ -537,6 +534,7 @@ export default function Graph3D({ data }) {
         onNodeHover={onNodeHover}
         onEngineStop={onEngineStop}
         linkColor={getLinkColor}
+        linkVisibility={getLinkVisibility}
         linkOpacity={0.85}
         linkWidth={1.0}
         linkDirectionalParticles={3}
