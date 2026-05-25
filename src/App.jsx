@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react'
 import { useGraphData } from './hooks/useGraphData'
+import StatsOverlay from './components/StatsOverlay'
 import './App.css'
 
 const Graph3D = React.lazy(() => import('./components/Graph3D'))
@@ -35,6 +36,7 @@ function App() {
       <Suspense fallback={<LoadingSkeleton />}>
         <Graph3D data={data} />
       </Suspense>
+      <StatsOverlay data={data} />
     </main>
   )
 }

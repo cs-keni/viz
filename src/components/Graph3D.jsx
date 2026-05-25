@@ -5,6 +5,7 @@ import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPa
 import { forceCollide } from 'd3-force-3d'
 import { colorForDegree, isRecentlyAdded, sizeForDegree } from '../utils/colors'
 import { isMobile } from '../utils/device'
+import InfoPanel from './InfoPanel'
 
 const BACKGROUND_COLOR = '#050820'
 const STAR_COUNT = 1500
@@ -207,6 +208,7 @@ export default function Graph3D({ data }) {
   const isAutoRotatingRef = useRef(true)
   const [graphData, setGraphData] = useState(data)
   const [selectedNodeId, setSelectedNodeId] = useState(null)
+  const [selectedNode, setSelectedNode] = useState(null)
   const [hoveredNode, setHoveredNode] = useState(null)
 
   useEffect(() => {
@@ -394,30 +396,60 @@ export default function Graph3D({ data }) {
     return new THREE.Mesh(geometry, material)
   }, [])
 
-  const onNodeClick = useCallback((node) => {
-    if (selectedNodeRef.current === node.id) {
-      selectedNodeRef.current = null
-      neighborSetRef.current = new Set()
-      setSelectedNodeId(null)
-    } else {
-      const neighbors = new Set([node.id])
-      graphRef.current.links?.forEach((link) => {
-        const srcId = typeof link.source === 'object' ? link.source.id : link.source
-        const tgtId = typeof link.target === 'object' ? link.target.id : link.target
-        if (srcId === node.id) neighbors.add(tgtId)
-        if (tgtId === node.id) neighbors.add(srcId)
-      })
-      selectedNodeRef.current = node.id
-      neighborSetRef.current = neighbors
-      setSelectedNodeId(node.id)
-    }
-  }, [])
-
-  const onBackgroundClick = useCallback(() => {
+  const handleDismiss = useCallback(() => {
     selectedNodeRef.current = null
     neighborSetRef.current = new Set()
     setSelectedNodeId(null)
+    setSelectedNode(null)
+    isAutoRotatingRef.current = false
+    clearTimeout(orbitResumeTimerRef.current)
+    orbitResumeTimerRef.current = setTimeout(() => {
+      isAutoRotatingRef.current = true
+    }, ORBIT_RESUME_DELAY)
   }, [])
+
+  const onNodeClick = useCallback((node) => {
+    if (selectedNodeRef.current === node.id) {
+      handleDismiss()
+      return
+    }
+
+    // Fly camera to 60 units in front of the node
+    const fg = fgRef.current
+    if (fg) {
+      const camera = fg.camera()
+      const nodeVec = new THREE.Vector3(node.x ?? 0, node.y ?? 0, node.z ?? 0)
+      const camVec = camera.position.clone()
+      const dir = nodeVec.clone().sub(camVec)
+      if (dir.lengthSq() > 0.01) {
+        dir.normalize()
+        const targetCamPos = nodeVec.clone().sub(dir.multiplyScalar(60))
+        fg.cameraPosition(
+          { x: targetCamPos.x, y: targetCamPos.y, z: targetCamPos.z },
+          { x: node.x, y: node.y, z: node.z },
+          1000,
+        )
+      }
+      isAutoRotatingRef.current = false
+      clearTimeout(orbitResumeTimerRef.current)
+    }
+
+    const neighbors = new Set([node.id])
+    graphRef.current.links?.forEach((link) => {
+      const srcId = typeof link.source === 'object' ? link.source.id : link.source
+      const tgtId = typeof link.target === 'object' ? link.target.id : link.target
+      if (srcId === node.id) neighbors.add(tgtId)
+      if (tgtId === node.id) neighbors.add(srcId)
+    })
+    selectedNodeRef.current = node.id
+    neighborSetRef.current = neighbors
+    setSelectedNodeId(node.id)
+    setSelectedNode(node)
+  }, [handleDismiss])
+
+  const onBackgroundClick = useCallback(() => {
+    handleDismiss()
+  }, [handleDismiss])
 
   const onNodeHover = useCallback((node) => {
     document.body.style.cursor = node ? 'pointer' : ''
@@ -523,6 +555,7 @@ export default function Graph3D({ data }) {
       >
         {hoveredNode?.label}
       </div>
+      {selectedNode && <InfoPanel node={selectedNode} onDismiss={handleDismiss} />}
     </>
   )
 }
