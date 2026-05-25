@@ -5,7 +5,7 @@
       "label": "Dev Setup",
       "folder": "Areas",
       "created": "2026-05-19",
-      "excerpt": "Dev Setup",
+      "excerpt": "full dev environment: WSL2, zsh, miniconda Python 3.13, VS Code, AI toolchain.",
       "tags": [
         "area",
         "dev",
@@ -19,7 +19,7 @@
       "label": "Gaming",
       "folder": "Areas",
       "created": "2026-05-19",
-      "excerpt": "Gaming",
+      "excerpt": "active games status, Nuzlocke history log, per-game notes.",
       "tags": [
         "area",
         "gaming"
@@ -31,7 +31,7 @@
       "label": "Job Search",
       "folder": "Areas",
       "created": "2026-05-19",
-      "excerpt": "Job Search",
+      "excerpt": "new grad SWE application tracker (Kanban), target company notes, search strategy.",
       "tags": [
         "area",
         "job-search",
@@ -44,7 +44,7 @@
       "label": "Pokemon Collection",
       "folder": "Areas",
       "created": "2026-05-19",
-      "excerpt": "Pokémon Collection",
+      "excerpt": "TCG collection notes, Shuckle-GX secret rare, Japan trip, wishlist.",
       "tags": [
         "area",
         "pokemon",
@@ -58,7 +58,7 @@
       "label": "2026-05-19",
       "folder": "Daily Notes",
       "created": "2026-05-19",
-      "excerpt": "2026-05-19",
+      "excerpt": "Daily log covering the vault bootstrap, Obsidian/PKM workflow decisions, GitHub backup setup, folder conventions, and first media-reference capture.",
       "tags": [
         "daily"
       ],
@@ -69,7 +69,7 @@
       "label": "2026-05-21",
       "folder": "Daily Notes",
       "created": "2026-05-21",
-      "excerpt": "Session 1",
+      "excerpt": "Daily log covering caching and database study, including Redis patterns, ACID/MVCC, indexes, query planning, connection pooling, and follow-up system design topics.",
       "tags": [
         "daily"
       ],
@@ -80,7 +80,7 @@
       "label": "2026-05-22",
       "folder": "Daily Notes",
       "created": "2026-05-22",
-      "excerpt": "Session 1",
+      "excerpt": "Daily log covering deep AI, systems, cloud, and infrastructure study across transformers, alignment, agents, OS fundamentals, Docker, Kubernetes, cloud services, networking, CI/CD, data engineering, and software tooling.",
       "tags": [
         "daily"
       ],
@@ -91,7 +91,18 @@
       "label": "2026-05-24",
       "folder": "Daily Notes",
       "created": "2026-05-24",
-      "excerpt": "Session 1",
+      "excerpt": "Daily log covering MLOps, agent security, DSA patterns, engineering judgment, LLM ethics, system design case studies, testing, architecture, database internals, security, product engineering, interview communication, and personal finance.",
+      "tags": [
+        "daily"
+      ],
+      "degree": 0
+    },
+    {
+      "id": "Daily Notes/2026-05-25",
+      "label": "2026-05-25",
+      "folder": "Daily Notes",
+      "created": "2026-05-25",
+      "excerpt": "Daily log covering the addition of summary frontmatter across the tracked Obsidian vault so the web visualization can show node excerpts consistently.",
       "tags": [
         "daily"
       ],
@@ -102,7 +113,7 @@
       "label": "Bobby",
       "folder": "Maps",
       "created": "2026-05-19",
-      "excerpt": "Bobby",
+      "excerpt": "Bobby map collecting the assistant project overview, command reference, memory architecture, AI workflow, and WSL setup notes.",
       "tags": [
         "map",
         "bobby",
@@ -115,7 +126,7 @@
       "label": "Engineering",
       "folder": "Maps",
       "created": "2026-05-19",
-      "excerpt": "Engineering",
+      "excerpt": "Engineering map connecting Kenny's software projects, development setup, AI workflow, system design references, and interview-prep notes.",
       "tags": [
         "map",
         "engineering"
@@ -127,7 +138,7 @@
       "label": "Gaming",
       "folder": "Maps",
       "created": "2026-05-19",
-      "excerpt": "Gaming",
+      "excerpt": "Gaming map linking active game notes, Pokemon collection context, and current play status.",
       "tags": [
         "map",
         "gaming"
@@ -139,7 +150,7 @@
       "label": "Home",
       "folder": "Maps",
       "created": "2026-05-19",
-      "excerpt": "Home",
+      "excerpt": "Top-level map of Kenny's personal knowledge vault, linking major maps, folders, workflows, and entry points for navigation.",
       "tags": [
         "map",
         "home"
@@ -151,7 +162,7 @@
       "label": "Job Search",
       "folder": "Maps",
       "created": "2026-05-19",
-      "excerpt": "Job Search",
+      "excerpt": "Job search map linking Kenny's application strategy, DSA practice, system design prep, and new grad SWE context.",
       "tags": [
         "map",
         "job-search",
@@ -173,7 +184,7 @@
       "label": "Backlog",
       "folder": "Projects",
       "created": "2026-05-19",
-      "excerpt": "Backlog",
+      "excerpt": "full-stack job search platform with live feed, AI match scoring, and Chrome ATS auto-fill extension.",
       "tags": [
         "project",
         "full-stack",
@@ -188,7 +199,7 @@
       "label": "Bobby",
       "folder": "Projects",
       "created": "2026-05-19",
-      "excerpt": "Bobby",
+      "excerpt": "personal AI voice assistant (Python, Claude API, ChromaDB, ElevenLabs); currently Phase 11B (vault index).",
       "tags": [
         "project",
         "ai",
@@ -202,7 +213,7 @@
       "label": "Bobby Brain Viz",
       "folder": "Projects",
       "created": "2026-05-24",
-      "excerpt": "Bobby Brain Viz",
+      "excerpt": "Live 3D vault graph visualizer that turns pushed Obsidian notes into public nodes and links for Kenny's eportfolio while keeping note content private.",
       "tags": [
         "project",
         "bobby"
@@ -214,7 +225,7 @@
       "label": "Klip",
       "folder": "Projects",
       "created": "2026-05-19",
-      "excerpt": "Klip",
+      "excerpt": "Electron desktop video editor with FFmpeg proxy pipeline and spring-physics timeline.",
       "tags": [
         "project",
         "desktop",
@@ -230,7 +241,7 @@
       "label": "Onsite",
       "folder": "Projects",
       "created": "2026-05-19",
-      "excerpt": "Onsite",
+      "excerpt": "technical interview simulation platform with conversational AI interviewer and debrief (early/active).",
       "tags": [
         "project",
         "interview-prep",
@@ -245,7 +256,7 @@
       "label": "Shuckler",
       "folder": "Projects",
       "created": "2026-05-19",
-      "excerpt": "Shuckler",
+      "excerpt": "Android music app for niche J/K-pop using NewPipe Extractor and gapless ExoPlayer playback.",
       "tags": [
         "project",
         "android",
@@ -260,7 +271,7 @@
       "label": "AI Workflow",
       "folder": "Resources",
       "created": "2026-05-19",
-      "excerpt": "AI Workflow",
+      "excerpt": "multi-model AI workflow: Claude Code, Codex, Gemini, IDE Copilot routing guide.",
       "tags": [
         "resource",
         "ai",
@@ -275,7 +286,7 @@
       "label": "API Design",
       "folder": "Resources",
       "created": "2026-05-21",
-      "excerpt": "API Design",
+      "excerpt": "REST/RESTful, HTTP semantics, idempotency keys, pagination (cursor vs offset), versioning, auth (JWT/OAuth2), webhooks, REST vs GraphQL/gRPC/WebSockets/SSE/SOAP.",
       "tags": [
         "resource",
         "system-design",
@@ -289,7 +300,7 @@
       "label": "Agent Evaluation",
       "folder": "Resources",
       "created": "2026-05-22",
-      "excerpt": "Agent Evaluation",
+      "excerpt": "capability benchmarks (SWE-bench, WebArena, GAIA, OSWorld), safety eval (HarmBench, jailbreak taxonomy, dangerous capability evals), deployment monitoring, A/B testing, evaluation flywheel.",
       "tags": [
         "resource",
         "study",
@@ -302,7 +313,7 @@
       "label": "Agent Memory",
       "folder": "Resources",
       "created": "2026-05-22",
-      "excerpt": "Agent Memory Architectures",
+      "excerpt": "four memory types (working/episodic/semantic/procedural), Generative Agents retrieval formula, MemGPT, multi-agent memory consistency.",
       "tags": [
         "resource",
         "study",
@@ -315,7 +326,7 @@
       "label": "Agent Security",
       "folder": "Resources",
       "created": "2026-05-24",
-      "excerpt": "Agent Security",
+      "excerpt": "security model for tool-using AI agents: prompt injection, capability-based tools, least privilege, sandboxing, memory poisoning, policy engines, audit logs, and Bobby permission modes.",
       "tags": [
         "resource",
         "ai",
@@ -331,7 +342,7 @@
       "label": "Bobby Commands",
       "folder": "Resources",
       "created": "2026-05-19",
-      "excerpt": "Bobby Commands",
+      "excerpt": "cheat sheet of all working Bobby voice commands and known gaps.",
       "tags": [
         "resource",
         "bobby",
@@ -345,7 +356,7 @@
       "label": "Bobby Memory Architecture",
       "folder": "Resources",
       "created": "2026-05-19",
-      "excerpt": "Bobby Memory Architecture",
+      "excerpt": "ChromaDB + SQLite + Obsidian vault three-layer memory system.",
       "tags": [
         "resource",
         "bobby",
@@ -360,7 +371,7 @@
       "label": "CI CD",
       "folder": "Resources",
       "created": "2026-05-22",
-      "excerpt": "CI/CD",
+      "excerpt": "CI/CD pipeline stages, GitHub Actions (OIDC, caching, matrix builds), deployment strategies (blue-green, canary, rolling, feature flags), Terraform, ArgoCD/GitOps.",
       "tags": [
         "resource",
         "study",
@@ -373,7 +384,7 @@
       "label": "Caching",
       "folder": "Resources",
       "created": "2026-05-21",
-      "excerpt": "Caching",
+      "excerpt": "deep dive: cache layers, read/write strategies, eviction policies, stampede/penetration/avalanche problems, Redis internals.",
       "tags": [
         "resource",
         "system-design",
@@ -387,7 +398,7 @@
       "label": "Claude Code Skills",
       "folder": "Resources",
       "created": "2026-05-22",
-      "excerpt": "Claude Code Skills",
+      "excerpt": "how Claude Code skills work: markdown files injected into context, gstack architecture (templates + Bun build), gbrain per-project learnings, how to write your own skill.",
       "tags": [
         "resource",
         "ai-tooling",
@@ -400,7 +411,7 @@
       "label": "Cloud Cost Optimization",
       "folder": "Resources",
       "created": "2026-05-22",
-      "excerpt": "Cloud Cost Optimization",
+      "excerpt": "Reserved Instances, Savings Plans, Spot, right-sizing, Graviton, auto scaling patterns, S3 lifecycle, NAT Gateway mitigation, data transfer costs, tagging, Cost Explorer.",
       "tags": [
         "resource",
         "study",
@@ -413,7 +424,7 @@
       "label": "Cloud Networking",
       "folder": "Resources",
       "created": "2026-05-22",
-      "excerpt": "Cloud Networking",
+      "excerpt": "VPC, subnets, IGW, NAT Gateway, security groups, VPC peering (non-transitive), Transit Gateway (hub-and-spoke), VPN vs Direct Connect, PrivateLink, data transfer pricing.",
       "tags": [
         "resource",
         "study",
@@ -426,7 +437,7 @@
       "label": "Cloud Services",
       "folder": "Resources",
       "created": "2026-05-22",
-      "excerpt": "Cloud Services (AWS and GCP)",
+      "excerpt": "AWS and GCP services: EC2/GCE, Lambda/Cloud Functions, S3/GCS, EBS, RDS/Aurora, DynamoDB/Firestore, ElastiCache, SQS/SNS/Pub-Sub, ECS/EKS/GKE/Cloud Run, CloudFront, ALB/NLB, IAM, CloudWatch.",
       "tags": [
         "resource",
         "study",
@@ -439,7 +450,7 @@
       "label": "DSA Practice",
       "folder": "Resources",
       "created": "2026-05-19",
-      "excerpt": "DSA Practice",
+      "excerpt": "DSA patterns by category (arrays, trees, graphs, DP, backtracking, binary search) with spaced repetition notes.",
       "tags": [
         "resource",
         "dsa",
@@ -454,7 +465,7 @@
       "label": "Data Engineering",
       "folder": "Resources",
       "created": "2026-05-22",
-      "excerpt": "Data Engineering",
+      "excerpt": "ELT vs ETL, data lake (Parquet, Iceberg, Medallion architecture), dbt, Airflow/Dagster, Snowflake/BigQuery/Redshift, Spark, Flink, Kinesis, Glue, CDC/Debezium, reverse ETL.",
       "tags": [
         "resource",
         "study",
@@ -467,7 +478,7 @@
       "label": "Data Structures and Algorithms Patterns",
       "folder": "Resources",
       "created": "2026-05-24",
-      "excerpt": "Data Structures and Algorithms Patterns",
+      "excerpt": "LeetCode/NeetCode pattern guide covering arrays, hash maps, two pointers, sliding windows, heaps, graphs, union find, backtracking, DP, and tradeoffs.",
       "tags": [
         "resource",
         "dsa",
@@ -482,7 +493,7 @@
       "label": "Database Internals Deep Dive",
       "folder": "Resources",
       "created": "2026-05-24",
-      "excerpt": "Database Internals Deep Dive",
+      "excerpt": "deeper database internals: pages, WAL, MVCC, vacuum/bloat, indexes, query planner, isolation anomalies, locks, replication, backups, partitioning, distributed SQL.",
       "tags": [
         "resource",
         "databases",
@@ -497,7 +508,7 @@
       "label": "Databases",
       "folder": "Resources",
       "created": "2026-05-21",
-      "excerpt": "Databases",
+      "excerpt": "deep dive: ACID, MVCC, indexes (B-tree/hash/composite/covering), query planning, N+1, connection pooling, SQL vs all 4 NoSQL types, PostgreSQL specifics.",
       "tags": [
         "resource",
         "system-design",
@@ -511,7 +522,7 @@
       "label": "Distributed Systems",
       "folder": "Resources",
       "created": "2026-05-21",
-      "excerpt": "Distributed Systems Fundamentals",
+      "excerpt": "partial failures, CAP/PACELC, consistency models, replication (single-leader/multi-leader/leaderless), Raft consensus, 2PC vs Saga, vector clocks, gossip protocol.",
       "tags": [
         "resource",
         "system-design",
@@ -525,7 +536,7 @@
       "label": "Docker",
       "folder": "Resources",
       "created": "2026-05-22",
-      "excerpt": "Docker",
+      "excerpt": "OverlayFS layer system, Dockerfile best practices (multi-stage builds), networking (bridge/host), volumes, container runtime architecture (dockerd→containerd→runc→kernel).",
       "tags": [
         "resource",
         "study",
@@ -538,7 +549,7 @@
       "label": "Dynamic Programming Deep Dive",
       "folder": "Resources",
       "created": "2026-05-24",
-      "excerpt": "Dynamic Programming Deep Dive",
+      "excerpt": "focused DP guide covering state design, memoization vs tabulation, 1D/2D DP, knapsack, LIS, interval DP, tree DP, bitmask DP, common traps, and practice method.",
       "tags": [
         "resource",
         "dsa",
@@ -553,7 +564,7 @@
       "label": "Economics and Personal Finance",
       "folder": "Resources",
       "created": "2026-05-24",
-      "excerpt": "Economics and Personal Finance",
+      "excerpt": "practical economics and personal finance primer covering incentives, opportunity cost, supply/demand, compounding, emergency funds, debt, index funds, retirement accounts, taxes, credit, lifestyle inflation, and career finance.",
       "tags": [
         "resource",
         "economics",
@@ -568,7 +579,7 @@
       "label": "Engineering Judgment and Tool Tradeoffs",
       "folder": "Resources",
       "created": "2026-05-24",
-      "excerpt": "Engineering Judgment and Tool Tradeoffs",
+      "excerpt": "practical guide to choosing tools by fit, failure modes, accepted tradeoffs, monitoring signals, and simpler alternatives.",
       "tags": [
         "resource",
         "engineering",
@@ -584,7 +595,7 @@
       "label": "FlashAttention",
       "folder": "Resources",
       "created": "2026-05-22",
-      "excerpt": "FlashAttention",
+      "excerpt": "GPU memory hierarchy, why standard attention is HBM-bound, tiling algorithm, online softmax, FA-2 and FA-3.",
       "tags": [
         "resource",
         "study",
@@ -597,7 +608,7 @@
       "label": "Formal Methods Agent Safety",
       "folder": "Resources",
       "created": "2026-05-22",
-      "excerpt": "Formal Methods for Agent Safety",
+      "excerpt": "temporal logic specs, type systems, runtime monitors, NN verification (and its limits), probabilistic verification, neurosymbolic approaches.",
       "tags": [
         "resource",
         "study",
@@ -610,7 +621,7 @@
       "label": "Geospatial",
       "folder": "Resources",
       "created": "2026-05-22",
-      "excerpt": "Geospatial Systems",
+      "excerpt": "geohashing (8-neighbor fix), quadtrees, S2/Hilbert curve, Haversine formula, Yelp-like proximity design, Uber-like live driver matching with Redis GEOSEARCH, H3 hexagons, map tile systems.",
       "tags": [
         "resource",
         "system-design",
@@ -624,7 +635,7 @@
       "label": "IaaS PaaS SaaS",
       "folder": "Resources",
       "created": "2026-05-22",
-      "excerpt": "IaaS, PaaS, SaaS",
+      "excerpt": "service model spectrum: IaaS (raw VMs), PaaS (managed runtime), SaaS (fully managed app), FaaS (functions), and where the lines blur.",
       "tags": [
         "resource",
         "study",
@@ -637,7 +648,7 @@
       "label": "Interview Communication",
       "folder": "Resources",
       "created": "2026-05-24",
-      "excerpt": "Interview Communication",
+      "excerpt": "interview communication guide covering project explanations, STAR stories, coding/system design structure, debugging out loud, clarifying questions, recovery, and resume bullet framing.",
       "tags": [
         "resource",
         "interview-prep",
@@ -652,7 +663,7 @@
       "label": "Kubernetes",
       "folder": "Resources",
       "created": "2026-05-22",
-      "excerpt": "Kubernetes",
+      "excerpt": "desired state reconciliation, control plane, worker nodes, all core objects (Pod/Deployment/Service/Ingress/StatefulSet/HPA/PV), scheduling, health probes, networking (CNI/kube-proxy/CoreDNS), RBAC.",
       "tags": [
         "resource",
         "study",
@@ -665,7 +676,7 @@
       "label": "LLM Capabilities and AI Ethics",
       "folder": "Resources",
       "created": "2026-05-24",
-      "excerpt": "LLM Capabilities and AI Ethics",
+      "excerpt": "opinionated overview of what LLMs can and cannot do, their tradeoffs, whether they replace engineers/humans, and the philosophy, morality, and ethics of AI deployment.",
       "tags": [
         "resource",
         "ai",
@@ -681,7 +692,7 @@
       "label": "LLM System Design",
       "folder": "Resources",
       "created": "2026-05-21",
-      "excerpt": "LLM System Design",
+      "excerpt": "tokens, context windows, prompt caching (KV cache, TTL, cost math), streaming, tool use/agentic loops, RAG (chunking, hybrid search, reranking), multi-agent orchestration, evals, fine-tuning vs prompting.",
       "tags": [
         "resource",
         "system-design",
@@ -697,7 +708,7 @@
       "label": "MLOps and ML Engineering",
       "folder": "Resources",
       "created": "2026-05-24",
-      "excerpt": "MLOps and ML Engineering",
+      "excerpt": "ML lifecycle from data and labels through training, experiment tracking, model registry, deployment, monitoring, drift, retraining, and LLMOps for Bobby-like systems.",
       "tags": [
         "resource",
         "ml",
@@ -713,7 +724,7 @@
       "label": "Mechanistic Interpretability",
       "folder": "Resources",
       "created": "2026-05-22",
-      "excerpt": "Mechanistic Interpretability",
+      "excerpt": "reverse-engineering transformers: circuit hypothesis, induction heads, IOI circuit, superposition, sparse autoencoders, activation patching.",
       "tags": [
         "resource",
         "study",
@@ -726,7 +737,7 @@
       "label": "Message Queues",
       "folder": "Resources",
       "created": "2026-05-21",
-      "excerpt": "Message Queues",
+      "excerpt": "delivery guarantees (at-most/at-least/exactly-once), Kafka internals (partitions, offsets, consumer groups, zero-copy, EOS), SQS, RabbitMQ, outbox pattern, event sourcing, backpressure.",
       "tags": [
         "resource",
         "system-design",
@@ -740,7 +751,7 @@
       "label": "Multi-Agent RL",
       "folder": "Resources",
       "created": "2026-05-22",
-      "excerpt": "Multi-Agent Reinforcement Learning (MARL)",
+      "excerpt": "MARL: non-stationarity, CTDE, QMIX monotonicity, MAPPO, self-play, league play, emergent communication, credit assignment.",
       "tags": [
         "resource",
         "study",
@@ -753,7 +764,7 @@
       "label": "Multi-Agent Systems",
       "folder": "Resources",
       "created": "2026-05-22",
-      "excerpt": "Multi-Agent Systems",
+      "excerpt": "multi-agent architectures (orchestrator-worker, blackboard, peer-to-peer), emergent behaviors, failure modes, safety and control.",
       "tags": [
         "resource",
         "study",
@@ -766,7 +777,7 @@
       "label": "Networking",
       "folder": "Resources",
       "created": "2026-05-21",
-      "excerpt": "Networking Fundamentals",
+      "excerpt": "OSI model, IP/NAT/CIDR, TCP internals (handshake, sliding window, congestion control, BBR), UDP, DNS resolution, TLS 1.3 (Diffie-Hellman, forward secrecy, mTLS), HTTP/1.1 vs HTTP/2 vs HTTP/3 (QUIC).",
       "tags": [
         "resource",
         "system-design",
@@ -780,7 +791,7 @@
       "label": "OS Fundamentals",
       "folder": "Resources",
       "created": "2026-05-22",
-      "excerpt": "OS Fundamentals",
+      "excerpt": "processes (fork/exec/CoW), virtual memory (page tables, MMU, TLB), file descriptors, I/O models (epoll, io_uring), concurrency primitives, CFS scheduling, signals, namespaces, cgroups.",
       "tags": [
         "resource",
         "study",
@@ -793,7 +804,7 @@
       "label": "Observability",
       "folder": "Resources",
       "created": "2026-05-21",
-      "excerpt": "Observability",
+      "excerpt": "monitoring vs observability, structured logging, log levels, metrics (RED/USE methods, Prometheus, PromQL), distributed tracing (spans, context propagation, sampling), OpenTelemetry, SLOs/error budgets.",
       "tags": [
         "resource",
         "system-design",
@@ -807,7 +818,7 @@
       "label": "Observability Case Studies",
       "folder": "Resources",
       "created": "2026-05-24",
-      "excerpt": "Observability Case Studies",
+      "excerpt": "production debugging guide using logs, metrics, traces, SLOs, alerts, postmortems, and case studies for latency, queues, databases, and error spikes.",
       "tags": [
         "resource",
         "observability",
@@ -822,7 +833,7 @@
       "label": "Process Reward Models",
       "folder": "Resources",
       "created": "2026-05-22",
-      "excerpt": "Process Reward Models",
+      "excerpt": "step-level rewards vs outcome rewards: credit assignment, PRM800K, Monte Carlo estimation, test-time compute scaling via MCTS.",
       "tags": [
         "resource",
         "study",
@@ -835,7 +846,7 @@
       "label": "Product Engineering",
       "folder": "Resources",
       "created": "2026-05-24",
-      "excerpt": "Product Engineering",
+      "excerpt": "product engineering guide covering problem framing, MVPs, activation, retention, engagement, funnels, user research, prioritization, onboarding, analytics, and project-specific product risks.",
       "tags": [
         "resource",
         "product",
@@ -850,7 +861,7 @@
       "label": "RAG and Bobby Vector Search",
       "folder": "Resources",
       "created": "2026-05-21",
-      "excerpt": "RAG and Bobby Vector Search",
+      "excerpt": "what RAG is, how Bobby's current index-based retrieval works, and when to upgrade to vector search (~300 notes trigger).",
       "tags": [
         "resource",
         "bobby"
@@ -862,7 +873,7 @@
       "label": "RLHF and Alignment",
       "folder": "Resources",
       "created": "2026-05-22",
-      "excerpt": "RLHF and Alignment",
+      "excerpt": "aligning LLMs: SFT, reward modeling, PPO, DPO (with math), Constitutional AI, steering vectors, reward hacking cases, alignment tax.",
       "tags": [
         "resource",
         "study",
@@ -875,7 +886,7 @@
       "label": "Rate Limiting",
       "folder": "Resources",
       "created": "2026-05-22",
-      "excerpt": "Rate Limiting",
+      "excerpt": "five algorithms (token bucket, leaky bucket, fixed window, sliding window log, sliding window counter), distributed enforcement with Redis, where to enforce, rate limit headers.",
       "tags": [
         "resource",
         "system-design",
@@ -889,7 +900,7 @@
       "label": "VanossGaming - Dewit",
       "folder": "Resources",
       "created": "2026-05-19",
-      "excerpt": "VanossGaming - Dewit",
+      "excerpt": "tracks the VanossGaming crew reference where Tyler says \\\"Dewit\\\" at 0:53, meaning \\\"Do it.\\\".",
       "tags": [
         "resource",
         "references",
@@ -903,7 +914,7 @@
       "label": "VanossGaming - Oh I Have a Boner",
       "folder": "Resources",
       "created": "2026-05-19",
-      "excerpt": "VanossGaming - Oh I Have a Boner",
+      "excerpt": "tracks the VanossGaming crew reference where Nogla slurs \\\"bow and arrow\\\" into \\\"boner\\\" at 3:13 while Evan trolls him invisibly.",
       "tags": [
         "resource",
         "references",
@@ -917,7 +928,7 @@
       "label": "Scaling",
       "folder": "Resources",
       "created": "2026-05-22",
-      "excerpt": "Scaling Systems",
+      "excerpt": "vertical vs. horizontal scaling, sharding strategies (range/hash/consistent hashing/directory), cross-shard queries, replication, and tail latency mitigation (hedged requests, LIFO queues, load shedding).",
       "tags": [
         "resource",
         "system-design",
@@ -931,7 +942,7 @@
       "label": "Search Systems",
       "folder": "Resources",
       "created": "2026-05-22",
-      "excerpt": "Search Systems",
+      "excerpt": "inverted index, text processing pipeline, TF-IDF vs BM25, Elasticsearch internals (shards, segments, near-real-time write path), autocomplete (trie, edge n-grams, fuzzy), vector search (HNSW), hybrid search with RRF.",
       "tags": [
         "resource",
         "system-design",
@@ -945,7 +956,7 @@
       "label": "Security",
       "folder": "Resources",
       "created": "2026-05-21",
-      "excerpt": "Security Basics",
+      "excerpt": "threat modeling, authn vs authz, session auth, JWT (alg:none attack, refresh rotation), bcrypt/Argon2, OWASP Top 10, XSS/CSRF/SSRF/race conditions, secrets management, security headers.",
       "tags": [
         "resource",
         "system-design",
@@ -959,7 +970,7 @@
       "label": "Security Deep Dive",
       "folder": "Resources",
       "created": "2026-05-24",
-      "excerpt": "Security Deep Dive",
+      "excerpt": "deeper security guide covering OAuth/OIDC, sessions vs JWTs, passkeys, XSS/CSRF/SSRF, SQL injection, supply chain, container/Kubernetes security, secrets, threat modeling, and incident response.",
       "tags": [
         "resource",
         "security",
@@ -974,7 +985,7 @@
       "label": "Software Architecture",
       "folder": "Resources",
       "created": "2026-05-24",
-      "excerpt": "Software Architecture",
+      "excerpt": "architecture guide covering layered, hexagonal, clean architecture, DDD, modular monoliths, microservices, event-driven design, CQRS, dependency inversion, and abstraction tradeoffs.",
       "tags": [
         "resource",
         "architecture",
@@ -988,7 +999,7 @@
       "label": "Software Engineering Tools",
       "folder": "Resources",
       "created": "2026-05-23",
-      "excerpt": "Software Engineering Tools Landscape",
+      "excerpt": "full survey of tools modern engineering teams use: design (Figma), IDEs (VS Code, Cursor, Zed), AI assistants (Copilot, Claude Code), CI/CD, observability, databases, and communication tools.",
       "tags": [
         "resource",
         "study"
@@ -1000,7 +1011,7 @@
       "label": "System Design Case Studies",
       "folder": "Resources",
       "created": "2026-05-24",
-      "excerpt": "System Design Case Studies",
+      "excerpt": "end-to-end design studies for feeds, chat, file sync, collaborative docs, dispatch, payments, video platforms, and job recommendations.",
       "tags": [
         "resource",
         "system-design",
@@ -1014,7 +1025,7 @@
       "label": "System Design Notes",
       "folder": "Resources",
       "created": "2026-05-19",
-      "excerpt": "System Design Notes",
+      "excerpt": "scalability, caching, SQL vs NoSQL, queues, load balancing, CAP theorem, rate limiting.",
       "tags": [
         "resource",
         "system-design",
@@ -1028,7 +1039,7 @@
       "label": "Testing Strategy",
       "folder": "Resources",
       "created": "2026-05-24",
-      "excerpt": "Testing Strategy",
+      "excerpt": "testing strategy by layer and risk: unit, integration, E2E, contract, property, load, frontend/backend/database/LLM tests, mocks, flaky tests, and CI.",
       "tags": [
         "resource",
         "testing",
@@ -1043,7 +1054,7 @@
       "label": "Transformer Architecture",
       "folder": "Resources",
       "created": "2026-05-22",
-      "excerpt": "Transformer Architecture",
+      "excerpt": "full transformer internals: tokenization, attention mechanism (Q/K/V), multi-head attention, residual stream, FFN, KV cache, modern improvements (RoPE, GQA, SwiGLU).",
       "tags": [
         "resource",
         "study",
@@ -1056,7 +1067,7 @@
       "label": "Vault Structure",
       "folder": "Resources",
       "created": "2026-05-19",
-      "excerpt": "Vault Structure",
+      "excerpt": "what each folder is for (Projects vs Areas vs Resources vs Maps vs Templates) and the PARA logic behind the structure.",
       "tags": [
         "resource",
         "obsidian",
@@ -1069,7 +1080,7 @@
       "label": "WSL2 Setup",
       "folder": "Resources",
       "created": "2026-05-19",
-      "excerpt": "WSL2 Setup",
+      "excerpt": "WSL2 gotchas solved: PulseAudio audio fix, Windows host IP, Obsidian portproxy.",
       "tags": [
         "resource",
         "wsl2",
@@ -1083,7 +1094,7 @@
       "label": "Web Animation",
       "folder": "Resources",
       "created": "2026-05-23",
-      "excerpt": "Web Animation for Engineers",
+      "excerpt": "CSS transitions/keyframes, GPU-only rule, GSAP, Framer Motion, React Spring, Lottie pipeline, Rive state machines, Three.js/R3F, what makes animations feel good (easing, stagger, spring physics, reduced motion).",
       "tags": [
         "resource",
         "study"
@@ -1095,7 +1106,7 @@
       "label": "What Is Obsidian",
       "folder": "Resources",
       "created": "2026-05-19",
-      "excerpt": "What Is Obsidian",
+      "excerpt": "what Obsidian is, what it can do, and the right workflow for this vault (discuss with AI first, then write clean notes).",
       "tags": [
         "resource",
         "obsidian",
@@ -2192,5 +2203,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-25T08:16:58Z"
+  "generated_at": "2026-05-25T08:38:37Z"
 }
