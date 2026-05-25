@@ -391,7 +391,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Claude Code Skills",
@@ -515,7 +515,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/Distributed Systems",
@@ -529,7 +529,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Docker",
@@ -744,7 +744,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Multi-Agent RL",
@@ -787,6 +787,20 @@
       "degree": 8
     },
     {
+      "id": "Resources/Notification System Design",
+      "label": "Notification System Design",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "End-to-end notification system design covering aggregation, two-tier pipelines, reliable delivery, the outbox pattern, and a comparison against Meta's production system.",
+      "tags": [
+        "resource",
+        "system-design",
+        "architecture",
+        "interview-prep"
+      ],
+      "degree": 7
+    },
+    {
       "id": "Resources/OS Fundamentals",
       "label": "OS Fundamentals",
       "folder": "Resources",
@@ -826,7 +840,7 @@
         "debugging",
         "system-design"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Process Reward Models",
@@ -893,7 +907,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/References/VanossGaming - Dewit",
@@ -1018,7 +1032,7 @@
         "architecture",
         "interview-prep"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/System Design Notes",
@@ -1891,6 +1905,34 @@
       "target": "Resources/Distributed Systems"
     },
     {
+      "source": "Resources/Notification System Design",
+      "target": "Resources/Caching"
+    },
+    {
+      "source": "Resources/Notification System Design",
+      "target": "Resources/Databases"
+    },
+    {
+      "source": "Resources/Notification System Design",
+      "target": "Resources/Distributed Systems"
+    },
+    {
+      "source": "Resources/Notification System Design",
+      "target": "Resources/Message Queues"
+    },
+    {
+      "source": "Resources/Notification System Design",
+      "target": "Resources/Observability Case Studies"
+    },
+    {
+      "source": "Resources/Notification System Design",
+      "target": "Resources/Rate Limiting"
+    },
+    {
+      "source": "Resources/Notification System Design",
+      "target": "Resources/System Design Case Studies"
+    },
+    {
       "source": "Resources/OS Fundamentals",
       "target": "Resources/Docker"
     },
@@ -2203,5 +2245,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-25T08:38:37Z"
+  "generated_at": "2026-05-25T10:48:42Z"
 }
