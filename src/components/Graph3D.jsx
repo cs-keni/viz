@@ -70,22 +70,26 @@ function spawnComet(scene, spawnT, camera) {
   const camRight = new THREE.Vector3().crossVectors(camFwd, camera.up).normalize()
   const camUp2 = new THREE.Vector3().crossVectors(camRight, camFwd).normalize()
 
-  // Spawn in camera's forward hemisphere so comets are always visible
-  const mkPt = () => {
-    const ru = (Math.random() - 0.5) * STAR_RADIUS * 1.4
-    const rv = (Math.random() - 0.5) * STAR_RADIUS * 0.8
+  // Sample a point near the peripheral edge of the forward hemisphere
+  // (60-80° from forward) so comets spawn at screen edges and sweep across.
+  const mkEdge = () => {
+    const coneAngle = (Math.PI / 180) * (60 + Math.random() * 20)
+    const spin = Math.random() * Math.PI * 2
     return camFwd.clone()
-      .multiplyScalar(STAR_RADIUS * 0.8)
-      .addScaledVector(camRight, ru)
-      .addScaledVector(camUp2, rv)
+      .multiplyScalar(Math.cos(coneAngle))
+      .addScaledVector(camRight, Math.sin(coneAngle) * Math.cos(spin))
+      .addScaledVector(camUp2,  Math.sin(coneAngle) * Math.sin(spin))
       .normalize()
       .multiplyScalar(STAR_RADIUS)
   }
 
-  const start = mkPt()
-  let end = mkPt()
-  while (start.distanceTo(end) < STAR_RADIUS * 0.3) {
-    end = mkPt()
+  const start = mkEdge()
+  // End point on the opposite side of the screen (negate the spin component)
+  // by ensuring it's far enough from start that the comet sweeps across.
+  let end = mkEdge()
+  let tries = 0
+  while (start.distanceTo(end) < STAR_RADIUS * 0.8 && tries++ < 8) {
+    end = mkEdge()
   }
 
   // Trail
@@ -101,25 +105,25 @@ function spawnComet(scene, spawnT, camera) {
   trailGeo.setAttribute('color', new THREE.BufferAttribute(trailColors, 3))
   const tex = getCircleTex()
   const trailMat = new THREE.PointsMaterial({
-    vertexColors: true, size: 7, sizeAttenuation: false,
+    vertexColors: true, size: 3.5, sizeAttenuation: false,
     map: tex, alphaTest: 0.01,
-    transparent: true, opacity: 0.7, depthWrite: false,
+    transparent: true, opacity: 0.6, depthWrite: false,
   })
   const trail = new THREE.Points(trailGeo, trailMat)
   scene.add(trail)
 
-  // Bright head — separate single point, larger soft circle
+  // Head: pure white, small soft circle
   const headGeo = new THREE.BufferGeometry()
   headGeo.setAttribute('position', new THREE.BufferAttribute(new Float32Array([start.x, start.y, start.z]), 3))
   const headMat = new THREE.PointsMaterial({
-    color: '#d8f0ff', size: 15, sizeAttenuation: false,
+    color: '#ffffff', size: 7, sizeAttenuation: false,
     map: tex, alphaTest: 0.01,
-    transparent: true, opacity: 0.65, depthWrite: false,
+    transparent: true, opacity: 0.55, depthWrite: false,
   })
   const head = new THREE.Points(headGeo, headMat)
   scene.add(head)
 
-  return { start, end, spawnT, duration: 1.2 + Math.random() * 1.0, trail, head }
+  return { start, end, spawnT, duration: 0.9 + Math.random() * 0.75, trail, head }
 }
 
 function buildStarfield() {
@@ -193,7 +197,7 @@ export default function Graph3D({ data }) {
   const starfieldRef = useRef(null)
   const nebulaeRef = useRef([])
   const cometsRef = useRef([])
-  const nextCometRef = useRef(2 + Math.random() * 1)
+  const nextCometRef = useRef(1.5 + Math.random() * 1)
   const selectedNodeRef = useRef(null)
   const neighborSetRef = useRef(new Set())
   const tooltipDivRef = useRef(null)
@@ -250,8 +254,9 @@ export default function Graph3D({ data }) {
               comet.start.y + (comet.end.y - comet.start.y) * trailT,
               comet.start.z + (comet.end.z - comet.start.z) * trailT,
             )
+            // Ice-white trail: near-white at head end, fades to transparent
             const brightness = (1 - i / COMET_TRAIL) * envelope
-            tCol.setXYZ(i, brightness * 0.85, brightness * 0.92, brightness)
+            tCol.setXYZ(i, brightness, brightness * 0.96, brightness * 0.92)
           }
           tPos.needsUpdate = true
           tCol.needsUpdate = true
@@ -281,14 +286,14 @@ export default function Graph3D({ data }) {
           return !done
         })
 
-        // Spawn new comet — up to 5 concurrent, interval 2-4s
+        // Spawn new comet — up to 5 concurrent, interval 1.5-3s
         if (t >= nextCometRef.current && scene && camera && cometsRef.current.length < 5) {
           const fwd = new THREE.Vector3()
           camera.getWorldDirection(fwd)
           if (fwd.lengthSq() > 0.5) {
             cometsRef.current.push(spawnComet(scene, t, camera))
           }
-          nextCometRef.current = t + 2 + Math.random() * 2
+          nextCometRef.current = t + 1.5 + Math.random() * 1.5
         }
       }
 
