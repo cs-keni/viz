@@ -54,17 +54,62 @@
       "degree": 3
     },
     {
-      "id": "Backward Compatibility Strategies",
-      "label": "Backward Compatibility Strategies",
+      "id": "Bash Scripting",
+      "label": "Bash Scripting",
       "folder": null,
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 3
+      "degree": 1
     },
     {
-      "id": "Conventional Commits",
-      "label": "Conventional Commits",
+      "id": "Blue-Green vs Canary vs Rolling Deployments",
+      "label": "Blue-Green vs Canary vs Rolling Deployments",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Bulkhead Pattern",
+      "label": "Bulkhead Pattern",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "CI/CD Pipeline Design",
+      "label": "CD Pipeline Design",
+      "folder": "CI",
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 6
+    },
+    {
+      "id": "Changelog and Release Notes Writing",
+      "label": "Changelog and Release Notes Writing",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
+    },
+    {
+      "id": "Circuit Breaker Pattern",
+      "label": "Circuit Breaker Pattern",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Container Security",
+      "label": "Container Security",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -127,6 +172,15 @@
       "degree": 0
     },
     {
+      "id": "Database Migrations Best Practices",
+      "label": "Database Migrations Best Practices",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
+    },
+    {
       "id": "Database Replication",
       "label": "Database Replication",
       "folder": null,
@@ -134,15 +188,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 1
-    },
-    {
-      "id": "Dependency Management",
-      "label": "Dependency Management",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
     },
     {
       "id": "Design a Chat Application",
@@ -172,6 +217,24 @@
       "degree": 1
     },
     {
+      "id": "Error Budgets",
+      "label": "Error Budgets",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "How to Write a Good Technical Spec",
+      "label": "How to Write a Good Technical Spec",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Idempotency in Distributed Systems",
       "label": "Idempotency in Distributed Systems",
       "folder": null,
@@ -181,13 +244,13 @@
       "degree": 2
     },
     {
-      "id": "Integration Testing Strategies",
-      "label": "Integration Testing Strategies",
+      "id": "Kubernetes YAML — Deployment, Service, Ingress",
+      "label": "Kubernetes YAML — Deployment, Service, Ingress",
       "folder": null,
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 3
+      "degree": 1
     },
     {
       "id": "Maps/Bobby",
@@ -270,8 +333,26 @@
       "degree": 1
     },
     {
-      "id": "Open Source Licensing (MIT, Apache, GPL, etc.)",
-      "label": "Open Source Licensing (MIT, Apache, GPL, etc.)",
+      "id": "Observability — Logs, Metrics, Traces (The Three Pillars)",
+      "label": "Observability — Logs, Metrics, Traces (The Three Pillars)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
+    },
+    {
+      "id": "Performance Profiling (CPU, Memory, I/O)",
+      "label": "O)",
+      "folder": "Performance Profiling (CPU, Memory, I",
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Postmortem Writing",
+      "label": "Postmortem Writing",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -279,8 +360,17 @@
       "degree": 1
     },
     {
-      "id": "OpenAPI and API Documentation",
-      "label": "OpenAPI and API Documentation",
+      "id": "Product Analytics Fundamentals",
+      "label": "Product Analytics Fundamentals",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)",
+      "label": "Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -405,7 +495,7 @@
         "claude",
         "codex"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/API Design",
@@ -419,7 +509,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/Agent Evaluation",
@@ -503,7 +593,7 @@
         "study",
         "systems"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Caching",
@@ -556,7 +646,7 @@
         "study",
         "systems"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Cloud Services",
@@ -569,7 +659,7 @@
         "study",
         "systems"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/DSA Practice",
@@ -655,7 +745,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "Resources/Docker",
@@ -668,7 +758,7 @@
         "study",
         "systems"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Dynamic Programming Deep Dive",
@@ -714,7 +804,7 @@
         "tradeoffs",
         "interview-prep"
       ],
-      "degree": 23
+      "degree": 24
     },
     {
       "id": "Resources/FlashAttention",
@@ -795,7 +885,7 @@
         "study",
         "systems"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/LLM Capabilities and AI Ethics",
@@ -910,7 +1000,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Notification System Design",
@@ -937,7 +1027,7 @@
         "study",
         "systems"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Observability",
@@ -951,7 +1041,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Observability Case Studies",
@@ -994,7 +1084,7 @@
         "startups",
         "projects"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Programming Languages",
@@ -1087,7 +1177,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Search Systems",
@@ -1115,7 +1205,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Security Deep Dive",
@@ -1144,7 +1234,7 @@
         "engineering",
         "system-design"
       ],
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "Resources/Software Engineering Tools",
@@ -1156,7 +1246,19 @@
         "resource",
         "study"
       ],
-      "degree": 1
+      "degree": 3
+    },
+    {
+      "id": "Resources/Software Engineering/12-Factor App Methodology",
+      "label": "12-Factor App Methodology",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "The 12-factor app methodology is a set of practices for building portable, deployable, cloud-friendly services. It emphasizes declarative config, stateless processes, clean dependencies, logs as streams, and strict separation between build and run.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/Software Engineering/API Design — GraphQL",
@@ -1180,7 +1282,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 9
+      "degree": 11
     },
     {
       "id": "Resources/Software Engineering/API Design — Server-Sent Events",
@@ -1228,7 +1330,19 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 12
+      "degree": 13
+    },
+    {
+      "id": "Resources/Software Engineering/Backward Compatibility Strategies",
+      "label": "Backward Compatibility Strategies",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Backward compatibility lets existing clients continue working as systems evolve. It requires additive changes, deprecation windows, schema evolution discipline, and careful deployment ordering.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 11
     },
     {
       "id": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
@@ -1240,7 +1354,31 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 6
+      "degree": 7
+    },
+    {
+      "id": "Resources/Software Engineering/Blue-Green Deployments",
+      "label": "Blue-Green Deployments",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Blue-green deployment keeps two production environments so traffic can switch quickly between old and new versions. It reduces release risk when environments are truly equivalent and rollback is safe.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Software Engineering/Build Systems Overview (Make, Bazel, Nx)",
+      "label": "Build Systems Overview (Make, Bazel, Nx)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Build systems turn source code into tested, packaged, runnable artifacts. Tools like Make, Bazel, and Nx differ in how much structure they provide for dependency graphs, caching, reproducibility, and monorepo scale.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 7
     },
     {
       "id": "Resources/Software Engineering/CQRS Pattern",
@@ -1255,6 +1393,30 @@
       "degree": 8
     },
     {
+      "id": "Resources/Software Engineering/Canary Releases",
+      "label": "Canary Releases",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Canary releases expose a new version to a small subset of traffic before full rollout. They reduce blast radius and use real production signals to decide whether to proceed.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 9
+    },
+    {
+      "id": "Resources/Software Engineering/Chaos Engineering",
+      "label": "Chaos Engineering",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Chaos engineering deliberately injects controlled failures to test whether systems remain resilient. It turns reliability assumptions into experiments before real incidents expose them.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 5
+    },
+    {
       "id": "Resources/Software Engineering/Clean Code Principles",
       "label": "Clean Code Principles",
       "folder": "Resources",
@@ -1264,7 +1426,19 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 8
+      "degree": 10
+    },
+    {
+      "id": "Resources/Software Engineering/Code Complexity — Cyclomatic Complexity",
+      "label": "Code Complexity — Cyclomatic Complexity",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Cyclomatic complexity measures the number of independent paths through code. It is a useful warning signal for testing and maintainability, but it should be interpreted with context rather than treated as a universal score.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 7
     },
     {
       "id": "Resources/Software Engineering/Code Review Best Practices",
@@ -1276,7 +1450,43 @@
         "resource",
         "software-engineering"
       ],
+      "degree": 12
+    },
+    {
+      "id": "Resources/Software Engineering/Container Networking",
+      "label": "Container Networking",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Container networking connects isolated container processes to hosts, other containers, services, and external networks. Understanding bridges, overlays, ports, DNS, and network policies is essential for debugging containerized systems.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
       "degree": 8
+    },
+    {
+      "id": "Resources/Software Engineering/Conventional Commits",
+      "label": "Conventional Commits",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Conventional Commits is a commit-message convention that adds machine-readable intent to project history. It supports changelog generation, semantic versioning, and easier review of change purpose.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Software Engineering/Dependency Management",
+      "label": "Dependency Management",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Dependency management controls how projects select, version, update, audit, and isolate third-party or internal packages. It affects security, reliability, reproducibility, and long-term maintenance.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 10
     },
     {
       "id": "Resources/Software Engineering/Design Patterns — Behavioral (Observer, Strategy, Command, State, Iterator)",
@@ -1315,6 +1525,18 @@
       "degree": 7
     },
     {
+      "id": "Resources/Software Engineering/Docker Deep Dive",
+      "label": "Docker Deep Dive",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Docker packages applications into images and runs them as isolated containers. Its practical value is consistent development, CI, and deployment environments, but production use requires attention to layers, networking, volumes, and security.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 9
+    },
+    {
       "id": "Resources/Software Engineering/Domain-Driven Design (DDD)",
       "label": "Domain-Driven Design (DDD)",
       "folder": "Resources",
@@ -1351,6 +1573,30 @@
       "degree": 10
     },
     {
+      "id": "Resources/Software Engineering/Feature Flags and Progressive Rollout",
+      "label": "Feature Flags and Progressive Rollout",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Feature flags decouple deploying code from releasing behavior. Progressive rollout uses flags to expose changes gradually, measure impact, and quickly disable risky behavior.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 9
+    },
+    {
+      "id": "Resources/Software Engineering/Git Flow vs Trunk-Based",
+      "label": "Git Flow vs Trunk-Based",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Git Flow and trunk-based development are contrasting branching models. Git Flow emphasizes release branches and staged stabilization, while trunk-based development emphasizes frequent integration into main.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 6
+    },
+    {
       "id": "Resources/Software Engineering/Hexagonal Architecture (Ports and Adapters)",
       "label": "Hexagonal Architecture (Ports and Adapters)",
       "folder": "Resources",
@@ -1363,6 +1609,42 @@
       "degree": 9
     },
     {
+      "id": "Resources/Software Engineering/Integration Testing Strategies",
+      "label": "Integration Testing Strategies",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Integration testing verifies that multiple components work together across real boundaries such as databases, APIs, queues, and filesystems. It catches contract and configuration bugs that unit tests intentionally ignore.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Software Engineering/Kubernetes Basics",
+      "label": "Kubernetes Basics",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Kubernetes is a container orchestration system that keeps declared application state running across a cluster. It manages scheduling, service discovery, rollouts, health checks, scaling, and recovery.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Software Engineering/Load Testing and Performance Testing",
+      "label": "Load Testing and Performance Testing",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Load and performance testing measure how a system behaves under expected, peak, and stressful traffic. The goal is to find capacity limits, latency bottlenecks, and failure modes before users do.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 5
+    },
+    {
       "id": "Resources/Software Engineering/Microservices Architecture",
       "label": "Microservices Architecture",
       "folder": "Resources",
@@ -1372,7 +1654,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Software Engineering/Monolith vs Microservices Tradeoffs",
@@ -1380,6 +1662,42 @@
       "folder": "Resources",
       "created": "2026-05-25",
       "excerpt": "The monolith versus microservices decision is a tradeoff between simplicity and independent service autonomy. The right answer depends on team size, domain boundaries, deployment needs, and operational maturity.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Software Engineering/Monorepo vs Polyrepo",
+      "label": "Monorepo vs Polyrepo",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Monorepo and polyrepo strategies organize source code around different tradeoffs in coordination, tooling, ownership, and release independence. The best choice depends on team scale, dependency coupling, and build infrastructure maturity.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Software Engineering/Open Source Licensing (MIT, Apache, GPL, etc.)",
+      "label": "Open Source Licensing (MIT, Apache, GPL, etc.)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Open source licenses define what others may do with code and what obligations they inherit. Engineers need licensing literacy because dependency choices can affect distribution, compliance, and business risk.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Software Engineering/OpenAPI and API Documentation",
+      "label": "OpenAPI and API Documentation",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "OpenAPI describes REST-like HTTP APIs in a machine-readable contract. Good API documentation combines accurate schemas with human guidance, examples, error behavior, authentication, and compatibility notes.",
       "tags": [
         "resource",
         "software-engineering"
@@ -1396,7 +1714,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Software Engineering/Refactoring Techniques",
@@ -1408,7 +1726,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Software Engineering/SOLID Principles",
@@ -1432,7 +1750,43 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 5
+      "degree": 10
+    },
+    {
+      "id": "Resources/Software Engineering/Service Mesh (Istio, Linkerd)",
+      "label": "Service Mesh (Istio, Linkerd)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "A service mesh adds a dedicated infrastructure layer for service-to-service traffic management, observability, security, and policy. It is powerful in large microservice environments but can be unnecessary operational complexity for simpler systems.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Software Engineering/Software Estimation Techniques",
+      "label": "Software Estimation Techniques",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Software estimation is the practice of forecasting effort, uncertainty, and delivery risk. Good estimates communicate assumptions and ranges, not false precision.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Software Engineering/Static Analysis Tools",
+      "label": "Static Analysis Tools",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Static analysis tools inspect code without running it to find bugs, style issues, security risks, type errors, and maintainability problems. They provide cheap automated feedback when configured to match team priorities.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 8
     },
     {
       "id": "Resources/Software Engineering/Technical Debt — Types and Management",
@@ -1444,7 +1798,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 9
+      "degree": 12
     },
     {
       "id": "Resources/Software Engineering/Test-Driven Development (TDD)",
@@ -1456,7 +1810,43 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 10
+      "degree": 11
+    },
+    {
+      "id": "Resources/Software Engineering/The Unix Philosophy",
+      "label": "The Unix Philosophy",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "The Unix philosophy favors small composable programs that do one thing well and communicate through simple interfaces. Its lasting lesson is that good software tools become powerful when they compose cleanly.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Software Engineering/Trunk-Based Development",
+      "label": "Trunk-Based Development",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Trunk-based development is a source-control workflow where engineers integrate small changes into the main branch frequently. It supports continuous integration by reducing long-lived branch drift.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Software Engineering/Virtualization — VMs vs Containers",
+      "label": "Virtualization — VMs vs Containers",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Virtual machines and containers isolate workloads at different layers. VMs virtualize hardware with separate guest operating systems, while containers isolate processes that share the host kernel.",
+      "tags": [
+        "resource",
+        "software-engineering"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/System Design Case Studies",
@@ -1512,7 +1902,7 @@
         "quality",
         "interview-prep"
       ],
-      "degree": 15
+      "degree": 17
     },
     {
       "id": "Resources/Transformer Architecture",
@@ -1580,13 +1970,49 @@
       "degree": 6
     },
     {
-      "id": "Software Estimation Techniques",
-      "label": "Software Estimation Techniques",
+      "id": "Scalability — Horizontal vs Vertical",
+      "label": "Scalability — Horizontal vs Vertical",
       "folder": null,
       "created": null,
       "excerpt": "",
       "tags": [],
       "degree": 1
+    },
+    {
+      "id": "Secret Management (Vault, AWS Secrets Manager)",
+      "label": "Secret Management (Vault, AWS Secrets Manager)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Security Auditing",
+      "label": "Security Auditing",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Serverless Architecture",
+      "label": "Serverless Architecture",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Supply Chain Security",
+      "label": "Supply Chain Security",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
     },
     {
       "id": "User Stories and Jobs to Be Done",
@@ -1605,6 +2031,24 @@
       "excerpt": "",
       "tags": [],
       "degree": 5
+    },
+    {
+      "id": "Writing Good Documentation",
+      "label": "Writing Good Documentation",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Zero-Trust Architecture",
+      "label": "Zero-Trust Architecture",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "wikilink",
@@ -2626,8 +3070,24 @@
       "target": "Resources/Testing Strategy"
     },
     {
-      "source": "Resources/Software Engineering/API Design — GraphQL",
-      "target": "Backward Compatibility Strategies"
+      "source": "Resources/Software Engineering/12-Factor App Methodology",
+      "target": "CI/CD Pipeline Design"
+    },
+    {
+      "source": "Resources/Software Engineering/12-Factor App Methodology",
+      "target": "Resources/Software Engineering/Docker Deep Dive"
+    },
+    {
+      "source": "Resources/Software Engineering/12-Factor App Methodology",
+      "target": "Resources/Software Engineering/The Unix Philosophy"
+    },
+    {
+      "source": "Resources/Software Engineering/12-Factor App Methodology",
+      "target": "Secret Management (Vault, AWS Secrets Manager)"
+    },
+    {
+      "source": "Resources/Software Engineering/12-Factor App Methodology",
+      "target": "Serverless Architecture"
     },
     {
       "source": "Resources/Software Engineering/API Design — GraphQL",
@@ -2646,8 +3106,8 @@
       "target": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers"
     },
     {
-      "source": "Resources/Software Engineering/API Design — REST Principles",
-      "target": "OpenAPI and API Documentation"
+      "source": "Resources/Software Engineering/API Design — GraphQL",
+      "target": "Resources/Software Engineering/Backward Compatibility Strategies"
     },
     {
       "source": "Resources/Software Engineering/API Design — REST Principles",
@@ -2664,6 +3124,10 @@
     {
       "source": "Resources/Software Engineering/API Design — REST Principles",
       "target": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — REST Principles",
+      "target": "Resources/Software Engineering/OpenAPI and API Documentation"
     },
     {
       "source": "Resources/Software Engineering/API Design — Server-Sent Events",
@@ -2707,10 +3171,6 @@
     },
     {
       "source": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers",
-      "target": "Backward Compatibility Strategies"
-    },
-    {
-      "source": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers",
       "target": "Resources/Distributed Systems"
     },
     {
@@ -2720,6 +3180,10 @@
     {
       "source": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers",
       "target": "Resources/Software Engineering/API Design — REST Principles"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers",
+      "target": "Resources/Software Engineering/Backward Compatibility Strategies"
     },
     {
       "source": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers",
@@ -2746,12 +3210,32 @@
       "target": "Resources/Testing Strategy"
     },
     {
-      "source": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
-      "target": "Integration Testing Strategies"
+      "source": "Resources/Software Engineering/Backward Compatibility Strategies",
+      "target": "Database Migrations Best Practices"
+    },
+    {
+      "source": "Resources/Software Engineering/Backward Compatibility Strategies",
+      "target": "Resources/Software Engineering/Blue-Green Deployments"
+    },
+    {
+      "source": "Resources/Software Engineering/Backward Compatibility Strategies",
+      "target": "Resources/Software Engineering/Canary Releases"
+    },
+    {
+      "source": "Resources/Software Engineering/Backward Compatibility Strategies",
+      "target": "Resources/Software Engineering/OpenAPI and API Documentation"
+    },
+    {
+      "source": "Resources/Software Engineering/Backward Compatibility Strategies",
+      "target": "Resources/Software Engineering/Semantic Versioning"
     },
     {
       "source": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
       "target": "Resources/Product Engineering"
+    },
+    {
+      "source": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
+      "target": "Resources/Software Engineering/Integration Testing Strategies"
     },
     {
       "source": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
@@ -2764,6 +3248,46 @@
     {
       "source": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
       "target": "User Stories and Jobs to Be Done"
+    },
+    {
+      "source": "Resources/Software Engineering/Blue-Green Deployments",
+      "target": "Blue-Green vs Canary vs Rolling Deployments"
+    },
+    {
+      "source": "Resources/Software Engineering/Blue-Green Deployments",
+      "target": "CI/CD Pipeline Design"
+    },
+    {
+      "source": "Resources/Software Engineering/Blue-Green Deployments",
+      "target": "Resources/Software Engineering/Backward Compatibility Strategies"
+    },
+    {
+      "source": "Resources/Software Engineering/Blue-Green Deployments",
+      "target": "Resources/Software Engineering/Canary Releases"
+    },
+    {
+      "source": "Resources/Software Engineering/Blue-Green Deployments",
+      "target": "Resources/Software Engineering/Feature Flags and Progressive Rollout"
+    },
+    {
+      "source": "Resources/Software Engineering/Build Systems Overview (Make, Bazel, Nx)",
+      "target": "CI/CD Pipeline Design"
+    },
+    {
+      "source": "Resources/Software Engineering/Build Systems Overview (Make, Bazel, Nx)",
+      "target": "Resources/Software Engineering Tools"
+    },
+    {
+      "source": "Resources/Software Engineering/Build Systems Overview (Make, Bazel, Nx)",
+      "target": "Resources/Software Engineering/Dependency Management"
+    },
+    {
+      "source": "Resources/Software Engineering/Build Systems Overview (Make, Bazel, Nx)",
+      "target": "Resources/Software Engineering/Monorepo vs Polyrepo"
+    },
+    {
+      "source": "Resources/Software Engineering/Build Systems Overview (Make, Bazel, Nx)",
+      "target": "Resources/Software Engineering/Static Analysis Tools"
     },
     {
       "source": "Resources/Software Engineering/CQRS Pattern",
@@ -2786,6 +3310,46 @@
       "target": "Resources/Software Engineering/Event-Driven Architecture"
     },
     {
+      "source": "Resources/Software Engineering/Canary Releases",
+      "target": "Observability — Logs, Metrics, Traces (The Three Pillars)"
+    },
+    {
+      "source": "Resources/Software Engineering/Canary Releases",
+      "target": "Resources/CI CD"
+    },
+    {
+      "source": "Resources/Software Engineering/Canary Releases",
+      "target": "Resources/Software Engineering/Backward Compatibility Strategies"
+    },
+    {
+      "source": "Resources/Software Engineering/Canary Releases",
+      "target": "Resources/Software Engineering/Blue-Green Deployments"
+    },
+    {
+      "source": "Resources/Software Engineering/Canary Releases",
+      "target": "Resources/Software Engineering/Feature Flags and Progressive Rollout"
+    },
+    {
+      "source": "Resources/Software Engineering/Chaos Engineering",
+      "target": "Bulkhead Pattern"
+    },
+    {
+      "source": "Resources/Software Engineering/Chaos Engineering",
+      "target": "Circuit Breaker Pattern"
+    },
+    {
+      "source": "Resources/Software Engineering/Chaos Engineering",
+      "target": "Error Budgets"
+    },
+    {
+      "source": "Resources/Software Engineering/Chaos Engineering",
+      "target": "Postmortem Writing"
+    },
+    {
+      "source": "Resources/Software Engineering/Chaos Engineering",
+      "target": "Resources/Distributed Systems"
+    },
+    {
       "source": "Resources/Software Engineering/Clean Code Principles",
       "target": "Resources/Software Architecture"
     },
@@ -2806,8 +3370,24 @@
       "target": "Resources/Software Engineering/Technical Debt — Types and Management"
     },
     {
-      "source": "Resources/Software Engineering/Code Review Best Practices",
-      "target": "Conventional Commits"
+      "source": "Resources/Software Engineering/Code Complexity — Cyclomatic Complexity",
+      "target": "Resources/Software Engineering/Anti-Patterns and Code Smells"
+    },
+    {
+      "source": "Resources/Software Engineering/Code Complexity — Cyclomatic Complexity",
+      "target": "Resources/Software Engineering/Clean Code Principles"
+    },
+    {
+      "source": "Resources/Software Engineering/Code Complexity — Cyclomatic Complexity",
+      "target": "Resources/Software Engineering/Property-Based Testing"
+    },
+    {
+      "source": "Resources/Software Engineering/Code Complexity — Cyclomatic Complexity",
+      "target": "Resources/Software Engineering/Refactoring Techniques"
+    },
+    {
+      "source": "Resources/Software Engineering/Code Complexity — Cyclomatic Complexity",
+      "target": "Resources/Software Engineering/Static Analysis Tools"
     },
     {
       "source": "Resources/Software Engineering/Code Review Best Practices",
@@ -2819,11 +3399,75 @@
     },
     {
       "source": "Resources/Software Engineering/Code Review Best Practices",
+      "target": "Resources/Software Engineering/Conventional Commits"
+    },
+    {
+      "source": "Resources/Software Engineering/Code Review Best Practices",
       "target": "Resources/Software Engineering/Technical Debt — Types and Management"
     },
     {
       "source": "Resources/Software Engineering/Code Review Best Practices",
       "target": "Resources/Testing Strategy"
+    },
+    {
+      "source": "Resources/Software Engineering/Container Networking",
+      "target": "Resources/Cloud Networking"
+    },
+    {
+      "source": "Resources/Software Engineering/Container Networking",
+      "target": "Resources/Networking"
+    },
+    {
+      "source": "Resources/Software Engineering/Container Networking",
+      "target": "Resources/Software Engineering/Docker Deep Dive"
+    },
+    {
+      "source": "Resources/Software Engineering/Container Networking",
+      "target": "Resources/Software Engineering/Kubernetes Basics"
+    },
+    {
+      "source": "Resources/Software Engineering/Container Networking",
+      "target": "Resources/Software Engineering/Service Mesh (Istio, Linkerd)"
+    },
+    {
+      "source": "Resources/Software Engineering/Conventional Commits",
+      "target": "Changelog and Release Notes Writing"
+    },
+    {
+      "source": "Resources/Software Engineering/Conventional Commits",
+      "target": "Resources/AI Workflow"
+    },
+    {
+      "source": "Resources/Software Engineering/Conventional Commits",
+      "target": "Resources/Software Engineering/Code Review Best Practices"
+    },
+    {
+      "source": "Resources/Software Engineering/Conventional Commits",
+      "target": "Resources/Software Engineering/Semantic Versioning"
+    },
+    {
+      "source": "Resources/Software Engineering/Conventional Commits",
+      "target": "Resources/Software Engineering/Trunk-Based Development"
+    },
+    {
+      "source": "Resources/Software Engineering/Dependency Management",
+      "target": "Resources/Security"
+    },
+    {
+      "source": "Resources/Software Engineering/Dependency Management",
+      "target": "Resources/Software Engineering/Build Systems Overview (Make, Bazel, Nx)"
+    },
+    {
+      "source": "Resources/Software Engineering/Dependency Management",
+      "target": "Resources/Software Engineering/Open Source Licensing (MIT, Apache, GPL, etc.)"
+    },
+    {
+      "source": "Resources/Software Engineering/Dependency Management",
+      "target": "Resources/Software Engineering/Semantic Versioning"
+    },
+    {
+      "source": "Resources/Software Engineering/Dependency Management",
+      "target": "Supply Chain Security"
     },
     {
       "source": "Resources/Software Engineering/Design Patterns — Behavioral (Observer, Strategy, Command, State, Iterator)",
@@ -2847,15 +3491,15 @@
     },
     {
       "source": "Resources/Software Engineering/Design Patterns — Creational (Factory, Builder, Singleton, Prototype)",
-      "target": "Dependency Management"
-    },
-    {
-      "source": "Resources/Software Engineering/Design Patterns — Creational (Factory, Builder, Singleton, Prototype)",
       "target": "Resources/Programming Languages"
     },
     {
       "source": "Resources/Software Engineering/Design Patterns — Creational (Factory, Builder, Singleton, Prototype)",
       "target": "Resources/Software Engineering/Anti-Patterns and Code Smells"
+    },
+    {
+      "source": "Resources/Software Engineering/Design Patterns — Creational (Factory, Builder, Singleton, Prototype)",
+      "target": "Resources/Software Engineering/Dependency Management"
     },
     {
       "source": "Resources/Software Engineering/Design Patterns — Creational (Factory, Builder, Singleton, Prototype)",
@@ -2884,6 +3528,26 @@
     {
       "source": "Resources/Software Engineering/Design Patterns — Structural (Adapter, Bridge, Composite, Decorator, Facade)",
       "target": "Resources/Software Engineering/Hexagonal Architecture (Ports and Adapters)"
+    },
+    {
+      "source": "Resources/Software Engineering/Docker Deep Dive",
+      "target": "Container Security"
+    },
+    {
+      "source": "Resources/Software Engineering/Docker Deep Dive",
+      "target": "Resources/Docker"
+    },
+    {
+      "source": "Resources/Software Engineering/Docker Deep Dive",
+      "target": "Resources/Software Engineering/Container Networking"
+    },
+    {
+      "source": "Resources/Software Engineering/Docker Deep Dive",
+      "target": "Resources/Software Engineering/Kubernetes Basics"
+    },
+    {
+      "source": "Resources/Software Engineering/Docker Deep Dive",
+      "target": "Resources/Software Engineering/Virtualization — VMs vs Containers"
     },
     {
       "source": "Resources/Software Engineering/Domain-Driven Design (DDD)",
@@ -2946,6 +3610,46 @@
       "target": "Resources/Software Engineering/Event Sourcing"
     },
     {
+      "source": "Resources/Software Engineering/Feature Flags and Progressive Rollout",
+      "target": "Product Analytics Fundamentals"
+    },
+    {
+      "source": "Resources/Software Engineering/Feature Flags and Progressive Rollout",
+      "target": "Resources/Product Engineering"
+    },
+    {
+      "source": "Resources/Software Engineering/Feature Flags and Progressive Rollout",
+      "target": "Resources/Software Engineering/Blue-Green Deployments"
+    },
+    {
+      "source": "Resources/Software Engineering/Feature Flags and Progressive Rollout",
+      "target": "Resources/Software Engineering/Canary Releases"
+    },
+    {
+      "source": "Resources/Software Engineering/Feature Flags and Progressive Rollout",
+      "target": "Resources/Software Engineering/Technical Debt — Types and Management"
+    },
+    {
+      "source": "Resources/Software Engineering/Git Flow vs Trunk-Based",
+      "target": "CI/CD Pipeline Design"
+    },
+    {
+      "source": "Resources/Software Engineering/Git Flow vs Trunk-Based",
+      "target": "Resources/Software Engineering/Code Review Best Practices"
+    },
+    {
+      "source": "Resources/Software Engineering/Git Flow vs Trunk-Based",
+      "target": "Resources/Software Engineering/Feature Flags and Progressive Rollout"
+    },
+    {
+      "source": "Resources/Software Engineering/Git Flow vs Trunk-Based",
+      "target": "Resources/Software Engineering/Semantic Versioning"
+    },
+    {
+      "source": "Resources/Software Engineering/Git Flow vs Trunk-Based",
+      "target": "Resources/Software Engineering/Trunk-Based Development"
+    },
+    {
       "source": "Resources/Software Engineering/Hexagonal Architecture (Ports and Adapters)",
       "target": "Resources/Software Architecture"
     },
@@ -2964,6 +3668,66 @@
     {
       "source": "Resources/Software Engineering/Hexagonal Architecture (Ports and Adapters)",
       "target": "Resources/Software Engineering/Test-Driven Development (TDD)"
+    },
+    {
+      "source": "Resources/Software Engineering/Integration Testing Strategies",
+      "target": "Database Migrations Best Practices"
+    },
+    {
+      "source": "Resources/Software Engineering/Integration Testing Strategies",
+      "target": "Resources/Software Engineering/Behavior-Driven Development (BDD)"
+    },
+    {
+      "source": "Resources/Software Engineering/Integration Testing Strategies",
+      "target": "Resources/Software Engineering/Property-Based Testing"
+    },
+    {
+      "source": "Resources/Software Engineering/Integration Testing Strategies",
+      "target": "Resources/Software Engineering/Test-Driven Development (TDD)"
+    },
+    {
+      "source": "Resources/Software Engineering/Integration Testing Strategies",
+      "target": "Resources/Testing Strategy"
+    },
+    {
+      "source": "Resources/Software Engineering/Kubernetes Basics",
+      "target": "Kubernetes YAML — Deployment, Service, Ingress"
+    },
+    {
+      "source": "Resources/Software Engineering/Kubernetes Basics",
+      "target": "Resources/Kubernetes"
+    },
+    {
+      "source": "Resources/Software Engineering/Kubernetes Basics",
+      "target": "Resources/Software Engineering/Container Networking"
+    },
+    {
+      "source": "Resources/Software Engineering/Kubernetes Basics",
+      "target": "Resources/Software Engineering/Docker Deep Dive"
+    },
+    {
+      "source": "Resources/Software Engineering/Kubernetes Basics",
+      "target": "Resources/Software Engineering/Service Mesh (Istio, Linkerd)"
+    },
+    {
+      "source": "Resources/Software Engineering/Load Testing and Performance Testing",
+      "target": "Observability — Logs, Metrics, Traces (The Three Pillars)"
+    },
+    {
+      "source": "Resources/Software Engineering/Load Testing and Performance Testing",
+      "target": "Performance Profiling (CPU, Memory, I/O)"
+    },
+    {
+      "source": "Resources/Software Engineering/Load Testing and Performance Testing",
+      "target": "Resources/Observability"
+    },
+    {
+      "source": "Resources/Software Engineering/Load Testing and Performance Testing",
+      "target": "Resources/Scaling"
+    },
+    {
+      "source": "Resources/Software Engineering/Load Testing and Performance Testing",
+      "target": "Scalability — Horizontal vs Vertical"
     },
     {
       "source": "Resources/Software Engineering/Microservices Architecture",
@@ -3006,16 +3770,76 @@
       "target": "Resources/Software Engineering/Microservices Architecture"
     },
     {
+      "source": "Resources/Software Engineering/Monorepo vs Polyrepo",
+      "target": "Resources/Software Architecture"
+    },
+    {
+      "source": "Resources/Software Engineering/Monorepo vs Polyrepo",
+      "target": "Resources/Software Engineering/Build Systems Overview (Make, Bazel, Nx)"
+    },
+    {
+      "source": "Resources/Software Engineering/Monorepo vs Polyrepo",
+      "target": "Resources/Software Engineering/Code Review Best Practices"
+    },
+    {
+      "source": "Resources/Software Engineering/Monorepo vs Polyrepo",
+      "target": "Resources/Software Engineering/Dependency Management"
+    },
+    {
+      "source": "Resources/Software Engineering/Monorepo vs Polyrepo",
+      "target": "Resources/Software Engineering/Trunk-Based Development"
+    },
+    {
+      "source": "Resources/Software Engineering/Open Source Licensing (MIT, Apache, GPL, etc.)",
+      "target": "Changelog and Release Notes Writing"
+    },
+    {
+      "source": "Resources/Software Engineering/Open Source Licensing (MIT, Apache, GPL, etc.)",
+      "target": "Resources/Software Engineering Tools"
+    },
+    {
+      "source": "Resources/Software Engineering/Open Source Licensing (MIT, Apache, GPL, etc.)",
+      "target": "Resources/Software Engineering/Dependency Management"
+    },
+    {
+      "source": "Resources/Software Engineering/Open Source Licensing (MIT, Apache, GPL, etc.)",
+      "target": "Resources/Software Engineering/Semantic Versioning"
+    },
+    {
+      "source": "Resources/Software Engineering/Open Source Licensing (MIT, Apache, GPL, etc.)",
+      "target": "Supply Chain Security"
+    },
+    {
+      "source": "Resources/Software Engineering/OpenAPI and API Documentation",
+      "target": "Resources/API Design"
+    },
+    {
+      "source": "Resources/Software Engineering/OpenAPI and API Documentation",
+      "target": "Resources/Software Engineering/API Design — REST Principles"
+    },
+    {
+      "source": "Resources/Software Engineering/OpenAPI and API Documentation",
+      "target": "Resources/Software Engineering/Backward Compatibility Strategies"
+    },
+    {
+      "source": "Resources/Software Engineering/OpenAPI and API Documentation",
+      "target": "Resources/Software Engineering/Static Analysis Tools"
+    },
+    {
+      "source": "Resources/Software Engineering/OpenAPI and API Documentation",
+      "target": "Writing Good Documentation"
+    },
+    {
       "source": "Resources/Software Engineering/Property-Based Testing",
       "target": "Idempotency in Distributed Systems"
     },
     {
       "source": "Resources/Software Engineering/Property-Based Testing",
-      "target": "Integration Testing Strategies"
+      "target": "Resources/Data Structures and Algorithms Patterns"
     },
     {
       "source": "Resources/Software Engineering/Property-Based Testing",
-      "target": "Resources/Data Structures and Algorithms Patterns"
+      "target": "Resources/Software Engineering/Integration Testing Strategies"
     },
     {
       "source": "Resources/Software Engineering/Property-Based Testing",
@@ -3067,23 +3891,83 @@
     },
     {
       "source": "Resources/Software Engineering/Semantic Versioning",
-      "target": "Backward Compatibility Strategies"
-    },
-    {
-      "source": "Resources/Software Engineering/Semantic Versioning",
-      "target": "Conventional Commits"
-    },
-    {
-      "source": "Resources/Software Engineering/Semantic Versioning",
-      "target": "Dependency Management"
-    },
-    {
-      "source": "Resources/Software Engineering/Semantic Versioning",
-      "target": "Open Source Licensing (MIT, Apache, GPL, etc.)"
-    },
-    {
-      "source": "Resources/Software Engineering/Semantic Versioning",
       "target": "Resources/Software Engineering/API Design — REST Principles"
+    },
+    {
+      "source": "Resources/Software Engineering/Semantic Versioning",
+      "target": "Resources/Software Engineering/Backward Compatibility Strategies"
+    },
+    {
+      "source": "Resources/Software Engineering/Semantic Versioning",
+      "target": "Resources/Software Engineering/Conventional Commits"
+    },
+    {
+      "source": "Resources/Software Engineering/Semantic Versioning",
+      "target": "Resources/Software Engineering/Dependency Management"
+    },
+    {
+      "source": "Resources/Software Engineering/Semantic Versioning",
+      "target": "Resources/Software Engineering/Open Source Licensing (MIT, Apache, GPL, etc.)"
+    },
+    {
+      "source": "Resources/Software Engineering/Service Mesh (Istio, Linkerd)",
+      "target": "Resources/Cloud Networking"
+    },
+    {
+      "source": "Resources/Software Engineering/Service Mesh (Istio, Linkerd)",
+      "target": "Resources/Software Engineering/Canary Releases"
+    },
+    {
+      "source": "Resources/Software Engineering/Service Mesh (Istio, Linkerd)",
+      "target": "Resources/Software Engineering/Container Networking"
+    },
+    {
+      "source": "Resources/Software Engineering/Service Mesh (Istio, Linkerd)",
+      "target": "Resources/Software Engineering/Microservices Architecture"
+    },
+    {
+      "source": "Resources/Software Engineering/Service Mesh (Istio, Linkerd)",
+      "target": "Zero-Trust Architecture"
+    },
+    {
+      "source": "Resources/Software Engineering/Software Estimation Techniques",
+      "target": "How to Write a Good Technical Spec"
+    },
+    {
+      "source": "Resources/Software Engineering/Software Estimation Techniques",
+      "target": "Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)"
+    },
+    {
+      "source": "Resources/Software Engineering/Software Estimation Techniques",
+      "target": "Resources/Engineering Judgment and Tool Tradeoffs"
+    },
+    {
+      "source": "Resources/Software Engineering/Software Estimation Techniques",
+      "target": "Resources/Software Engineering/Code Complexity — Cyclomatic Complexity"
+    },
+    {
+      "source": "Resources/Software Engineering/Software Estimation Techniques",
+      "target": "Resources/Software Engineering/Technical Debt — Types and Management"
+    },
+    {
+      "source": "Resources/Software Engineering/Static Analysis Tools",
+      "target": "CI/CD Pipeline Design"
+    },
+    {
+      "source": "Resources/Software Engineering/Static Analysis Tools",
+      "target": "Resources/Software Engineering/Code Complexity — Cyclomatic Complexity"
+    },
+    {
+      "source": "Resources/Software Engineering/Static Analysis Tools",
+      "target": "Resources/Software Engineering/Code Review Best Practices"
+    },
+    {
+      "source": "Resources/Software Engineering/Static Analysis Tools",
+      "target": "Resources/Testing Strategy"
+    },
+    {
+      "source": "Resources/Software Engineering/Static Analysis Tools",
+      "target": "Security Auditing"
     },
     {
       "source": "Resources/Software Engineering/Technical Debt — Types and Management",
@@ -3103,15 +3987,15 @@
     },
     {
       "source": "Resources/Software Engineering/Technical Debt — Types and Management",
-      "target": "Software Estimation Techniques"
-    },
-    {
-      "source": "Resources/Software Engineering/Test-Driven Development (TDD)",
-      "target": "Integration Testing Strategies"
+      "target": "Resources/Software Engineering/Software Estimation Techniques"
     },
     {
       "source": "Resources/Software Engineering/Test-Driven Development (TDD)",
       "target": "Resources/Software Engineering/Behavior-Driven Development (BDD)"
+    },
+    {
+      "source": "Resources/Software Engineering/Test-Driven Development (TDD)",
+      "target": "Resources/Software Engineering/Integration Testing Strategies"
     },
     {
       "source": "Resources/Software Engineering/Test-Driven Development (TDD)",
@@ -3124,6 +4008,66 @@
     {
       "source": "Resources/Software Engineering/Test-Driven Development (TDD)",
       "target": "Resources/Testing Strategy"
+    },
+    {
+      "source": "Resources/Software Engineering/The Unix Philosophy",
+      "target": "Bash Scripting"
+    },
+    {
+      "source": "Resources/Software Engineering/The Unix Philosophy",
+      "target": "Resources/OS Fundamentals"
+    },
+    {
+      "source": "Resources/Software Engineering/The Unix Philosophy",
+      "target": "Resources/Software Engineering/12-Factor App Methodology"
+    },
+    {
+      "source": "Resources/Software Engineering/The Unix Philosophy",
+      "target": "Resources/Software Engineering/API Design — REST Principles"
+    },
+    {
+      "source": "Resources/Software Engineering/The Unix Philosophy",
+      "target": "Resources/Software Engineering/Clean Code Principles"
+    },
+    {
+      "source": "Resources/Software Engineering/Trunk-Based Development",
+      "target": "CI/CD Pipeline Design"
+    },
+    {
+      "source": "Resources/Software Engineering/Trunk-Based Development",
+      "target": "Resources/Software Engineering/Conventional Commits"
+    },
+    {
+      "source": "Resources/Software Engineering/Trunk-Based Development",
+      "target": "Resources/Software Engineering/Feature Flags and Progressive Rollout"
+    },
+    {
+      "source": "Resources/Software Engineering/Trunk-Based Development",
+      "target": "Resources/Software Engineering/Git Flow vs Trunk-Based"
+    },
+    {
+      "source": "Resources/Software Engineering/Trunk-Based Development",
+      "target": "Resources/Software Engineering/Technical Debt — Types and Management"
+    },
+    {
+      "source": "Resources/Software Engineering/Virtualization — VMs vs Containers",
+      "target": "Container Security"
+    },
+    {
+      "source": "Resources/Software Engineering/Virtualization — VMs vs Containers",
+      "target": "Resources/Cloud Services"
+    },
+    {
+      "source": "Resources/Software Engineering/Virtualization — VMs vs Containers",
+      "target": "Resources/Docker"
+    },
+    {
+      "source": "Resources/Software Engineering/Virtualization — VMs vs Containers",
+      "target": "Resources/Software Engineering/Docker Deep Dive"
+    },
+    {
+      "source": "Resources/Software Engineering/Virtualization — VMs vs Containers",
+      "target": "Resources/Software Engineering/Kubernetes Basics"
     },
     {
       "source": "Resources/System Design Case Studies",
@@ -3262,5 +4206,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-25T18:50:38Z"
+  "generated_at": "2026-05-25T18:58:21Z"
 }
