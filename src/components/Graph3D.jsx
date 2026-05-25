@@ -8,7 +8,7 @@ import { isMobile } from '../utils/device'
 import InfoPanel from './InfoPanel'
 
 const BACKGROUND_COLOR = '#050820'
-const STAR_COUNT = 1500
+const STAR_COUNT = 4000
 const STAR_RADIUS = 4000
 const LINK_PARTICLE_COLOR = '#a0c0ff'
 const COMET_TRAIL = 25
@@ -193,6 +193,7 @@ export default function Graph3D({ data }) {
   const fgRef = useRef(null)
   const graphRef = useRef(data)
   const bloomAddedRef = useRef(false)
+  const hasZoomedToFitRef = useRef(false)
   const startTimeRef = useRef(performance.now())
   const starfieldRef = useRef(null)
   const nebulaeRef = useRef([])
@@ -384,6 +385,10 @@ export default function Graph3D({ data }) {
 
   // Ensure auto-orbit is running once physics settles
   const onEngineStop = useCallback(() => {
+    if (!hasZoomedToFitRef.current && fgRef.current) {
+      fgRef.current.zoomToFit(800, 80)
+      hasZoomedToFitRef.current = true
+    }
     isAutoRotatingRef.current = true
   }, [])
 
