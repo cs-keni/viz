@@ -391,7 +391,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Claude Code Skills",
@@ -515,7 +515,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Resources/Distributed Systems",
@@ -588,7 +588,7 @@
         "tradeoffs",
         "interview-prep"
       ],
-      "degree": 21
+      "degree": 22
     },
     {
       "id": "Resources/FlashAttention",
@@ -656,7 +656,7 @@
         "communication",
         "job-search"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Kubernetes",
@@ -744,7 +744,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Multi-Agent RL",
@@ -798,7 +798,7 @@
         "architecture",
         "interview-prep"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/OS Fundamentals",
@@ -825,7 +825,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Observability Case Studies",
@@ -949,7 +949,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Search Systems",
@@ -1032,7 +1032,20 @@
         "architecture",
         "interview-prep"
       ],
-      "degree": 12
+      "degree": 13
+    },
+    {
+      "id": "Resources/System Design Interview Rubric",
+      "label": "System Design Interview Rubric",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "8-phase rubric for FAANG-level system design interviews: requirements, scale estimation, API design, data model, architecture, deep dive, cross-cutting concerns, and evolution.",
+      "tags": [
+        "resource",
+        "system-design",
+        "interview-prep"
+      ],
+      "degree": 10
     },
     {
       "id": "Resources/System Design Notes",
@@ -1046,7 +1059,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "Resources/Testing Strategy",
@@ -2181,6 +2194,46 @@
       "target": "Resources/System Design Notes"
     },
     {
+      "source": "Resources/System Design Interview Rubric",
+      "target": "Resources/Caching"
+    },
+    {
+      "source": "Resources/System Design Interview Rubric",
+      "target": "Resources/Databases"
+    },
+    {
+      "source": "Resources/System Design Interview Rubric",
+      "target": "Resources/Engineering Judgment and Tool Tradeoffs"
+    },
+    {
+      "source": "Resources/System Design Interview Rubric",
+      "target": "Resources/Interview Communication"
+    },
+    {
+      "source": "Resources/System Design Interview Rubric",
+      "target": "Resources/Message Queues"
+    },
+    {
+      "source": "Resources/System Design Interview Rubric",
+      "target": "Resources/Notification System Design"
+    },
+    {
+      "source": "Resources/System Design Interview Rubric",
+      "target": "Resources/Observability"
+    },
+    {
+      "source": "Resources/System Design Interview Rubric",
+      "target": "Resources/Scaling"
+    },
+    {
+      "source": "Resources/System Design Interview Rubric",
+      "target": "Resources/System Design Case Studies"
+    },
+    {
+      "source": "Resources/System Design Interview Rubric",
+      "target": "Resources/System Design Notes"
+    },
+    {
       "source": "Resources/Testing Strategy",
       "target": "Projects/Bobby"
     },
@@ -2245,5 +2298,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-25T10:48:42Z"
+  "generated_at": "2026-05-25T11:14:17Z"
 }
