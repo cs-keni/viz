@@ -108,13 +108,22 @@
       "degree": 1
     },
     {
+      "id": "Calibration — Knowing What You Don't Know",
+      "label": "Calibration — Knowing What You Don't Know",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Capture Systems (Ubiquitous Capture)",
       "label": "Capture Systems (Ubiquitous Capture)",
       "folder": null,
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "Changelog and Release Notes Writing",
@@ -201,8 +210,8 @@
       "degree": 1
     },
     {
-      "id": "Evergreen Notes",
-      "label": "Evergreen Notes",
+      "id": "Distraction Management",
+      "label": "Distraction Management",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -306,6 +315,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 1
+    },
+    {
+      "id": "Notification Hygiene",
+      "label": "Notification Hygiene",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 3
     },
     {
       "id": "Object-Oriented Programming Concepts",
@@ -451,6 +469,15 @@
     {
       "id": "Python — Closures",
       "label": "Python — Closures",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Recovery — Sleep, Nutrition, Active Recovery",
+      "label": "Recovery — Sleep, Nutrition, Active Recovery",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -3446,6 +3473,150 @@
       "degree": 6
     },
     {
+      "id": "Resources/Personal Productivity/Annual Review Template",
+      "label": "Annual Review Template",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "An annual review reflects on what happened, what changed, what worked, what hurt, and what should be different next year. It is most useful when it turns reflection into priorities, constraints, and experiments.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Personal Productivity/Atomic Habits — Key Ideas (James Clear)",
+      "label": "Atomic Habits — Key Ideas (James Clear)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Atomic Habits argues that small repeated behaviors compound, and habit design should make good habits obvious, attractive, easy, and satisfying. The identity angle matters: habits stick better when they reinforce who someone is becoming.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Personal Productivity/Building a Second Brain (BASB — Tiago Forte)",
+      "label": "Building a Second Brain (BASB — Tiago Forte)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Building a Second Brain is Tiago Forte's method for capturing, organizing, distilling, and expressing knowledge. Its practical value is making information reusable for projects instead of storing it as passive reference.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Personal Productivity/Daily Note Template",
+      "label": "Daily Note Template",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "A daily note template gives each day a lightweight place for captures, priorities, reflections, and session logs. The best template is short enough to use consistently and structured enough to review later.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Personal Productivity/Decision Journaling",
+      "label": "Decision Journaling",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Decision journaling records important decisions, assumptions, expected outcomes, confidence, and later results. It improves judgment by separating decision quality from outcome luck.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Personal Productivity/Deep Work (Cal Newport)",
+      "label": "Deep Work (Cal Newport)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Deep Work is Cal Newport's term for cognitively demanding, distraction-free work that creates high-value output. It requires protected time, clear goals, and deliberate resistance to shallow-task drift.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Personal Productivity/Digital Minimalism",
+      "label": "Digital Minimalism",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Digital minimalism is the deliberate use of technology based on values, not defaults. The aim is not rejecting tools, but removing low-value digital noise so attention goes to meaningful work and relationships.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Personal Productivity/Energy Management vs Time Management",
+      "label": "Energy Management vs Time Management",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Energy management asks whether a person has the physical, emotional, and cognitive capacity for the work scheduled. It complements time management because an empty calendar block is not useful if energy is mismatched.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Personal Productivity/Evening Wind-Down Routines",
+      "label": "Evening Wind-Down Routines",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "An evening wind-down routine helps the brain transition out of work and into sleep or recovery. It works by lowering stimulation, closing open loops, and making the next morning easier.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Personal Productivity/Evergreen Notes",
+      "label": "Evergreen Notes",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Evergreen notes are durable, reusable notes that stay valuable beyond the day they were written. They work best when they express a clear idea in your own words and connect to related notes.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Personal Productivity/Flow State — How to Trigger It",
+      "label": "Flow State — How to Trigger It",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Flow is a state of deep absorption where challenge and skill are well matched. It is more likely when goals are clear, feedback is immediate, distractions are low, and the task is neither too easy nor too overwhelming.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Personal Productivity/Focus Modes and Context Switching Costs",
+      "label": "Focus Modes and Context Switching Costs",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Focus modes reduce context switching by grouping compatible work and protecting attention from unrelated inputs. Context switches are costly because the brain carries attention residue from the previous task.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 7
+    },
+    {
       "id": "Resources/Personal Productivity/Getting Things Done (GTD) Method",
       "label": "Getting Things Done (GTD) Method",
       "folder": "Resources",
@@ -3455,7 +3626,91 @@
         "resource",
         "personal-productivity"
       ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Personal Productivity/Goal Frameworks (OKRs, SMART, 12-Week Year)",
+      "label": "Goal Frameworks (OKRs, SMART, 12-Week Year)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Goal frameworks like OKRs, SMART goals, and the 12-Week Year make desired outcomes more concrete. They differ in emphasis, but all try to convert vague ambition into measurable focus and reviewable commitments.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Personal Productivity/Habit Stacking",
+      "label": "Habit Stacking",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Habit stacking attaches a new behavior to an existing routine so the old habit becomes the cue. It works best when the new action is small, specific, and naturally follows the anchor behavior.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Personal Productivity/Inbox Zero Strategy",
+      "label": "Inbox Zero Strategy",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Inbox Zero is not about having no messages forever; it is about regularly processing inboxes into decisions, actions, references, or deletion. The goal is reduced ambiguity, not obsessive cleanliness.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
       "degree": 3
+    },
+    {
+      "id": "Resources/Personal Productivity/Intention Setting",
+      "label": "Intention Setting",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Intention setting clarifies what kind of action or attention a person wants to bring to a period of time. It is lighter than goal planning and useful for aligning behavior before work, conversations, or routines.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Personal Productivity/Keystone Habits",
+      "label": "Keystone Habits",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Keystone habits are behaviors that trigger broader positive changes across routines, identity, and environment. They matter because one well-chosen habit can make many other habits easier.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Personal Productivity/Morning Routines — Research and Design",
+      "label": "Morning Routines — Research and Design",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "A morning routine should prepare energy, attention, and priorities for the day, not imitate someone else's ideal schedule. The best routine is small, repeatable, and matched to real constraints.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Personal Productivity/Motivation — Intrinsic vs Extrinsic",
+      "label": "Motivation — Intrinsic vs Extrinsic",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Intrinsic motivation comes from interest, meaning, mastery, or identity, while extrinsic motivation comes from external rewards or consequences. Durable systems often combine both without letting rewards crowd out meaning.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Personal Productivity/Obsidian Workflow Design",
@@ -3467,7 +3722,19 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 3
+      "degree": 6
+    },
+    {
+      "id": "Resources/Personal Productivity/PARA Method (Projects, Areas, Resources, Archives)",
+      "label": "PARA Method (Projects, Areas, Resources, Archives)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "PARA organizes information into Projects, Areas, Resources, and Archives based on actionability. It is useful because it separates active outcomes from ongoing responsibilities and reference material.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Personal Productivity/Personal Knowledge Management (PKM) Overview",
@@ -3479,7 +3746,67 @@
         "resource",
         "personal-productivity"
       ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Personal Productivity/Pomodoro Technique",
+      "label": "Pomodoro Technique",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Pomodoro Technique breaks work into focused intervals with short breaks, commonly 25 minutes on and 5 minutes off. It is most useful as an anti-procrastination and attention-starting tool.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Personal Productivity/Procrastination — Root Causes and Fixes",
+      "label": "Procrastination — Root Causes and Fixes",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Procrastination is often emotion regulation, ambiguity, fear, low energy, or task design failure rather than laziness. Fixes work best when they target the specific cause.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
       "degree": 4
+    },
+    {
+      "id": "Resources/Personal Productivity/Reward Systems and Dopamine Loops",
+      "label": "Reward Systems and Dopamine Loops",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Reward systems shape behavior by reinforcing cues, actions, and outcomes. Dopamine is more about anticipation and learning than simple pleasure, which is why variable rewards and easy feedback loops can become sticky.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Personal Productivity/Time Blocking",
+      "label": "Time Blocking",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Time blocking assigns work to calendar blocks so priorities compete against real time instead of an abstract task list. It is useful for protecting deep work and making tradeoffs visible.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Personal Productivity/Weekly Review Process",
+      "label": "Weekly Review Process",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "A weekly review refreshes trusted systems by closing loops, reviewing commitments, updating priorities, and deciding what matters next. It prevents task systems and notes from slowly becoming stale.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 7
     },
     {
       "id": "Resources/Personal Productivity/Zettelkasten Method",
@@ -3491,7 +3818,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Process Reward Models",
@@ -5635,7 +5962,7 @@
         "obsidian",
         "reference"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/WSL2 Setup",
@@ -6094,7 +6421,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "The Map of Content (MOC) in Obsidian",
@@ -6122,15 +6449,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 5
-    },
-    {
-      "id": "Weekly Review Process",
-      "label": "Weekly Review Process",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
     },
     {
       "id": "Writing Good Documentation",
@@ -10357,16 +10675,244 @@
       "target": "Resources/Testing Strategy"
     },
     {
+      "source": "Resources/Personal Productivity/Annual Review Template",
+      "target": "Resources/Personal Productivity/Decision Journaling"
+    },
+    {
+      "source": "Resources/Personal Productivity/Annual Review Template",
+      "target": "Resources/Personal Productivity/Goal Frameworks (OKRs, SMART, 12-Week Year)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Annual Review Template",
+      "target": "Resources/Personal Productivity/Weekly Review Process"
+    },
+    {
+      "source": "Resources/Personal Productivity/Atomic Habits — Key Ideas (James Clear)",
+      "target": "Resources/Personal Productivity/Habit Stacking"
+    },
+    {
+      "source": "Resources/Personal Productivity/Atomic Habits — Key Ideas (James Clear)",
+      "target": "Resources/Personal Productivity/Keystone Habits"
+    },
+    {
+      "source": "Resources/Personal Productivity/Atomic Habits — Key Ideas (James Clear)",
+      "target": "Resources/Personal Productivity/Reward Systems and Dopamine Loops"
+    },
+    {
+      "source": "Resources/Personal Productivity/Building a Second Brain (BASB — Tiago Forte)",
+      "target": "Resources/Personal Productivity/PARA Method (Projects, Areas, Resources, Archives)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Building a Second Brain (BASB — Tiago Forte)",
+      "target": "Resources/Personal Productivity/Personal Knowledge Management (PKM) Overview"
+    },
+    {
+      "source": "Resources/Personal Productivity/Building a Second Brain (BASB — Tiago Forte)",
+      "target": "Resources/Vault Structure"
+    },
+    {
+      "source": "Resources/Personal Productivity/Daily Note Template",
+      "target": "Capture Systems (Ubiquitous Capture)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Daily Note Template",
+      "target": "Resources/Personal Productivity/Obsidian Workflow Design"
+    },
+    {
+      "source": "Resources/Personal Productivity/Daily Note Template",
+      "target": "Resources/Personal Productivity/Weekly Review Process"
+    },
+    {
+      "source": "Resources/Personal Productivity/Decision Journaling",
+      "target": "Calibration — Knowing What You Don't Know"
+    },
+    {
+      "source": "Resources/Personal Productivity/Decision Journaling",
+      "target": "Resources/Personal Productivity/Annual Review Template"
+    },
+    {
+      "source": "Resources/Personal Productivity/Decision Journaling",
+      "target": "Resources/Personal Productivity/Intention Setting"
+    },
+    {
+      "source": "Resources/Personal Productivity/Deep Work (Cal Newport)",
+      "target": "Resources/Personal Productivity/Flow State — How to Trigger It"
+    },
+    {
+      "source": "Resources/Personal Productivity/Deep Work (Cal Newport)",
+      "target": "Resources/Personal Productivity/Focus Modes and Context Switching Costs"
+    },
+    {
+      "source": "Resources/Personal Productivity/Deep Work (Cal Newport)",
+      "target": "Resources/Personal Productivity/Time Blocking"
+    },
+    {
+      "source": "Resources/Personal Productivity/Digital Minimalism",
+      "target": "Distraction Management"
+    },
+    {
+      "source": "Resources/Personal Productivity/Digital Minimalism",
+      "target": "Notification Hygiene"
+    },
+    {
+      "source": "Resources/Personal Productivity/Digital Minimalism",
+      "target": "Resources/Personal Productivity/Deep Work (Cal Newport)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Energy Management vs Time Management",
+      "target": "Recovery — Sleep, Nutrition, Active Recovery"
+    },
+    {
+      "source": "Resources/Personal Productivity/Energy Management vs Time Management",
+      "target": "Resources/Personal Productivity/Deep Work (Cal Newport)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Energy Management vs Time Management",
+      "target": "Resources/Personal Productivity/Time Blocking"
+    },
+    {
+      "source": "Resources/Personal Productivity/Evening Wind-Down Routines",
+      "target": "Resources/Personal Productivity/Digital Minimalism"
+    },
+    {
+      "source": "Resources/Personal Productivity/Evening Wind-Down Routines",
+      "target": "Resources/Personal Productivity/Energy Management vs Time Management"
+    },
+    {
+      "source": "Resources/Personal Productivity/Evening Wind-Down Routines",
+      "target": "Resources/Personal Productivity/Morning Routines — Research and Design"
+    },
+    {
+      "source": "Resources/Personal Productivity/Evergreen Notes",
+      "target": "Resources/Personal Productivity/Obsidian Workflow Design"
+    },
+    {
+      "source": "Resources/Personal Productivity/Evergreen Notes",
+      "target": "Resources/Personal Productivity/Personal Knowledge Management (PKM) Overview"
+    },
+    {
+      "source": "Resources/Personal Productivity/Evergreen Notes",
+      "target": "Resources/Personal Productivity/Zettelkasten Method"
+    },
+    {
+      "source": "Resources/Personal Productivity/Flow State — How to Trigger It",
+      "target": "Resources/Personal Productivity/Deep Work (Cal Newport)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Flow State — How to Trigger It",
+      "target": "Resources/Personal Productivity/Focus Modes and Context Switching Costs"
+    },
+    {
+      "source": "Resources/Personal Productivity/Flow State — How to Trigger It",
+      "target": "Resources/Personal Productivity/Pomodoro Technique"
+    },
+    {
+      "source": "Resources/Personal Productivity/Focus Modes and Context Switching Costs",
+      "target": "Notification Hygiene"
+    },
+    {
+      "source": "Resources/Personal Productivity/Focus Modes and Context Switching Costs",
+      "target": "Resources/Personal Productivity/Deep Work (Cal Newport)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Focus Modes and Context Switching Costs",
+      "target": "Resources/Personal Productivity/Energy Management vs Time Management"
+    },
+    {
       "source": "Resources/Personal Productivity/Getting Things Done (GTD) Method",
       "target": "Capture Systems (Ubiquitous Capture)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Getting Things Done (GTD) Method",
+      "target": "Resources/Personal Productivity/Weekly Review Process"
     },
     {
       "source": "Resources/Personal Productivity/Getting Things Done (GTD) Method",
       "target": "Task Management Philosophies (GTD, Autofocus, ZTD)"
     },
     {
-      "source": "Resources/Personal Productivity/Getting Things Done (GTD) Method",
-      "target": "Weekly Review Process"
+      "source": "Resources/Personal Productivity/Goal Frameworks (OKRs, SMART, 12-Week Year)",
+      "target": "Resources/Personal Productivity/Annual Review Template"
+    },
+    {
+      "source": "Resources/Personal Productivity/Goal Frameworks (OKRs, SMART, 12-Week Year)",
+      "target": "Resources/Personal Productivity/Time Blocking"
+    },
+    {
+      "source": "Resources/Personal Productivity/Goal Frameworks (OKRs, SMART, 12-Week Year)",
+      "target": "Resources/Personal Productivity/Weekly Review Process"
+    },
+    {
+      "source": "Resources/Personal Productivity/Habit Stacking",
+      "target": "Resources/Personal Productivity/Atomic Habits — Key Ideas (James Clear)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Habit Stacking",
+      "target": "Resources/Personal Productivity/Keystone Habits"
+    },
+    {
+      "source": "Resources/Personal Productivity/Habit Stacking",
+      "target": "Resources/Personal Productivity/Morning Routines — Research and Design"
+    },
+    {
+      "source": "Resources/Personal Productivity/Inbox Zero Strategy",
+      "target": "Notification Hygiene"
+    },
+    {
+      "source": "Resources/Personal Productivity/Inbox Zero Strategy",
+      "target": "Resources/Personal Productivity/Getting Things Done (GTD) Method"
+    },
+    {
+      "source": "Resources/Personal Productivity/Inbox Zero Strategy",
+      "target": "Task Management Philosophies (GTD, Autofocus, ZTD)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Intention Setting",
+      "target": "Resources/Personal Productivity/Decision Journaling"
+    },
+    {
+      "source": "Resources/Personal Productivity/Intention Setting",
+      "target": "Resources/Personal Productivity/Morning Routines — Research and Design"
+    },
+    {
+      "source": "Resources/Personal Productivity/Intention Setting",
+      "target": "Resources/Personal Productivity/Time Blocking"
+    },
+    {
+      "source": "Resources/Personal Productivity/Keystone Habits",
+      "target": "Resources/Personal Productivity/Atomic Habits — Key Ideas (James Clear)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Keystone Habits",
+      "target": "Resources/Personal Productivity/Energy Management vs Time Management"
+    },
+    {
+      "source": "Resources/Personal Productivity/Keystone Habits",
+      "target": "Resources/Personal Productivity/Morning Routines — Research and Design"
+    },
+    {
+      "source": "Resources/Personal Productivity/Morning Routines — Research and Design",
+      "target": "Resources/Personal Productivity/Energy Management vs Time Management"
+    },
+    {
+      "source": "Resources/Personal Productivity/Morning Routines — Research and Design",
+      "target": "Resources/Personal Productivity/Habit Stacking"
+    },
+    {
+      "source": "Resources/Personal Productivity/Morning Routines — Research and Design",
+      "target": "Resources/Personal Productivity/Intention Setting"
+    },
+    {
+      "source": "Resources/Personal Productivity/Motivation — Intrinsic vs Extrinsic",
+      "target": "Resources/Personal Productivity/Atomic Habits — Key Ideas (James Clear)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Motivation — Intrinsic vs Extrinsic",
+      "target": "Resources/Personal Productivity/Goal Frameworks (OKRs, SMART, 12-Week Year)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Motivation — Intrinsic vs Extrinsic",
+      "target": "Resources/Personal Productivity/Reward Systems and Dopamine Loops"
     },
     {
       "source": "Resources/Personal Productivity/Obsidian Workflow Design",
@@ -10381,6 +10927,18 @@
       "target": "Resources/What Is Obsidian"
     },
     {
+      "source": "Resources/Personal Productivity/PARA Method (Projects, Areas, Resources, Archives)",
+      "target": "Resources/Personal Productivity/Building a Second Brain (BASB — Tiago Forte)"
+    },
+    {
+      "source": "Resources/Personal Productivity/PARA Method (Projects, Areas, Resources, Archives)",
+      "target": "Resources/Personal Productivity/Obsidian Workflow Design"
+    },
+    {
+      "source": "Resources/Personal Productivity/PARA Method (Projects, Areas, Resources, Archives)",
+      "target": "Resources/Vault Structure"
+    },
+    {
       "source": "Resources/Personal Productivity/Personal Knowledge Management (PKM) Overview",
       "target": "Resources/Personal Productivity/Zettelkasten Method"
     },
@@ -10393,8 +10951,68 @@
       "target": "Resources/What Is Obsidian"
     },
     {
+      "source": "Resources/Personal Productivity/Pomodoro Technique",
+      "target": "Resources/Personal Productivity/Flow State — How to Trigger It"
+    },
+    {
+      "source": "Resources/Personal Productivity/Pomodoro Technique",
+      "target": "Resources/Personal Productivity/Focus Modes and Context Switching Costs"
+    },
+    {
+      "source": "Resources/Personal Productivity/Pomodoro Technique",
+      "target": "Resources/Personal Productivity/Procrastination — Root Causes and Fixes"
+    },
+    {
+      "source": "Resources/Personal Productivity/Procrastination — Root Causes and Fixes",
+      "target": "Resources/Personal Productivity/Digital Minimalism"
+    },
+    {
+      "source": "Resources/Personal Productivity/Procrastination — Root Causes and Fixes",
+      "target": "Resources/Personal Productivity/Intention Setting"
+    },
+    {
+      "source": "Resources/Personal Productivity/Procrastination — Root Causes and Fixes",
+      "target": "Resources/Personal Productivity/Pomodoro Technique"
+    },
+    {
+      "source": "Resources/Personal Productivity/Reward Systems and Dopamine Loops",
+      "target": "Resources/Personal Productivity/Atomic Habits — Key Ideas (James Clear)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Reward Systems and Dopamine Loops",
+      "target": "Resources/Personal Productivity/Digital Minimalism"
+    },
+    {
+      "source": "Resources/Personal Productivity/Reward Systems and Dopamine Loops",
+      "target": "Resources/Personal Productivity/Motivation — Intrinsic vs Extrinsic"
+    },
+    {
+      "source": "Resources/Personal Productivity/Time Blocking",
+      "target": "Resources/Personal Productivity/Deep Work (Cal Newport)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Time Blocking",
+      "target": "Resources/Personal Productivity/Energy Management vs Time Management"
+    },
+    {
+      "source": "Resources/Personal Productivity/Time Blocking",
+      "target": "Resources/Personal Productivity/Focus Modes and Context Switching Costs"
+    },
+    {
+      "source": "Resources/Personal Productivity/Weekly Review Process",
+      "target": "Resources/Personal Productivity/Daily Note Template"
+    },
+    {
+      "source": "Resources/Personal Productivity/Weekly Review Process",
+      "target": "Resources/Personal Productivity/Getting Things Done (GTD) Method"
+    },
+    {
+      "source": "Resources/Personal Productivity/Weekly Review Process",
+      "target": "Resources/Personal Productivity/Goal Frameworks (OKRs, SMART, 12-Week Year)"
+    },
+    {
       "source": "Resources/Personal Productivity/Zettelkasten Method",
-      "target": "Evergreen Notes"
+      "target": "Resources/Personal Productivity/Evergreen Notes"
     },
     {
       "source": "Resources/Personal Productivity/Zettelkasten Method",
@@ -13941,5 +14559,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-26T16:23:35Z"
+  "generated_at": "2026-05-26T16:31:28Z"
 }
