@@ -258,6 +258,9 @@ export default function Graph3D({ data }) {
   const hasZoomedToFitRef = useRef(false)
   const startTimeRef = useRef(performance.now())
   const frameCountRef = useRef(0)
+  const instancedMeshRef = useRef({ low: null, mid: null, high: null })
+  const instanceInitializedRef = useRef(false)
+  const dummyRef = useRef(new THREE.Object3D())
   const starfieldRef = useRef(null)
   const nebulaeRef = useRef([])
   const cometsRef = useRef([])
@@ -497,6 +500,77 @@ export default function Graph3D({ data }) {
     }
   }, [])
 
+  // Create 3 InstancedMeshes (one per degree bucket) after physics settle.
+  // Unit-sphere geometry scaled per-instance via matrix — 3 draw calls for all nodes.
+  const initInstancedMeshes = useCallback(() => {
+    if (instanceInitializedRef.current) return
+    const fg = fgRef.current
+    const graph = graphRef.current
+    if (!fg || !graph?.nodes?.length) return
+
+    const scene = fg.scene()
+    const nodes = graph.nodes
+    const buckets = { low: [], mid: [], high: [] }
+    nodes.forEach(node => {
+      const b = (node.degree ?? 0) >= 9 ? 'high' : (node.degree ?? 0) >= 3 ? 'mid' : 'low'
+      node._bucket = b
+      node._instanceIdx = buckets[b].length
+      buckets[b].push(node)
+    })
+
+    const BUCKET_CFG = {
+      low:  { segs: 6,  color: '#7B8CDE', ei: 0.2  },
+      mid:  { segs: 8,  color: '#C4A0E8', ei: 0.45 },
+      high: { segs: 12, color: '#F4C87B', ei: 0.75 },
+    }
+    const dummy = dummyRef.current
+
+    Object.entries(BUCKET_CFG).forEach(([key, cfg]) => {
+      const list = buckets[key]
+      if (!list.length) return
+      const geo = new THREE.SphereGeometry(1, cfg.segs, cfg.segs)
+      const mat = new THREE.MeshStandardMaterial({
+        color: cfg.color, emissive: cfg.color, emissiveIntensity: cfg.ei,
+        roughness: 0.55, metalness: 0.05,
+      })
+      const mesh = new THREE.InstancedMesh(geo, mat, list.length)
+      mesh.instanceMatrix.setUsage(THREE.DynamicDrawUsage)
+      mesh.frustumCulled = false
+      list.forEach((node, i) => {
+        dummy.position.set(node.x ?? 0, node.y ?? 0, node.z ?? 0)
+        dummy.scale.setScalar(node._radius ?? 1)
+        dummy.updateMatrix()
+        mesh.setMatrixAt(i, dummy.matrix)
+      })
+      mesh.instanceMatrix.needsUpdate = true
+      scene.add(mesh)
+      instancedMeshRef.current[key] = mesh
+    })
+
+    instanceInitializedRef.current = true
+  }, [])
+
+  // Set per-instance colors to communicate selection state.
+  // White = full color, near-black = dimmed non-neighbor.
+  const applySelectionColors = useCallback(() => {
+    if (!instanceInitializedRef.current) return
+    const graph = graphRef.current
+    if (!graph?.nodes) return
+    const selId = selectedNodeRef.current
+    const neighbors = neighborSetRef.current
+    const bright = new THREE.Color(1, 1, 1)
+    const dim = new THREE.Color(0.08, 0.08, 0.08)
+    const meshes = instancedMeshRef.current
+
+    graph.nodes.forEach(node => {
+      if (node._bucket === undefined || node._instanceIdx === undefined) return
+      const mesh = meshes[node._bucket]
+      if (!mesh) return
+      mesh.setColorAt(node._instanceIdx, selId && !neighbors.has(node.id) ? dim : bright)
+    })
+    Object.values(meshes).forEach(m => { if (m?.instanceColor) m.instanceColor.needsUpdate = true })
+  }, [])
+
   // Ensure auto-orbit is running once physics settles, then start cinematic reel
   const onEngineStop = useCallback(() => {
     isAutoRotatingRef.current = true
@@ -509,25 +583,21 @@ export default function Graph3D({ data }) {
       cinematicRef.current.speed = wideCfg.speed
       cinematicRef.current.nextShotAt = performance.now() + CINEMATIC_SHOTS[0].duration
     }
-  }, [])
+    initInstancedMeshes()
+  }, [initInstancedMeshes])
 
   const nodeThreeObject = useCallback((node) => {
-    const color = colorForDegree(node.degree)
-    const radius = sizeForDegree(node.degree)
-    const isRecent = isRecentlyAdded(node.created)
+    // Invisible position tracker — InstancedMesh handles all rendering.
+    // react-force-graph-3d uses 2D projected distance for hover/click (not raycasting),
+    // so an empty Object3D is sufficient for interaction detection.
     const base = baseEmissiveForDegree(node.degree ?? 0)
-    // Fewer segments for tiny nodes — imperceptible at small sizes, ~4x fewer triangles
-    const segs = (node.degree ?? 0) >= 9 ? 12 : (node.degree ?? 0) >= 3 ? 8 : 6
-    const geometry = new THREE.SphereGeometry(radius, segs, segs)
-    const material = new THREE.MeshStandardMaterial({
-      color, emissive: color, emissiveIntensity: base,
-      roughness: 0.55, metalness: 0.05,
-      transparent: true, opacity: 1.0,
-    })
+    const isRecent = isRecentlyAdded(node.created)
     node._phase = Math.random() * Math.PI * 2
-    node._glimmerPhase = Math.random() * Math.PI * 2
     node._baseEmissive = isRecent ? Math.min(1.0, base * 1.5) : base
-    return new THREE.Mesh(geometry, material)
+    node._radius = sizeForDegree(node.degree)
+    const tracker = new THREE.Object3D()
+    tracker.visible = false
+    return tracker
   }, [])
 
   const handleDismiss = useCallback(() => {
@@ -535,6 +605,7 @@ export default function Graph3D({ data }) {
     neighborSetRef.current = new Set()
     setSelectedNodeId(null)
     setSelectedNode(null)
+    applySelectionColors()
     isAutoRotatingRef.current = false
     clearTimeout(orbitResumeTimerRef.current)
     cinematicRef.current.nextShotAt = 0
@@ -542,7 +613,7 @@ export default function Graph3D({ data }) {
       isAutoRotatingRef.current = true
       cinematicRef.current.nextShotAt = performance.now() + 2000
     }, ORBIT_RESUME_DELAY)
-  }, [])
+  }, [applySelectionColors])
 
   const onNodeClick = useCallback((node) => {
     if (selectedNodeRef.current === node.id) {
@@ -580,9 +651,10 @@ export default function Graph3D({ data }) {
     })
     selectedNodeRef.current = node.id
     neighborSetRef.current = neighbors
+    applySelectionColors()
     setSelectedNodeId(node.id)
     setSelectedNode(node)
-  }, [handleDismiss])
+  }, [handleDismiss, applySelectionColors])
 
   const onBackgroundClick = useCallback(() => {
     handleDismiss()
@@ -622,23 +694,38 @@ export default function Graph3D({ data }) {
     const graph = graphRef.current
     if (!graph) return
     const t = (performance.now() - startTimeRef.current) / 1000
-    const selId = selectedNodeRef.current
     const frame = ++frameCountRef.current
 
-    // Node breathing runs at ~1.2 Hz — updating every other frame (30fps) is imperceptible
-    if (frame % 2 === 0) {
+    // Sync InstancedMesh matrices every other frame — breathing at 30fps is imperceptible
+    if (frame % 2 === 0 && instanceInitializedRef.current) {
+      const meshes = instancedMeshRef.current
+      const dummy = dummyRef.current
+      const dirty = { low: false, mid: false, high: false }
+
       graph.nodes?.forEach((node) => {
-        if (!node.__threeObj) return
-        const mat = node.__threeObj.material
-
-        mat.opacity = selId && !neighborSetRef.current.has(node.id) ? 0.08 : 1.0
-
+        if (!node.__threeObj || node._bucket === undefined) return
+        const mesh = meshes[node._bucket]
+        if (!mesh) return
+        const pos = node.__threeObj.position
         const amplitude = node._baseEmissive > 0.5 ? 0.08 : 0.04
-        node.__threeObj.scale.setScalar(1 + amplitude * Math.sin(t * 1.2 + (node._phase || 0)))
+        const scale = (node._radius ?? 1) * (1 + amplitude * Math.sin(t * 1.2 + (node._phase || 0)))
+        dummy.position.set(pos.x, pos.y, pos.z)
+        dummy.scale.setScalar(scale)
+        dummy.updateMatrix()
+        mesh.setMatrixAt(node._instanceIdx, dummy.matrix)
+        dirty[node._bucket] = true
+      })
 
-        // Firefly: oscillates below and above baseEmissive so nodes actually go near-dark
-        const glow = Math.sin(t * 0.7 + (node._glimmerPhase || 0)) * 0.3
-        mat.emissiveIntensity = Math.max(0, (node._baseEmissive || 0.2) + glow)
+      // Staggered per-bucket emissive pulse — cohesive cluster glow
+      const BUCKET_PHASES = { low: 0, mid: 2.2, high: 4.4 }
+      const BUCKET_BASE_EI = { low: 0.2, mid: 0.45, high: 0.75 }
+      Object.entries(BUCKET_PHASES).forEach(([key, phase]) => {
+        const mesh = meshes[key]
+        if (mesh?.material) {
+          const base = BUCKET_BASE_EI[key]
+          mesh.material.emissiveIntensity = Math.max(0, base + Math.sin(t * 0.7 + phase) * 0.3)
+        }
+        if (dirty[key]) mesh.instanceMatrix.needsUpdate = true
       })
     }
 
