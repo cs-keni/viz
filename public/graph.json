@@ -90,6 +90,15 @@
       "degree": 1
     },
     {
+      "id": "Browser Security Model (Same-Origin Policy)",
+      "label": "Browser Security Model (Same-Origin Policy)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "CI/CD Pipeline Design",
       "label": "CD Pipeline Design",
       "folder": "CI",
@@ -115,33 +124,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 2
-    },
-    {
-      "id": "Compiled vs Interpreted vs JIT Languages",
-      "label": "Compiled vs Interpreted vs JIT Languages",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
-    },
-    {
-      "id": "Concurrency Primitives (Mutex, Semaphore, Condition Variable)",
-      "label": "Concurrency Primitives (Mutex, Semaphore, Condition Variable)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 4
-    },
-    {
-      "id": "DSL Design",
-      "label": "DSL Design",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
     },
     {
       "id": "Daily Notes/2026-05-19",
@@ -199,6 +181,17 @@
       "degree": 0
     },
     {
+      "id": "Daily Notes/2026-05-26",
+      "label": "2026-05-26",
+      "folder": "Daily Notes",
+      "created": "2026-05-26",
+      "excerpt": "Session 1 - Topics covered — Continued by finishing the Programming Languages section from topic 326 through 336. - What was learned or decided — These topics were ready for standalone resource notes…",
+      "tags": [
+        "daily"
+      ],
+      "degree": 0
+    },
+    {
       "id": "Directed Acyclic Graphs",
       "label": "Directed Acyclic Graphs",
       "folder": null,
@@ -210,15 +203,6 @@
     {
       "id": "Game Theory Fundamentals",
       "label": "Game Theory Fundamentals",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Garbage Collection Algorithms (Mark-Sweep, Generational)",
-      "label": "Garbage Collection Algorithms (Mark-Sweep, Generational)",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -251,33 +235,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 1
-    },
-    {
-      "id": "Immutability and Pure Functions",
-      "label": "Immutability and Pure Functions",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "JIT Compilation",
-      "label": "JIT Compilation",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Language Design Tradeoffs",
-      "label": "Language Design Tradeoffs",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
     },
     {
       "id": "Maps/Bobby",
@@ -340,33 +297,6 @@
         "career"
       ],
       "degree": 4
-    },
-    {
-      "id": "Memory Models and Happens-Before Ordering",
-      "label": "Memory Models and Happens-Before Ordering",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
-    },
-    {
-      "id": "Metaprogramming and Code Generation",
-      "label": "Metaprogramming and Code Generation",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Monads (Accessible Explanation)",
-      "label": "Monads (Accessible Explanation)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
     },
     {
       "id": "Note Title",
@@ -521,6 +451,15 @@
     {
       "id": "Python — Closures",
       "label": "Python — Closures",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "React — State Management (Zustand, Redux, Context API)",
+      "label": "React — State Management (Zustand, Redux, Context API)",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -1559,7 +1498,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/CS Theory & Algorithms/Searching Algorithms (Binary Search and Variants)",
@@ -2465,7 +2404,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)",
@@ -2513,7 +2452,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 9
+      "degree": 11
     },
     {
       "id": "Resources/DevOps & Infrastructure/Postmortem Writing",
@@ -2621,7 +2560,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/DevOps & Infrastructure/VPN Architecture",
@@ -3322,7 +3261,43 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 6
+      "degree": 7
+    },
+    {
+      "id": "Resources/Programming Languages/Compiled vs Interpreted vs JIT Languages",
+      "label": "Compiled vs Interpreted vs JIT Languages",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Compiled, interpreted, and JIT execution models describe when code is translated and optimized. The boundaries are blurry in modern runtimes, but the model affects startup time, portability, debugging, deployment, and peak performance.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 9
+    },
+    {
+      "id": "Resources/Programming Languages/Concurrency Primitives (Mutex, Semaphore, Condition Variable)",
+      "label": "Concurrency Primitives (Mutex, Semaphore, Condition Variable)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Concurrency primitives are low-level coordination tools for sharing resources safely across threads or tasks. Mutexes protect critical sections, semaphores limit access counts, and condition variables let workers sleep until shared state changes.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 10
+    },
+    {
+      "id": "Resources/Programming Languages/DSL Design",
+      "label": "DSL Design",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "A domain-specific language is a small language designed around a narrow problem domain. Good DSLs make domain intent clear and prevent invalid states, while bad DSLs become underpowered programming languages with custom syntax and weak tooling.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 5
     },
     {
       "id": "Resources/Programming Languages/Functional Programming Concepts",
@@ -3334,7 +3309,19 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 7
+      "degree": 9
+    },
+    {
+      "id": "Resources/Programming Languages/Garbage Collection Algorithms (Mark-Sweep, Generational)",
+      "label": "Garbage Collection Algorithms (Mark-Sweep, Generational)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Garbage collection algorithms reclaim memory that a program can no longer reach. Mark-sweep, copying, compacting, reference counting, and generational collectors make different tradeoffs among throughput, pause time, fragmentation, and implementation complexity.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 5
     },
     {
       "id": "Resources/Programming Languages/Go — Goroutines and Channels",
@@ -3346,7 +3333,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Programming Languages/Go — Interface System",
@@ -3358,7 +3345,31 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 5
+      "degree": 6
+    },
+    {
+      "id": "Resources/Programming Languages/Immutability and Pure Functions",
+      "label": "Immutability and Pure Functions",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Immutability and pure functions are core functional programming ideas that make code easier to reason about, test, parallelize, and refactor. They reduce hidden state changes by treating data as values and making effects explicit.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Programming Languages/JIT Compilation",
+      "label": "JIT Compilation",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Just-in-time compilation turns code into optimized machine code while a program is running. JITs trade startup and runtime complexity for adaptive optimization based on real execution behavior.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/Programming Languages/Java — Garbage Collection",
@@ -3370,7 +3381,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Programming Languages/Java — JVM Internals",
@@ -3382,7 +3393,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Resources/Programming Languages/JavaScript — Closures",
@@ -3406,7 +3417,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Programming Languages/JavaScript — Prototypes and Prototype Chain",
@@ -3430,7 +3441,55 @@
         "resource",
         "programming-languages"
       ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Programming Languages/Language Design Tradeoffs",
+      "label": "Language Design Tradeoffs",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Language design is a set of tradeoffs among safety, performance, expressiveness, simplicity, tooling, compatibility, and ecosystem goals. Good language choices are contextual, not universal.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
       "degree": 7
+    },
+    {
+      "id": "Resources/Programming Languages/Memory Models and Happens-Before Ordering",
+      "label": "Memory Models and Happens-Before Ordering",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "A language memory model defines what reads and writes are allowed to do in concurrent programs. Happens-before ordering is the reasoning tool that tells whether one thread's writes must be visible to another.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Programming Languages/Metaprogramming and Code Generation",
+      "label": "Metaprogramming and Code Generation",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Metaprogramming and code generation let programs create, inspect, or transform other programs. They can remove repetition and encode patterns, but they also risk hiding behavior behind machinery that is harder to read and debug.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Programming Languages/Monads (Accessible Explanation)",
+      "label": "Monads (Accessible Explanation)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Monads are a functional programming abstraction for chaining computations that carry context, such as optional values, errors, async work, state, or I/O. The practical idea is not mystical: wrap a value, provide a way to chain the next step, and let the wrapper handle the context.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/Programming Languages/Python — Async-Await and asyncio",
@@ -3466,7 +3525,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Programming Languages/Python — GIL and Concurrency",
@@ -3502,7 +3561,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Programming Languages/Python — Memory Management and gc",
@@ -3514,7 +3573,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Programming Languages/Python — Metaclasses",
@@ -3526,7 +3585,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Programming Languages/Python — Type System and mypy",
@@ -3562,7 +3621,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 7
+      "degree": 11
     },
     {
       "id": "Resources/Programming Languages/Rust — Traits and Generics",
@@ -3598,7 +3657,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Programming Languages/TypeScript — Utility Types (Partial, Pick, Omit, etc.)",
@@ -3611,6 +3670,18 @@
         "programming-languages"
       ],
       "degree": 6
+    },
+    {
+      "id": "Resources/Programming Languages/WebAssembly (WASM) Basics",
+      "label": "WebAssembly (WASM) Basics",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "WebAssembly is a portable low-level bytecode format designed for safe, near-native execution in browsers and other runtimes. It lets languages like Rust, C, and C++ run in web contexts while preserving sandboxing and predictable performance.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 5
     },
     {
       "id": "Resources/RAG and Bobby Vector Search",
@@ -4204,7 +4275,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Software Engineering/Anti-Patterns and Code Smells",
@@ -4588,7 +4659,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Software Engineering/Property-Based Testing",
@@ -5367,6 +5438,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 2
+    },
+    {
+      "id": "WebGL Basics",
+      "label": "WebGL Basics",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "Writing Good Documentation",
@@ -9401,12 +9481,56 @@
       "target": "Resources/Security Deep Dive"
     },
     {
-      "source": "Resources/Programming Languages/Functional Programming Concepts",
-      "target": "Immutability and Pure Functions"
+      "source": "Resources/Programming Languages/Compiled vs Interpreted vs JIT Languages",
+      "target": "Resources/Programming Languages/JIT Compilation"
+    },
+    {
+      "source": "Resources/Programming Languages/Compiled vs Interpreted vs JIT Languages",
+      "target": "Resources/Programming Languages/Java — JVM Internals"
+    },
+    {
+      "source": "Resources/Programming Languages/Compiled vs Interpreted vs JIT Languages",
+      "target": "Resources/Programming Languages/Python — Internals and CPython"
+    },
+    {
+      "source": "Resources/Programming Languages/Compiled vs Interpreted vs JIT Languages",
+      "target": "Resources/Programming Languages/WebAssembly (WASM) Basics"
+    },
+    {
+      "source": "Resources/Programming Languages/Concurrency Primitives (Mutex, Semaphore, Condition Variable)",
+      "target": "Resources/Programming Languages/Go — Goroutines and Channels"
+    },
+    {
+      "source": "Resources/Programming Languages/Concurrency Primitives (Mutex, Semaphore, Condition Variable)",
+      "target": "Resources/Programming Languages/Immutability and Pure Functions"
+    },
+    {
+      "source": "Resources/Programming Languages/Concurrency Primitives (Mutex, Semaphore, Condition Variable)",
+      "target": "Resources/Programming Languages/Memory Models and Happens-Before Ordering"
+    },
+    {
+      "source": "Resources/Programming Languages/Concurrency Primitives (Mutex, Semaphore, Condition Variable)",
+      "target": "Resources/Programming Languages/Rust — Ownership and Borrowing"
+    },
+    {
+      "source": "Resources/Programming Languages/DSL Design",
+      "target": "Resources/CS Theory & Algorithms/Regular Expressions — Theory and Practice"
+    },
+    {
+      "source": "Resources/Programming Languages/DSL Design",
+      "target": "Resources/DevOps & Infrastructure/Terraform Basics"
+    },
+    {
+      "source": "Resources/Programming Languages/DSL Design",
+      "target": "Resources/Programming Languages/Language Design Tradeoffs"
+    },
+    {
+      "source": "Resources/Programming Languages/DSL Design",
+      "target": "Resources/Programming Languages/Metaprogramming and Code Generation"
     },
     {
       "source": "Resources/Programming Languages/Functional Programming Concepts",
-      "target": "Monads (Accessible Explanation)"
+      "target": "Resources/Programming Languages/Immutability and Pure Functions"
     },
     {
       "source": "Resources/Programming Languages/Functional Programming Concepts",
@@ -9414,15 +9538,35 @@
     },
     {
       "source": "Resources/Programming Languages/Functional Programming Concepts",
+      "target": "Resources/Programming Languages/Monads (Accessible Explanation)"
+    },
+    {
+      "source": "Resources/Programming Languages/Functional Programming Concepts",
       "target": "Resources/Programming Languages/Rust — Traits and Generics"
     },
     {
-      "source": "Resources/Programming Languages/Go — Goroutines and Channels",
-      "target": "Concurrency Primitives (Mutex, Semaphore, Condition Variable)"
+      "source": "Resources/Programming Languages/Garbage Collection Algorithms (Mark-Sweep, Generational)",
+      "target": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems"
+    },
+    {
+      "source": "Resources/Programming Languages/Garbage Collection Algorithms (Mark-Sweep, Generational)",
+      "target": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)"
+    },
+    {
+      "source": "Resources/Programming Languages/Garbage Collection Algorithms (Mark-Sweep, Generational)",
+      "target": "Resources/Programming Languages/Java — Garbage Collection"
+    },
+    {
+      "source": "Resources/Programming Languages/Garbage Collection Algorithms (Mark-Sweep, Generational)",
+      "target": "Resources/Programming Languages/Python — Memory Management and gc"
     },
     {
       "source": "Resources/Programming Languages/Go — Goroutines and Channels",
       "target": "Resources/Message Queues"
+    },
+    {
+      "source": "Resources/Programming Languages/Go — Goroutines and Channels",
+      "target": "Resources/Programming Languages/Concurrency Primitives (Mutex, Semaphore, Condition Variable)"
     },
     {
       "source": "Resources/Programming Languages/Go — Goroutines and Channels",
@@ -9434,11 +9578,11 @@
     },
     {
       "source": "Resources/Programming Languages/Go — Interface System",
-      "target": "Language Design Tradeoffs"
+      "target": "Resources/Programming Languages/Go — Goroutines and Channels"
     },
     {
       "source": "Resources/Programming Languages/Go — Interface System",
-      "target": "Resources/Programming Languages/Go — Goroutines and Channels"
+      "target": "Resources/Programming Languages/Language Design Tradeoffs"
     },
     {
       "source": "Resources/Programming Languages/Go — Interface System",
@@ -9449,12 +9593,44 @@
       "target": "Resources/Software Engineering/SOLID Principles"
     },
     {
-      "source": "Resources/Programming Languages/Java — Garbage Collection",
-      "target": "Garbage Collection Algorithms (Mark-Sweep, Generational)"
+      "source": "Resources/Programming Languages/Immutability and Pure Functions",
+      "target": "React — State Management (Zustand, Redux, Context API)"
+    },
+    {
+      "source": "Resources/Programming Languages/Immutability and Pure Functions",
+      "target": "Resources/Programming Languages/Concurrency Primitives (Mutex, Semaphore, Condition Variable)"
+    },
+    {
+      "source": "Resources/Programming Languages/Immutability and Pure Functions",
+      "target": "Resources/Programming Languages/Functional Programming Concepts"
+    },
+    {
+      "source": "Resources/Programming Languages/Immutability and Pure Functions",
+      "target": "Resources/Programming Languages/Monads (Accessible Explanation)"
+    },
+    {
+      "source": "Resources/Programming Languages/JIT Compilation",
+      "target": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)"
+    },
+    {
+      "source": "Resources/Programming Languages/JIT Compilation",
+      "target": "Resources/Programming Languages/Compiled vs Interpreted vs JIT Languages"
+    },
+    {
+      "source": "Resources/Programming Languages/JIT Compilation",
+      "target": "Resources/Programming Languages/Java — JVM Internals"
+    },
+    {
+      "source": "Resources/Programming Languages/JIT Compilation",
+      "target": "Resources/Programming Languages/JavaScript — The Event Loop"
     },
     {
       "source": "Resources/Programming Languages/Java — Garbage Collection",
       "target": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)"
+    },
+    {
+      "source": "Resources/Programming Languages/Java — Garbage Collection",
+      "target": "Resources/Programming Languages/Garbage Collection Algorithms (Mark-Sweep, Generational)"
     },
     {
       "source": "Resources/Programming Languages/Java — Garbage Collection",
@@ -9466,19 +9642,19 @@
     },
     {
       "source": "Resources/Programming Languages/Java — JVM Internals",
-      "target": "Compiled vs Interpreted vs JIT Languages"
+      "target": "Resources/Programming Languages/Compiled vs Interpreted vs JIT Languages"
     },
     {
       "source": "Resources/Programming Languages/Java — JVM Internals",
-      "target": "JIT Compilation"
-    },
-    {
-      "source": "Resources/Programming Languages/Java — JVM Internals",
-      "target": "Memory Models and Happens-Before Ordering"
+      "target": "Resources/Programming Languages/JIT Compilation"
     },
     {
       "source": "Resources/Programming Languages/Java — JVM Internals",
       "target": "Resources/Programming Languages/Java — Garbage Collection"
+    },
+    {
+      "source": "Resources/Programming Languages/Java — JVM Internals",
+      "target": "Resources/Programming Languages/Memory Models and Happens-Before Ordering"
     },
     {
       "source": "Resources/Programming Languages/JavaScript — Closures",
@@ -9545,8 +9721,72 @@
       "target": "Web Performance Optimization"
     },
     {
+      "source": "Resources/Programming Languages/Language Design Tradeoffs",
+      "target": "Resources/Programming Languages/Compiled vs Interpreted vs JIT Languages"
+    },
+    {
+      "source": "Resources/Programming Languages/Language Design Tradeoffs",
+      "target": "Resources/Programming Languages/Go — Interface System"
+    },
+    {
+      "source": "Resources/Programming Languages/Language Design Tradeoffs",
+      "target": "Resources/Programming Languages/Rust — Ownership and Borrowing"
+    },
+    {
+      "source": "Resources/Programming Languages/Language Design Tradeoffs",
+      "target": "Resources/Programming Languages/TypeScript — Type System Deep Dive"
+    },
+    {
+      "source": "Resources/Programming Languages/Memory Models and Happens-Before Ordering",
+      "target": "Resources/Programming Languages/C — Memory Management and Pointers"
+    },
+    {
+      "source": "Resources/Programming Languages/Memory Models and Happens-Before Ordering",
+      "target": "Resources/Programming Languages/Concurrency Primitives (Mutex, Semaphore, Condition Variable)"
+    },
+    {
+      "source": "Resources/Programming Languages/Memory Models and Happens-Before Ordering",
+      "target": "Resources/Programming Languages/Go — Goroutines and Channels"
+    },
+    {
+      "source": "Resources/Programming Languages/Memory Models and Happens-Before Ordering",
+      "target": "Resources/Programming Languages/Java — JVM Internals"
+    },
+    {
+      "source": "Resources/Programming Languages/Metaprogramming and Code Generation",
+      "target": "Resources/Programming Languages/Python — Decorators Deep Dive"
+    },
+    {
+      "source": "Resources/Programming Languages/Metaprogramming and Code Generation",
+      "target": "Resources/Programming Languages/Python — Metaclasses"
+    },
+    {
+      "source": "Resources/Programming Languages/Metaprogramming and Code Generation",
+      "target": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers"
+    },
+    {
+      "source": "Resources/Programming Languages/Metaprogramming and Code Generation",
+      "target": "Resources/Software Engineering/OpenAPI and API Documentation"
+    },
+    {
+      "source": "Resources/Programming Languages/Monads (Accessible Explanation)",
+      "target": "Resources/Programming Languages/Functional Programming Concepts"
+    },
+    {
+      "source": "Resources/Programming Languages/Monads (Accessible Explanation)",
+      "target": "Resources/Programming Languages/Immutability and Pure Functions"
+    },
+    {
+      "source": "Resources/Programming Languages/Monads (Accessible Explanation)",
+      "target": "Resources/Programming Languages/JavaScript — Promises and Async-Await"
+    },
+    {
+      "source": "Resources/Programming Languages/Monads (Accessible Explanation)",
+      "target": "Resources/Programming Languages/Rust — Ownership and Borrowing"
+    },
+    {
       "source": "Resources/Programming Languages/Python — Async-Await and asyncio",
-      "target": "Concurrency Primitives (Mutex, Semaphore, Condition Variable)"
+      "target": "Resources/Programming Languages/Concurrency Primitives (Mutex, Semaphore, Condition Variable)"
     },
     {
       "source": "Resources/Programming Languages/Python — Async-Await and asyncio",
@@ -9562,11 +9802,11 @@
     },
     {
       "source": "Resources/Programming Languages/Python — Context Managers",
-      "target": "Concurrency Primitives (Mutex, Semaphore, Condition Variable)"
+      "target": "Resources/DevOps & Infrastructure/Database Migrations Best Practices"
     },
     {
       "source": "Resources/Programming Languages/Python — Context Managers",
-      "target": "Resources/DevOps & Infrastructure/Database Migrations Best Practices"
+      "target": "Resources/Programming Languages/Concurrency Primitives (Mutex, Semaphore, Condition Variable)"
     },
     {
       "source": "Resources/Programming Languages/Python — Context Managers",
@@ -9594,11 +9834,11 @@
     },
     {
       "source": "Resources/Programming Languages/Python — GIL and Concurrency",
-      "target": "Concurrency Primitives (Mutex, Semaphore, Condition Variable)"
+      "target": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)"
     },
     {
       "source": "Resources/Programming Languages/Python — GIL and Concurrency",
-      "target": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)"
+      "target": "Resources/Programming Languages/Concurrency Primitives (Mutex, Semaphore, Condition Variable)"
     },
     {
       "source": "Resources/Programming Languages/Python — GIL and Concurrency",
@@ -9626,11 +9866,11 @@
     },
     {
       "source": "Resources/Programming Languages/Python — Internals and CPython",
-      "target": "Compiled vs Interpreted vs JIT Languages"
+      "target": "Resources/Programming Languages"
     },
     {
       "source": "Resources/Programming Languages/Python — Internals and CPython",
-      "target": "Resources/Programming Languages"
+      "target": "Resources/Programming Languages/Compiled vs Interpreted vs JIT Languages"
     },
     {
       "source": "Resources/Programming Languages/Python — Internals and CPython",
@@ -9658,11 +9898,11 @@
     },
     {
       "source": "Resources/Programming Languages/Python — Metaclasses",
-      "target": "DSL Design"
+      "target": "Resources/Programming Languages/DSL Design"
     },
     {
       "source": "Resources/Programming Languages/Python — Metaclasses",
-      "target": "Metaprogramming and Code Generation"
+      "target": "Resources/Programming Languages/Metaprogramming and Code Generation"
     },
     {
       "source": "Resources/Programming Languages/Python — Metaclasses",
@@ -9690,11 +9930,11 @@
     },
     {
       "source": "Resources/Programming Languages/Rust — Lifetimes",
-      "target": "Memory Models and Happens-Before Ordering"
+      "target": "Resources/Programming Languages/C — Memory Management and Pointers"
     },
     {
       "source": "Resources/Programming Languages/Rust — Lifetimes",
-      "target": "Resources/Programming Languages/C — Memory Management and Pointers"
+      "target": "Resources/Programming Languages/Memory Models and Happens-Before Ordering"
     },
     {
       "source": "Resources/Programming Languages/Rust — Lifetimes",
@@ -9722,11 +9962,11 @@
     },
     {
       "source": "Resources/Programming Languages/Rust — Traits and Generics",
-      "target": "Language Design Tradeoffs"
+      "target": "Resources/Programming Languages/Functional Programming Concepts"
     },
     {
       "source": "Resources/Programming Languages/Rust — Traits and Generics",
-      "target": "Resources/Programming Languages/Functional Programming Concepts"
+      "target": "Resources/Programming Languages/Language Design Tradeoffs"
     },
     {
       "source": "Resources/Programming Languages/Rust — Traits and Generics",
@@ -9783,6 +10023,22 @@
     {
       "source": "Resources/Programming Languages/TypeScript — Utility Types (Partial, Pick, Omit, etc.)",
       "target": "Resources/Software Engineering/Static Analysis Tools"
+    },
+    {
+      "source": "Resources/Programming Languages/WebAssembly (WASM) Basics",
+      "target": "Browser Security Model (Same-Origin Policy)"
+    },
+    {
+      "source": "Resources/Programming Languages/WebAssembly (WASM) Basics",
+      "target": "Resources/Programming Languages/Compiled vs Interpreted vs JIT Languages"
+    },
+    {
+      "source": "Resources/Programming Languages/WebAssembly (WASM) Basics",
+      "target": "Resources/Programming Languages/Rust — Ownership and Borrowing"
+    },
+    {
+      "source": "Resources/Programming Languages/WebAssembly (WASM) Basics",
+      "target": "WebGL Basics"
     },
     {
       "source": "Resources/RAG and Bobby Vector Search",
@@ -12329,5 +12585,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-26T00:45:24Z"
+  "generated_at": "2026-05-26T07:23:16Z"
 }
