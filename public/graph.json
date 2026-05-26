@@ -10,15 +10,6 @@
       "degree": 3
     },
     {
-      "id": "API Key Management",
-      "label": "API Key Management",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Areas/Dev Setup",
       "label": "Dev Setup",
       "folder": "Areas",
@@ -72,15 +63,6 @@
       "degree": 3
     },
     {
-      "id": "Bash Scripting",
-      "label": "Bash Scripting",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
-    },
-    {
       "id": "Bayes' Theorem",
       "label": "Bayes' Theorem",
       "folder": null,
@@ -88,15 +70,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 1
-    },
-    {
-      "id": "Blue-Green vs Canary vs Rolling Deployments",
-      "label": "Blue-Green vs Canary vs Rolling Deployments",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 3
     },
     {
       "id": "Bobby's Personality and Tone Guide",
@@ -226,8 +199,8 @@
       "degree": 0
     },
     {
-      "id": "Defense in Depth",
-      "label": "Defense in Depth",
+      "id": "Data Privacy Regulations (GDPR, CCPA)",
+      "label": "Data Privacy Regulations (GDPR, CCPA)",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -242,15 +215,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 1
-    },
-    {
-      "id": "GitOps Principles",
-      "label": "GitOps Principles",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
     },
     {
       "id": "How to Update Beliefs Gracefully (Bayesian Updating)",
@@ -278,15 +242,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 1
-    },
-    {
-      "id": "Kubernetes YAML — Deployment, Service, Ingress",
-      "label": "Kubernetes YAML — Deployment, Service, Ingress",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
     },
     {
       "id": "Maps/Bobby",
@@ -375,7 +330,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "Probability Distributions (Normal, Binomial, Poisson, Exponential)",
@@ -1776,7 +1731,7 @@
         "internals",
         "system-design"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Databases",
@@ -1790,7 +1745,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 20
+      "degree": 21
     },
     {
       "id": "Resources/DevOps & Infrastructure/AWS Core Services (EC2, S3, Lambda, RDS, VPC)",
@@ -1814,7 +1769,31 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 6
+      "degree": 7
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "label": "Bash Scripting",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Bash scripting automates command-line workflows by composing programs, variables, conditionals, loops, functions, and exit codes. Good scripts are boring, explicit, quoted carefully, and written with failure behavior in mind.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/Blue-Green vs Canary vs Rolling Deployments",
+      "label": "Blue-Green vs Canary vs Rolling Deployments",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Blue-green, canary, and rolling deployments are rollout strategies for reducing release risk. They differ in infrastructure cost, speed, rollback behavior, traffic control, and how quickly user impact is detected.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 7
     },
     {
       "id": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design",
@@ -1826,7 +1805,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Resources/DevOps & Infrastructure/Cloud Providers Overview (AWS, GCP, Azure)",
@@ -1853,6 +1832,18 @@
       "degree": 5
     },
     {
+      "id": "Resources/DevOps & Infrastructure/Cron Jobs and Task Scheduling",
+      "label": "Cron Jobs and Task Scheduling",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Cron jobs and task schedulers run recurring work such as reports, cleanup, backups, imports, and maintenance. Reliable scheduling requires idempotency, locking, observability, retries, time-zone care, and clear ownership.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 5
+    },
+    {
       "id": "Resources/DevOps & Infrastructure/Database Migrations Best Practices",
       "label": "Database Migrations Best Practices",
       "folder": "Resources",
@@ -1862,7 +1853,19 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 6
+      "degree": 7
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/Disk I-O Optimization",
+      "label": "Disk I-O Optimization",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Disk I/O optimization reduces latency and throughput bottlenecks in reads, writes, fsyncs, logs, databases, and storage systems. It requires understanding access patterns, caching, batching, indexes, queues, and storage-device limits.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/DevOps & Infrastructure/Error Budgets",
@@ -1874,7 +1877,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/DevOps & Infrastructure/GitHub Actions Deep Dive",
@@ -1882,6 +1885,18 @@
       "folder": "Resources",
       "created": "2026-05-25",
       "excerpt": "GitHub Actions is a workflow automation platform built around events, jobs, steps, runners, actions, secrets, and permissions. Using it well means controlling triggers, caches, credentials, artifacts, and least-privilege access.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/GitOps Principles",
+      "label": "GitOps Principles",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "GitOps manages infrastructure and application delivery by storing desired state in Git and reconciling runtime systems to match it. It improves auditability, review, rollback, and drift detection when repository boundaries and permissions are designed well.",
       "tags": [
         "resource",
         "devops-infrastructure"
@@ -1898,7 +1913,19 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 8
+      "degree": 9
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/Kubernetes YAML — Deployment, Service, Ingress",
+      "label": "Kubernetes YAML — Deployment, Service, Ingress",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Kubernetes YAML defines desired state for workloads, networking, and routing through objects such as Deployments, Services, and Ingresses. Reading these manifests means understanding selectors, pods, replicas, ports, health checks, and controller behavior.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 7
     },
     {
       "id": "Resources/DevOps & Infrastructure/Lambda Functions and FaaS",
@@ -1922,7 +1949,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 4
+      "degree": 8
     },
     {
       "id": "Resources/DevOps & Infrastructure/Log Aggregation (ELK Stack, Loki)",
@@ -1937,6 +1964,18 @@
       "degree": 6
     },
     {
+      "id": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems",
+      "label": "Memory Management in Operating Systems",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Operating-system memory management gives processes isolated virtual address spaces backed by physical memory, page tables, caches, and swap. Understanding pages, page faults, OOM behavior, and memory pressure helps debug production systems.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 4
+    },
+    {
       "id": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)",
       "label": "Observability — Logs, Metrics, Traces (The Three Pillars)",
       "folder": "Resources",
@@ -1946,7 +1985,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 14
+      "degree": 16
     },
     {
       "id": "Resources/DevOps & Infrastructure/On-Call Culture and Incident Response",
@@ -1958,7 +1997,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/DevOps & Infrastructure/OpenTelemetry",
@@ -1971,6 +2010,18 @@
         "devops-infrastructure"
       ],
       "degree": 7
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)",
+      "label": "Performance Profiling (CPU, Memory, I-O)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Performance profiling identifies where CPU, memory, I/O, network, or lock contention is limiting a system. Good profiling starts from symptoms and measurements before optimizing code or infrastructure.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/DevOps & Infrastructure/Postmortem Writing",
@@ -2006,7 +2057,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/DevOps & Infrastructure/Runbooks and Playbooks",
@@ -2018,7 +2069,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 7
+      "degree": 10
     },
     {
       "id": "Resources/DevOps & Infrastructure/SLIs, SLOs, and SLAs",
@@ -2042,7 +2093,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)",
@@ -2054,7 +2105,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 10
+      "degree": 14
     },
     {
       "id": "Resources/DevOps & Infrastructure/Serverless Architecture",
@@ -2090,7 +2141,19 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 5
+      "degree": 6
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/systemd — Service and Process Management",
+      "label": "systemd — Service and Process Management",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "systemd manages Linux services, process supervision, dependencies, logs, timers, and boot-time units. Understanding unit files, service lifecycle, journald, and restart behavior is essential for operating Linux servers.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 7
     },
     {
       "id": "Resources/Distributed Systems",
@@ -2386,7 +2449,7 @@
         "study",
         "systems"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Observability",
@@ -2567,6 +2630,198 @@
       "degree": 11
     },
     {
+      "id": "Resources/Security & Privacy/API Key Management",
+      "label": "API Key Management",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "API key management controls how keys are created, scoped, stored, rotated, monitored, and revoked. Good key design limits blast radius with least privilege, environment separation, usage limits, and leak detection.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Security & Privacy/Authentication vs Authorization",
+      "label": "Authentication vs Authorization",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Authentication verifies who a user or service is, while authorization decides what that identity can do. Confusing the two leads to systems that know the user but still expose the wrong data or actions.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 11
+    },
+    {
+      "id": "Resources/Security & Privacy/CSRF — Prevention",
+      "label": "CSRF — Prevention",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Cross-Site Request Forgery tricks a browser into sending authenticated state-changing requests from another site. Prevention uses SameSite cookies, CSRF tokens, origin checks, and avoiding unsafe state changes on GET.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Security & Privacy/Clickjacking Prevention",
+      "label": "Clickjacking Prevention",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Clickjacking tricks users into interacting with a hidden or disguised page embedded in another site. Prevention uses frame restrictions such as CSP frame-ancestors and X-Frame-Options, plus UI design for sensitive actions.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Security & Privacy/Cross-Site Scripting (XSS) — Prevention",
+      "label": "Cross-Site Scripting (XSS) — Prevention",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Cross-site scripting happens when attacker-controlled content runs as JavaScript in another user's browser. Prevention relies on contextual output encoding, sanitization for allowed HTML, safe frameworks, CSP, and avoiding dangerous DOM APIs.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Security & Privacy/Defense in Depth",
+      "label": "Defense in Depth",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Defense in depth layers independent controls so one failure does not become total compromise. It combines preventive, detective, and responsive controls across code, identity, network, data, infrastructure, and operations.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Security & Privacy/JWT — Structure, Signing, and Security",
+      "label": "JWT — Structure, Signing, and Security",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "JWTs are signed JSON tokens made of header, payload, and signature sections. They are useful for portable claims, but security depends on validation, key management, expiration, audience checks, and avoiding sensitive payload data.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Security & Privacy/OAuth 2.0 Flow",
+      "label": "OAuth 2.0 Flow",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "OAuth 2.0 is an authorization framework for delegated access, letting clients access resources with tokens instead of user passwords. The most common secure web flow is Authorization Code with PKCE.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Security & Privacy/OWASP Top 10",
+      "label": "OWASP Top 10",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "The OWASP Top 10 is a widely used awareness document for the most critical web application security risks, with OWASP listing the 2025 release as the current version. It is a starting point for secure engineering, not a complete security program.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Security & Privacy/OpenID Connect (OIDC)",
+      "label": "OpenID Connect (OIDC)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "OpenID Connect adds an identity layer on top of OAuth 2.0 so applications can authenticate users. It introduces ID tokens, standard user claims, discovery metadata, and login-oriented flows.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Security & Privacy/Password Hashing (bcrypt, Argon2, scrypt)",
+      "label": "Password Hashing (bcrypt, Argon2, scrypt)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Password hashing protects stored passwords by using slow, salted, one-way functions such as bcrypt, Argon2, or scrypt. The goal is to make offline cracking expensive even if the password database leaks.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Security & Privacy/Penetration Testing Overview",
+      "label": "Penetration Testing Overview",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Penetration testing is an authorized attempt to find exploitable security weaknesses in systems, applications, networks, or processes. Its value depends on scope, rules of engagement, realistic attack paths, evidence, and actionable remediation.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Security & Privacy/SQL Injection — Prevention",
+      "label": "SQL Injection — Prevention",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "SQL injection occurs when untrusted input becomes executable SQL. Prevention depends on parameterized queries, safe query builders, least-privilege database accounts, validation, and avoiding string-built SQL.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)",
+      "label": "Security Headers (CSP, HSTS, X-Frame-Options)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Security headers tell browsers to enforce protections around scripts, transport security, framing, content sniffing, referrers, and permissions. They are low-cost defense-in-depth controls, but they must be configured deliberately and tested.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 12
+    },
+    {
+      "id": "Resources/Security & Privacy/Session Management",
+      "label": "Session Management",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Session management keeps users authenticated across requests while controlling token lifetime, storage, renewal, invalidation, and theft risk. Secure sessions depend on cookie flags, rotation, expiration, CSRF defenses, and server-side authorization checks.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 10
+    },
+    {
+      "id": "Resources/Security & Privacy/Zero-Trust Architecture",
+      "label": "Zero-Trust Architecture",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Zero-trust architecture assumes network location alone should not grant trust. Every request should be authenticated, authorized, encrypted, monitored, and limited according to identity, device, context, and policy.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 9
+    },
+    {
       "id": "Resources/Security Deep Dive",
       "label": "Security Deep Dive",
       "folder": "Resources",
@@ -2579,7 +2834,7 @@
         "engineering",
         "interview-prep"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Software Architecture",
@@ -2821,7 +3076,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Software Engineering/Conventional Commits",
@@ -2893,7 +3148,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Software Engineering/Domain-Driven Design (DDD)",
@@ -2941,7 +3196,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Software Engineering/Git Flow vs Trunk-Based",
@@ -2989,7 +3244,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/Software Engineering/Load Testing and Performance Testing",
@@ -3001,7 +3256,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Software Engineering/Microservices Architecture",
@@ -3306,7 +3561,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Resources/System Design/Circuit Breaker Pattern",
@@ -3666,7 +3921,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/System Design/Real-Time Systems Design",
@@ -3803,7 +4058,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "Security Auditing",
@@ -3812,16 +4067,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 4
-    },
-    {
-      "id": "Security Headers (CSP, HSTS, X-Frame-Options)",
-      "label": "Security Headers (CSP, HSTS, X-Frame-Options)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 3
+      "degree": 7
     },
     {
       "id": "Supply Chain Security",
@@ -3831,6 +4077,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 3
+    },
+    {
+      "id": "Threat Modeling (STRIDE)",
+      "label": "Threat Modeling (STRIDE)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "User Stories and Jobs to Be Done",
@@ -3851,8 +4106,8 @@
       "degree": 5
     },
     {
-      "id": "Writing Good Documentation",
-      "label": "Writing Good Documentation",
+      "id": "Vulnerability Disclosure and Bug Bounty Programs",
+      "label": "Vulnerability Disclosure and Bug Bounty Programs",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -3860,22 +4115,13 @@
       "degree": 1
     },
     {
-      "id": "Zero-Trust Architecture",
-      "label": "Zero-Trust Architecture",
+      "id": "Writing Good Documentation",
+      "label": "Writing Good Documentation",
       "folder": null,
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 3
-    },
-    {
-      "id": "systemd — Service and Process Management",
-      "label": "systemd — Service and Process Management",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
+      "degree": 1
     },
     {
       "id": "wikilink",
@@ -5966,19 +6212,51 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Ansible Basics",
-      "target": "systemd — Service and Process Management"
+      "target": "Resources/DevOps & Infrastructure/systemd — Service and Process Management"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "Resources/DevOps & Infrastructure/Cron Jobs and Task Scheduling"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "Resources/DevOps & Infrastructure/Linux Command Line Essentials"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "Resources/DevOps & Infrastructure/Runbooks and Playbooks"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Blue-Green vs Canary vs Rolling Deployments",
+      "target": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Blue-Green vs Canary vs Rolling Deployments",
+      "target": "Resources/DevOps & Infrastructure/Database Migrations Best Practices"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Blue-Green vs Canary vs Rolling Deployments",
+      "target": "Resources/DevOps & Infrastructure/Error Budgets"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Blue-Green vs Canary vs Rolling Deployments",
+      "target": "Resources/Software Engineering/Feature Flags and Progressive Rollout"
     },
     {
       "source": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design",
-      "target": "Blue-Green vs Canary vs Rolling Deployments"
-    },
-    {
-      "source": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design",
-      "target": "GitOps Principles"
+      "target": "Resources/DevOps & Infrastructure/Blue-Green vs Canary vs Rolling Deployments"
     },
     {
       "source": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design",
       "target": "Resources/DevOps & Infrastructure/GitHub Actions Deep Dive"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design",
+      "target": "Resources/DevOps & Infrastructure/GitOps Principles"
     },
     {
       "source": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design",
@@ -6010,11 +6288,27 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Cloudflare Services Overview",
-      "target": "Resources/System Design/CDN Architecture"
+      "target": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Cloudflare Services Overview",
-      "target": "Security Headers (CSP, HSTS, X-Frame-Options)"
+      "target": "Resources/System Design/CDN Architecture"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Cron Jobs and Task Scheduling",
+      "target": "Resources/DevOps & Infrastructure/Bash Scripting"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Cron Jobs and Task Scheduling",
+      "target": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Cron Jobs and Task Scheduling",
+      "target": "Resources/DevOps & Infrastructure/Runbooks and Playbooks"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Cron Jobs and Task Scheduling",
+      "target": "Resources/DevOps & Infrastructure/systemd — Service and Process Management"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Database Migrations Best Practices",
@@ -6033,8 +6327,24 @@
       "target": "Resources/Software Engineering/Backward Compatibility Strategies"
     },
     {
+      "source": "Resources/DevOps & Infrastructure/Disk I-O Optimization",
+      "target": "Resources/Database Internals Deep Dive"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Disk I-O Optimization",
+      "target": "Resources/DevOps & Infrastructure/Linux Command Line Essentials"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Disk I-O Optimization",
+      "target": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Disk I-O Optimization",
+      "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
+    },
+    {
       "source": "Resources/DevOps & Infrastructure/Error Budgets",
-      "target": "Blue-Green vs Canary vs Rolling Deployments"
+      "target": "Resources/DevOps & Infrastructure/Blue-Green vs Canary vs Rolling Deployments"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Error Budgets",
@@ -6065,12 +6375,28 @@
       "target": "Supply Chain Security"
     },
     {
-      "source": "Resources/DevOps & Infrastructure/Infrastructure as Code (IaC)",
-      "target": "GitOps Principles"
+      "source": "Resources/DevOps & Infrastructure/GitOps Principles",
+      "target": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/GitOps Principles",
+      "target": "Resources/DevOps & Infrastructure/Infrastructure as Code (IaC)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/GitOps Principles",
+      "target": "Resources/DevOps & Infrastructure/Kubernetes YAML — Deployment, Service, Ingress"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/GitOps Principles",
+      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Infrastructure as Code (IaC)",
       "target": "Resources/DevOps & Infrastructure/Cloud Providers Overview (AWS, GCP, Azure)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Infrastructure as Code (IaC)",
+      "target": "Resources/DevOps & Infrastructure/GitOps Principles"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Infrastructure as Code (IaC)",
@@ -6079,6 +6405,22 @@
     {
       "source": "Resources/DevOps & Infrastructure/Infrastructure as Code (IaC)",
       "target": "Resources/DevOps & Infrastructure/Terraform Basics"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Kubernetes YAML — Deployment, Service, Ingress",
+      "target": "Resources/DevOps & Infrastructure/GitOps Principles"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Kubernetes YAML — Deployment, Service, Ingress",
+      "target": "Resources/DevOps & Infrastructure/Reverse Proxies (Nginx, Caddy, Traefik)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Kubernetes YAML — Deployment, Service, Ingress",
+      "target": "Resources/Software Engineering/Container Networking"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Kubernetes YAML — Deployment, Service, Ingress",
+      "target": "Resources/Software Engineering/Kubernetes Basics"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Lambda Functions and FaaS",
@@ -6098,19 +6440,19 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Linux Command Line Essentials",
-      "target": "Bash Scripting"
-    },
-    {
-      "source": "Resources/DevOps & Infrastructure/Linux Command Line Essentials",
       "target": "Performance Profiling (CPU, Memory, I/O)"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Linux Command Line Essentials",
-      "target": "Resources/WSL2 Setup"
+      "target": "Resources/DevOps & Infrastructure/Bash Scripting"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Linux Command Line Essentials",
-      "target": "systemd — Service and Process Management"
+      "target": "Resources/DevOps & Infrastructure/systemd — Service and Process Management"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Linux Command Line Essentials",
+      "target": "Resources/WSL2 Setup"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Log Aggregation (ELK Stack, Loki)",
@@ -6127,6 +6469,22 @@
     {
       "source": "Resources/DevOps & Infrastructure/Log Aggregation (ELK Stack, Loki)",
       "target": "Security Auditing"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems",
+      "target": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems",
+      "target": "Resources/OS Fundamentals"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems",
+      "target": "Resources/Software Engineering/Docker Deep Dive"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems",
+      "target": "Resources/Software Engineering/Kubernetes Basics"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)",
@@ -6177,6 +6535,22 @@
       "target": "Resources/Distributed Systems"
     },
     {
+      "source": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)",
+      "target": "Resources/Database Internals Deep Dive"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)",
+      "target": "Resources/DevOps & Infrastructure/Linux Command Line Essentials"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)",
+      "target": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)",
+      "target": "Resources/Software Engineering/Load Testing and Performance Testing"
+    },
+    {
       "source": "Resources/DevOps & Infrastructure/Postmortem Writing",
       "target": "Resources/DevOps & Infrastructure/Error Budgets"
     },
@@ -6210,19 +6584,19 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Reverse Proxies (Nginx, Caddy, Traefik)",
-      "target": "Kubernetes YAML — Deployment, Service, Ingress"
-    },
-    {
-      "source": "Resources/DevOps & Infrastructure/Reverse Proxies (Nginx, Caddy, Traefik)",
       "target": "Resources/DevOps & Infrastructure/Cloudflare Services Overview"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Reverse Proxies (Nginx, Caddy, Traefik)",
-      "target": "Resources/System Design/Load Balancing Strategies"
+      "target": "Resources/DevOps & Infrastructure/Kubernetes YAML — Deployment, Service, Ingress"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Reverse Proxies (Nginx, Caddy, Traefik)",
-      "target": "Security Headers (CSP, HSTS, X-Frame-Options)"
+      "target": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Reverse Proxies (Nginx, Caddy, Traefik)",
+      "target": "Resources/System Design/Load Balancing Strategies"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Runbooks and Playbooks",
@@ -6266,15 +6640,11 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/SSH Best Practices",
-      "target": "Security Auditing"
+      "target": "Resources/Security & Privacy/Zero-Trust Architecture"
     },
     {
       "source": "Resources/DevOps & Infrastructure/SSH Best Practices",
-      "target": "Zero-Trust Architecture"
-    },
-    {
-      "source": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)",
-      "target": "API Key Management"
+      "target": "Security Auditing"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)",
@@ -6283,6 +6653,10 @@
     {
       "source": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)",
       "target": "Resources/DevOps & Infrastructure/GitHub Actions Deep Dive"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)",
+      "target": "Resources/Security & Privacy/API Key Management"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)",
@@ -6322,10 +6696,6 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/VPN Architecture",
-      "target": "Defense in Depth"
-    },
-    {
-      "source": "Resources/DevOps & Infrastructure/VPN Architecture",
       "target": "Resources/Cloud Networking"
     },
     {
@@ -6334,7 +6704,27 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/VPN Architecture",
-      "target": "Zero-Trust Architecture"
+      "target": "Resources/Security & Privacy/Defense in Depth"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/VPN Architecture",
+      "target": "Resources/Security & Privacy/Zero-Trust Architecture"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/systemd — Service and Process Management",
+      "target": "Performance Profiling (CPU, Memory, I/O)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/systemd — Service and Process Management",
+      "target": "Resources/DevOps & Infrastructure/Ansible Basics"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/systemd — Service and Process Management",
+      "target": "Resources/DevOps & Infrastructure/Linux Command Line Essentials"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/systemd — Service and Process Management",
+      "target": "Resources/DevOps & Infrastructure/Runbooks and Playbooks"
     },
     {
       "source": "Resources/Distributed Systems",
@@ -6873,6 +7263,262 @@
       "target": "Resources/Observability"
     },
     {
+      "source": "Resources/Security & Privacy/API Key Management",
+      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
+    },
+    {
+      "source": "Resources/Security & Privacy/API Key Management",
+      "target": "Resources/Security & Privacy/OAuth 2.0 Flow"
+    },
+    {
+      "source": "Resources/Security & Privacy/API Key Management",
+      "target": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)"
+    },
+    {
+      "source": "Resources/Security & Privacy/API Key Management",
+      "target": "Secrets Scanning (GitGuardian, truffleHog)"
+    },
+    {
+      "source": "Resources/Security & Privacy/Authentication vs Authorization",
+      "target": "Resources/Security & Privacy/JWT — Structure, Signing, and Security"
+    },
+    {
+      "source": "Resources/Security & Privacy/Authentication vs Authorization",
+      "target": "Resources/Security & Privacy/OAuth 2.0 Flow"
+    },
+    {
+      "source": "Resources/Security & Privacy/Authentication vs Authorization",
+      "target": "Resources/Security & Privacy/OpenID Connect (OIDC)"
+    },
+    {
+      "source": "Resources/Security & Privacy/Authentication vs Authorization",
+      "target": "Resources/Security & Privacy/Zero-Trust Architecture"
+    },
+    {
+      "source": "Resources/Security & Privacy/CSRF — Prevention",
+      "target": "Resources/Security & Privacy/Authentication vs Authorization"
+    },
+    {
+      "source": "Resources/Security & Privacy/CSRF — Prevention",
+      "target": "Resources/Security & Privacy/Cross-Site Scripting (XSS) — Prevention"
+    },
+    {
+      "source": "Resources/Security & Privacy/CSRF — Prevention",
+      "target": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)"
+    },
+    {
+      "source": "Resources/Security & Privacy/CSRF — Prevention",
+      "target": "Resources/Security & Privacy/Session Management"
+    },
+    {
+      "source": "Resources/Security & Privacy/Clickjacking Prevention",
+      "target": "Resources/Security & Privacy/CSRF — Prevention"
+    },
+    {
+      "source": "Resources/Security & Privacy/Clickjacking Prevention",
+      "target": "Resources/Security & Privacy/Defense in Depth"
+    },
+    {
+      "source": "Resources/Security & Privacy/Clickjacking Prevention",
+      "target": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)"
+    },
+    {
+      "source": "Resources/Security & Privacy/Clickjacking Prevention",
+      "target": "Resources/Security & Privacy/Session Management"
+    },
+    {
+      "source": "Resources/Security & Privacy/Cross-Site Scripting (XSS) — Prevention",
+      "target": "Resources/Security & Privacy/CSRF — Prevention"
+    },
+    {
+      "source": "Resources/Security & Privacy/Cross-Site Scripting (XSS) — Prevention",
+      "target": "Resources/Security & Privacy/OWASP Top 10"
+    },
+    {
+      "source": "Resources/Security & Privacy/Cross-Site Scripting (XSS) — Prevention",
+      "target": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)"
+    },
+    {
+      "source": "Resources/Security & Privacy/Cross-Site Scripting (XSS) — Prevention",
+      "target": "Resources/Security & Privacy/Session Management"
+    },
+    {
+      "source": "Resources/Security & Privacy/Defense in Depth",
+      "target": "Resources/DevOps & Infrastructure/On-Call Culture and Incident Response"
+    },
+    {
+      "source": "Resources/Security & Privacy/Defense in Depth",
+      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
+    },
+    {
+      "source": "Resources/Security & Privacy/Defense in Depth",
+      "target": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)"
+    },
+    {
+      "source": "Resources/Security & Privacy/Defense in Depth",
+      "target": "Resources/Security & Privacy/Zero-Trust Architecture"
+    },
+    {
+      "source": "Resources/Security & Privacy/JWT — Structure, Signing, and Security",
+      "target": "Resources/Security & Privacy/API Key Management"
+    },
+    {
+      "source": "Resources/Security & Privacy/JWT — Structure, Signing, and Security",
+      "target": "Resources/Security & Privacy/OAuth 2.0 Flow"
+    },
+    {
+      "source": "Resources/Security & Privacy/JWT — Structure, Signing, and Security",
+      "target": "Resources/Security & Privacy/OpenID Connect (OIDC)"
+    },
+    {
+      "source": "Resources/Security & Privacy/JWT — Structure, Signing, and Security",
+      "target": "Resources/Security & Privacy/Session Management"
+    },
+    {
+      "source": "Resources/Security & Privacy/OAuth 2.0 Flow",
+      "target": "Resources/Security & Privacy/API Key Management"
+    },
+    {
+      "source": "Resources/Security & Privacy/OAuth 2.0 Flow",
+      "target": "Resources/Security & Privacy/Authentication vs Authorization"
+    },
+    {
+      "source": "Resources/Security & Privacy/OAuth 2.0 Flow",
+      "target": "Resources/Security & Privacy/JWT — Structure, Signing, and Security"
+    },
+    {
+      "source": "Resources/Security & Privacy/OAuth 2.0 Flow",
+      "target": "Resources/Security & Privacy/OpenID Connect (OIDC)"
+    },
+    {
+      "source": "Resources/Security & Privacy/OWASP Top 10",
+      "target": "Resources/Security & Privacy/Authentication vs Authorization"
+    },
+    {
+      "source": "Resources/Security & Privacy/OWASP Top 10",
+      "target": "Resources/Security & Privacy/Cross-Site Scripting (XSS) — Prevention"
+    },
+    {
+      "source": "Resources/Security & Privacy/OWASP Top 10",
+      "target": "Resources/Security & Privacy/SQL Injection — Prevention"
+    },
+    {
+      "source": "Resources/Security & Privacy/OWASP Top 10",
+      "target": "Resources/Security Deep Dive"
+    },
+    {
+      "source": "Resources/Security & Privacy/OpenID Connect (OIDC)",
+      "target": "Resources/Security & Privacy/Authentication vs Authorization"
+    },
+    {
+      "source": "Resources/Security & Privacy/OpenID Connect (OIDC)",
+      "target": "Resources/Security & Privacy/JWT — Structure, Signing, and Security"
+    },
+    {
+      "source": "Resources/Security & Privacy/OpenID Connect (OIDC)",
+      "target": "Resources/Security & Privacy/OAuth 2.0 Flow"
+    },
+    {
+      "source": "Resources/Security & Privacy/OpenID Connect (OIDC)",
+      "target": "Resources/Security & Privacy/Session Management"
+    },
+    {
+      "source": "Resources/Security & Privacy/Password Hashing (bcrypt, Argon2, scrypt)",
+      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
+    },
+    {
+      "source": "Resources/Security & Privacy/Password Hashing (bcrypt, Argon2, scrypt)",
+      "target": "Resources/Security & Privacy/Authentication vs Authorization"
+    },
+    {
+      "source": "Resources/Security & Privacy/Password Hashing (bcrypt, Argon2, scrypt)",
+      "target": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)"
+    },
+    {
+      "source": "Resources/Security & Privacy/Password Hashing (bcrypt, Argon2, scrypt)",
+      "target": "Security Auditing"
+    },
+    {
+      "source": "Resources/Security & Privacy/Penetration Testing Overview",
+      "target": "Resources/Security & Privacy/OWASP Top 10"
+    },
+    {
+      "source": "Resources/Security & Privacy/Penetration Testing Overview",
+      "target": "Security Auditing"
+    },
+    {
+      "source": "Resources/Security & Privacy/Penetration Testing Overview",
+      "target": "Threat Modeling (STRIDE)"
+    },
+    {
+      "source": "Resources/Security & Privacy/Penetration Testing Overview",
+      "target": "Vulnerability Disclosure and Bug Bounty Programs"
+    },
+    {
+      "source": "Resources/Security & Privacy/SQL Injection — Prevention",
+      "target": "Data Privacy Regulations (GDPR, CCPA)"
+    },
+    {
+      "source": "Resources/Security & Privacy/SQL Injection — Prevention",
+      "target": "Resources/Databases"
+    },
+    {
+      "source": "Resources/Security & Privacy/SQL Injection — Prevention",
+      "target": "Resources/Security & Privacy/OWASP Top 10"
+    },
+    {
+      "source": "Resources/Security & Privacy/SQL Injection — Prevention",
+      "target": "Security Auditing"
+    },
+    {
+      "source": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)",
+      "target": "Resources/DevOps & Infrastructure/Reverse Proxies (Nginx, Caddy, Traefik)"
+    },
+    {
+      "source": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)",
+      "target": "Resources/Security & Privacy/Clickjacking Prevention"
+    },
+    {
+      "source": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)",
+      "target": "Resources/Security & Privacy/Cross-Site Scripting (XSS) — Prevention"
+    },
+    {
+      "source": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)",
+      "target": "Resources/Security & Privacy/Session Management"
+    },
+    {
+      "source": "Resources/Security & Privacy/Session Management",
+      "target": "Resources/Security & Privacy/Authentication vs Authorization"
+    },
+    {
+      "source": "Resources/Security & Privacy/Session Management",
+      "target": "Resources/Security & Privacy/CSRF — Prevention"
+    },
+    {
+      "source": "Resources/Security & Privacy/Session Management",
+      "target": "Resources/Security & Privacy/JWT — Structure, Signing, and Security"
+    },
+    {
+      "source": "Resources/Security & Privacy/Session Management",
+      "target": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)"
+    },
+    {
+      "source": "Resources/Security & Privacy/Zero-Trust Architecture",
+      "target": "Resources/DevOps & Infrastructure/SSH Best Practices"
+    },
+    {
+      "source": "Resources/Security & Privacy/Zero-Trust Architecture",
+      "target": "Resources/DevOps & Infrastructure/VPN Architecture"
+    },
+    {
+      "source": "Resources/Security & Privacy/Zero-Trust Architecture",
+      "target": "Resources/Security & Privacy/Authentication vs Authorization"
+    },
+    {
+      "source": "Resources/Security & Privacy/Zero-Trust Architecture",
+      "target": "Resources/Security & Privacy/Defense in Depth"
+    },
+    {
       "source": "Resources/Security Deep Dive",
       "target": "Resources/API Design"
     },
@@ -7098,11 +7744,11 @@
     },
     {
       "source": "Resources/Software Engineering/Blue-Green Deployments",
-      "target": "Blue-Green vs Canary vs Rolling Deployments"
+      "target": "CI/CD Pipeline Design"
     },
     {
       "source": "Resources/Software Engineering/Blue-Green Deployments",
-      "target": "CI/CD Pipeline Design"
+      "target": "Resources/DevOps & Infrastructure/Blue-Green vs Canary vs Rolling Deployments"
     },
     {
       "source": "Resources/Software Engineering/Blue-Green Deployments",
@@ -7538,7 +8184,7 @@
     },
     {
       "source": "Resources/Software Engineering/Kubernetes Basics",
-      "target": "Kubernetes YAML — Deployment, Service, Ingress"
+      "target": "Resources/DevOps & Infrastructure/Kubernetes YAML — Deployment, Service, Ingress"
     },
     {
       "source": "Resources/Software Engineering/Kubernetes Basics",
@@ -7762,6 +8408,10 @@
     },
     {
       "source": "Resources/Software Engineering/Service Mesh (Istio, Linkerd)",
+      "target": "Resources/Security & Privacy/Zero-Trust Architecture"
+    },
+    {
+      "source": "Resources/Software Engineering/Service Mesh (Istio, Linkerd)",
       "target": "Resources/Software Engineering/Canary Releases"
     },
     {
@@ -7771,10 +8421,6 @@
     {
       "source": "Resources/Software Engineering/Service Mesh (Istio, Linkerd)",
       "target": "Resources/Software Engineering/Microservices Architecture"
-    },
-    {
-      "source": "Resources/Software Engineering/Service Mesh (Istio, Linkerd)",
-      "target": "Zero-Trust Architecture"
     },
     {
       "source": "Resources/Software Engineering/Software Estimation Techniques",
@@ -7858,7 +8504,7 @@
     },
     {
       "source": "Resources/Software Engineering/The Unix Philosophy",
-      "target": "Bash Scripting"
+      "target": "Resources/DevOps & Infrastructure/Bash Scripting"
     },
     {
       "source": "Resources/Software Engineering/The Unix Philosophy",
@@ -8678,15 +9324,15 @@
     },
     {
       "source": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
+      "target": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)"
+    },
+    {
+      "source": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
       "target": "Resources/Software Engineering/API Design — REST Principles"
     },
     {
       "source": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
       "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
-    },
-    {
-      "source": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
-      "target": "Security Headers (CSP, HSTS, X-Frame-Options)"
     },
     {
       "source": "Resources/System Design/Real-Time Systems Design",
@@ -8829,5 +9475,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-26T00:08:25Z"
+  "generated_at": "2026-05-26T00:15:01Z"
 }
