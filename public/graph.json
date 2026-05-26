@@ -63,15 +63,6 @@
       "degree": 3
     },
     {
-      "id": "Bayes' Theorem",
-      "label": "Bayes' Theorem",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Bobby's Personality and Tone Guide",
       "label": "Bobby's Personality and Tone Guide",
       "folder": null,
@@ -117,26 +108,8 @@
       "degree": 1
     },
     {
-      "id": "Chain Rule (in Context of Backprop)",
-      "label": "Chain Rule (in Context of Backprop)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Changelog and Release Notes Writing",
       "label": "Changelog and Release Notes Writing",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
-    },
-    {
-      "id": "Container Security",
-      "label": "Container Security",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -199,8 +172,8 @@
       "degree": 0
     },
     {
-      "id": "Data Privacy Regulations (GDPR, CCPA)",
-      "label": "Data Privacy Regulations (GDPR, CCPA)",
+      "id": "Game Theory Fundamentals",
+      "label": "Game Theory Fundamentals",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -208,8 +181,8 @@
       "degree": 1
     },
     {
-      "id": "Game Theory Fundamentals",
-      "label": "Game Theory Fundamentals",
+      "id": "Graph Theory Fundamentals",
+      "label": "Graph Theory Fundamentals",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -228,15 +201,6 @@
     {
       "id": "How to Write a Good Technical Spec",
       "label": "How to Write a Good Technical Spec",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Information Theory — Entropy, Cross-Entropy, KL Divergence",
-      "label": "Information Theory — Entropy, Cross-Entropy, KL Divergence",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -321,7 +285,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "Performance Profiling (CPU, Memory, I/O)",
@@ -331,15 +295,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 3
-    },
-    {
-      "id": "Probability Distributions (Normal, Binomial, Poisson, Exponential)",
-      "label": "Probability Distributions (Normal, Binomial, Poisson, Exponential)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
     },
     {
       "id": "Product Analytics Fundamentals",
@@ -546,7 +501,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 8
+      "degree": 11
     },
     {
       "id": "Resources/AI & Machine Learning/Batch Normalization and Layer Normalization",
@@ -642,7 +597,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/AI & Machine Learning/Diffusion Models",
@@ -714,7 +669,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/AI & Machine Learning/Hallucination — Causes and Mitigations",
@@ -774,7 +729,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "Resources/AI & Machine Learning/Mixture of Experts (MoE)",
@@ -810,7 +765,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 17
+      "degree": 19
     },
     {
       "id": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
@@ -1050,7 +1005,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/AI & Machine Learning/Transfer Learning",
@@ -1074,7 +1029,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 19
+      "degree": 20
     },
     {
       "id": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)",
@@ -1086,7 +1041,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)",
@@ -1110,7 +1065,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "Resources/AI & Machine Learning/Vision-Language Models",
@@ -1365,7 +1320,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Data Science & Analytics/Causal Inference (Correlation vs Causation)",
@@ -1377,7 +1332,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Data Science & Analytics/Clustering Algorithms (K-Means, DBSCAN, Hierarchical)",
@@ -1437,7 +1392,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Data Science & Analytics/Data Lake Architecture",
@@ -1485,7 +1440,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Data Science & Analytics/ETL vs ELT",
@@ -1557,7 +1512,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose",
@@ -1605,7 +1560,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Data Science & Analytics/Regression Analysis (Linear, Logistic, Polynomial)",
@@ -1653,7 +1608,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Data Science & Analytics/Survival Analysis",
@@ -1677,7 +1632,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Data Science & Analytics/Visualization Best Practices",
@@ -1829,7 +1784,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/DevOps & Infrastructure/Cron Jobs and Task Scheduling",
@@ -1889,7 +1844,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/DevOps & Infrastructure/GitOps Principles",
@@ -1961,7 +1916,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems",
@@ -2033,7 +1988,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/DevOps & Infrastructure/Prometheus and Grafana",
@@ -2105,7 +2060,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 14
+      "degree": 20
     },
     {
       "id": "Resources/DevOps & Infrastructure/Serverless Architecture",
@@ -2356,6 +2311,126 @@
         "bobby"
       ],
       "degree": 24
+    },
+    {
+      "id": "Resources/Mathematics/Bayes' Theorem",
+      "label": "Bayes' Theorem",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Bayes' theorem updates belief in a hypothesis after observing evidence. It relates prior probability, likelihood, evidence probability, and posterior probability.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Mathematics/Calculus — Derivatives and Integrals",
+      "label": "Calculus — Derivatives and Integrals",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Calculus studies change and accumulation through derivatives and integrals. Derivatives measure local rate of change, while integrals measure accumulated quantity over an interval.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Mathematics/Chain Rule (in Context of Backprop)",
+      "label": "Chain Rule (in Context of Backprop)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "The chain rule computes derivatives of composed functions by multiplying local derivative effects. Backpropagation applies the chain rule through a neural network so each parameter receives its contribution to the loss.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Mathematics/Eigenvalues and Eigenvectors",
+      "label": "Eigenvalues and Eigenvectors",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Eigenvectors are directions that a linear transformation only scales, and eigenvalues are the scaling factors. They reveal hidden structure in matrices and appear in PCA, graph analysis, differential equations, and stability reasoning.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Mathematics/Gradient and Partial Derivatives",
+      "label": "Gradient and Partial Derivatives",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Partial derivatives measure how a multivariable function changes with respect to one input, and the gradient collects those derivatives into a vector. Gradients drive optimization by pointing toward steepest local increase.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Mathematics/Information Theory — Entropy, Cross-Entropy, KL Divergence",
+      "label": "Information Theory — Entropy, Cross-Entropy, KL Divergence",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Information theory measures uncertainty, surprise, and difference between probability distributions. Entropy, cross-entropy, and KL divergence are central to compression, machine learning losses, language models, and variational inference.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Mathematics/Linear Algebra — Vectors and Matrices",
+      "label": "Linear Algebra — Vectors and Matrices",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Linear algebra studies vectors, matrices, linear transformations, and systems of equations. It is the mathematical language behind graphics, machine learning, optimization, embeddings, and many engineering models.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Mathematics/Matrix Multiplication and Dot Products",
+      "label": "Matrix Multiplication and Dot Products",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Dot products measure alignment between vectors, while matrix multiplication composes linear transformations and combines rows with columns. These operations power projections, neural network layers, graphics transforms, and similarity search.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Mathematics/Multivariable Calculus Basics",
+      "label": "Multivariable Calculus Basics",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Multivariable calculus extends calculus to functions with multiple inputs or outputs. It introduces partial derivatives, gradients, Jacobians, Hessians, and constrained optimization.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Mathematics/Probability Distributions (Normal, Binomial, Poisson, Exponential)",
+      "label": "Probability Distributions (Normal, Binomial, Poisson, Exponential)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Probability distributions describe how likely different outcomes are. Normal, binomial, Poisson, and exponential distributions model common patterns such as measurement noise, success counts, event counts, and waiting times.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/Mechanistic Interpretability",
@@ -2639,7 +2714,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Security & Privacy/Authentication vs Authorization",
@@ -2651,7 +2726,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Security & Privacy/CSRF — Prevention",
@@ -2678,6 +2753,18 @@
       "degree": 5
     },
     {
+      "id": "Resources/Security & Privacy/Container Security",
+      "label": "Container Security",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Container security protects images, registries, runtimes, orchestrators, secrets, and host boundaries. Good practice includes minimal images, vulnerability scanning, non-root users, least privileges, signed artifacts, and controlled runtime permissions.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 7
+    },
+    {
       "id": "Resources/Security & Privacy/Cross-Site Scripting (XSS) — Prevention",
       "label": "Cross-Site Scripting (XSS) — Prevention",
       "folder": "Resources",
@@ -2690,11 +2777,47 @@
       "degree": 7
     },
     {
+      "id": "Resources/Security & Privacy/Data Privacy Regulations (GDPR, CCPA)",
+      "label": "Data Privacy Regulations (GDPR, CCPA)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "GDPR and CCPA are major privacy regulations that shape how organizations collect, process, disclose, delete, and protect personal data. Engineering impact shows up in consent, data inventory, deletion, access requests, retention, and vendor controls.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 8
+    },
+    {
       "id": "Resources/Security & Privacy/Defense in Depth",
       "label": "Defense in Depth",
       "folder": "Resources",
       "created": "2026-05-25",
       "excerpt": "Defense in depth layers independent controls so one failure does not become total compromise. It combines preventive, detective, and responsive controls across code, identity, network, data, infrastructure, and operations.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 10
+    },
+    {
+      "id": "Resources/Security & Privacy/Encryption — Symmetric vs Asymmetric",
+      "label": "Encryption — Symmetric vs Asymmetric",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Symmetric encryption uses the same secret key for encryption and decryption, while asymmetric encryption uses public/private key pairs. Real systems often combine them: asymmetric cryptography establishes trust and symmetric keys protect bulk data.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Security & Privacy/End-to-End Encryption",
+      "label": "End-to-End Encryption",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "End-to-end encryption protects message contents so only the communicating endpoints can read them. Servers may route, store, and synchronize ciphertext, but they should not possess the keys needed to decrypt user content.",
       "tags": [
         "resource",
         "security-privacy"
@@ -2750,6 +2873,30 @@
       "degree": 7
     },
     {
+      "id": "Resources/Security & Privacy/PII Handling Best Practices",
+      "label": "PII Handling Best Practices",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "PII handling best practices reduce risk around data that identifies or can be linked to people. The core habits are minimization, classification, access control, encryption, retention limits, auditability, and careful logging.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Security & Privacy/Passkeys and Hardware Security Keys (WebAuthn)",
+      "label": "Passkeys and Hardware Security Keys (WebAuthn)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Passkeys and hardware security keys use public-key cryptography through WebAuthn to provide phishing-resistant authentication. They reduce reliance on shared secrets by proving possession of a private key bound to the real site origin.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 5
+    },
+    {
       "id": "Resources/Security & Privacy/Password Hashing (bcrypt, Argon2, scrypt)",
       "label": "Password Hashing (bcrypt, Argon2, scrypt)",
       "folder": "Resources",
@@ -2771,7 +2918,31 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 4
+      "degree": 7
+    },
+    {
+      "id": "Resources/Security & Privacy/Phishing — Recognition and Defense",
+      "label": "Phishing — Recognition and Defense",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Phishing tricks users into revealing credentials, installing malware, approving access, or taking unsafe actions. Defense requires user reporting, email security, MFA, domain protections, safe links, and resilient account recovery.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Security & Privacy/Public Key Infrastructure (PKI)",
+      "label": "Public Key Infrastructure (PKI)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Public Key Infrastructure manages certificates, certificate authorities, trust chains, issuance, renewal, and revocation. PKI is how browsers, services, and organizations bind public keys to identities at scale.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 7
     },
     {
       "id": "Resources/Security & Privacy/SQL Injection — Prevention",
@@ -2784,6 +2955,30 @@
         "security-privacy"
       ],
       "degree": 5
+    },
+    {
+      "id": "Resources/Security & Privacy/Secrets Scanning (GitGuardian, truffleHog)",
+      "label": "Secrets Scanning (GitGuardian, truffleHog)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Secrets scanning detects leaked credentials such as API keys, tokens, private keys, and passwords in code, commits, logs, and artifacts. Tools like GitGuardian and truffleHog reduce exposure, but leaked secrets still require rotation and incident response.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Security & Privacy/Security Auditing",
+      "label": "Security Auditing",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Security auditing evaluates whether systems, processes, access, and evidence match expected security controls. Good audits are scoped, evidence-based, risk-oriented, and followed by concrete remediation.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 18
     },
     {
       "id": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)",
@@ -2807,7 +3002,67 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 10
+      "degree": 12
+    },
+    {
+      "id": "Resources/Security & Privacy/Social Engineering Attacks",
+      "label": "Social Engineering Attacks",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Social engineering attacks manipulate people rather than directly exploiting software. They work by abusing trust, urgency, authority, fear, helpfulness, or routine operational habits.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Security & Privacy/Supply Chain Security",
+      "label": "Supply Chain Security",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Supply chain security protects the software, dependencies, build systems, CI/CD pipelines, artifacts, vendors, and update channels a system relies on. It matters because attackers can compromise trusted inputs instead of attacking production directly.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 11
+    },
+    {
+      "id": "Resources/Security & Privacy/Threat Modeling (STRIDE)",
+      "label": "Threat Modeling (STRIDE)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Threat modeling identifies what can go wrong in a system before attackers or incidents expose it. STRIDE is a practical framework covering spoofing, tampering, repudiation, information disclosure, denial of service, and elevation of privilege.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Security & Privacy/Vulnerability Disclosure and Bug Bounty Programs",
+      "label": "Vulnerability Disclosure and Bug Bounty Programs",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Vulnerability disclosure and bug bounty programs define how external researchers report security issues and how organizations triage, fix, reward, and communicate them. Clear scope and response expectations prevent chaos.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Security & Privacy/Zero-Day Vulnerabilities",
+      "label": "Zero-Day Vulnerabilities",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Zero-day vulnerabilities are security flaws unknown to the vendor or unpatched in affected systems. Defending against them depends on reducing blast radius, monitoring behavior, patch readiness, and layered controls.",
+      "tags": [
+        "resource",
+        "security-privacy"
+      ],
+      "degree": 5
     },
     {
       "id": "Resources/Security & Privacy/Zero-Trust Architecture",
@@ -2819,7 +3074,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 9
+      "degree": 11
     },
     {
       "id": "Resources/Security Deep Dive",
@@ -3100,7 +3355,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Software Engineering/Design Patterns — Behavioral (Observer, Strategy, Command, State, Iterator)",
@@ -3148,7 +3403,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Software Engineering/Domain-Driven Design (DDD)",
@@ -3244,7 +3499,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Software Engineering/Load Testing and Performance Testing",
@@ -3997,7 +4252,7 @@
         "study",
         "ai"
       ],
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "Resources/Vault Structure",
@@ -4052,35 +4307,8 @@
       "degree": 6
     },
     {
-      "id": "Secrets Scanning (GitGuardian, truffleHog)",
-      "label": "Secrets Scanning (GitGuardian, truffleHog)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
-    },
-    {
-      "id": "Security Auditing",
-      "label": "Security Auditing",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 7
-    },
-    {
-      "id": "Supply Chain Security",
-      "label": "Supply Chain Security",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 3
-    },
-    {
-      "id": "Threat Modeling (STRIDE)",
-      "label": "Threat Modeling (STRIDE)",
+      "id": "TLS 1.3",
+      "label": "TLS 1.3",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -4104,15 +4332,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 5
-    },
-    {
-      "id": "Vulnerability Disclosure and Bug Bounty Programs",
-      "label": "Vulnerability Disclosure and Bug Bounty Programs",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
     },
     {
       "id": "Writing Good Documentation",
@@ -4464,10 +4683,6 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Backpropagation Explained",
-      "target": "Chain Rule (in Context of Backprop)"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Backpropagation Explained",
       "target": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)"
     },
     {
@@ -4481,6 +4696,10 @@
     {
       "source": "Resources/AI & Machine Learning/Backpropagation Explained",
       "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Backpropagation Explained",
+      "target": "Resources/Mathematics/Chain Rule (in Context of Backprop)"
     },
     {
       "source": "Resources/AI & Machine Learning/Batch Normalization and Layer Normalization",
@@ -5364,10 +5583,6 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)",
-      "target": "Information Theory — Entropy, Cross-Entropy, KL Divergence"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)",
       "target": "Resources/AI & Machine Learning/Diffusion Models"
     },
     {
@@ -5381,6 +5596,10 @@
     {
       "source": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)",
       "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)",
+      "target": "Resources/Mathematics/Information Theory — Entropy, Cross-Entropy, KL Divergence"
     },
     {
       "source": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)",
@@ -5656,11 +5875,7 @@
     },
     {
       "source": "Resources/Data Science & Analytics/Anomaly Detection Methods",
-      "target": "Security Auditing"
-    },
-    {
-      "source": "Resources/Data Science & Analytics/Bayesian Statistics",
-      "target": "Bayes' Theorem"
+      "target": "Resources/Security & Privacy/Security Auditing"
     },
     {
       "source": "Resources/Data Science & Analytics/Bayesian Statistics",
@@ -5677,6 +5892,10 @@
     {
       "source": "Resources/Data Science & Analytics/Bayesian Statistics",
       "target": "Resources/Data Science & Analytics/Probability Theory Basics"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Bayesian Statistics",
+      "target": "Resources/Mathematics/Bayes' Theorem"
     },
     {
       "source": "Resources/Data Science & Analytics/Causal Inference (Correlation vs Causation)",
@@ -5992,10 +6211,6 @@
     },
     {
       "source": "Resources/Data Science & Analytics/Probability Theory Basics",
-      "target": "Probability Distributions (Normal, Binomial, Poisson, Exponential)"
-    },
-    {
-      "source": "Resources/Data Science & Analytics/Probability Theory Basics",
       "target": "Resources/Data Science & Analytics/Bayesian Statistics"
     },
     {
@@ -6009,6 +6224,10 @@
     {
       "source": "Resources/Data Science & Analytics/Probability Theory Basics",
       "target": "Resources/MLOps and ML Engineering"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Probability Theory Basics",
+      "target": "Resources/Mathematics/Probability Distributions (Normal, Binomial, Poisson, Exponential)"
     },
     {
       "source": "Resources/Data Science & Analytics/Regression Analysis (Linear, Logistic, Polynomial)",
@@ -6372,7 +6591,7 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/GitHub Actions Deep Dive",
-      "target": "Supply Chain Security"
+      "target": "Resources/Security & Privacy/Supply Chain Security"
     },
     {
       "source": "Resources/DevOps & Infrastructure/GitOps Principles",
@@ -6468,7 +6687,7 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Log Aggregation (ELK Stack, Loki)",
-      "target": "Security Auditing"
+      "target": "Resources/Security & Privacy/Security Auditing"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems",
@@ -6640,11 +6859,11 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/SSH Best Practices",
-      "target": "Resources/Security & Privacy/Zero-Trust Architecture"
+      "target": "Resources/Security & Privacy/Security Auditing"
     },
     {
       "source": "Resources/DevOps & Infrastructure/SSH Best Practices",
-      "target": "Security Auditing"
+      "target": "Resources/Security & Privacy/Zero-Trust Architecture"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)",
@@ -6660,7 +6879,7 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)",
-      "target": "Secrets Scanning (GitGuardian, truffleHog)"
+      "target": "Resources/Security & Privacy/Secrets Scanning (GitGuardian, truffleHog)"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Serverless Architecture",
@@ -6991,6 +7210,166 @@
       "target": "VAULT_INDEX"
     },
     {
+      "source": "Resources/Mathematics/Bayes' Theorem",
+      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
+    },
+    {
+      "source": "Resources/Mathematics/Bayes' Theorem",
+      "target": "Resources/Data Science & Analytics/Bayesian Statistics"
+    },
+    {
+      "source": "Resources/Mathematics/Bayes' Theorem",
+      "target": "Resources/Data Science & Analytics/Causal Inference (Correlation vs Causation)"
+    },
+    {
+      "source": "Resources/Mathematics/Bayes' Theorem",
+      "target": "Resources/Data Science & Analytics/Probability Theory Basics"
+    },
+    {
+      "source": "Resources/Mathematics/Calculus — Derivatives and Integrals",
+      "target": "Resources/AI & Machine Learning/Backpropagation Explained"
+    },
+    {
+      "source": "Resources/Mathematics/Calculus — Derivatives and Integrals",
+      "target": "Resources/Mathematics/Chain Rule (in Context of Backprop)"
+    },
+    {
+      "source": "Resources/Mathematics/Calculus — Derivatives and Integrals",
+      "target": "Resources/Mathematics/Gradient and Partial Derivatives"
+    },
+    {
+      "source": "Resources/Mathematics/Calculus — Derivatives and Integrals",
+      "target": "Resources/Mathematics/Probability Distributions (Normal, Binomial, Poisson, Exponential)"
+    },
+    {
+      "source": "Resources/Mathematics/Chain Rule (in Context of Backprop)",
+      "target": "Resources/AI & Machine Learning/Backpropagation Explained"
+    },
+    {
+      "source": "Resources/Mathematics/Chain Rule (in Context of Backprop)",
+      "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
+    },
+    {
+      "source": "Resources/Mathematics/Chain Rule (in Context of Backprop)",
+      "target": "Resources/Mathematics/Calculus — Derivatives and Integrals"
+    },
+    {
+      "source": "Resources/Mathematics/Chain Rule (in Context of Backprop)",
+      "target": "Resources/Mathematics/Gradient and Partial Derivatives"
+    },
+    {
+      "source": "Resources/Mathematics/Eigenvalues and Eigenvectors",
+      "target": "Graph Theory Fundamentals"
+    },
+    {
+      "source": "Resources/Mathematics/Eigenvalues and Eigenvectors",
+      "target": "Resources/Data Science & Analytics/Dimensionality Reduction (PCA, t-SNE, UMAP)"
+    },
+    {
+      "source": "Resources/Mathematics/Eigenvalues and Eigenvectors",
+      "target": "Resources/Mathematics/Linear Algebra — Vectors and Matrices"
+    },
+    {
+      "source": "Resources/Mathematics/Eigenvalues and Eigenvectors",
+      "target": "Resources/Mathematics/Matrix Multiplication and Dot Products"
+    },
+    {
+      "source": "Resources/Mathematics/Gradient and Partial Derivatives",
+      "target": "Resources/AI & Machine Learning/Backpropagation Explained"
+    },
+    {
+      "source": "Resources/Mathematics/Gradient and Partial Derivatives",
+      "target": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)"
+    },
+    {
+      "source": "Resources/Mathematics/Gradient and Partial Derivatives",
+      "target": "Resources/Mathematics/Chain Rule (in Context of Backprop)"
+    },
+    {
+      "source": "Resources/Mathematics/Gradient and Partial Derivatives",
+      "target": "Resources/Mathematics/Multivariable Calculus Basics"
+    },
+    {
+      "source": "Resources/Mathematics/Information Theory — Entropy, Cross-Entropy, KL Divergence",
+      "target": "Resources/AI & Machine Learning/Loss Functions"
+    },
+    {
+      "source": "Resources/Mathematics/Information Theory — Entropy, Cross-Entropy, KL Divergence",
+      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
+    },
+    {
+      "source": "Resources/Mathematics/Information Theory — Entropy, Cross-Entropy, KL Divergence",
+      "target": "Resources/AI & Machine Learning/Tokenization — BPE, WordPiece, SentencePiece"
+    },
+    {
+      "source": "Resources/Mathematics/Information Theory — Entropy, Cross-Entropy, KL Divergence",
+      "target": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)"
+    },
+    {
+      "source": "Resources/Mathematics/Linear Algebra — Vectors and Matrices",
+      "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
+    },
+    {
+      "source": "Resources/Mathematics/Linear Algebra — Vectors and Matrices",
+      "target": "Resources/Data Science & Analytics/Dimensionality Reduction (PCA, t-SNE, UMAP)"
+    },
+    {
+      "source": "Resources/Mathematics/Linear Algebra — Vectors and Matrices",
+      "target": "Resources/Mathematics/Eigenvalues and Eigenvectors"
+    },
+    {
+      "source": "Resources/Mathematics/Linear Algebra — Vectors and Matrices",
+      "target": "Resources/Mathematics/Matrix Multiplication and Dot Products"
+    },
+    {
+      "source": "Resources/Mathematics/Matrix Multiplication and Dot Products",
+      "target": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics"
+    },
+    {
+      "source": "Resources/Mathematics/Matrix Multiplication and Dot Products",
+      "target": "Resources/Mathematics/Eigenvalues and Eigenvectors"
+    },
+    {
+      "source": "Resources/Mathematics/Matrix Multiplication and Dot Products",
+      "target": "Resources/Mathematics/Linear Algebra — Vectors and Matrices"
+    },
+    {
+      "source": "Resources/Mathematics/Matrix Multiplication and Dot Products",
+      "target": "Resources/Transformer Architecture"
+    },
+    {
+      "source": "Resources/Mathematics/Multivariable Calculus Basics",
+      "target": "Optimization — Convex vs Non-Convex"
+    },
+    {
+      "source": "Resources/Mathematics/Multivariable Calculus Basics",
+      "target": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)"
+    },
+    {
+      "source": "Resources/Mathematics/Multivariable Calculus Basics",
+      "target": "Resources/Mathematics/Chain Rule (in Context of Backprop)"
+    },
+    {
+      "source": "Resources/Mathematics/Multivariable Calculus Basics",
+      "target": "Resources/Mathematics/Gradient and Partial Derivatives"
+    },
+    {
+      "source": "Resources/Mathematics/Probability Distributions (Normal, Binomial, Poisson, Exponential)",
+      "target": "Resources/Data Science & Analytics/Hypothesis Testing"
+    },
+    {
+      "source": "Resources/Mathematics/Probability Distributions (Normal, Binomial, Poisson, Exponential)",
+      "target": "Resources/Data Science & Analytics/Probability Theory Basics"
+    },
+    {
+      "source": "Resources/Mathematics/Probability Distributions (Normal, Binomial, Poisson, Exponential)",
+      "target": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)"
+    },
+    {
+      "source": "Resources/Mathematics/Probability Distributions (Normal, Binomial, Poisson, Exponential)",
+      "target": "Resources/Data Science & Analytics/Time Series Analysis"
+    },
+    {
       "source": "Resources/Mechanistic Interpretability",
       "target": "Resources/RLHF and Alignment"
     },
@@ -7272,11 +7651,11 @@
     },
     {
       "source": "Resources/Security & Privacy/API Key Management",
-      "target": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)"
+      "target": "Resources/Security & Privacy/Secrets Scanning (GitGuardian, truffleHog)"
     },
     {
       "source": "Resources/Security & Privacy/API Key Management",
-      "target": "Secrets Scanning (GitGuardian, truffleHog)"
+      "target": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)"
     },
     {
       "source": "Resources/Security & Privacy/Authentication vs Authorization",
@@ -7327,6 +7706,22 @@
       "target": "Resources/Security & Privacy/Session Management"
     },
     {
+      "source": "Resources/Security & Privacy/Container Security",
+      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
+    },
+    {
+      "source": "Resources/Security & Privacy/Container Security",
+      "target": "Resources/Security & Privacy/Supply Chain Security"
+    },
+    {
+      "source": "Resources/Security & Privacy/Container Security",
+      "target": "Resources/Software Engineering/Docker Deep Dive"
+    },
+    {
+      "source": "Resources/Security & Privacy/Container Security",
+      "target": "Resources/Software Engineering/Kubernetes Basics"
+    },
+    {
       "source": "Resources/Security & Privacy/Cross-Site Scripting (XSS) — Prevention",
       "target": "Resources/Security & Privacy/CSRF — Prevention"
     },
@@ -7343,6 +7738,22 @@
       "target": "Resources/Security & Privacy/Session Management"
     },
     {
+      "source": "Resources/Security & Privacy/Data Privacy Regulations (GDPR, CCPA)",
+      "target": "Resources/Data Science & Analytics/Data Cleaning Strategies"
+    },
+    {
+      "source": "Resources/Security & Privacy/Data Privacy Regulations (GDPR, CCPA)",
+      "target": "Resources/Security & Privacy/End-to-End Encryption"
+    },
+    {
+      "source": "Resources/Security & Privacy/Data Privacy Regulations (GDPR, CCPA)",
+      "target": "Resources/Security & Privacy/PII Handling Best Practices"
+    },
+    {
+      "source": "Resources/Security & Privacy/Data Privacy Regulations (GDPR, CCPA)",
+      "target": "Resources/Security & Privacy/Security Auditing"
+    },
+    {
       "source": "Resources/Security & Privacy/Defense in Depth",
       "target": "Resources/DevOps & Infrastructure/On-Call Culture and Incident Response"
     },
@@ -7357,6 +7768,38 @@
     {
       "source": "Resources/Security & Privacy/Defense in Depth",
       "target": "Resources/Security & Privacy/Zero-Trust Architecture"
+    },
+    {
+      "source": "Resources/Security & Privacy/Encryption — Symmetric vs Asymmetric",
+      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
+    },
+    {
+      "source": "Resources/Security & Privacy/Encryption — Symmetric vs Asymmetric",
+      "target": "Resources/Security & Privacy/End-to-End Encryption"
+    },
+    {
+      "source": "Resources/Security & Privacy/Encryption — Symmetric vs Asymmetric",
+      "target": "Resources/Security & Privacy/Public Key Infrastructure (PKI)"
+    },
+    {
+      "source": "Resources/Security & Privacy/Encryption — Symmetric vs Asymmetric",
+      "target": "TLS 1.3"
+    },
+    {
+      "source": "Resources/Security & Privacy/End-to-End Encryption",
+      "target": "Resources/Security & Privacy/Data Privacy Regulations (GDPR, CCPA)"
+    },
+    {
+      "source": "Resources/Security & Privacy/End-to-End Encryption",
+      "target": "Resources/Security & Privacy/Encryption — Symmetric vs Asymmetric"
+    },
+    {
+      "source": "Resources/Security & Privacy/End-to-End Encryption",
+      "target": "Resources/Security & Privacy/Public Key Infrastructure (PKI)"
+    },
+    {
+      "source": "Resources/Security & Privacy/End-to-End Encryption",
+      "target": "Resources/Security & Privacy/Threat Modeling (STRIDE)"
     },
     {
       "source": "Resources/Security & Privacy/JWT — Structure, Signing, and Security",
@@ -7423,6 +7866,38 @@
       "target": "Resources/Security & Privacy/Session Management"
     },
     {
+      "source": "Resources/Security & Privacy/PII Handling Best Practices",
+      "target": "Resources/DevOps & Infrastructure/Log Aggregation (ELK Stack, Loki)"
+    },
+    {
+      "source": "Resources/Security & Privacy/PII Handling Best Practices",
+      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
+    },
+    {
+      "source": "Resources/Security & Privacy/PII Handling Best Practices",
+      "target": "Resources/Security & Privacy/Data Privacy Regulations (GDPR, CCPA)"
+    },
+    {
+      "source": "Resources/Security & Privacy/PII Handling Best Practices",
+      "target": "Resources/Security & Privacy/Security Auditing"
+    },
+    {
+      "source": "Resources/Security & Privacy/Passkeys and Hardware Security Keys (WebAuthn)",
+      "target": "Resources/Security & Privacy/Authentication vs Authorization"
+    },
+    {
+      "source": "Resources/Security & Privacy/Passkeys and Hardware Security Keys (WebAuthn)",
+      "target": "Resources/Security & Privacy/Phishing — Recognition and Defense"
+    },
+    {
+      "source": "Resources/Security & Privacy/Passkeys and Hardware Security Keys (WebAuthn)",
+      "target": "Resources/Security & Privacy/Public Key Infrastructure (PKI)"
+    },
+    {
+      "source": "Resources/Security & Privacy/Passkeys and Hardware Security Keys (WebAuthn)",
+      "target": "Resources/Security & Privacy/Session Management"
+    },
+    {
       "source": "Resources/Security & Privacy/Password Hashing (bcrypt, Argon2, scrypt)",
       "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
     },
@@ -7432,11 +7907,11 @@
     },
     {
       "source": "Resources/Security & Privacy/Password Hashing (bcrypt, Argon2, scrypt)",
-      "target": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)"
+      "target": "Resources/Security & Privacy/Security Auditing"
     },
     {
       "source": "Resources/Security & Privacy/Password Hashing (bcrypt, Argon2, scrypt)",
-      "target": "Security Auditing"
+      "target": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)"
     },
     {
       "source": "Resources/Security & Privacy/Penetration Testing Overview",
@@ -7444,19 +7919,47 @@
     },
     {
       "source": "Resources/Security & Privacy/Penetration Testing Overview",
-      "target": "Security Auditing"
+      "target": "Resources/Security & Privacy/Security Auditing"
     },
     {
       "source": "Resources/Security & Privacy/Penetration Testing Overview",
-      "target": "Threat Modeling (STRIDE)"
+      "target": "Resources/Security & Privacy/Threat Modeling (STRIDE)"
     },
     {
       "source": "Resources/Security & Privacy/Penetration Testing Overview",
-      "target": "Vulnerability Disclosure and Bug Bounty Programs"
+      "target": "Resources/Security & Privacy/Vulnerability Disclosure and Bug Bounty Programs"
     },
     {
-      "source": "Resources/Security & Privacy/SQL Injection — Prevention",
-      "target": "Data Privacy Regulations (GDPR, CCPA)"
+      "source": "Resources/Security & Privacy/Phishing — Recognition and Defense",
+      "target": "Resources/Security & Privacy/Passkeys and Hardware Security Keys (WebAuthn)"
+    },
+    {
+      "source": "Resources/Security & Privacy/Phishing — Recognition and Defense",
+      "target": "Resources/Security & Privacy/Security Auditing"
+    },
+    {
+      "source": "Resources/Security & Privacy/Phishing — Recognition and Defense",
+      "target": "Resources/Security & Privacy/Session Management"
+    },
+    {
+      "source": "Resources/Security & Privacy/Phishing — Recognition and Defense",
+      "target": "Resources/Security & Privacy/Social Engineering Attacks"
+    },
+    {
+      "source": "Resources/Security & Privacy/Public Key Infrastructure (PKI)",
+      "target": "Resources/DevOps & Infrastructure/Cloudflare Services Overview"
+    },
+    {
+      "source": "Resources/Security & Privacy/Public Key Infrastructure (PKI)",
+      "target": "Resources/Security & Privacy/Encryption — Symmetric vs Asymmetric"
+    },
+    {
+      "source": "Resources/Security & Privacy/Public Key Infrastructure (PKI)",
+      "target": "Resources/Security & Privacy/End-to-End Encryption"
+    },
+    {
+      "source": "Resources/Security & Privacy/Public Key Infrastructure (PKI)",
+      "target": "Resources/Security & Privacy/Security Auditing"
     },
     {
       "source": "Resources/Security & Privacy/SQL Injection — Prevention",
@@ -7464,11 +7967,47 @@
     },
     {
       "source": "Resources/Security & Privacy/SQL Injection — Prevention",
+      "target": "Resources/Security & Privacy/Data Privacy Regulations (GDPR, CCPA)"
+    },
+    {
+      "source": "Resources/Security & Privacy/SQL Injection — Prevention",
       "target": "Resources/Security & Privacy/OWASP Top 10"
     },
     {
       "source": "Resources/Security & Privacy/SQL Injection — Prevention",
-      "target": "Security Auditing"
+      "target": "Resources/Security & Privacy/Security Auditing"
+    },
+    {
+      "source": "Resources/Security & Privacy/Secrets Scanning (GitGuardian, truffleHog)",
+      "target": "Resources/DevOps & Infrastructure/GitHub Actions Deep Dive"
+    },
+    {
+      "source": "Resources/Security & Privacy/Secrets Scanning (GitGuardian, truffleHog)",
+      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
+    },
+    {
+      "source": "Resources/Security & Privacy/Secrets Scanning (GitGuardian, truffleHog)",
+      "target": "Resources/Security & Privacy/API Key Management"
+    },
+    {
+      "source": "Resources/Security & Privacy/Secrets Scanning (GitGuardian, truffleHog)",
+      "target": "Resources/Security & Privacy/Supply Chain Security"
+    },
+    {
+      "source": "Resources/Security & Privacy/Security Auditing",
+      "target": "Resources/DevOps & Infrastructure/Postmortem Writing"
+    },
+    {
+      "source": "Resources/Security & Privacy/Security Auditing",
+      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
+    },
+    {
+      "source": "Resources/Security & Privacy/Security Auditing",
+      "target": "Resources/Security & Privacy/PII Handling Best Practices"
+    },
+    {
+      "source": "Resources/Security & Privacy/Security Auditing",
+      "target": "Resources/Security & Privacy/Penetration Testing Overview"
     },
     {
       "source": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)",
@@ -7501,6 +8040,86 @@
     {
       "source": "Resources/Security & Privacy/Session Management",
       "target": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)"
+    },
+    {
+      "source": "Resources/Security & Privacy/Social Engineering Attacks",
+      "target": "Resources/Security & Privacy/Defense in Depth"
+    },
+    {
+      "source": "Resources/Security & Privacy/Social Engineering Attacks",
+      "target": "Resources/Security & Privacy/Phishing — Recognition and Defense"
+    },
+    {
+      "source": "Resources/Security & Privacy/Social Engineering Attacks",
+      "target": "Resources/Security & Privacy/Security Auditing"
+    },
+    {
+      "source": "Resources/Security & Privacy/Social Engineering Attacks",
+      "target": "Resources/Security & Privacy/Zero-Trust Architecture"
+    },
+    {
+      "source": "Resources/Security & Privacy/Supply Chain Security",
+      "target": "Resources/DevOps & Infrastructure/GitHub Actions Deep Dive"
+    },
+    {
+      "source": "Resources/Security & Privacy/Supply Chain Security",
+      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
+    },
+    {
+      "source": "Resources/Security & Privacy/Supply Chain Security",
+      "target": "Resources/Security & Privacy/Container Security"
+    },
+    {
+      "source": "Resources/Security & Privacy/Supply Chain Security",
+      "target": "Resources/Software Engineering/Dependency Management"
+    },
+    {
+      "source": "Resources/Security & Privacy/Threat Modeling (STRIDE)",
+      "target": "Resources/Security & Privacy/Data Privacy Regulations (GDPR, CCPA)"
+    },
+    {
+      "source": "Resources/Security & Privacy/Threat Modeling (STRIDE)",
+      "target": "Resources/Security & Privacy/Defense in Depth"
+    },
+    {
+      "source": "Resources/Security & Privacy/Threat Modeling (STRIDE)",
+      "target": "Resources/Security & Privacy/Penetration Testing Overview"
+    },
+    {
+      "source": "Resources/Security & Privacy/Threat Modeling (STRIDE)",
+      "target": "Resources/Security & Privacy/Zero-Trust Architecture"
+    },
+    {
+      "source": "Resources/Security & Privacy/Vulnerability Disclosure and Bug Bounty Programs",
+      "target": "Resources/Security & Privacy/Penetration Testing Overview"
+    },
+    {
+      "source": "Resources/Security & Privacy/Vulnerability Disclosure and Bug Bounty Programs",
+      "target": "Resources/Security & Privacy/Security Auditing"
+    },
+    {
+      "source": "Resources/Security & Privacy/Vulnerability Disclosure and Bug Bounty Programs",
+      "target": "Resources/Security & Privacy/Supply Chain Security"
+    },
+    {
+      "source": "Resources/Security & Privacy/Vulnerability Disclosure and Bug Bounty Programs",
+      "target": "Resources/Security & Privacy/Zero-Day Vulnerabilities"
+    },
+    {
+      "source": "Resources/Security & Privacy/Zero-Day Vulnerabilities",
+      "target": "Resources/Security & Privacy/Defense in Depth"
+    },
+    {
+      "source": "Resources/Security & Privacy/Zero-Day Vulnerabilities",
+      "target": "Resources/Security & Privacy/Security Auditing"
+    },
+    {
+      "source": "Resources/Security & Privacy/Zero-Day Vulnerabilities",
+      "target": "Resources/Security & Privacy/Supply Chain Security"
+    },
+    {
+      "source": "Resources/Security & Privacy/Zero-Day Vulnerabilities",
+      "target": "Resources/Security & Privacy/Vulnerability Disclosure and Bug Bounty Programs"
     },
     {
       "source": "Resources/Security & Privacy/Zero-Trust Architecture",
@@ -7948,6 +8567,10 @@
     },
     {
       "source": "Resources/Software Engineering/Dependency Management",
+      "target": "Resources/Security & Privacy/Supply Chain Security"
+    },
+    {
+      "source": "Resources/Software Engineering/Dependency Management",
       "target": "Resources/Software Engineering/Build Systems Overview (Make, Bazel, Nx)"
     },
     {
@@ -7957,10 +8580,6 @@
     {
       "source": "Resources/Software Engineering/Dependency Management",
       "target": "Resources/Software Engineering/Semantic Versioning"
-    },
-    {
-      "source": "Resources/Software Engineering/Dependency Management",
-      "target": "Supply Chain Security"
     },
     {
       "source": "Resources/Software Engineering/Design Patterns — Behavioral (Observer, Strategy, Command, State, Iterator)",
@@ -8024,11 +8643,11 @@
     },
     {
       "source": "Resources/Software Engineering/Docker Deep Dive",
-      "target": "Container Security"
+      "target": "Resources/Docker"
     },
     {
       "source": "Resources/Software Engineering/Docker Deep Dive",
-      "target": "Resources/Docker"
+      "target": "Resources/Security & Privacy/Container Security"
     },
     {
       "source": "Resources/Software Engineering/Docker Deep Dive",
@@ -8288,6 +8907,10 @@
     },
     {
       "source": "Resources/Software Engineering/Open Source Licensing (MIT, Apache, GPL, etc.)",
+      "target": "Resources/Security & Privacy/Supply Chain Security"
+    },
+    {
+      "source": "Resources/Software Engineering/Open Source Licensing (MIT, Apache, GPL, etc.)",
       "target": "Resources/Software Engineering Tools"
     },
     {
@@ -8297,10 +8920,6 @@
     {
       "source": "Resources/Software Engineering/Open Source Licensing (MIT, Apache, GPL, etc.)",
       "target": "Resources/Software Engineering/Semantic Versioning"
-    },
-    {
-      "source": "Resources/Software Engineering/Open Source Licensing (MIT, Apache, GPL, etc.)",
-      "target": "Supply Chain Security"
     },
     {
       "source": "Resources/Software Engineering/OpenAPI and API Documentation",
@@ -8448,6 +9067,10 @@
     },
     {
       "source": "Resources/Software Engineering/Static Analysis Tools",
+      "target": "Resources/Security & Privacy/Security Auditing"
+    },
+    {
+      "source": "Resources/Software Engineering/Static Analysis Tools",
       "target": "Resources/Software Engineering/Code Complexity — Cyclomatic Complexity"
     },
     {
@@ -8457,10 +9080,6 @@
     {
       "source": "Resources/Software Engineering/Static Analysis Tools",
       "target": "Resources/Testing Strategy"
-    },
-    {
-      "source": "Resources/Software Engineering/Static Analysis Tools",
-      "target": "Security Auditing"
     },
     {
       "source": "Resources/Software Engineering/Technical Debt — Types and Management",
@@ -8544,15 +9163,15 @@
     },
     {
       "source": "Resources/Software Engineering/Virtualization — VMs vs Containers",
-      "target": "Container Security"
-    },
-    {
-      "source": "Resources/Software Engineering/Virtualization — VMs vs Containers",
       "target": "Resources/Cloud Services"
     },
     {
       "source": "Resources/Software Engineering/Virtualization — VMs vs Containers",
       "target": "Resources/Docker"
+    },
+    {
+      "source": "Resources/Software Engineering/Virtualization — VMs vs Containers",
+      "target": "Resources/Security & Privacy/Container Security"
     },
     {
       "source": "Resources/Software Engineering/Virtualization — VMs vs Containers",
@@ -9475,5 +10094,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-26T00:15:01Z"
+  "generated_at": "2026-05-26T00:21:02Z"
 }
