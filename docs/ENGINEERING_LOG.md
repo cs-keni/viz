@@ -1,5 +1,110 @@
 # ENGINEERING LOG
 
+## 2026-05-26 — InstancedMesh performance optimization + invisible-nodes bug marathon (Claude Code, Sonnet 4.6)
+
+### Why we did this
+
+At 700+ nodes the graph lagged visibly when zoomed out. Each node was its own `THREE.Mesh` returned from `nodeThreeObject`, meaning 700+ individual draw calls per frame. The plan is to scale to 1000+ nodes, so this wasn't a problem that would shrink. The optimization goal: collapse all node draw calls into 3 (one `InstancedMesh` per degree bucket: low/mid/high), cutting GPU overhead by ~230×.
+
+### What changed in the refactor
+
+`nodeThreeObject` was changed to return an invisible `THREE.Object3D` tracker (react-force-graph-3d uses 2D projected distance for hover/click, so a trackerless interaction still works). Three `THREE.InstancedMesh` objects were created in a new `initInstancedMeshes` callback — one per degree bucket, with per-instance matrix uploads on every frame. Per-frame sync was placed in `onRenderFramePost`, matching the existing pattern used for star twinkling and nebula drift.
+
+This is where the codebase got messy: two separate animation systems now existed — the independent rAF loop (orbit, comets) and `onRenderFramePost` (everything node-visual). Responsibility was split across two callbacks with no clear rule for which went where.
+
+---
+
+### Bug 1 — React crashed silently on mount (Temporal Dead Zone)
+
+**Symptom:** Blank screen. Browser showed an empty `<div id="root">`, no canvas, no React mount.
+
+**Root cause:** `onEngineStop` was declared in the component before `initInstancedMeshes`, but referenced it in its `useCallback` deps array. JavaScript evaluates `useCallback(fn, [deps])` synchronously — at that point, `initInstancedMeshes` was still in the temporal dead zone (`const` not yet initialized). React's render phase threw a `ReferenceError` before mounting.
+
+**Fix:** Reordered callback declarations so `initInstancedMeshes` and `applySelectionColors` appear before `onEngineStop` in the component body.
+
+**Key learning:** `useCallback` deps arrays are evaluated eagerly. Any `const` in the array must be declared *above* the `useCallback` call. This is a silent React anti-pattern that produces blank screens with no useful error message.
+
+---
+
+### Bug 2 — Nodes invisible on first load (first attempt — wrong root cause)
+
+**Symptom:** Graph renders edges and link particles but no glowing node spheres. Nodes appear after camera cuts to a new cinematic angle (~12 seconds).
+
+**First theory:** `initInstancedMeshes` was only called from `onEngineStop` (after physics settle). We moved the init check to `onRenderFramePost` with `node.__threeObj` as the readiness signal, then to `node._radius !== undefined`. Committed as `2f75038`, then `72941c3`. User confirmed still broken both times.
+
+---
+
+### Bug 3 — Nodes invisible on first load (root cause: ghost prop)
+
+**Root cause (confirmed with console instrumentation):** `onRenderFramePost` is **declared in react-force-graph-3d's PropTypes but has zero call sites in the library bundle**. It was added to the API surface but never implemented. The callback was never invoked — not just "unreliable after physics", but literally never called, ever.
+
+This meant:
+- All InstancedMesh init/sync logic was dead code
+- Star twinkling was dead code (stars were static, just not noticeable)
+- Nebula drift was dead code (same)
+- `initInstancedMeshes` was only reachable via `onEngineStop`, which fires when d3-force physics fully converge — 10–20 seconds for 700+ nodes. That matched the user's observed delay exactly.
+
+**Diagnosis path:** Instrumented with `console.log` at the top of `onRenderFramePost` (unconditional, frame 1). No logs appeared despite canvas rendering. Then fetched the library source and grepped: `onRenderFramePost` appears exactly twice — both times in the PropTypes declaration block.
+
+**Fix:** Moved ALL per-frame work into the existing independent `requestAnimationFrame` loop that already drives orbit and comets:
+
+```js
+// In the rAF tick — after comets, before rafId = requestAnimationFrame(tick)
+
+// Init once: warmupTicks={300} runs synchronously before the rAF loop fires,
+// so node.x is already set to settled positions on the first tick.
+if (!instanceInitializedRef.current) {
+  const n0 = graphRef.current?.nodes?.[0]
+  if (n0?._radius !== undefined && n0?.x !== undefined) {
+    initInstancedMeshes()
+  }
+}
+
+// Sync every 2nd frame
+if (frame % 2 === 0 && instanceInitializedRef.current) { /* matrix upload */ }
+
+// Stars every 3rd frame, nebulae every frame
+```
+
+Removed `onRenderFramePost` callback and prop entirely. Committed as `cb381d3`.
+
+---
+
+### Correcting a wrong entry from 2026-05-25
+
+Bug 2 in the previous session's log ("Comets never appeared") stated: *"`onRenderFramePost` stops being called reliably or stops entirely after physics settles."* This was the wrong root cause. `onRenderFramePost` never fires at all — it was already dead from day 1. Comets appeared to be an `onRenderFramePost` problem because the original comet code was inside it. Stars and nebulae were silently broken the same way (static stars, non-drifting nebulae) — the visual effect is subtle enough that it went unnoticed.
+
+**Corrected root cause:** `onRenderFramePost` is an unimplemented stub in react-force-graph-3d. Never use it. All per-frame animation belongs in the independent rAF loop.
+
+---
+
+### Architecture lesson
+
+The original PHASES.md spec called for `onRenderFramePost` for breathing/particle animation. That was wrong from the start. The correct pattern, now consistent throughout the codebase:
+
+- **Independent rAF loop** (`useEffect` with `[]`): ALL per-frame animation — orbit, comets, InstancedMesh sync, star twinkling, nebula drift.
+- **Event callbacks** (`onEngineStop`, `onNodeClick`, etc.): one-shot state changes only.
+- **`onRenderFramePost`**: do not use. It exists in PropTypes but does nothing.
+
+---
+
+### Performance result
+
+Draw calls for 700 nodes: **700+ → 3** (one InstancedMesh per degree bucket). Frame throttling: matrix sync every 2nd frame (30fps), star colors every 3rd frame. The graph is now scale-ready to 1000+ nodes.
+
+---
+
+### Commits this session
+
+| Hash | Description |
+|---|---|
+| `5087da1` | InstancedMesh optimization (initial, with TDZ crash) |
+| `2f75038` | Fix invisible nodes (wrong root cause — __threeObj check) |
+| `72941c3` | Fix invisible nodes (wrong root cause — node.x/y/z swap) |
+| `cb381d3` | **Definitive fix** — move all per-frame work to rAF loop, remove ghost onRenderFramePost |
+
+---
+
 ## 2026-05-25 — Visual polish debug marathon + Phase 2 planning (Claude Code, Sonnet 4.6)
 
 ### Session summary
@@ -25,11 +130,11 @@ Orbit pauses on `controls 'start'` event, resumes 3s after `'end'` event via `se
 
 ---
 
-#### Bug 2 — Comets never appeared (onRenderFramePost reliability)
+#### Bug 2 — Comets never appeared (onRenderFramePost is a ghost prop)
 
 **Symptom:** No comets visible ever, even with correct spawn logic.
 
-**Root cause:** `onRenderFramePost` is tied to the react-force-graph-3d render tick, which is itself coupled to the d3 physics simulation. Once the simulation settles (~5-10s after load), `onRenderFramePost` stops being called reliably or stops entirely. The comet spawn check was inside `onRenderFramePost` — so it fired during physics warmup and then stopped.
+**Root cause (originally documented incorrectly — corrected 2026-05-26):** `onRenderFramePost` is declared in react-force-graph-3d's PropTypes but **has no call sites in the library bundle**. It was never implemented. The callback never fires, not just "after physics settles" — it never fires at all. The comet spawn logic was inside this dead callback.
 
 **Fix:** Moved ALL comet logic (spawn, animate trail/head, cleanup) into the same independent `requestAnimationFrame` loop that handles orbit. The loop runs unconditionally every frame for the lifetime of the component.
 
@@ -45,7 +150,7 @@ useEffect(() => {
 }, [])
 ```
 
-**Key learning:** `onRenderFramePost` is suitable for per-frame updates to existing Three.js objects (node breathing, star twinkling, nebula drift) but is NOT a reliable driver for persistent effects that must survive after physics settles. Independent rAF is the correct pattern.
+**Key learning:** Do not use `onRenderFramePost`. It is an unimplemented stub. All per-frame animation belongs in the independent rAF loop. (This bug also silently broke star twinkling and nebula drift, which lived in `onRenderFramePost` — confirmed and fixed 2026-05-26.)
 
 ---
 
