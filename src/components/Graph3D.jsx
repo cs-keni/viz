@@ -696,27 +696,27 @@ export default function Graph3D({ data }) {
     const t = (performance.now() - startTimeRef.current) / 1000
     const frame = ++frameCountRef.current
 
-    // Initialize instanced meshes on the first frame where node trackers are ready.
-    // nodeThreeObject runs before onRenderFramePost, so __threeObj is always set here.
-    // Doing this here (not onEngineStop) avoids the timing gap where positions might be stale.
-    if (!instanceInitializedRef.current && graph.nodes?.length && graph.nodes[0]?.__threeObj) {
+    // Initialize once node positions and visual props are ready (_radius set by nodeThreeObject).
+    // Use _radius as the readiness signal — it's set when nodeThreeObject fires.
+    if (!instanceInitializedRef.current && graph.nodes?.length && graph.nodes[0]?._radius !== undefined) {
       initInstancedMeshes()
     }
 
-    // Sync InstancedMesh matrices every other frame — breathing at 30fps is imperceptible
+    // Sync InstancedMesh matrices every other frame — breathing at 30fps is imperceptible.
+    // Use node.x/y/z (simulation coordinates) directly — never __threeObj.position,
+    // which can be (0,0,0) momentarily when the library re-creates trackers.
     if (frame % 2 === 0 && instanceInitializedRef.current) {
       const meshes = instancedMeshRef.current
       const dummy = dummyRef.current
       const dirty = { low: false, mid: false, high: false }
 
       graph.nodes?.forEach((node) => {
-        if (!node.__threeObj || node._bucket === undefined) return
+        if (node._bucket === undefined || node._instanceIdx === undefined) return
         const mesh = meshes[node._bucket]
         if (!mesh) return
-        const pos = node.__threeObj.position
         const amplitude = node._baseEmissive > 0.5 ? 0.08 : 0.04
         const scale = (node._radius ?? 1) * (1 + amplitude * Math.sin(t * 1.2 + (node._phase || 0)))
-        dummy.position.set(pos.x, pos.y, pos.z)
+        dummy.position.set(node.x ?? 0, node.y ?? 0, node.z ?? 0)
         dummy.scale.setScalar(scale)
         dummy.updateMatrix()
         mesh.setMatrixAt(node._instanceIdx, dummy.matrix)
