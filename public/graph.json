@@ -63,42 +63,6 @@
       "degree": 3
     },
     {
-      "id": "B-Trees and B+ Trees",
-      "label": "B-Trees and B+ Trees",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Backtracking",
-      "label": "Backtracking",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Bit Manipulation Tricks",
-      "label": "Bit Manipulation Tricks",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Bloom Filters",
-      "label": "Bloom Filters",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Bobby's Personality and Tone Guide",
       "label": "Bobby's Personality and Tone Guide",
       "folder": null,
@@ -151,15 +115,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 2
-    },
-    {
-      "id": "Computational Complexity Classes (P, NP, NP-Hard)",
-      "label": "Computational Complexity Classes (P, NP, NP-Hard)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
     },
     {
       "id": "Daily Notes/2026-05-19",
@@ -217,8 +172,8 @@
       "degree": 0
     },
     {
-      "id": "Divide and Conquer",
-      "label": "Divide and Conquer",
+      "id": "Directed Acyclic Graphs",
+      "label": "Directed Acyclic Graphs",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -233,15 +188,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 1
-    },
-    {
-      "id": "Graph Traversal (BFS, DFS)",
-      "label": "Graph Traversal (BFS, DFS)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 3
     },
     {
       "id": "How to Update Beliefs Gracefully (Bayesian Updating)",
@@ -322,15 +268,6 @@
         "career"
       ],
       "degree": 4
-    },
-    {
-      "id": "Minimum Spanning Trees (Kruskal, Prim)",
-      "label": "Minimum Spanning Trees (Kruskal, Prim)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
     },
     {
       "id": "Note Title",
@@ -456,6 +393,15 @@
       "degree": 2
     },
     {
+      "id": "Proof Techniques for Algorithms",
+      "label": "Proof Techniques for Algorithms",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Pub/Sub Architecture",
       "label": "Sub Architecture",
       "folder": "Pub",
@@ -463,15 +409,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 2
-    },
-    {
-      "id": "Recursion and Stack Frames",
-      "label": "Recursion and Stack Frames",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 3
     },
     {
       "id": "Redis Patterns (Caching, Pub/Sub, Job Queues, Rate Limiting)",
@@ -1256,6 +1193,18 @@
       "degree": 9
     },
     {
+      "id": "Resources/CS Theory & Algorithms/Amortized Analysis",
+      "label": "Amortized Analysis",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Amortized analysis bounds the average cost per operation over a worst-case sequence, without relying on randomness. It explains why occasional expensive operations can still produce efficient long-run behavior.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 6
+    },
+    {
       "id": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays",
       "label": "Arrays and Dynamic Arrays",
       "folder": "Resources",
@@ -1265,7 +1214,115 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 7
+      "degree": 13
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Automata Theory Basics (DFA, NFA)",
+      "label": "Automata Theory Basics (DFA, NFA)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Automata theory studies abstract machines that recognize patterns in strings. Deterministic and nondeterministic finite automata model regular languages and provide the theory behind many regex and parser ideas.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/B-Trees and B+ Trees",
+      "label": "B-Trees and B+ Trees",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "B-trees and B+ trees are balanced multiway search trees optimized for storage systems. They reduce disk and page reads by keeping many keys per node and shallow tree height.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Backtracking",
+      "label": "Backtracking",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Backtracking explores possible choices depth-first and abandons branches that cannot lead to valid solutions. It is useful for permutations, combinations, constraint satisfaction, puzzles, and exhaustive search with pruning.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Bit Manipulation Tricks",
+      "label": "Bit Manipulation Tricks",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Bit manipulation uses binary operations to represent sets, flags, masks, parity, and low-level arithmetic efficiently. Common tricks rely on AND, OR, XOR, shifts, complements, and two's-complement behavior.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Bloom Filters",
+      "label": "Bloom Filters",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Bloom filters are compact probabilistic data structures for membership checks. They can say an item is definitely not present or possibly present, trading false positives for memory efficiency.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Computational Complexity Classes (P, NP, NP-Hard)",
+      "label": "Computational Complexity Classes (P, NP, NP-Hard)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Computational complexity classes group problems by the resources needed to solve or verify them. P, NP, and NP-hard are central categories for reasoning about algorithmic tractability.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Divide and Conquer",
+      "label": "Divide and Conquer",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Divide and conquer solves problems by splitting them into smaller subproblems, solving those recursively, and combining the results. Merge sort, quicksort, binary search, and many tree algorithms use this pattern.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns",
+      "label": "Dynamic Programming Patterns",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Dynamic programming solves problems with overlapping subproblems and optimal substructure by storing reusable results. Common patterns include one-dimensional DP, grid DP, knapsack, interval DP, tree DP, and state-machine DP.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Graph Traversal (BFS, DFS)",
+      "label": "Graph Traversal (BFS, DFS)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Graph traversal systematically visits nodes and edges. Breadth-first search explores by distance layers, while depth-first search explores as far as possible before backtracking.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 10
     },
     {
       "id": "Resources/CS Theory & Algorithms/Graphs — Representations (Adjacency List vs Matrix)",
@@ -1277,7 +1334,19 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 5
+      "degree": 8
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Greedy Algorithms",
+      "label": "Greedy Algorithms",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Greedy algorithms make the locally best choice at each step and hope it leads to a global optimum. They are fast and elegant when a proof shows the greedy choice is safe.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)",
@@ -1289,7 +1358,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 7
+      "degree": 10
     },
     {
       "id": "Resources/CS Theory & Algorithms/Heaps and Priority Queues",
@@ -1301,7 +1370,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/CS Theory & Algorithms/Linked Lists (Singly, Doubly, Circular)",
@@ -1313,7 +1382,79 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 4
+      "degree": 6
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Memoization vs Tabulation",
+      "label": "Memoization vs Tabulation",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Memoization and tabulation are two dynamic programming implementation styles. Memoization caches recursive calls top-down, while tabulation fills a table bottom-up in dependency order.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Minimum Spanning Trees (Kruskal, Prim)",
+      "label": "Minimum Spanning Trees (Kruskal, Prim)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Minimum spanning tree algorithms connect all vertices in a weighted undirected graph with minimum total edge cost and no cycles. Kruskal and Prim solve the same problem using different greedy strategies.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/NP-Completeness Overview",
+      "label": "NP-Completeness Overview",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "NP-completeness identifies problems that are both in NP and at least as hard as every problem in NP. It explains why many problems appear to resist efficient exact algorithms.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Recursion and Stack Frames",
+      "label": "Recursion and Stack Frames",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Recursion solves problems by having a function call itself on smaller inputs, with stack frames tracking each active call. Understanding base cases, call stacks, and return flow prevents infinite recursion and stack overflow.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 11
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Regular Expressions — Theory and Practice",
+      "label": "Regular Expressions — Theory and Practice",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Regular expressions describe string patterns, originally corresponding to regular languages. Practical regex engines add features and tradeoffs that make regex powerful, useful, and sometimes dangerous for performance and readability.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Searching Algorithms (Binary Search and Variants)",
+      "label": "Searching Algorithms (Binary Search and Variants)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Searching algorithms locate items or boundaries in a data space. Binary search and its variants exploit monotonic structure to cut the search space in half repeatedly.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 7
     },
     {
       "id": "Resources/CS Theory & Algorithms/Segment Trees and Fenwick Trees",
@@ -1328,6 +1469,42 @@
       "degree": 5
     },
     {
+      "id": "Resources/CS Theory & Algorithms/Shortest Path Algorithms (Dijkstra, Bellman-Ford, A-star, Floyd-Warshall)",
+      "label": "Shortest Path Algorithms (Dijkstra, Bellman-Ford, A-star, Floyd-Warshall)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Shortest path algorithms find low-cost routes through graphs. Dijkstra, Bellman-Ford, A*, and Floyd-Warshall differ in edge-weight assumptions, negative-weight support, heuristics, and all-pairs versus single-source scope.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Skip Lists",
+      "label": "Skip Lists",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Skip lists maintain sorted order using layered linked lists with randomized promotion. They provide expected logarithmic search, insertion, and deletion while staying simpler than many balanced tree implementations.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Sliding Window Technique",
+      "label": "Sliding Window Technique",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "The sliding window technique maintains a contiguous range over an array or string while expanding and shrinking boundaries. It is useful for substring, subarray, frequency, and running-aggregate problems.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 7
+    },
+    {
       "id": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)",
       "label": "Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)",
       "folder": "Resources",
@@ -1337,7 +1514,19 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 6
+      "degree": 9
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Sorting Algorithms — Non-Comparison (Radix, Counting, Bucket)",
+      "label": "Sorting Algorithms — Non-Comparison (Radix, Counting, Bucket)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Non-comparison sorting algorithms use assumptions about keys instead of only pairwise comparisons. Radix, counting, and bucket sort can beat comparison-sort bounds when value ranges, digit structure, or distribution assumptions are favorable.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 5
     },
     {
       "id": "Resources/CS Theory & Algorithms/Stacks and Queues",
@@ -1345,6 +1534,30 @@
       "folder": "Resources",
       "created": "2026-05-25",
       "excerpt": "Stacks and queues are linear data structures with constrained access patterns. Stacks use last-in-first-out behavior, while queues use first-in-first-out behavior, making them useful for parsing, traversal, scheduling, and buffering.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/String Matching Algorithms (KMP, Rabin-Karp)",
+      "label": "String Matching Algorithms (KMP, Rabin-Karp)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "String matching algorithms find occurrences of a pattern inside text. KMP uses prefix structure to avoid backing up, while Rabin-Karp uses rolling hashes to compare candidate windows efficiently.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Topological Sort",
+      "label": "Topological Sort",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Topological sort orders nodes in a directed acyclic graph so every dependency comes before the thing that depends on it. It is useful for build systems, course schedules, task planning, and dependency resolution.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
@@ -1361,7 +1574,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 5
+      "degree": 8
     },
     {
       "id": "Resources/CS Theory & Algorithms/Tries (Prefix Trees)",
@@ -1373,7 +1586,31 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 4
+      "degree": 5
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Two-Pointer Technique",
+      "label": "Two-Pointer Technique",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "The two-pointer technique uses two indices or references that move through data in coordinated ways. It is common for sorted arrays, linked lists, pair searches, partitioning, and cycle detection.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Union-Find (Disjoint Set Union)",
+      "label": "Union-Find (Disjoint Set Union)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Union-Find, or Disjoint Set Union, tracks which elements belong to the same connected component. Path compression and union by rank make repeated union and find operations nearly constant time in practice.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/Caching",
@@ -1387,7 +1624,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "Resources/Claude Code Skills",
@@ -1575,7 +1812,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/Data Science & Analytics/Data Lake Architecture",
@@ -1779,7 +2016,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)",
@@ -1854,7 +2091,7 @@
         "neetcode",
         "interview-prep"
       ],
-      "degree": 13
+      "degree": 15
     },
     {
       "id": "Resources/Database Internals Deep Dive",
@@ -1869,7 +2106,7 @@
         "internals",
         "system-design"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Databases",
@@ -2003,7 +2240,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/DevOps & Infrastructure/Error Budgets",
@@ -2099,7 +2336,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems",
@@ -2333,7 +2570,7 @@
         "leetcode",
         "interview-prep"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Economics and Personal Finance",
@@ -2390,7 +2627,7 @@
         "study",
         "ai"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Geospatial",
@@ -2517,7 +2754,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 7
+      "degree": 12
     },
     {
       "id": "Resources/Mathematics/Boolean Algebra and Logic Gates",
@@ -2529,7 +2766,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Mathematics/Calculus — Derivatives and Integrals",
@@ -2577,7 +2814,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Resources/Mathematics/Discrete Mathematics for CS",
@@ -2649,7 +2886,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 8
+      "degree": 11
     },
     {
       "id": "Resources/Mathematics/Information Theory — Entropy, Cross-Entropy, KL Divergence",
@@ -2757,7 +2994,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Mathematics/Optimization — Convex vs Non-Convex",
@@ -2769,7 +3006,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Mathematics/Probability Distributions (Normal, Binomial, Poisson, Exponential)",
@@ -3051,7 +3288,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/Security",
@@ -3610,7 +3847,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Software Engineering/CQRS Pattern",
@@ -4679,33 +4916,6 @@
       "degree": 3
     },
     {
-      "id": "Sliding Window Technique",
-      "label": "Sliding Window Technique",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Sorting Algorithms — Non-Comparison (Radix, Counting, Bucket)",
-      "label": "Sorting Algorithms — Non-Comparison (Radix, Counting, Bucket)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "String Matching Algorithms (KMP, Rabin-Karp)",
-      "label": "String Matching Algorithms (KMP, Rabin-Karp)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "TLS 1.3",
       "label": "TLS 1.3",
       "folder": null,
@@ -4713,15 +4923,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 1
-    },
-    {
-      "id": "Two-Pointer Technique",
-      "label": "Two-Pointer Technique",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
     },
     {
       "id": "User Stories and Jobs to Be Done",
@@ -6174,6 +6375,30 @@
       "target": "Resources/Security"
     },
     {
+      "source": "Resources/CS Theory & Algorithms/Amortized Analysis",
+      "target": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Amortized Analysis",
+      "target": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Amortized Analysis",
+      "target": "Resources/CS Theory & Algorithms/Union-Find (Disjoint Set Union)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Amortized Analysis",
+      "target": "Resources/Mathematics/Big-O Notation and Complexity Analysis"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays",
+      "target": "Resources/CS Theory & Algorithms/Sliding Window Technique"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays",
+      "target": "Resources/CS Theory & Algorithms/Two-Pointer Technique"
+    },
+    {
       "source": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays",
       "target": "Resources/Data Structures and Algorithms Patterns"
     },
@@ -6182,20 +6407,156 @@
       "target": "Resources/Mathematics/Big-O Notation and Complexity Analysis"
     },
     {
-      "source": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays",
-      "target": "Sliding Window Technique"
+      "source": "Resources/CS Theory & Algorithms/Automata Theory Basics (DFA, NFA)",
+      "target": "Resources/CS Theory & Algorithms/Regular Expressions — Theory and Practice"
     },
     {
-      "source": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays",
-      "target": "Two-Pointer Technique"
+      "source": "Resources/CS Theory & Algorithms/Automata Theory Basics (DFA, NFA)",
+      "target": "Resources/CS Theory & Algorithms/String Matching Algorithms (KMP, Rabin-Karp)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Automata Theory Basics (DFA, NFA)",
+      "target": "Resources/Formal Methods Agent Safety"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Automata Theory Basics (DFA, NFA)",
+      "target": "Resources/Mathematics/Boolean Algebra and Logic Gates"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/B-Trees and B+ Trees",
+      "target": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/B-Trees and B+ Trees",
+      "target": "Resources/Data Science & Analytics/SQL for Analytics"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/B-Trees and B+ Trees",
+      "target": "Resources/Database Internals Deep Dive"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/B-Trees and B+ Trees",
+      "target": "Resources/DevOps & Infrastructure/Disk I-O Optimization"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Backtracking",
+      "target": "Resources/CS Theory & Algorithms/Graph Traversal (BFS, DFS)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Backtracking",
+      "target": "Resources/CS Theory & Algorithms/NP-Completeness Overview"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Backtracking",
+      "target": "Resources/CS Theory & Algorithms/Recursion and Stack Frames"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Backtracking",
+      "target": "Resources/Mathematics/Combinatorics Basics (Permutations, Combinations)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Bit Manipulation Tricks",
+      "target": "Resources/CS Theory & Algorithms/Bloom Filters"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Bit Manipulation Tricks",
+      "target": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Bit Manipulation Tricks",
+      "target": "Resources/Mathematics/Boolean Algebra and Logic Gates"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Bit Manipulation Tricks",
+      "target": "Resources/Mathematics/Number Theory Basics (Primes, Modular Arithmetic)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Bloom Filters",
+      "target": "Resources/CS Theory & Algorithms/Bit Manipulation Tricks"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Bloom Filters",
+      "target": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Bloom Filters",
+      "target": "Resources/Caching"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Bloom Filters",
+      "target": "Resources/Search Systems"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Computational Complexity Classes (P, NP, NP-Hard)",
+      "target": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Computational Complexity Classes (P, NP, NP-Hard)",
+      "target": "Resources/CS Theory & Algorithms/NP-Completeness Overview"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Computational Complexity Classes (P, NP, NP-Hard)",
+      "target": "Resources/Mathematics/Big-O Notation and Complexity Analysis"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Computational Complexity Classes (P, NP, NP-Hard)",
+      "target": "Resources/Mathematics/Combinatorics Basics (Permutations, Combinations)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Divide and Conquer",
+      "target": "Resources/CS Theory & Algorithms/Recursion and Stack Frames"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Divide and Conquer",
+      "target": "Resources/CS Theory & Algorithms/Searching Algorithms (Binary Search and Variants)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Divide and Conquer",
+      "target": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Divide and Conquer",
+      "target": "Resources/Mathematics/Big-O Notation and Complexity Analysis"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns",
+      "target": "Resources/CS Theory & Algorithms/Memoization vs Tabulation"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns",
+      "target": "Resources/CS Theory & Algorithms/Recursion and Stack Frames"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns",
+      "target": "Resources/Dynamic Programming Deep Dive"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns",
+      "target": "Resources/Mathematics/Optimization — Convex vs Non-Convex"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Graph Traversal (BFS, DFS)",
+      "target": "Resources/CS Theory & Algorithms/Backtracking"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Graph Traversal (BFS, DFS)",
+      "target": "Resources/CS Theory & Algorithms/Graphs — Representations (Adjacency List vs Matrix)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Graph Traversal (BFS, DFS)",
+      "target": "Resources/CS Theory & Algorithms/Topological Sort"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Graph Traversal (BFS, DFS)",
+      "target": "Resources/Mathematics/Graph Theory Fundamentals"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Graphs — Representations (Adjacency List vs Matrix)",
-      "target": "Graph Traversal (BFS, DFS)"
+      "target": "Resources/CS Theory & Algorithms/Graph Traversal (BFS, DFS)"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Graphs — Representations (Adjacency List vs Matrix)",
-      "target": "Minimum Spanning Trees (Kruskal, Prim)"
+      "target": "Resources/CS Theory & Algorithms/Minimum Spanning Trees (Kruskal, Prim)"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Graphs — Representations (Adjacency List vs Matrix)",
@@ -6206,8 +6567,24 @@
       "target": "Shortest Path Algorithms (Dijkstra, Bellman-Ford, A*, Floyd-Warshall)"
     },
     {
+      "source": "Resources/CS Theory & Algorithms/Greedy Algorithms",
+      "target": "Proof Techniques for Algorithms"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Greedy Algorithms",
+      "target": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Greedy Algorithms",
+      "target": "Resources/CS Theory & Algorithms/Minimum Spanning Trees (Kruskal, Prim)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Greedy Algorithms",
+      "target": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)"
+    },
+    {
       "source": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)",
-      "target": "Bloom Filters"
+      "target": "Resources/CS Theory & Algorithms/Bloom Filters"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)",
@@ -6239,19 +6616,115 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Linked Lists (Singly, Doubly, Circular)",
-      "target": "Recursion and Stack Frames"
+      "target": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Linked Lists (Singly, Doubly, Circular)",
-      "target": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays"
+      "target": "Resources/CS Theory & Algorithms/Recursion and Stack Frames"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Linked Lists (Singly, Doubly, Circular)",
+      "target": "Resources/CS Theory & Algorithms/Two-Pointer Technique"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Linked Lists (Singly, Doubly, Circular)",
       "target": "Resources/Data Structures and Algorithms Patterns"
     },
     {
-      "source": "Resources/CS Theory & Algorithms/Linked Lists (Singly, Doubly, Circular)",
-      "target": "Two-Pointer Technique"
+      "source": "Resources/CS Theory & Algorithms/Memoization vs Tabulation",
+      "target": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Memoization vs Tabulation",
+      "target": "Resources/CS Theory & Algorithms/Recursion and Stack Frames"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Memoization vs Tabulation",
+      "target": "Resources/Data Structures and Algorithms Patterns"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Memoization vs Tabulation",
+      "target": "Resources/Mathematics/Optimization — Convex vs Non-Convex"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Minimum Spanning Trees (Kruskal, Prim)",
+      "target": "Resources/CS Theory & Algorithms/Greedy Algorithms"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Minimum Spanning Trees (Kruskal, Prim)",
+      "target": "Resources/CS Theory & Algorithms/Shortest Path Algorithms (Dijkstra, Bellman-Ford, A-star, Floyd-Warshall)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Minimum Spanning Trees (Kruskal, Prim)",
+      "target": "Resources/CS Theory & Algorithms/Union-Find (Disjoint Set Union)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Minimum Spanning Trees (Kruskal, Prim)",
+      "target": "Resources/Mathematics/Graph Theory Fundamentals"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/NP-Completeness Overview",
+      "target": "Resources/CS Theory & Algorithms/Backtracking"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/NP-Completeness Overview",
+      "target": "Resources/CS Theory & Algorithms/Computational Complexity Classes (P, NP, NP-Hard)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/NP-Completeness Overview",
+      "target": "Resources/CS Theory & Algorithms/Greedy Algorithms"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/NP-Completeness Overview",
+      "target": "Resources/Mathematics/Combinatorics Basics (Permutations, Combinations)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Recursion and Stack Frames",
+      "target": "Resources/CS Theory & Algorithms/Backtracking"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Recursion and Stack Frames",
+      "target": "Resources/CS Theory & Algorithms/Divide and Conquer"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Recursion and Stack Frames",
+      "target": "Resources/CS Theory & Algorithms/Memoization vs Tabulation"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Recursion and Stack Frames",
+      "target": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Regular Expressions — Theory and Practice",
+      "target": "Resources/CS Theory & Algorithms/Automata Theory Basics (DFA, NFA)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Regular Expressions — Theory and Practice",
+      "target": "Resources/CS Theory & Algorithms/String Matching Algorithms (KMP, Rabin-Karp)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Regular Expressions — Theory and Practice",
+      "target": "Resources/Data Science & Analytics/Data Cleaning Strategies"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Regular Expressions — Theory and Practice",
+      "target": "Resources/DevOps & Infrastructure/Log Aggregation (ELK Stack, Loki)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Searching Algorithms (Binary Search and Variants)",
+      "target": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Searching Algorithms (Binary Search and Variants)",
+      "target": "Resources/CS Theory & Algorithms/Two-Pointer Technique"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Searching Algorithms (Binary Search and Variants)",
+      "target": "Resources/Data Structures and Algorithms Patterns"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Searching Algorithms (Binary Search and Variants)",
+      "target": "Resources/Mathematics/Big-O Notation and Complexity Analysis"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Segment Trees and Fenwick Trees",
@@ -6270,48 +6743,144 @@
       "target": "Resources/Mathematics/Big-O Notation and Complexity Analysis"
     },
     {
+      "source": "Resources/CS Theory & Algorithms/Shortest Path Algorithms (Dijkstra, Bellman-Ford, A-star, Floyd-Warshall)",
+      "target": "Resources/CS Theory & Algorithms/Graph Traversal (BFS, DFS)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Shortest Path Algorithms (Dijkstra, Bellman-Ford, A-star, Floyd-Warshall)",
+      "target": "Resources/CS Theory & Algorithms/Graphs — Representations (Adjacency List vs Matrix)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Shortest Path Algorithms (Dijkstra, Bellman-Ford, A-star, Floyd-Warshall)",
+      "target": "Resources/CS Theory & Algorithms/Heaps and Priority Queues"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Shortest Path Algorithms (Dijkstra, Bellman-Ford, A-star, Floyd-Warshall)",
+      "target": "Resources/CS Theory & Algorithms/Minimum Spanning Trees (Kruskal, Prim)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Skip Lists",
+      "target": "Resources/CS Theory & Algorithms/Amortized Analysis"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Skip Lists",
+      "target": "Resources/CS Theory & Algorithms/Linked Lists (Singly, Doubly, Circular)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Skip Lists",
+      "target": "Resources/CS Theory & Algorithms/Searching Algorithms (Binary Search and Variants)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Skip Lists",
+      "target": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Sliding Window Technique",
+      "target": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Sliding Window Technique",
+      "target": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Sliding Window Technique",
+      "target": "Resources/CS Theory & Algorithms/String Matching Algorithms (KMP, Rabin-Karp)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Sliding Window Technique",
+      "target": "Resources/CS Theory & Algorithms/Two-Pointer Technique"
+    },
+    {
       "source": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)",
-      "target": "Divide and Conquer"
+      "target": "Resources/CS Theory & Algorithms/Divide and Conquer"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)",
       "target": "Resources/CS Theory & Algorithms/Heaps and Priority Queues"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)",
+      "target": "Resources/CS Theory & Algorithms/Sorting Algorithms — Non-Comparison (Radix, Counting, Bucket)"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)",
       "target": "Resources/Mathematics/Big-O Notation and Complexity Analysis"
     },
     {
-      "source": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)",
-      "target": "Sorting Algorithms — Non-Comparison (Radix, Counting, Bucket)"
+      "source": "Resources/CS Theory & Algorithms/Sorting Algorithms — Non-Comparison (Radix, Counting, Bucket)",
+      "target": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Sorting Algorithms — Non-Comparison (Radix, Counting, Bucket)",
+      "target": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Sorting Algorithms — Non-Comparison (Radix, Counting, Bucket)",
+      "target": "Resources/Mathematics/Big-O Notation and Complexity Analysis"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Sorting Algorithms — Non-Comparison (Radix, Counting, Bucket)",
+      "target": "Resources/Mathematics/Number Theory Basics (Primes, Modular Arithmetic)"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Stacks and Queues",
-      "target": "Graph Traversal (BFS, DFS)"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/Stacks and Queues",
-      "target": "Recursion and Stack Frames"
+      "target": "Resources/CS Theory & Algorithms/Graph Traversal (BFS, DFS)"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Stacks and Queues",
       "target": "Resources/CS Theory & Algorithms/Heaps and Priority Queues"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Stacks and Queues",
+      "target": "Resources/CS Theory & Algorithms/Recursion and Stack Frames"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Stacks and Queues",
       "target": "Resources/Data Structures and Algorithms Patterns"
     },
     {
-      "source": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black",
-      "target": "B-Trees and B+ Trees"
+      "source": "Resources/CS Theory & Algorithms/String Matching Algorithms (KMP, Rabin-Karp)",
+      "target": "Resources/CS Theory & Algorithms/Regular Expressions — Theory and Practice"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/String Matching Algorithms (KMP, Rabin-Karp)",
+      "target": "Resources/CS Theory & Algorithms/Sliding Window Technique"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/String Matching Algorithms (KMP, Rabin-Karp)",
+      "target": "Resources/CS Theory & Algorithms/Tries (Prefix Trees)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/String Matching Algorithms (KMP, Rabin-Karp)",
+      "target": "Resources/Search Systems"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Topological Sort",
+      "target": "Directed Acyclic Graphs"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Topological Sort",
+      "target": "Resources/CS Theory & Algorithms/Graph Traversal (BFS, DFS)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Topological Sort",
+      "target": "Resources/CS Theory & Algorithms/Graphs — Representations (Adjacency List vs Matrix)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Topological Sort",
+      "target": "Resources/Software Engineering/Build Systems Overview (Make, Bazel, Nx)"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black",
-      "target": "Recursion and Stack Frames"
+      "target": "Resources/CS Theory & Algorithms/B-Trees and B+ Trees"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black",
       "target": "Resources/CS Theory & Algorithms/Heaps and Priority Queues"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black",
+      "target": "Resources/CS Theory & Algorithms/Recursion and Stack Frames"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black",
@@ -6323,6 +6892,10 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Tries (Prefix Trees)",
+      "target": "Resources/CS Theory & Algorithms/String Matching Algorithms (KMP, Rabin-Karp)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Tries (Prefix Trees)",
       "target": "Resources/Search Systems"
     },
     {
@@ -6330,8 +6903,36 @@
       "target": "Resources/System Design/Design a Search Engine"
     },
     {
-      "source": "Resources/CS Theory & Algorithms/Tries (Prefix Trees)",
-      "target": "String Matching Algorithms (KMP, Rabin-Karp)"
+      "source": "Resources/CS Theory & Algorithms/Two-Pointer Technique",
+      "target": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Two-Pointer Technique",
+      "target": "Resources/CS Theory & Algorithms/Linked Lists (Singly, Doubly, Circular)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Two-Pointer Technique",
+      "target": "Resources/CS Theory & Algorithms/Searching Algorithms (Binary Search and Variants)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Two-Pointer Technique",
+      "target": "Resources/CS Theory & Algorithms/Sliding Window Technique"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Union-Find (Disjoint Set Union)",
+      "target": "Resources/CS Theory & Algorithms/Amortized Analysis"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Union-Find (Disjoint Set Union)",
+      "target": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Union-Find (Disjoint Set Union)",
+      "target": "Resources/CS Theory & Algorithms/Minimum Spanning Trees (Kruskal, Prim)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Union-Find (Disjoint Set Union)",
+      "target": "Resources/Mathematics/Graph Theory Fundamentals"
     },
     {
       "source": "Resources/Caching",
@@ -7811,7 +8412,7 @@
     },
     {
       "source": "Resources/Mathematics/Boolean Algebra and Logic Gates",
-      "target": "Bit Manipulation Tricks"
+      "target": "Resources/CS Theory & Algorithms/Bit Manipulation Tricks"
     },
     {
       "source": "Resources/Mathematics/Boolean Algebra and Logic Gates",
@@ -7875,11 +8476,11 @@
     },
     {
       "source": "Resources/Mathematics/Combinatorics Basics (Permutations, Combinations)",
-      "target": "Backtracking"
+      "target": "Resources/CS Theory & Algorithms/Backtracking"
     },
     {
       "source": "Resources/Mathematics/Combinatorics Basics (Permutations, Combinations)",
-      "target": "Computational Complexity Classes (P, NP, NP-Hard)"
+      "target": "Resources/CS Theory & Algorithms/Computational Complexity Classes (P, NP, NP-Hard)"
     },
     {
       "source": "Resources/Mathematics/Combinatorics Basics (Permutations, Combinations)",
@@ -7971,7 +8572,7 @@
     },
     {
       "source": "Resources/Mathematics/Graph Theory Fundamentals",
-      "target": "Graph Traversal (BFS, DFS)"
+      "target": "Resources/CS Theory & Algorithms/Graph Traversal (BFS, DFS)"
     },
     {
       "source": "Resources/Mathematics/Graph Theory Fundamentals",
@@ -10902,5 +11503,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-26T00:31:18Z"
+  "generated_at": "2026-05-26T00:38:10Z"
 }
