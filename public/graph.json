@@ -90,15 +90,6 @@
       "degree": 1
     },
     {
-      "id": "Browser Security Model (Same-Origin Policy)",
-      "label": "Browser Security Model (Same-Origin Policy)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "CI/CD Pipeline Design",
       "label": "CD Pipeline Design",
       "folder": "CI",
@@ -203,15 +194,6 @@
     {
       "id": "Game Theory Fundamentals",
       "label": "Game Theory Fundamentals",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "How Browsers Work (Parsing, Rendering, Compositing)",
-      "label": "How Browsers Work (Parsing, Rendering, Compositing)",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -451,15 +433,6 @@
     {
       "id": "Python — Closures",
       "label": "Python — Closures",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "React — State Management (Zustand, Redux, Context API)",
-      "label": "React — State Management (Zustand, Redux, Context API)",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -3357,7 +3330,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Programming Languages/JIT Compilation",
@@ -3681,7 +3654,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/RAG and Bobby Vector Search",
@@ -3802,7 +3775,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Security & Privacy/Authentication vs Authorization",
@@ -3826,7 +3799,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Security & Privacy/Clickjacking Prevention",
@@ -3874,7 +3847,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Security & Privacy/Defense in Depth",
@@ -4078,7 +4051,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Resources/Security & Privacy/Session Management",
@@ -4090,7 +4063,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/Security & Privacy/Social Engineering Attacks",
@@ -4239,7 +4212,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "Resources/Software Engineering/API Design — Server-Sent Events",
@@ -5379,7 +5352,400 @@
         "resource",
         "study"
       ],
-      "degree": 0
+      "degree": 1
+    },
+    {
+      "id": "Resources/Web Technologies/Accessibility (a11y) Fundamentals",
+      "label": "Accessibility (a11y) Fundamentals",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Web accessibility means building interfaces that people can use across disabilities, devices, input methods, and assistive technologies. Good accessibility starts with semantic HTML, keyboard support, visible focus, readable contrast, labels, and predictable behavior.",
+      "tags": [
+        "resource",
+        "web-technologies"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Web Technologies/Animation Easing Curves (Cubic Bezier)",
+      "label": "Animation Easing Curves (Cubic Bezier)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Easing curves control how animation progresses over time. Cubic Bezier curves shape acceleration and deceleration, making motion feel responsive, calm, playful, sharp, or heavy.",
+      "tags": [
+        "resource",
+        "web-technologies",
+        "animation"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Web Technologies/Browser Security Model (Same-Origin Policy)",
+      "label": "Browser Security Model (Same-Origin Policy)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The browser security model isolates sites by origin so one site cannot freely read another site's data. Same-origin policy, sandboxing, cookies, CORS, CSP, and storage partitioning are core pieces of web application security.",
+      "tags": [
+        "resource",
+        "web-technologies",
+        "security"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Web Technologies/Browser Storage (localStorage, sessionStorage, IndexedDB, Cookies)",
+      "label": "Browser Storage (localStorage, sessionStorage, IndexedDB, Cookies)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Browser storage options differ by capacity, lifetime, sync behavior, security properties, and server visibility. Cookies are for HTTP state, localStorage and sessionStorage are simple synchronous key-value stores, and IndexedDB is the serious client-side database.",
+      "tags": [
+        "resource",
+        "web-technologies"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Web Technologies/CORS — How It Works",
+      "label": "CORS — How It Works",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "CORS is the browser security mechanism that lets servers opt into cross-origin requests. It does not protect servers by itself; it controls which browser-based callers can read responses under the same-origin policy.",
+      "tags": [
+        "resource",
+        "web-technologies",
+        "security"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Web Technologies/CSS Animation and Transitions",
+      "label": "CSS Animation and Transitions",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "CSS transitions and animations are native browser tools for motion. They are strongest for state changes, microinteractions, loaders, and simple choreography, especially when limited to compositor-friendly properties like transform and opacity.",
+      "tags": [
+        "resource",
+        "web-technologies",
+        "css"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Web Technologies/CSS Architecture (BEM, CSS Modules, Tailwind)",
+      "label": "CSS Architecture (BEM, CSS Modules, Tailwind)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "CSS architecture is about keeping styling predictable as a codebase grows. BEM, CSS Modules, and Tailwind solve naming, scoping, reuse, and consistency problems in different ways.",
+      "tags": [
+        "resource",
+        "web-technologies",
+        "css"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Web Technologies/CSS Grid vs Flexbox — When to Use Each",
+      "label": "CSS Grid vs Flexbox — When to Use Each",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "CSS Grid and Flexbox are complementary layout systems. Flexbox is best for one-dimensional flows, while Grid is best for two-dimensional page and component layouts with explicit rows and columns.",
+      "tags": [
+        "resource",
+        "web-technologies",
+        "css"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Web Technologies/Canvas API",
+      "label": "Canvas API",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Canvas API provides immediate-mode drawing for 2D graphics in the browser. It is useful for charts, games, image editing, sketches, and custom visualizations where DOM elements would be too heavy or awkward.",
+      "tags": [
+        "resource",
+        "web-technologies",
+        "graphics"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Web Technologies/Core Web Vitals (LCP, INP, CLS)",
+      "label": "Core Web Vitals (LCP, INP, CLS)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Core Web Vitals are user-centered web performance metrics: LCP measures loading, INP measures responsiveness, and CLS measures visual stability. They are useful because they force performance work to focus on what users actually feel.",
+      "tags": [
+        "resource",
+        "web-technologies"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Web Technologies/Critical Rendering Path",
+      "label": "Critical Rendering Path",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The critical rendering path is the sequence of work required before a browser can show the first useful pixels. Optimizing it means reducing render-blocking resources, shortening dependency chains, and prioritizing above-the-fold content.",
+      "tags": [
+        "resource",
+        "web-technologies"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Web Technologies/Design Tokens",
+      "label": "Design Tokens",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Design tokens are named values for visual decisions such as color, spacing, typography, radii, shadows, motion, and breakpoints. They let design systems keep interfaces consistent across components, platforms, and themes.",
+      "tags": [
+        "resource",
+        "web-technologies",
+        "design-systems"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Web Technologies/Framer Motion Patterns",
+      "label": "Framer Motion Patterns",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Framer Motion provides declarative React animation patterns for variants, layout animation, gestures, shared layout transitions, and exit animations. It is strongest when motion is tied to React state and component lifecycle.",
+      "tags": [
+        "resource",
+        "web-technologies",
+        "react",
+        "animation"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Web Technologies/How Browsers Work (Parsing, Rendering, Compositing)",
+      "label": "How Browsers Work (Parsing, Rendering, Compositing)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Browsers turn HTML, CSS, JavaScript, images, and fonts into pixels through parsing, style calculation, layout, paint, and compositing. Understanding that pipeline explains why some frontend changes are cheap while others cause jank.",
+      "tags": [
+        "resource",
+        "web-technologies"
+      ],
+      "degree": 9
+    },
+    {
+      "id": "Resources/Web Technologies/Next.js App Router Architecture",
+      "label": "Next.js App Router Architecture",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Next.js App Router organizes applications around nested route segments, layouts, React Server Components, server actions, loading states, and colocated metadata. Its core architectural decision is where code runs: server, client, build time, request time, or edge.",
+      "tags": [
+        "resource",
+        "web-technologies",
+        "react"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Web Technologies/OpenGraph Protocol",
+      "label": "OpenGraph Protocol",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "OpenGraph metadata controls how pages appear when shared on social platforms, chat apps, and link previews. Good titles, descriptions, images, URLs, and content types make links legible and trustworthy outside the site itself.",
+      "tags": [
+        "resource",
+        "web-technologies",
+        "seo"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Web Technologies/Progressive Web Apps (PWAs)",
+      "label": "Progressive Web Apps (PWAs)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Progressive Web Apps use web platform features to feel more app-like: installability, offline support, caching, background behavior, and responsive layouts. The core idea is progressive enhancement: the app should improve when capabilities exist without breaking when they do not.",
+      "tags": [
+        "resource",
+        "web-technologies"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Web Technologies/React — Component Lifecycle",
+      "label": "React — Component Lifecycle",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "React component lifecycle is the sequence of rendering, committing to the DOM, running effects, updating, and unmounting. In modern React, lifecycle thinking mostly appears through hooks, effects, refs, and cleanup behavior.",
+      "tags": [
+        "resource",
+        "web-technologies",
+        "react"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Web Technologies/React — Hooks Deep Dive (useState, useEffect, useRef, useMemo)",
+      "label": "React — Hooks Deep Dive (useState, useEffect, useRef, useMemo)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "React hooks let function components hold state, run effects, preserve mutable refs, memoize calculations, and compose reusable behavior. The core skill is knowing which hook matches the problem rather than turning every concern into an effect.",
+      "tags": [
+        "resource",
+        "web-technologies",
+        "react"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Web Technologies/React — Performance Optimization (memo, lazy, Suspense)",
+      "label": "React — Performance Optimization (memo, lazy, Suspense)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "React performance optimization focuses on reducing unnecessary rendering, splitting code, managing expensive work, and improving perceived loading states. Tools like memo, lazy, and Suspense help when used for measured bottlenecks rather than as default decoration.",
+      "tags": [
+        "resource",
+        "web-technologies",
+        "react"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Web Technologies/React — Reconciliation and Virtual DOM",
+      "label": "React — Reconciliation and Virtual DOM",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "React reconciliation compares a component tree's previous and next output to decide what host updates are needed. The virtual DOM is the intermediate description React uses to make UI updates predictable, batched, and component-driven.",
+      "tags": [
+        "resource",
+        "web-technologies",
+        "react"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Web Technologies/React — State Management (Zustand, Redux, Context API)",
+      "label": "React — State Management (Zustand, Redux, Context API)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "React state management is about choosing where state lives, who can update it, and how changes propagate. Local state, Context, Zustand, Redux, URL state, and server cache tools solve different problems and should not be treated as one category.",
+      "tags": [
+        "resource",
+        "web-technologies",
+        "react"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Web Technologies/Responsive Design Principles",
+      "label": "Responsive Design Principles",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Responsive design makes interfaces adapt to different screen sizes, input modes, zoom levels, content lengths, and device constraints. Good responsive design uses fluid layout, flexible media, stable constraints, and content-first breakpoints.",
+      "tags": [
+        "resource",
+        "web-technologies",
+        "css"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Web Technologies/SEO Fundamentals",
+      "label": "SEO Fundamentals",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "SEO fundamentals for web engineers center on crawlable content, clear metadata, semantic HTML, fast pages, canonical URLs, structured data, and useful content. Technical SEO makes it easier for search engines to discover, understand, and rank pages.",
+      "tags": [
+        "resource",
+        "web-technologies",
+        "seo"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Web Technologies/Server-Side Rendering vs Static Site Generation vs CSR",
+      "label": "Server-Side Rendering vs Static Site Generation vs CSR",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "SSR, SSG, and client-side rendering are different ways to produce HTML and interactive UI. The tradeoffs involve freshness, performance, caching, personalization, SEO, infrastructure cost, and client JavaScript weight.",
+      "tags": [
+        "resource",
+        "web-technologies"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Web Technologies/Service Workers",
+      "label": "Service Workers",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Service workers are background scripts that sit between a web app and the network. They enable offline support, request interception, caching strategies, background sync, and push notifications, but their lifecycle and cache invalidation rules require care.",
+      "tags": [
+        "resource",
+        "web-technologies"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Web Technologies/Spring Physics in Animation",
+      "label": "Spring Physics in Animation",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Spring physics models animation as a system with tension, damping, mass, and velocity. It often feels more natural than fixed-duration easing because movement responds to distance and interruption.",
+      "tags": [
+        "resource",
+        "web-technologies",
+        "animation"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Web Technologies/Web Components",
+      "label": "Web Components",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Web Components are browser-native primitives for reusable custom elements, encapsulated markup, and scoped styling. They are useful for framework-agnostic components, design systems, and embeddable widgets, but require careful accessibility and integration design.",
+      "tags": [
+        "resource",
+        "web-technologies"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Web Technologies/Web Performance Optimization",
+      "label": "Web Performance Optimization",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Web performance optimization is about making pages load quickly, respond quickly, and stay visually stable under real user conditions. It combines network strategy, rendering strategy, JavaScript discipline, asset optimization, caching, and measurement.",
+      "tags": [
+        "resource",
+        "web-technologies"
+      ],
+      "degree": 9
+    },
+    {
+      "id": "Resources/Web Technologies/Web Scraping Ethics and Techniques",
+      "label": "Web Scraping Ethics and Techniques",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Web scraping combines HTTP, parsing, browser automation, rate limiting, and data cleaning, but it also carries legal, ethical, and operational responsibilities. Responsible scraping minimizes load, respects access controls, and avoids collecting sensitive data unnecessarily.",
+      "tags": [
+        "resource",
+        "web-technologies"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Web Technologies/WebGL Basics",
+      "label": "WebGL Basics",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "WebGL is a browser API for rendering GPU-accelerated 2D and 3D graphics through an OpenGL-like pipeline. It powers interactive visualizations, games, effects, and 3D web experiences, usually through libraries such as Three.js.",
+      "tags": [
+        "resource",
+        "web-technologies",
+        "graphics"
+      ],
+      "degree": 5
     },
     {
       "id": "Resources/What Is Obsidian",
@@ -5429,24 +5795,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 5
-    },
-    {
-      "id": "Web Performance Optimization",
-      "label": "Web Performance Optimization",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
-    },
-    {
-      "id": "WebGL Basics",
-      "label": "WebGL Basics",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
     },
     {
       "id": "Writing Good Documentation",
@@ -9594,10 +9942,6 @@
     },
     {
       "source": "Resources/Programming Languages/Immutability and Pure Functions",
-      "target": "React — State Management (Zustand, Redux, Context API)"
-    },
-    {
-      "source": "Resources/Programming Languages/Immutability and Pure Functions",
       "target": "Resources/Programming Languages/Concurrency Primitives (Mutex, Semaphore, Condition Variable)"
     },
     {
@@ -9607,6 +9951,10 @@
     {
       "source": "Resources/Programming Languages/Immutability and Pure Functions",
       "target": "Resources/Programming Languages/Monads (Accessible Explanation)"
+    },
+    {
+      "source": "Resources/Programming Languages/Immutability and Pure Functions",
+      "target": "Resources/Web Technologies/React — State Management (Zustand, Redux, Context API)"
     },
     {
       "source": "Resources/Programming Languages/JIT Compilation",
@@ -9686,7 +10034,7 @@
     },
     {
       "source": "Resources/Programming Languages/JavaScript — Promises and Async-Await",
-      "target": "Web Performance Optimization"
+      "target": "Resources/Web Technologies/Web Performance Optimization"
     },
     {
       "source": "Resources/Programming Languages/JavaScript — Prototypes and Prototype Chain",
@@ -9706,10 +10054,6 @@
     },
     {
       "source": "Resources/Programming Languages/JavaScript — The Event Loop",
-      "target": "How Browsers Work (Parsing, Rendering, Compositing)"
-    },
-    {
-      "source": "Resources/Programming Languages/JavaScript — The Event Loop",
       "target": "Resources/Programming Languages/JavaScript — Promises and Async-Await"
     },
     {
@@ -9718,7 +10062,11 @@
     },
     {
       "source": "Resources/Programming Languages/JavaScript — The Event Loop",
-      "target": "Web Performance Optimization"
+      "target": "Resources/Web Technologies/How Browsers Work (Parsing, Rendering, Compositing)"
+    },
+    {
+      "source": "Resources/Programming Languages/JavaScript — The Event Loop",
+      "target": "Resources/Web Technologies/Web Performance Optimization"
     },
     {
       "source": "Resources/Programming Languages/Language Design Tradeoffs",
@@ -10026,10 +10374,6 @@
     },
     {
       "source": "Resources/Programming Languages/WebAssembly (WASM) Basics",
-      "target": "Browser Security Model (Same-Origin Policy)"
-    },
-    {
-      "source": "Resources/Programming Languages/WebAssembly (WASM) Basics",
       "target": "Resources/Programming Languages/Compiled vs Interpreted vs JIT Languages"
     },
     {
@@ -10038,7 +10382,11 @@
     },
     {
       "source": "Resources/Programming Languages/WebAssembly (WASM) Basics",
-      "target": "WebGL Basics"
+      "target": "Resources/Web Technologies/Browser Security Model (Same-Origin Policy)"
+    },
+    {
+      "source": "Resources/Programming Languages/WebAssembly (WASM) Basics",
+      "target": "Resources/Web Technologies/WebGL Basics"
     },
     {
       "source": "Resources/RAG and Bobby Vector Search",
@@ -12569,6 +12917,378 @@
       "target": "Resources/What Is Obsidian"
     },
     {
+      "source": "Resources/Web Technologies/Accessibility (a11y) Fundamentals",
+      "target": "Resources/Web Technologies/Design Tokens"
+    },
+    {
+      "source": "Resources/Web Technologies/Accessibility (a11y) Fundamentals",
+      "target": "Resources/Web Technologies/Responsive Design Principles"
+    },
+    {
+      "source": "Resources/Web Technologies/Accessibility (a11y) Fundamentals",
+      "target": "Resources/Web Technologies/Web Components"
+    },
+    {
+      "source": "Resources/Web Technologies/Animation Easing Curves (Cubic Bezier)",
+      "target": "Resources/Web Technologies/CSS Animation and Transitions"
+    },
+    {
+      "source": "Resources/Web Technologies/Animation Easing Curves (Cubic Bezier)",
+      "target": "Resources/Web Technologies/Framer Motion Patterns"
+    },
+    {
+      "source": "Resources/Web Technologies/Animation Easing Curves (Cubic Bezier)",
+      "target": "Resources/Web Technologies/Spring Physics in Animation"
+    },
+    {
+      "source": "Resources/Web Technologies/Browser Security Model (Same-Origin Policy)",
+      "target": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)"
+    },
+    {
+      "source": "Resources/Web Technologies/Browser Security Model (Same-Origin Policy)",
+      "target": "Resources/Web Technologies/Browser Storage (localStorage, sessionStorage, IndexedDB, Cookies)"
+    },
+    {
+      "source": "Resources/Web Technologies/Browser Security Model (Same-Origin Policy)",
+      "target": "Resources/Web Technologies/CORS — How It Works"
+    },
+    {
+      "source": "Resources/Web Technologies/Browser Storage (localStorage, sessionStorage, IndexedDB, Cookies)",
+      "target": "Resources/Security & Privacy/Session Management"
+    },
+    {
+      "source": "Resources/Web Technologies/Browser Storage (localStorage, sessionStorage, IndexedDB, Cookies)",
+      "target": "Resources/Web Technologies/Browser Security Model (Same-Origin Policy)"
+    },
+    {
+      "source": "Resources/Web Technologies/Browser Storage (localStorage, sessionStorage, IndexedDB, Cookies)",
+      "target": "Resources/Web Technologies/Progressive Web Apps (PWAs)"
+    },
+    {
+      "source": "Resources/Web Technologies/CORS — How It Works",
+      "target": "Resources/Security & Privacy/API Key Management"
+    },
+    {
+      "source": "Resources/Web Technologies/CORS — How It Works",
+      "target": "Resources/Security & Privacy/CSRF — Prevention"
+    },
+    {
+      "source": "Resources/Web Technologies/CORS — How It Works",
+      "target": "Resources/Web Technologies/Browser Security Model (Same-Origin Policy)"
+    },
+    {
+      "source": "Resources/Web Technologies/CSS Animation and Transitions",
+      "target": "Resources/Web Technologies/Animation Easing Curves (Cubic Bezier)"
+    },
+    {
+      "source": "Resources/Web Technologies/CSS Animation and Transitions",
+      "target": "Resources/Web Technologies/How Browsers Work (Parsing, Rendering, Compositing)"
+    },
+    {
+      "source": "Resources/Web Technologies/CSS Animation and Transitions",
+      "target": "Resources/Web Technologies/Spring Physics in Animation"
+    },
+    {
+      "source": "Resources/Web Technologies/CSS Architecture (BEM, CSS Modules, Tailwind)",
+      "target": "Resources/Web Technologies/Design Tokens"
+    },
+    {
+      "source": "Resources/Web Technologies/CSS Architecture (BEM, CSS Modules, Tailwind)",
+      "target": "Resources/Web Technologies/Responsive Design Principles"
+    },
+    {
+      "source": "Resources/Web Technologies/CSS Architecture (BEM, CSS Modules, Tailwind)",
+      "target": "Resources/Web Technologies/Web Components"
+    },
+    {
+      "source": "Resources/Web Technologies/CSS Grid vs Flexbox — When to Use Each",
+      "target": "Resources/Web Technologies/CSS Architecture (BEM, CSS Modules, Tailwind)"
+    },
+    {
+      "source": "Resources/Web Technologies/CSS Grid vs Flexbox — When to Use Each",
+      "target": "Resources/Web Technologies/How Browsers Work (Parsing, Rendering, Compositing)"
+    },
+    {
+      "source": "Resources/Web Technologies/CSS Grid vs Flexbox — When to Use Each",
+      "target": "Resources/Web Technologies/Responsive Design Principles"
+    },
+    {
+      "source": "Resources/Web Technologies/Canvas API",
+      "target": "Resources/Web Technologies/Accessibility (a11y) Fundamentals"
+    },
+    {
+      "source": "Resources/Web Technologies/Canvas API",
+      "target": "Resources/Web Technologies/How Browsers Work (Parsing, Rendering, Compositing)"
+    },
+    {
+      "source": "Resources/Web Technologies/Canvas API",
+      "target": "Resources/Web Technologies/WebGL Basics"
+    },
+    {
+      "source": "Resources/Web Technologies/Core Web Vitals (LCP, INP, CLS)",
+      "target": "Resources/Web Technologies/Critical Rendering Path"
+    },
+    {
+      "source": "Resources/Web Technologies/Core Web Vitals (LCP, INP, CLS)",
+      "target": "Resources/Web Technologies/Responsive Design Principles"
+    },
+    {
+      "source": "Resources/Web Technologies/Core Web Vitals (LCP, INP, CLS)",
+      "target": "Resources/Web Technologies/Web Performance Optimization"
+    },
+    {
+      "source": "Resources/Web Technologies/Critical Rendering Path",
+      "target": "Resources/Web Technologies/Core Web Vitals (LCP, INP, CLS)"
+    },
+    {
+      "source": "Resources/Web Technologies/Critical Rendering Path",
+      "target": "Resources/Web Technologies/How Browsers Work (Parsing, Rendering, Compositing)"
+    },
+    {
+      "source": "Resources/Web Technologies/Critical Rendering Path",
+      "target": "Resources/Web Technologies/Server-Side Rendering vs Static Site Generation vs CSR"
+    },
+    {
+      "source": "Resources/Web Technologies/Design Tokens",
+      "target": "Resources/Web Technologies/Accessibility (a11y) Fundamentals"
+    },
+    {
+      "source": "Resources/Web Technologies/Design Tokens",
+      "target": "Resources/Web Technologies/CSS Architecture (BEM, CSS Modules, Tailwind)"
+    },
+    {
+      "source": "Resources/Web Technologies/Design Tokens",
+      "target": "Resources/Web Technologies/Web Components"
+    },
+    {
+      "source": "Resources/Web Technologies/Framer Motion Patterns",
+      "target": "Resources/Web Technologies/CSS Animation and Transitions"
+    },
+    {
+      "source": "Resources/Web Technologies/Framer Motion Patterns",
+      "target": "Resources/Web Technologies/React — Component Lifecycle"
+    },
+    {
+      "source": "Resources/Web Technologies/Framer Motion Patterns",
+      "target": "Resources/Web Technologies/Spring Physics in Animation"
+    },
+    {
+      "source": "Resources/Web Technologies/How Browsers Work (Parsing, Rendering, Compositing)",
+      "target": "Resources/Web Technologies/CSS Animation and Transitions"
+    },
+    {
+      "source": "Resources/Web Technologies/How Browsers Work (Parsing, Rendering, Compositing)",
+      "target": "Resources/Web Technologies/Critical Rendering Path"
+    },
+    {
+      "source": "Resources/Web Technologies/How Browsers Work (Parsing, Rendering, Compositing)",
+      "target": "Resources/Web Technologies/Web Performance Optimization"
+    },
+    {
+      "source": "Resources/Web Technologies/Next.js App Router Architecture",
+      "target": "Resources/Web Technologies/React — Component Lifecycle"
+    },
+    {
+      "source": "Resources/Web Technologies/Next.js App Router Architecture",
+      "target": "Resources/Web Technologies/SEO Fundamentals"
+    },
+    {
+      "source": "Resources/Web Technologies/Next.js App Router Architecture",
+      "target": "Resources/Web Technologies/Server-Side Rendering vs Static Site Generation vs CSR"
+    },
+    {
+      "source": "Resources/Web Technologies/OpenGraph Protocol",
+      "target": "Resources/Web Technologies/Next.js App Router Architecture"
+    },
+    {
+      "source": "Resources/Web Technologies/OpenGraph Protocol",
+      "target": "Resources/Web Technologies/SEO Fundamentals"
+    },
+    {
+      "source": "Resources/Web Technologies/OpenGraph Protocol",
+      "target": "Resources/Web Technologies/Server-Side Rendering vs Static Site Generation vs CSR"
+    },
+    {
+      "source": "Resources/Web Technologies/Progressive Web Apps (PWAs)",
+      "target": "Resources/Web Technologies/Browser Storage (localStorage, sessionStorage, IndexedDB, Cookies)"
+    },
+    {
+      "source": "Resources/Web Technologies/Progressive Web Apps (PWAs)",
+      "target": "Resources/Web Technologies/Responsive Design Principles"
+    },
+    {
+      "source": "Resources/Web Technologies/Progressive Web Apps (PWAs)",
+      "target": "Resources/Web Technologies/Service Workers"
+    },
+    {
+      "source": "Resources/Web Technologies/React — Component Lifecycle",
+      "target": "Resources/Web Technologies/React — Hooks Deep Dive (useState, useEffect, useRef, useMemo)"
+    },
+    {
+      "source": "Resources/Web Technologies/React — Component Lifecycle",
+      "target": "Resources/Web Technologies/React — Performance Optimization (memo, lazy, Suspense)"
+    },
+    {
+      "source": "Resources/Web Technologies/React — Component Lifecycle",
+      "target": "Resources/Web Technologies/React — Reconciliation and Virtual DOM"
+    },
+    {
+      "source": "Resources/Web Technologies/React — Hooks Deep Dive (useState, useEffect, useRef, useMemo)",
+      "target": "Resources/Web Technologies/React — Component Lifecycle"
+    },
+    {
+      "source": "Resources/Web Technologies/React — Hooks Deep Dive (useState, useEffect, useRef, useMemo)",
+      "target": "Resources/Web Technologies/React — Performance Optimization (memo, lazy, Suspense)"
+    },
+    {
+      "source": "Resources/Web Technologies/React — Hooks Deep Dive (useState, useEffect, useRef, useMemo)",
+      "target": "Resources/Web Technologies/React — State Management (Zustand, Redux, Context API)"
+    },
+    {
+      "source": "Resources/Web Technologies/React — Performance Optimization (memo, lazy, Suspense)",
+      "target": "Resources/Web Technologies/Next.js App Router Architecture"
+    },
+    {
+      "source": "Resources/Web Technologies/React — Performance Optimization (memo, lazy, Suspense)",
+      "target": "Resources/Web Technologies/React — Reconciliation and Virtual DOM"
+    },
+    {
+      "source": "Resources/Web Technologies/React — Performance Optimization (memo, lazy, Suspense)",
+      "target": "Resources/Web Technologies/Web Performance Optimization"
+    },
+    {
+      "source": "Resources/Web Technologies/React — Reconciliation and Virtual DOM",
+      "target": "Resources/Web Technologies/How Browsers Work (Parsing, Rendering, Compositing)"
+    },
+    {
+      "source": "Resources/Web Technologies/React — Reconciliation and Virtual DOM",
+      "target": "Resources/Web Technologies/React — Component Lifecycle"
+    },
+    {
+      "source": "Resources/Web Technologies/React — Reconciliation and Virtual DOM",
+      "target": "Resources/Web Technologies/React — Performance Optimization (memo, lazy, Suspense)"
+    },
+    {
+      "source": "Resources/Web Technologies/React — State Management (Zustand, Redux, Context API)",
+      "target": "Resources/Programming Languages/Immutability and Pure Functions"
+    },
+    {
+      "source": "Resources/Web Technologies/React — State Management (Zustand, Redux, Context API)",
+      "target": "Resources/Web Technologies/Browser Storage (localStorage, sessionStorage, IndexedDB, Cookies)"
+    },
+    {
+      "source": "Resources/Web Technologies/React — State Management (Zustand, Redux, Context API)",
+      "target": "Resources/Web Technologies/React — Hooks Deep Dive (useState, useEffect, useRef, useMemo)"
+    },
+    {
+      "source": "Resources/Web Technologies/Responsive Design Principles",
+      "target": "Resources/Web Technologies/Accessibility (a11y) Fundamentals"
+    },
+    {
+      "source": "Resources/Web Technologies/Responsive Design Principles",
+      "target": "Resources/Web Technologies/CSS Grid vs Flexbox — When to Use Each"
+    },
+    {
+      "source": "Resources/Web Technologies/Responsive Design Principles",
+      "target": "Resources/Web Technologies/Core Web Vitals (LCP, INP, CLS)"
+    },
+    {
+      "source": "Resources/Web Technologies/SEO Fundamentals",
+      "target": "Resources/Web Technologies/Accessibility (a11y) Fundamentals"
+    },
+    {
+      "source": "Resources/Web Technologies/SEO Fundamentals",
+      "target": "Resources/Web Technologies/OpenGraph Protocol"
+    },
+    {
+      "source": "Resources/Web Technologies/SEO Fundamentals",
+      "target": "Resources/Web Technologies/Server-Side Rendering vs Static Site Generation vs CSR"
+    },
+    {
+      "source": "Resources/Web Technologies/Server-Side Rendering vs Static Site Generation vs CSR",
+      "target": "Resources/Web Technologies/Critical Rendering Path"
+    },
+    {
+      "source": "Resources/Web Technologies/Server-Side Rendering vs Static Site Generation vs CSR",
+      "target": "Resources/Web Technologies/Next.js App Router Architecture"
+    },
+    {
+      "source": "Resources/Web Technologies/Server-Side Rendering vs Static Site Generation vs CSR",
+      "target": "Resources/Web Technologies/SEO Fundamentals"
+    },
+    {
+      "source": "Resources/Web Technologies/Service Workers",
+      "target": "Resources/Web Technologies/Browser Storage (localStorage, sessionStorage, IndexedDB, Cookies)"
+    },
+    {
+      "source": "Resources/Web Technologies/Service Workers",
+      "target": "Resources/Web Technologies/Progressive Web Apps (PWAs)"
+    },
+    {
+      "source": "Resources/Web Technologies/Service Workers",
+      "target": "Resources/Web Technologies/Web Performance Optimization"
+    },
+    {
+      "source": "Resources/Web Technologies/Spring Physics in Animation",
+      "target": "Resources/Web Technologies/Animation Easing Curves (Cubic Bezier)"
+    },
+    {
+      "source": "Resources/Web Technologies/Spring Physics in Animation",
+      "target": "Resources/Web Technologies/CSS Animation and Transitions"
+    },
+    {
+      "source": "Resources/Web Technologies/Spring Physics in Animation",
+      "target": "Resources/Web Technologies/Framer Motion Patterns"
+    },
+    {
+      "source": "Resources/Web Technologies/Web Components",
+      "target": "Resources/Web Technologies/Accessibility (a11y) Fundamentals"
+    },
+    {
+      "source": "Resources/Web Technologies/Web Components",
+      "target": "Resources/Web Technologies/Design Tokens"
+    },
+    {
+      "source": "Resources/Web Technologies/Web Components",
+      "target": "Resources/Web Technologies/React — Component Lifecycle"
+    },
+    {
+      "source": "Resources/Web Technologies/Web Performance Optimization",
+      "target": "Resources/Web Technologies/Core Web Vitals (LCP, INP, CLS)"
+    },
+    {
+      "source": "Resources/Web Technologies/Web Performance Optimization",
+      "target": "Resources/Web Technologies/Critical Rendering Path"
+    },
+    {
+      "source": "Resources/Web Technologies/Web Performance Optimization",
+      "target": "Resources/Web Technologies/React — Performance Optimization (memo, lazy, Suspense)"
+    },
+    {
+      "source": "Resources/Web Technologies/Web Scraping Ethics and Techniques",
+      "target": "Resources/Security & Privacy/Data Privacy Regulations (GDPR, CCPA)"
+    },
+    {
+      "source": "Resources/Web Technologies/Web Scraping Ethics and Techniques",
+      "target": "Resources/Software Engineering/API Design — REST Principles"
+    },
+    {
+      "source": "Resources/Web Technologies/Web Scraping Ethics and Techniques",
+      "target": "Resources/Web Technologies/CORS — How It Works"
+    },
+    {
+      "source": "Resources/Web Technologies/WebGL Basics",
+      "target": "Resources/Programming Languages/WebAssembly (WASM) Basics"
+    },
+    {
+      "source": "Resources/Web Technologies/WebGL Basics",
+      "target": "Resources/Web Animation"
+    },
+    {
+      "source": "Resources/Web Technologies/WebGL Basics",
+      "target": "Resources/Web Technologies/Canvas API"
+    },
+    {
       "source": "Resources/What Is Obsidian",
       "target": "Projects/Bobby"
     },
@@ -12585,5 +13305,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-26T07:23:16Z"
+  "generated_at": "2026-05-26T07:35:46Z"
 }
