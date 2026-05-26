@@ -117,6 +117,33 @@
       "degree": 2
     },
     {
+      "id": "Compiled vs Interpreted vs JIT Languages",
+      "label": "Compiled vs Interpreted vs JIT Languages",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
+    },
+    {
+      "id": "Concurrency Primitives (Mutex, Semaphore, Condition Variable)",
+      "label": "Concurrency Primitives (Mutex, Semaphore, Condition Variable)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 4
+    },
+    {
+      "id": "DSL Design",
+      "label": "DSL Design",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Daily Notes/2026-05-19",
       "label": "2026-05-19",
       "folder": "Daily Notes",
@@ -190,6 +217,24 @@
       "degree": 1
     },
     {
+      "id": "Garbage Collection Algorithms (Mark-Sweep, Generational)",
+      "label": "Garbage Collection Algorithms (Mark-Sweep, Generational)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "How Browsers Work (Parsing, Rendering, Compositing)",
+      "label": "How Browsers Work (Parsing, Rendering, Compositing)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "How to Update Beliefs Gracefully (Bayesian Updating)",
       "label": "How to Update Beliefs Gracefully (Bayesian Updating)",
       "folder": null,
@@ -206,6 +251,33 @@
       "excerpt": "",
       "tags": [],
       "degree": 1
+    },
+    {
+      "id": "Immutability and Pure Functions",
+      "label": "Immutability and Pure Functions",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "JIT Compilation",
+      "label": "JIT Compilation",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Language Design Tradeoffs",
+      "label": "Language Design Tradeoffs",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
     },
     {
       "id": "Maps/Bobby",
@@ -270,8 +342,44 @@
       "degree": 4
     },
     {
+      "id": "Memory Models and Happens-Before Ordering",
+      "label": "Memory Models and Happens-Before Ordering",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
+    },
+    {
+      "id": "Metaprogramming and Code Generation",
+      "label": "Metaprogramming and Code Generation",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Monads (Accessible Explanation)",
+      "label": "Monads (Accessible Explanation)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Note Title",
       "label": "Note Title",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Object-Oriented Programming Concepts",
+      "label": "Object-Oriented Programming Concepts",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -409,6 +517,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 2
+    },
+    {
+      "id": "Python — Closures",
+      "label": "Python — Closures",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "Redis Patterns (Caching, Pub/Sub, Job Queues, Rate Limiting)",
@@ -1106,7 +1223,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 14
+      "degree": 17
     },
     {
       "id": "Resources/Agent Evaluation",
@@ -1704,7 +1821,7 @@
         "study",
         "systems"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Data Science & Analytics/A-B Testing Design",
@@ -2228,7 +2345,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/DevOps & Infrastructure/Disk I-O Optimization",
@@ -2348,7 +2465,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 4
+      "degree": 8
     },
     {
       "id": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)",
@@ -2396,7 +2513,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Resources/DevOps & Infrastructure/Postmortem Writing",
@@ -3057,7 +3174,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "Resources/Multi-Agent RL",
@@ -3193,7 +3310,307 @@
         "resource",
         "study"
       ],
-      "degree": 3
+      "degree": 5
+    },
+    {
+      "id": "Resources/Programming Languages/C — Memory Management and Pointers",
+      "label": "C — Memory Management and Pointers",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "C gives direct control over memory through pointers, stack allocation, heap allocation, and manual lifetime management. That control enables systems programming but makes bugs such as use-after-free, buffer overflow, and leaks easy to create.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Programming Languages/Functional Programming Concepts",
+      "label": "Functional Programming Concepts",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Functional programming emphasizes functions as values, immutability, expression-oriented code, composition, and avoiding hidden side effects. Its ideas appear in modern JavaScript, Python, Rust, Scala, Haskell, Elixir, and many UI/data workflows.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Programming Languages/Go — Goroutines and Channels",
+      "label": "Go — Goroutines and Channels",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Go goroutines are lightweight concurrent functions managed by the Go runtime, and channels communicate values between goroutines. They support Go's CSP-inspired concurrency style, but still require careful cancellation, buffering, and ownership design.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Programming Languages/Go — Interface System",
+      "label": "Go — Interface System",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Go interfaces define behavior implicitly: a type satisfies an interface by implementing its methods. This keeps abstractions lightweight, but interface design should stay small, consumer-owned, and behavior-focused.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Programming Languages/Java — Garbage Collection",
+      "label": "Java — Garbage Collection",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Java garbage collection automatically reclaims unreachable objects from the JVM heap. Different collectors optimize for throughput, latency, pause time, footprint, or heap size, so GC behavior is an operational concern.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Programming Languages/Java — JVM Internals",
+      "label": "Java — JVM Internals",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "The JVM executes platform-independent bytecode with class loading, verification, interpretation, JIT compilation, garbage collection, and runtime services. JVM internals explain Java's portability, performance profile, and operational behavior.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Programming Languages/JavaScript — Closures",
+      "label": "JavaScript — Closures",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "JavaScript closures let functions retain access to variables from their lexical scope after the outer function has returned. They enable callbacks, encapsulation, function factories, and many async patterns.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Programming Languages/JavaScript — Promises and Async-Await",
+      "label": "JavaScript — Promises and Async-Await",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "JavaScript promises represent future completion or failure of asynchronous work, and async/await provides structured syntax for using them. Understanding promise states, chaining, microtasks, and error propagation is essential for modern JS.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Programming Languages/JavaScript — Prototypes and Prototype Chain",
+      "label": "JavaScript — Prototypes and Prototype Chain",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "JavaScript inheritance is prototype-based: objects delegate property lookup through a prototype chain. Classes in modern JavaScript are syntax over this prototype model, not a separate class-based runtime.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Programming Languages/JavaScript — The Event Loop",
+      "label": "JavaScript — The Event Loop",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "JavaScript's event loop coordinates call stack execution, queued tasks, microtasks, timers, and asynchronous callbacks. It explains why nonblocking I/O works and why long synchronous work freezes the page or server.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Programming Languages/Python — Async-Await and asyncio",
+      "label": "Python — Async-Await and asyncio",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Python async/await and asyncio provide cooperative concurrency for many waiting tasks. They are strongest for I/O-heavy workloads where coroutines can yield control while sockets, timers, subprocesses, or queues wait.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 9
+    },
+    {
+      "id": "Resources/Programming Languages/Python — Context Managers",
+      "label": "Python — Context Managers",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Python context managers define setup and cleanup around a block using the `with` statement. They make resource handling deterministic for files, locks, transactions, temporary state, and cleanup-heavy workflows.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Programming Languages/Python — Decorators Deep Dive",
+      "label": "Python — Decorators Deep Dive",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Python decorators wrap functions, methods, or classes to modify behavior without changing the decorated object's source body. They are useful for logging, caching, authorization, validation, registration, retries, and framework metadata.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Programming Languages/Python — GIL and Concurrency",
+      "label": "Python — GIL and Concurrency",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Python concurrency is shaped by CPython's Global Interpreter Lock, which historically allowed only one thread to execute Python bytecode at a time. New free-threaded CPython builds change that story, but compatibility and extension support still matter.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Programming Languages/Python — Generators and Iterators",
+      "label": "Python — Generators and Iterators",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Python iterators provide a uniform protocol for pulling values one at a time, while generators create iterators with paused function state. They make lazy pipelines, streaming data, and memory-efficient traversal natural.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Programming Languages/Python — Internals and CPython",
+      "label": "Python — Internals and CPython",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "CPython is the reference Python implementation, built around bytecode execution, Python objects, reference counting, extension modules, and a large C runtime. Understanding CPython internals explains Python's performance, memory behavior, C extension ecosystem, and concurrency tradeoffs.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Programming Languages/Python — Memory Management and gc",
+      "label": "Python — Memory Management and gc",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Python memory management in CPython combines reference counting, object allocation layers, and cyclic garbage collection. The `gc` module exposes controls for the cycle detector that supplements reference counting.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Programming Languages/Python — Metaclasses",
+      "label": "Python — Metaclasses",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Python metaclasses customize how classes themselves are created. They are powerful for frameworks, registries, validation, and DSL-like APIs, but are usually unnecessary for ordinary application code.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Programming Languages/Python — Type System and mypy",
+      "label": "Python — Type System and mypy",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Python's type hints add optional static information to a dynamic language, and mypy checks those annotations before runtime. The goal is better maintainability and earlier bug detection without giving up Python's runtime flexibility.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Programming Languages/Rust — Lifetimes",
+      "label": "Rust — Lifetimes",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Rust lifetimes describe how long references are valid so the compiler can prevent dangling references. Most lifetimes are inferred, but explicit annotations are needed when relationships between borrowed values are ambiguous.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Programming Languages/Rust — Ownership and Borrowing",
+      "label": "Rust — Ownership and Borrowing",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Rust ownership and borrowing enforce memory safety without a garbage collector. Values have owners, references borrow values, and the compiler prevents dangling references and data races through strict rules.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Programming Languages/Rust — Traits and Generics",
+      "label": "Rust — Traits and Generics",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Rust traits define shared behavior, and generics let code work over many concrete types with trait bounds. Together they provide static polymorphism, reusable APIs, and zero-cost abstraction patterns.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Programming Languages/TypeScript — Generics",
+      "label": "TypeScript — Generics",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "TypeScript generics let functions, classes, and types operate over type parameters while preserving relationships between inputs and outputs. They are the foundation for reusable typed APIs.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Programming Languages/TypeScript — Type System Deep Dive",
+      "label": "TypeScript — Type System Deep Dive",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "TypeScript adds a structural static type system on top of JavaScript. Its type checker models runtime JavaScript patterns with unions, intersections, generics, narrowing, conditional types, and inference.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Programming Languages/TypeScript — Utility Types (Partial, Pick, Omit, etc.)",
+      "label": "TypeScript — Utility Types (Partial, Pick, Omit, etc.)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "TypeScript utility types transform existing types into related shapes, such as optional fields, selected keys, omitted keys, readonly objects, or required properties. They reduce duplication and keep API types synchronized.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/RAG and Bobby Vector Search",
@@ -3374,7 +3791,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Security & Privacy/Data Privacy Regulations (GDPR, CCPA)",
@@ -3689,7 +4106,7 @@
         "engineering",
         "interview-prep"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Software Architecture",
@@ -3955,7 +4372,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Software Engineering/Design Patterns — Behavioral (Observer, Strategy, Command, State, Iterator)",
@@ -4207,7 +4624,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Software Engineering/Semantic Versioning",
@@ -4255,7 +4672,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/Software Engineering/Technical Debt — Types and Management",
@@ -4788,7 +5205,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 11
+      "degree": 13
     },
     {
       "id": "Resources/System Design/Scalability — Horizontal vs Vertical",
@@ -4941,6 +5358,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 5
+    },
+    {
+      "id": "Web Performance Optimization",
+      "label": "Web Performance Optimization",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
     },
     {
       "id": "Writing Good Documentation",
@@ -8959,6 +9385,406 @@
       "target": "Resources/Software Engineering Tools"
     },
     {
+      "source": "Resources/Programming Languages/C — Memory Management and Pointers",
+      "target": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems"
+    },
+    {
+      "source": "Resources/Programming Languages/C — Memory Management and Pointers",
+      "target": "Resources/Programming Languages"
+    },
+    {
+      "source": "Resources/Programming Languages/C — Memory Management and Pointers",
+      "target": "Resources/Programming Languages/Rust — Ownership and Borrowing"
+    },
+    {
+      "source": "Resources/Programming Languages/C — Memory Management and Pointers",
+      "target": "Resources/Security Deep Dive"
+    },
+    {
+      "source": "Resources/Programming Languages/Functional Programming Concepts",
+      "target": "Immutability and Pure Functions"
+    },
+    {
+      "source": "Resources/Programming Languages/Functional Programming Concepts",
+      "target": "Monads (Accessible Explanation)"
+    },
+    {
+      "source": "Resources/Programming Languages/Functional Programming Concepts",
+      "target": "Resources/Programming Languages/JavaScript — Closures"
+    },
+    {
+      "source": "Resources/Programming Languages/Functional Programming Concepts",
+      "target": "Resources/Programming Languages/Rust — Traits and Generics"
+    },
+    {
+      "source": "Resources/Programming Languages/Go — Goroutines and Channels",
+      "target": "Concurrency Primitives (Mutex, Semaphore, Condition Variable)"
+    },
+    {
+      "source": "Resources/Programming Languages/Go — Goroutines and Channels",
+      "target": "Resources/Message Queues"
+    },
+    {
+      "source": "Resources/Programming Languages/Go — Goroutines and Channels",
+      "target": "Resources/Programming Languages/Go — Interface System"
+    },
+    {
+      "source": "Resources/Programming Languages/Go — Goroutines and Channels",
+      "target": "Resources/System Design/Real-Time Systems Design"
+    },
+    {
+      "source": "Resources/Programming Languages/Go — Interface System",
+      "target": "Language Design Tradeoffs"
+    },
+    {
+      "source": "Resources/Programming Languages/Go — Interface System",
+      "target": "Resources/Programming Languages/Go — Goroutines and Channels"
+    },
+    {
+      "source": "Resources/Programming Languages/Go — Interface System",
+      "target": "Resources/Software Engineering/Dependency Management"
+    },
+    {
+      "source": "Resources/Programming Languages/Go — Interface System",
+      "target": "Resources/Software Engineering/SOLID Principles"
+    },
+    {
+      "source": "Resources/Programming Languages/Java — Garbage Collection",
+      "target": "Garbage Collection Algorithms (Mark-Sweep, Generational)"
+    },
+    {
+      "source": "Resources/Programming Languages/Java — Garbage Collection",
+      "target": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)"
+    },
+    {
+      "source": "Resources/Programming Languages/Java — Garbage Collection",
+      "target": "Resources/Programming Languages/Java — JVM Internals"
+    },
+    {
+      "source": "Resources/Programming Languages/Java — Garbage Collection",
+      "target": "Resources/Programming Languages/Python — Memory Management and gc"
+    },
+    {
+      "source": "Resources/Programming Languages/Java — JVM Internals",
+      "target": "Compiled vs Interpreted vs JIT Languages"
+    },
+    {
+      "source": "Resources/Programming Languages/Java — JVM Internals",
+      "target": "JIT Compilation"
+    },
+    {
+      "source": "Resources/Programming Languages/Java — JVM Internals",
+      "target": "Memory Models and Happens-Before Ordering"
+    },
+    {
+      "source": "Resources/Programming Languages/Java — JVM Internals",
+      "target": "Resources/Programming Languages/Java — Garbage Collection"
+    },
+    {
+      "source": "Resources/Programming Languages/JavaScript — Closures",
+      "target": "Resources/Programming Languages/Functional Programming Concepts"
+    },
+    {
+      "source": "Resources/Programming Languages/JavaScript — Closures",
+      "target": "Resources/Programming Languages/JavaScript — Promises and Async-Await"
+    },
+    {
+      "source": "Resources/Programming Languages/JavaScript — Closures",
+      "target": "Resources/Programming Languages/JavaScript — The Event Loop"
+    },
+    {
+      "source": "Resources/Programming Languages/JavaScript — Closures",
+      "target": "Resources/Programming Languages/Python — Decorators Deep Dive"
+    },
+    {
+      "source": "Resources/Programming Languages/JavaScript — Promises and Async-Await",
+      "target": "Resources/Programming Languages/JavaScript — Closures"
+    },
+    {
+      "source": "Resources/Programming Languages/JavaScript — Promises and Async-Await",
+      "target": "Resources/Programming Languages/JavaScript — The Event Loop"
+    },
+    {
+      "source": "Resources/Programming Languages/JavaScript — Promises and Async-Await",
+      "target": "Resources/Programming Languages/Python — Async-Await and asyncio"
+    },
+    {
+      "source": "Resources/Programming Languages/JavaScript — Promises and Async-Await",
+      "target": "Web Performance Optimization"
+    },
+    {
+      "source": "Resources/Programming Languages/JavaScript — Prototypes and Prototype Chain",
+      "target": "Object-Oriented Programming Concepts"
+    },
+    {
+      "source": "Resources/Programming Languages/JavaScript — Prototypes and Prototype Chain",
+      "target": "Resources/Programming Languages/JavaScript — Closures"
+    },
+    {
+      "source": "Resources/Programming Languages/JavaScript — Prototypes and Prototype Chain",
+      "target": "Resources/Programming Languages/TypeScript — Type System Deep Dive"
+    },
+    {
+      "source": "Resources/Programming Languages/JavaScript — Prototypes and Prototype Chain",
+      "target": "Resources/Security & Privacy/Cross-Site Scripting (XSS) — Prevention"
+    },
+    {
+      "source": "Resources/Programming Languages/JavaScript — The Event Loop",
+      "target": "How Browsers Work (Parsing, Rendering, Compositing)"
+    },
+    {
+      "source": "Resources/Programming Languages/JavaScript — The Event Loop",
+      "target": "Resources/Programming Languages/JavaScript — Promises and Async-Await"
+    },
+    {
+      "source": "Resources/Programming Languages/JavaScript — The Event Loop",
+      "target": "Resources/Programming Languages/Python — Async-Await and asyncio"
+    },
+    {
+      "source": "Resources/Programming Languages/JavaScript — The Event Loop",
+      "target": "Web Performance Optimization"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Async-Await and asyncio",
+      "target": "Concurrency Primitives (Mutex, Semaphore, Condition Variable)"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Async-Await and asyncio",
+      "target": "Resources/Programming Languages/JavaScript — The Event Loop"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Async-Await and asyncio",
+      "target": "Resources/Programming Languages/Python — GIL and Concurrency"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Async-Await and asyncio",
+      "target": "Resources/System Design/Real-Time Systems Design"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Context Managers",
+      "target": "Concurrency Primitives (Mutex, Semaphore, Condition Variable)"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Context Managers",
+      "target": "Resources/DevOps & Infrastructure/Database Migrations Best Practices"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Context Managers",
+      "target": "Resources/Programming Languages/Python — Async-Await and asyncio"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Context Managers",
+      "target": "Resources/Programming Languages/Python — Generators and Iterators"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Decorators Deep Dive",
+      "target": "Python — Closures"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Decorators Deep Dive",
+      "target": "Resources/API Design"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Decorators Deep Dive",
+      "target": "Resources/Programming Languages/Functional Programming Concepts"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Decorators Deep Dive",
+      "target": "Resources/Programming Languages/Python — Metaclasses"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — GIL and Concurrency",
+      "target": "Concurrency Primitives (Mutex, Semaphore, Condition Variable)"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — GIL and Concurrency",
+      "target": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — GIL and Concurrency",
+      "target": "Resources/Programming Languages/Python — Async-Await and asyncio"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — GIL and Concurrency",
+      "target": "Resources/Programming Languages/Python — Internals and CPython"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Generators and Iterators",
+      "target": "Resources/Data Engineering"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Generators and Iterators",
+      "target": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Generators and Iterators",
+      "target": "Resources/Programming Languages/Python — Async-Await and asyncio"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Generators and Iterators",
+      "target": "Resources/Programming Languages/Python — Context Managers"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Internals and CPython",
+      "target": "Compiled vs Interpreted vs JIT Languages"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Internals and CPython",
+      "target": "Resources/Programming Languages"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Internals and CPython",
+      "target": "Resources/Programming Languages/Python — GIL and Concurrency"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Internals and CPython",
+      "target": "Resources/Programming Languages/Python — Memory Management and gc"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Memory Management and gc",
+      "target": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Memory Management and gc",
+      "target": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Memory Management and gc",
+      "target": "Resources/Programming Languages/Java — Garbage Collection"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Memory Management and gc",
+      "target": "Resources/Programming Languages/Python — Internals and CPython"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Metaclasses",
+      "target": "DSL Design"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Metaclasses",
+      "target": "Metaprogramming and Code Generation"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Metaclasses",
+      "target": "Resources/Programming Languages/Python — Decorators Deep Dive"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Metaclasses",
+      "target": "Resources/Programming Languages/Python — Type System and mypy"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Type System and mypy",
+      "target": "Resources/API Design"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Type System and mypy",
+      "target": "Resources/Programming Languages/Python — Internals and CPython"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Type System and mypy",
+      "target": "Resources/Programming Languages/TypeScript — Type System Deep Dive"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Type System and mypy",
+      "target": "Resources/Software Engineering/Static Analysis Tools"
+    },
+    {
+      "source": "Resources/Programming Languages/Rust — Lifetimes",
+      "target": "Memory Models and Happens-Before Ordering"
+    },
+    {
+      "source": "Resources/Programming Languages/Rust — Lifetimes",
+      "target": "Resources/Programming Languages/C — Memory Management and Pointers"
+    },
+    {
+      "source": "Resources/Programming Languages/Rust — Lifetimes",
+      "target": "Resources/Programming Languages/Rust — Ownership and Borrowing"
+    },
+    {
+      "source": "Resources/Programming Languages/Rust — Lifetimes",
+      "target": "Resources/Programming Languages/Rust — Traits and Generics"
+    },
+    {
+      "source": "Resources/Programming Languages/Rust — Ownership and Borrowing",
+      "target": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems"
+    },
+    {
+      "source": "Resources/Programming Languages/Rust — Ownership and Borrowing",
+      "target": "Resources/Programming Languages/C — Memory Management and Pointers"
+    },
+    {
+      "source": "Resources/Programming Languages/Rust — Ownership and Borrowing",
+      "target": "Resources/Programming Languages/Rust — Lifetimes"
+    },
+    {
+      "source": "Resources/Programming Languages/Rust — Ownership and Borrowing",
+      "target": "Resources/Programming Languages/Rust — Traits and Generics"
+    },
+    {
+      "source": "Resources/Programming Languages/Rust — Traits and Generics",
+      "target": "Language Design Tradeoffs"
+    },
+    {
+      "source": "Resources/Programming Languages/Rust — Traits and Generics",
+      "target": "Resources/Programming Languages/Functional Programming Concepts"
+    },
+    {
+      "source": "Resources/Programming Languages/Rust — Traits and Generics",
+      "target": "Resources/Programming Languages/Rust — Ownership and Borrowing"
+    },
+    {
+      "source": "Resources/Programming Languages/Rust — Traits and Generics",
+      "target": "Resources/Programming Languages/TypeScript — Generics"
+    },
+    {
+      "source": "Resources/Programming Languages/TypeScript — Generics",
+      "target": "Resources/Programming Languages/Java — JVM Internals"
+    },
+    {
+      "source": "Resources/Programming Languages/TypeScript — Generics",
+      "target": "Resources/Programming Languages/Rust — Traits and Generics"
+    },
+    {
+      "source": "Resources/Programming Languages/TypeScript — Generics",
+      "target": "Resources/Programming Languages/TypeScript — Type System Deep Dive"
+    },
+    {
+      "source": "Resources/Programming Languages/TypeScript — Generics",
+      "target": "Resources/Programming Languages/TypeScript — Utility Types (Partial, Pick, Omit, etc.)"
+    },
+    {
+      "source": "Resources/Programming Languages/TypeScript — Type System Deep Dive",
+      "target": "Resources/Programming Languages/JavaScript — Prototypes and Prototype Chain"
+    },
+    {
+      "source": "Resources/Programming Languages/TypeScript — Type System Deep Dive",
+      "target": "Resources/Programming Languages/Python — Type System and mypy"
+    },
+    {
+      "source": "Resources/Programming Languages/TypeScript — Type System Deep Dive",
+      "target": "Resources/Programming Languages/TypeScript — Generics"
+    },
+    {
+      "source": "Resources/Programming Languages/TypeScript — Type System Deep Dive",
+      "target": "Resources/Programming Languages/TypeScript — Utility Types (Partial, Pick, Omit, etc.)"
+    },
+    {
+      "source": "Resources/Programming Languages/TypeScript — Utility Types (Partial, Pick, Omit, etc.)",
+      "target": "Resources/API Design"
+    },
+    {
+      "source": "Resources/Programming Languages/TypeScript — Utility Types (Partial, Pick, Omit, etc.)",
+      "target": "Resources/Programming Languages/TypeScript — Generics"
+    },
+    {
+      "source": "Resources/Programming Languages/TypeScript — Utility Types (Partial, Pick, Omit, etc.)",
+      "target": "Resources/Programming Languages/TypeScript — Type System Deep Dive"
+    },
+    {
+      "source": "Resources/Programming Languages/TypeScript — Utility Types (Partial, Pick, Omit, etc.)",
+      "target": "Resources/Software Engineering/Static Analysis Tools"
+    },
+    {
       "source": "Resources/RAG and Bobby Vector Search",
       "target": "Maps/Bobby"
     },
@@ -11503,5 +12329,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-26T00:38:10Z"
+  "generated_at": "2026-05-26T00:45:24Z"
 }
