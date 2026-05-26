@@ -15,6 +15,65 @@ const COMET_TRAIL = 25
 const COMET_TRAIL_DEPTH = 0.18
 const ORBIT_RESUME_DELAY = 3000
 
+// Cached Y-axis vector for orbit rotation
+const Y_AXIS = new THREE.Vector3(0, 1, 0)
+
+function getTopHubs(nodes, n) {
+  return [...nodes].sort((a, b) => (b.degree ?? 0) - (a.degree ?? 0)).slice(0, n)
+}
+
+// Cinematic attract-mode shots — like a racing game's idle camera reel.
+// Each shot: instant cut to position, slow orbit around pivot, then cut to next.
+const CINEMATIC_SHOTS = [
+  {
+    // Wide constellation — full view, gentle orbit around origin
+    key: 'WIDE',
+    duration: 13000,
+    setup: () => ({ pos: null, pivot: new THREE.Vector3(0, 0, 0), speed: 0.0008 }),
+  },
+  {
+    // Hub close-up — tight orbit around the most-connected node
+    key: 'HUB_0',
+    duration: 10000,
+    setup: (nodes) => {
+      const hub = getTopHubs(nodes, 3)[0]
+      if (!hub?.x && !hub?.y && !hub?.z) return null
+      const pivot = new THREE.Vector3(hub.x ?? 0, hub.y ?? 0, hub.z ?? 0)
+      return { pos: { x: pivot.x, y: pivot.y + 40, z: pivot.z + 130 }, pivot, speed: 0.0016 }
+    },
+  },
+  {
+    // Underworld — camera below the graph looking up, dramatic tilt
+    key: 'UNDERWORLD',
+    duration: 11000,
+    setup: () => ({ pos: { x: 80, y: -360, z: 320 }, pivot: new THREE.Vector3(0, 0, 0), speed: 0.0007 }),
+  },
+  {
+    // Polar — camera directly above looking down at the constellation
+    key: 'POLAR',
+    duration: 11000,
+    setup: () => ({ pos: { x: 60, y: 580, z: 100 }, pivot: new THREE.Vector3(0, 0, 0), speed: 0.0006 }),
+  },
+  {
+    // Side sweep — constellation at medium distance from the side
+    key: 'SIDE',
+    duration: 12000,
+    setup: () => ({ pos: { x: 620, y: 60, z: 80 }, pivot: new THREE.Vector3(0, 0, 0), speed: 0.0007 }),
+  },
+  {
+    // Second hub close-up — different node, slightly different angle
+    key: 'HUB_1',
+    duration: 10000,
+    setup: (nodes) => {
+      const hubs = getTopHubs(nodes, 3)
+      const hub = hubs[1] ?? hubs[0]
+      if (!hub?.x && !hub?.y && !hub?.z) return null
+      const pivot = new THREE.Vector3(hub.x ?? 0, hub.y ?? 0, hub.z ?? 0)
+      return { pos: { x: pivot.x - 90, y: pivot.y + 50, z: pivot.z + 120 }, pivot, speed: 0.0014 }
+    },
+  },
+]
+
 function shouldUseBloom() {
   if (typeof window === 'undefined') return false
   if (!window.WebGL2RenderingContext) return false
@@ -206,6 +265,10 @@ export default function Graph3D({ data }) {
   const mouseRef = useRef({ x: 0, y: 0 })
   const orbitResumeTimerRef = useRef(null)
   const isAutoRotatingRef = useRef(true)
+  // nextShotAt is a performance.now() timestamp; when the RAF tick passes it, it fires advanceShot.
+  // This is more reliable than setTimeout which can be cleared or fire late in headless contexts.
+  const cinematicRef = useRef({ shotIndex: 0, pivot: new THREE.Vector3(0, 0, 0), speed: 0.0008, nextShotAt: 0 })
+  const advanceShotRef = useRef(null)
   const [graphData, setGraphData] = useState(data)
   const [selectedNodeId, setSelectedNodeId] = useState(null)
   const [selectedNode, setSelectedNode] = useState(null)
@@ -219,20 +282,29 @@ export default function Graph3D({ data }) {
   // Independent rAF loop — runs orbit and comets unconditionally every frame,
   // regardless of whether the physics simulation is still ticking.
   useEffect(() => {
-    const axis = new THREE.Vector3(0, 1, 0)
     let rafId
 
     const tick = () => {
       const fg = fgRef.current
       const t = (performance.now() - startTimeRef.current) / 1000
 
-      // --- Orbit ---
+      // --- Cinematic orbit + shot timer ---
       if (isAutoRotatingRef.current && fg) {
         const camera = fg.camera?.()
         const controls = fg.controls?.()
         if (camera && controls) {
-          camera.position.applyAxisAngle(axis, 0.001)
-          camera.lookAt(controls.target)
+          const c = cinematicRef.current
+          // Orbit around pivot
+          camera.position.sub(c.pivot)
+          camera.position.applyAxisAngle(Y_AXIS, c.speed)
+          camera.position.add(c.pivot)
+          camera.lookAt(c.pivot)
+          controls.target.copy(c.pivot)
+          // Shot timer — checked every frame, immune to setTimeout issues
+          if (c.nextShotAt > 0 && performance.now() >= c.nextShotAt) {
+            c.nextShotAt = 0
+            advanceShotRef.current?.()
+          }
         }
       }
 
@@ -312,6 +384,41 @@ export default function Graph3D({ data }) {
     return () => cancelAnimationFrame(rafId)
   }, [])
 
+  // Advance to the next cinematic shot — instant cut, new pivot, new orbit speed
+  const advanceShot = useCallback(() => {
+    const fg = fgRef.current
+    const nodes = graphRef.current?.nodes ?? []
+    if (!fg) return
+
+    const c = cinematicRef.current
+    let idx = (c.shotIndex + 1) % CINEMATIC_SHOTS.length
+
+    for (let tries = 0; tries < CINEMATIC_SHOTS.length; tries++) {
+      const shot = CINEMATIC_SHOTS[idx]
+      const cfg = shot.setup(nodes)
+      if (cfg) {
+        c.shotIndex = idx
+        c.pivot.copy(cfg.pivot)
+        c.speed = cfg.speed
+        if (cfg.pos) {
+          const cam = fg.camera?.()
+          const ctrl = fg.controls?.()
+          if (cam && ctrl) {
+            cam.position.set(cfg.pos.x, cfg.pos.y, cfg.pos.z)
+            ctrl.target.copy(cfg.pivot)
+            ctrl.update()
+          }
+        }
+        // Schedule next shot via RAF-tick timer (no setTimeout — more reliable)
+        c.nextShotAt = performance.now() + shot.duration
+        return
+      }
+      idx = (idx + 1) % CINEMATIC_SHOTS.length
+    }
+  }, [])
+
+  useEffect(() => { advanceShotRef.current = advanceShot }, [advanceShot])
+
   // Track mouse position to place tooltip without re-renders
   useEffect(() => {
     const onMove = (e) => {
@@ -341,14 +448,17 @@ export default function Graph3D({ data }) {
       controls.autoRotate = false  // manual rotation via applyAxisAngle — more reliable across Three.js versions
       controls.enableDamping = true
       controls.dampingFactor = 0.08
-      // Pause orbit on grab; resume 3s after release
+      // Pause orbit on grab; resume 3s after release with a fresh cinematic shot
       controls.addEventListener('start', () => {
         isAutoRotatingRef.current = false
         clearTimeout(orbitResumeTimerRef.current)
+        cinematicRef.current.nextShotAt = 0
       })
       controls.addEventListener('end', () => {
         orbitResumeTimerRef.current = setTimeout(() => {
           isAutoRotatingRef.current = true
+          // Brief hold on current angle before snapping to next cinematic shot
+          cinematicRef.current.nextShotAt = performance.now() + 2000
         }, ORBIT_RESUME_DELAY)
       })
     }
@@ -383,13 +493,18 @@ export default function Graph3D({ data }) {
     }
   }, [])
 
-  // Ensure auto-orbit is running once physics settles
+  // Ensure auto-orbit is running once physics settles, then start cinematic reel
   const onEngineStop = useCallback(() => {
+    isAutoRotatingRef.current = true
     if (!hasZoomedToFitRef.current && fgRef.current) {
       fgRef.current.zoomToFit(0, 160)
       hasZoomedToFitRef.current = true
+      const wideCfg = CINEMATIC_SHOTS[0].setup([])
+      cinematicRef.current.shotIndex = 0
+      cinematicRef.current.pivot.copy(wideCfg.pivot)
+      cinematicRef.current.speed = wideCfg.speed
+      cinematicRef.current.nextShotAt = performance.now() + CINEMATIC_SHOTS[0].duration
     }
-    isAutoRotatingRef.current = true
   }, [])
 
   const nodeThreeObject = useCallback((node) => {
@@ -416,8 +531,10 @@ export default function Graph3D({ data }) {
     setSelectedNode(null)
     isAutoRotatingRef.current = false
     clearTimeout(orbitResumeTimerRef.current)
+    cinematicRef.current.nextShotAt = 0
     orbitResumeTimerRef.current = setTimeout(() => {
       isAutoRotatingRef.current = true
+      cinematicRef.current.nextShotAt = performance.now() + 2000
     }, ORBIT_RESUME_DELAY)
   }, [])
 
@@ -445,6 +562,7 @@ export default function Graph3D({ data }) {
       }
       isAutoRotatingRef.current = false
       clearTimeout(orbitResumeTimerRef.current)
+      cinematicRef.current.nextShotAt = 0
     }
 
     const neighbors = new Set([node.id])
