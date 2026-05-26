@@ -108,15 +108,6 @@
       "degree": 1
     },
     {
-      "id": "Calibration — Knowing What You Don't Know",
-      "label": "Calibration — Knowing What You Don't Know",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
-    },
-    {
       "id": "Changelog and Release Notes Writing",
       "label": "Changelog and Release Notes Writing",
       "folder": null,
@@ -219,8 +210,8 @@
       "degree": 1
     },
     {
-      "id": "How to Retain What You Read",
-      "label": "How to Retain What You Read",
+      "id": "Heart Rate Variability (HRV) as a Recovery Metric",
+      "label": "Heart Rate Variability (HRV) as a Recovery Metric",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -460,15 +451,6 @@
     {
       "id": "Python — Closures",
       "label": "Python — Closures",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Recovery — Sleep, Nutrition, Active Recovery",
-      "label": "Recovery — Sleep, Nutrition, Active Recovery",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -2952,6 +2934,210 @@
       "degree": 6
     },
     {
+      "id": "Resources/Health & Fitness/Back Health for Desk Workers",
+      "label": "Back Health for Desk Workers",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Back health for desk workers depends on movement variety, strength, load tolerance, sleep, stress, and workstation setup. Sitting is not automatically harmful, but staying rigid and inactive for long periods can be.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Health & Fitness/Cardio Types — HIIT vs LISS vs Zone 2",
+      "label": "Cardio Types — HIIT vs LISS vs Zone 2",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Cardio methods differ by intensity and adaptation: HIIT trains high-intensity capacity, LISS builds easy aerobic volume, and Zone 2 targets sustainable aerobic base. The right mix depends on goals, recovery, and preference.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Health & Fitness/Compound Lifts (Squat, Deadlift, Bench Press, OHP)",
+      "label": "Compound Lifts (Squat, Deadlift, Bench Press, OHP)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Compound lifts train multiple joints and muscle groups at once, making them efficient strength and muscle-building movements. Squat, deadlift, bench press, and overhead press are common anchors but not mandatory for every person.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Health & Fitness/Deload Weeks",
+      "label": "Deload Weeks",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "A deload week intentionally reduces training stress to dissipate fatigue while preserving momentum. Deloads are useful when fatigue accumulates, performance stalls, or a program has run hard for several weeks.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Health & Fitness/Exercise Science Fundamentals",
+      "label": "Exercise Science Fundamentals",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Exercise science studies how the body adapts to training stress through strength, endurance, mobility, recovery, and energy systems. Useful programming balances overload, specificity, fatigue, and consistency.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Health & Fitness/Eye Strain and Screen Time (20-20-20 Rule)",
+      "label": "Eye Strain and Screen Time (20-20-20 Rule)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Eye strain from screen work often comes from sustained near focus, glare, dryness, poor lighting, and long uninterrupted sessions. The 20-20-20 rule is a simple break habit: every 20 minutes, look 20 feet away for about 20 seconds.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Health & Fitness/Hypertrophy vs Strength Programming",
+      "label": "Hypertrophy vs Strength Programming",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Hypertrophy programming prioritizes muscle growth, while strength programming prioritizes force output in specific movements. They overlap, but differ in volume, intensity, exercise selection, and progression.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Health & Fitness/Mobility and Flexibility Training",
+      "label": "Mobility and Flexibility Training",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Mobility is active control through range of motion, while flexibility is the available passive range. Good training combines strength, control, and appropriate stretching rather than chasing range alone.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Health & Fitness/NEAT (Non-Exercise Activity Thermogenesis)",
+      "label": "NEAT (Non-Exercise Activity Thermogenesis)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "NEAT is the energy used for non-exercise movement like walking, standing, chores, fidgeting, and daily activity. It can meaningfully affect energy expenditure and health without feeling like formal workouts.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Health & Fitness/Overtraining vs Overreaching",
+      "label": "Overtraining vs Overreaching",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Overreaching is short-term accumulated fatigue that can be recovered from, while overtraining is a more serious maladaptive state from prolonged stress and insufficient recovery. The distinction matters for programming and health.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Health & Fitness/Posture and Desk Ergonomics",
+      "label": "Posture and Desk Ergonomics",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Desk ergonomics reduces strain by matching monitor, chair, keyboard, mouse, lighting, and break habits to the body. The best posture is variable: comfort comes from movement and setup, not holding one perfect position.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery",
+      "label": "Recovery — Sleep, Nutrition, Active Recovery",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Recovery is the process that turns training stress into adaptation. Sleep, nutrition, hydration, low-intensity movement, stress management, and appropriate programming all determine whether work becomes progress.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 12
+    },
+    {
+      "id": "Resources/Health & Fitness/Strength Training Principles (Progressive Overload, Specificity)",
+      "label": "Strength Training Principles (Progressive Overload, Specificity)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Strength training improves force production by progressively challenging muscles and nervous system patterns. The core principles are overload, specificity, sufficient volume, technical consistency, and recovery.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Health & Fitness/Stretching — Static vs Dynamic vs PNF",
+      "label": "Stretching — Static vs Dynamic vs PNF",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Static, dynamic, and PNF stretching use different methods to improve range of motion or prepare for activity. Dynamic stretching fits warmups, static stretching fits flexibility work, and PNF uses contraction-relaxation patterns.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Health & Fitness/VO2 Max — What It Is and How to Improve It",
+      "label": "VO2 Max — What It Is and How to Improve It",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "VO2 max measures the maximum rate of oxygen use during intense exercise and is a strong marker of aerobic fitness. It improves through consistent aerobic training, intervals, and enough recovery.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Health & Fitness/Wrist Health for Programmers",
+      "label": "Wrist Health for Programmers",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Wrist health for programmers depends on input ergonomics, varied movement, reasonable workload, and early response to discomfort. The goal is reducing repetitive strain before it becomes persistent pain.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Health & Fitness/Zone 2 Cardio — Science and Benefits",
+      "label": "Zone 2 Cardio — Science and Benefits",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Zone 2 cardio is sustainable aerobic work that improves mitochondrial function, fat oxidation, endurance base, and recovery capacity. It should feel controlled enough to maintain for a long duration.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 5
+    },
+    {
       "id": "Resources/IaaS PaaS SaaS",
       "label": "IaaS PaaS SaaS",
       "folder": "Resources",
@@ -3034,7 +3220,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 11
+      "degree": 15
     },
     {
       "id": "Resources/Learning & Memory/Anki — Optimal Card Design",
@@ -3046,7 +3232,19 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 4
+      "degree": 5
+    },
+    {
+      "id": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know",
+      "label": "Calibration — Knowing What You Don't Know",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Calibration is the skill of matching confidence to reality. It improves through prediction, feedback, decision journaling, and noticing where understanding feels fluent but fails under retrieval or application.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 8
     },
     {
       "id": "Resources/Learning & Memory/Chunking Information",
@@ -3070,7 +3268,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Learning & Memory/Desirable Difficulties in Learning",
@@ -3097,6 +3295,18 @@
       "degree": 4
     },
     {
+      "id": "Resources/Learning & Memory/Growth Mindset vs Fixed Mindset",
+      "label": "Growth Mindset vs Fixed Mindset",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Growth mindset frames ability as improvable through effort, strategy, and feedback, while fixed mindset treats ability as static. The useful version is not empty positivity; it is choosing better practice after failure.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 3
+    },
+    {
       "id": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)",
       "label": "How Memory Works (Encoding, Storage, Retrieval)",
       "folder": "Resources",
@@ -3118,6 +3328,18 @@
         "resource",
         "learning-memory"
       ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Learning & Memory/How to Retain What You Read",
+      "label": "How to Retain What You Read",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Retaining what you read requires active processing: previewing, questioning, summarizing, recalling, connecting, and applying. Highlighting alone creates familiarity but weak long-term recall.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
       "degree": 5
     },
     {
@@ -3130,7 +3352,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Learning & Memory/Inversion Thinking",
@@ -3138,6 +3360,18 @@
       "folder": "Resources",
       "created": "2026-05-26",
       "excerpt": "Inversion thinking solves problems by asking what would cause failure, then avoiding or counteracting those causes. It is useful because failure modes are often easier to identify than perfect solutions.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Learning & Memory/Learning a New Domain Fast",
+      "label": "Learning a New Domain Fast",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Learning a new domain fast means building a map of core concepts, vocabulary, constraints, experts, tools, and feedback loops. The fastest path combines overview, targeted projects, active recall, and conversations with knowledgeable people.",
       "tags": [
         "resource",
         "learning-memory"
@@ -3166,7 +3400,19 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 5
+      "degree": 7
+    },
+    {
+      "id": "Resources/Learning & Memory/Metacognition",
+      "label": "Metacognition",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Metacognition is thinking about one's own thinking: planning, monitoring, and evaluating learning or decision processes. It helps learners choose strategies intentionally instead of confusing effort with progress.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 3
     },
     {
       "id": "Resources/Learning & Memory/Note-Taking Methods (Cornell, Outline, Zettelkasten)",
@@ -3179,6 +3425,18 @@
         "learning-memory"
       ],
       "degree": 3
+    },
+    {
+      "id": "Resources/Learning & Memory/Productive Disagreement",
+      "label": "Productive Disagreement",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Productive disagreement turns conflict into better understanding by separating claims, evidence, assumptions, and values. It works when participants try to improve the model rather than win the exchange.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Learning & Memory/Second-Order Thinking",
@@ -3217,6 +3475,18 @@
       "degree": 5
     },
     {
+      "id": "Resources/Learning & Memory/Teaching as a Learning Tool",
+      "label": "Teaching as a Learning Tool",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Teaching strengthens learning because it forces retrieval, organization, simplification, and feedback. Explaining a topic clearly reveals missing links that passive review can hide.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 6
+    },
+    {
       "id": "Resources/Learning & Memory/The Feynman Technique",
       "label": "The Feynman Technique",
       "folder": "Resources",
@@ -3226,7 +3496,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Learning & Memory/The Learning Pyramid",
@@ -3234,6 +3504,18 @@
       "folder": "Resources",
       "created": "2026-05-26",
       "excerpt": "The Learning Pyramid is a popular but oversimplified model claiming different retention rates by activity. Its useful takeaway is that active methods often beat passive review, but the exact percentages should not be treated as evidence.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Learning & Memory/Transfer of Learning",
+      "label": "Transfer of Learning",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Transfer of learning is applying knowledge or skill from one context to another. It improves when learners understand underlying principles, practice varied examples, and compare cases instead of memorizing surface patterns.",
       "tags": [
         "resource",
         "learning-memory"
@@ -3737,7 +4019,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Personal Productivity/Daily Note Template",
@@ -3761,7 +4043,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Personal Productivity/Deep Work (Cal Newport)",
@@ -3809,7 +4091,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 8
+      "degree": 11
     },
     {
       "id": "Resources/Personal Productivity/Evening Wind-Down Routines",
@@ -3821,7 +4103,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Personal Productivity/Evergreen Notes",
@@ -3857,7 +4139,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Personal Productivity/Getting Things Done (GTD) Method",
@@ -4037,7 +4319,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Personal Productivity/Reward Systems and Dopamine Loops",
@@ -4097,7 +4379,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Personal Productivity/Zettelkasten Method",
@@ -6697,8 +6979,8 @@
       "degree": 3
     },
     {
-      "id": "TLS 1.3",
-      "label": "TLS 1.3",
+      "id": "Step Count and NEAT",
+      "label": "Step Count and NEAT",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -6706,13 +6988,13 @@
       "degree": 1
     },
     {
-      "id": "Teaching as a Learning Tool",
-      "label": "Teaching as a Learning Tool",
+      "id": "TLS 1.3",
+      "label": "TLS 1.3",
       "folder": null,
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 2
+      "degree": 1
     },
     {
       "id": "User Stories and Jobs to Be Done",
@@ -10285,6 +10567,210 @@
       "target": "Resources/System Design Notes"
     },
     {
+      "source": "Resources/Health & Fitness/Back Health for Desk Workers",
+      "target": "Resources/Health & Fitness/Compound Lifts (Squat, Deadlift, Bench Press, OHP)"
+    },
+    {
+      "source": "Resources/Health & Fitness/Back Health for Desk Workers",
+      "target": "Resources/Health & Fitness/NEAT (Non-Exercise Activity Thermogenesis)"
+    },
+    {
+      "source": "Resources/Health & Fitness/Back Health for Desk Workers",
+      "target": "Resources/Health & Fitness/Posture and Desk Ergonomics"
+    },
+    {
+      "source": "Resources/Health & Fitness/Cardio Types — HIIT vs LISS vs Zone 2",
+      "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
+    },
+    {
+      "source": "Resources/Health & Fitness/Cardio Types — HIIT vs LISS vs Zone 2",
+      "target": "Resources/Health & Fitness/VO2 Max — What It Is and How to Improve It"
+    },
+    {
+      "source": "Resources/Health & Fitness/Cardio Types — HIIT vs LISS vs Zone 2",
+      "target": "Resources/Health & Fitness/Zone 2 Cardio — Science and Benefits"
+    },
+    {
+      "source": "Resources/Health & Fitness/Compound Lifts (Squat, Deadlift, Bench Press, OHP)",
+      "target": "Resources/Health & Fitness/Back Health for Desk Workers"
+    },
+    {
+      "source": "Resources/Health & Fitness/Compound Lifts (Squat, Deadlift, Bench Press, OHP)",
+      "target": "Resources/Health & Fitness/Mobility and Flexibility Training"
+    },
+    {
+      "source": "Resources/Health & Fitness/Compound Lifts (Squat, Deadlift, Bench Press, OHP)",
+      "target": "Resources/Health & Fitness/Strength Training Principles (Progressive Overload, Specificity)"
+    },
+    {
+      "source": "Resources/Health & Fitness/Deload Weeks",
+      "target": "Resources/Health & Fitness/Overtraining vs Overreaching"
+    },
+    {
+      "source": "Resources/Health & Fitness/Deload Weeks",
+      "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
+    },
+    {
+      "source": "Resources/Health & Fitness/Deload Weeks",
+      "target": "Resources/Health & Fitness/Strength Training Principles (Progressive Overload, Specificity)"
+    },
+    {
+      "source": "Resources/Health & Fitness/Exercise Science Fundamentals",
+      "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
+    },
+    {
+      "source": "Resources/Health & Fitness/Exercise Science Fundamentals",
+      "target": "Resources/Health & Fitness/Strength Training Principles (Progressive Overload, Specificity)"
+    },
+    {
+      "source": "Resources/Health & Fitness/Exercise Science Fundamentals",
+      "target": "Resources/Personal Productivity/Energy Management vs Time Management"
+    },
+    {
+      "source": "Resources/Health & Fitness/Eye Strain and Screen Time (20-20-20 Rule)",
+      "target": "Resources/Health & Fitness/Posture and Desk Ergonomics"
+    },
+    {
+      "source": "Resources/Health & Fitness/Eye Strain and Screen Time (20-20-20 Rule)",
+      "target": "Resources/Personal Productivity/Evening Wind-Down Routines"
+    },
+    {
+      "source": "Resources/Health & Fitness/Eye Strain and Screen Time (20-20-20 Rule)",
+      "target": "Resources/Personal Productivity/Focus Modes and Context Switching Costs"
+    },
+    {
+      "source": "Resources/Health & Fitness/Hypertrophy vs Strength Programming",
+      "target": "Resources/Health & Fitness/Compound Lifts (Squat, Deadlift, Bench Press, OHP)"
+    },
+    {
+      "source": "Resources/Health & Fitness/Hypertrophy vs Strength Programming",
+      "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
+    },
+    {
+      "source": "Resources/Health & Fitness/Hypertrophy vs Strength Programming",
+      "target": "Resources/Health & Fitness/Strength Training Principles (Progressive Overload, Specificity)"
+    },
+    {
+      "source": "Resources/Health & Fitness/Mobility and Flexibility Training",
+      "target": "Resources/Health & Fitness/Compound Lifts (Squat, Deadlift, Bench Press, OHP)"
+    },
+    {
+      "source": "Resources/Health & Fitness/Mobility and Flexibility Training",
+      "target": "Resources/Health & Fitness/Posture and Desk Ergonomics"
+    },
+    {
+      "source": "Resources/Health & Fitness/Mobility and Flexibility Training",
+      "target": "Resources/Health & Fitness/Stretching — Static vs Dynamic vs PNF"
+    },
+    {
+      "source": "Resources/Health & Fitness/NEAT (Non-Exercise Activity Thermogenesis)",
+      "target": "Resources/Health & Fitness/Back Health for Desk Workers"
+    },
+    {
+      "source": "Resources/Health & Fitness/NEAT (Non-Exercise Activity Thermogenesis)",
+      "target": "Resources/Personal Productivity/Energy Management vs Time Management"
+    },
+    {
+      "source": "Resources/Health & Fitness/NEAT (Non-Exercise Activity Thermogenesis)",
+      "target": "Step Count and NEAT"
+    },
+    {
+      "source": "Resources/Health & Fitness/Overtraining vs Overreaching",
+      "target": "Heart Rate Variability (HRV) as a Recovery Metric"
+    },
+    {
+      "source": "Resources/Health & Fitness/Overtraining vs Overreaching",
+      "target": "Resources/Health & Fitness/Deload Weeks"
+    },
+    {
+      "source": "Resources/Health & Fitness/Overtraining vs Overreaching",
+      "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
+    },
+    {
+      "source": "Resources/Health & Fitness/Posture and Desk Ergonomics",
+      "target": "Resources/Health & Fitness/Back Health for Desk Workers"
+    },
+    {
+      "source": "Resources/Health & Fitness/Posture and Desk Ergonomics",
+      "target": "Resources/Health & Fitness/Eye Strain and Screen Time (20-20-20 Rule)"
+    },
+    {
+      "source": "Resources/Health & Fitness/Posture and Desk Ergonomics",
+      "target": "Resources/Health & Fitness/Wrist Health for Programmers"
+    },
+    {
+      "source": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery",
+      "target": "Resources/Health & Fitness/Deload Weeks"
+    },
+    {
+      "source": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery",
+      "target": "Resources/Health & Fitness/Overtraining vs Overreaching"
+    },
+    {
+      "source": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery",
+      "target": "Resources/Personal Productivity/Energy Management vs Time Management"
+    },
+    {
+      "source": "Resources/Health & Fitness/Strength Training Principles (Progressive Overload, Specificity)",
+      "target": "Resources/Health & Fitness/Compound Lifts (Squat, Deadlift, Bench Press, OHP)"
+    },
+    {
+      "source": "Resources/Health & Fitness/Strength Training Principles (Progressive Overload, Specificity)",
+      "target": "Resources/Health & Fitness/Deload Weeks"
+    },
+    {
+      "source": "Resources/Health & Fitness/Strength Training Principles (Progressive Overload, Specificity)",
+      "target": "Resources/Health & Fitness/Hypertrophy vs Strength Programming"
+    },
+    {
+      "source": "Resources/Health & Fitness/Stretching — Static vs Dynamic vs PNF",
+      "target": "Resources/Health & Fitness/Compound Lifts (Squat, Deadlift, Bench Press, OHP)"
+    },
+    {
+      "source": "Resources/Health & Fitness/Stretching — Static vs Dynamic vs PNF",
+      "target": "Resources/Health & Fitness/Mobility and Flexibility Training"
+    },
+    {
+      "source": "Resources/Health & Fitness/Stretching — Static vs Dynamic vs PNF",
+      "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
+    },
+    {
+      "source": "Resources/Health & Fitness/VO2 Max — What It Is and How to Improve It",
+      "target": "Heart Rate Variability (HRV) as a Recovery Metric"
+    },
+    {
+      "source": "Resources/Health & Fitness/VO2 Max — What It Is and How to Improve It",
+      "target": "Resources/Health & Fitness/Cardio Types — HIIT vs LISS vs Zone 2"
+    },
+    {
+      "source": "Resources/Health & Fitness/VO2 Max — What It Is and How to Improve It",
+      "target": "Resources/Health & Fitness/Zone 2 Cardio — Science and Benefits"
+    },
+    {
+      "source": "Resources/Health & Fitness/Wrist Health for Programmers",
+      "target": "Resources/Health & Fitness/Mobility and Flexibility Training"
+    },
+    {
+      "source": "Resources/Health & Fitness/Wrist Health for Programmers",
+      "target": "Resources/Health & Fitness/Posture and Desk Ergonomics"
+    },
+    {
+      "source": "Resources/Health & Fitness/Wrist Health for Programmers",
+      "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
+    },
+    {
+      "source": "Resources/Health & Fitness/Zone 2 Cardio — Science and Benefits",
+      "target": "Resources/Health & Fitness/Cardio Types — HIIT vs LISS vs Zone 2"
+    },
+    {
+      "source": "Resources/Health & Fitness/Zone 2 Cardio — Science and Benefits",
+      "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
+    },
+    {
+      "source": "Resources/Health & Fitness/Zone 2 Cardio — Science and Benefits",
+      "target": "Resources/Health & Fitness/VO2 Max — What It Is and How to Improve It"
+    },
+    {
       "source": "Resources/IaaS PaaS SaaS",
       "target": "Resources/CI CD"
     },
@@ -10398,15 +10884,27 @@
     },
     {
       "source": "Resources/Learning & Memory/Anki — Optimal Card Design",
-      "target": "How to Retain What You Read"
-    },
-    {
-      "source": "Resources/Learning & Memory/Anki — Optimal Card Design",
       "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
     },
     {
       "source": "Resources/Learning & Memory/Anki — Optimal Card Design",
+      "target": "Resources/Learning & Memory/How to Retain What You Read"
+    },
+    {
+      "source": "Resources/Learning & Memory/Anki — Optimal Card Design",
       "target": "Resources/Learning & Memory/Spaced Repetition — Theory and Implementation"
+    },
+    {
+      "source": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know",
+      "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
+    },
+    {
+      "source": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know",
+      "target": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)"
+    },
+    {
+      "source": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know",
+      "target": "Resources/Personal Productivity/Decision Journaling"
     },
     {
       "source": "Resources/Learning & Memory/Chunking Information",
@@ -10422,11 +10920,11 @@
     },
     {
       "source": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)",
-      "target": "Calibration — Knowing What You Don't Know"
+      "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
     },
     {
       "source": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)",
-      "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
+      "target": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know"
     },
     {
       "source": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)",
@@ -10457,6 +10955,18 @@
       "target": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them"
     },
     {
+      "source": "Resources/Learning & Memory/Growth Mindset vs Fixed Mindset",
+      "target": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know"
+    },
+    {
+      "source": "Resources/Learning & Memory/Growth Mindset vs Fixed Mindset",
+      "target": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)"
+    },
+    {
+      "source": "Resources/Learning & Memory/Growth Mindset vs Fixed Mindset",
+      "target": "Resources/Personal Productivity/Procrastination — Root Causes and Fixes"
+    },
+    {
       "source": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)",
       "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
     },
@@ -10479,6 +10989,18 @@
     {
       "source": "Resources/Learning & Memory/How to Read a Technical Paper",
       "target": "Resources/Learning & Memory/The Feynman Technique"
+    },
+    {
+      "source": "Resources/Learning & Memory/How to Retain What You Read",
+      "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
+    },
+    {
+      "source": "Resources/Learning & Memory/How to Retain What You Read",
+      "target": "Resources/Learning & Memory/Anki — Optimal Card Design"
+    },
+    {
+      "source": "Resources/Learning & Memory/How to Retain What You Read",
+      "target": "Resources/Personal Productivity/Commonplace Book Tradition"
     },
     {
       "source": "Resources/Learning & Memory/Interleaving Practice",
@@ -10505,6 +11027,18 @@
       "target": "Resources/Security & Privacy/Threat Modeling (STRIDE)"
     },
     {
+      "source": "Resources/Learning & Memory/Learning a New Domain Fast",
+      "target": "Resources/Learning & Memory/How to Read a Technical Paper"
+    },
+    {
+      "source": "Resources/Learning & Memory/Learning a New Domain Fast",
+      "target": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them"
+    },
+    {
+      "source": "Resources/Learning & Memory/Learning a New Domain Fast",
+      "target": "Resources/Learning & Memory/The Feynman Technique"
+    },
+    {
       "source": "Resources/Learning & Memory/Learning a New Programming Language Fast",
       "target": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)"
     },
@@ -10529,6 +11063,18 @@
       "target": "Resources/Learning & Memory/Systems Thinking"
     },
     {
+      "source": "Resources/Learning & Memory/Metacognition",
+      "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
+    },
+    {
+      "source": "Resources/Learning & Memory/Metacognition",
+      "target": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know"
+    },
+    {
+      "source": "Resources/Learning & Memory/Metacognition",
+      "target": "Resources/Personal Productivity/Weekly Review Process"
+    },
+    {
       "source": "Resources/Learning & Memory/Note-Taking Methods (Cornell, Outline, Zettelkasten)",
       "target": "Resources/Learning & Memory/How to Read a Technical Paper"
     },
@@ -10539,6 +11085,18 @@
     {
       "source": "Resources/Learning & Memory/Note-Taking Methods (Cornell, Outline, Zettelkasten)",
       "target": "Resources/Personal Productivity/Zettelkasten Method"
+    },
+    {
+      "source": "Resources/Learning & Memory/Productive Disagreement",
+      "target": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know"
+    },
+    {
+      "source": "Resources/Learning & Memory/Productive Disagreement",
+      "target": "Resources/Learning & Memory/Teaching as a Learning Tool"
+    },
+    {
+      "source": "Resources/Learning & Memory/Productive Disagreement",
+      "target": "Resources/Personal Productivity/Decision Journaling"
     },
     {
       "source": "Resources/Learning & Memory/Second-Order Thinking",
@@ -10577,6 +11135,18 @@
       "target": "Resources/Learning & Memory/Second-Order Thinking"
     },
     {
+      "source": "Resources/Learning & Memory/Teaching as a Learning Tool",
+      "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
+    },
+    {
+      "source": "Resources/Learning & Memory/Teaching as a Learning Tool",
+      "target": "Resources/Learning & Memory/Productive Disagreement"
+    },
+    {
+      "source": "Resources/Learning & Memory/Teaching as a Learning Tool",
+      "target": "Resources/Learning & Memory/The Feynman Technique"
+    },
+    {
       "source": "Resources/Learning & Memory/The Feynman Technique",
       "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
     },
@@ -10586,7 +11156,7 @@
     },
     {
       "source": "Resources/Learning & Memory/The Feynman Technique",
-      "target": "Teaching as a Learning Tool"
+      "target": "Resources/Learning & Memory/Teaching as a Learning Tool"
     },
     {
       "source": "Resources/Learning & Memory/The Learning Pyramid",
@@ -10598,7 +11168,19 @@
     },
     {
       "source": "Resources/Learning & Memory/The Learning Pyramid",
-      "target": "Teaching as a Learning Tool"
+      "target": "Resources/Learning & Memory/Teaching as a Learning Tool"
+    },
+    {
+      "source": "Resources/Learning & Memory/Transfer of Learning",
+      "target": "Resources/Learning & Memory/Interleaving Practice"
+    },
+    {
+      "source": "Resources/Learning & Memory/Transfer of Learning",
+      "target": "Resources/Learning & Memory/Learning a New Domain Fast"
+    },
+    {
+      "source": "Resources/Learning & Memory/Transfer of Learning",
+      "target": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them"
     },
     {
       "source": "Resources/MLOps and ML Engineering",
@@ -11222,7 +11804,7 @@
     },
     {
       "source": "Resources/Personal Productivity/Commonplace Book Tradition",
-      "target": "How to Retain What You Read"
+      "target": "Resources/Learning & Memory/How to Retain What You Read"
     },
     {
       "source": "Resources/Personal Productivity/Commonplace Book Tradition",
@@ -11246,7 +11828,7 @@
     },
     {
       "source": "Resources/Personal Productivity/Decision Journaling",
-      "target": "Calibration — Knowing What You Don't Know"
+      "target": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know"
     },
     {
       "source": "Resources/Personal Productivity/Decision Journaling",
@@ -11294,7 +11876,7 @@
     },
     {
       "source": "Resources/Personal Productivity/Energy Management vs Time Management",
-      "target": "Recovery — Sleep, Nutrition, Active Recovery"
+      "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
     },
     {
       "source": "Resources/Personal Productivity/Energy Management vs Time Management",
@@ -15141,5 +15723,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-26T16:37:14Z"
+  "generated_at": "2026-05-26T16:43:10Z"
 }
