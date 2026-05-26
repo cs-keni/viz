@@ -117,15 +117,6 @@
       "degree": 2
     },
     {
-      "id": "Circadian Rhythm — How It Works",
-      "label": "Circadian Rhythm — How It Works",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Daily Notes/2026-05-19",
       "label": "2026-05-19",
       "folder": "Daily Notes",
@@ -246,15 +237,6 @@
       "degree": 1
     },
     {
-      "id": "Hydration — How Much, When, and Electrolytes",
-      "label": "Hydration — How Much, When, and Electrolytes",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Maps/Bobby",
       "label": "Bobby",
       "folder": "Maps",
@@ -351,15 +333,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 3
-    },
-    {
-      "id": "Processed vs Whole Foods — What Matters",
-      "label": "Processed vs Whole Foods — What Matters",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
     },
     {
       "id": "Product Analytics Fundamentals",
@@ -3015,7 +2988,7 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Health & Fitness/Cold Exposure — Benefits and Protocols",
@@ -3099,7 +3072,7 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Health & Fitness/Hypertrophy vs Strength Programming",
@@ -3171,7 +3144,7 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 17
+      "degree": 20
     },
     {
       "id": "Resources/Health & Fitness/Sauna — Evidence and Use",
@@ -3183,7 +3156,7 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Health & Fitness/Step Count and NEAT",
@@ -3231,7 +3204,7 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Health & Fitness/VO2 Max — What It Is and How to Improve It",
@@ -4052,6 +4025,18 @@
       "degree": 10
     },
     {
+      "id": "Resources/Nutrition & Diet/Alcohol and Health — What the Research Says",
+      "label": "Alcohol and Health — What the Research Says",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Alcohol affects sleep, liver health, cancer risk, accidents, mood, and performance, and current public-health framing increasingly emphasizes that lower intake means lower risk. Any benefits are context-dependent and should not be treated as a reason to drink.",
+      "tags": [
+        "resource",
+        "nutrition-diet"
+      ],
+      "degree": 4
+    },
+    {
       "id": "Resources/Nutrition & Diet/Anti-Inflammatory Foods",
       "label": "Anti-Inflammatory Foods",
       "folder": "Resources",
@@ -4061,7 +4046,7 @@
         "resource",
         "nutrition-diet"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Nutrition & Diet/Caffeine Timing and Adenosine Clearance",
@@ -4073,7 +4058,7 @@
         "resource",
         "nutrition-diet"
       ],
-      "degree": 4
+      "degree": 8
     },
     {
       "id": "Resources/Nutrition & Diet/Caffeine — Pharmacology and Optimization",
@@ -4085,7 +4070,7 @@
         "resource",
         "nutrition-diet"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Nutrition & Diet/Caloric Deficit and Surplus",
@@ -4097,7 +4082,7 @@
         "resource",
         "nutrition-diet"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Nutrition & Diet/Creatine — Benefits, Safety, and Protocol",
@@ -4110,6 +4095,18 @@
         "nutrition-diet"
       ],
       "degree": 4
+    },
+    {
+      "id": "Resources/Nutrition & Diet/Glycemic Index and Blood Sugar Management",
+      "label": "Glycemic Index and Blood Sugar Management",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Glycemic index ranks carbohydrate foods by blood-glucose response, but real meals depend on portion size, fiber, protein, fat, food form, and individual context. It is a tool, not a complete nutrition system.",
+      "tags": [
+        "resource",
+        "nutrition-diet"
+      ],
+      "degree": 3
     },
     {
       "id": "Resources/Nutrition & Diet/Gut Microbiome Basics",
@@ -4129,6 +4126,18 @@
       "folder": "Resources",
       "created": "2026-05-26",
       "excerpt": "The gut-brain axis describes communication between the digestive system, microbiome, immune system, hormones, and nervous system. It is real biology, but consumer claims often run ahead of actionable evidence.",
+      "tags": [
+        "resource",
+        "nutrition-diet"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Nutrition & Diet/Hydration — How Much, When, and Electrolytes",
+      "label": "Hydration — How Much, When, and Electrolytes",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Hydration needs depend on body size, sweat rate, climate, diet, activity, and health context. Water is the foundation, while electrolytes matter most with heavy sweating, long exercise, heat, illness, or low-sodium diets.",
       "tags": [
         "resource",
         "nutrition-diet"
@@ -4157,7 +4166,7 @@
         "resource",
         "nutrition-diet"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Nutrition & Diet/Magnesium — Uses, Forms, and Deficiency",
@@ -4181,7 +4190,7 @@
         "resource",
         "nutrition-diet"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Nutrition & Diet/Metabolic Rate and TDEE",
@@ -4193,7 +4202,7 @@
         "resource",
         "nutrition-diet"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Nutrition & Diet/Micronutrients — Key Vitamins and Minerals",
@@ -4205,7 +4214,7 @@
         "resource",
         "nutrition-diet"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Nutrition & Diet/Omega-3 Fatty Acids — EPA, DHA, and Inflammation",
@@ -4218,6 +4227,18 @@
         "nutrition-diet"
       ],
       "degree": 4
+    },
+    {
+      "id": "Resources/Nutrition & Diet/Processed vs Whole Foods — What Matters",
+      "label": "Processed vs Whole Foods — What Matters",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Whole foods tend to provide fiber, micronutrients, satiety, and lower energy density, while highly processed foods can be easier to overeat. The meaningful distinction is overall diet pattern, not moral labeling of individual foods.",
+      "tags": [
+        "resource",
+        "nutrition-diet"
+      ],
+      "degree": 5
     },
     {
       "id": "Resources/Nutrition & Diet/Protein Intake for Muscle Building and Recovery",
@@ -4439,7 +4460,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Personal Productivity/Evergreen Notes",
@@ -4571,7 +4592,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Personal Productivity/Motivation — Intrinsic vs Extrinsic",
@@ -5696,6 +5717,222 @@
         "interview-prep"
       ],
       "degree": 8
+    },
+    {
+      "id": "Resources/Sleep Science/Alcohol and Sleep Quality",
+      "label": "Alcohol and Sleep Quality",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Alcohol can make sleep onset feel easier but usually worsens sleep quality by fragmenting sleep, reducing REM early in the night, increasing awakenings, and worsening breathing issues. It is a poor sleep aid.",
+      "tags": [
+        "resource",
+        "sleep-science"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Sleep Science/Blue Light and Melatonin Suppression",
+      "label": "Blue Light and Melatonin Suppression",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Blue-enriched evening light can suppress melatonin and delay circadian timing, especially when bright and close to bedtime. Light timing, brightness, duration, and personal sensitivity all matter.",
+      "tags": [
+        "resource",
+        "sleep-science"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Sleep Science/Chronotypes (Early Bird vs Night Owl — Genetics)",
+      "label": "Chronotypes (Early Bird vs Night Owl — Genetics)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Chronotype is a person's natural tendency toward earlier or later sleep-wake timing, influenced by genetics, age, light exposure, and schedule. It is real, but habits and environment still shape actual sleep timing.",
+      "tags": [
+        "resource",
+        "sleep-science"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Sleep Science/Circadian Rhythm — How It Works",
+      "label": "Circadian Rhythm — How It Works",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Circadian rhythm is the roughly 24-hour body clock shaped by light, timing, meals, activity, and routine. Morning light and consistent wake time are strong anchors for sleep timing.",
+      "tags": [
+        "resource",
+        "sleep-science"
+      ],
+      "degree": 9
+    },
+    {
+      "id": "Resources/Sleep Science/Jet Lag Management",
+      "label": "Jet Lag Management",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Jet lag happens when the internal circadian clock is misaligned with the destination schedule. Light timing, meal timing, sleep scheduling, caffeine, and sometimes melatonin can help shift rhythm.",
+      "tags": [
+        "resource",
+        "sleep-science"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Sleep Science/Melatonin Supplementation — When and How Much",
+      "label": "Melatonin Supplementation — When and How Much",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Melatonin is a circadian timing signal, not a general knockout sleep drug. It may help jet lag or delayed sleep timing, but product quality, timing, dose, medication interactions, and unknown long-term safety all matter.",
+      "tags": [
+        "resource",
+        "sleep-science"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Sleep Science/Napping — Types and Optimal Duration (Power Nap, Full Cycle)",
+      "label": "Napping — Types and Optimal Duration (Power Nap, Full Cycle)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Naps can reduce sleep pressure and improve alertness, but timing and duration determine whether they help or create grogginess. Short power naps are often safer for daytime alertness than long late naps.",
+      "tags": [
+        "resource",
+        "sleep-science"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Sleep Science/Noise and Sleep (White, Pink, Brown Noise)",
+      "label": "Noise and Sleep (White, Pink, Brown Noise)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Noise can fragment sleep even when it does not fully wake someone. White, pink, or brown noise may help by masking unpredictable sounds, but volume and personal comfort matter.",
+      "tags": [
+        "resource",
+        "sleep-science"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Sleep Science/Pre-Sleep Nutrition and Sleep Quality",
+      "label": "Pre-Sleep Nutrition and Sleep Quality",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Pre-sleep nutrition can affect sleep through digestion, blood sugar, reflux, caffeine, alcohol, hydration, and meal size. The best pattern is individual, but heavy late meals and alcohol often hurt sleep quality.",
+      "tags": [
+        "resource",
+        "sleep-science"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Sleep Science/Sleep Cycles and Ultradian Rhythms",
+      "label": "Sleep Cycles and Ultradian Rhythms",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Sleep cycles repeat roughly every 90 minutes, moving through NREM and REM stages. Early sleep tends to contain more deep sleep, while later sleep tends to contain more REM.",
+      "tags": [
+        "resource",
+        "sleep-science"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Sleep Science/Sleep Deprivation — Cognitive and Physical Effects",
+      "label": "Sleep Deprivation — Cognitive and Physical Effects",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Sleep deprivation impairs attention, reaction time, learning, mood, immune function, metabolic health, and physical performance. Chronic sleep restriction can be especially deceptive because people adapt subjectively while performance remains impaired.",
+      "tags": [
+        "resource",
+        "sleep-science"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Sleep Science/Sleep Disorders Overview (Apnea, Insomnia, RLS)",
+      "label": "Sleep Disorders Overview (Apnea, Insomnia, RLS)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Sleep disorders like sleep apnea, insomnia, and restless legs syndrome can impair health and daytime function beyond ordinary poor habits. Persistent symptoms, loud snoring, choking awakenings, or severe daytime sleepiness deserve medical evaluation.",
+      "tags": [
+        "resource",
+        "sleep-science"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Sleep Science/Sleep Hygiene Best Practices",
+      "label": "Sleep Hygiene Best Practices",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Sleep hygiene is the set of habits and environmental choices that support reliable sleep: consistent wake time, morning light, reduced evening stimulation, caffeine timing, cool room, and a repeatable wind-down.",
+      "tags": [
+        "resource",
+        "sleep-science"
+      ],
+      "degree": 11
+    },
+    {
+      "id": "Resources/Sleep Science/Sleep Pressure and Adenosine",
+      "label": "Sleep Pressure and Adenosine",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Sleep pressure builds during wakefulness partly through adenosine accumulation and decreases during sleep. Caffeine masks this pressure by blocking adenosine receptors rather than removing the underlying need for sleep.",
+      "tags": [
+        "resource",
+        "sleep-science"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Sleep Science/Sleep Stages (NREM 1-2-3 and REM)",
+      "label": "Sleep Stages (NREM 1-2-3 and REM)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Sleep cycles through NREM and REM stages, each associated with different brain and body functions. Deep NREM supports physical restoration and memory consolidation, while REM is linked to dreaming, emotion, and learning.",
+      "tags": [
+        "resource",
+        "sleep-science"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Sleep Science/Sleep Tracking — Metrics That Actually Matter",
+      "label": "Sleep Tracking — Metrics That Actually Matter",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Sleep tracking is useful for trends like duration, consistency, awakenings, resting heart rate, HRV, and subjective recovery. Consumer sleep-stage estimates are less reliable and should not drive anxiety.",
+      "tags": [
+        "resource",
+        "sleep-science"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Sleep Science/Social Jetlag — The Weekend Sleep Shift",
+      "label": "Social Jetlag — The Weekend Sleep Shift",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Social jetlag is the mismatch between biological sleep timing and social schedules, often seen when weekday and weekend sleep times shift. Large shifts can make Monday feel like crossing time zones.",
+      "tags": [
+        "resource",
+        "sleep-science"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Sleep Science/Temperature and Sleep Quality",
+      "label": "Temperature and Sleep Quality",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Sleep quality is affected by thermoregulation, and many people sleep better in a cool room with breathable bedding. Temperature needs are individual, but overheating commonly fragments sleep.",
+      "tags": [
+        "resource",
+        "sleep-science"
+      ],
+      "degree": 5
     },
     {
       "id": "Resources/Software Architecture",
@@ -7313,24 +7550,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 3
-    },
-    {
-      "id": "Sleep Hygiene Best Practices",
-      "label": "Sleep Hygiene Best Practices",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
-    },
-    {
-      "id": "Sleep Pressure and Adenosine",
-      "label": "Sleep Pressure and Adenosine",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
     },
     {
       "id": "TLS 1.3",
@@ -11117,15 +11336,15 @@
     },
     {
       "source": "Resources/Health & Fitness/Sauna — Evidence and Use",
-      "target": "Hydration — How Much, When, and Electrolytes"
-    },
-    {
-      "source": "Resources/Health & Fitness/Sauna — Evidence and Use",
       "target": "Resources/Health & Fitness/Heart Rate Variability (HRV) as a Recovery Metric"
     },
     {
       "source": "Resources/Health & Fitness/Sauna — Evidence and Use",
       "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
+    },
+    {
+      "source": "Resources/Health & Fitness/Sauna — Evidence and Use",
+      "target": "Resources/Nutrition & Diet/Hydration — How Much, When, and Electrolytes"
     },
     {
       "source": "Resources/Health & Fitness/Step Count and NEAT",
@@ -11165,15 +11384,15 @@
     },
     {
       "source": "Resources/Health & Fitness/Sunlight Exposure and Health",
-      "target": "Circadian Rhythm — How It Works"
-    },
-    {
-      "source": "Resources/Health & Fitness/Sunlight Exposure and Health",
       "target": "Resources/Nutrition & Diet/Vitamin D — Importance and Dosing"
     },
     {
       "source": "Resources/Health & Fitness/Sunlight Exposure and Health",
       "target": "Resources/Personal Productivity/Evening Wind-Down Routines"
+    },
+    {
+      "source": "Resources/Health & Fitness/Sunlight Exposure and Health",
+      "target": "Resources/Sleep Science/Circadian Rhythm — How It Works"
     },
     {
       "source": "Resources/Health & Fitness/VO2 Max — What It Is and How to Improve It",
@@ -12152,8 +12371,16 @@
       "target": "Resources/System Design Case Studies"
     },
     {
-      "source": "Resources/Nutrition & Diet/Anti-Inflammatory Foods",
-      "target": "Processed vs Whole Foods — What Matters"
+      "source": "Resources/Nutrition & Diet/Alcohol and Health — What the Research Says",
+      "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Alcohol and Health — What the Research Says",
+      "target": "Resources/Nutrition & Diet/Caffeine — Pharmacology and Optimization"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Alcohol and Health — What the Research Says",
+      "target": "Resources/Sleep Science/Alcohol and Sleep Quality"
     },
     {
       "source": "Resources/Nutrition & Diet/Anti-Inflammatory Foods",
@@ -12164,16 +12391,20 @@
       "target": "Resources/Nutrition & Diet/Omega-3 Fatty Acids — EPA, DHA, and Inflammation"
     },
     {
+      "source": "Resources/Nutrition & Diet/Anti-Inflammatory Foods",
+      "target": "Resources/Nutrition & Diet/Processed vs Whole Foods — What Matters"
+    },
+    {
       "source": "Resources/Nutrition & Diet/Caffeine Timing and Adenosine Clearance",
       "target": "Resources/Nutrition & Diet/Caffeine — Pharmacology and Optimization"
     },
     {
       "source": "Resources/Nutrition & Diet/Caffeine Timing and Adenosine Clearance",
-      "target": "Sleep Hygiene Best Practices"
+      "target": "Resources/Sleep Science/Sleep Hygiene Best Practices"
     },
     {
       "source": "Resources/Nutrition & Diet/Caffeine Timing and Adenosine Clearance",
-      "target": "Sleep Pressure and Adenosine"
+      "target": "Resources/Sleep Science/Sleep Pressure and Adenosine"
     },
     {
       "source": "Resources/Nutrition & Diet/Caffeine — Pharmacology and Optimization",
@@ -12185,7 +12416,7 @@
     },
     {
       "source": "Resources/Nutrition & Diet/Caffeine — Pharmacology and Optimization",
-      "target": "Sleep Pressure and Adenosine"
+      "target": "Resources/Sleep Science/Sleep Pressure and Adenosine"
     },
     {
       "source": "Resources/Nutrition & Diet/Caloric Deficit and Surplus",
@@ -12212,6 +12443,18 @@
       "target": "Resources/Nutrition & Diet/Supplements Worth Taking (Evidence-Based)"
     },
     {
+      "source": "Resources/Nutrition & Diet/Glycemic Index and Blood Sugar Management",
+      "target": "Resources/Nutrition & Diet/Macronutrients — Protein, Fat, Carbohydrates"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Glycemic Index and Blood Sugar Management",
+      "target": "Resources/Nutrition & Diet/Metabolic Rate and TDEE"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Glycemic Index and Blood Sugar Management",
+      "target": "Resources/Nutrition & Diet/Processed vs Whole Foods — What Matters"
+    },
+    {
       "source": "Resources/Nutrition & Diet/Gut Microbiome Basics",
       "target": "Fiber — Soluble vs Insoluble"
     },
@@ -12234,6 +12477,18 @@
     {
       "source": "Resources/Nutrition & Diet/Gut-Brain Axis",
       "target": "Resources/Nutrition & Diet/Gut Microbiome Basics"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Hydration — How Much, When, and Electrolytes",
+      "target": "Resources/Health & Fitness/Cardio Types — HIIT vs LISS vs Zone 2"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Hydration — How Much, When, and Electrolytes",
+      "target": "Resources/Health & Fitness/Sauna — Evidence and Use"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Hydration — How Much, When, and Electrolytes",
+      "target": "Resources/Nutrition & Diet/Meal Timing and Performance"
     },
     {
       "source": "Resources/Nutrition & Diet/Intermittent Fasting — Methods and Evidence",
@@ -12269,7 +12524,7 @@
     },
     {
       "source": "Resources/Nutrition & Diet/Magnesium — Uses, Forms, and Deficiency",
-      "target": "Sleep Hygiene Best Practices"
+      "target": "Resources/Sleep Science/Sleep Hygiene Best Practices"
     },
     {
       "source": "Resources/Nutrition & Diet/Meal Timing and Performance",
@@ -12318,6 +12573,18 @@
     {
       "source": "Resources/Nutrition & Diet/Omega-3 Fatty Acids — EPA, DHA, and Inflammation",
       "target": "Resources/Nutrition & Diet/Supplements Worth Taking (Evidence-Based)"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Processed vs Whole Foods — What Matters",
+      "target": "Resources/Nutrition & Diet/Anti-Inflammatory Foods"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Processed vs Whole Foods — What Matters",
+      "target": "Resources/Nutrition & Diet/Caloric Deficit and Surplus"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Processed vs Whole Foods — What Matters",
+      "target": "Resources/Nutrition & Diet/Micronutrients — Key Vitamins and Minerals"
     },
     {
       "source": "Resources/Nutrition & Diet/Protein Intake for Muscle Building and Recovery",
@@ -14062,6 +14329,222 @@
     {
       "source": "Resources/Security Deep Dive",
       "target": "Resources/Testing Strategy"
+    },
+    {
+      "source": "Resources/Sleep Science/Alcohol and Sleep Quality",
+      "target": "Resources/Nutrition & Diet/Alcohol and Health — What the Research Says"
+    },
+    {
+      "source": "Resources/Sleep Science/Alcohol and Sleep Quality",
+      "target": "Resources/Sleep Science/Pre-Sleep Nutrition and Sleep Quality"
+    },
+    {
+      "source": "Resources/Sleep Science/Alcohol and Sleep Quality",
+      "target": "Resources/Sleep Science/Sleep Disorders Overview (Apnea, Insomnia, RLS)"
+    },
+    {
+      "source": "Resources/Sleep Science/Blue Light and Melatonin Suppression",
+      "target": "Resources/Personal Productivity/Evening Wind-Down Routines"
+    },
+    {
+      "source": "Resources/Sleep Science/Blue Light and Melatonin Suppression",
+      "target": "Resources/Sleep Science/Circadian Rhythm — How It Works"
+    },
+    {
+      "source": "Resources/Sleep Science/Blue Light and Melatonin Suppression",
+      "target": "Resources/Sleep Science/Melatonin Supplementation — When and How Much"
+    },
+    {
+      "source": "Resources/Sleep Science/Chronotypes (Early Bird vs Night Owl — Genetics)",
+      "target": "Resources/Personal Productivity/Morning Routines — Research and Design"
+    },
+    {
+      "source": "Resources/Sleep Science/Chronotypes (Early Bird vs Night Owl — Genetics)",
+      "target": "Resources/Sleep Science/Circadian Rhythm — How It Works"
+    },
+    {
+      "source": "Resources/Sleep Science/Chronotypes (Early Bird vs Night Owl — Genetics)",
+      "target": "Resources/Sleep Science/Social Jetlag — The Weekend Sleep Shift"
+    },
+    {
+      "source": "Resources/Sleep Science/Circadian Rhythm — How It Works",
+      "target": "Resources/Health & Fitness/Sunlight Exposure and Health"
+    },
+    {
+      "source": "Resources/Sleep Science/Circadian Rhythm — How It Works",
+      "target": "Resources/Sleep Science/Blue Light and Melatonin Suppression"
+    },
+    {
+      "source": "Resources/Sleep Science/Circadian Rhythm — How It Works",
+      "target": "Resources/Sleep Science/Social Jetlag — The Weekend Sleep Shift"
+    },
+    {
+      "source": "Resources/Sleep Science/Jet Lag Management",
+      "target": "Resources/Sleep Science/Circadian Rhythm — How It Works"
+    },
+    {
+      "source": "Resources/Sleep Science/Jet Lag Management",
+      "target": "Resources/Sleep Science/Melatonin Supplementation — When and How Much"
+    },
+    {
+      "source": "Resources/Sleep Science/Jet Lag Management",
+      "target": "Resources/Sleep Science/Napping — Types and Optimal Duration (Power Nap, Full Cycle)"
+    },
+    {
+      "source": "Resources/Sleep Science/Melatonin Supplementation — When and How Much",
+      "target": "Resources/Sleep Science/Blue Light and Melatonin Suppression"
+    },
+    {
+      "source": "Resources/Sleep Science/Melatonin Supplementation — When and How Much",
+      "target": "Resources/Sleep Science/Jet Lag Management"
+    },
+    {
+      "source": "Resources/Sleep Science/Melatonin Supplementation — When and How Much",
+      "target": "Resources/Sleep Science/Sleep Disorders Overview (Apnea, Insomnia, RLS)"
+    },
+    {
+      "source": "Resources/Sleep Science/Napping — Types and Optimal Duration (Power Nap, Full Cycle)",
+      "target": "Resources/Nutrition & Diet/Caffeine Timing and Adenosine Clearance"
+    },
+    {
+      "source": "Resources/Sleep Science/Napping — Types and Optimal Duration (Power Nap, Full Cycle)",
+      "target": "Resources/Sleep Science/Sleep Cycles and Ultradian Rhythms"
+    },
+    {
+      "source": "Resources/Sleep Science/Napping — Types and Optimal Duration (Power Nap, Full Cycle)",
+      "target": "Resources/Sleep Science/Sleep Pressure and Adenosine"
+    },
+    {
+      "source": "Resources/Sleep Science/Noise and Sleep (White, Pink, Brown Noise)",
+      "target": "Resources/Sleep Science/Sleep Hygiene Best Practices"
+    },
+    {
+      "source": "Resources/Sleep Science/Noise and Sleep (White, Pink, Brown Noise)",
+      "target": "Resources/Sleep Science/Sleep Tracking — Metrics That Actually Matter"
+    },
+    {
+      "source": "Resources/Sleep Science/Noise and Sleep (White, Pink, Brown Noise)",
+      "target": "Resources/Sleep Science/Temperature and Sleep Quality"
+    },
+    {
+      "source": "Resources/Sleep Science/Pre-Sleep Nutrition and Sleep Quality",
+      "target": "Resources/Nutrition & Diet/Caffeine Timing and Adenosine Clearance"
+    },
+    {
+      "source": "Resources/Sleep Science/Pre-Sleep Nutrition and Sleep Quality",
+      "target": "Resources/Nutrition & Diet/Meal Timing and Performance"
+    },
+    {
+      "source": "Resources/Sleep Science/Pre-Sleep Nutrition and Sleep Quality",
+      "target": "Resources/Sleep Science/Alcohol and Sleep Quality"
+    },
+    {
+      "source": "Resources/Sleep Science/Sleep Cycles and Ultradian Rhythms",
+      "target": "Resources/Sleep Science/Napping — Types and Optimal Duration (Power Nap, Full Cycle)"
+    },
+    {
+      "source": "Resources/Sleep Science/Sleep Cycles and Ultradian Rhythms",
+      "target": "Resources/Sleep Science/Sleep Stages (NREM 1-2-3 and REM)"
+    },
+    {
+      "source": "Resources/Sleep Science/Sleep Cycles and Ultradian Rhythms",
+      "target": "Resources/Sleep Science/Sleep Tracking — Metrics That Actually Matter"
+    },
+    {
+      "source": "Resources/Sleep Science/Sleep Deprivation — Cognitive and Physical Effects",
+      "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
+    },
+    {
+      "source": "Resources/Sleep Science/Sleep Deprivation — Cognitive and Physical Effects",
+      "target": "Resources/Nutrition & Diet/Caffeine Timing and Adenosine Clearance"
+    },
+    {
+      "source": "Resources/Sleep Science/Sleep Deprivation — Cognitive and Physical Effects",
+      "target": "Resources/Sleep Science/Sleep Hygiene Best Practices"
+    },
+    {
+      "source": "Resources/Sleep Science/Sleep Disorders Overview (Apnea, Insomnia, RLS)",
+      "target": "Resources/Sleep Science/Melatonin Supplementation — When and How Much"
+    },
+    {
+      "source": "Resources/Sleep Science/Sleep Disorders Overview (Apnea, Insomnia, RLS)",
+      "target": "Resources/Sleep Science/Sleep Deprivation — Cognitive and Physical Effects"
+    },
+    {
+      "source": "Resources/Sleep Science/Sleep Disorders Overview (Apnea, Insomnia, RLS)",
+      "target": "Resources/Sleep Science/Sleep Hygiene Best Practices"
+    },
+    {
+      "source": "Resources/Sleep Science/Sleep Hygiene Best Practices",
+      "target": "Resources/Sleep Science/Circadian Rhythm — How It Works"
+    },
+    {
+      "source": "Resources/Sleep Science/Sleep Hygiene Best Practices",
+      "target": "Resources/Sleep Science/Sleep Disorders Overview (Apnea, Insomnia, RLS)"
+    },
+    {
+      "source": "Resources/Sleep Science/Sleep Hygiene Best Practices",
+      "target": "Resources/Sleep Science/Temperature and Sleep Quality"
+    },
+    {
+      "source": "Resources/Sleep Science/Sleep Pressure and Adenosine",
+      "target": "Resources/Nutrition & Diet/Caffeine Timing and Adenosine Clearance"
+    },
+    {
+      "source": "Resources/Sleep Science/Sleep Pressure and Adenosine",
+      "target": "Resources/Sleep Science/Napping — Types and Optimal Duration (Power Nap, Full Cycle)"
+    },
+    {
+      "source": "Resources/Sleep Science/Sleep Pressure and Adenosine",
+      "target": "Resources/Sleep Science/Sleep Deprivation — Cognitive and Physical Effects"
+    },
+    {
+      "source": "Resources/Sleep Science/Sleep Stages (NREM 1-2-3 and REM)",
+      "target": "Resources/Sleep Science/Sleep Cycles and Ultradian Rhythms"
+    },
+    {
+      "source": "Resources/Sleep Science/Sleep Stages (NREM 1-2-3 and REM)",
+      "target": "Resources/Sleep Science/Sleep Deprivation — Cognitive and Physical Effects"
+    },
+    {
+      "source": "Resources/Sleep Science/Sleep Stages (NREM 1-2-3 and REM)",
+      "target": "Resources/Sleep Science/Sleep Tracking — Metrics That Actually Matter"
+    },
+    {
+      "source": "Resources/Sleep Science/Sleep Tracking — Metrics That Actually Matter",
+      "target": "Resources/Health & Fitness/Heart Rate Variability (HRV) as a Recovery Metric"
+    },
+    {
+      "source": "Resources/Sleep Science/Sleep Tracking — Metrics That Actually Matter",
+      "target": "Resources/Sleep Science/Sleep Hygiene Best Practices"
+    },
+    {
+      "source": "Resources/Sleep Science/Sleep Tracking — Metrics That Actually Matter",
+      "target": "Resources/Sleep Science/Sleep Stages (NREM 1-2-3 and REM)"
+    },
+    {
+      "source": "Resources/Sleep Science/Social Jetlag — The Weekend Sleep Shift",
+      "target": "Resources/Sleep Science/Chronotypes (Early Bird vs Night Owl — Genetics)"
+    },
+    {
+      "source": "Resources/Sleep Science/Social Jetlag — The Weekend Sleep Shift",
+      "target": "Resources/Sleep Science/Circadian Rhythm — How It Works"
+    },
+    {
+      "source": "Resources/Sleep Science/Social Jetlag — The Weekend Sleep Shift",
+      "target": "Resources/Sleep Science/Sleep Hygiene Best Practices"
+    },
+    {
+      "source": "Resources/Sleep Science/Temperature and Sleep Quality",
+      "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
+    },
+    {
+      "source": "Resources/Sleep Science/Temperature and Sleep Quality",
+      "target": "Resources/Personal Productivity/Evening Wind-Down Routines"
+    },
+    {
+      "source": "Resources/Sleep Science/Temperature and Sleep Quality",
+      "target": "Resources/Sleep Science/Sleep Hygiene Best Practices"
     },
     {
       "source": "Resources/Software Architecture",
@@ -16368,5 +16851,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-26T16:49:25Z"
+  "generated_at": "2026-05-26T16:55:33Z"
 }
