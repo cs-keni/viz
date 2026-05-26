@@ -90,6 +90,15 @@
       "degree": 1
     },
     {
+      "id": "Brain Plasticity in Adults",
+      "label": "Brain Plasticity in Adults",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "CI/CD Pipeline Design",
       "label": "CD Pipeline Design",
       "folder": "CI",
@@ -237,6 +246,24 @@
       "degree": 1
     },
     {
+      "id": "Interoception — Body Awareness and Emotions",
+      "label": "Interoception — Body Awareness and Emotions",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Locus of Control (Internal vs External)",
+      "label": "Locus of Control (Internal vs External)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
+    },
+    {
       "id": "Maps/Bobby",
       "label": "Bobby",
       "folder": "Maps",
@@ -306,6 +333,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 1
+    },
+    {
+      "id": "Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)",
+      "label": "Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
     },
     {
       "id": "Note Title",
@@ -2707,7 +2743,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/DevOps & Infrastructure/Prometheus and Grafana",
@@ -2976,7 +3012,7 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Health & Fitness/Cardio Types — HIIT vs LISS vs Zone 2",
@@ -3144,7 +3180,7 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 20
+      "degree": 22
     },
     {
       "id": "Resources/Health & Fitness/Sauna — Evidence and Use",
@@ -3349,7 +3385,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Learning & Memory/Chunking Information",
@@ -3373,7 +3409,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Learning & Memory/Desirable Difficulties in Learning",
@@ -3409,7 +3445,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 3
+      "degree": 5
     },
     {
       "id": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)",
@@ -3541,7 +3577,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Learning & Memory/Second-Order Thinking",
@@ -3957,6 +3993,306 @@
       "degree": 7
     },
     {
+      "id": "Resources/Mental Health & Psychology/ADHD — Understanding and Managing It",
+      "label": "ADHD — Understanding and Managing It",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "ADHD is a neurodevelopmental condition involving attention, impulsivity, executive function, and sometimes hyperactivity. Management can include diagnosis, medication, therapy, coaching, environmental design, sleep, and external structure.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Anxiety — Types and Coping Mechanisms",
+      "label": "Anxiety — Types and Coping Mechanisms",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Anxiety is a threat-response state that becomes a disorder when it is excessive, persistent, impairing, or mismatched to reality. Coping tools include breathing, exposure, cognitive work, sleep, exercise, support, and professional care when needed.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Attachment Styles (Secure, Anxious, Avoidant, Fearful)",
+      "label": "Attachment Styles (Secure, Anxious, Avoidant, Fearful)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Attachment styles describe patterns of closeness, trust, threat, and regulation in relationships. Secure, anxious, avoidant, and fearful patterns are useful lenses, but they are not fixed identities or full explanations of a person.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Burnout — Signs, Stages, and Recovery",
+      "label": "Burnout — Signs, Stages, and Recovery",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Burnout is commonly understood as exhaustion, cynicism or detachment, and reduced efficacy from chronic unmanaged stress, especially work stress. Recovery usually requires workload changes, boundaries, rest, support, and meaning repair.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Chronic Stress — Long-Term Physical and Mental Effects",
+      "label": "Chronic Stress — Long-Term Physical and Mental Effects",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Chronic stress is repeated or sustained demand without enough recovery. It can affect mood, sleep, attention, immune function, cardiovascular risk, appetite, pain sensitivity, and relationships.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Cognitive Behavioral Therapy (CBT) Basics",
+      "label": "Cognitive Behavioral Therapy (CBT) Basics",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Cognitive Behavioral Therapy links thoughts, emotions, behaviors, and body sensations, then uses structured practice to change unhelpful patterns. It is evidence-based for many conditions, but therapy should be delivered by qualified clinicians when treating disorders.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Cognitive Distortions — Complete Reference",
+      "label": "Cognitive Distortions — Complete Reference",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Cognitive distortions are recurring biased thought patterns that can intensify anxiety, depression, shame, and conflict. Naming them helps create distance from the thought so it can be tested rather than automatically believed.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Depression — Biology and Treatment",
+      "label": "Depression — Biology and Treatment",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Depression is a serious mood disorder involving emotion, cognition, sleep, appetite, energy, motivation, and body systems. Treatment can include psychotherapy, medication, lifestyle support, social support, and sometimes advanced interventions under clinical care.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Dopamine System — Rewards and Motivation",
+      "label": "Dopamine System — Rewards and Motivation",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The dopamine system is involved in motivation, reward prediction, learning, salience, and movement. It is not simply a pleasure chemical; it helps the brain learn what is worth pursuing.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Emotional Regulation Techniques",
+      "label": "Emotional Regulation Techniques",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Emotional regulation means noticing, naming, tolerating, and responding to emotions without being controlled by them. Techniques include breathing, grounding, reappraisal, movement, journaling, problem-solving, and seeking support.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/FOMO and Digital Anxiety",
+      "label": "FOMO and Digital Anxiety",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "FOMO and digital anxiety arise when feeds, notifications, social comparison, and constant availability make missing information feel costly. The fix is not knowing everything, but setting boundaries around inputs and values.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Impostor Syndrome",
+      "label": "Impostor Syndrome",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Impostor syndrome is the persistent feeling of being a fraud despite evidence of competence. It often appears in high-achieving or uncertain environments and improves through evidence tracking, normalization, feedback, and realistic standards.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Journaling for Mental Health",
+      "label": "Journaling for Mental Health",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Journaling supports mental health by externalizing thoughts, naming emotions, tracking patterns, and turning vague distress into clearer problems. It works best when it leads to reflection or action rather than rumination loops.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Loneliness and Connection — The Health Impact",
+      "label": "Loneliness and Connection — The Health Impact",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Loneliness is the felt gap between desired and actual connection, and it is associated with worse mental and physical health. Connection is a health behavior, not just a nice extra.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Meditation Types and Benefits",
+      "label": "Meditation Types and Benefits",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Meditation includes practices such as mindfulness, focused attention, open monitoring, loving-kindness, body scan, mantra, and movement meditation. Benefits depend on the person, practice, consistency, and psychological context.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Mindfulness — Evidence and Practice",
+      "label": "Mindfulness — Evidence and Practice",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Mindfulness is paying attention to present experience with less automatic judgment. Evidence supports it as a helpful skill for stress and emotion regulation for many people, though it is not a universal cure.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Neuroplasticity",
+      "label": "Neuroplasticity",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Neuroplasticity is the nervous system's ability to change through learning, experience, injury, and practice. It supports growth and recovery, but it is gradual and constrained, not a magic reset button.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Perfectionism — Causes and Fixes",
+      "label": "Perfectionism — Causes and Fixes",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Perfectionism combines high standards with fear, rigidity, or self-worth dependence. It improves when standards become flexible, feedback becomes information, and imperfect action becomes safer than avoidance.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Psychological Safety",
+      "label": "Psychological Safety",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Psychological safety is the shared belief that people can speak up, ask questions, admit mistakes, and challenge ideas without interpersonal punishment. It is crucial for learning teams and honest engineering work.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Resilience — How to Build It",
+      "label": "Resilience — How to Build It",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Resilience is the capacity to adapt, recover, and keep functioning under adversity. It is built through relationships, recovery, meaning, flexible thinking, skills, health basics, and exposure to manageable challenges.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Self-Compassion vs Self-Esteem (Kristin Neff)",
+      "label": "Self-Compassion vs Self-Esteem (Kristin Neff)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Self-compassion means responding to difficulty with kindness, common humanity, and mindful awareness, while self-esteem evaluates worth or competence. Kristin Neff's framing is useful because self-compassion supports resilience without needing to feel superior or successful.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Serotonin System",
+      "label": "Serotonin System",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Serotonin is involved in mood, sleep, appetite, pain, gut function, and many brain-body processes. It is not simply the happiness chemical, and depression cannot be reduced to low serotonin alone.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Social Comparison Theory",
+      "label": "Social Comparison Theory",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Social comparison theory says people evaluate themselves by comparing to others, especially under uncertainty. Comparison can inform learning, but it can also distort self-worth, motivation, and mood.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Stoicism Applied to Modern Life",
+      "label": "Stoicism Applied to Modern Life",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Applied Stoicism focuses on what is within one's control, responding to events with virtue and judgment, and practicing perspective before reaction. Its modern value is emotional discipline without emotional suppression.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)",
+      "label": "Stress Response — HPA Axis (Cortisol Cascade)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The stress response coordinates nervous-system and hormonal changes through systems including the HPA axis and cortisol. Acute stress can be adaptive, but chronic activation can harm sleep, mood, immunity, metabolism, and decision-making.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 6
+    },
+    {
       "id": "Resources/Message Queues",
       "label": "Message Queues",
       "folder": "Resources",
@@ -4130,7 +4466,7 @@
         "resource",
         "nutrition-diet"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Nutrition & Diet/Hydration — How Much, When, and Electrolytes",
@@ -4388,7 +4724,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Personal Productivity/Decision Journaling",
@@ -4424,7 +4760,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Personal Productivity/Distraction Management",
@@ -4436,7 +4772,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Personal Productivity/Energy Management vs Time Management",
@@ -4616,7 +4952,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Personal Productivity/Obsidian Workflow Design",
@@ -4676,7 +5012,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Personal Productivity/Reward Systems and Dopamine Loops",
@@ -4688,7 +5024,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Personal Productivity/Task Management Philosophies (GTD, Autofocus, ZTD)",
@@ -4700,7 +5036,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Personal Productivity/The Map of Content (MOC) in Obsidian",
@@ -5848,7 +6184,7 @@
         "resource",
         "sleep-science"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Sleep Science/Sleep Disorders Overview (Apnea, Insomnia, RLS)",
@@ -5860,7 +6196,7 @@
         "resource",
         "sleep-science"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Sleep Science/Sleep Hygiene Best Practices",
@@ -6162,7 +6498,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/Software Engineering/Container Networking",
@@ -12287,6 +12623,306 @@
       "target": "Resources/Transformer Architecture"
     },
     {
+      "source": "Resources/Mental Health & Psychology/ADHD — Understanding and Managing It",
+      "target": "Resources/Personal Productivity/Distraction Management"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/ADHD — Understanding and Managing It",
+      "target": "Resources/Personal Productivity/Task Management Philosophies (GTD, Autofocus, ZTD)"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/ADHD — Understanding and Managing It",
+      "target": "Resources/Sleep Science/Sleep Disorders Overview (Apnea, Insomnia, RLS)"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Anxiety — Types and Coping Mechanisms",
+      "target": "Resources/Health & Fitness/Breathing Techniques (Box Breathing, Physiological Sigh, Wim Hof)"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Anxiety — Types and Coping Mechanisms",
+      "target": "Resources/Mental Health & Psychology/Cognitive Behavioral Therapy (CBT) Basics"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Anxiety — Types and Coping Mechanisms",
+      "target": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Attachment Styles (Secure, Anxious, Avoidant, Fearful)",
+      "target": "Resources/Learning & Memory/Productive Disagreement"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Attachment Styles (Secure, Anxious, Avoidant, Fearful)",
+      "target": "Resources/Mental Health & Psychology/Emotional Regulation Techniques"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Attachment Styles (Secure, Anxious, Avoidant, Fearful)",
+      "target": "Resources/Mental Health & Psychology/Loneliness and Connection — The Health Impact"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Burnout — Signs, Stages, and Recovery",
+      "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Burnout — Signs, Stages, and Recovery",
+      "target": "Resources/Mental Health & Psychology/Chronic Stress — Long-Term Physical and Mental Effects"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Burnout — Signs, Stages, and Recovery",
+      "target": "Resources/Mental Health & Psychology/Psychological Safety"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Chronic Stress — Long-Term Physical and Mental Effects",
+      "target": "Resources/Mental Health & Psychology/Burnout — Signs, Stages, and Recovery"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Chronic Stress — Long-Term Physical and Mental Effects",
+      "target": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Chronic Stress — Long-Term Physical and Mental Effects",
+      "target": "Resources/Sleep Science/Sleep Deprivation — Cognitive and Physical Effects"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Cognitive Behavioral Therapy (CBT) Basics",
+      "target": "Resources/Mental Health & Psychology/Anxiety — Types and Coping Mechanisms"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Cognitive Behavioral Therapy (CBT) Basics",
+      "target": "Resources/Mental Health & Psychology/Cognitive Distortions — Complete Reference"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Cognitive Behavioral Therapy (CBT) Basics",
+      "target": "Resources/Mental Health & Psychology/Depression — Biology and Treatment"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Cognitive Distortions — Complete Reference",
+      "target": "Resources/Mental Health & Psychology/Anxiety — Types and Coping Mechanisms"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Cognitive Distortions — Complete Reference",
+      "target": "Resources/Mental Health & Psychology/Cognitive Behavioral Therapy (CBT) Basics"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Cognitive Distortions — Complete Reference",
+      "target": "Resources/Mental Health & Psychology/Perfectionism — Causes and Fixes"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Depression — Biology and Treatment",
+      "target": "Resources/Mental Health & Psychology/Burnout — Signs, Stages, and Recovery"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Depression — Biology and Treatment",
+      "target": "Resources/Mental Health & Psychology/Cognitive Behavioral Therapy (CBT) Basics"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Depression — Biology and Treatment",
+      "target": "Resources/Mental Health & Psychology/Serotonin System"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Dopamine System — Rewards and Motivation",
+      "target": "Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Dopamine System — Rewards and Motivation",
+      "target": "Resources/Mental Health & Psychology/FOMO and Digital Anxiety"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Dopamine System — Rewards and Motivation",
+      "target": "Resources/Personal Productivity/Reward Systems and Dopamine Loops"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Emotional Regulation Techniques",
+      "target": "Resources/Mental Health & Psychology/Cognitive Behavioral Therapy (CBT) Basics"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Emotional Regulation Techniques",
+      "target": "Resources/Mental Health & Psychology/Journaling for Mental Health"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Emotional Regulation Techniques",
+      "target": "Resources/Mental Health & Psychology/Mindfulness — Evidence and Practice"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/FOMO and Digital Anxiety",
+      "target": "Resources/Mental Health & Psychology/Social Comparison Theory"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/FOMO and Digital Anxiety",
+      "target": "Resources/Personal Productivity/Digital Minimalism"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/FOMO and Digital Anxiety",
+      "target": "Resources/Personal Productivity/Notification Hygiene"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Impostor Syndrome",
+      "target": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Impostor Syndrome",
+      "target": "Resources/Learning & Memory/Growth Mindset vs Fixed Mindset"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Impostor Syndrome",
+      "target": "Resources/Mental Health & Psychology/Social Comparison Theory"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Journaling for Mental Health",
+      "target": "Resources/Mental Health & Psychology/Cognitive Distortions — Complete Reference"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Journaling for Mental Health",
+      "target": "Resources/Mental Health & Psychology/Emotional Regulation Techniques"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Journaling for Mental Health",
+      "target": "Resources/Personal Productivity/Daily Note Template"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Loneliness and Connection — The Health Impact",
+      "target": "Resources/Mental Health & Psychology/Attachment Styles (Secure, Anxious, Avoidant, Fearful)"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Loneliness and Connection — The Health Impact",
+      "target": "Resources/Mental Health & Psychology/Resilience — How to Build It"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Loneliness and Connection — The Health Impact",
+      "target": "Resources/Mental Health & Psychology/Social Comparison Theory"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Meditation Types and Benefits",
+      "target": "Interoception — Body Awareness and Emotions"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Meditation Types and Benefits",
+      "target": "Resources/Mental Health & Psychology/Emotional Regulation Techniques"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Meditation Types and Benefits",
+      "target": "Resources/Mental Health & Psychology/Mindfulness — Evidence and Practice"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Mindfulness — Evidence and Practice",
+      "target": "Resources/Mental Health & Psychology/Emotional Regulation Techniques"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Mindfulness — Evidence and Practice",
+      "target": "Resources/Mental Health & Psychology/Meditation Types and Benefits"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Mindfulness — Evidence and Practice",
+      "target": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Neuroplasticity",
+      "target": "Brain Plasticity in Adults"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Neuroplasticity",
+      "target": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Neuroplasticity",
+      "target": "Resources/Learning & Memory/Growth Mindset vs Fixed Mindset"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Perfectionism — Causes and Fixes",
+      "target": "Resources/Mental Health & Psychology/Cognitive Distortions — Complete Reference"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Perfectionism — Causes and Fixes",
+      "target": "Resources/Mental Health & Psychology/Self-Compassion vs Self-Esteem (Kristin Neff)"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Perfectionism — Causes and Fixes",
+      "target": "Resources/Personal Productivity/Procrastination — Root Causes and Fixes"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Psychological Safety",
+      "target": "Resources/DevOps & Infrastructure/Postmortem Writing"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Psychological Safety",
+      "target": "Resources/Learning & Memory/Productive Disagreement"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Psychological Safety",
+      "target": "Resources/Software Engineering/Code Review Best Practices"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Resilience — How to Build It",
+      "target": "Locus of Control (Internal vs External)"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Resilience — How to Build It",
+      "target": "Resources/Mental Health & Psychology/Chronic Stress — Long-Term Physical and Mental Effects"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Resilience — How to Build It",
+      "target": "Resources/Mental Health & Psychology/Self-Compassion vs Self-Esteem (Kristin Neff)"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Self-Compassion vs Self-Esteem (Kristin Neff)",
+      "target": "Resources/Mental Health & Psychology/Impostor Syndrome"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Self-Compassion vs Self-Esteem (Kristin Neff)",
+      "target": "Resources/Mental Health & Psychology/Perfectionism — Causes and Fixes"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Self-Compassion vs Self-Esteem (Kristin Neff)",
+      "target": "Resources/Mental Health & Psychology/Resilience — How to Build It"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Serotonin System",
+      "target": "Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Serotonin System",
+      "target": "Resources/Mental Health & Psychology/Depression — Biology and Treatment"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Serotonin System",
+      "target": "Resources/Nutrition & Diet/Gut-Brain Axis"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Social Comparison Theory",
+      "target": "Resources/Mental Health & Psychology/FOMO and Digital Anxiety"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Social Comparison Theory",
+      "target": "Resources/Mental Health & Psychology/Impostor Syndrome"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Social Comparison Theory",
+      "target": "Resources/Mental Health & Psychology/Self-Compassion vs Self-Esteem (Kristin Neff)"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Stoicism Applied to Modern Life",
+      "target": "Locus of Control (Internal vs External)"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Stoicism Applied to Modern Life",
+      "target": "Resources/Mental Health & Psychology/Emotional Regulation Techniques"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Stoicism Applied to Modern Life",
+      "target": "Resources/Mental Health & Psychology/Resilience — How to Build It"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)",
+      "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)",
+      "target": "Resources/Mental Health & Psychology/Chronic Stress — Long-Term Physical and Mental Effects"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)",
+      "target": "Resources/Mental Health & Psychology/Resilience — How to Build It"
+    },
+    {
       "source": "Resources/Message Queues",
       "target": "Resources/Caching"
     },
@@ -16851,5 +17487,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-26T16:55:33Z"
+  "generated_at": "2026-05-26T17:03:30Z"
 }
