@@ -33,7 +33,7 @@
         "area",
         "gaming"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Areas/Job Search",
@@ -83,15 +83,6 @@
     {
       "id": "Bobby's Wake Word and Audio Pipeline",
       "label": "Bobby's Wake Word and Audio Pipeline",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Brain Plasticity in Adults",
-      "label": "Brain Plasticity in Adults",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -192,6 +183,15 @@
       "degree": 0
     },
     {
+      "id": "Decision Fatigue",
+      "label": "Decision Fatigue",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Directed Acyclic Graphs",
       "label": "Directed Acyclic Graphs",
       "folder": null,
@@ -244,24 +244,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 1
-    },
-    {
-      "id": "Interoception — Body Awareness and Emotions",
-      "label": "Interoception — Body Awareness and Emotions",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Locus of Control (Internal vs External)",
-      "label": "Locus of Control (Internal vs External)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
     },
     {
       "id": "Maps/Bobby",
@@ -333,15 +315,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 1
-    },
-    {
-      "id": "Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)",
-      "label": "Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
     },
     {
       "id": "Note Title",
@@ -3072,7 +3045,7 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Health & Fitness/Eye Strain and Screen Time (20-20-20 Rule)",
@@ -3180,7 +3153,7 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 22
+      "degree": 23
     },
     {
       "id": "Resources/Health & Fitness/Sauna — Evidence and Use",
@@ -3276,7 +3249,7 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/IaaS PaaS SaaS",
@@ -3409,7 +3382,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 9
+      "degree": 11
     },
     {
       "id": "Resources/Learning & Memory/Desirable Difficulties in Learning",
@@ -3457,7 +3430,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Resources/Learning & Memory/How to Read a Technical Paper",
@@ -4014,7 +3987,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Mental Health & Psychology/Attachment Styles (Secure, Anxious, Avoidant, Fearful)",
@@ -4086,7 +4059,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 5
+      "degree": 8
     },
     {
       "id": "Resources/Mental Health & Psychology/Dopamine System — Rewards and Motivation",
@@ -4098,7 +4071,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 3
+      "degree": 5
     },
     {
       "id": "Resources/Mental Health & Psychology/Emotional Regulation Techniques",
@@ -4110,7 +4083,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Mental Health & Psychology/FOMO and Digital Anxiety",
@@ -4123,6 +4096,18 @@
         "mental-health-psychology"
       ],
       "degree": 5
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Grief and Loss — Stages and Modern Research",
+      "label": "Grief and Loss — Stages and Modern Research",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Grief is a varied response to loss, not a fixed five-stage checklist. Modern grief research emphasizes oscillation, meaning, continuing bonds, individual differences, and support rather than one universal timeline.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Mental Health & Psychology/Impostor Syndrome",
@@ -4146,7 +4131,31 @@
         "resource",
         "mental-health-psychology"
       ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Learned Helplessness",
+      "label": "Learned Helplessness",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Learned helplessness is a pattern where repeated uncontrollable setbacks teach someone that action will not matter. Recovery often involves restoring small reliable links between effort, choice, feedback, and outcome.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
       "degree": 4
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Locus of Control (Internal vs External)",
+      "label": "Locus of Control (Internal vs External)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Locus of control describes whether someone tends to see outcomes as shaped by their own actions or by external forces. A healthy internal locus supports agency, while realism keeps it from becoming self-blame.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/Mental Health & Psychology/Loneliness and Connection — The Health Impact",
@@ -4158,7 +4167,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Mental Health & Psychology/Meditation Types and Benefits",
@@ -4182,7 +4191,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Mental Health & Psychology/Neuroplasticity",
@@ -4194,7 +4203,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 3
+      "degree": 6
     },
     {
       "id": "Resources/Mental Health & Psychology/Perfectionism — Causes and Fixes",
@@ -4207,6 +4216,18 @@
         "mental-health-psychology"
       ],
       "degree": 5
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/Post-Traumatic Growth",
+      "label": "Post-Traumatic Growth",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Post-traumatic growth describes positive psychological change that some people report after trauma, such as deeper relationships, changed priorities, or increased meaning. It should never be used to romanticize trauma or pressure people to find benefits.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Mental Health & Psychology/Psychological Safety",
@@ -4230,7 +4251,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Mental Health & Psychology/Self-Compassion vs Self-Esteem (Kristin Neff)",
@@ -4254,7 +4275,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Mental Health & Psychology/Social Comparison Theory",
@@ -4278,7 +4299,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)",
@@ -4290,7 +4311,19 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 6
+      "degree": 7
+    },
+    {
+      "id": "Resources/Mental Health & Psychology/The Role of Play in Adult Life",
+      "label": "The Role of Play in Adult Life",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Play in adult life supports exploration, bonding, stress relief, creativity, learning, and identity. It is not wasted time when it restores energy, connection, and flexible thinking.",
+      "tags": [
+        "resource",
+        "mental-health-psychology"
+      ],
+      "degree": 3
     },
     {
       "id": "Resources/Message Queues",
@@ -4345,6 +4378,198 @@
         "interview-prep"
       ],
       "degree": 13
+    },
+    {
+      "id": "Resources/Neuroscience/Amygdala and Emotional Processing",
+      "label": "Amygdala and Emotional Processing",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The amygdala helps detect emotionally salient information, especially potential threat, and coordinates responses with memory, attention, and body systems. It is not simply the fear center.",
+      "tags": [
+        "resource",
+        "neuroscience"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Neuroscience/Attention Networks in the Brain",
+      "label": "Attention Networks in the Brain",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Attention depends on interacting brain networks that support alertness, orienting, executive control, salience detection, and internally focused thought. Focus is not one switch; it is a dynamic allocation system.",
+      "tags": [
+        "resource",
+        "neuroscience"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Neuroscience/Brain Plasticity in Adults",
+      "label": "Brain Plasticity in Adults",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Adult brains remain plastic through learning, practice, therapy, injury recovery, and environment, but plasticity is constrained by biology, attention, repetition, sleep, and context. Change is possible without being effortless.",
+      "tags": [
+        "resource",
+        "neuroscience"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Neuroscience/Brain Regions and Functions (Simplified Map)",
+      "label": "Brain Regions and Functions (Simplified Map)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "A simplified brain map links regions to common functions, but real cognition comes from distributed networks. Useful regions include prefrontal cortex, amygdala, hippocampus, basal ganglia, thalamus, cerebellum, and sensory cortices.",
+      "tags": [
+        "resource",
+        "neuroscience"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Neuroscience/Default Mode Network",
+      "label": "Default Mode Network",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The default mode network is a set of brain regions active during self-referential thought, mind-wandering, autobiographical memory, and simulation. It is not bad by default, but can be involved in rumination.",
+      "tags": [
+        "resource",
+        "neuroscience"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Neuroscience/Hippocampus and Memory Formation",
+      "label": "Hippocampus and Memory Formation",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The hippocampus is central for forming episodic memories and linking experiences to context, time, and place. It supports memory consolidation with broader cortical networks.",
+      "tags": [
+        "resource",
+        "neuroscience"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Neuroscience/How Exercise Affects the Brain (BDNF, Neurogenesis)",
+      "label": "How Exercise Affects the Brain (BDNF, Neurogenesis)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Exercise affects the brain through blood flow, neurotrophic factors like BDNF, mood regulation, sleep, insulin sensitivity, inflammation, and possibly hippocampal neurogenesis. Human claims should be careful because mechanisms are easier to show in animals than in people.",
+      "tags": [
+        "resource",
+        "neuroscience"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Neuroscience/How Sleep Consolidates Memory",
+      "label": "How Sleep Consolidates Memory",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Sleep supports memory consolidation by replaying, stabilizing, and integrating learning across neural systems. Deep NREM and REM appear to support different aspects of memory, emotion, and abstraction.",
+      "tags": [
+        "resource",
+        "neuroscience"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Neuroscience/Interoception — Body Awareness and Emotions",
+      "label": "Interoception — Body Awareness and Emotions",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Interoception is the brain's sensing and interpretation of internal body signals such as heartbeat, breath, hunger, temperature, pain, and gut sensations. It shapes emotion, anxiety, self-awareness, and regulation.",
+      "tags": [
+        "resource",
+        "neuroscience"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Neuroscience/Long-Term Potentiation (LTP) and Memory Formation",
+      "label": "Long-Term Potentiation (LTP) and Memory Formation",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Long-term potentiation is a lasting increase in synaptic strength after specific activity patterns. It is one major cellular model for learning and memory, especially in hippocampal circuits.",
+      "tags": [
+        "resource",
+        "neuroscience"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Neuroscience/Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)",
+      "label": "Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Neurochemistry studies signaling molecules that shape mood, attention, learning, arousal, inhibition, and movement. Dopamine, serotonin, GABA, glutamate, and norepinephrine are major players, but none maps cleanly to one emotion or behavior.",
+      "tags": [
+        "resource",
+        "neuroscience"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Neuroscience/Neuron Structure and Electrochemical Signaling",
+      "label": "Neuron Structure and Electrochemical Signaling",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Neurons are specialized cells that receive, integrate, and transmit information through electrical impulses and chemical signaling. Their structure includes dendrites, soma, axon, myelin, terminals, and synapses.",
+      "tags": [
+        "resource",
+        "neuroscience"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Neuroscience/Prefrontal Cortex and Decision-Making",
+      "label": "Prefrontal Cortex and Decision-Making",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The prefrontal cortex supports planning, inhibition, working memory, goal maintenance, and decision-making. It is especially important when behavior must follow long-term goals rather than immediate impulses.",
+      "tags": [
+        "resource",
+        "neuroscience"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Neuroscience/Psychedelics and Neuroplasticity (Current Research)",
+      "label": "Psychedelics and Neuroplasticity (Current Research)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Current psychedelic research suggests compounds like psilocybin can acutely alter brain network dynamics and may promote plasticity-related processes, often through serotonin 5-HT2A pathways. The field is promising but early, regulated, and not suitable for casual self-treatment framing.",
+      "tags": [
+        "resource",
+        "neuroscience"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Neuroscience/Synaptic Plasticity (Hebbian Learning — Neurons that Fire Together)",
+      "label": "Synaptic Plasticity (Hebbian Learning — Neurons that Fire Together)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Synaptic plasticity is the ability of synapses to strengthen or weaken based on activity. Hebbian learning is the simplified idea that connections strengthen when neurons are active together.",
+      "tags": [
+        "resource",
+        "neuroscience"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Neuroscience/The Gut-Brain Connection (Enteric Nervous System)",
+      "label": "The Gut-Brain Connection (Enteric Nervous System)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The gut-brain connection involves the enteric nervous system, vagus nerve, immune signals, hormones, microbial metabolites, and nutrient sensing. It is real biology, but many consumer claims outrun what can be personalized today.",
+      "tags": [
+        "resource",
+        "neuroscience"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Notification System Design",
@@ -4454,7 +4679,7 @@
         "resource",
         "nutrition-diet"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Nutrition & Diet/Gut-Brain Axis",
@@ -4466,7 +4691,7 @@
         "resource",
         "nutrition-diet"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Nutrition & Diet/Hydration — How Much, When, and Electrolytes",
@@ -4736,7 +4961,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Personal Productivity/Deep Work (Cal Newport)",
@@ -4820,7 +5045,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Personal Productivity/Focus Modes and Context Switching Costs",
@@ -4832,7 +5057,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Personal Productivity/Getting Things Done (GTD) Method",
@@ -6184,7 +6409,7 @@
         "resource",
         "sleep-science"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Sleep Science/Sleep Disorders Overview (Apnea, Insomnia, RLS)",
@@ -6232,7 +6457,7 @@
         "resource",
         "sleep-science"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Sleep Science/Sleep Tracking — Metrics That Actually Matter",
@@ -7879,8 +8104,26 @@
       "degree": 8
     },
     {
+      "id": "Rumination",
+      "label": "Rumination",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Shortest Path Algorithms (Dijkstra, Bellman-Ford, A*, Floyd-Warshall)",
       "label": "Shortest Path Algorithms (Dijkstra, Bellman-Ford, A*, Floyd-Warshall)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 3
+    },
+    {
+      "id": "Synaptic Plasticity (Hebbian Learning — \"Neurons that Fire Together\")",
+      "label": "Synaptic Plasticity (Hebbian Learning — \"Neurons that Fire Together\")",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -12720,11 +12963,11 @@
     },
     {
       "source": "Resources/Mental Health & Psychology/Dopamine System — Rewards and Motivation",
-      "target": "Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)"
+      "target": "Resources/Mental Health & Psychology/FOMO and Digital Anxiety"
     },
     {
       "source": "Resources/Mental Health & Psychology/Dopamine System — Rewards and Motivation",
-      "target": "Resources/Mental Health & Psychology/FOMO and Digital Anxiety"
+      "target": "Resources/Neuroscience/Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)"
     },
     {
       "source": "Resources/Mental Health & Psychology/Dopamine System — Rewards and Motivation",
@@ -12755,6 +12998,18 @@
       "target": "Resources/Personal Productivity/Notification Hygiene"
     },
     {
+      "source": "Resources/Mental Health & Psychology/Grief and Loss — Stages and Modern Research",
+      "target": "Resources/Mental Health & Psychology/Journaling for Mental Health"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Grief and Loss — Stages and Modern Research",
+      "target": "Resources/Mental Health & Psychology/Loneliness and Connection — The Health Impact"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Grief and Loss — Stages and Modern Research",
+      "target": "Resources/Mental Health & Psychology/Post-Traumatic Growth"
+    },
+    {
       "source": "Resources/Mental Health & Psychology/Impostor Syndrome",
       "target": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know"
     },
@@ -12779,6 +13034,30 @@
       "target": "Resources/Personal Productivity/Daily Note Template"
     },
     {
+      "source": "Resources/Mental Health & Psychology/Learned Helplessness",
+      "target": "Resources/Mental Health & Psychology/Depression — Biology and Treatment"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Learned Helplessness",
+      "target": "Resources/Mental Health & Psychology/Locus of Control (Internal vs External)"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Learned Helplessness",
+      "target": "Resources/Mental Health & Psychology/Resilience — How to Build It"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Locus of Control (Internal vs External)",
+      "target": "Resources/Mental Health & Psychology/Learned Helplessness"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Locus of Control (Internal vs External)",
+      "target": "Resources/Mental Health & Psychology/Stoicism Applied to Modern Life"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Locus of Control (Internal vs External)",
+      "target": "Resources/Personal Productivity/Decision Journaling"
+    },
+    {
       "source": "Resources/Mental Health & Psychology/Loneliness and Connection — The Health Impact",
       "target": "Resources/Mental Health & Psychology/Attachment Styles (Secure, Anxious, Avoidant, Fearful)"
     },
@@ -12792,15 +13071,15 @@
     },
     {
       "source": "Resources/Mental Health & Psychology/Meditation Types and Benefits",
-      "target": "Interoception — Body Awareness and Emotions"
-    },
-    {
-      "source": "Resources/Mental Health & Psychology/Meditation Types and Benefits",
       "target": "Resources/Mental Health & Psychology/Emotional Regulation Techniques"
     },
     {
       "source": "Resources/Mental Health & Psychology/Meditation Types and Benefits",
       "target": "Resources/Mental Health & Psychology/Mindfulness — Evidence and Practice"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Meditation Types and Benefits",
+      "target": "Resources/Neuroscience/Interoception — Body Awareness and Emotions"
     },
     {
       "source": "Resources/Mental Health & Psychology/Mindfulness — Evidence and Practice",
@@ -12816,15 +13095,15 @@
     },
     {
       "source": "Resources/Mental Health & Psychology/Neuroplasticity",
-      "target": "Brain Plasticity in Adults"
-    },
-    {
-      "source": "Resources/Mental Health & Psychology/Neuroplasticity",
       "target": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)"
     },
     {
       "source": "Resources/Mental Health & Psychology/Neuroplasticity",
       "target": "Resources/Learning & Memory/Growth Mindset vs Fixed Mindset"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Neuroplasticity",
+      "target": "Resources/Neuroscience/Brain Plasticity in Adults"
     },
     {
       "source": "Resources/Mental Health & Psychology/Perfectionism — Causes and Fixes",
@@ -12837,6 +13116,18 @@
     {
       "source": "Resources/Mental Health & Psychology/Perfectionism — Causes and Fixes",
       "target": "Resources/Personal Productivity/Procrastination — Root Causes and Fixes"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Post-Traumatic Growth",
+      "target": "Resources/Mental Health & Psychology/Depression — Biology and Treatment"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Post-Traumatic Growth",
+      "target": "Resources/Mental Health & Psychology/Grief and Loss — Stages and Modern Research"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Post-Traumatic Growth",
+      "target": "Resources/Mental Health & Psychology/Resilience — How to Build It"
     },
     {
       "source": "Resources/Mental Health & Psychology/Psychological Safety",
@@ -12852,11 +13143,11 @@
     },
     {
       "source": "Resources/Mental Health & Psychology/Resilience — How to Build It",
-      "target": "Locus of Control (Internal vs External)"
+      "target": "Resources/Mental Health & Psychology/Chronic Stress — Long-Term Physical and Mental Effects"
     },
     {
       "source": "Resources/Mental Health & Psychology/Resilience — How to Build It",
-      "target": "Resources/Mental Health & Psychology/Chronic Stress — Long-Term Physical and Mental Effects"
+      "target": "Resources/Mental Health & Psychology/Locus of Control (Internal vs External)"
     },
     {
       "source": "Resources/Mental Health & Psychology/Resilience — How to Build It",
@@ -12876,11 +13167,11 @@
     },
     {
       "source": "Resources/Mental Health & Psychology/Serotonin System",
-      "target": "Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)"
+      "target": "Resources/Mental Health & Psychology/Depression — Biology and Treatment"
     },
     {
       "source": "Resources/Mental Health & Psychology/Serotonin System",
-      "target": "Resources/Mental Health & Psychology/Depression — Biology and Treatment"
+      "target": "Resources/Neuroscience/Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)"
     },
     {
       "source": "Resources/Mental Health & Psychology/Serotonin System",
@@ -12900,11 +13191,11 @@
     },
     {
       "source": "Resources/Mental Health & Psychology/Stoicism Applied to Modern Life",
-      "target": "Locus of Control (Internal vs External)"
+      "target": "Resources/Mental Health & Psychology/Emotional Regulation Techniques"
     },
     {
       "source": "Resources/Mental Health & Psychology/Stoicism Applied to Modern Life",
-      "target": "Resources/Mental Health & Psychology/Emotional Regulation Techniques"
+      "target": "Resources/Mental Health & Psychology/Locus of Control (Internal vs External)"
     },
     {
       "source": "Resources/Mental Health & Psychology/Stoicism Applied to Modern Life",
@@ -12921,6 +13212,18 @@
     {
       "source": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)",
       "target": "Resources/Mental Health & Psychology/Resilience — How to Build It"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/The Role of Play in Adult Life",
+      "target": "Areas/Gaming"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/The Role of Play in Adult Life",
+      "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/The Role of Play in Adult Life",
+      "target": "Resources/Personal Productivity/Flow State — How to Trigger It"
     },
     {
       "source": "Resources/Message Queues",
@@ -12977,6 +13280,198 @@
     {
       "source": "Resources/Networking",
       "target": "Resources/Distributed Systems"
+    },
+    {
+      "source": "Resources/Neuroscience/Amygdala and Emotional Processing",
+      "target": "Resources/Mental Health & Psychology/Anxiety — Types and Coping Mechanisms"
+    },
+    {
+      "source": "Resources/Neuroscience/Amygdala and Emotional Processing",
+      "target": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)"
+    },
+    {
+      "source": "Resources/Neuroscience/Amygdala and Emotional Processing",
+      "target": "Resources/Neuroscience/Hippocampus and Memory Formation"
+    },
+    {
+      "source": "Resources/Neuroscience/Attention Networks in the Brain",
+      "target": "Resources/Neuroscience/Default Mode Network"
+    },
+    {
+      "source": "Resources/Neuroscience/Attention Networks in the Brain",
+      "target": "Resources/Neuroscience/Prefrontal Cortex and Decision-Making"
+    },
+    {
+      "source": "Resources/Neuroscience/Attention Networks in the Brain",
+      "target": "Resources/Personal Productivity/Focus Modes and Context Switching Costs"
+    },
+    {
+      "source": "Resources/Neuroscience/Brain Plasticity in Adults",
+      "target": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)"
+    },
+    {
+      "source": "Resources/Neuroscience/Brain Plasticity in Adults",
+      "target": "Resources/Mental Health & Psychology/Neuroplasticity"
+    },
+    {
+      "source": "Resources/Neuroscience/Brain Plasticity in Adults",
+      "target": "Synaptic Plasticity (Hebbian Learning — \"Neurons that Fire Together\")"
+    },
+    {
+      "source": "Resources/Neuroscience/Brain Regions and Functions (Simplified Map)",
+      "target": "Resources/Neuroscience/Amygdala and Emotional Processing"
+    },
+    {
+      "source": "Resources/Neuroscience/Brain Regions and Functions (Simplified Map)",
+      "target": "Resources/Neuroscience/Default Mode Network"
+    },
+    {
+      "source": "Resources/Neuroscience/Brain Regions and Functions (Simplified Map)",
+      "target": "Resources/Neuroscience/Prefrontal Cortex and Decision-Making"
+    },
+    {
+      "source": "Resources/Neuroscience/Default Mode Network",
+      "target": "Resources/Mental Health & Psychology/Mindfulness — Evidence and Practice"
+    },
+    {
+      "source": "Resources/Neuroscience/Default Mode Network",
+      "target": "Resources/Neuroscience/Attention Networks in the Brain"
+    },
+    {
+      "source": "Resources/Neuroscience/Default Mode Network",
+      "target": "Rumination"
+    },
+    {
+      "source": "Resources/Neuroscience/Hippocampus and Memory Formation",
+      "target": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)"
+    },
+    {
+      "source": "Resources/Neuroscience/Hippocampus and Memory Formation",
+      "target": "Resources/Neuroscience/How Sleep Consolidates Memory"
+    },
+    {
+      "source": "Resources/Neuroscience/Hippocampus and Memory Formation",
+      "target": "Resources/Neuroscience/Long-Term Potentiation (LTP) and Memory Formation"
+    },
+    {
+      "source": "Resources/Neuroscience/How Exercise Affects the Brain (BDNF, Neurogenesis)",
+      "target": "Resources/Health & Fitness/Exercise Science Fundamentals"
+    },
+    {
+      "source": "Resources/Neuroscience/How Exercise Affects the Brain (BDNF, Neurogenesis)",
+      "target": "Resources/Health & Fitness/Zone 2 Cardio — Science and Benefits"
+    },
+    {
+      "source": "Resources/Neuroscience/How Exercise Affects the Brain (BDNF, Neurogenesis)",
+      "target": "Resources/Neuroscience/Brain Plasticity in Adults"
+    },
+    {
+      "source": "Resources/Neuroscience/How Sleep Consolidates Memory",
+      "target": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)"
+    },
+    {
+      "source": "Resources/Neuroscience/How Sleep Consolidates Memory",
+      "target": "Resources/Neuroscience/Hippocampus and Memory Formation"
+    },
+    {
+      "source": "Resources/Neuroscience/How Sleep Consolidates Memory",
+      "target": "Resources/Sleep Science/Sleep Stages (NREM 1-2-3 and REM)"
+    },
+    {
+      "source": "Resources/Neuroscience/Interoception — Body Awareness and Emotions",
+      "target": "Resources/Mental Health & Psychology/Emotional Regulation Techniques"
+    },
+    {
+      "source": "Resources/Neuroscience/Interoception — Body Awareness and Emotions",
+      "target": "Resources/Mental Health & Psychology/Mindfulness — Evidence and Practice"
+    },
+    {
+      "source": "Resources/Neuroscience/Interoception — Body Awareness and Emotions",
+      "target": "Resources/Neuroscience/The Gut-Brain Connection (Enteric Nervous System)"
+    },
+    {
+      "source": "Resources/Neuroscience/Long-Term Potentiation (LTP) and Memory Formation",
+      "target": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)"
+    },
+    {
+      "source": "Resources/Neuroscience/Long-Term Potentiation (LTP) and Memory Formation",
+      "target": "Resources/Neuroscience/Hippocampus and Memory Formation"
+    },
+    {
+      "source": "Resources/Neuroscience/Long-Term Potentiation (LTP) and Memory Formation",
+      "target": "Synaptic Plasticity (Hebbian Learning — \"Neurons that Fire Together\")"
+    },
+    {
+      "source": "Resources/Neuroscience/Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)",
+      "target": "Resources/Mental Health & Psychology/Dopamine System — Rewards and Motivation"
+    },
+    {
+      "source": "Resources/Neuroscience/Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)",
+      "target": "Resources/Mental Health & Psychology/Serotonin System"
+    },
+    {
+      "source": "Resources/Neuroscience/Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)",
+      "target": "Resources/Neuroscience/Neuron Structure and Electrochemical Signaling"
+    },
+    {
+      "source": "Resources/Neuroscience/Neuron Structure and Electrochemical Signaling",
+      "target": "Resources/Neuroscience/Brain Regions and Functions (Simplified Map)"
+    },
+    {
+      "source": "Resources/Neuroscience/Neuron Structure and Electrochemical Signaling",
+      "target": "Resources/Neuroscience/Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)"
+    },
+    {
+      "source": "Resources/Neuroscience/Neuron Structure and Electrochemical Signaling",
+      "target": "Synaptic Plasticity (Hebbian Learning — \"Neurons that Fire Together\")"
+    },
+    {
+      "source": "Resources/Neuroscience/Prefrontal Cortex and Decision-Making",
+      "target": "Decision Fatigue"
+    },
+    {
+      "source": "Resources/Neuroscience/Prefrontal Cortex and Decision-Making",
+      "target": "Resources/Mental Health & Psychology/Dopamine System — Rewards and Motivation"
+    },
+    {
+      "source": "Resources/Neuroscience/Prefrontal Cortex and Decision-Making",
+      "target": "Resources/Sleep Science/Sleep Deprivation — Cognitive and Physical Effects"
+    },
+    {
+      "source": "Resources/Neuroscience/Psychedelics and Neuroplasticity (Current Research)",
+      "target": "Resources/Mental Health & Psychology/Depression — Biology and Treatment"
+    },
+    {
+      "source": "Resources/Neuroscience/Psychedelics and Neuroplasticity (Current Research)",
+      "target": "Resources/Mental Health & Psychology/Neuroplasticity"
+    },
+    {
+      "source": "Resources/Neuroscience/Psychedelics and Neuroplasticity (Current Research)",
+      "target": "Resources/Mental Health & Psychology/Serotonin System"
+    },
+    {
+      "source": "Resources/Neuroscience/Synaptic Plasticity (Hebbian Learning — Neurons that Fire Together)",
+      "target": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)"
+    },
+    {
+      "source": "Resources/Neuroscience/Synaptic Plasticity (Hebbian Learning — Neurons that Fire Together)",
+      "target": "Resources/Mental Health & Psychology/Neuroplasticity"
+    },
+    {
+      "source": "Resources/Neuroscience/Synaptic Plasticity (Hebbian Learning — Neurons that Fire Together)",
+      "target": "Resources/Neuroscience/Long-Term Potentiation (LTP) and Memory Formation"
+    },
+    {
+      "source": "Resources/Neuroscience/The Gut-Brain Connection (Enteric Nervous System)",
+      "target": "Resources/Neuroscience/Interoception — Body Awareness and Emotions"
+    },
+    {
+      "source": "Resources/Neuroscience/The Gut-Brain Connection (Enteric Nervous System)",
+      "target": "Resources/Nutrition & Diet/Gut Microbiome Basics"
+    },
+    {
+      "source": "Resources/Neuroscience/The Gut-Brain Connection (Enteric Nervous System)",
+      "target": "Resources/Nutrition & Diet/Gut-Brain Axis"
     },
     {
       "source": "Resources/Notification System Design",
@@ -17487,5 +17982,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-26T17:03:30Z"
+  "generated_at": "2026-05-26T17:09:11Z"
 }
