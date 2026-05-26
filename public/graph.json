@@ -90,6 +90,15 @@
       "degree": 2
     },
     {
+      "id": "Bayesian Reasoning",
+      "label": "Bayesian Reasoning",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Bobby's Personality and Tone Guide",
       "label": "Bobby's Personality and Tone Guide",
       "folder": null,
@@ -237,6 +246,15 @@
       "degree": 0
     },
     {
+      "id": "Data Visualization Best Practices",
+      "label": "Data Visualization Best Practices",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Debugging",
       "label": "Debugging",
       "folder": null,
@@ -255,8 +273,26 @@
       "degree": 1
     },
     {
-      "id": "Epigenetics — Gene Expression Without Sequence Change",
-      "label": "Epigenetics — Gene Expression Without Sequence Change",
+      "id": "Dopamine — Reward Prediction Error",
+      "label": "Dopamine — Reward Prediction Error",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Existential Risk",
+      "label": "Existential Risk",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Externalities and Market Failure",
+      "label": "Externalities and Market Failure",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -398,17 +434,26 @@
       "degree": 1
     },
     {
-      "id": "Mitochondria and ATP — The Energy Currency",
-      "label": "Mitochondria and ATP — The Energy Currency",
+      "id": "Network Effects in Economics (Metcalfe's Law)",
+      "label": "Network Effects in Economics (Metcalfe's Law)",
       "folder": null,
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 3
+      "degree": 1
     },
     {
       "id": "Note Title",
       "label": "Note Title",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Nutrition — Macronutrients (Protein, Carbs, Fats)",
+      "label": "Nutrition — Macronutrients (Protein, Carbs, Fats)",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -1297,6 +1342,174 @@
       "degree": 17
     },
     {
+      "id": "Resources/Astronomy & Space/Black Holes — Formation, Types, Hawking Radiation",
+      "label": "Black Holes — Formation, Types, Hawking Radiation",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Black holes are regions where gravity is strong enough that nothing inside the event horizon can escape. They form through stellar collapse, mergers, and galactic growth, and theoretical Hawking radiation links gravity, quantum mechanics, and thermodynamics.",
+      "tags": [
+        "resource",
+        "astronomy-space"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Astronomy & Space/Cosmic Calendar (Carl Sagan) — Scale of the Universe",
+      "label": "Cosmic Calendar (Carl Sagan) — Scale of the Universe",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Cosmic Calendar compresses the universe's history into one calendar year, making deep time easier to grasp. On this scale, human civilization appears in the final moments of December 31.",
+      "tags": [
+        "resource",
+        "astronomy-space"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Astronomy & Space/Exoplanet Detection Methods (Transit, Radial Velocity)",
+      "label": "Exoplanet Detection Methods (Transit, Radial Velocity)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Exoplanets are usually detected indirectly through methods such as transits, radial velocity, direct imaging, microlensing, and astrometry. Each method has biases that shape what kinds of planets are easiest to find.",
+      "tags": [
+        "resource",
+        "astronomy-space"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Astronomy & Space/Gravitational Waves — LIGO and Discovery",
+      "label": "Gravitational Waves — LIGO and Discovery",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Gravitational waves are ripples in spacetime produced by accelerating massive objects, especially compact-object mergers. LIGO's first direct detection opened a new observational channel for astronomy.",
+      "tags": [
+        "resource",
+        "astronomy-space"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Astronomy & Space/James Webb Space Telescope — Key Discoveries",
+      "label": "James Webb Space Telescope — Key Discoveries",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The James Webb Space Telescope observes infrared light to study early galaxies, star formation, exoplanet atmospheres, disks, nebulae, and solar-system objects. Its discoveries are reshaping details of cosmic history rather than replacing all prior astronomy.",
+      "tags": [
+        "resource",
+        "astronomy-space"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Astronomy & Space/Mars Colonization — Technical and Biological Challenges",
+      "label": "Mars Colonization — Technical and Biological Challenges",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Mars colonization is constrained by radiation, low gravity, thin atmosphere, dust, cold, closed-loop life support, entry and landing, psychology, medicine, and supply chains. It is much harder than simply reaching Mars.",
+      "tags": [
+        "resource",
+        "astronomy-space"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Astronomy & Space/Orbital Mechanics Basics (Kepler, Delta-V, Hohmann Transfer)",
+      "label": "Orbital Mechanics Basics (Kepler, Delta-V, Hohmann Transfer)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Orbital mechanics describes motion under gravity using concepts such as Kepler's laws, energy, angular momentum, delta-v, and transfer orbits. Getting somewhere in space means changing orbit, not steering through a flat map.",
+      "tags": [
+        "resource",
+        "astronomy-space"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Astronomy & Space/Rocket Science Basics (Tsiolkovsky Rocket Equation)",
+      "label": "Rocket Science Basics (Tsiolkovsky Rocket Equation)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Rocket science is dominated by the rocket equation, which links velocity change to exhaust velocity and mass ratio. The equation explains why staging, high-efficiency engines, and low dry mass matter so much.",
+      "tags": [
+        "resource",
+        "astronomy-space"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Astronomy & Space/Search for Extraterrestrial Intelligence (SETI)",
+      "label": "Search for Extraterrestrial Intelligence (SETI)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "SETI searches for evidence of extraterrestrial technology, usually through radio, optical, infrared, and technosignature surveys. It is constrained by distance, assumptions about communication, signal rarity, and limited search coverage.",
+      "tags": [
+        "resource",
+        "astronomy-space"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Astronomy & Space/Solar System Overview",
+      "label": "Solar System Overview",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The solar system includes the Sun, planets, dwarf planets, moons, asteroids, comets, Kuiper Belt objects, and the distant Oort Cloud. Its structure reflects gravity, angular momentum, accretion, and billions of years of collisions and migration.",
+      "tags": [
+        "resource",
+        "astronomy-space"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Astronomy & Space/Space Exploration Timeline (Sputnik to Artemis)",
+      "label": "Space Exploration Timeline (Sputnik to Artemis)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Space exploration progressed from Sputnik and early human spaceflight through Apollo, space stations, robotic probes, reusable rockets, commercial launch, and Artemis. The timeline is a mix of science, geopolitics, engineering, and institutional risk.",
+      "tags": [
+        "resource",
+        "astronomy-space"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Astronomy & Space/Stellar Evolution (Star Birth, Main Sequence, Supernovae, Remnants)",
+      "label": "Stellar Evolution (Star Birth, Main Sequence, Supernovae, Remnants)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Stellar evolution describes how stars form from gas clouds, spend most of their lives fusing hydrogen, and end as white dwarfs, neutron stars, or black holes depending on mass. A star's mass is the dominant variable.",
+      "tags": [
+        "resource",
+        "astronomy-space"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Astronomy & Space/The Drake Equation",
+      "label": "The Drake Equation",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Drake Equation organizes the question of detectable extraterrestrial civilizations into factors such as star formation, planets, habitability, life, intelligence, technology, and civilization lifetime. Its value is conceptual more than predictive.",
+      "tags": [
+        "resource",
+        "astronomy-space"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Astronomy & Space/The Fermi Paradox — Great Filter and Solutions",
+      "label": "The Fermi Paradox — Great Filter and Solutions",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Fermi Paradox asks why we see no clear evidence of extraterrestrial civilizations if the galaxy has many stars, planets, and time. Proposed answers include rarity, self-destruction, communication limits, non-expansion, and observation bias.",
+      "tags": [
+        "resource",
+        "astronomy-space"
+      ],
+      "degree": 5
+    },
+    {
       "id": "Resources/Biology & Life Sciences/Aging Biology — Hallmarks of Aging",
       "label": "Aging Biology — Hallmarks of Aging",
       "folder": "Resources",
@@ -1306,7 +1519,7 @@
         "resource",
         "biology-life-sciences"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Biology & Life Sciences/CRISPR — How Gene Editing Works",
@@ -1318,7 +1531,7 @@
         "resource",
         "biology-life-sciences"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Biology & Life Sciences/Cell Biology Basics (Organelles and Their Roles)",
@@ -1330,7 +1543,19 @@
         "resource",
         "biology-life-sciences"
       ],
-      "degree": 3
+      "degree": 4
+    },
+    {
+      "id": "Resources/Biology & Life Sciences/Epigenetics — Gene Expression Without Sequence Change",
+      "label": "Epigenetics — Gene Expression Without Sequence Change",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Epigenetics studies changes in gene expression that do not alter DNA sequence, including DNA methylation, histone modification, and chromatin structure. It explains how context can affect gene activity without rewriting the genome.",
+      "tags": [
+        "resource",
+        "biology-life-sciences"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Biology & Life Sciences/Evolution — Natural Selection and Genetic Drift",
@@ -1342,7 +1567,7 @@
         "resource",
         "biology-life-sciences"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Biology & Life Sciences/Evolutionary Psychology Overview",
@@ -1366,7 +1591,7 @@
         "resource",
         "biology-life-sciences"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Biology & Life Sciences/Hormones Overview (Cortisol, Testosterone, Estrogen, Insulin, GH)",
@@ -1390,7 +1615,7 @@
         "resource",
         "biology-life-sciences"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Biology & Life Sciences/Inflammation — Acute vs Chronic",
@@ -1422,6 +1647,54 @@
       "folder": "Resources",
       "created": "2026-05-26",
       "excerpt": "Longevity research studies pathways and interventions that might affect healthspan or lifespan, including sirtuins, mTOR, senolytics, caloric restriction, exercise, and metabolic signals. Human evidence is much weaker than animal and mechanistic hype.",
+      "tags": [
+        "resource",
+        "biology-life-sciences"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Biology & Life Sciences/Mitochondria and ATP — The Energy Currency",
+      "label": "Mitochondria and ATP — The Energy Currency",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Mitochondria are cellular organelles that convert energy from nutrients into ATP through pathways such as the Krebs cycle and electron transport chain. They also influence signaling, cell death, heat production, and metabolic health.",
+      "tags": [
+        "resource",
+        "biology-life-sciences"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Biology & Life Sciences/Neurotransmitter Synthesis and Regulation",
+      "label": "Neurotransmitter Synthesis and Regulation",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Neurotransmitters are synthesized, stored, released, detected, cleared, and recycled through tightly regulated processes. Their effects depend on receptors, brain regions, timing, transporters, enzymes, and circuit context.",
+      "tags": [
+        "resource",
+        "biology-life-sciences"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Biology & Life Sciences/Systems Biology",
+      "label": "Systems Biology",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Systems biology studies living organisms as interacting networks rather than isolated parts. It uses models, omics data, feedback loops, and pathway analysis to understand emergent biological behavior.",
+      "tags": [
+        "resource",
+        "biology-life-sciences"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Biology & Life Sciences/The Microbiome — Gut Flora and Health",
+      "label": "The Microbiome — Gut Flora and Health",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The microbiome is the community of bacteria, archaea, fungi, viruses, and other organisms living in and on the body, especially in the gut. It influences digestion, immunity, metabolism, and signaling, but consumer claims often outrun evidence.",
       "tags": [
         "resource",
         "biology-life-sciences"
@@ -1986,7 +2259,7 @@
         "resource",
         "chemistry-biochemistry"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Chemistry & Biochemistry/Metabolic Pathways (Glycolysis, Krebs Cycle, Electron Transport Chain)",
@@ -1998,7 +2271,7 @@
         "resource",
         "chemistry-biochemistry"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Chemistry & Biochemistry/Nootropics — Evidence-Based Overview",
@@ -2070,7 +2343,7 @@
         "resource",
         "chemistry-biochemistry"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Claude Code Skills",
@@ -3571,6 +3844,78 @@
       "degree": 4
     },
     {
+      "id": "Resources/Economics & Finance/GDP and Economic Indicators",
+      "label": "GDP and Economic Indicators",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "GDP measures the market value of final goods and services produced in an economy, but it is only one indicator. Inflation, unemployment, productivity, wages, debt, trade, inequality, and sentiment all add context.",
+      "tags": [
+        "resource",
+        "economics-finance"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Economics & Finance/Inflation — Types, Causes, and Effects",
+      "label": "Inflation — Types, Causes, and Effects",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Inflation is a sustained rise in the general price level, reducing purchasing power. It can arise from demand pressure, supply shocks, expectations, monetary conditions, and sector-specific bottlenecks.",
+      "tags": [
+        "resource",
+        "economics-finance"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Economics & Finance/Interest Rates and Central Banks (The Fed, ECB)",
+      "label": "Interest Rates and Central Banks (The Fed, ECB)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Central banks influence financial conditions through interest rates, balance sheets, liquidity tools, and communication. The Fed and ECB use monetary policy to pursue mandates around price stability, employment, and broader economic stability.",
+      "tags": [
+        "resource",
+        "economics-finance"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Economics & Finance/Microeconomics vs Macroeconomics",
+      "label": "Microeconomics vs Macroeconomics",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Microeconomics studies individual markets, firms, consumers, incentives, and prices, while macroeconomics studies aggregate output, inflation, unemployment, growth, and policy. The two levels connect but use different abstractions.",
+      "tags": [
+        "resource",
+        "economics-finance"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Economics & Finance/Monetary Policy vs Fiscal Policy",
+      "label": "Monetary Policy vs Fiscal Policy",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Monetary policy is conducted by central banks through rates, liquidity, and financial conditions, while fiscal policy is conducted by governments through taxation, spending, transfers, and borrowing. They interact but have different tools, timelines, and political constraints.",
+      "tags": [
+        "resource",
+        "economics-finance"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Economics & Finance/Supply and Demand Fundamentals",
+      "label": "Supply and Demand Fundamentals",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Supply and demand explain how prices and quantities emerge from buyers' willingness to pay and sellers' willingness to produce. The framework is simple but powerful when paired with elasticity, market structure, and real-world frictions.",
+      "tags": [
+        "resource",
+        "economics-finance"
+      ],
+      "degree": 4
+    },
+    {
       "id": "Resources/Economics and Personal Finance",
       "label": "Economics and Personal Finance",
       "folder": "Resources",
@@ -3735,7 +4080,7 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Health & Fitness/Eye Strain and Screen Time (20-20-20 Rule)",
@@ -6637,7 +6982,7 @@
         "resource",
         "physics"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Physics/Classical Mechanics Fundamentals",
@@ -6649,7 +6994,7 @@
         "resource",
         "physics"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Physics/Dark Matter and Dark Energy",
@@ -6685,7 +7030,7 @@
         "resource",
         "physics"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Physics/Fermi Estimation (Orders of Magnitude Thinking)",
@@ -6697,7 +7042,7 @@
         "resource",
         "physics"
       ],
-      "degree": 4
+      "degree": 7
     },
     {
       "id": "Resources/Physics/General Relativity — Key Ideas (Spacetime, Gravity as Curvature)",
@@ -6709,7 +7054,7 @@
         "resource",
         "physics"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Physics/Heisenberg Uncertainty Principle",
@@ -6829,7 +7174,7 @@
         "resource",
         "physics"
       ],
-      "degree": 5
+      "degree": 8
     },
     {
       "id": "Resources/Physics/The Standard Model of Particle Physics",
@@ -6841,7 +7186,7 @@
         "resource",
         "physics"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Physics/Thermodynamics and the Arrow of Time",
@@ -9672,6 +10017,15 @@
       "degree": 8
     },
     {
+      "id": "Risk Management Frameworks",
+      "label": "Risk Management Frameworks",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Rumination",
       "label": "Rumination",
       "folder": null,
@@ -9724,15 +10078,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 3
-    },
-    {
-      "id": "Systems Biology",
-      "label": "Systems Biology",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
     },
     {
       "id": "TLS 1.3",
@@ -11175,8 +11520,172 @@
       "target": "VAULT_INDEX"
     },
     {
-      "source": "Resources/Biology & Life Sciences/Aging Biology — Hallmarks of Aging",
-      "target": "Mitochondria and ATP — The Energy Currency"
+      "source": "Resources/Astronomy & Space/Black Holes — Formation, Types, Hawking Radiation",
+      "target": "Resources/Astronomy & Space/Gravitational Waves — LIGO and Discovery"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Black Holes — Formation, Types, Hawking Radiation",
+      "target": "Resources/Physics/Entropy — Physical and Information Interpretations"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Black Holes — Formation, Types, Hawking Radiation",
+      "target": "Resources/Physics/General Relativity — Key Ideas (Spacetime, Gravity as Curvature)"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Cosmic Calendar (Carl Sagan) — Scale of the Universe",
+      "target": "Resources/Biology & Life Sciences/Evolution — Natural Selection and Genetic Drift"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Cosmic Calendar (Carl Sagan) — Scale of the Universe",
+      "target": "Resources/Physics/Fermi Estimation (Orders of Magnitude Thinking)"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Cosmic Calendar (Carl Sagan) — Scale of the Universe",
+      "target": "Resources/Physics/The Big Bang Theory"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Exoplanet Detection Methods (Transit, Radial Velocity)",
+      "target": "Resources/Astronomy & Space/James Webb Space Telescope — Key Discoveries"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Exoplanet Detection Methods (Transit, Radial Velocity)",
+      "target": "Resources/Astronomy & Space/Solar System Overview"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Exoplanet Detection Methods (Transit, Radial Velocity)",
+      "target": "Resources/Astronomy & Space/The Drake Equation"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Gravitational Waves — LIGO and Discovery",
+      "target": "Resources/Astronomy & Space/Black Holes — Formation, Types, Hawking Radiation"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Gravitational Waves — LIGO and Discovery",
+      "target": "Resources/Physics/General Relativity — Key Ideas (Spacetime, Gravity as Curvature)"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Gravitational Waves — LIGO and Discovery",
+      "target": "Resources/Physics/The Standard Model of Particle Physics"
+    },
+    {
+      "source": "Resources/Astronomy & Space/James Webb Space Telescope — Key Discoveries",
+      "target": "Resources/Astronomy & Space/Exoplanet Detection Methods (Transit, Radial Velocity)"
+    },
+    {
+      "source": "Resources/Astronomy & Space/James Webb Space Telescope — Key Discoveries",
+      "target": "Resources/Astronomy & Space/Stellar Evolution (Star Birth, Main Sequence, Supernovae, Remnants)"
+    },
+    {
+      "source": "Resources/Astronomy & Space/James Webb Space Telescope — Key Discoveries",
+      "target": "Resources/Physics/The Big Bang Theory"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Mars Colonization — Technical and Biological Challenges",
+      "target": "Resources/Astronomy & Space/Space Exploration Timeline (Sputnik to Artemis)"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Mars Colonization — Technical and Biological Challenges",
+      "target": "Resources/Biology & Life Sciences/Systems Biology"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Mars Colonization — Technical and Biological Challenges",
+      "target": "Risk Management Frameworks"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Orbital Mechanics Basics (Kepler, Delta-V, Hohmann Transfer)",
+      "target": "Resources/Astronomy & Space/Rocket Science Basics (Tsiolkovsky Rocket Equation)"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Orbital Mechanics Basics (Kepler, Delta-V, Hohmann Transfer)",
+      "target": "Resources/Astronomy & Space/Solar System Overview"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Orbital Mechanics Basics (Kepler, Delta-V, Hohmann Transfer)",
+      "target": "Resources/Physics/Classical Mechanics Fundamentals"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Rocket Science Basics (Tsiolkovsky Rocket Equation)",
+      "target": "Resources/Astronomy & Space/Orbital Mechanics Basics (Kepler, Delta-V, Hohmann Transfer)"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Rocket Science Basics (Tsiolkovsky Rocket Equation)",
+      "target": "Resources/Astronomy & Space/Space Exploration Timeline (Sputnik to Artemis)"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Rocket Science Basics (Tsiolkovsky Rocket Equation)",
+      "target": "Resources/Physics/Fermi Estimation (Orders of Magnitude Thinking)"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Search for Extraterrestrial Intelligence (SETI)",
+      "target": "Bayesian Reasoning"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Search for Extraterrestrial Intelligence (SETI)",
+      "target": "Resources/Astronomy & Space/The Drake Equation"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Search for Extraterrestrial Intelligence (SETI)",
+      "target": "Resources/Astronomy & Space/The Fermi Paradox — Great Filter and Solutions"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Solar System Overview",
+      "target": "Resources/Astronomy & Space/Exoplanet Detection Methods (Transit, Radial Velocity)"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Solar System Overview",
+      "target": "Resources/Astronomy & Space/Orbital Mechanics Basics (Kepler, Delta-V, Hohmann Transfer)"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Solar System Overview",
+      "target": "Resources/Astronomy & Space/Space Exploration Timeline (Sputnik to Artemis)"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Space Exploration Timeline (Sputnik to Artemis)",
+      "target": "Resources/Astronomy & Space/Mars Colonization — Technical and Biological Challenges"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Space Exploration Timeline (Sputnik to Artemis)",
+      "target": "Resources/Astronomy & Space/Orbital Mechanics Basics (Kepler, Delta-V, Hohmann Transfer)"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Space Exploration Timeline (Sputnik to Artemis)",
+      "target": "Resources/Astronomy & Space/Rocket Science Basics (Tsiolkovsky Rocket Equation)"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Stellar Evolution (Star Birth, Main Sequence, Supernovae, Remnants)",
+      "target": "Resources/Astronomy & Space/Black Holes — Formation, Types, Hawking Radiation"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Stellar Evolution (Star Birth, Main Sequence, Supernovae, Remnants)",
+      "target": "Resources/Astronomy & Space/James Webb Space Telescope — Key Discoveries"
+    },
+    {
+      "source": "Resources/Astronomy & Space/Stellar Evolution (Star Birth, Main Sequence, Supernovae, Remnants)",
+      "target": "Resources/Physics/The Big Bang Theory"
+    },
+    {
+      "source": "Resources/Astronomy & Space/The Drake Equation",
+      "target": "Resources/Astronomy & Space/Exoplanet Detection Methods (Transit, Radial Velocity)"
+    },
+    {
+      "source": "Resources/Astronomy & Space/The Drake Equation",
+      "target": "Resources/Astronomy & Space/The Fermi Paradox — Great Filter and Solutions"
+    },
+    {
+      "source": "Resources/Astronomy & Space/The Drake Equation",
+      "target": "Resources/Physics/Fermi Estimation (Orders of Magnitude Thinking)"
+    },
+    {
+      "source": "Resources/Astronomy & Space/The Fermi Paradox — Great Filter and Solutions",
+      "target": "Existential Risk"
+    },
+    {
+      "source": "Resources/Astronomy & Space/The Fermi Paradox — Great Filter and Solutions",
+      "target": "Resources/Astronomy & Space/Search for Extraterrestrial Intelligence (SETI)"
+    },
+    {
+      "source": "Resources/Astronomy & Space/The Fermi Paradox — Great Filter and Solutions",
+      "target": "Resources/Astronomy & Space/The Drake Equation"
     },
     {
       "source": "Resources/Biology & Life Sciences/Aging Biology — Hallmarks of Aging",
@@ -11185,6 +11694,10 @@
     {
       "source": "Resources/Biology & Life Sciences/Aging Biology — Hallmarks of Aging",
       "target": "Resources/Biology & Life Sciences/Longevity Research Overview (Sirtuins, mTOR, Senolytics)"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Aging Biology — Hallmarks of Aging",
+      "target": "Resources/Biology & Life Sciences/Mitochondria and ATP — The Energy Currency"
     },
     {
       "source": "Resources/Biology & Life Sciences/CRISPR — How Gene Editing Works",
@@ -11200,7 +11713,7 @@
     },
     {
       "source": "Resources/Biology & Life Sciences/Cell Biology Basics (Organelles and Their Roles)",
-      "target": "Mitochondria and ATP — The Energy Currency"
+      "target": "Resources/Biology & Life Sciences/Mitochondria and ATP — The Energy Currency"
     },
     {
       "source": "Resources/Biology & Life Sciences/Cell Biology Basics (Organelles and Their Roles)",
@@ -11209,6 +11722,18 @@
     {
       "source": "Resources/Biology & Life Sciences/Cell Biology Basics (Organelles and Their Roles)",
       "target": "Resources/Chemistry & Biochemistry/Protein Synthesis (Transcription and Translation)"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Epigenetics — Gene Expression Without Sequence Change",
+      "target": "Resources/Biology & Life Sciences/Aging Biology — Hallmarks of Aging"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Epigenetics — Gene Expression Without Sequence Change",
+      "target": "Resources/Biology & Life Sciences/CRISPR — How Gene Editing Works"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Epigenetics — Gene Expression Without Sequence Change",
+      "target": "Resources/Biology & Life Sciences/Genetics — DNA to Protein to Phenotype"
     },
     {
       "source": "Resources/Biology & Life Sciences/Evolution — Natural Selection and Genetic Drift",
@@ -11220,7 +11745,7 @@
     },
     {
       "source": "Resources/Biology & Life Sciences/Evolution — Natural Selection and Genetic Drift",
-      "target": "Systems Biology"
+      "target": "Resources/Biology & Life Sciences/Systems Biology"
     },
     {
       "source": "Resources/Biology & Life Sciences/Evolutionary Psychology Overview",
@@ -11236,7 +11761,7 @@
     },
     {
       "source": "Resources/Biology & Life Sciences/Genetics — DNA to Protein to Phenotype",
-      "target": "Epigenetics — Gene Expression Without Sequence Change"
+      "target": "Resources/Biology & Life Sciences/Epigenetics — Gene Expression Without Sequence Change"
     },
     {
       "source": "Resources/Biology & Life Sciences/Genetics — DNA to Protein to Phenotype",
@@ -11305,6 +11830,54 @@
     {
       "source": "Resources/Biology & Life Sciences/Longevity Research Overview (Sirtuins, mTOR, Senolytics)",
       "target": "Resources/Health & Fitness/Exercise Science Fundamentals"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Mitochondria and ATP — The Energy Currency",
+      "target": "Resources/Biology & Life Sciences/Cell Biology Basics (Organelles and Their Roles)"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Mitochondria and ATP — The Energy Currency",
+      "target": "Resources/Chemistry & Biochemistry/Metabolic Pathways (Glycolysis, Krebs Cycle, Electron Transport Chain)"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Mitochondria and ATP — The Energy Currency",
+      "target": "Resources/Health & Fitness/Exercise Science Fundamentals"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Neurotransmitter Synthesis and Regulation",
+      "target": "Dopamine — Reward Prediction Error"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Neurotransmitter Synthesis and Regulation",
+      "target": "Resources/Chemistry & Biochemistry/How Drugs Affect the Brain (Receptor Mechanisms)"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Neurotransmitter Synthesis and Regulation",
+      "target": "Resources/Chemistry & Biochemistry/The Chemistry of Sleep (Melatonin, Adenosine, GABA)"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Systems Biology",
+      "target": "Resources/Biology & Life Sciences/The Microbiome — Gut Flora and Health"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Systems Biology",
+      "target": "Resources/Chemistry & Biochemistry/Metabolic Pathways (Glycolysis, Krebs Cycle, Electron Transport Chain)"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Systems Biology",
+      "target": "Resources/Physics/Chaos Theory and Complexity"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/The Microbiome — Gut Flora and Health",
+      "target": "Nutrition — Macronutrients (Protein, Carbs, Fats)"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/The Microbiome — Gut Flora and Health",
+      "target": "Resources/Biology & Life Sciences/Immune System Overview (Innate vs Adaptive)"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/The Microbiome — Gut Flora and Health",
+      "target": "Resources/Biology & Life Sciences/Systems Biology"
     },
     {
       "source": "Resources/Biology & Life Sciences/The Stress Response (Fight-or-Flight, Freeze, Fawn)",
@@ -11984,11 +12557,11 @@
     },
     {
       "source": "Resources/Chemistry & Biochemistry/Metabolic Pathways (Glycolysis, Krebs Cycle, Electron Transport Chain)",
-      "target": "Mitochondria and ATP — The Energy Currency"
+      "target": "Resources/Biology & Life Sciences/Insulin and Blood Sugar Regulation"
     },
     {
       "source": "Resources/Chemistry & Biochemistry/Metabolic Pathways (Glycolysis, Krebs Cycle, Electron Transport Chain)",
-      "target": "Resources/Biology & Life Sciences/Insulin and Blood Sugar Regulation"
+      "target": "Resources/Biology & Life Sciences/Mitochondria and ATP — The Energy Currency"
     },
     {
       "source": "Resources/Chemistry & Biochemistry/Metabolic Pathways (Glycolysis, Krebs Cycle, Electron Transport Chain)",
@@ -13833,6 +14406,78 @@
     {
       "source": "Resources/Dynamic Programming Deep Dive",
       "target": "Resources/Interview Communication"
+    },
+    {
+      "source": "Resources/Economics & Finance/GDP and Economic Indicators",
+      "target": "Data Visualization Best Practices"
+    },
+    {
+      "source": "Resources/Economics & Finance/GDP and Economic Indicators",
+      "target": "Resources/Economics & Finance/Inflation — Types, Causes, and Effects"
+    },
+    {
+      "source": "Resources/Economics & Finance/GDP and Economic Indicators",
+      "target": "Resources/Economics & Finance/Microeconomics vs Macroeconomics"
+    },
+    {
+      "source": "Resources/Economics & Finance/Inflation — Types, Causes, and Effects",
+      "target": "Resources/Economics & Finance/GDP and Economic Indicators"
+    },
+    {
+      "source": "Resources/Economics & Finance/Inflation — Types, Causes, and Effects",
+      "target": "Resources/Economics & Finance/Interest Rates and Central Banks (The Fed, ECB)"
+    },
+    {
+      "source": "Resources/Economics & Finance/Inflation — Types, Causes, and Effects",
+      "target": "Resources/Economics & Finance/Monetary Policy vs Fiscal Policy"
+    },
+    {
+      "source": "Resources/Economics & Finance/Interest Rates and Central Banks (The Fed, ECB)",
+      "target": "Resources/Economics & Finance/GDP and Economic Indicators"
+    },
+    {
+      "source": "Resources/Economics & Finance/Interest Rates and Central Banks (The Fed, ECB)",
+      "target": "Resources/Economics & Finance/Inflation — Types, Causes, and Effects"
+    },
+    {
+      "source": "Resources/Economics & Finance/Interest Rates and Central Banks (The Fed, ECB)",
+      "target": "Resources/Economics & Finance/Monetary Policy vs Fiscal Policy"
+    },
+    {
+      "source": "Resources/Economics & Finance/Microeconomics vs Macroeconomics",
+      "target": "Resources/Economics & Finance/GDP and Economic Indicators"
+    },
+    {
+      "source": "Resources/Economics & Finance/Microeconomics vs Macroeconomics",
+      "target": "Resources/Economics & Finance/Monetary Policy vs Fiscal Policy"
+    },
+    {
+      "source": "Resources/Economics & Finance/Microeconomics vs Macroeconomics",
+      "target": "Resources/Economics & Finance/Supply and Demand Fundamentals"
+    },
+    {
+      "source": "Resources/Economics & Finance/Monetary Policy vs Fiscal Policy",
+      "target": "Resources/Economics & Finance/Inflation — Types, Causes, and Effects"
+    },
+    {
+      "source": "Resources/Economics & Finance/Monetary Policy vs Fiscal Policy",
+      "target": "Resources/Economics & Finance/Interest Rates and Central Banks (The Fed, ECB)"
+    },
+    {
+      "source": "Resources/Economics & Finance/Monetary Policy vs Fiscal Policy",
+      "target": "Resources/Economics & Finance/Microeconomics vs Macroeconomics"
+    },
+    {
+      "source": "Resources/Economics & Finance/Supply and Demand Fundamentals",
+      "target": "Externalities and Market Failure"
+    },
+    {
+      "source": "Resources/Economics & Finance/Supply and Demand Fundamentals",
+      "target": "Network Effects in Economics (Metcalfe's Law)"
+    },
+    {
+      "source": "Resources/Economics & Finance/Supply and Demand Fundamentals",
+      "target": "Resources/Economics & Finance/Inflation — Types, Causes, and Effects"
     },
     {
       "source": "Resources/Economics and Personal Finance",
@@ -17188,15 +17833,15 @@
     },
     {
       "source": "Resources/Physics/Phase Transitions and Emergence",
+      "target": "Resources/Biology & Life Sciences/Systems Biology"
+    },
+    {
+      "source": "Resources/Physics/Phase Transitions and Emergence",
       "target": "Resources/Multi-Agent Systems"
     },
     {
       "source": "Resources/Physics/Phase Transitions and Emergence",
       "target": "Resources/Physics/Chaos Theory and Complexity"
-    },
-    {
-      "source": "Resources/Physics/Phase Transitions and Emergence",
-      "target": "Systems Biology"
     },
     {
       "source": "Resources/Physics/Quantum Computing Basics (Qubits, Superposition, Entanglement)",
@@ -21071,5 +21716,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-26T23:12:30Z"
+  "generated_at": "2026-05-26T23:31:25Z"
 }
