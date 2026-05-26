@@ -108,6 +108,15 @@
       "degree": 1
     },
     {
+      "id": "Capture Systems (Ubiquitous Capture)",
+      "label": "Capture Systems (Ubiquitous Capture)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Changelog and Release Notes Writing",
       "label": "Changelog and Release Notes Writing",
       "folder": null,
@@ -185,6 +194,15 @@
     {
       "id": "Directed Acyclic Graphs",
       "label": "Directed Acyclic Graphs",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Evergreen Notes",
+      "label": "Evergreen Notes",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -364,7 +382,7 @@
         "project",
         "bobby"
       ],
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "Projects/Klip",
@@ -434,15 +452,6 @@
       "id": "Python — Closures",
       "label": "Python — Closures",
       "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Redis Patterns (Caching, Pub/Sub, Job Queues, Rate Limiting)",
-      "label": "Sub, Job Queues, Rate Limiting)",
-      "folder": "Redis Patterns (Caching, Pub",
       "created": null,
       "excerpt": "",
       "tags": [],
@@ -722,7 +731,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/AI & Machine Learning/Local LLMs (Ollama, llama.cpp, LM Studio)",
@@ -998,7 +1007,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)",
@@ -1206,7 +1215,7 @@
         "memory",
         "chromadb"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/CI CD",
@@ -1877,7 +1886,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Data Science & Analytics/Dimensionality Reduction (PCA, t-SNE, UMAP)",
@@ -2138,6 +2147,258 @@
       "degree": 10
     },
     {
+      "id": "Resources/Database Systems/Database Backups and Point-in-Time Recovery",
+      "label": "Database Backups and Point-in-Time Recovery",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Database backups are only useful if they can be restored, and point-in-time recovery uses backups plus logs to recover to a specific moment. Recovery planning should be tested, not assumed.",
+      "tags": [
+        "resource",
+        "database-systems"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Database Systems/Database Change Data Capture (CDC)",
+      "label": "Database Change Data Capture (CDC)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Change Data Capture streams database changes into downstream systems without requiring every application path to publish events manually. CDC is useful for analytics, search indexing, cache updates, replication, and event-driven integration.",
+      "tags": [
+        "resource",
+        "database-systems"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Database Systems/Database Connection Pooling (pgBouncer, SQLAlchemy)",
+      "label": "Database Connection Pooling (pgBouncer, SQLAlchemy)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Connection pooling reuses database connections so applications do not open expensive new sessions for every request. Tools like pgBouncer and SQLAlchemy pools protect the database from connection storms and improve latency.",
+      "tags": [
+        "resource",
+        "database-systems"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Database Systems/Database Indexing Strategies (B-Tree, Hash, GIN, GiST)",
+      "label": "Database Indexing Strategies (B-Tree, Hash, GIN, GiST)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Database indexes are access structures tuned for different query shapes. B-tree indexes cover common equality and range queries, while hash, GIN, and GiST indexes support more specialized lookup patterns.",
+      "tags": [
+        "resource",
+        "database-systems"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Database Systems/Database Normalization (1NF through BCNF)",
+      "label": "Database Normalization (1NF through BCNF)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Database normalization reduces redundancy and update anomalies by decomposing tables according to dependency rules. The practical point is preserving facts once, in the right place, unless performance demands a documented exception.",
+      "tags": [
+        "resource",
+        "database-systems"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Database Systems/Full-Text Search (PostgreSQL FTS, Elasticsearch, Typesense)",
+      "label": "Full-Text Search (PostgreSQL FTS, Elasticsearch, Typesense)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Full-text search indexes terms, rankings, and language-aware matching so users can find documents by meaning-adjacent text instead of exact values. PostgreSQL FTS, Elasticsearch, and Typesense cover different complexity levels.",
+      "tags": [
+        "resource",
+        "database-systems"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Database Systems/NoSQL — Document Stores (MongoDB)",
+      "label": "NoSQL — Document Stores (MongoDB)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Document stores organize data as flexible JSON-like documents, often optimizing for aggregate-oriented reads and schema evolution. MongoDB is the common reference point, but document databases still require intentional modeling.",
+      "tags": [
+        "resource",
+        "database-systems"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Database Systems/NoSQL — Graph Databases (Neo4j)",
+      "label": "NoSQL — Graph Databases (Neo4j)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Graph databases model data as nodes, edges, and properties, making relationship traversal a first-class operation. They are strongest when the relationships are the product, not just supporting metadata.",
+      "tags": [
+        "resource",
+        "database-systems"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Database Systems/NoSQL — Key-Value Stores (Redis)",
+      "label": "NoSQL — Key-Value Stores (Redis)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Key-value stores map keys directly to values and optimize for simple, fast lookups. Redis is the common example, often used for caching, counters, locks, queues, pub/sub, and rate limiting.",
+      "tags": [
+        "resource",
+        "database-systems"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Database Systems/NoSQL — Wide-Column Stores (Cassandra)",
+      "label": "NoSQL — Wide-Column Stores (Cassandra)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Wide-column stores like Cassandra organize data by partition keys and clustering columns for massive distributed writes and reads at known access patterns. They reward query-first modeling and punish ad hoc querying.",
+      "tags": [
+        "resource",
+        "database-systems"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Database Systems/ORM Patterns and Pitfalls (N+1 Problem, Lazy Loading)",
+      "label": "ORM Patterns and Pitfalls (N+1 Problem, Lazy Loading)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "ORMs map database tables to application objects, improving ergonomics but sometimes hiding query cost. The N+1 problem, lazy loading surprises, and leaky abstractions are the classic failure modes.",
+      "tags": [
+        "resource",
+        "database-systems"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Database Systems/Optimistic vs Pessimistic Locking",
+      "label": "Optimistic vs Pessimistic Locking",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Optimistic locking assumes conflicts are rare and checks before commit, while pessimistic locking blocks concurrent writers earlier. The right choice depends on contention, user experience, and correctness requirements.",
+      "tags": [
+        "resource",
+        "database-systems"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Database Systems/PostgreSQL — Advanced Features (JSONB, Arrays, Extensions)",
+      "label": "PostgreSQL — Advanced Features (JSONB, Arrays, Extensions)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "PostgreSQL goes beyond classic relational storage with JSONB, arrays, full-text search, extensions, custom types, and strong indexing. Its strength is being a reliable relational core that can absorb many adjacent workloads.",
+      "tags": [
+        "resource",
+        "database-systems"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Database Systems/Redis Patterns (Caching, Pub Sub, Job Queues, Rate Limiting)",
+      "label": "Redis Patterns (Caching, Pub Sub, Job Queues, Rate Limiting)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Redis is commonly used as a cache, pub/sub broker, lightweight queue, distributed coordination tool, counter store, and rate limiter. The main engineering risk is treating every Redis pattern as equally durable or reliable.",
+      "tags": [
+        "resource",
+        "database-systems"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Database Systems/Relational Database Design",
+      "label": "Relational Database Design",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Relational database design models data as tables, rows, relationships, keys, and constraints. Good schema design makes invariants explicit so application code is not the only thing protecting correctness.",
+      "tags": [
+        "resource",
+        "database-systems"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Database Systems/SQL — Indexes and Query Plans (EXPLAIN)",
+      "label": "SQL — Indexes and Query Plans (EXPLAIN)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Indexes give databases faster access paths, while query plans show how the optimizer intends to execute SQL. EXPLAIN turns performance work from guessing into inspection.",
+      "tags": [
+        "resource",
+        "database-systems"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Database Systems/SQL — Joins (Inner, Left, Right, Full, Cross)",
+      "label": "SQL — Joins (Inner, Left, Right, Full, Cross)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "SQL joins combine rows across tables using relationship predicates. Understanding inner, outer, and cross joins is essential for reading query intent and avoiding accidental row multiplication.",
+      "tags": [
+        "resource",
+        "database-systems"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Database Systems/SQL — Subqueries and CTEs",
+      "label": "SQL — Subqueries and CTEs",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Subqueries and common table expressions break SQL logic into nested or named steps. They improve readability when used well, but can also hide expensive intermediate work.",
+      "tags": [
+        "resource",
+        "database-systems"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Database Systems/SQL — Transactions and ACID Properties",
+      "label": "SQL — Transactions and ACID Properties",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "SQL transactions group work so it commits or rolls back as one unit. ACID captures atomicity, consistency, isolation, and durability: the core guarantees behind reliable relational state changes.",
+      "tags": [
+        "resource",
+        "database-systems"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Database Systems/SQLite — Use Cases and Limits",
+      "label": "SQLite — Use Cases and Limits",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "SQLite is an embedded relational database stored in a local file. It is excellent for local apps, prototypes, edge deployments, tests, and small services, but it is not a drop-in replacement for client-server databases under high write concurrency.",
+      "tags": [
+        "resource",
+        "database-systems"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Database Systems/Time Series Databases (InfluxDB, TimescaleDB)",
+      "label": "Time Series Databases (InfluxDB, TimescaleDB)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Time series databases optimize for timestamped measurements, retention policies, downsampling, and range queries over time. They fit metrics, IoT readings, financial ticks, logs, and operational telemetry.",
+      "tags": [
+        "resource",
+        "database-systems"
+      ],
+      "degree": 3
+    },
+    {
       "id": "Resources/Databases",
       "label": "Databases",
       "folder": "Resources",
@@ -2389,7 +2650,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "Resources/DevOps & Infrastructure/On-Call Culture and Incident Response",
@@ -2437,7 +2698,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/DevOps & Infrastructure/Prometheus and Grafana",
@@ -2449,7 +2710,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/DevOps & Infrastructure/Reverse Proxies (Nginx, Caddy, Traefik)",
@@ -2521,7 +2782,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/DevOps & Infrastructure/Terraform Basics",
@@ -2670,7 +2931,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/IaaS PaaS SaaS",
@@ -2915,7 +3176,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Mathematics/Information Theory — Entropy, Cross-Entropy, KL Divergence",
@@ -3183,6 +3444,54 @@
         "system-design"
       ],
       "degree": 6
+    },
+    {
+      "id": "Resources/Personal Productivity/Getting Things Done (GTD) Method",
+      "label": "Getting Things Done (GTD) Method",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Getting Things Done is a productivity method built around capturing every commitment, clarifying the next action, organizing by context, reviewing regularly, and trusting an external system instead of mental juggling.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Personal Productivity/Obsidian Workflow Design",
+      "label": "Obsidian Workflow Design",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Obsidian workflow design is about making capture, linking, review, and retrieval easy enough to sustain. For Kenny, the best workflow is discussion first, distilled notes second, and index updates so Bobby can actually use the vault.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Personal Productivity/Personal Knowledge Management (PKM) Overview",
+      "label": "Personal Knowledge Management (PKM) Overview",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Personal Knowledge Management is the practice of capturing, organizing, connecting, and revisiting knowledge so it compounds over time. In this vault, PKM matters because Bobby relies on notes that are specific enough to retrieve and useful enough to act on.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Personal Productivity/Zettelkasten Method",
+      "label": "Zettelkasten Method",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Zettelkasten is a linked-note method that emphasizes small, durable ideas connected through explicit relationships. Its value comes from turning notes into a thinking network rather than a pile of excerpts.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Process Reward Models",
@@ -3749,7 +4058,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Security",
@@ -4500,7 +4809,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "Resources/Software Engineering/Feature Flags and Progressive Rollout",
@@ -4877,7 +5186,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 15
+      "degree": 17
     },
     {
       "id": "Resources/System Design/Circuit Breaker Pattern",
@@ -4913,7 +5222,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/System Design/Content Delivery and Edge Computing",
@@ -4949,7 +5258,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/System Design/Design Twitter X Feed",
@@ -5141,7 +5450,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Resources/System Design/Eventual Consistency",
@@ -5165,7 +5474,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "Resources/System Design/Leader Election",
@@ -5189,7 +5498,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)",
@@ -5201,7 +5510,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 15
+      "degree": 17
     },
     {
       "id": "Resources/System Design/PACELC Theorem",
@@ -5213,7 +5522,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/System Design/Pub Sub Architecture",
@@ -5237,7 +5546,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/System Design/Real-Time Systems Design",
@@ -5326,7 +5635,7 @@
         "obsidian",
         "reference"
       ],
-      "degree": 2
+      "degree": 4
     },
     {
       "id": "Resources/WSL2 Setup",
@@ -5758,7 +6067,7 @@
         "obsidian",
         "pkm"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Shortest Path Algorithms (Dijkstra, Bellman-Ford, A*, Floyd-Warshall)",
@@ -5772,6 +6081,24 @@
     {
       "id": "TLS 1.3",
       "label": "TLS 1.3",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Task Management Philosophies (GTD, Autofocus, ZTD)",
+      "label": "Task Management Philosophies (GTD, Autofocus, ZTD)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "The Map of Content (MOC) in Obsidian",
+      "label": "The Map of Content (MOC) in Obsidian",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -5795,6 +6122,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 5
+    },
+    {
+      "id": "Weekly Review Process",
+      "label": "Weekly Review Process",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "Writing Good Documentation",
@@ -8417,6 +8753,258 @@
       "target": "Resources/Scaling"
     },
     {
+      "source": "Resources/Database Systems/Database Backups and Point-in-Time Recovery",
+      "target": "Resources/Database Systems/Database Change Data Capture (CDC)"
+    },
+    {
+      "source": "Resources/Database Systems/Database Backups and Point-in-Time Recovery",
+      "target": "Resources/Database Systems/SQL — Transactions and ACID Properties"
+    },
+    {
+      "source": "Resources/Database Systems/Database Backups and Point-in-Time Recovery",
+      "target": "Resources/DevOps & Infrastructure/Postmortem Writing"
+    },
+    {
+      "source": "Resources/Database Systems/Database Change Data Capture (CDC)",
+      "target": "Resources/Database Systems/Database Backups and Point-in-Time Recovery"
+    },
+    {
+      "source": "Resources/Database Systems/Database Change Data Capture (CDC)",
+      "target": "Resources/Software Engineering/Event-Driven Architecture"
+    },
+    {
+      "source": "Resources/Database Systems/Database Change Data Capture (CDC)",
+      "target": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)"
+    },
+    {
+      "source": "Resources/Database Systems/Database Connection Pooling (pgBouncer, SQLAlchemy)",
+      "target": "Resources/Database Systems/PostgreSQL — Advanced Features (JSONB, Arrays, Extensions)"
+    },
+    {
+      "source": "Resources/Database Systems/Database Connection Pooling (pgBouncer, SQLAlchemy)",
+      "target": "Resources/Database Systems/SQL — Indexes and Query Plans (EXPLAIN)"
+    },
+    {
+      "source": "Resources/Database Systems/Database Connection Pooling (pgBouncer, SQLAlchemy)",
+      "target": "Resources/System Design/Load Balancing Strategies"
+    },
+    {
+      "source": "Resources/Database Systems/Database Indexing Strategies (B-Tree, Hash, GIN, GiST)",
+      "target": "Resources/Database Systems/Full-Text Search (PostgreSQL FTS, Elasticsearch, Typesense)"
+    },
+    {
+      "source": "Resources/Database Systems/Database Indexing Strategies (B-Tree, Hash, GIN, GiST)",
+      "target": "Resources/Database Systems/PostgreSQL — Advanced Features (JSONB, Arrays, Extensions)"
+    },
+    {
+      "source": "Resources/Database Systems/Database Indexing Strategies (B-Tree, Hash, GIN, GiST)",
+      "target": "Resources/Database Systems/SQL — Indexes and Query Plans (EXPLAIN)"
+    },
+    {
+      "source": "Resources/Database Systems/Database Normalization (1NF through BCNF)",
+      "target": "Resources/Database Systems/Database Backups and Point-in-Time Recovery"
+    },
+    {
+      "source": "Resources/Database Systems/Database Normalization (1NF through BCNF)",
+      "target": "Resources/Database Systems/ORM Patterns and Pitfalls (N+1 Problem, Lazy Loading)"
+    },
+    {
+      "source": "Resources/Database Systems/Database Normalization (1NF through BCNF)",
+      "target": "Resources/Database Systems/Relational Database Design"
+    },
+    {
+      "source": "Resources/Database Systems/Full-Text Search (PostgreSQL FTS, Elasticsearch, Typesense)",
+      "target": "Resources/AI & Machine Learning/Semantic Search vs Keyword Search"
+    },
+    {
+      "source": "Resources/Database Systems/Full-Text Search (PostgreSQL FTS, Elasticsearch, Typesense)",
+      "target": "Resources/Database Systems/PostgreSQL — Advanced Features (JSONB, Arrays, Extensions)"
+    },
+    {
+      "source": "Resources/Database Systems/Full-Text Search (PostgreSQL FTS, Elasticsearch, Typesense)",
+      "target": "Resources/Search Systems"
+    },
+    {
+      "source": "Resources/Database Systems/NoSQL — Document Stores (MongoDB)",
+      "target": "Resources/Database Systems/Database Normalization (1NF through BCNF)"
+    },
+    {
+      "source": "Resources/Database Systems/NoSQL — Document Stores (MongoDB)",
+      "target": "Resources/Database Systems/NoSQL — Graph Databases (Neo4j)"
+    },
+    {
+      "source": "Resources/Database Systems/NoSQL — Document Stores (MongoDB)",
+      "target": "Resources/Database Systems/Relational Database Design"
+    },
+    {
+      "source": "Resources/Database Systems/NoSQL — Graph Databases (Neo4j)",
+      "target": "Projects/Bobby Brain Viz"
+    },
+    {
+      "source": "Resources/Database Systems/NoSQL — Graph Databases (Neo4j)",
+      "target": "Resources/AI & Machine Learning/Knowledge Distillation"
+    },
+    {
+      "source": "Resources/Database Systems/NoSQL — Graph Databases (Neo4j)",
+      "target": "Resources/Mathematics/Graph Theory Fundamentals"
+    },
+    {
+      "source": "Resources/Database Systems/NoSQL — Key-Value Stores (Redis)",
+      "target": "Resources/Database Systems/Redis Patterns (Caching, Pub Sub, Job Queues, Rate Limiting)"
+    },
+    {
+      "source": "Resources/Database Systems/NoSQL — Key-Value Stores (Redis)",
+      "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
+    },
+    {
+      "source": "Resources/Database Systems/NoSQL — Key-Value Stores (Redis)",
+      "target": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)"
+    },
+    {
+      "source": "Resources/Database Systems/NoSQL — Wide-Column Stores (Cassandra)",
+      "target": "Resources/System Design/Consistent Hashing"
+    },
+    {
+      "source": "Resources/Database Systems/NoSQL — Wide-Column Stores (Cassandra)",
+      "target": "Resources/System Design/Database Sharding"
+    },
+    {
+      "source": "Resources/Database Systems/NoSQL — Wide-Column Stores (Cassandra)",
+      "target": "Resources/System Design/PACELC Theorem"
+    },
+    {
+      "source": "Resources/Database Systems/ORM Patterns and Pitfalls (N+1 Problem, Lazy Loading)",
+      "target": "Resources/Database Systems/Relational Database Design"
+    },
+    {
+      "source": "Resources/Database Systems/ORM Patterns and Pitfalls (N+1 Problem, Lazy Loading)",
+      "target": "Resources/Database Systems/SQL — Indexes and Query Plans (EXPLAIN)"
+    },
+    {
+      "source": "Resources/Database Systems/ORM Patterns and Pitfalls (N+1 Problem, Lazy Loading)",
+      "target": "Resources/Database Systems/SQL — Joins (Inner, Left, Right, Full, Cross)"
+    },
+    {
+      "source": "Resources/Database Systems/Optimistic vs Pessimistic Locking",
+      "target": "Resources/Database Systems/Database Connection Pooling (pgBouncer, SQLAlchemy)"
+    },
+    {
+      "source": "Resources/Database Systems/Optimistic vs Pessimistic Locking",
+      "target": "Resources/Database Systems/SQL — Transactions and ACID Properties"
+    },
+    {
+      "source": "Resources/Database Systems/Optimistic vs Pessimistic Locking",
+      "target": "Resources/System Design/Idempotency in Distributed Systems"
+    },
+    {
+      "source": "Resources/Database Systems/PostgreSQL — Advanced Features (JSONB, Arrays, Extensions)",
+      "target": "Resources/Database Systems/Database Indexing Strategies (B-Tree, Hash, GIN, GiST)"
+    },
+    {
+      "source": "Resources/Database Systems/PostgreSQL — Advanced Features (JSONB, Arrays, Extensions)",
+      "target": "Resources/Database Systems/Full-Text Search (PostgreSQL FTS, Elasticsearch, Typesense)"
+    },
+    {
+      "source": "Resources/Database Systems/PostgreSQL — Advanced Features (JSONB, Arrays, Extensions)",
+      "target": "Resources/Geospatial"
+    },
+    {
+      "source": "Resources/Database Systems/Redis Patterns (Caching, Pub Sub, Job Queues, Rate Limiting)",
+      "target": "Resources/Database Systems/NoSQL — Key-Value Stores (Redis)"
+    },
+    {
+      "source": "Resources/Database Systems/Redis Patterns (Caching, Pub Sub, Job Queues, Rate Limiting)",
+      "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
+    },
+    {
+      "source": "Resources/Database Systems/Redis Patterns (Caching, Pub Sub, Job Queues, Rate Limiting)",
+      "target": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)"
+    },
+    {
+      "source": "Resources/Database Systems/Relational Database Design",
+      "target": "Resources/Database Systems/Database Indexing Strategies (B-Tree, Hash, GIN, GiST)"
+    },
+    {
+      "source": "Resources/Database Systems/Relational Database Design",
+      "target": "Resources/Database Systems/Database Normalization (1NF through BCNF)"
+    },
+    {
+      "source": "Resources/Database Systems/Relational Database Design",
+      "target": "Resources/Database Systems/SQL — Joins (Inner, Left, Right, Full, Cross)"
+    },
+    {
+      "source": "Resources/Database Systems/SQL — Indexes and Query Plans (EXPLAIN)",
+      "target": "Resources/Database Systems/Database Connection Pooling (pgBouncer, SQLAlchemy)"
+    },
+    {
+      "source": "Resources/Database Systems/SQL — Indexes and Query Plans (EXPLAIN)",
+      "target": "Resources/Database Systems/Database Indexing Strategies (B-Tree, Hash, GIN, GiST)"
+    },
+    {
+      "source": "Resources/Database Systems/SQL — Indexes and Query Plans (EXPLAIN)",
+      "target": "Resources/Database Systems/SQL — Joins (Inner, Left, Right, Full, Cross)"
+    },
+    {
+      "source": "Resources/Database Systems/SQL — Joins (Inner, Left, Right, Full, Cross)",
+      "target": "Resources/Database Systems/Relational Database Design"
+    },
+    {
+      "source": "Resources/Database Systems/SQL — Joins (Inner, Left, Right, Full, Cross)",
+      "target": "Resources/Database Systems/SQL — Indexes and Query Plans (EXPLAIN)"
+    },
+    {
+      "source": "Resources/Database Systems/SQL — Joins (Inner, Left, Right, Full, Cross)",
+      "target": "Resources/Database Systems/SQL — Subqueries and CTEs"
+    },
+    {
+      "source": "Resources/Database Systems/SQL — Subqueries and CTEs",
+      "target": "Resources/Database Systems/PostgreSQL — Advanced Features (JSONB, Arrays, Extensions)"
+    },
+    {
+      "source": "Resources/Database Systems/SQL — Subqueries and CTEs",
+      "target": "Resources/Database Systems/SQL — Indexes and Query Plans (EXPLAIN)"
+    },
+    {
+      "source": "Resources/Database Systems/SQL — Subqueries and CTEs",
+      "target": "Resources/Database Systems/SQL — Joins (Inner, Left, Right, Full, Cross)"
+    },
+    {
+      "source": "Resources/Database Systems/SQL — Transactions and ACID Properties",
+      "target": "Resources/Database Systems/Database Backups and Point-in-Time Recovery"
+    },
+    {
+      "source": "Resources/Database Systems/SQL — Transactions and ACID Properties",
+      "target": "Resources/Database Systems/Optimistic vs Pessimistic Locking"
+    },
+    {
+      "source": "Resources/Database Systems/SQL — Transactions and ACID Properties",
+      "target": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)"
+    },
+    {
+      "source": "Resources/Database Systems/SQLite — Use Cases and Limits",
+      "target": "Resources/Database Systems/Database Backups and Point-in-Time Recovery"
+    },
+    {
+      "source": "Resources/Database Systems/SQLite — Use Cases and Limits",
+      "target": "Resources/Database Systems/Relational Database Design"
+    },
+    {
+      "source": "Resources/Database Systems/SQLite — Use Cases and Limits",
+      "target": "Resources/DevOps & Infrastructure/Serverless Architecture"
+    },
+    {
+      "source": "Resources/Database Systems/Time Series Databases (InfluxDB, TimescaleDB)",
+      "target": "Resources/Data Science & Analytics/Data Warehousing Concepts"
+    },
+    {
+      "source": "Resources/Database Systems/Time Series Databases (InfluxDB, TimescaleDB)",
+      "target": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)"
+    },
+    {
+      "source": "Resources/Database Systems/Time Series Databases (InfluxDB, TimescaleDB)",
+      "target": "Resources/DevOps & Infrastructure/Prometheus and Grafana"
+    },
+    {
       "source": "Resources/Databases",
       "target": "Resources/Caching"
     },
@@ -9767,6 +10355,54 @@
     {
       "source": "Resources/Observability Case Studies",
       "target": "Resources/Testing Strategy"
+    },
+    {
+      "source": "Resources/Personal Productivity/Getting Things Done (GTD) Method",
+      "target": "Capture Systems (Ubiquitous Capture)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Getting Things Done (GTD) Method",
+      "target": "Task Management Philosophies (GTD, Autofocus, ZTD)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Getting Things Done (GTD) Method",
+      "target": "Weekly Review Process"
+    },
+    {
+      "source": "Resources/Personal Productivity/Obsidian Workflow Design",
+      "target": "Resources/Bobby Memory Architecture"
+    },
+    {
+      "source": "Resources/Personal Productivity/Obsidian Workflow Design",
+      "target": "Resources/Vault Structure"
+    },
+    {
+      "source": "Resources/Personal Productivity/Obsidian Workflow Design",
+      "target": "Resources/What Is Obsidian"
+    },
+    {
+      "source": "Resources/Personal Productivity/Personal Knowledge Management (PKM) Overview",
+      "target": "Resources/Personal Productivity/Zettelkasten Method"
+    },
+    {
+      "source": "Resources/Personal Productivity/Personal Knowledge Management (PKM) Overview",
+      "target": "Resources/Vault Structure"
+    },
+    {
+      "source": "Resources/Personal Productivity/Personal Knowledge Management (PKM) Overview",
+      "target": "Resources/What Is Obsidian"
+    },
+    {
+      "source": "Resources/Personal Productivity/Zettelkasten Method",
+      "target": "Evergreen Notes"
+    },
+    {
+      "source": "Resources/Personal Productivity/Zettelkasten Method",
+      "target": "Resources/Personal Productivity/Personal Knowledge Management (PKM) Overview"
+    },
+    {
+      "source": "Resources/Personal Productivity/Zettelkasten Method",
+      "target": "The Map of Content (MOC) in Obsidian"
     },
     {
       "source": "Resources/Process Reward Models",
@@ -12454,7 +13090,7 @@
     },
     {
       "source": "Resources/System Design/Design a Rate Limiter",
-      "target": "Redis Patterns (Caching, Pub/Sub, Job Queues, Rate Limiting)"
+      "target": "Resources/Database Systems/Redis Patterns (Caching, Pub Sub, Job Queues, Rate Limiting)"
     },
     {
       "source": "Resources/System Design/Design a Rate Limiter",
@@ -13305,5 +13941,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-26T07:35:46Z"
+  "generated_at": "2026-05-26T16:23:35Z"
 }
