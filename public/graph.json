@@ -63,6 +63,42 @@
       "degree": 3
     },
     {
+      "id": "B-Trees and B+ Trees",
+      "label": "B-Trees and B+ Trees",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Backtracking",
+      "label": "Backtracking",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Bit Manipulation Tricks",
+      "label": "Bit Manipulation Tricks",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Bloom Filters",
+      "label": "Bloom Filters",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Bobby's Personality and Tone Guide",
       "label": "Bobby's Personality and Tone Guide",
       "folder": null,
@@ -115,6 +151,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 2
+    },
+    {
+      "id": "Computational Complexity Classes (P, NP, NP-Hard)",
+      "label": "Computational Complexity Classes (P, NP, NP-Hard)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "Daily Notes/2026-05-19",
@@ -172,6 +217,15 @@
       "degree": 0
     },
     {
+      "id": "Divide and Conquer",
+      "label": "Divide and Conquer",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Game Theory Fundamentals",
       "label": "Game Theory Fundamentals",
       "folder": null,
@@ -181,13 +235,13 @@
       "degree": 1
     },
     {
-      "id": "Graph Theory Fundamentals",
-      "label": "Graph Theory Fundamentals",
+      "id": "Graph Traversal (BFS, DFS)",
+      "label": "Graph Traversal (BFS, DFS)",
       "folder": null,
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 3
     },
     {
       "id": "How to Update Beliefs Gracefully (Bayesian Updating)",
@@ -270,8 +324,8 @@
       "degree": 4
     },
     {
-      "id": "Note Title",
-      "label": "Note Title",
+      "id": "Minimum Spanning Trees (Kruskal, Prim)",
+      "label": "Minimum Spanning Trees (Kruskal, Prim)",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -279,13 +333,13 @@
       "degree": 1
     },
     {
-      "id": "Optimization — Convex vs Non-Convex",
-      "label": "Optimization — Convex vs Non-Convex",
+      "id": "Note Title",
+      "label": "Note Title",
       "folder": null,
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 2
+      "degree": 1
     },
     {
       "id": "Performance Profiling (CPU, Memory, I/O)",
@@ -409,6 +463,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 2
+    },
+    {
+      "id": "Recursion and Stack Frames",
+      "label": "Recursion and Stack Frames",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 3
     },
     {
       "id": "Redis Patterns (Caching, Pub/Sub, Job Queues, Rate Limiting)",
@@ -585,7 +648,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics",
@@ -669,7 +732,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/AI & Machine Learning/Hallucination — Causes and Mitigations",
@@ -729,7 +792,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "Resources/AI & Machine Learning/Mixture of Experts (MoE)",
@@ -765,7 +828,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 19
+      "degree": 20
     },
     {
       "id": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
@@ -909,7 +972,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals",
@@ -921,7 +984,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)",
@@ -981,7 +1044,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
@@ -1193,6 +1256,126 @@
       "degree": 9
     },
     {
+      "id": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays",
+      "label": "Arrays and Dynamic Arrays",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Arrays store elements contiguously for fast index access, while dynamic arrays resize as they grow. They are simple, cache-friendly, and foundational for many data structures and algorithm patterns.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Graphs — Representations (Adjacency List vs Matrix)",
+      "label": "Graphs — Representations (Adjacency List vs Matrix)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Graph representation determines how efficiently algorithms inspect neighbors, edges, and connectivity. Adjacency lists are space-efficient for sparse graphs, while adjacency matrices make edge lookup simple but cost more memory.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)",
+      "label": "Hash Tables — Collision Resolution (Chaining, Open Addressing)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Hash tables map keys to values using a hash function and an array of buckets. Collision resolution strategies such as chaining and open addressing determine how the table behaves when multiple keys land in the same place.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Heaps and Priority Queues",
+      "label": "Heaps and Priority Queues",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Heaps are tree-shaped structures that efficiently expose the minimum or maximum element. Priority queues use heaps to process items by priority, supporting scheduling, shortest paths, streaming top-k, and event simulation.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Linked Lists (Singly, Doubly, Circular)",
+      "label": "Linked Lists (Singly, Doubly, Circular)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Linked lists store elements as nodes connected by pointers rather than contiguous memory. They make local insertion and deletion cheap when the node is known, but sacrifice cache locality and fast random access.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Segment Trees and Fenwick Trees",
+      "label": "Segment Trees and Fenwick Trees",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Segment trees and Fenwick trees answer range queries while supporting updates efficiently. They are specialized data structures for sums, minimums, maximums, frequencies, and prefix-based calculations.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)",
+      "label": "Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Comparison-based sorting orders items using pairwise comparisons. Merge sort, quicksort, heap sort, and Timsort differ in stability, memory use, worst-case behavior, cache behavior, and real-world performance.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Stacks and Queues",
+      "label": "Stacks and Queues",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Stacks and queues are linear data structures with constrained access patterns. Stacks use last-in-first-out behavior, while queues use first-in-first-out behavior, making them useful for parsing, traversal, scheduling, and buffering.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black",
+      "label": "Trees — Binary, BST, AVL, Red-Black",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Trees are hierarchical data structures made of nodes and parent-child relationships. Binary trees, search trees, AVL trees, and red-black trees trade structure and balancing rules for efficient lookup, insertion, deletion, and ordered traversal.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/CS Theory & Algorithms/Tries (Prefix Trees)",
+      "label": "Tries (Prefix Trees)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Tries store strings by sharing common prefixes across paths in a tree. They are useful for autocomplete, prefix queries, dictionaries, routing tables, and problems where prefix structure matters more than full-key hashing.",
+      "tags": [
+        "resource",
+        "cs-theory-algorithms"
+      ],
+      "degree": 4
+    },
+    {
       "id": "Resources/Caching",
       "label": "Caching",
       "folder": "Resources",
@@ -1296,7 +1479,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Data Science & Analytics/Anomaly Detection Methods",
@@ -1368,7 +1551,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Data Science & Analytics/Dashboard Design Principles",
@@ -1440,7 +1623,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Data Science & Analytics/ETL vs ELT",
@@ -1512,7 +1695,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose",
@@ -1560,7 +1743,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 9
+      "degree": 13
     },
     {
       "id": "Resources/Data Science & Analytics/Regression Analysis (Linear, Logistic, Polynomial)",
@@ -1596,7 +1779,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)",
@@ -1608,7 +1791,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Data Science & Analytics/Survival Analysis",
@@ -1671,7 +1854,7 @@
         "neetcode",
         "interview-prep"
       ],
-      "degree": 7
+      "degree": 13
     },
     {
       "id": "Resources/Database Internals Deep Dive",
@@ -2325,11 +2508,47 @@
       "degree": 5
     },
     {
+      "id": "Resources/Mathematics/Big-O Notation and Complexity Analysis",
+      "label": "Big-O Notation and Complexity Analysis",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Big-O notation describes how algorithm cost grows as input size increases. Complexity analysis helps compare approaches by time, space, and scalability rather than by machine-specific timing.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Mathematics/Boolean Algebra and Logic Gates",
+      "label": "Boolean Algebra and Logic Gates",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Boolean algebra reasons about true/false values with operations such as AND, OR, NOT, XOR, NAND, and NOR. Logic gates implement these operations in hardware and shape digital circuits, conditionals, filters, and bit manipulation.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
+      "degree": 6
+    },
+    {
       "id": "Resources/Mathematics/Calculus — Derivatives and Integrals",
       "label": "Calculus — Derivatives and Integrals",
       "folder": "Resources",
       "created": "2026-05-25",
       "excerpt": "Calculus studies change and accumulation through derivatives and integrals. Derivatives measure local rate of change, while integrals measure accumulated quantity over an interval.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Mathematics/Central Limit Theorem",
+      "label": "Central Limit Theorem",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "The Central Limit Theorem says that sums or averages of many independent random variables tend toward a normal distribution under broad conditions. It explains why normal approximations appear so often in statistics.",
       "tags": [
         "resource",
         "mathematics"
@@ -2349,6 +2568,30 @@
       "degree": 8
     },
     {
+      "id": "Resources/Mathematics/Combinatorics Basics (Permutations, Combinations)",
+      "label": "Combinatorics Basics (Permutations, Combinations)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Combinatorics counts arrangements and selections. Permutations care about order, combinations do not, and both are foundational for probability, algorithm analysis, search spaces, and counting arguments.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Mathematics/Discrete Mathematics for CS",
+      "label": "Discrete Mathematics for CS",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Discrete mathematics studies countable structures such as sets, logic, graphs, integers, relations, functions, and combinatorics. It is the mathematical foundation for algorithms, data structures, databases, cryptography, and formal reasoning.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
+      "degree": 7
+    },
+    {
       "id": "Resources/Mathematics/Eigenvalues and Eigenvectors",
       "label": "Eigenvalues and Eigenvectors",
       "folder": "Resources",
@@ -2358,7 +2601,31 @@
         "resource",
         "mathematics"
       ],
-      "degree": 6
+      "degree": 7
+    },
+    {
+      "id": "Resources/Mathematics/Expected Value and Variance",
+      "label": "Expected Value and Variance",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Expected value is the long-run average outcome of a random variable, while variance measures how spread out outcomes are around that average. Together they summarize central tendency and uncertainty.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Mathematics/Fourier Transform Intuition",
+      "label": "Fourier Transform Intuition",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "The Fourier transform represents signals as combinations of frequencies instead of values over time or space. It is useful for audio, images, compression, filtering, signal processing, and understanding periodic structure.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Mathematics/Gradient and Partial Derivatives",
@@ -2370,7 +2637,19 @@
         "resource",
         "mathematics"
       ],
-      "degree": 7
+      "degree": 9
+    },
+    {
+      "id": "Resources/Mathematics/Graph Theory Fundamentals",
+      "label": "Graph Theory Fundamentals",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Graph theory studies nodes and edges, making it the natural language for networks, dependencies, maps, social systems, state spaces, and many algorithms. Core ideas include directedness, weights, paths, cycles, connectivity, trees, and traversal.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
+      "degree": 8
     },
     {
       "id": "Resources/Mathematics/Information Theory — Entropy, Cross-Entropy, KL Divergence",
@@ -2385,6 +2664,30 @@
       "degree": 5
     },
     {
+      "id": "Resources/Mathematics/Lagrange Multipliers",
+      "label": "Lagrange Multipliers",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Lagrange multipliers solve constrained optimization problems by combining an objective with constraint equations. At an optimum, the objective gradient aligns with constraint gradients under regularity conditions.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Mathematics/Law of Large Numbers",
+      "label": "Law of Large Numbers",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "The Law of Large Numbers says sample averages converge toward expected value as sample size grows. It explains why repeated measurement and large samples reduce random noise, while not eliminating bias.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
+      "degree": 6
+    },
+    {
       "id": "Resources/Mathematics/Linear Algebra — Vectors and Matrices",
       "label": "Linear Algebra — Vectors and Matrices",
       "folder": "Resources",
@@ -2395,6 +2698,18 @@
         "mathematics"
       ],
       "degree": 6
+    },
+    {
+      "id": "Resources/Mathematics/Markov Chains",
+      "label": "Markov Chains",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Markov chains model systems that move between states where the next state depends only on the current state. They are useful for queues, random walks, language modeling history, simulations, ranking, and stochastic processes.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
+      "degree": 5
     },
     {
       "id": "Resources/Mathematics/Matrix Multiplication and Dot Products",
@@ -2409,6 +2724,18 @@
       "degree": 6
     },
     {
+      "id": "Resources/Mathematics/Monte Carlo Methods",
+      "label": "Monte Carlo Methods",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Monte Carlo methods use random sampling to estimate quantities that may be hard to compute exactly. They are useful for simulation, integration, uncertainty estimation, randomized algorithms, and probabilistic inference.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
+      "degree": 7
+    },
+    {
       "id": "Resources/Mathematics/Multivariable Calculus Basics",
       "label": "Multivariable Calculus Basics",
       "folder": "Resources",
@@ -2418,7 +2745,31 @@
         "resource",
         "mathematics"
       ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Mathematics/Number Theory Basics (Primes, Modular Arithmetic)",
+      "label": "Number Theory Basics (Primes, Modular Arithmetic)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Number theory studies integers, divisibility, primes, congruences, and modular arithmetic. It underlies hashing, cryptography, randomized algorithms, checksums, and many programming puzzle patterns.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
       "degree": 5
+    },
+    {
+      "id": "Resources/Mathematics/Optimization — Convex vs Non-Convex",
+      "label": "Optimization — Convex vs Non-Convex",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Optimization searches for inputs or parameters that minimize or maximize an objective. Convex optimization has nicer global guarantees, while non-convex optimization can contain local minima, saddle points, and difficult landscapes.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
+      "degree": 7
     },
     {
       "id": "Resources/Mathematics/Probability Distributions (Normal, Binomial, Poisson, Exponential)",
@@ -2430,7 +2781,19 @@
         "resource",
         "mathematics"
       ],
-      "degree": 6
+      "degree": 8
+    },
+    {
+      "id": "Resources/Mathematics/Set Theory",
+      "label": "Set Theory",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Set theory studies collections of distinct objects and operations such as union, intersection, difference, complement, and membership. It is a basic language for logic, databases, probability, type systems, and discrete math.",
+      "tags": [
+        "resource",
+        "mathematics"
+      ],
+      "degree": 7
     },
     {
       "id": "Resources/Mechanistic Interpretability",
@@ -2688,7 +3051,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Security",
@@ -2810,7 +3173,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Security & Privacy/End-to-End Encryption",
@@ -2990,7 +3353,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/Security & Privacy/Session Management",
@@ -3816,7 +4179,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "Resources/System Design/Circuit Breaker Pattern",
@@ -4020,7 +4383,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/System Design/Design a URL Shortener",
@@ -4307,6 +4670,42 @@
       "degree": 6
     },
     {
+      "id": "Shortest Path Algorithms (Dijkstra, Bellman-Ford, A*, Floyd-Warshall)",
+      "label": "Shortest Path Algorithms (Dijkstra, Bellman-Ford, A*, Floyd-Warshall)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 3
+    },
+    {
+      "id": "Sliding Window Technique",
+      "label": "Sliding Window Technique",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Sorting Algorithms — Non-Comparison (Radix, Counting, Bucket)",
+      "label": "Sorting Algorithms — Non-Comparison (Radix, Counting, Bucket)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "String Matching Algorithms (KMP, Rabin-Karp)",
+      "label": "String Matching Algorithms (KMP, Rabin-Karp)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "TLS 1.3",
       "label": "TLS 1.3",
       "folder": null,
@@ -4314,6 +4713,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 1
+    },
+    {
+      "id": "Two-Pointer Technique",
+      "label": "Two-Pointer Technique",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
     },
     {
       "id": "User Stories and Jobs to Be Done",
@@ -4963,10 +5371,6 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)",
-      "target": "Optimization — Convex vs Non-Convex"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)",
       "target": "Resources/AI & Machine Learning/Backpropagation Explained"
     },
     {
@@ -4980,6 +5384,10 @@
     {
       "source": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)",
       "target": "Resources/MLOps and ML Engineering"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)",
+      "target": "Resources/Mathematics/Optimization — Convex vs Non-Convex"
     },
     {
       "source": "Resources/AI & Machine Learning/Hallucination — Causes and Mitigations",
@@ -5764,6 +6172,166 @@
     {
       "source": "Resources/CI CD",
       "target": "Resources/Security"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays",
+      "target": "Resources/Data Structures and Algorithms Patterns"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays",
+      "target": "Resources/Mathematics/Big-O Notation and Complexity Analysis"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays",
+      "target": "Sliding Window Technique"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays",
+      "target": "Two-Pointer Technique"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Graphs — Representations (Adjacency List vs Matrix)",
+      "target": "Graph Traversal (BFS, DFS)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Graphs — Representations (Adjacency List vs Matrix)",
+      "target": "Minimum Spanning Trees (Kruskal, Prim)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Graphs — Representations (Adjacency List vs Matrix)",
+      "target": "Resources/Mathematics/Graph Theory Fundamentals"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Graphs — Representations (Adjacency List vs Matrix)",
+      "target": "Shortest Path Algorithms (Dijkstra, Bellman-Ford, A*, Floyd-Warshall)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)",
+      "target": "Bloom Filters"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)",
+      "target": "Resources/Mathematics/Number Theory Basics (Primes, Modular Arithmetic)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)",
+      "target": "Resources/Mathematics/Set Theory"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)",
+      "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Heaps and Priority Queues",
+      "target": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Heaps and Priority Queues",
+      "target": "Resources/CS Theory & Algorithms/Stacks and Queues"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Heaps and Priority Queues",
+      "target": "Resources/Data Structures and Algorithms Patterns"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Heaps and Priority Queues",
+      "target": "Shortest Path Algorithms (Dijkstra, Bellman-Ford, A*, Floyd-Warshall)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Linked Lists (Singly, Doubly, Circular)",
+      "target": "Recursion and Stack Frames"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Linked Lists (Singly, Doubly, Circular)",
+      "target": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Linked Lists (Singly, Doubly, Circular)",
+      "target": "Resources/Data Structures and Algorithms Patterns"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Linked Lists (Singly, Doubly, Circular)",
+      "target": "Two-Pointer Technique"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Segment Trees and Fenwick Trees",
+      "target": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Segment Trees and Fenwick Trees",
+      "target": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Segment Trees and Fenwick Trees",
+      "target": "Resources/Data Structures and Algorithms Patterns"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Segment Trees and Fenwick Trees",
+      "target": "Resources/Mathematics/Big-O Notation and Complexity Analysis"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)",
+      "target": "Divide and Conquer"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)",
+      "target": "Resources/CS Theory & Algorithms/Heaps and Priority Queues"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)",
+      "target": "Resources/Mathematics/Big-O Notation and Complexity Analysis"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)",
+      "target": "Sorting Algorithms — Non-Comparison (Radix, Counting, Bucket)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Stacks and Queues",
+      "target": "Graph Traversal (BFS, DFS)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Stacks and Queues",
+      "target": "Recursion and Stack Frames"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Stacks and Queues",
+      "target": "Resources/CS Theory & Algorithms/Heaps and Priority Queues"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Stacks and Queues",
+      "target": "Resources/Data Structures and Algorithms Patterns"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black",
+      "target": "B-Trees and B+ Trees"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black",
+      "target": "Recursion and Stack Frames"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black",
+      "target": "Resources/CS Theory & Algorithms/Heaps and Priority Queues"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black",
+      "target": "Resources/CS Theory & Algorithms/Segment Trees and Fenwick Trees"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Tries (Prefix Trees)",
+      "target": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Tries (Prefix Trees)",
+      "target": "Resources/Search Systems"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Tries (Prefix Trees)",
+      "target": "Resources/System Design/Design a Search Engine"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Tries (Prefix Trees)",
+      "target": "String Matching Algorithms (KMP, Rabin-Karp)"
     },
     {
       "source": "Resources/Caching",
@@ -7226,6 +7794,38 @@
       "target": "Resources/Data Science & Analytics/Probability Theory Basics"
     },
     {
+      "source": "Resources/Mathematics/Big-O Notation and Complexity Analysis",
+      "target": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays"
+    },
+    {
+      "source": "Resources/Mathematics/Big-O Notation and Complexity Analysis",
+      "target": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)"
+    },
+    {
+      "source": "Resources/Mathematics/Big-O Notation and Complexity Analysis",
+      "target": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)"
+    },
+    {
+      "source": "Resources/Mathematics/Big-O Notation and Complexity Analysis",
+      "target": "Resources/Data Structures and Algorithms Patterns"
+    },
+    {
+      "source": "Resources/Mathematics/Boolean Algebra and Logic Gates",
+      "target": "Bit Manipulation Tricks"
+    },
+    {
+      "source": "Resources/Mathematics/Boolean Algebra and Logic Gates",
+      "target": "Resources/Mathematics/Discrete Mathematics for CS"
+    },
+    {
+      "source": "Resources/Mathematics/Boolean Algebra and Logic Gates",
+      "target": "Resources/Mathematics/Set Theory"
+    },
+    {
+      "source": "Resources/Mathematics/Boolean Algebra and Logic Gates",
+      "target": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)"
+    },
+    {
       "source": "Resources/Mathematics/Calculus — Derivatives and Integrals",
       "target": "Resources/AI & Machine Learning/Backpropagation Explained"
     },
@@ -7239,6 +7839,22 @@
     },
     {
       "source": "Resources/Mathematics/Calculus — Derivatives and Integrals",
+      "target": "Resources/Mathematics/Probability Distributions (Normal, Binomial, Poisson, Exponential)"
+    },
+    {
+      "source": "Resources/Mathematics/Central Limit Theorem",
+      "target": "Resources/Data Science & Analytics/Confidence Intervals"
+    },
+    {
+      "source": "Resources/Mathematics/Central Limit Theorem",
+      "target": "Resources/Data Science & Analytics/Hypothesis Testing"
+    },
+    {
+      "source": "Resources/Mathematics/Central Limit Theorem",
+      "target": "Resources/Mathematics/Law of Large Numbers"
+    },
+    {
+      "source": "Resources/Mathematics/Central Limit Theorem",
       "target": "Resources/Mathematics/Probability Distributions (Normal, Binomial, Poisson, Exponential)"
     },
     {
@@ -7258,12 +7874,44 @@
       "target": "Resources/Mathematics/Gradient and Partial Derivatives"
     },
     {
-      "source": "Resources/Mathematics/Eigenvalues and Eigenvectors",
-      "target": "Graph Theory Fundamentals"
+      "source": "Resources/Mathematics/Combinatorics Basics (Permutations, Combinations)",
+      "target": "Backtracking"
+    },
+    {
+      "source": "Resources/Mathematics/Combinatorics Basics (Permutations, Combinations)",
+      "target": "Computational Complexity Classes (P, NP, NP-Hard)"
+    },
+    {
+      "source": "Resources/Mathematics/Combinatorics Basics (Permutations, Combinations)",
+      "target": "Resources/Data Science & Analytics/Probability Theory Basics"
+    },
+    {
+      "source": "Resources/Mathematics/Combinatorics Basics (Permutations, Combinations)",
+      "target": "Resources/Mathematics/Expected Value and Variance"
+    },
+    {
+      "source": "Resources/Mathematics/Discrete Mathematics for CS",
+      "target": "Resources/Mathematics/Boolean Algebra and Logic Gates"
+    },
+    {
+      "source": "Resources/Mathematics/Discrete Mathematics for CS",
+      "target": "Resources/Mathematics/Combinatorics Basics (Permutations, Combinations)"
+    },
+    {
+      "source": "Resources/Mathematics/Discrete Mathematics for CS",
+      "target": "Resources/Mathematics/Graph Theory Fundamentals"
+    },
+    {
+      "source": "Resources/Mathematics/Discrete Mathematics for CS",
+      "target": "Resources/Mathematics/Set Theory"
     },
     {
       "source": "Resources/Mathematics/Eigenvalues and Eigenvectors",
       "target": "Resources/Data Science & Analytics/Dimensionality Reduction (PCA, t-SNE, UMAP)"
+    },
+    {
+      "source": "Resources/Mathematics/Eigenvalues and Eigenvectors",
+      "target": "Resources/Mathematics/Graph Theory Fundamentals"
     },
     {
       "source": "Resources/Mathematics/Eigenvalues and Eigenvectors",
@@ -7272,6 +7920,38 @@
     {
       "source": "Resources/Mathematics/Eigenvalues and Eigenvectors",
       "target": "Resources/Mathematics/Matrix Multiplication and Dot Products"
+    },
+    {
+      "source": "Resources/Mathematics/Expected Value and Variance",
+      "target": "Resources/Data Science & Analytics/Probability Theory Basics"
+    },
+    {
+      "source": "Resources/Mathematics/Expected Value and Variance",
+      "target": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)"
+    },
+    {
+      "source": "Resources/Mathematics/Expected Value and Variance",
+      "target": "Resources/Mathematics/Law of Large Numbers"
+    },
+    {
+      "source": "Resources/Mathematics/Expected Value and Variance",
+      "target": "Resources/Mathematics/Monte Carlo Methods"
+    },
+    {
+      "source": "Resources/Mathematics/Fourier Transform Intuition",
+      "target": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)"
+    },
+    {
+      "source": "Resources/Mathematics/Fourier Transform Intuition",
+      "target": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)"
+    },
+    {
+      "source": "Resources/Mathematics/Fourier Transform Intuition",
+      "target": "Resources/Data Science & Analytics/Dimensionality Reduction (PCA, t-SNE, UMAP)"
+    },
+    {
+      "source": "Resources/Mathematics/Fourier Transform Intuition",
+      "target": "Resources/Mathematics/Calculus — Derivatives and Integrals"
     },
     {
       "source": "Resources/Mathematics/Gradient and Partial Derivatives",
@@ -7290,6 +7970,22 @@
       "target": "Resources/Mathematics/Multivariable Calculus Basics"
     },
     {
+      "source": "Resources/Mathematics/Graph Theory Fundamentals",
+      "target": "Graph Traversal (BFS, DFS)"
+    },
+    {
+      "source": "Resources/Mathematics/Graph Theory Fundamentals",
+      "target": "Resources/CS Theory & Algorithms/Graphs — Representations (Adjacency List vs Matrix)"
+    },
+    {
+      "source": "Resources/Mathematics/Graph Theory Fundamentals",
+      "target": "Resources/Mathematics/Eigenvalues and Eigenvectors"
+    },
+    {
+      "source": "Resources/Mathematics/Graph Theory Fundamentals",
+      "target": "Shortest Path Algorithms (Dijkstra, Bellman-Ford, A*, Floyd-Warshall)"
+    },
+    {
       "source": "Resources/Mathematics/Information Theory — Entropy, Cross-Entropy, KL Divergence",
       "target": "Resources/AI & Machine Learning/Loss Functions"
     },
@@ -7304,6 +8000,38 @@
     {
       "source": "Resources/Mathematics/Information Theory — Entropy, Cross-Entropy, KL Divergence",
       "target": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)"
+    },
+    {
+      "source": "Resources/Mathematics/Lagrange Multipliers",
+      "target": "Resources/AI & Machine Learning/Regularization (L1, L2, Dropout, Early Stopping)"
+    },
+    {
+      "source": "Resources/Mathematics/Lagrange Multipliers",
+      "target": "Resources/Mathematics/Gradient and Partial Derivatives"
+    },
+    {
+      "source": "Resources/Mathematics/Lagrange Multipliers",
+      "target": "Resources/Mathematics/Multivariable Calculus Basics"
+    },
+    {
+      "source": "Resources/Mathematics/Lagrange Multipliers",
+      "target": "Resources/Mathematics/Optimization — Convex vs Non-Convex"
+    },
+    {
+      "source": "Resources/Mathematics/Law of Large Numbers",
+      "target": "Resources/Data Science & Analytics/A-B Testing Design"
+    },
+    {
+      "source": "Resources/Mathematics/Law of Large Numbers",
+      "target": "Resources/Mathematics/Central Limit Theorem"
+    },
+    {
+      "source": "Resources/Mathematics/Law of Large Numbers",
+      "target": "Resources/Mathematics/Expected Value and Variance"
+    },
+    {
+      "source": "Resources/Mathematics/Law of Large Numbers",
+      "target": "Resources/Mathematics/Monte Carlo Methods"
     },
     {
       "source": "Resources/Mathematics/Linear Algebra — Vectors and Matrices",
@@ -7322,6 +8050,22 @@
       "target": "Resources/Mathematics/Matrix Multiplication and Dot Products"
     },
     {
+      "source": "Resources/Mathematics/Markov Chains",
+      "target": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals"
+    },
+    {
+      "source": "Resources/Mathematics/Markov Chains",
+      "target": "Resources/Data Science & Analytics/Probability Theory Basics"
+    },
+    {
+      "source": "Resources/Mathematics/Markov Chains",
+      "target": "Resources/Mathematics/Graph Theory Fundamentals"
+    },
+    {
+      "source": "Resources/Mathematics/Markov Chains",
+      "target": "Resources/Mathematics/Monte Carlo Methods"
+    },
+    {
       "source": "Resources/Mathematics/Matrix Multiplication and Dot Products",
       "target": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics"
     },
@@ -7338,8 +8082,20 @@
       "target": "Resources/Transformer Architecture"
     },
     {
-      "source": "Resources/Mathematics/Multivariable Calculus Basics",
-      "target": "Optimization — Convex vs Non-Convex"
+      "source": "Resources/Mathematics/Monte Carlo Methods",
+      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
+    },
+    {
+      "source": "Resources/Mathematics/Monte Carlo Methods",
+      "target": "Resources/Mathematics/Expected Value and Variance"
+    },
+    {
+      "source": "Resources/Mathematics/Monte Carlo Methods",
+      "target": "Resources/Mathematics/Markov Chains"
+    },
+    {
+      "source": "Resources/Mathematics/Monte Carlo Methods",
+      "target": "Resources/Mathematics/Probability Distributions (Normal, Binomial, Poisson, Exponential)"
     },
     {
       "source": "Resources/Mathematics/Multivariable Calculus Basics",
@@ -7352,6 +8108,42 @@
     {
       "source": "Resources/Mathematics/Multivariable Calculus Basics",
       "target": "Resources/Mathematics/Gradient and Partial Derivatives"
+    },
+    {
+      "source": "Resources/Mathematics/Multivariable Calculus Basics",
+      "target": "Resources/Mathematics/Optimization — Convex vs Non-Convex"
+    },
+    {
+      "source": "Resources/Mathematics/Number Theory Basics (Primes, Modular Arithmetic)",
+      "target": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)"
+    },
+    {
+      "source": "Resources/Mathematics/Number Theory Basics (Primes, Modular Arithmetic)",
+      "target": "Resources/Mathematics/Combinatorics Basics (Permutations, Combinations)"
+    },
+    {
+      "source": "Resources/Mathematics/Number Theory Basics (Primes, Modular Arithmetic)",
+      "target": "Resources/Mathematics/Discrete Mathematics for CS"
+    },
+    {
+      "source": "Resources/Mathematics/Number Theory Basics (Primes, Modular Arithmetic)",
+      "target": "Resources/Security & Privacy/Encryption — Symmetric vs Asymmetric"
+    },
+    {
+      "source": "Resources/Mathematics/Optimization — Convex vs Non-Convex",
+      "target": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)"
+    },
+    {
+      "source": "Resources/Mathematics/Optimization — Convex vs Non-Convex",
+      "target": "Resources/AI & Machine Learning/Loss Functions"
+    },
+    {
+      "source": "Resources/Mathematics/Optimization — Convex vs Non-Convex",
+      "target": "Resources/Mathematics/Gradient and Partial Derivatives"
+    },
+    {
+      "source": "Resources/Mathematics/Optimization — Convex vs Non-Convex",
+      "target": "Resources/Mathematics/Lagrange Multipliers"
     },
     {
       "source": "Resources/Mathematics/Probability Distributions (Normal, Binomial, Poisson, Exponential)",
@@ -7368,6 +8160,22 @@
     {
       "source": "Resources/Mathematics/Probability Distributions (Normal, Binomial, Poisson, Exponential)",
       "target": "Resources/Data Science & Analytics/Time Series Analysis"
+    },
+    {
+      "source": "Resources/Mathematics/Set Theory",
+      "target": "Resources/Data Science & Analytics/Probability Theory Basics"
+    },
+    {
+      "source": "Resources/Mathematics/Set Theory",
+      "target": "Resources/Data Science & Analytics/SQL for Analytics"
+    },
+    {
+      "source": "Resources/Mathematics/Set Theory",
+      "target": "Resources/Mathematics/Boolean Algebra and Logic Gates"
+    },
+    {
+      "source": "Resources/Mathematics/Set Theory",
+      "target": "Resources/Mathematics/Discrete Mathematics for CS"
     },
     {
       "source": "Resources/Mechanistic Interpretability",
@@ -10094,5 +10902,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-26T00:21:02Z"
+  "generated_at": "2026-05-26T00:31:18Z"
 }
