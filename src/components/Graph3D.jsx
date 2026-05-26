@@ -24,13 +24,14 @@ function getTopHubs(nodes, n) {
 
 // Cinematic attract-mode shots — like a racing game's idle camera reel.
 // Each shot: instant cut to position, slow orbit around pivot, then cut to next.
+const WIDE_SHOT = {
+  key: 'WIDE',
+  duration: 12000,
+  setup: () => ({ pos: null, pivot: new THREE.Vector3(0, 0, 0), speed: 0.0008 }),
+}
+
 const CINEMATIC_SHOTS = [
-  {
-    // Wide constellation — full view, gentle orbit around origin
-    key: 'WIDE',
-    duration: 13000,
-    setup: () => ({ pos: null, pivot: new THREE.Vector3(0, 0, 0), speed: 0.0008 }),
-  },
+  WIDE_SHOT,
   {
     // Hub close-up — tight orbit around the most-connected node
     key: 'HUB_0',
@@ -42,6 +43,7 @@ const CINEMATIC_SHOTS = [
       return { pos: { x: pivot.x, y: pivot.y + 40, z: pivot.z + 130 }, pivot, speed: 0.0016 }
     },
   },
+  WIDE_SHOT,
   {
     // Underworld — camera below the graph looking up, dramatic tilt
     key: 'UNDERWORLD',
@@ -54,6 +56,7 @@ const CINEMATIC_SHOTS = [
     duration: 11000,
     setup: () => ({ pos: { x: 60, y: 580, z: 100 }, pivot: new THREE.Vector3(0, 0, 0), speed: 0.0006 }),
   },
+  WIDE_SHOT,
   {
     // Side sweep — constellation at medium distance from the side
     key: 'SIDE',
