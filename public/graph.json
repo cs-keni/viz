@@ -63,6 +63,15 @@
       "degree": 3
     },
     {
+      "id": "Base rates",
+      "label": "Base rates",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
+    },
+    {
       "id": "Bobby's Personality and Tone Guide",
       "label": "Bobby's Personality and Tone Guide",
       "folder": null,
@@ -183,8 +192,8 @@
       "degree": 0
     },
     {
-      "id": "Decision Fatigue",
-      "label": "Decision Fatigue",
+      "id": "Debugging",
+      "label": "Debugging",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -239,6 +248,15 @@
     {
       "id": "How to Write a Good Technical Spec",
       "label": "How to Write a Good Technical Spec",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Instructional Design",
+      "label": "Instructional Design",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -821,7 +839,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 20
+      "degree": 21
     },
     {
       "id": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
@@ -1735,6 +1753,306 @@
       "degree": 17
     },
     {
+      "id": "Resources/Cognitive Science & Biases/Anchoring Bias",
+      "label": "Anchoring Bias",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Anchoring bias occurs when an initial number, frame, or example pulls later judgments toward it. It affects negotiation, estimation, prioritization, design discussions, and planning.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Cognitive Science & Biases/Availability Heuristic",
+      "label": "Availability Heuristic",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The availability heuristic estimates likelihood based on how easily examples come to mind. Vivid, recent, emotional, or repeated examples can make rare events feel common or common events feel invisible.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Cognitive Science & Biases/Baader-Meinhof Phenomenon (Frequency Illusion)",
+      "label": "Baader-Meinhof Phenomenon (Frequency Illusion)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Baader-Meinhof phenomenon, or frequency illusion, happens when something newly noticed suddenly seems everywhere. Attention and memory make the pattern more visible, not necessarily more frequent.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference",
+      "label": "Cognitive Biases — Complete Reference",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Cognitive biases are systematic tendencies in perception, memory, attention, and judgment that can distort reasoning. They are not personal defects; they are predictable shortcuts that need awareness, feedback, and better decision processes.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Cognitive Science & Biases/Cognitive Load Theory",
+      "label": "Cognitive Load Theory",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Cognitive load theory explains learning in terms of limited working memory and schema formation. Good instruction reduces unnecessary load, manages complexity, and helps learners build durable mental structures.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Cognitive Science & Biases/Confirmation Bias",
+      "label": "Confirmation Bias",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Confirmation bias is the tendency to seek, interpret, and remember evidence that supports existing beliefs. It is especially dangerous when identity, ego, or sunk cost is attached to being right.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Cognitive Science & Biases/Decision Fatigue",
+      "label": "Decision Fatigue",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Decision fatigue is the decline in decision quality after repeated cognitive effort, uncertainty, or self-control demands. Reducing low-value choices preserves attention for decisions that matter.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Cognitive Science & Biases/Dual Process Theory (System 1 vs System 2)",
+      "label": "Dual Process Theory (System 1 vs System 2)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Dual process theory distinguishes fast, automatic, intuitive processing from slower, effortful, analytical processing. The System 1/System 2 framing is useful, but simplified and should not be treated as literal separate brains.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Cognitive Science & Biases/Dunning-Kruger Effect",
+      "label": "Dunning-Kruger Effect",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Dunning-Kruger effect describes how low skill can impair the ability to accurately judge skill, leading to overconfidence. The broader lesson is that calibration depends on feedback and domain knowledge.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Cognitive Science & Biases/Fundamental Attribution Error",
+      "label": "Fundamental Attribution Error",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Fundamental attribution error is overemphasizing personality and underemphasizing situation when explaining other people's behavior. It can make mistakes look like character flaws instead of context, incentives, or constraints.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Cognitive Science & Biases/Heuristics in Decision-Making",
+      "label": "Heuristics in Decision-Making",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Heuristics are mental shortcuts that make decisions faster under uncertainty. They are useful when matched to the environment and dangerous when mistaken for complete analysis.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Cognitive Science & Biases/In-Group - Out-Group Bias",
+      "label": "In-Group - Out-Group Bias",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "In-group and out-group bias makes people favor their own group and interpret outsiders more negatively. It shapes trust, conflict, hiring, communities, politics, and team dynamics.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Cognitive Science & Biases/Inductive vs Deductive vs Abductive Reasoning",
+      "label": "Inductive vs Deductive vs Abductive Reasoning",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Deductive reasoning derives necessary conclusions from premises, inductive reasoning generalizes from observations, and abductive reasoning infers the best explanation. Good problem-solving often uses all three.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Cognitive Science & Biases/Logical Fallacies — Full List",
+      "label": "Logical Fallacies — Full List",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Logical fallacies are flawed argument patterns that weaken reasoning, such as straw man, ad hominem, false dilemma, circular reasoning, slippery slope, and appeal to authority. They are useful for analysis, but can be misused as debate weapons.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Cognitive Science & Biases/Loss Aversion (Prospect Theory — Kahneman and Tversky)",
+      "label": "Loss Aversion (Prospect Theory — Kahneman and Tversky)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Loss aversion is the tendency for losses to feel more psychologically powerful than equivalent gains. In prospect theory, people evaluate outcomes relative to a reference point rather than pure final wealth.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Cognitive Science & Biases/Mental Models — Full Reference",
+      "label": "Mental Models — Full Reference",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Mental models are reusable thinking tools for explaining systems, predicting outcomes, and making decisions. A strong model library includes technical, psychological, economic, probabilistic, and systems models.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Cognitive Science & Biases/Nudge Theory (Thaler and Sunstein)",
+      "label": "Nudge Theory (Thaler and Sunstein)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Nudge theory studies how choice architecture changes behavior without forbidding options. Defaults, friction, ordering, reminders, and framing can guide choices, for good or manipulative ends.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Cognitive Science & Biases/Optimism Bias",
+      "label": "Optimism Bias",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Optimism bias is the tendency to overestimate positive outcomes and underestimate negative ones for oneself or one's plan. It can support motivation, but needs risk checks when decisions are expensive.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Cognitive Science & Biases/Overfitting in Human Reasoning",
+      "label": "Overfitting in Human Reasoning",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Overfitting in human reasoning is building an explanation too tightly around limited examples, noise, or recent experience. The result feels insightful but fails to generalize.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Cognitive Science & Biases/Planning Fallacy",
+      "label": "Planning Fallacy",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The planning fallacy is underestimating how long tasks will take despite knowing similar tasks have taken longer before. The outside view, buffers, and historical data are the main antidotes.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Cognitive Science & Biases/Recency Bias",
+      "label": "Recency Bias",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Recency bias overweights recent information relative to older but still relevant evidence. It affects hiring, investing, debugging, sports judgment, product decisions, and self-evaluation.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Cognitive Science & Biases/Status Quo Bias",
+      "label": "Status Quo Bias",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Status quo bias is the preference for existing conditions simply because they are familiar or default. It can protect stability, but also preserves outdated systems, habits, and assumptions.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Cognitive Science & Biases/Streetlight Effect (Looking Where It Is Easy)",
+      "label": "Streetlight Effect (Looking Where It Is Easy)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The streetlight effect is looking for answers where measurement is easiest rather than where the answer is most likely. It shows up in analytics, debugging, research, and productivity metrics.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Cognitive Science & Biases/Sunk Cost Fallacy",
+      "label": "Sunk Cost Fallacy",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The sunk cost fallacy is continuing a choice because of past investment rather than future value. Money, time, effort, identity, and public commitment can all make quitting feel irrationally hard.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Cognitive Science & Biases/Survivorship Bias",
+      "label": "Survivorship Bias",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Survivorship bias happens when analysis focuses only on examples that made it through a selection process. It distorts lessons from startups, careers, investing, fitness, history, and engineering incidents.",
+      "tags": [
+        "resource",
+        "cognitive-science-biases"
+      ],
+      "degree": 3
+    },
+    {
       "id": "Resources/DSA Practice",
       "label": "DSA Practice",
       "folder": "Resources",
@@ -1784,7 +2102,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Data Science & Analytics/Bayesian Statistics",
@@ -1856,7 +2174,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Data Science & Analytics/Data Cleaning Strategies",
@@ -1988,7 +2306,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose",
@@ -2000,7 +2318,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "Resources/Data Science & Analytics/OLAP vs OLTP",
@@ -2716,7 +3034,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Resources/DevOps & Infrastructure/Prometheus and Grafana",
@@ -2893,7 +3211,7 @@
         "career",
         "life"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Engineering Judgment and Tool Tradeoffs",
@@ -2909,7 +3227,7 @@
         "tradeoffs",
         "interview-prep"
       ],
-      "degree": 25
+      "degree": 26
     },
     {
       "id": "Resources/FlashAttention",
@@ -3358,7 +3676,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 9
+      "degree": 12
     },
     {
       "id": "Resources/Learning & Memory/Chunking Information",
@@ -3370,7 +3688,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)",
@@ -3382,7 +3700,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Learning & Memory/Desirable Difficulties in Learning",
@@ -3418,7 +3736,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)",
@@ -3478,7 +3796,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Learning & Memory/Learning a New Domain Fast",
@@ -3490,7 +3808,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Learning & Memory/Learning a New Programming Language Fast",
@@ -3514,7 +3832,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Learning & Memory/Metacognition",
@@ -3550,7 +3868,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 6
+      "degree": 10
     },
     {
       "id": "Resources/Learning & Memory/Second-Order Thinking",
@@ -3562,7 +3880,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Learning & Memory/Spaced Repetition — Theory and Implementation",
@@ -3586,7 +3904,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Learning & Memory/Teaching as a Learning Tool",
@@ -3634,7 +3952,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/MLOps and ML Engineering",
@@ -4239,7 +4557,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Mental Health & Psychology/Resilience — How to Build It",
@@ -4287,7 +4605,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Mental Health & Psychology/Stoicism Applied to Modern Life",
@@ -4533,7 +4851,7 @@
         "resource",
         "neuroscience"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Neuroscience/Psychedelics and Neuroplasticity (Current Research)",
@@ -4862,7 +5180,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "Resources/Observability Case Studies",
@@ -4889,7 +5207,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Personal Productivity/Atomic Habits — Key Ideas (James Clear)",
@@ -4961,7 +5279,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 10
+      "degree": 17
     },
     {
       "id": "Resources/Personal Productivity/Deep Work (Cal Newport)",
@@ -5093,7 +5411,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Personal Productivity/Inbox Zero Strategy",
@@ -5297,7 +5615,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Personal Productivity/Zettelkasten Method",
@@ -5337,7 +5655,7 @@
         "startups",
         "projects"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Programming Languages",
@@ -7047,7 +7365,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Software Engineering/Static Analysis Tools",
@@ -7071,7 +7389,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Resources/Software Engineering/Test-Driven Development (TDD)",
@@ -8113,6 +8431,15 @@
       "degree": 1
     },
     {
+      "id": "Scientific Method",
+      "label": "Scientific Method",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Shortest Path Algorithms (Dijkstra, Bellman-Ford, A*, Floyd-Warshall)",
       "label": "Shortest Path Algorithms (Dijkstra, Bellman-Ford, A*, Floyd-Warshall)",
       "folder": null,
@@ -8120,6 +8447,24 @@
       "excerpt": "",
       "tags": [],
       "degree": 3
+    },
+    {
+      "id": "Startup",
+      "label": "Startup",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Streetlight Effect (Looking Where It's Easy)",
+      "label": "Streetlight Effect (Looking Where It's Easy)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "Synaptic Plasticity (Hebbian Learning — \"Neurons that Fire Together\")",
@@ -10204,6 +10549,306 @@
     {
       "source": "Resources/Cloud Services",
       "target": "Resources/Networking"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Anchoring Bias",
+      "target": "Resources/Cognitive Science & Biases/Planning Fallacy"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Anchoring Bias",
+      "target": "Resources/Personal Productivity/Decision Journaling"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Anchoring Bias",
+      "target": "Resources/Software Engineering/Software Estimation Techniques"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Availability Heuristic",
+      "target": "Base rates"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Availability Heuristic",
+      "target": "Resources/Cognitive Science & Biases/Recency Bias"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Availability Heuristic",
+      "target": "Resources/Data Science & Analytics/Anomaly Detection Methods"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Baader-Meinhof Phenomenon (Frequency Illusion)",
+      "target": "Resources/Cognitive Science & Biases/Availability Heuristic"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Baader-Meinhof Phenomenon (Frequency Illusion)",
+      "target": "Resources/Cognitive Science & Biases/Confirmation Bias"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Baader-Meinhof Phenomenon (Frequency Illusion)",
+      "target": "Resources/Cognitive Science & Biases/Recency Bias"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference",
+      "target": "Resources/Cognitive Science & Biases/Availability Heuristic"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference",
+      "target": "Resources/Cognitive Science & Biases/Confirmation Bias"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference",
+      "target": "Resources/Personal Productivity/Decision Journaling"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Cognitive Load Theory",
+      "target": "Instructional Design"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Cognitive Load Theory",
+      "target": "Resources/Learning & Memory/Chunking Information"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Cognitive Load Theory",
+      "target": "Resources/Learning & Memory/Learning a New Domain Fast"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Confirmation Bias",
+      "target": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Confirmation Bias",
+      "target": "Resources/Learning & Memory/Productive Disagreement"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Confirmation Bias",
+      "target": "Resources/Personal Productivity/Decision Journaling"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Decision Fatigue",
+      "target": "Resources/Cognitive Science & Biases/Nudge Theory (Thaler and Sunstein)"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Decision Fatigue",
+      "target": "Resources/Neuroscience/Prefrontal Cortex and Decision-Making"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Decision Fatigue",
+      "target": "Resources/Personal Productivity/Decision Journaling"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Dual Process Theory (System 1 vs System 2)",
+      "target": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Dual Process Theory (System 1 vs System 2)",
+      "target": "Resources/Cognitive Science & Biases/Heuristics in Decision-Making"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Dual Process Theory (System 1 vs System 2)",
+      "target": "Resources/Neuroscience/Prefrontal Cortex and Decision-Making"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Dunning-Kruger Effect",
+      "target": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Dunning-Kruger Effect",
+      "target": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Dunning-Kruger Effect",
+      "target": "Resources/Learning & Memory/Growth Mindset vs Fixed Mindset"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Fundamental Attribution Error",
+      "target": "Resources/DevOps & Infrastructure/Postmortem Writing"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Fundamental Attribution Error",
+      "target": "Resources/Learning & Memory/Productive Disagreement"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Fundamental Attribution Error",
+      "target": "Resources/Mental Health & Psychology/Psychological Safety"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Heuristics in Decision-Making",
+      "target": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Heuristics in Decision-Making",
+      "target": "Resources/Cognitive Science & Biases/Dual Process Theory (System 1 vs System 2)"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Heuristics in Decision-Making",
+      "target": "Resources/Engineering Judgment and Tool Tradeoffs"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/In-Group - Out-Group Bias",
+      "target": "Resources/Learning & Memory/Productive Disagreement"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/In-Group - Out-Group Bias",
+      "target": "Resources/Mental Health & Psychology/Psychological Safety"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/In-Group - Out-Group Bias",
+      "target": "Resources/Mental Health & Psychology/Social Comparison Theory"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Inductive vs Deductive vs Abductive Reasoning",
+      "target": "Debugging"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Inductive vs Deductive vs Abductive Reasoning",
+      "target": "Resources/Data Science & Analytics/Hypothesis Testing"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Inductive vs Deductive vs Abductive Reasoning",
+      "target": "Scientific Method"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Logical Fallacies — Full List",
+      "target": "Resources/Cognitive Science & Biases/Confirmation Bias"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Logical Fallacies — Full List",
+      "target": "Resources/Cognitive Science & Biases/Inductive vs Deductive vs Abductive Reasoning"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Logical Fallacies — Full List",
+      "target": "Resources/Learning & Memory/Productive Disagreement"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Loss Aversion (Prospect Theory — Kahneman and Tversky)",
+      "target": "Resources/Cognitive Science & Biases/Status Quo Bias"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Loss Aversion (Prospect Theory — Kahneman and Tversky)",
+      "target": "Resources/Cognitive Science & Biases/Sunk Cost Fallacy"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Loss Aversion (Prospect Theory — Kahneman and Tversky)",
+      "target": "Resources/Economics and Personal Finance"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Mental Models — Full Reference",
+      "target": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Mental Models — Full Reference",
+      "target": "Resources/Learning & Memory/Second-Order Thinking"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Mental Models — Full Reference",
+      "target": "Resources/Learning & Memory/Systems Thinking"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Nudge Theory (Thaler and Sunstein)",
+      "target": "Resources/Cognitive Science & Biases/Status Quo Bias"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Nudge Theory (Thaler and Sunstein)",
+      "target": "Resources/Personal Productivity/Habit Stacking"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Nudge Theory (Thaler and Sunstein)",
+      "target": "Resources/Product Engineering"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Optimism Bias",
+      "target": "Resources/Cognitive Science & Biases/Planning Fallacy"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Optimism Bias",
+      "target": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Optimism Bias",
+      "target": "Resources/Learning & Memory/Inversion Thinking"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Overfitting in Human Reasoning",
+      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Overfitting in Human Reasoning",
+      "target": "Resources/Cognitive Science & Biases/Recency Bias"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Overfitting in Human Reasoning",
+      "target": "Resources/Learning & Memory/Transfer of Learning"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Planning Fallacy",
+      "target": "Resources/Learning & Memory/Inversion Thinking"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Planning Fallacy",
+      "target": "Resources/Personal Productivity/Decision Journaling"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Planning Fallacy",
+      "target": "Resources/Software Engineering/Software Estimation Techniques"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Recency Bias",
+      "target": "Resources/Cognitive Science & Biases/Availability Heuristic"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Recency Bias",
+      "target": "Resources/Personal Productivity/Annual Review Template"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Recency Bias",
+      "target": "Resources/Personal Productivity/Decision Journaling"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Status Quo Bias",
+      "target": "Resources/Cognitive Science & Biases/Loss Aversion (Prospect Theory — Kahneman and Tversky)"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Status Quo Bias",
+      "target": "Resources/Cognitive Science & Biases/Nudge Theory (Thaler and Sunstein)"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Status Quo Bias",
+      "target": "Resources/Personal Productivity/Weekly Review Process"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Streetlight Effect (Looking Where It Is Easy)",
+      "target": "Resources/Data Science & Analytics/Dashboard Design Principles"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Streetlight Effect (Looking Where It Is Easy)",
+      "target": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Streetlight Effect (Looking Where It Is Easy)",
+      "target": "Resources/Observability"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Sunk Cost Fallacy",
+      "target": "Resources/Cognitive Science & Biases/Loss Aversion (Prospect Theory — Kahneman and Tversky)"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Sunk Cost Fallacy",
+      "target": "Resources/Personal Productivity/Decision Journaling"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Sunk Cost Fallacy",
+      "target": "Resources/Software Engineering/Technical Debt — Types and Management"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Survivorship Bias",
+      "target": "Base rates"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Survivorship Bias",
+      "target": "Startup"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Survivorship Bias",
+      "target": "Streetlight Effect (Looking Where It's Easy)"
     },
     {
       "source": "Resources/DSA Practice",
@@ -13427,7 +14072,7 @@
     },
     {
       "source": "Resources/Neuroscience/Prefrontal Cortex and Decision-Making",
-      "target": "Decision Fatigue"
+      "target": "Resources/Cognitive Science & Biases/Decision Fatigue"
     },
     {
       "source": "Resources/Neuroscience/Prefrontal Cortex and Decision-Making",
@@ -17982,5 +18627,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-26T17:09:11Z"
+  "generated_at": "2026-05-26T17:15:03Z"
 }
