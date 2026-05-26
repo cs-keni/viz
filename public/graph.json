@@ -10,6 +10,15 @@
       "degree": 3
     },
     {
+      "id": "API Key Management",
+      "label": "API Key Management",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Areas/Dev Setup",
       "label": "Dev Setup",
       "folder": "Areas",
@@ -69,7 +78,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "Bayes' Theorem",
@@ -87,7 +96,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 3
     },
     {
       "id": "Bobby's Personality and Tone Guide",
@@ -217,17 +226,8 @@
       "degree": 0
     },
     {
-      "id": "Database Migrations Best Practices",
-      "label": "Database Migrations Best Practices",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
-    },
-    {
-      "id": "Error Budgets",
-      "label": "Error Budgets",
+      "id": "Defense in Depth",
+      "label": "Defense in Depth",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -242,6 +242,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 1
+    },
+    {
+      "id": "GitOps Principles",
+      "label": "GitOps Principles",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
     },
     {
       "id": "How to Update Beliefs Gracefully (Bayesian Updating)",
@@ -277,7 +286,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "Maps/Bobby",
@@ -351,15 +360,6 @@
       "degree": 1
     },
     {
-      "id": "Observability — Logs, Metrics, Traces (The Three Pillars)",
-      "label": "Observability — Logs, Metrics, Traces (The Three Pillars)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
-    },
-    {
       "id": "Optimization — Convex vs Non-Convex",
       "label": "Optimization — Convex vs Non-Convex",
       "folder": null,
@@ -375,16 +375,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Postmortem Writing",
-      "label": "Postmortem Writing",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "Probability Distributions (Normal, Binomial, Poisson, Exponential)",
@@ -1329,7 +1320,7 @@
         "study",
         "systems"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Cloud Networking",
@@ -1342,7 +1333,7 @@
         "study",
         "systems"
       ],
-      "degree": 9
+      "degree": 13
     },
     {
       "id": "Resources/Cloud Services",
@@ -1479,7 +1470,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/Data Science & Analytics/Data Cleaning Strategies",
@@ -1799,7 +1790,307 @@
         "study",
         "interview-prep"
       ],
-      "degree": 19
+      "degree": 20
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/AWS Core Services (EC2, S3, Lambda, RDS, VPC)",
+      "label": "AWS Core Services (EC2, S3, Lambda, RDS, VPC)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "AWS core services map to common infrastructure primitives: EC2 for virtual machines, S3 for object storage, Lambda for functions, RDS for managed relational databases, and VPC for private networking. These services form the base vocabulary for many AWS architectures.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/Ansible Basics",
+      "label": "Ansible Basics",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Ansible automates configuration management, provisioning, and operational tasks over SSH or connection plugins. It is useful for making server state repeatable without requiring an agent on every machine.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design",
+      "label": "CI-CD Pipeline Design",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "CI/CD pipeline design automates building, testing, packaging, securing, and deploying software. A good pipeline is fast enough for developer feedback, strict enough to protect production, and observable enough to debug failures.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/Cloud Providers Overview (AWS, GCP, Azure)",
+      "label": "Cloud Providers Overview (AWS, GCP, Azure)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "AWS, GCP, and Azure provide managed compute, storage, networking, database, security, and analytics services. Choosing among them is usually about ecosystem fit, team familiarity, enterprise constraints, pricing shape, and managed-service maturity.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/Cloudflare Services Overview",
+      "label": "Cloudflare Services Overview",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Cloudflare provides edge services for DNS, CDN caching, DDoS mitigation, TLS, web application security, access control, workers, tunnels, and traffic routing. It is often used as the public edge in front of applications.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/Database Migrations Best Practices",
+      "label": "Database Migrations Best Practices",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Database migration best practices let teams change schemas and data safely while applications keep running. The safest migrations are small, backward-compatible, observable, reversible where possible, and sequenced with application deployments.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/Error Budgets",
+      "label": "Error Budgets",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Error budgets convert an SLO into the amount of unreliability a service can tolerate during a time window. They help teams balance feature delivery against reliability work with a concrete shared threshold.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/GitHub Actions Deep Dive",
+      "label": "GitHub Actions Deep Dive",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "GitHub Actions is a workflow automation platform built around events, jobs, steps, runners, actions, secrets, and permissions. Using it well means controlling triggers, caches, credentials, artifacts, and least-privilege access.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/Infrastructure as Code (IaC)",
+      "label": "Infrastructure as Code (IaC)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Infrastructure as Code manages cloud and platform resources through versioned declarative or scripted definitions. It makes infrastructure reviewable, repeatable, auditable, and safer to change.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/Lambda Functions and FaaS",
+      "label": "Lambda Functions and FaaS",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Lambda functions and Function-as-a-Service platforms run short-lived code in response to events. They are useful for bursty event processing, API handlers, automation, and glue logic when limits and retry behavior are designed explicitly.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/Linux Command Line Essentials",
+      "label": "Linux Command Line Essentials",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Linux command line essentials cover navigating files, inspecting processes, managing text streams, checking resources, editing permissions, and debugging services. Fluency at the shell is still one of the highest-leverage infrastructure skills.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/Log Aggregation (ELK Stack, Loki)",
+      "label": "Log Aggregation (ELK Stack, Loki)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Log aggregation centralizes application and infrastructure logs so engineers can search, correlate, alert, and debug across machines and services. ELK and Loki represent two common approaches to storing and querying logs.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)",
+      "label": "Observability — Logs, Metrics, Traces (The Three Pillars)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Observability uses logs, metrics, and traces to understand system behavior from the outside. The goal is not collecting more telemetry, but making production failures diagnosable and service health measurable.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 14
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/On-Call Culture and Incident Response",
+      "label": "On-Call Culture and Incident Response",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "On-call culture and incident response define how teams detect, triage, mitigate, communicate, and learn from production failures. Healthy on-call systems protect users without burning out engineers.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/OpenTelemetry",
+      "label": "OpenTelemetry",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "OpenTelemetry is an open standard and toolkit for collecting traces, metrics, and logs across services. It helps teams avoid vendor-specific instrumentation while preserving context propagation and consistent telemetry.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/Postmortem Writing",
+      "label": "Postmortem Writing",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Postmortem writing turns incidents into shared learning and concrete prevention work. A strong postmortem records impact, timeline, contributing factors, detection gaps, response quality, and follow-up actions without blame.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 10
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/Prometheus and Grafana",
+      "label": "Prometheus and Grafana",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Prometheus collects time-series metrics and Grafana visualizes them in dashboards and alerts. Together they are a common open-source stack for monitoring service health, latency, errors, saturation, and infrastructure behavior.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/Reverse Proxies (Nginx, Caddy, Traefik)",
+      "label": "Reverse Proxies (Nginx, Caddy, Traefik)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Reverse proxies sit in front of backend services to route traffic, terminate TLS, balance load, enforce policies, and add observability. Nginx, Caddy, and Traefik represent different tradeoffs in control, automation, and dynamic configuration.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/Runbooks and Playbooks",
+      "label": "Runbooks and Playbooks",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Runbooks and playbooks document repeatable operational procedures for diagnosing and resolving known situations. Good ones are concise, current, executable, and linked to alerts or service ownership.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/SLIs, SLOs, and SLAs",
+      "label": "SLIs, SLOs, and SLAs",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "SLIs measure service behavior, SLOs set reliability targets, and SLAs define external commitments and consequences. Together they translate reliability from vague uptime goals into measurable engineering decisions.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/SSH Best Practices",
+      "label": "SSH Best Practices",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "SSH best practices reduce the risk of unauthorized server access while preserving secure administrative workflows. Key ideas include key-based auth, least privilege, bastions, agent hygiene, host verification, logging, and avoiding shared credentials.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)",
+      "label": "Secret Management (Vault, AWS Secrets Manager)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Secret management stores, distributes, rotates, and audits credentials such as API keys, database passwords, certificates, and tokens. Tools like Vault and AWS Secrets Manager reduce hardcoded secrets but still require careful IAM, rotation, and runtime access design.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 10
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/Serverless Architecture",
+      "label": "Serverless Architecture",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Serverless architecture uses managed services where the provider handles server provisioning, scaling, and much of the operations surface. It can reduce infrastructure toil, but shifts design concerns to events, limits, cold starts, observability, cost shape, and vendor boundaries.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/Terraform Basics",
+      "label": "Terraform Basics",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Terraform is a declarative Infrastructure as Code tool that plans and applies changes to cloud and platform resources. Its core model is providers, resources, modules, state, variables, outputs, and plan/apply workflows.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/DevOps & Infrastructure/VPN Architecture",
+      "label": "VPN Architecture",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "VPN architecture creates encrypted network connectivity between users, devices, offices, clouds, or private networks. Good VPN design considers identity, routing, split tunneling, access scope, device trust, performance, and whether zero-trust access is a better fit.",
+      "tags": [
+        "resource",
+        "devops-infrastructure"
+      ],
+      "degree": 5
     },
     {
       "id": "Resources/Distributed Systems",
@@ -1813,7 +2104,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 26
+      "degree": 27
     },
     {
       "id": "Resources/Docker",
@@ -2410,7 +2701,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
@@ -2991,7 +3282,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/System Design/Cache Invalidation Patterns",
@@ -3303,7 +3594,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Resources/System Design/Leader Election",
@@ -3327,7 +3618,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)",
@@ -3339,7 +3630,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 13
+      "degree": 15
     },
     {
       "id": "Resources/System Design/PACELC Theorem",
@@ -3438,7 +3729,7 @@
         "quality",
         "interview-prep"
       ],
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "Resources/Transformer Architecture",
@@ -3478,7 +3769,7 @@
         "devops",
         "reference"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Web Animation",
@@ -3506,8 +3797,8 @@
       "degree": 6
     },
     {
-      "id": "Secret Management (Vault, AWS Secrets Manager)",
-      "label": "Secret Management (Vault, AWS Secrets Manager)",
+      "id": "Secrets Scanning (GitGuardian, truffleHog)",
+      "label": "Secrets Scanning (GitGuardian, truffleHog)",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -3521,7 +3812,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 2
+      "degree": 4
     },
     {
       "id": "Security Headers (CSP, HSTS, X-Frame-Options)",
@@ -3530,16 +3821,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Serverless Architecture",
-      "label": "Serverless Architecture",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
+      "degree": 3
     },
     {
       "id": "Supply Chain Security",
@@ -3548,7 +3830,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "User Stories and Jobs to Be Done",
@@ -3584,7 +3866,16 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 3
+    },
+    {
+      "id": "systemd — Service and Process Management",
+      "label": "systemd — Service and Process Management",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
     },
     {
       "id": "wikilink",
@@ -5646,6 +5937,406 @@
       "target": "Resources/System Design Notes"
     },
     {
+      "source": "Resources/DevOps & Infrastructure/AWS Core Services (EC2, S3, Lambda, RDS, VPC)",
+      "target": "Resources/Cloud Networking"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/AWS Core Services (EC2, S3, Lambda, RDS, VPC)",
+      "target": "Resources/DevOps & Infrastructure/Cloud Providers Overview (AWS, GCP, Azure)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/AWS Core Services (EC2, S3, Lambda, RDS, VPC)",
+      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/AWS Core Services (EC2, S3, Lambda, RDS, VPC)",
+      "target": "Resources/DevOps & Infrastructure/Serverless Architecture"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Ansible Basics",
+      "target": "Resources/DevOps & Infrastructure/Infrastructure as Code (IaC)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Ansible Basics",
+      "target": "Resources/DevOps & Infrastructure/Runbooks and Playbooks"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Ansible Basics",
+      "target": "Resources/DevOps & Infrastructure/SSH Best Practices"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Ansible Basics",
+      "target": "systemd — Service and Process Management"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design",
+      "target": "Blue-Green vs Canary vs Rolling Deployments"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design",
+      "target": "GitOps Principles"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design",
+      "target": "Resources/DevOps & Infrastructure/GitHub Actions Deep Dive"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design",
+      "target": "Resources/Testing Strategy"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Cloud Providers Overview (AWS, GCP, Azure)",
+      "target": "Resources/Cloud Cost Optimization"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Cloud Providers Overview (AWS, GCP, Azure)",
+      "target": "Resources/Cloud Networking"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Cloud Providers Overview (AWS, GCP, Azure)",
+      "target": "Resources/DevOps & Infrastructure/AWS Core Services (EC2, S3, Lambda, RDS, VPC)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Cloud Providers Overview (AWS, GCP, Azure)",
+      "target": "Resources/DevOps & Infrastructure/Infrastructure as Code (IaC)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Cloudflare Services Overview",
+      "target": "Resources/Cloud Networking"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Cloudflare Services Overview",
+      "target": "Resources/DevOps & Infrastructure/Reverse Proxies (Nginx, Caddy, Traefik)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Cloudflare Services Overview",
+      "target": "Resources/System Design/CDN Architecture"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Cloudflare Services Overview",
+      "target": "Security Headers (CSP, HSTS, X-Frame-Options)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Database Migrations Best Practices",
+      "target": "Resources/Databases"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Database Migrations Best Practices",
+      "target": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Database Migrations Best Practices",
+      "target": "Resources/DevOps & Infrastructure/Postmortem Writing"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Database Migrations Best Practices",
+      "target": "Resources/Software Engineering/Backward Compatibility Strategies"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Error Budgets",
+      "target": "Blue-Green vs Canary vs Rolling Deployments"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Error Budgets",
+      "target": "Resources/DevOps & Infrastructure/On-Call Culture and Incident Response"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Error Budgets",
+      "target": "Resources/DevOps & Infrastructure/Postmortem Writing"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Error Budgets",
+      "target": "Resources/DevOps & Infrastructure/SLIs, SLOs, and SLAs"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/GitHub Actions Deep Dive",
+      "target": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/GitHub Actions Deep Dive",
+      "target": "Resources/DevOps & Infrastructure/Infrastructure as Code (IaC)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/GitHub Actions Deep Dive",
+      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/GitHub Actions Deep Dive",
+      "target": "Supply Chain Security"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Infrastructure as Code (IaC)",
+      "target": "GitOps Principles"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Infrastructure as Code (IaC)",
+      "target": "Resources/DevOps & Infrastructure/Cloud Providers Overview (AWS, GCP, Azure)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Infrastructure as Code (IaC)",
+      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Infrastructure as Code (IaC)",
+      "target": "Resources/DevOps & Infrastructure/Terraform Basics"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Lambda Functions and FaaS",
+      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Lambda Functions and FaaS",
+      "target": "Resources/DevOps & Infrastructure/Serverless Architecture"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Lambda Functions and FaaS",
+      "target": "Resources/System Design/Idempotency in Distributed Systems"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Lambda Functions and FaaS",
+      "target": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Linux Command Line Essentials",
+      "target": "Bash Scripting"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Linux Command Line Essentials",
+      "target": "Performance Profiling (CPU, Memory, I/O)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Linux Command Line Essentials",
+      "target": "Resources/WSL2 Setup"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Linux Command Line Essentials",
+      "target": "systemd — Service and Process Management"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Log Aggregation (ELK Stack, Loki)",
+      "target": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Log Aggregation (ELK Stack, Loki)",
+      "target": "Resources/DevOps & Infrastructure/OpenTelemetry"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Log Aggregation (ELK Stack, Loki)",
+      "target": "Resources/DevOps & Infrastructure/Postmortem Writing"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Log Aggregation (ELK Stack, Loki)",
+      "target": "Security Auditing"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)",
+      "target": "Resources/DevOps & Infrastructure/Log Aggregation (ELK Stack, Loki)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)",
+      "target": "Resources/DevOps & Infrastructure/OpenTelemetry"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)",
+      "target": "Resources/DevOps & Infrastructure/Prometheus and Grafana"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)",
+      "target": "Resources/DevOps & Infrastructure/SLIs, SLOs, and SLAs"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/On-Call Culture and Incident Response",
+      "target": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/On-Call Culture and Incident Response",
+      "target": "Resources/DevOps & Infrastructure/Postmortem Writing"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/On-Call Culture and Incident Response",
+      "target": "Resources/DevOps & Infrastructure/Runbooks and Playbooks"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/On-Call Culture and Incident Response",
+      "target": "Resources/DevOps & Infrastructure/SLIs, SLOs, and SLAs"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/OpenTelemetry",
+      "target": "Resources/DevOps & Infrastructure/Log Aggregation (ELK Stack, Loki)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/OpenTelemetry",
+      "target": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/OpenTelemetry",
+      "target": "Resources/DevOps & Infrastructure/Prometheus and Grafana"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/OpenTelemetry",
+      "target": "Resources/Distributed Systems"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Postmortem Writing",
+      "target": "Resources/DevOps & Infrastructure/Error Budgets"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Postmortem Writing",
+      "target": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Postmortem Writing",
+      "target": "Resources/DevOps & Infrastructure/On-Call Culture and Incident Response"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Postmortem Writing",
+      "target": "Resources/DevOps & Infrastructure/Runbooks and Playbooks"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Prometheus and Grafana",
+      "target": "Resources/Data Science & Analytics/Dashboard Design Principles"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Prometheus and Grafana",
+      "target": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Prometheus and Grafana",
+      "target": "Resources/DevOps & Infrastructure/OpenTelemetry"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Prometheus and Grafana",
+      "target": "Resources/DevOps & Infrastructure/SLIs, SLOs, and SLAs"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Reverse Proxies (Nginx, Caddy, Traefik)",
+      "target": "Kubernetes YAML — Deployment, Service, Ingress"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Reverse Proxies (Nginx, Caddy, Traefik)",
+      "target": "Resources/DevOps & Infrastructure/Cloudflare Services Overview"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Reverse Proxies (Nginx, Caddy, Traefik)",
+      "target": "Resources/System Design/Load Balancing Strategies"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Reverse Proxies (Nginx, Caddy, Traefik)",
+      "target": "Security Headers (CSP, HSTS, X-Frame-Options)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Runbooks and Playbooks",
+      "target": "Resources/DevOps & Infrastructure/Ansible Basics"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Runbooks and Playbooks",
+      "target": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Runbooks and Playbooks",
+      "target": "Resources/DevOps & Infrastructure/On-Call Culture and Incident Response"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Runbooks and Playbooks",
+      "target": "Resources/DevOps & Infrastructure/Postmortem Writing"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/SLIs, SLOs, and SLAs",
+      "target": "Resources/Data Science & Analytics/Dashboard Design Principles"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/SLIs, SLOs, and SLAs",
+      "target": "Resources/DevOps & Infrastructure/Error Budgets"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/SLIs, SLOs, and SLAs",
+      "target": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/SLIs, SLOs, and SLAs",
+      "target": "Resources/DevOps & Infrastructure/On-Call Culture and Incident Response"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/SSH Best Practices",
+      "target": "Resources/DevOps & Infrastructure/Ansible Basics"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/SSH Best Practices",
+      "target": "Resources/DevOps & Infrastructure/VPN Architecture"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/SSH Best Practices",
+      "target": "Security Auditing"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/SSH Best Practices",
+      "target": "Zero-Trust Architecture"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)",
+      "target": "API Key Management"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)",
+      "target": "Resources/DevOps & Infrastructure/AWS Core Services (EC2, S3, Lambda, RDS, VPC)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)",
+      "target": "Resources/DevOps & Infrastructure/GitHub Actions Deep Dive"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)",
+      "target": "Secrets Scanning (GitGuardian, truffleHog)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Serverless Architecture",
+      "target": "Resources/DevOps & Infrastructure/AWS Core Services (EC2, S3, Lambda, RDS, VPC)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Serverless Architecture",
+      "target": "Resources/DevOps & Infrastructure/Lambda Functions and FaaS"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Serverless Architecture",
+      "target": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Serverless Architecture",
+      "target": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Terraform Basics",
+      "target": "Resources/DevOps & Infrastructure/Cloud Providers Overview (AWS, GCP, Azure)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Terraform Basics",
+      "target": "Resources/DevOps & Infrastructure/GitHub Actions Deep Dive"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Terraform Basics",
+      "target": "Resources/DevOps & Infrastructure/Infrastructure as Code (IaC)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Terraform Basics",
+      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/VPN Architecture",
+      "target": "Defense in Depth"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/VPN Architecture",
+      "target": "Resources/Cloud Networking"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/VPN Architecture",
+      "target": "Resources/DevOps & Infrastructure/SSH Best Practices"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/VPN Architecture",
+      "target": "Zero-Trust Architecture"
+    },
+    {
       "source": "Resources/Distributed Systems",
       "target": "Resources/Caching"
     },
@@ -6231,19 +6922,19 @@
     },
     {
       "source": "Resources/Software Engineering/12-Factor App Methodology",
+      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
+    },
+    {
+      "source": "Resources/Software Engineering/12-Factor App Methodology",
+      "target": "Resources/DevOps & Infrastructure/Serverless Architecture"
+    },
+    {
+      "source": "Resources/Software Engineering/12-Factor App Methodology",
       "target": "Resources/Software Engineering/Docker Deep Dive"
     },
     {
       "source": "Resources/Software Engineering/12-Factor App Methodology",
       "target": "Resources/Software Engineering/The Unix Philosophy"
-    },
-    {
-      "source": "Resources/Software Engineering/12-Factor App Methodology",
-      "target": "Secret Management (Vault, AWS Secrets Manager)"
-    },
-    {
-      "source": "Resources/Software Engineering/12-Factor App Methodology",
-      "target": "Serverless Architecture"
     },
     {
       "source": "Resources/Software Engineering/API Design — GraphQL",
@@ -6367,7 +7058,7 @@
     },
     {
       "source": "Resources/Software Engineering/Backward Compatibility Strategies",
-      "target": "Database Migrations Best Practices"
+      "target": "Resources/DevOps & Infrastructure/Database Migrations Best Practices"
     },
     {
       "source": "Resources/Software Engineering/Backward Compatibility Strategies",
@@ -6467,11 +7158,11 @@
     },
     {
       "source": "Resources/Software Engineering/Canary Releases",
-      "target": "Observability — Logs, Metrics, Traces (The Three Pillars)"
+      "target": "Resources/CI CD"
     },
     {
       "source": "Resources/Software Engineering/Canary Releases",
-      "target": "Resources/CI CD"
+      "target": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)"
     },
     {
       "source": "Resources/Software Engineering/Canary Releases",
@@ -6487,11 +7178,11 @@
     },
     {
       "source": "Resources/Software Engineering/Chaos Engineering",
-      "target": "Error Budgets"
+      "target": "Resources/DevOps & Infrastructure/Error Budgets"
     },
     {
       "source": "Resources/Software Engineering/Chaos Engineering",
-      "target": "Postmortem Writing"
+      "target": "Resources/DevOps & Infrastructure/Postmortem Writing"
     },
     {
       "source": "Resources/Software Engineering/Chaos Engineering",
@@ -6827,7 +7518,7 @@
     },
     {
       "source": "Resources/Software Engineering/Integration Testing Strategies",
-      "target": "Database Migrations Best Practices"
+      "target": "Resources/DevOps & Infrastructure/Database Migrations Best Practices"
     },
     {
       "source": "Resources/Software Engineering/Integration Testing Strategies",
@@ -6867,11 +7558,11 @@
     },
     {
       "source": "Resources/Software Engineering/Load Testing and Performance Testing",
-      "target": "Observability — Logs, Metrics, Traces (The Three Pillars)"
+      "target": "Performance Profiling (CPU, Memory, I/O)"
     },
     {
       "source": "Resources/Software Engineering/Load Testing and Performance Testing",
-      "target": "Performance Profiling (CPU, Memory, I/O)"
+      "target": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)"
     },
     {
       "source": "Resources/Software Engineering/Load Testing and Performance Testing",
@@ -8138,5 +8829,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-26T00:01:00Z"
+  "generated_at": "2026-05-26T00:08:25Z"
 }
