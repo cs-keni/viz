@@ -286,14 +286,19 @@ export default function Graph3D({ data }) {
     setGraphData(data)
   }, [data])
 
-  // Independent rAF loop — runs orbit and comets unconditionally every frame,
-  // regardless of whether the physics simulation is still ticking.
+  // Independent rAF loop — drives orbit, comets, InstancedMesh sync, stars, nebulae.
+  // onRenderFramePost is declared in react-force-graph-3d PropTypes but never invoked
+  // by the library, so all per-frame work lives here instead.
   useEffect(() => {
     let rafId
+
+    const BUCKET_PHASES = { low: 0, mid: 2.2, high: 4.4 }
+    const BUCKET_BASE_EI = { low: 0.2, mid: 0.45, high: 0.75 }
 
     const tick = () => {
       const fg = fgRef.current
       const t = (performance.now() - startTimeRef.current) / 1000
+      const frame = ++frameCountRef.current
 
       // --- Cinematic orbit + shot timer ---
       if (isAutoRotatingRef.current && fg) {
@@ -383,6 +388,64 @@ export default function Graph3D({ data }) {
           nextCometRef.current = t + 1.5 + Math.random() * 1.5
         }
       }
+
+      // --- InstancedMesh: init once positions are ready, then sync every 2nd frame ---
+      // warmupTicks runs synchronously before the render loop starts, so node.x is
+      // defined by the time this rAF loop fires for the first time.
+      if (!instanceInitializedRef.current) {
+        const graph = graphRef.current
+        const n0 = graph?.nodes?.[0]
+        if (n0?._radius !== undefined && n0?.x !== undefined) {
+          initInstancedMeshes()
+        }
+      }
+      if (frame % 2 === 0 && instanceInitializedRef.current) {
+        const graph = graphRef.current
+        const meshes = instancedMeshRef.current
+        const dummy = dummyRef.current
+        const dirty = { low: false, mid: false, high: false }
+
+        graph?.nodes?.forEach((node) => {
+          if (node._bucket === undefined || node._instanceIdx === undefined) return
+          const mesh = meshes[node._bucket]
+          if (!mesh) return
+          const amplitude = node._baseEmissive > 0.5 ? 0.08 : 0.04
+          const scale = (node._radius ?? 1) * (1 + amplitude * Math.sin(t * 1.2 + (node._phase || 0)))
+          dummy.position.set(node.x ?? 0, node.y ?? 0, node.z ?? 0)
+          dummy.scale.setScalar(scale)
+          dummy.updateMatrix()
+          mesh.setMatrixAt(node._instanceIdx, dummy.matrix)
+          dirty[node._bucket] = true
+        })
+
+        // Staggered per-bucket emissive pulse — cohesive cluster glow
+        Object.entries(BUCKET_PHASES).forEach(([key, phase]) => {
+          const mesh = meshes[key]
+          if (mesh?.material) {
+            const base = BUCKET_BASE_EI[key]
+            mesh.material.emissiveIntensity = Math.max(0, base + Math.sin(t * 0.7 + phase) * 0.3)
+          }
+          if (dirty[key]) mesh.instanceMatrix.needsUpdate = true
+        })
+      }
+
+      // --- Star twinkling — 20fps updates are imperceptible ---
+      const sf = starfieldRef.current
+      if (sf && frame % 3 === 0) {
+        const colors = sf.points.geometry.attributes.color
+        for (let i = 0; i < STAR_COUNT; i++) {
+          const speed = 0.25 + sf.phases[i] * 0.5
+          const v = 0.3 + 0.7 * (0.5 + 0.5 * Math.sin(t * speed + sf.phases[i] * 2.0))
+          colors.setXYZ(i, v * 0.65, v * 0.7, v)
+        }
+        colors.needsUpdate = true
+      }
+
+      // --- Slow nebula drift ---
+      nebulaeRef.current.forEach((nebula, i) => {
+        nebula.rotation.y = t * 0.012 * (i % 2 === 0 ? 1 : -1)
+        nebula.rotation.x = t * 0.007 * (i % 2 === 0 ? -1 : 1)
+      })
 
       rafId = requestAnimationFrame(tick)
     }
@@ -500,8 +563,8 @@ export default function Graph3D({ data }) {
     }
   }, [])
 
-  // Create 3 InstancedMeshes (one per degree bucket) after physics settle.
-  // Unit-sphere geometry scaled per-instance via matrix — 3 draw calls for all nodes.
+  // Create 3 InstancedMeshes (one per degree bucket) — 3 draw calls for all nodes.
+  // Unit-sphere geometry scaled per-instance via matrix.
   const initInstancedMeshes = useCallback(() => {
     if (instanceInitializedRef.current) return
     const fg = fgRef.current
@@ -687,75 +750,6 @@ export default function Graph3D({ data }) {
 
   const getLinkParticleColor = useCallback(() => LINK_PARTICLE_COLOR, [])
 
-  const onRenderFramePost = useCallback(() => {
-    // Keep OrbitControls damping alive (damping decays _sphericalDelta each frame)
-    fgRef.current?.controls()?.update()
-
-    const graph = graphRef.current
-    if (!graph) return
-    const t = (performance.now() - startTimeRef.current) / 1000
-    const frame = ++frameCountRef.current
-
-    // Initialize once node positions and visual props are ready (_radius set by nodeThreeObject).
-    // Use _radius as the readiness signal — it's set when nodeThreeObject fires.
-    if (!instanceInitializedRef.current && graph.nodes?.length && graph.nodes[0]?._radius !== undefined) {
-      initInstancedMeshes()
-    }
-
-    // Sync InstancedMesh matrices every other frame — breathing at 30fps is imperceptible.
-    // Use node.x/y/z (simulation coordinates) directly — never __threeObj.position,
-    // which can be (0,0,0) momentarily when the library re-creates trackers.
-    if (frame % 2 === 0 && instanceInitializedRef.current) {
-      const meshes = instancedMeshRef.current
-      const dummy = dummyRef.current
-      const dirty = { low: false, mid: false, high: false }
-
-      graph.nodes?.forEach((node) => {
-        if (node._bucket === undefined || node._instanceIdx === undefined) return
-        const mesh = meshes[node._bucket]
-        if (!mesh) return
-        const amplitude = node._baseEmissive > 0.5 ? 0.08 : 0.04
-        const scale = (node._radius ?? 1) * (1 + amplitude * Math.sin(t * 1.2 + (node._phase || 0)))
-        dummy.position.set(node.x ?? 0, node.y ?? 0, node.z ?? 0)
-        dummy.scale.setScalar(scale)
-        dummy.updateMatrix()
-        mesh.setMatrixAt(node._instanceIdx, dummy.matrix)
-        dirty[node._bucket] = true
-      })
-
-      // Staggered per-bucket emissive pulse — cohesive cluster glow
-      const BUCKET_PHASES = { low: 0, mid: 2.2, high: 4.4 }
-      const BUCKET_BASE_EI = { low: 0.2, mid: 0.45, high: 0.75 }
-      Object.entries(BUCKET_PHASES).forEach(([key, phase]) => {
-        const mesh = meshes[key]
-        if (mesh?.material) {
-          const base = BUCKET_BASE_EI[key]
-          mesh.material.emissiveIntensity = Math.max(0, base + Math.sin(t * 0.7 + phase) * 0.3)
-        }
-        if (dirty[key]) mesh.instanceMatrix.needsUpdate = true
-      })
-    }
-
-    // Star twinkling is slow and subtle — 20fps updates are invisible
-    const sf = starfieldRef.current
-    if (sf && frame % 3 === 0) {
-      const colors = sf.points.geometry.attributes.color
-      for (let i = 0; i < STAR_COUNT; i++) {
-        const speed = 0.25 + sf.phases[i] * 0.5
-        const v = 0.3 + 0.7 * (0.5 + 0.5 * Math.sin(t * speed + sf.phases[i] * 2.0))
-        colors.setXYZ(i, v * 0.65, v * 0.7, v)
-      }
-      colors.needsUpdate = true
-    }
-
-    // Slow nebula drift
-    nebulaeRef.current.forEach((nebula, i) => {
-      nebula.rotation.y = t * 0.012 * (i % 2 === 0 ? 1 : -1)
-      nebula.rotation.x = t * 0.007 * (i % 2 === 0 ? -1 : 1)
-    })
-
-  }, [initInstancedMeshes])
-
   return (
     <>
       <ForceGraph3D
@@ -777,7 +771,6 @@ export default function Graph3D({ data }) {
         linkDirectionalParticleSpeed={0.001}
         linkDirectionalParticleWidth={1.5}
         linkDirectionalParticleColor={getLinkParticleColor}
-        onRenderFramePost={onRenderFramePost}
       />
       <div
         ref={tooltipDivRef}
