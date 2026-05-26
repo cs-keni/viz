@@ -114,15 +114,6 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Capture Systems (Ubiquitous Capture)",
-      "label": "Capture Systems (Ubiquitous Capture)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
       "degree": 2
     },
     {
@@ -210,8 +201,8 @@
       "degree": 1
     },
     {
-      "id": "Distraction Management",
-      "label": "Distraction Management",
+      "id": "Feedback loops",
+      "label": "Feedback loops",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -226,6 +217,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 1
+    },
+    {
+      "id": "How to Retain What You Read",
+      "label": "How to Retain What You Read",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
     },
     {
       "id": "How to Update Beliefs Gracefully (Bayesian Updating)",
@@ -292,7 +292,7 @@
         "map",
         "home"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Maps/Job Search",
@@ -315,15 +315,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 1
-    },
-    {
-      "id": "Notification Hygiene",
-      "label": "Notification Hygiene",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 3
     },
     {
       "id": "Object-Oriented Programming Concepts",
@@ -530,7 +521,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)",
@@ -2156,7 +2147,7 @@
         "neetcode",
         "interview-prep"
       ],
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "Resources/Database Internals Deep Dive",
@@ -2859,7 +2850,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 27
+      "degree": 28
     },
     {
       "id": "Resources/Docker",
@@ -2918,7 +2909,7 @@
         "tradeoffs",
         "interview-prep"
       ],
-      "degree": 24
+      "degree": 25
     },
     {
       "id": "Resources/FlashAttention",
@@ -3032,6 +3023,222 @@
         "ai"
       ],
       "degree": 31
+    },
+    {
+      "id": "Resources/Learning & Memory/Active Recall vs Passive Review",
+      "label": "Active Recall vs Passive Review",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Active recall strengthens memory by forcing retrieval, while passive review mainly creates familiarity. Durable learning comes from trying to remember before looking at the answer.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 11
+    },
+    {
+      "id": "Resources/Learning & Memory/Anki — Optimal Card Design",
+      "label": "Anki — Optimal Card Design",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Good Anki cards test one clear idea, use active recall, and minimize ambiguity. Card quality matters more than deck size because vague cards train frustration instead of memory.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Learning & Memory/Chunking Information",
+      "label": "Chunking Information",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Chunking groups smaller pieces of information into meaningful units so working memory can handle them more efficiently. Expertise often looks like larger and better-organized chunks.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)",
+      "label": "Deliberate Practice (Anders Ericsson)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Deliberate practice is focused practice designed to improve a specific weakness with feedback, challenge, and repetition. It differs from simply spending time because it targets the edge of current ability.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Learning & Memory/Desirable Difficulties in Learning",
+      "label": "Desirable Difficulties in Learning",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Desirable difficulties are learning conditions that feel harder in the short term but improve long-term retention and transfer. Examples include spacing, retrieval, interleaving, variation, and generation.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Learning & Memory/First Principles Thinking",
+      "label": "First Principles Thinking",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "First principles thinking breaks a problem down to basic truths and rebuilds from there. It is useful when analogies, conventions, or inherited assumptions are constraining the solution.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)",
+      "label": "How Memory Works (Encoding, Storage, Retrieval)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Memory involves encoding information, storing it over time, and retrieving it later. Learning improves when attention, meaning, retrieval practice, spacing, and context are designed deliberately.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Learning & Memory/How to Read a Technical Paper",
+      "label": "How to Read a Technical Paper",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Reading a technical paper is an active process: identify the question, contribution, method, assumptions, evidence, limitations, and relevance before getting lost in details. Multiple passes usually beat one slow linear read.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Learning & Memory/Interleaving Practice",
+      "label": "Interleaving Practice",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Interleaving practice mixes related problem types instead of drilling one type in a block. It improves discrimination because learners must decide which strategy applies, not just repeat the obvious one.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Learning & Memory/Inversion Thinking",
+      "label": "Inversion Thinking",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Inversion thinking solves problems by asking what would cause failure, then avoiding or counteracting those causes. It is useful because failure modes are often easier to identify than perfect solutions.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Learning & Memory/Learning a New Programming Language Fast",
+      "label": "Learning a New Programming Language Fast",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Learning a programming language fast means focusing on syntax, type system, runtime model, package workflow, idioms, and small real programs. The fastest route is comparing it to languages already known while building something concrete.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them",
+      "label": "Mental Models — What They Are and How to Build Them",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Mental models are reusable representations for understanding how something works or what matters in a situation. They improve judgment when they are accurate, connected, and tested against reality.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Learning & Memory/Note-Taking Methods (Cornell, Outline, Zettelkasten)",
+      "label": "Note-Taking Methods (Cornell, Outline, Zettelkasten)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Note-taking methods differ in how they structure attention, recall, and synthesis. Cornell supports study review, outlines support hierarchy, and Zettelkasten supports connected long-term thinking.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Learning & Memory/Second-Order Thinking",
+      "label": "Second-Order Thinking",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Second-order thinking looks beyond the immediate outcome to the downstream consequences of a decision. It is useful for avoiding fixes that solve today's problem by creating tomorrow's.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Learning & Memory/Spaced Repetition — Theory and Implementation",
+      "label": "Spaced Repetition — Theory and Implementation",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Spaced repetition schedules reviews just before forgetting so memories are strengthened efficiently. It works best for durable facts, concepts, prompts, and procedures that benefit from repeated retrieval.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Learning & Memory/Systems Thinking",
+      "label": "Systems Thinking",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Systems thinking studies relationships, feedback loops, delays, incentives, and boundaries rather than isolated parts. It is useful for understanding why local fixes can fail in complex environments.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Learning & Memory/The Feynman Technique",
+      "label": "The Feynman Technique",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Feynman Technique tests understanding by explaining a concept simply, finding gaps, revisiting the source, and refining the explanation. It is useful because clear explanation exposes fuzzy knowledge.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Learning & Memory/The Learning Pyramid",
+      "label": "The Learning Pyramid",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Learning Pyramid is a popular but oversimplified model claiming different retention rates by activity. Its useful takeaway is that active methods often beat passive review, but the exact percentages should not be treated as evidence.",
+      "tags": [
+        "resource",
+        "learning-memory"
+      ],
+      "degree": 3
     },
     {
       "id": "Resources/MLOps and ML Engineering",
@@ -3509,6 +3716,30 @@
       "degree": 4
     },
     {
+      "id": "Resources/Personal Productivity/Capture Systems (Ubiquitous Capture)",
+      "label": "Capture Systems (Ubiquitous Capture)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Ubiquitous capture means having a fast, trusted way to record ideas, tasks, commitments, and observations wherever they appear. Capture only works if the inbox is later clarified and processed.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Personal Productivity/Commonplace Book Tradition",
+      "label": "Commonplace Book Tradition",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The commonplace book tradition collects quotations, observations, excerpts, and ideas for later reflection. Its modern value is not hoarding references, but giving interesting material a place to be revisited and connected.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 3
+    },
+    {
       "id": "Resources/Personal Productivity/Daily Note Template",
       "label": "Daily Note Template",
       "folder": "Resources",
@@ -3518,7 +3749,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Personal Productivity/Decision Journaling",
@@ -3530,7 +3761,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Personal Productivity/Deep Work (Cal Newport)",
@@ -3542,7 +3773,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Personal Productivity/Digital Minimalism",
@@ -3554,7 +3785,19 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 6
+      "degree": 9
+    },
+    {
+      "id": "Resources/Personal Productivity/Distraction Management",
+      "label": "Distraction Management",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Distraction management is the practice of shaping environment, devices, commitments, and work blocks so attention is less likely to be pulled away. It works best when it removes triggers rather than relying on willpower.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 5
     },
     {
       "id": "Resources/Personal Productivity/Energy Management vs Time Management",
@@ -3590,7 +3833,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Personal Productivity/Flow State — How to Trigger It",
@@ -3614,7 +3857,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Personal Productivity/Getting Things Done (GTD) Method",
@@ -3626,7 +3869,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Personal Productivity/Goal Frameworks (OKRs, SMART, 12-Week Year)",
@@ -3689,6 +3932,18 @@
       "degree": 5
     },
     {
+      "id": "Resources/Personal Productivity/Managing Information Overwhelm",
+      "label": "Managing Information Overwhelm",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Managing information overwhelm means limiting inputs, clarifying what deserves action, and turning useful material into trusted systems. The goal is not consuming everything, but preserving attention for what matters.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 3
+    },
+    {
       "id": "Resources/Personal Productivity/Morning Routines — Research and Design",
       "label": "Morning Routines — Research and Design",
       "folder": "Resources",
@@ -3713,6 +3968,18 @@
       "degree": 4
     },
     {
+      "id": "Resources/Personal Productivity/Notification Hygiene",
+      "label": "Notification Hygiene",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Notification hygiene means deciding which alerts deserve immediate attention and silencing the rest. Good defaults protect deep work while preserving truly time-sensitive signals.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 7
+    },
+    {
       "id": "Resources/Personal Productivity/Obsidian Workflow Design",
       "label": "Obsidian Workflow Design",
       "folder": "Resources",
@@ -3722,7 +3989,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Personal Productivity/PARA Method (Projects, Areas, Resources, Archives)",
@@ -3746,7 +4013,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Resources/Personal Productivity/Pomodoro Technique",
@@ -3785,6 +4052,30 @@
       "degree": 5
     },
     {
+      "id": "Resources/Personal Productivity/Task Management Philosophies (GTD, Autofocus, ZTD)",
+      "label": "Task Management Philosophies (GTD, Autofocus, ZTD)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Task management philosophies differ in how they capture, prioritize, review, and execute work. GTD emphasizes trusted capture and next actions, Autofocus emphasizes intuitive list scanning, and ZTD simplifies GTD into habits.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Personal Productivity/The Map of Content (MOC) in Obsidian",
+      "label": "The Map of Content (MOC) in Obsidian",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "A Map of Content is a curated navigation note that organizes related notes around a topic, project, or area. In Obsidian, MOCs help turn dense link networks into intentional pathways.",
+      "tags": [
+        "resource",
+        "personal-productivity"
+      ],
+      "degree": 5
+    },
+    {
       "id": "Resources/Personal Productivity/Time Blocking",
       "label": "Time Blocking",
       "folder": "Resources",
@@ -3806,7 +4097,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Personal Productivity/Zettelkasten Method",
@@ -3818,7 +4109,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Process Reward Models",
@@ -3858,7 +4149,7 @@
         "resource",
         "study"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Programming Languages/C — Memory Management and Pointers",
@@ -4062,7 +4353,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Programming Languages/Memory Models and Happens-Before Ordering",
@@ -4735,7 +5026,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Security & Privacy/Vulnerability Disclosure and Bug Bounty Programs",
@@ -5364,7 +5655,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/Software Engineering/Test-Driven Development (TDD)",
@@ -6415,22 +6706,13 @@
       "degree": 1
     },
     {
-      "id": "Task Management Philosophies (GTD, Autofocus, ZTD)",
-      "label": "Task Management Philosophies (GTD, Autofocus, ZTD)",
+      "id": "Teaching as a Learning Tool",
+      "label": "Teaching as a Learning Tool",
       "folder": null,
       "created": null,
       "excerpt": "",
       "tags": [],
       "degree": 2
-    },
-    {
-      "id": "The Map of Content (MOC) in Obsidian",
-      "label": "The Map of Content (MOC) in Obsidian",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
     },
     {
       "id": "User Stories and Jobs to Be Done",
@@ -10103,6 +10385,222 @@
       "target": "Resources/RAG and Bobby Vector Search"
     },
     {
+      "source": "Resources/Learning & Memory/Active Recall vs Passive Review",
+      "target": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)"
+    },
+    {
+      "source": "Resources/Learning & Memory/Active Recall vs Passive Review",
+      "target": "Resources/Learning & Memory/Spaced Repetition — Theory and Implementation"
+    },
+    {
+      "source": "Resources/Learning & Memory/Active Recall vs Passive Review",
+      "target": "Resources/Learning & Memory/The Feynman Technique"
+    },
+    {
+      "source": "Resources/Learning & Memory/Anki — Optimal Card Design",
+      "target": "How to Retain What You Read"
+    },
+    {
+      "source": "Resources/Learning & Memory/Anki — Optimal Card Design",
+      "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
+    },
+    {
+      "source": "Resources/Learning & Memory/Anki — Optimal Card Design",
+      "target": "Resources/Learning & Memory/Spaced Repetition — Theory and Implementation"
+    },
+    {
+      "source": "Resources/Learning & Memory/Chunking Information",
+      "target": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)"
+    },
+    {
+      "source": "Resources/Learning & Memory/Chunking Information",
+      "target": "Resources/Learning & Memory/Learning a New Programming Language Fast"
+    },
+    {
+      "source": "Resources/Learning & Memory/Chunking Information",
+      "target": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them"
+    },
+    {
+      "source": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)",
+      "target": "Calibration — Knowing What You Don't Know"
+    },
+    {
+      "source": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)",
+      "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
+    },
+    {
+      "source": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)",
+      "target": "Resources/Learning & Memory/Learning a New Programming Language Fast"
+    },
+    {
+      "source": "Resources/Learning & Memory/Desirable Difficulties in Learning",
+      "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
+    },
+    {
+      "source": "Resources/Learning & Memory/Desirable Difficulties in Learning",
+      "target": "Resources/Learning & Memory/Interleaving Practice"
+    },
+    {
+      "source": "Resources/Learning & Memory/Desirable Difficulties in Learning",
+      "target": "Resources/Learning & Memory/Spaced Repetition — Theory and Implementation"
+    },
+    {
+      "source": "Resources/Learning & Memory/First Principles Thinking",
+      "target": "Resources/Engineering Judgment and Tool Tradeoffs"
+    },
+    {
+      "source": "Resources/Learning & Memory/First Principles Thinking",
+      "target": "Resources/Learning & Memory/Inversion Thinking"
+    },
+    {
+      "source": "Resources/Learning & Memory/First Principles Thinking",
+      "target": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them"
+    },
+    {
+      "source": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)",
+      "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
+    },
+    {
+      "source": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)",
+      "target": "Resources/Learning & Memory/Chunking Information"
+    },
+    {
+      "source": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)",
+      "target": "Resources/Learning & Memory/Spaced Repetition — Theory and Implementation"
+    },
+    {
+      "source": "Resources/Learning & Memory/How to Read a Technical Paper",
+      "target": "Resources/AI & Machine Learning/AI Safety — Interpretability Research"
+    },
+    {
+      "source": "Resources/Learning & Memory/How to Read a Technical Paper",
+      "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
+    },
+    {
+      "source": "Resources/Learning & Memory/How to Read a Technical Paper",
+      "target": "Resources/Learning & Memory/The Feynman Technique"
+    },
+    {
+      "source": "Resources/Learning & Memory/Interleaving Practice",
+      "target": "Resources/Data Structures and Algorithms Patterns"
+    },
+    {
+      "source": "Resources/Learning & Memory/Interleaving Practice",
+      "target": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)"
+    },
+    {
+      "source": "Resources/Learning & Memory/Interleaving Practice",
+      "target": "Resources/Learning & Memory/Desirable Difficulties in Learning"
+    },
+    {
+      "source": "Resources/Learning & Memory/Inversion Thinking",
+      "target": "Resources/Learning & Memory/Second-Order Thinking"
+    },
+    {
+      "source": "Resources/Learning & Memory/Inversion Thinking",
+      "target": "Resources/Personal Productivity/Decision Journaling"
+    },
+    {
+      "source": "Resources/Learning & Memory/Inversion Thinking",
+      "target": "Resources/Security & Privacy/Threat Modeling (STRIDE)"
+    },
+    {
+      "source": "Resources/Learning & Memory/Learning a New Programming Language Fast",
+      "target": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)"
+    },
+    {
+      "source": "Resources/Learning & Memory/Learning a New Programming Language Fast",
+      "target": "Resources/Programming Languages"
+    },
+    {
+      "source": "Resources/Learning & Memory/Learning a New Programming Language Fast",
+      "target": "Resources/Programming Languages/Language Design Tradeoffs"
+    },
+    {
+      "source": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them",
+      "target": "Resources/Learning & Memory/First Principles Thinking"
+    },
+    {
+      "source": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them",
+      "target": "Resources/Learning & Memory/Second-Order Thinking"
+    },
+    {
+      "source": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them",
+      "target": "Resources/Learning & Memory/Systems Thinking"
+    },
+    {
+      "source": "Resources/Learning & Memory/Note-Taking Methods (Cornell, Outline, Zettelkasten)",
+      "target": "Resources/Learning & Memory/How to Read a Technical Paper"
+    },
+    {
+      "source": "Resources/Learning & Memory/Note-Taking Methods (Cornell, Outline, Zettelkasten)",
+      "target": "Resources/Personal Productivity/Evergreen Notes"
+    },
+    {
+      "source": "Resources/Learning & Memory/Note-Taking Methods (Cornell, Outline, Zettelkasten)",
+      "target": "Resources/Personal Productivity/Zettelkasten Method"
+    },
+    {
+      "source": "Resources/Learning & Memory/Second-Order Thinking",
+      "target": "Resources/Learning & Memory/Systems Thinking"
+    },
+    {
+      "source": "Resources/Learning & Memory/Second-Order Thinking",
+      "target": "Resources/Personal Productivity/Decision Journaling"
+    },
+    {
+      "source": "Resources/Learning & Memory/Second-Order Thinking",
+      "target": "Resources/Software Engineering/Technical Debt — Types and Management"
+    },
+    {
+      "source": "Resources/Learning & Memory/Spaced Repetition — Theory and Implementation",
+      "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
+    },
+    {
+      "source": "Resources/Learning & Memory/Spaced Repetition — Theory and Implementation",
+      "target": "Resources/Learning & Memory/Anki — Optimal Card Design"
+    },
+    {
+      "source": "Resources/Learning & Memory/Spaced Repetition — Theory and Implementation",
+      "target": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)"
+    },
+    {
+      "source": "Resources/Learning & Memory/Systems Thinking",
+      "target": "Feedback loops"
+    },
+    {
+      "source": "Resources/Learning & Memory/Systems Thinking",
+      "target": "Resources/Distributed Systems"
+    },
+    {
+      "source": "Resources/Learning & Memory/Systems Thinking",
+      "target": "Resources/Learning & Memory/Second-Order Thinking"
+    },
+    {
+      "source": "Resources/Learning & Memory/The Feynman Technique",
+      "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
+    },
+    {
+      "source": "Resources/Learning & Memory/The Feynman Technique",
+      "target": "Resources/Learning & Memory/How to Read a Technical Paper"
+    },
+    {
+      "source": "Resources/Learning & Memory/The Feynman Technique",
+      "target": "Teaching as a Learning Tool"
+    },
+    {
+      "source": "Resources/Learning & Memory/The Learning Pyramid",
+      "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
+    },
+    {
+      "source": "Resources/Learning & Memory/The Learning Pyramid",
+      "target": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)"
+    },
+    {
+      "source": "Resources/Learning & Memory/The Learning Pyramid",
+      "target": "Teaching as a Learning Tool"
+    },
+    {
       "source": "Resources/MLOps and ML Engineering",
       "target": "Projects/Backlog"
     },
@@ -10711,8 +11209,32 @@
       "target": "Resources/Vault Structure"
     },
     {
+      "source": "Resources/Personal Productivity/Capture Systems (Ubiquitous Capture)",
+      "target": "Resources/Personal Productivity/Daily Note Template"
+    },
+    {
+      "source": "Resources/Personal Productivity/Capture Systems (Ubiquitous Capture)",
+      "target": "Resources/Personal Productivity/Getting Things Done (GTD) Method"
+    },
+    {
+      "source": "Resources/Personal Productivity/Capture Systems (Ubiquitous Capture)",
+      "target": "Resources/Personal Productivity/Obsidian Workflow Design"
+    },
+    {
+      "source": "Resources/Personal Productivity/Commonplace Book Tradition",
+      "target": "How to Retain What You Read"
+    },
+    {
+      "source": "Resources/Personal Productivity/Commonplace Book Tradition",
+      "target": "Resources/Personal Productivity/Evergreen Notes"
+    },
+    {
+      "source": "Resources/Personal Productivity/Commonplace Book Tradition",
+      "target": "Resources/Personal Productivity/Personal Knowledge Management (PKM) Overview"
+    },
+    {
       "source": "Resources/Personal Productivity/Daily Note Template",
-      "target": "Capture Systems (Ubiquitous Capture)"
+      "target": "Resources/Personal Productivity/Capture Systems (Ubiquitous Capture)"
     },
     {
       "source": "Resources/Personal Productivity/Daily Note Template",
@@ -10748,15 +11270,27 @@
     },
     {
       "source": "Resources/Personal Productivity/Digital Minimalism",
-      "target": "Distraction Management"
-    },
-    {
-      "source": "Resources/Personal Productivity/Digital Minimalism",
-      "target": "Notification Hygiene"
-    },
-    {
-      "source": "Resources/Personal Productivity/Digital Minimalism",
       "target": "Resources/Personal Productivity/Deep Work (Cal Newport)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Digital Minimalism",
+      "target": "Resources/Personal Productivity/Distraction Management"
+    },
+    {
+      "source": "Resources/Personal Productivity/Digital Minimalism",
+      "target": "Resources/Personal Productivity/Notification Hygiene"
+    },
+    {
+      "source": "Resources/Personal Productivity/Distraction Management",
+      "target": "Resources/Personal Productivity/Digital Minimalism"
+    },
+    {
+      "source": "Resources/Personal Productivity/Distraction Management",
+      "target": "Resources/Personal Productivity/Focus Modes and Context Switching Costs"
+    },
+    {
+      "source": "Resources/Personal Productivity/Distraction Management",
+      "target": "Resources/Personal Productivity/Notification Hygiene"
     },
     {
       "source": "Resources/Personal Productivity/Energy Management vs Time Management",
@@ -10808,10 +11342,6 @@
     },
     {
       "source": "Resources/Personal Productivity/Focus Modes and Context Switching Costs",
-      "target": "Notification Hygiene"
-    },
-    {
-      "source": "Resources/Personal Productivity/Focus Modes and Context Switching Costs",
       "target": "Resources/Personal Productivity/Deep Work (Cal Newport)"
     },
     {
@@ -10819,16 +11349,20 @@
       "target": "Resources/Personal Productivity/Energy Management vs Time Management"
     },
     {
+      "source": "Resources/Personal Productivity/Focus Modes and Context Switching Costs",
+      "target": "Resources/Personal Productivity/Notification Hygiene"
+    },
+    {
       "source": "Resources/Personal Productivity/Getting Things Done (GTD) Method",
-      "target": "Capture Systems (Ubiquitous Capture)"
+      "target": "Resources/Personal Productivity/Capture Systems (Ubiquitous Capture)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Getting Things Done (GTD) Method",
+      "target": "Resources/Personal Productivity/Task Management Philosophies (GTD, Autofocus, ZTD)"
     },
     {
       "source": "Resources/Personal Productivity/Getting Things Done (GTD) Method",
       "target": "Resources/Personal Productivity/Weekly Review Process"
-    },
-    {
-      "source": "Resources/Personal Productivity/Getting Things Done (GTD) Method",
-      "target": "Task Management Philosophies (GTD, Autofocus, ZTD)"
     },
     {
       "source": "Resources/Personal Productivity/Goal Frameworks (OKRs, SMART, 12-Week Year)",
@@ -10856,15 +11390,15 @@
     },
     {
       "source": "Resources/Personal Productivity/Inbox Zero Strategy",
-      "target": "Notification Hygiene"
-    },
-    {
-      "source": "Resources/Personal Productivity/Inbox Zero Strategy",
       "target": "Resources/Personal Productivity/Getting Things Done (GTD) Method"
     },
     {
       "source": "Resources/Personal Productivity/Inbox Zero Strategy",
-      "target": "Task Management Philosophies (GTD, Autofocus, ZTD)"
+      "target": "Resources/Personal Productivity/Notification Hygiene"
+    },
+    {
+      "source": "Resources/Personal Productivity/Inbox Zero Strategy",
+      "target": "Resources/Personal Productivity/Task Management Philosophies (GTD, Autofocus, ZTD)"
     },
     {
       "source": "Resources/Personal Productivity/Intention Setting",
@@ -10891,6 +11425,18 @@
       "target": "Resources/Personal Productivity/Morning Routines — Research and Design"
     },
     {
+      "source": "Resources/Personal Productivity/Managing Information Overwhelm",
+      "target": "Resources/Personal Productivity/Digital Minimalism"
+    },
+    {
+      "source": "Resources/Personal Productivity/Managing Information Overwhelm",
+      "target": "Resources/Personal Productivity/Personal Knowledge Management (PKM) Overview"
+    },
+    {
+      "source": "Resources/Personal Productivity/Managing Information Overwhelm",
+      "target": "Resources/Personal Productivity/The Map of Content (MOC) in Obsidian"
+    },
+    {
       "source": "Resources/Personal Productivity/Morning Routines — Research and Design",
       "target": "Resources/Personal Productivity/Energy Management vs Time Management"
     },
@@ -10913,6 +11459,18 @@
     {
       "source": "Resources/Personal Productivity/Motivation — Intrinsic vs Extrinsic",
       "target": "Resources/Personal Productivity/Reward Systems and Dopamine Loops"
+    },
+    {
+      "source": "Resources/Personal Productivity/Notification Hygiene",
+      "target": "Resources/Personal Productivity/Deep Work (Cal Newport)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Notification Hygiene",
+      "target": "Resources/Personal Productivity/Digital Minimalism"
+    },
+    {
+      "source": "Resources/Personal Productivity/Notification Hygiene",
+      "target": "Resources/Personal Productivity/Distraction Management"
     },
     {
       "source": "Resources/Personal Productivity/Obsidian Workflow Design",
@@ -10987,6 +11545,30 @@
       "target": "Resources/Personal Productivity/Motivation — Intrinsic vs Extrinsic"
     },
     {
+      "source": "Resources/Personal Productivity/Task Management Philosophies (GTD, Autofocus, ZTD)",
+      "target": "Resources/Personal Productivity/Capture Systems (Ubiquitous Capture)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Task Management Philosophies (GTD, Autofocus, ZTD)",
+      "target": "Resources/Personal Productivity/Getting Things Done (GTD) Method"
+    },
+    {
+      "source": "Resources/Personal Productivity/Task Management Philosophies (GTD, Autofocus, ZTD)",
+      "target": "Resources/Personal Productivity/Weekly Review Process"
+    },
+    {
+      "source": "Resources/Personal Productivity/The Map of Content (MOC) in Obsidian",
+      "target": "Maps/Home"
+    },
+    {
+      "source": "Resources/Personal Productivity/The Map of Content (MOC) in Obsidian",
+      "target": "Resources/Personal Productivity/Obsidian Workflow Design"
+    },
+    {
+      "source": "Resources/Personal Productivity/The Map of Content (MOC) in Obsidian",
+      "target": "Resources/Personal Productivity/Personal Knowledge Management (PKM) Overview"
+    },
+    {
       "source": "Resources/Personal Productivity/Time Blocking",
       "target": "Resources/Personal Productivity/Deep Work (Cal Newport)"
     },
@@ -11020,7 +11602,7 @@
     },
     {
       "source": "Resources/Personal Productivity/Zettelkasten Method",
-      "target": "The Map of Content (MOC) in Obsidian"
+      "target": "Resources/Personal Productivity/The Map of Content (MOC) in Obsidian"
     },
     {
       "source": "Resources/Process Reward Models",
@@ -14559,5 +15141,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-26T16:31:28Z"
+  "generated_at": "2026-05-26T16:37:14Z"
 }
