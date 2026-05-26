@@ -264,6 +264,15 @@
       "degree": 1
     },
     {
+      "id": "Longtermism",
+      "label": "Longtermism",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Maps/Bobby",
       "label": "Bobby",
       "folder": "Maps",
@@ -515,7 +524,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Resources/AI & Machine Learning/AI Memory Architectures",
@@ -839,7 +848,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 21
+      "degree": 22
     },
     {
       "id": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
@@ -935,7 +944,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/AI & Machine Learning/RLHF vs RLAIF",
@@ -1206,7 +1215,7 @@
         "study",
         "ai"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Agent Security",
@@ -1222,7 +1231,7 @@
         "bobby",
         "mlops"
       ],
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "Resources/Bobby Commands",
@@ -1822,7 +1831,7 @@
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Cognitive Science & Biases/Decision Fatigue",
@@ -1906,7 +1915,7 @@
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Cognitive Science & Biases/Logical Fallacies — Full List",
@@ -2306,7 +2315,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 16
+      "degree": 18
     },
     {
       "id": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose",
@@ -3227,7 +3236,7 @@
         "tradeoffs",
         "interview-prep"
       ],
-      "degree": 26
+      "degree": 27
     },
     {
       "id": "Resources/FlashAttention",
@@ -3253,7 +3262,7 @@
         "study",
         "ai"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Geospatial",
@@ -3624,7 +3633,7 @@
         "philosophy",
         "engineering"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/LLM System Design",
@@ -3676,7 +3685,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 12
+      "degree": 14
     },
     {
       "id": "Resources/Learning & Memory/Chunking Information",
@@ -3796,7 +3805,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Learning & Memory/Learning a New Domain Fast",
@@ -3868,7 +3877,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Learning & Memory/Second-Order Thinking",
@@ -3880,7 +3889,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Learning & Memory/Spaced Repetition — Theory and Implementation",
@@ -3904,7 +3913,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Learning & Memory/Teaching as a Learning Tool",
@@ -4401,7 +4410,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Mental Health & Psychology/FOMO and Digital Anxiety",
@@ -4461,7 +4470,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Mental Health & Psychology/Locus of Control (Internal vs External)",
@@ -4473,7 +4482,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Mental Health & Psychology/Loneliness and Connection — The Health Impact",
@@ -4497,7 +4506,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Mental Health & Psychology/Mindfulness — Evidence and Practice",
@@ -4509,7 +4518,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Mental Health & Psychology/Neuroplasticity",
@@ -4521,7 +4530,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Mental Health & Psychology/Perfectionism — Causes and Fixes",
@@ -4617,7 +4626,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)",
@@ -4641,7 +4650,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Message Queues",
@@ -4743,7 +4752,7 @@
         "resource",
         "neuroscience"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Neuroscience/Default Mode Network",
@@ -4827,7 +4836,7 @@
         "resource",
         "neuroscience"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Neuroscience/Neuron Structure and Electrochemical Signaling",
@@ -5339,7 +5348,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Personal Productivity/Evergreen Notes",
@@ -5363,7 +5372,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Personal Productivity/Focus Modes and Context Switching Costs",
@@ -5411,7 +5420,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Personal Productivity/Inbox Zero Strategy",
@@ -5435,7 +5444,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Personal Productivity/Keystone Habits",
@@ -5630,6 +5639,308 @@
       "degree": 6
     },
     {
+      "id": "Resources/Philosophy/AI Ethics — Alignment and Safety",
+      "label": "AI Ethics — Alignment and Safety",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "AI ethics around alignment and safety asks how advanced systems can reliably pursue human-compatible goals, avoid harmful behavior, remain controllable, and be evaluated before deployment. It combines technical, governance, and moral questions.",
+      "tags": [
+        "resource",
+        "philosophy",
+        "ai"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Philosophy/AI Ethics — Bias, Fairness, and Accountability",
+      "label": "AI Ethics — Bias, Fairness, and Accountability",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "AI bias, fairness, and accountability concern how automated systems can reproduce unequal data, incentives, and institutional power. Fairness is not one metric; it requires context, affected stakeholders, auditability, and responsibility.",
+      "tags": [
+        "resource",
+        "philosophy",
+        "ai"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Philosophy/Absurdism (Camus)",
+      "label": "Absurdism (Camus)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Absurdism, associated with Albert Camus, begins from the conflict between human longing for meaning and an indifferent universe. Camus' answer is not despair, but revolt, freedom, and lucid living.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Philosophy/Effective Altruism — Ideas and Critiques",
+      "label": "Effective Altruism — Ideas and Critiques",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Effective altruism applies evidence and reason to doing the most good, often through cause prioritization, cost-effectiveness, and long-term impact. Critiques focus on uncertainty, power, measurement, moral demandingness, and institutional failures.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Philosophy/Epistemology — How We Know Things",
+      "label": "Epistemology — How We Know Things",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Epistemology studies knowledge, belief, justification, evidence, truth, skepticism, and uncertainty. It matters because every serious reasoning system depends on how claims are supported and revised.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Philosophy/Ethics — Consequentialism",
+      "label": "Ethics — Consequentialism",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Consequentialism judges actions by their outcomes. It is powerful for policy, engineering, and AI ethics, but struggles with prediction, rights, distribution, and whether good ends can justify harmful means.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Philosophy/Ethics — Deontology (Kant's Categorical Imperative)",
+      "label": "Ethics — Deontology (Kant's Categorical Imperative)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Deontology judges actions by duties, rules, rights, and respect for persons rather than outcomes alone. Kant's categorical imperative asks whether an action's principle could be universalized and whether people are treated as ends.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Philosophy/Ethics — Virtue Ethics (Aristotle)",
+      "label": "Ethics — Virtue Ethics (Aristotle)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Virtue ethics focuses on character, practical wisdom, and becoming the kind of person who acts well. Aristotle frames virtues as trained dispositions aimed at human flourishing.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Philosophy/Existentialism Basics (Sartre, Camus, Heidegger)",
+      "label": "Existentialism Basics (Sartre, Camus, Heidegger)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Existentialism focuses on freedom, responsibility, meaning, authenticity, anxiety, and the human condition. Sartre, Camus, and Heidegger differ, but all examine what it means to live without easy external guarantees.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Philosophy/Falsifiability and the Demarcation Problem",
+      "label": "Falsifiability and the Demarcation Problem",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Falsifiability is the idea that scientific claims should be testable in ways that could prove them wrong. The demarcation problem asks how to distinguish science from non-science or pseudoscience.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Philosophy/Free Will — Compatibilism vs Hard Determinism",
+      "label": "Free Will — Compatibilism vs Hard Determinism",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Free will debates ask whether human choice is compatible with determinism, causation, and responsibility. Compatibilists redefine freedom around agency and reasons, while hard determinists deny ultimate free will.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Philosophy/Hard Problem of Consciousness (Chalmers)",
+      "label": "Hard Problem of Consciousness (Chalmers)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "David Chalmers' hard problem of consciousness asks why and how physical processes give rise to subjective experience. It differs from easier problems like explaining behavior, attention, reportability, or neural mechanisms.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Philosophy/Personal Identity Over Time (Ship of Theseus)",
+      "label": "Personal Identity Over Time (Ship of Theseus)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Personal identity over time asks what makes a person the same person despite physical, psychological, and memory changes. The Ship of Theseus captures the puzzle of continuity through replacement.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Philosophy/Philosophy of Language (Wittgenstein, Austin)",
+      "label": "Philosophy of Language (Wittgenstein, Austin)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Philosophy of language studies meaning, reference, use, speech acts, and how words connect to the world. Wittgenstein emphasized language games, while Austin showed that saying things can also be doing things.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Philosophy/Philosophy of Mind — Consciousness",
+      "label": "Philosophy of Mind — Consciousness",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Philosophy of mind studies consciousness, mental states, identity, perception, intentionality, and the mind-body relationship. It asks how subjective experience relates to physical brains and behavior.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Philosophy/Philosophy of Science (Popper, Kuhn, Lakatos)",
+      "label": "Philosophy of Science (Popper, Kuhn, Lakatos)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Philosophy of science studies how scientific knowledge is produced, justified, revised, and socially organized. Popper, Kuhn, and Lakatos offer different models of falsification, paradigms, and research programs.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Philosophy/Pragmatism (Peirce, James, Dewey)",
+      "label": "Pragmatism (Peirce, James, Dewey)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Pragmatism evaluates ideas through their practical consequences, inquiry, and usefulness in experience. Peirce, James, and Dewey differ, but all resist philosophy detached from action.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Philosophy/Rationalism vs Empiricism",
+      "label": "Rationalism vs Empiricism",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Rationalism emphasizes reason, innate structure, or a priori knowledge, while empiricism emphasizes sensory experience and observation. Modern inquiry usually needs both conceptual reasoning and empirical correction.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Philosophy/Solipsism and External World Skepticism",
+      "label": "Solipsism and External World Skepticism",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Solipsism and external world skepticism question whether anything beyond one's own mind can be known. They are important as philosophical stress tests, but not usually livable or useful as everyday operating beliefs.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Philosophy/Stoicism vs Buddhism — Comparison",
+      "label": "Stoicism vs Buddhism — Comparison",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Stoicism and Buddhism both train attention, desire, suffering, and response to impermanence, but they differ in metaphysics, selfhood, virtue, and practice. Both can be useful without flattening them into the same philosophy.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Philosophy/Stoicism — Core Principles",
+      "label": "Stoicism — Core Principles",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Stoicism teaches that virtue, judgment, and what is within one's control matter more than external fortune. Its core value today is disciplined agency without denial of emotion or reality.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Philosophy/Stoicism — Daily Practices (Negative Visualization, Memento Mori, Amor Fati)",
+      "label": "Stoicism — Daily Practices (Negative Visualization, Memento Mori, Amor Fati)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Stoic daily practices train perspective, gratitude, courage, and steadiness. Negative visualization, memento mori, and amor fati are tools for relating better to uncertainty, loss, and difficulty.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Philosophy/Taoism Key Concepts (Wu Wei, Yin-Yang)",
+      "label": "Taoism Key Concepts (Wu Wei, Yin-Yang)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Taoism emphasizes living in accordance with the Tao, balancing opposites, simplicity, humility, and effortless action. Wu wei is not laziness; it is skillful action without unnecessary force.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Philosophy/Utilitarianism — Bentham and Mill",
+      "label": "Utilitarianism — Bentham and Mill",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Utilitarianism is a consequentialist ethical theory that evaluates actions by overall welfare or happiness. Bentham emphasized quantity of pleasure, while Mill distinguished higher and lower pleasures.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Philosophy/Zen Buddhism Basics",
+      "label": "Zen Buddhism Basics",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Zen Buddhism emphasizes direct experience, meditation, non-attachment, impermanence, and seeing through conceptual fixation. Its practical value is attention to what is actually present.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 4
+    },
+    {
       "id": "Resources/Process Reward Models",
       "label": "Process Reward Models",
       "folder": "Resources",
@@ -5655,7 +5966,7 @@
         "startups",
         "projects"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/Programming Languages",
@@ -5715,7 +6026,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Programming Languages/Functional Programming Concepts",
@@ -6484,7 +6795,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)",
@@ -7987,7 +8298,7 @@
         "obsidian",
         "reference"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/WSL2 Setup",
@@ -8478,6 +8789,15 @@
     {
       "id": "TLS 1.3",
       "label": "TLS 1.3",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "The Simulation Hypothesis",
+      "label": "The Simulation Hypothesis",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -14875,6 +15195,306 @@
       "target": "Resources/Personal Productivity/The Map of Content (MOC) in Obsidian"
     },
     {
+      "source": "Resources/Philosophy/AI Ethics — Alignment and Safety",
+      "target": "Resources/AI & Machine Learning/AI Alignment Overview"
+    },
+    {
+      "source": "Resources/Philosophy/AI Ethics — Alignment and Safety",
+      "target": "Resources/Agent Security"
+    },
+    {
+      "source": "Resources/Philosophy/AI Ethics — Alignment and Safety",
+      "target": "Resources/Formal Methods Agent Safety"
+    },
+    {
+      "source": "Resources/Philosophy/AI Ethics — Bias, Fairness, and Accountability",
+      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
+    },
+    {
+      "source": "Resources/Philosophy/AI Ethics — Bias, Fairness, and Accountability",
+      "target": "Resources/LLM Capabilities and AI Ethics"
+    },
+    {
+      "source": "Resources/Philosophy/AI Ethics — Bias, Fairness, and Accountability",
+      "target": "Resources/Security & Privacy/Security Auditing"
+    },
+    {
+      "source": "Resources/Philosophy/Absurdism (Camus)",
+      "target": "Resources/Mental Health & Psychology/The Role of Play in Adult Life"
+    },
+    {
+      "source": "Resources/Philosophy/Absurdism (Camus)",
+      "target": "Resources/Philosophy/Existentialism Basics (Sartre, Camus, Heidegger)"
+    },
+    {
+      "source": "Resources/Philosophy/Absurdism (Camus)",
+      "target": "Resources/Philosophy/Stoicism — Core Principles"
+    },
+    {
+      "source": "Resources/Philosophy/Effective Altruism — Ideas and Critiques",
+      "target": "Longtermism"
+    },
+    {
+      "source": "Resources/Philosophy/Effective Altruism — Ideas and Critiques",
+      "target": "Resources/Philosophy/AI Ethics — Alignment and Safety"
+    },
+    {
+      "source": "Resources/Philosophy/Effective Altruism — Ideas and Critiques",
+      "target": "Resources/Philosophy/Utilitarianism — Bentham and Mill"
+    },
+    {
+      "source": "Resources/Philosophy/Epistemology — How We Know Things",
+      "target": "Resources/Cognitive Science & Biases/Confirmation Bias"
+    },
+    {
+      "source": "Resources/Philosophy/Epistemology — How We Know Things",
+      "target": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know"
+    },
+    {
+      "source": "Resources/Philosophy/Epistemology — How We Know Things",
+      "target": "Resources/Philosophy/Philosophy of Science (Popper, Kuhn, Lakatos)"
+    },
+    {
+      "source": "Resources/Philosophy/Ethics — Consequentialism",
+      "target": "Resources/Learning & Memory/Second-Order Thinking"
+    },
+    {
+      "source": "Resources/Philosophy/Ethics — Consequentialism",
+      "target": "Resources/Philosophy/AI Ethics — Alignment and Safety"
+    },
+    {
+      "source": "Resources/Philosophy/Ethics — Consequentialism",
+      "target": "Resources/Philosophy/Utilitarianism — Bentham and Mill"
+    },
+    {
+      "source": "Resources/Philosophy/Ethics — Deontology (Kant's Categorical Imperative)",
+      "target": "Resources/Philosophy/AI Ethics — Bias, Fairness, and Accountability"
+    },
+    {
+      "source": "Resources/Philosophy/Ethics — Deontology (Kant's Categorical Imperative)",
+      "target": "Resources/Philosophy/Ethics — Consequentialism"
+    },
+    {
+      "source": "Resources/Philosophy/Ethics — Deontology (Kant's Categorical Imperative)",
+      "target": "Resources/Philosophy/Ethics — Virtue Ethics (Aristotle)"
+    },
+    {
+      "source": "Resources/Philosophy/Ethics — Virtue Ethics (Aristotle)",
+      "target": "Resources/Personal Productivity/Habit Stacking"
+    },
+    {
+      "source": "Resources/Philosophy/Ethics — Virtue Ethics (Aristotle)",
+      "target": "Resources/Philosophy/Ethics — Consequentialism"
+    },
+    {
+      "source": "Resources/Philosophy/Ethics — Virtue Ethics (Aristotle)",
+      "target": "Resources/Philosophy/Stoicism — Core Principles"
+    },
+    {
+      "source": "Resources/Philosophy/Existentialism Basics (Sartre, Camus, Heidegger)",
+      "target": "Resources/Personal Productivity/Intention Setting"
+    },
+    {
+      "source": "Resources/Philosophy/Existentialism Basics (Sartre, Camus, Heidegger)",
+      "target": "Resources/Philosophy/Absurdism (Camus)"
+    },
+    {
+      "source": "Resources/Philosophy/Existentialism Basics (Sartre, Camus, Heidegger)",
+      "target": "Resources/Philosophy/Personal Identity Over Time (Ship of Theseus)"
+    },
+    {
+      "source": "Resources/Philosophy/Falsifiability and the Demarcation Problem",
+      "target": "Resources/Data Science & Analytics/Hypothesis Testing"
+    },
+    {
+      "source": "Resources/Philosophy/Falsifiability and the Demarcation Problem",
+      "target": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know"
+    },
+    {
+      "source": "Resources/Philosophy/Falsifiability and the Demarcation Problem",
+      "target": "Resources/Philosophy/Philosophy of Science (Popper, Kuhn, Lakatos)"
+    },
+    {
+      "source": "Resources/Philosophy/Free Will — Compatibilism vs Hard Determinism",
+      "target": "Resources/Mental Health & Psychology/Learned Helplessness"
+    },
+    {
+      "source": "Resources/Philosophy/Free Will — Compatibilism vs Hard Determinism",
+      "target": "Resources/Mental Health & Psychology/Locus of Control (Internal vs External)"
+    },
+    {
+      "source": "Resources/Philosophy/Free Will — Compatibilism vs Hard Determinism",
+      "target": "Resources/Mental Health & Psychology/Neuroplasticity"
+    },
+    {
+      "source": "Resources/Philosophy/Hard Problem of Consciousness (Chalmers)",
+      "target": "Resources/Neuroscience/Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)"
+    },
+    {
+      "source": "Resources/Philosophy/Hard Problem of Consciousness (Chalmers)",
+      "target": "Resources/Philosophy/AI Ethics — Alignment and Safety"
+    },
+    {
+      "source": "Resources/Philosophy/Hard Problem of Consciousness (Chalmers)",
+      "target": "Resources/Philosophy/Philosophy of Mind — Consciousness"
+    },
+    {
+      "source": "Resources/Philosophy/Personal Identity Over Time (Ship of Theseus)",
+      "target": "Resources/Agent Memory"
+    },
+    {
+      "source": "Resources/Philosophy/Personal Identity Over Time (Ship of Theseus)",
+      "target": "Resources/Philosophy/Philosophy of Mind — Consciousness"
+    },
+    {
+      "source": "Resources/Philosophy/Personal Identity Over Time (Ship of Theseus)",
+      "target": "Resources/Vault Structure"
+    },
+    {
+      "source": "Resources/Philosophy/Philosophy of Language (Wittgenstein, Austin)",
+      "target": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals"
+    },
+    {
+      "source": "Resources/Philosophy/Philosophy of Language (Wittgenstein, Austin)",
+      "target": "Resources/Learning & Memory/Productive Disagreement"
+    },
+    {
+      "source": "Resources/Philosophy/Philosophy of Language (Wittgenstein, Austin)",
+      "target": "Resources/Programming Languages/DSL Design"
+    },
+    {
+      "source": "Resources/Philosophy/Philosophy of Mind — Consciousness",
+      "target": "Resources/Neuroscience/Brain Regions and Functions (Simplified Map)"
+    },
+    {
+      "source": "Resources/Philosophy/Philosophy of Mind — Consciousness",
+      "target": "Resources/Philosophy/AI Ethics — Alignment and Safety"
+    },
+    {
+      "source": "Resources/Philosophy/Philosophy of Mind — Consciousness",
+      "target": "Resources/Philosophy/Hard Problem of Consciousness (Chalmers)"
+    },
+    {
+      "source": "Resources/Philosophy/Philosophy of Science (Popper, Kuhn, Lakatos)",
+      "target": "Resources/Data Science & Analytics/Hypothesis Testing"
+    },
+    {
+      "source": "Resources/Philosophy/Philosophy of Science (Popper, Kuhn, Lakatos)",
+      "target": "Resources/Philosophy/Epistemology — How We Know Things"
+    },
+    {
+      "source": "Resources/Philosophy/Philosophy of Science (Popper, Kuhn, Lakatos)",
+      "target": "Resources/Philosophy/Falsifiability and the Demarcation Problem"
+    },
+    {
+      "source": "Resources/Philosophy/Pragmatism (Peirce, James, Dewey)",
+      "target": "Resources/Engineering Judgment and Tool Tradeoffs"
+    },
+    {
+      "source": "Resources/Philosophy/Pragmatism (Peirce, James, Dewey)",
+      "target": "Resources/Philosophy/Epistemology — How We Know Things"
+    },
+    {
+      "source": "Resources/Philosophy/Pragmatism (Peirce, James, Dewey)",
+      "target": "Resources/Product Engineering"
+    },
+    {
+      "source": "Resources/Philosophy/Rationalism vs Empiricism",
+      "target": "Resources/Cognitive Science & Biases/Inductive vs Deductive vs Abductive Reasoning"
+    },
+    {
+      "source": "Resources/Philosophy/Rationalism vs Empiricism",
+      "target": "Resources/Philosophy/Epistemology — How We Know Things"
+    },
+    {
+      "source": "Resources/Philosophy/Rationalism vs Empiricism",
+      "target": "Resources/Philosophy/Philosophy of Science (Popper, Kuhn, Lakatos)"
+    },
+    {
+      "source": "Resources/Philosophy/Solipsism and External World Skepticism",
+      "target": "Resources/Philosophy/Epistemology — How We Know Things"
+    },
+    {
+      "source": "Resources/Philosophy/Solipsism and External World Skepticism",
+      "target": "Resources/Philosophy/Rationalism vs Empiricism"
+    },
+    {
+      "source": "Resources/Philosophy/Solipsism and External World Skepticism",
+      "target": "The Simulation Hypothesis"
+    },
+    {
+      "source": "Resources/Philosophy/Stoicism vs Buddhism — Comparison",
+      "target": "Resources/Mental Health & Psychology/Emotional Regulation Techniques"
+    },
+    {
+      "source": "Resources/Philosophy/Stoicism vs Buddhism — Comparison",
+      "target": "Resources/Philosophy/Stoicism — Core Principles"
+    },
+    {
+      "source": "Resources/Philosophy/Stoicism vs Buddhism — Comparison",
+      "target": "Resources/Philosophy/Zen Buddhism Basics"
+    },
+    {
+      "source": "Resources/Philosophy/Stoicism — Core Principles",
+      "target": "Resources/Mental Health & Psychology/Locus of Control (Internal vs External)"
+    },
+    {
+      "source": "Resources/Philosophy/Stoicism — Core Principles",
+      "target": "Resources/Mental Health & Psychology/Stoicism Applied to Modern Life"
+    },
+    {
+      "source": "Resources/Philosophy/Stoicism — Core Principles",
+      "target": "Resources/Philosophy/Stoicism — Daily Practices (Negative Visualization, Memento Mori, Amor Fati)"
+    },
+    {
+      "source": "Resources/Philosophy/Stoicism — Daily Practices (Negative Visualization, Memento Mori, Amor Fati)",
+      "target": "Resources/Learning & Memory/Inversion Thinking"
+    },
+    {
+      "source": "Resources/Philosophy/Stoicism — Daily Practices (Negative Visualization, Memento Mori, Amor Fati)",
+      "target": "Resources/Personal Productivity/Evening Wind-Down Routines"
+    },
+    {
+      "source": "Resources/Philosophy/Stoicism — Daily Practices (Negative Visualization, Memento Mori, Amor Fati)",
+      "target": "Resources/Philosophy/Stoicism — Core Principles"
+    },
+    {
+      "source": "Resources/Philosophy/Taoism Key Concepts (Wu Wei, Yin-Yang)",
+      "target": "Resources/Learning & Memory/Systems Thinking"
+    },
+    {
+      "source": "Resources/Philosophy/Taoism Key Concepts (Wu Wei, Yin-Yang)",
+      "target": "Resources/Personal Productivity/Flow State — How to Trigger It"
+    },
+    {
+      "source": "Resources/Philosophy/Taoism Key Concepts (Wu Wei, Yin-Yang)",
+      "target": "Resources/Philosophy/Stoicism vs Buddhism — Comparison"
+    },
+    {
+      "source": "Resources/Philosophy/Utilitarianism — Bentham and Mill",
+      "target": "Resources/Philosophy/AI Ethics — Alignment and Safety"
+    },
+    {
+      "source": "Resources/Philosophy/Utilitarianism — Bentham and Mill",
+      "target": "Resources/Philosophy/Effective Altruism — Ideas and Critiques"
+    },
+    {
+      "source": "Resources/Philosophy/Utilitarianism — Bentham and Mill",
+      "target": "Resources/Philosophy/Ethics — Consequentialism"
+    },
+    {
+      "source": "Resources/Philosophy/Zen Buddhism Basics",
+      "target": "Resources/Mental Health & Psychology/Meditation Types and Benefits"
+    },
+    {
+      "source": "Resources/Philosophy/Zen Buddhism Basics",
+      "target": "Resources/Mental Health & Psychology/Mindfulness — Evidence and Practice"
+    },
+    {
+      "source": "Resources/Philosophy/Zen Buddhism Basics",
+      "target": "Resources/Philosophy/Stoicism vs Buddhism — Comparison"
+    },
+    {
       "source": "Resources/Process Reward Models",
       "target": "Resources/Agent Evaluation"
     },
@@ -18627,5 +19247,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-26T17:15:03Z"
+  "generated_at": "2026-05-26T17:20:59Z"
 }
