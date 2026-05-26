@@ -16,7 +16,7 @@ No app checks were run because this was an instruction/documentation-only change
 
 ### Commit
 
-Pending commit at log time.
+`b04e523` — docs: prioritize documentation freshness.
 
 ## 2026-05-26 — InstancedMesh performance optimization + invisible-nodes bug marathon (Claude Code, Sonnet 4.6)
 
