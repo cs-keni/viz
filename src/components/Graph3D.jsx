@@ -386,7 +386,7 @@ export default function Graph3D({ data }) {
   // Ensure auto-orbit is running once physics settles
   const onEngineStop = useCallback(() => {
     if (!hasZoomedToFitRef.current && fgRef.current) {
-      fgRef.current.zoomToFit(0, 160)
+      fgRef.current.zoomToFit(4000, 160)
       hasZoomedToFitRef.current = true
     }
     isAutoRotatingRef.current = true
