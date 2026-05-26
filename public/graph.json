@@ -153,24 +153,6 @@
       "degree": 2
     },
     {
-      "id": "Clustering Algorithms (K-Means, DBSCAN, Hierarchical)",
-      "label": "Clustering Algorithms (K-Means, DBSCAN, Hierarchical)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Confidence Intervals",
-      "label": "Confidence Intervals",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 3
-    },
-    {
       "id": "Container Security",
       "label": "Container Security",
       "folder": null,
@@ -358,15 +340,6 @@
         "career"
       ],
       "degree": 4
-    },
-    {
-      "id": "Metrics and KPIs — How to Choose",
-      "label": "Metrics and KPIs — How to Choose",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
     },
     {
       "id": "Note Title",
@@ -723,7 +696,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/AI & Machine Learning/Diffusion Models",
@@ -891,7 +864,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
@@ -1191,7 +1164,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 15
+      "degree": 17
     },
     {
       "id": "Resources/AI & Machine Learning/Vision-Language Models",
@@ -1410,7 +1383,7 @@
         "study",
         "systems"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Data Science & Analytics/A-B Testing Design",
@@ -1422,7 +1395,19 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 5
+      "degree": 9
+    },
+    {
+      "id": "Resources/Data Science & Analytics/Anomaly Detection Methods",
+      "label": "Anomaly Detection Methods",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Anomaly detection finds observations or patterns that differ meaningfully from expected behavior. Useful methods range from simple thresholds to statistical baselines, clustering, isolation forests, and time-series models.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/Data Science & Analytics/Bayesian Statistics",
@@ -1437,6 +1422,186 @@
       "degree": 7
     },
     {
+      "id": "Resources/Data Science & Analytics/Causal Inference (Correlation vs Causation)",
+      "label": "Causal Inference (Correlation vs Causation)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Causal inference asks whether an action or exposure caused an outcome, not merely whether two variables moved together. It uses experiments, assumptions, controls, and quasi-experimental methods to reason about cause and effect.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Data Science & Analytics/Clustering Algorithms (K-Means, DBSCAN, Hierarchical)",
+      "label": "Clustering Algorithms (K-Means, DBSCAN, Hierarchical)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Clustering groups unlabeled data points by similarity. K-means, DBSCAN, and hierarchical clustering each make different assumptions about cluster shape, density, and how many groups exist.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Data Science & Analytics/Cohort Analysis",
+      "label": "Cohort Analysis",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Cohort analysis groups users or entities by a shared start condition and tracks behavior over time. It is especially useful for retention, activation, lifecycle, and product-quality questions.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Data Science & Analytics/Confidence Intervals",
+      "label": "Confidence Intervals",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Confidence intervals estimate a plausible range for an unknown population value from sample data. They communicate uncertainty better than a single point estimate, but they are often misread as probabilities about one fixed interval.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Data Science & Analytics/Dashboard Design Principles",
+      "label": "Dashboard Design Principles",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Dashboard design organizes metrics so users can monitor status, diagnose changes, and act. Effective dashboards prioritize audience, metric definitions, hierarchy, freshness, comparisons, and drill-down paths.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Data Science & Analytics/Data Cleaning Strategies",
+      "label": "Data Cleaning Strategies",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Data cleaning turns messy, inconsistent, duplicated, or invalid data into a reliable analysis dataset. It is less glamorous than modeling but often determines whether conclusions are trustworthy.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 11
+    },
+    {
+      "id": "Resources/Data Science & Analytics/Data Lake Architecture",
+      "label": "Data Lake Architecture",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Data lake architecture stores raw and processed data in scalable object storage for analytics, ML, and archival use. Its value depends on metadata, governance, file formats, partitioning, and transformation discipline.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Data Science & Analytics/Data Normalization and Scaling",
+      "label": "Data Normalization and Scaling",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Data normalization and scaling transform numeric features into comparable ranges or distributions. They are essential for distance-based models, gradient-based optimization, and stable feature interpretation.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Data Science & Analytics/Data Warehousing Concepts",
+      "label": "Data Warehousing Concepts",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Data warehousing organizes cleaned, queryable data for analytics and reporting. Core concepts include facts, dimensions, star schemas, slowly changing dimensions, marts, lineage, and governance.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 10
+    },
+    {
+      "id": "Resources/Data Science & Analytics/Dimensionality Reduction (PCA, t-SNE, UMAP)",
+      "label": "Dimensionality Reduction (PCA, t-SNE, UMAP)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Dimensionality reduction compresses high-dimensional data into fewer dimensions for visualization, denoising, or modeling. PCA, t-SNE, and UMAP differ in whether they preserve global variance, local neighborhoods, or manifold structure.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Data Science & Analytics/ETL vs ELT",
+      "label": "ETL vs ELT",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "ETL transforms data before loading it into a target store, while ELT loads raw data first and transforms it inside the warehouse or lakehouse. The choice affects governance, cost, flexibility, and pipeline ownership.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 9
+    },
+    {
+      "id": "Resources/Data Science & Analytics/Feature Engineering",
+      "label": "Feature Engineering",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Feature engineering turns raw data into model inputs that expose useful signal. It often matters more than model choice because features encode domain knowledge, time context, aggregations, and constraints.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 11
+    },
+    {
+      "id": "Resources/Data Science & Analytics/Feature Selection Methods",
+      "label": "Feature Selection Methods",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Feature selection chooses which variables to keep for modeling. It improves interpretability, reduces noise, lowers cost, and can prevent overfitting when done with proper validation.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Data Science & Analytics/Funnel Analysis",
+      "label": "Funnel Analysis",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Funnel analysis measures how users move through a sequence of steps toward a goal. It identifies drop-off points, conversion rates, and where product or process changes may matter most.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Data Science & Analytics/Handling Missing Data",
+      "label": "Handling Missing Data",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Handling missing data means understanding why values are absent and choosing a treatment that preserves valid inference. Deletion, imputation, missingness indicators, and model-aware methods each carry assumptions.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 5
+    },
+    {
       "id": "Resources/Data Science & Analytics/Hypothesis Testing",
       "label": "Hypothesis Testing",
       "folder": "Resources",
@@ -1446,7 +1611,31 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 9
+      "degree": 13
+    },
+    {
+      "id": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose",
+      "label": "Metrics and KPIs — How to Choose",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Choosing metrics and KPIs means deciding what behavior the team should optimize and monitor. Strong metrics are aligned with goals, hard to game, clearly defined, and paired with guardrails.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 14
+    },
+    {
+      "id": "Resources/Data Science & Analytics/OLAP vs OLTP",
+      "label": "OLAP vs OLTP",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "OLTP systems handle live transactions, while OLAP systems support analytical queries over large historical datasets. Confusing the two leads to slow apps, expensive queries, and unreliable reporting.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 5
     },
     {
       "id": "Resources/Data Science & Analytics/P-values and Statistical Significance",
@@ -1458,7 +1647,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Data Science & Analytics/Probability Theory Basics",
@@ -1473,6 +1662,42 @@
       "degree": 7
     },
     {
+      "id": "Resources/Data Science & Analytics/Regression Analysis (Linear, Logistic, Polynomial)",
+      "label": "Regression Analysis (Linear, Logistic, Polynomial)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Regression analysis models relationships between inputs and an outcome. Linear, logistic, and polynomial regression are foundational tools for prediction, explanation, and estimating effects with assumptions.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Data Science & Analytics/SQL Window Functions",
+      "label": "SQL Window Functions",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "SQL window functions compute values across related rows without collapsing the result set. They are essential for rankings, running totals, moving averages, retention analysis, and event-sequence queries.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Data Science & Analytics/SQL for Analytics",
+      "label": "SQL for Analytics",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "SQL for analytics uses relational queries to answer business, product, and operational questions. The practical skill is joining, filtering, grouping, aggregating, and validating data without losing the meaning of the metric.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 6
+    },
+    {
       "id": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)",
       "label": "Statistics Fundamentals (Mean, Median, Mode, Std Dev)",
       "folder": "Resources",
@@ -1482,7 +1707,55 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 8
+      "degree": 9
+    },
+    {
+      "id": "Resources/Data Science & Analytics/Survival Analysis",
+      "label": "Survival Analysis",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Survival analysis models time until an event occurs, such as churn, failure, conversion, or relapse. It handles censored data where the event has not happened yet during the observation window.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Data Science & Analytics/Time Series Analysis",
+      "label": "Time Series Analysis",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Time series analysis studies data ordered over time, such as metrics, demand, latency, or prices. It focuses on trend, seasonality, autocorrelation, forecasting, and anomaly detection.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 10
+    },
+    {
+      "id": "Resources/Data Science & Analytics/Visualization Best Practices",
+      "label": "Visualization Best Practices",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "Visualization best practices help charts communicate patterns without distorting the data. Good visualizations choose the right chart type, scale, labeling, ordering, color, and context for the question.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Data Science & Analytics/dbt (Data Build Tool)",
+      "label": "dbt (Data Build Tool)",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "dbt is a transformation tool that lets analytics teams build versioned, tested SQL models in the warehouse. It brings software engineering practices such as modularity, lineage, documentation, and CI to analytics work.",
+      "tags": [
+        "resource",
+        "data-science-analytics"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/Data Structures and Algorithms Patterns",
@@ -1728,7 +2001,7 @@
         "system-design",
         "bobby"
       ],
-      "degree": 23
+      "degree": 24
     },
     {
       "id": "Resources/Mechanistic Interpretability",
@@ -1836,7 +2109,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 14
+      "degree": 17
     },
     {
       "id": "Resources/Observability Case Studies",
@@ -2802,7 +3075,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Resources/System Design/Database Sharding",
@@ -3248,7 +3521,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "Security Headers (CSP, HSTS, X-Frame-Options)",
@@ -3276,15 +3549,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 2
-    },
-    {
-      "id": "Time Series Analysis",
-      "label": "Time Series Analysis",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
     },
     {
       "id": "User Stories and Jobs to Be Done",
@@ -3823,10 +4087,6 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics",
-      "target": "Clustering Algorithms (K-Means, DBSCAN, Hierarchical)"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics",
       "target": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)"
     },
     {
@@ -3836,6 +4096,10 @@
     {
       "source": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics",
       "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics",
+      "target": "Resources/Data Science & Analytics/Clustering Algorithms (K-Means, DBSCAN, Hierarchical)"
     },
     {
       "source": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics",
@@ -4339,7 +4603,7 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Recurrent Neural Networks (RNNs)",
-      "target": "Time Series Analysis"
+      "target": "Resources/Data Science & Analytics/Time Series Analysis"
     },
     {
       "source": "Resources/AI & Machine Learning/Regularization (L1, L2, Dropout, Early Stopping)",
@@ -4823,10 +5087,6 @@
     },
     {
       "source": "Resources/Data Science & Analytics/A-B Testing Design",
-      "target": "Metrics and KPIs — How to Choose"
-    },
-    {
-      "source": "Resources/Data Science & Analytics/A-B Testing Design",
       "target": "Product Analytics Fundamentals"
     },
     {
@@ -4835,11 +5095,31 @@
     },
     {
       "source": "Resources/Data Science & Analytics/A-B Testing Design",
+      "target": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/A-B Testing Design",
       "target": "Resources/Data Science & Analytics/P-values and Statistical Significance"
     },
     {
       "source": "Resources/Data Science & Analytics/A-B Testing Design",
       "target": "Resources/System Design/Design a Recommendation System"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Anomaly Detection Methods",
+      "target": "Resources/Data Science & Analytics/Data Cleaning Strategies"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Anomaly Detection Methods",
+      "target": "Resources/Data Science & Analytics/Time Series Analysis"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Anomaly Detection Methods",
+      "target": "Resources/Observability"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Anomaly Detection Methods",
+      "target": "Security Auditing"
     },
     {
       "source": "Resources/Data Science & Analytics/Bayesian Statistics",
@@ -4862,16 +5142,256 @@
       "target": "Resources/Data Science & Analytics/Probability Theory Basics"
     },
     {
+      "source": "Resources/Data Science & Analytics/Causal Inference (Correlation vs Causation)",
+      "target": "Resources/Data Science & Analytics/A-B Testing Design"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Causal Inference (Correlation vs Causation)",
+      "target": "Resources/Data Science & Analytics/Hypothesis Testing"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Causal Inference (Correlation vs Causation)",
+      "target": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Causal Inference (Correlation vs Causation)",
+      "target": "Resources/Data Science & Analytics/Regression Analysis (Linear, Logistic, Polynomial)"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Clustering Algorithms (K-Means, DBSCAN, Hierarchical)",
+      "target": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Clustering Algorithms (K-Means, DBSCAN, Hierarchical)",
+      "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Clustering Algorithms (K-Means, DBSCAN, Hierarchical)",
+      "target": "Resources/Data Science & Analytics/Dimensionality Reduction (PCA, t-SNE, UMAP)"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Clustering Algorithms (K-Means, DBSCAN, Hierarchical)",
+      "target": "Resources/Data Science & Analytics/Feature Engineering"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Cohort Analysis",
+      "target": "Resources/Data Science & Analytics/Funnel Analysis"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Cohort Analysis",
+      "target": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Cohort Analysis",
+      "target": "Resources/Data Science & Analytics/SQL Window Functions"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Cohort Analysis",
+      "target": "Resources/Data Science & Analytics/Survival Analysis"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Confidence Intervals",
+      "target": "Resources/Data Science & Analytics/A-B Testing Design"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Confidence Intervals",
+      "target": "Resources/Data Science & Analytics/Hypothesis Testing"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Confidence Intervals",
+      "target": "Resources/Data Science & Analytics/P-values and Statistical Significance"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Confidence Intervals",
+      "target": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Dashboard Design Principles",
+      "target": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Dashboard Design Principles",
+      "target": "Resources/Data Science & Analytics/Time Series Analysis"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Dashboard Design Principles",
+      "target": "Resources/Data Science & Analytics/Visualization Best Practices"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Dashboard Design Principles",
+      "target": "Resources/Observability"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Data Cleaning Strategies",
+      "target": "Resources/Data Science & Analytics/Anomaly Detection Methods"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Data Cleaning Strategies",
+      "target": "Resources/Data Science & Analytics/Data Normalization and Scaling"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Data Cleaning Strategies",
+      "target": "Resources/Data Science & Analytics/ETL vs ELT"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Data Cleaning Strategies",
+      "target": "Resources/Data Science & Analytics/Handling Missing Data"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Data Lake Architecture",
+      "target": "Resources/Data Engineering"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Data Lake Architecture",
+      "target": "Resources/Data Science & Analytics/Data Warehousing Concepts"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Data Lake Architecture",
+      "target": "Resources/Data Science & Analytics/ETL vs ELT"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Data Lake Architecture",
+      "target": "Resources/Data Science & Analytics/Feature Engineering"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Data Normalization and Scaling",
+      "target": "Resources/Data Science & Analytics/Clustering Algorithms (K-Means, DBSCAN, Hierarchical)"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Data Normalization and Scaling",
+      "target": "Resources/Data Science & Analytics/Data Cleaning Strategies"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Data Normalization and Scaling",
+      "target": "Resources/Data Science & Analytics/Feature Engineering"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Data Normalization and Scaling",
+      "target": "Resources/Data Science & Analytics/Regression Analysis (Linear, Logistic, Polynomial)"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Data Warehousing Concepts",
+      "target": "Resources/Data Science & Analytics/Data Lake Architecture"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Data Warehousing Concepts",
+      "target": "Resources/Data Science & Analytics/ETL vs ELT"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Data Warehousing Concepts",
+      "target": "Resources/Data Science & Analytics/OLAP vs OLTP"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Data Warehousing Concepts",
+      "target": "Resources/Data Science & Analytics/dbt (Data Build Tool)"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Dimensionality Reduction (PCA, t-SNE, UMAP)",
+      "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Dimensionality Reduction (PCA, t-SNE, UMAP)",
+      "target": "Resources/Data Science & Analytics/Clustering Algorithms (K-Means, DBSCAN, Hierarchical)"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Dimensionality Reduction (PCA, t-SNE, UMAP)",
+      "target": "Resources/Data Science & Analytics/Feature Engineering"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Dimensionality Reduction (PCA, t-SNE, UMAP)",
+      "target": "Resources/Data Science & Analytics/Visualization Best Practices"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/ETL vs ELT",
+      "target": "Resources/Data Science & Analytics/Data Cleaning Strategies"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/ETL vs ELT",
+      "target": "Resources/Data Science & Analytics/Data Lake Architecture"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/ETL vs ELT",
+      "target": "Resources/Data Science & Analytics/Data Warehousing Concepts"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/ETL vs ELT",
+      "target": "Resources/Data Science & Analytics/dbt (Data Build Tool)"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Feature Engineering",
+      "target": "Resources/Data Science & Analytics/Data Cleaning Strategies"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Feature Engineering",
+      "target": "Resources/Data Science & Analytics/Data Normalization and Scaling"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Feature Engineering",
+      "target": "Resources/Data Science & Analytics/Feature Selection Methods"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Feature Engineering",
+      "target": "Resources/MLOps and ML Engineering"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Feature Selection Methods",
+      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Feature Selection Methods",
+      "target": "Resources/Data Science & Analytics/Data Cleaning Strategies"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Feature Selection Methods",
+      "target": "Resources/Data Science & Analytics/Feature Engineering"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Feature Selection Methods",
+      "target": "Resources/Data Science & Analytics/Regression Analysis (Linear, Logistic, Polynomial)"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Funnel Analysis",
+      "target": "Resources/Data Science & Analytics/A-B Testing Design"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Funnel Analysis",
+      "target": "Resources/Data Science & Analytics/Cohort Analysis"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Funnel Analysis",
+      "target": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Funnel Analysis",
+      "target": "Resources/Data Science & Analytics/SQL Window Functions"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Handling Missing Data",
+      "target": "Resources/Data Science & Analytics/Data Cleaning Strategies"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Handling Missing Data",
+      "target": "Resources/Data Science & Analytics/Data Warehousing Concepts"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Handling Missing Data",
+      "target": "Resources/Data Science & Analytics/Feature Engineering"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Handling Missing Data",
+      "target": "Resources/Data Science & Analytics/Hypothesis Testing"
+    },
+    {
       "source": "Resources/Data Science & Analytics/Hypothesis Testing",
       "target": "A/B Testing Design"
     },
     {
       "source": "Resources/Data Science & Analytics/Hypothesis Testing",
-      "target": "Confidence Intervals"
+      "target": "Product Analytics Fundamentals"
     },
     {
       "source": "Resources/Data Science & Analytics/Hypothesis Testing",
-      "target": "Product Analytics Fundamentals"
+      "target": "Resources/Data Science & Analytics/Confidence Intervals"
     },
     {
       "source": "Resources/Data Science & Analytics/Hypothesis Testing",
@@ -4882,16 +5402,48 @@
       "target": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)"
     },
     {
+      "source": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose",
+      "target": "Resources/Data Science & Analytics/A-B Testing Design"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose",
+      "target": "Resources/Data Science & Analytics/Cohort Analysis"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose",
+      "target": "Resources/Data Science & Analytics/Dashboard Design Principles"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose",
+      "target": "Resources/Data Science & Analytics/Funnel Analysis"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/OLAP vs OLTP",
+      "target": "Resources/Data Science & Analytics/Data Lake Architecture"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/OLAP vs OLTP",
+      "target": "Resources/Data Science & Analytics/Data Warehousing Concepts"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/OLAP vs OLTP",
+      "target": "Resources/Data Science & Analytics/ETL vs ELT"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/OLAP vs OLTP",
+      "target": "Resources/System Design/Database Replication"
+    },
+    {
       "source": "Resources/Data Science & Analytics/P-values and Statistical Significance",
       "target": "A/B Testing Design"
     },
     {
       "source": "Resources/Data Science & Analytics/P-values and Statistical Significance",
-      "target": "Confidence Intervals"
+      "target": "Resources/Data Science & Analytics/Bayesian Statistics"
     },
     {
       "source": "Resources/Data Science & Analytics/P-values and Statistical Significance",
-      "target": "Resources/Data Science & Analytics/Bayesian Statistics"
+      "target": "Resources/Data Science & Analytics/Confidence Intervals"
     },
     {
       "source": "Resources/Data Science & Analytics/P-values and Statistical Significance",
@@ -4922,12 +5474,60 @@
       "target": "Resources/MLOps and ML Engineering"
     },
     {
-      "source": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)",
-      "target": "Confidence Intervals"
+      "source": "Resources/Data Science & Analytics/Regression Analysis (Linear, Logistic, Polynomial)",
+      "target": "Resources/Data Science & Analytics/Causal Inference (Correlation vs Causation)"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Regression Analysis (Linear, Logistic, Polynomial)",
+      "target": "Resources/Data Science & Analytics/Data Normalization and Scaling"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Regression Analysis (Linear, Logistic, Polynomial)",
+      "target": "Resources/Data Science & Analytics/Feature Engineering"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Regression Analysis (Linear, Logistic, Polynomial)",
+      "target": "Resources/Data Science & Analytics/Feature Selection Methods"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/SQL Window Functions",
+      "target": "Resources/Data Science & Analytics/Cohort Analysis"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/SQL Window Functions",
+      "target": "Resources/Data Science & Analytics/Funnel Analysis"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/SQL Window Functions",
+      "target": "Resources/Data Science & Analytics/SQL for Analytics"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/SQL Window Functions",
+      "target": "Resources/Data Science & Analytics/Time Series Analysis"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/SQL for Analytics",
+      "target": "Resources/Data Science & Analytics/Dashboard Design Principles"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/SQL for Analytics",
+      "target": "Resources/Data Science & Analytics/Data Warehousing Concepts"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/SQL for Analytics",
+      "target": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/SQL for Analytics",
+      "target": "Resources/Data Science & Analytics/SQL Window Functions"
     },
     {
       "source": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)",
-      "target": "Metrics and KPIs — How to Choose"
+      "target": "Resources/Data Science & Analytics/Confidence Intervals"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)",
+      "target": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose"
     },
     {
       "source": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)",
@@ -4940,6 +5540,70 @@
     {
       "source": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)",
       "target": "Resources/Observability"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Survival Analysis",
+      "target": "Resources/Data Science & Analytics/Cohort Analysis"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Survival Analysis",
+      "target": "Resources/Data Science & Analytics/Hypothesis Testing"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Survival Analysis",
+      "target": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Survival Analysis",
+      "target": "Resources/Data Science & Analytics/Time Series Analysis"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Time Series Analysis",
+      "target": "Resources/Data Science & Analytics/Anomaly Detection Methods"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Time Series Analysis",
+      "target": "Resources/Data Science & Analytics/Dashboard Design Principles"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Time Series Analysis",
+      "target": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Time Series Analysis",
+      "target": "Resources/Observability"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Visualization Best Practices",
+      "target": "Resources/Data Science & Analytics/Dashboard Design Principles"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Visualization Best Practices",
+      "target": "Resources/Data Science & Analytics/Dimensionality Reduction (PCA, t-SNE, UMAP)"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Visualization Best Practices",
+      "target": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Visualization Best Practices",
+      "target": "Resources/Data Science & Analytics/Time Series Analysis"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/dbt (Data Build Tool)",
+      "target": "Resources/Data Science & Analytics/Data Cleaning Strategies"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/dbt (Data Build Tool)",
+      "target": "Resources/Data Science & Analytics/Data Warehousing Concepts"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/dbt (Data Build Tool)",
+      "target": "Resources/Data Science & Analytics/ETL vs ELT"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/dbt (Data Build Tool)",
+      "target": "Resources/Data Science & Analytics/SQL for Analytics"
     },
     {
       "source": "Resources/Data Structures and Algorithms Patterns",
@@ -7474,5 +8138,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-25T19:40:42Z"
+  "generated_at": "2026-05-26T00:01:00Z"
 }
