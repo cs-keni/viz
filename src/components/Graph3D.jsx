@@ -384,16 +384,12 @@ export default function Graph3D({ data }) {
   }, [])
 
   // Ensure auto-orbit is running once physics settles
-  const ZOOM_DURATION = 6000
   const onEngineStop = useCallback(() => {
     if (!hasZoomedToFitRef.current && fgRef.current) {
-      fgRef.current.zoomToFit(ZOOM_DURATION, 160)
+      fgRef.current.zoomToFit(0, 160)
       hasZoomedToFitRef.current = true
-      // Delay orbit until zoom animation finishes — orbit's applyAxisAngle fights the TWEEN otherwise
-      setTimeout(() => { isAutoRotatingRef.current = true }, ZOOM_DURATION)
-    } else {
-      isAutoRotatingRef.current = true
     }
+    isAutoRotatingRef.current = true
   }, [])
 
   const nodeThreeObject = useCallback((node) => {
