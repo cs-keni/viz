@@ -10,6 +10,15 @@
       "degree": 3
     },
     {
+      "id": "AI & Machine Learning/Neural Network Fundamentals",
+      "label": "Neural Network Fundamentals",
+      "folder": "AI & Machine Learning",
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Areas/Dev Setup",
       "label": "Dev Setup",
       "folder": "Areas",
@@ -21,7 +30,7 @@
         "environment",
         "wsl2"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Areas/Gaming",
@@ -33,7 +42,7 @@
         "area",
         "gaming"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Areas/Job Search",
@@ -124,6 +133,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 2
+    },
+    {
+      "id": "Computer Architecture",
+      "label": "Computer Architecture",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "Daily Notes/2026-05-19",
@@ -237,6 +255,24 @@
       "degree": 1
     },
     {
+      "id": "History of Video Game Consoles",
+      "label": "History of Video Game Consoles",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "History of the Web (Web 1.0 → 2.0 → 3.0)",
+      "label": "History of the Web (Web 1.0 → 2.0 → 3.0)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "How to Update Beliefs Gracefully (Bayesian Updating)",
       "label": "How to Update Beliefs Gracefully (Bayesian Updating)",
       "folder": null,
@@ -257,15 +293,6 @@
     {
       "id": "Instructional Design",
       "label": "Instructional Design",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Longtermism",
-      "label": "Longtermism",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -1052,7 +1079,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)",
@@ -1112,7 +1139,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 20
+      "degree": 21
     },
     {
       "id": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)",
@@ -1733,7 +1760,7 @@
         "study",
         "systems"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Cloud Networking",
@@ -1759,7 +1786,7 @@
         "study",
         "systems"
       ],
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "Resources/Cognitive Science & Biases/Anchoring Bias",
@@ -2059,7 +2086,7 @@
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/DSA Practice",
@@ -3031,7 +3058,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/DevOps & Infrastructure/Postmortem Writing",
@@ -3249,7 +3276,7 @@
         "study",
         "ai"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Formal Methods Agent Safety",
@@ -3579,6 +3606,258 @@
       "degree": 6
     },
     {
+      "id": "Resources/History of Technology/Bell Labs and Its Innovations",
+      "label": "Bell Labs and Its Innovations",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Bell Labs was one of the most productive industrial research labs in history, contributing the transistor, information theory, Unix, C, lasers, cellular concepts, and major physics discoveries. It shows what long-horizon research institutions can produce.",
+      "tags": [
+        "resource",
+        "history-of-technology"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/History of Technology/History of Artificial Intelligence (1950s-Present)",
+      "label": "History of Artificial Intelligence (1950s-Present)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "AI history moves through symbolic AI, expert systems, AI winters, statistical machine learning, deep learning, transformers, and foundation models. The field repeatedly cycles between ambition, disappointment, new methods, and scale.",
+      "tags": [
+        "resource",
+        "history-of-technology"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/History of Technology/History of Cloud Computing",
+      "label": "History of Cloud Computing",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Cloud computing evolved from time-sharing, virtualization, hosting, and utility computing into on-demand infrastructure, platforms, serverless, managed databases, and global developer services. AWS popularized the modern cloud model.",
+      "tags": [
+        "resource",
+        "history-of-technology"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/History of Technology/History of Cryptography",
+      "label": "History of Cryptography",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Cryptography evolved from hand ciphers and wartime codebreaking into public-key systems, internet security, digital signatures, cryptocurrencies, and privacy-preserving protocols. Its history tracks the tension between secrecy, trust, commerce, and state power.",
+      "tags": [
+        "resource",
+        "history-of-technology"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/History of Technology/History of Mobile Computing",
+      "label": "History of Mobile Computing",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Mobile computing developed through laptops, PDAs, cellular networks, BlackBerry-style messaging, smartphones, app stores, and sensor-rich always-connected devices. It changed software around location, cameras, notifications, and constant presence.",
+      "tags": [
+        "resource",
+        "history-of-technology"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/History of Technology/History of Open Source",
+      "label": "History of Open Source",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Open source grew from academic and hacker sharing cultures into a dominant software production model. It includes free software ideals, pragmatic open-source licensing, Linux, Apache, Git, GitHub, and modern dependency ecosystems.",
+      "tags": [
+        "resource",
+        "history-of-technology"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/History of Technology/History of Personal Computing (Altair to iPhone)",
+      "label": "History of Personal Computing (Altair to iPhone)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Personal computing moved computers from institutions to individuals through hobbyist kits, Apple, IBM PCs, GUIs, laptops, the internet, and smartphones. The iPhone completed a shift toward always-connected pocket computing.",
+      "tags": [
+        "resource",
+        "history-of-technology"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/History of Technology/History of Programming Languages",
+      "label": "History of Programming Languages",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Programming languages evolved from machine code and assembly into high-level, structured, object-oriented, functional, scripting, systems, and domain-specific languages. Each generation traded control, safety, expressiveness, performance, and developer speed differently.",
+      "tags": [
+        "resource",
+        "history-of-technology"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/History of Technology/History of Search Engines",
+      "label": "History of Search Engines",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Search engines evolved from human directories and early crawlers into ranking systems, ad platforms, vertical search, semantic search, and AI-assisted retrieval. The key shift was from indexing pages to ranking relevance at web scale.",
+      "tags": [
+        "resource",
+        "history-of-technology"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/History of Technology/History of Social Media",
+      "label": "History of Social Media",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Social media evolved from forums, blogs, and early networks into algorithmic feeds, creator economies, messaging platforms, and attention markets. Its history is also a history of identity, virality, moderation, and surveillance advertising.",
+      "tags": [
+        "resource",
+        "history-of-technology"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/History of Technology/History of Video Games",
+      "label": "History of Video Games",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Video game history runs from arcade experiments and home consoles through PC gaming, 3D graphics, online play, mobile games, esports, streaming, and live-service economies. It is both technology history and culture history.",
+      "tags": [
+        "resource",
+        "history-of-technology"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/History of Technology/History of the Internet (ARPANET to Web3)",
+      "label": "History of the Internet (ARPANET to Web3)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The internet evolved from packet-switching research and ARPANET into a global network built on TCP/IP, DNS, email, the web, broadband, mobile, cloud, and newer decentralization claims. Its history is a story of open protocols, institutions, commercialization, and power shifts.",
+      "tags": [
+        "resource",
+        "history-of-technology"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/History of Technology/History of the Transistor and Integrated Circuit",
+      "label": "History of the Transistor and Integrated Circuit",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The transistor replaced vacuum tubes and made modern electronics possible, while the integrated circuit packed many components onto one chip. Together they enabled computing, consumer electronics, telecommunications, and Moore's Law scaling.",
+      "tags": [
+        "resource",
+        "history-of-technology"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/History of Technology/History of the Web (Web 1.0 to 2.0 to 3.0)",
+      "label": "History of the Web (Web 1.0 to 2.0 to 3.0)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The web evolved from linked documents into interactive platforms, social applications, cloud-backed SaaS, and contested Web3 decentralization narratives. Its history is distinct from the internet: the web is one application layer built on internet protocols.",
+      "tags": [
+        "resource",
+        "history-of-technology"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/History of Technology/Moore's Law — History and Decline",
+      "label": "Moore's Law — History and Decline",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Moore's Law described the repeated doubling of transistor density, driving decades of cheaper and faster computing. Its slowing has shifted progress toward specialization, parallelism, chiplets, accelerators, and software efficiency.",
+      "tags": [
+        "resource",
+        "history-of-technology"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/History of Technology/Rise of the Smartphone (The iPhone Moment)",
+      "label": "Rise of the Smartphone (The iPhone Moment)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The smartphone rose from earlier mobile phones, PDAs, BlackBerry, and touch devices, but the iPhone crystallized a new model: multitouch, full web, sensors, app ecosystem, and pocket computing as daily infrastructure.",
+      "tags": [
+        "resource",
+        "history-of-technology"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/History of Technology/The Browser Wars",
+      "label": "The Browser Wars",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The browser wars were battles over the web's main user interface, from Netscape vs Internet Explorer to later competition involving Firefox, Chrome, Safari, and Edge. They shaped standards, performance, security, and platform power.",
+      "tags": [
+        "resource",
+        "history-of-technology"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/History of Technology/The Dotcom Boom and Bust",
+      "label": "The Dotcom Boom and Bust",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The dotcom boom and bust was a late-1990s internet investment bubble followed by a crash, but the underlying infrastructure and user behavior kept growing. It is a classic case of real technology plus unsustainable speculation.",
+      "tags": [
+        "resource",
+        "history-of-technology"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/History of Technology/The Homebrew Computer Club",
+      "label": "The Homebrew Computer Club",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Homebrew Computer Club was a Silicon Valley hobbyist community that helped launch personal computing culture. It connected hardware tinkerers, software enthusiasts, and early entrepreneurs, including Apple founders.",
+      "tags": [
+        "resource",
+        "history-of-technology"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/History of Technology/The Open Source Movement (Linux, GNU, Apache)",
+      "label": "The Open Source Movement (Linux, GNU, Apache)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The open source movement blends free software ideals with practical collaborative development. GNU, Linux, Apache, BSD, and later GitHub made open infrastructure central to modern computing.",
+      "tags": [
+        "resource",
+        "history-of-technology"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/History of Technology/Xerox PARC — Ideas That Changed Computing",
+      "label": "Xerox PARC — Ideas That Changed Computing",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Xerox PARC pioneered or refined key personal-computing ideas: graphical interfaces, Ethernet, laser printing, object-oriented environments, WYSIWYG editing, and networked workstations. Its story is also a lesson in invention versus commercialization.",
+      "tags": [
+        "resource",
+        "history-of-technology"
+      ],
+      "degree": 4
+    },
+    {
       "id": "Resources/IaaS PaaS SaaS",
       "label": "IaaS PaaS SaaS",
       "folder": "Resources",
@@ -3589,7 +3868,7 @@
         "study",
         "systems"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Interview Communication",
@@ -3633,7 +3912,7 @@
         "philosophy",
         "engineering"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/LLM System Design",
@@ -4145,7 +4424,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Mathematics/Lagrange Multipliers",
@@ -4422,7 +4701,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Mental Health & Psychology/Grief and Loss — Stages and Modern Research",
@@ -4650,7 +4929,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Message Queues",
@@ -4704,7 +4983,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Resources/Neuroscience/Amygdala and Emotional Processing",
@@ -5504,7 +5783,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 8
+      "degree": 11
     },
     {
       "id": "Resources/Personal Productivity/Obsidian Workflow Design",
@@ -5649,7 +5928,7 @@
         "philosophy",
         "ai"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Philosophy/AI Ethics — Bias, Fairness, and Accountability",
@@ -5662,7 +5941,7 @@
         "philosophy",
         "ai"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Philosophy/Absurdism (Camus)",
@@ -5686,7 +5965,7 @@
         "resource",
         "philosophy"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Philosophy/Epistemology — How We Know Things",
@@ -5698,7 +5977,7 @@
         "resource",
         "philosophy"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Philosophy/Ethics — Consequentialism",
@@ -5710,7 +5989,7 @@
         "resource",
         "philosophy"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Philosophy/Ethics — Deontology (Kant's Categorical Imperative)",
@@ -5722,7 +6001,7 @@
         "resource",
         "philosophy"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Philosophy/Ethics — Virtue Ethics (Aristotle)",
@@ -5785,6 +6064,30 @@
       "degree": 4
     },
     {
+      "id": "Resources/Philosophy/Longtermism",
+      "label": "Longtermism",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Longtermism is the view that positively influencing the long-run future is a major moral priority because future people may be vast in number. Its critiques focus on uncertainty, power, neglect of present harms, and speculative reasoning.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Philosophy/Moral Realism vs Anti-Realism",
+      "label": "Moral Realism vs Anti-Realism",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Moral realism says moral truths exist independently of our attitudes, while moral anti-realism denies or reinterprets that independence. The debate shapes whether ethics is discovered, constructed, expressed, or negotiated.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 3
+    },
+    {
       "id": "Resources/Philosophy/Personal Identity Over Time (Ship of Theseus)",
       "label": "Personal Identity Over Time (Ship of Theseus)",
       "folder": "Resources",
@@ -5794,7 +6097,7 @@
         "resource",
         "philosophy"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Philosophy/Philosophy of Language (Wittgenstein, Austin)",
@@ -5818,7 +6121,7 @@
         "resource",
         "philosophy"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Philosophy/Philosophy of Science (Popper, Kuhn, Lakatos)",
@@ -5831,6 +6134,18 @@
         "philosophy"
       ],
       "degree": 6
+    },
+    {
+      "id": "Resources/Philosophy/Philosophy of Time — A-Theory vs B-Theory",
+      "label": "Philosophy of Time — A-Theory vs B-Theory",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Philosophy of time asks whether past, present, and future are objectively different or equally real. A-theory treats the present as special, while B-theory treats time as an ordered relation without objective passage.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 3
     },
     {
       "id": "Resources/Philosophy/Pragmatism (Peirce, James, Dewey)",
@@ -5866,7 +6181,7 @@
         "resource",
         "philosophy"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Philosophy/Stoicism vs Buddhism — Comparison",
@@ -5915,6 +6230,18 @@
         "philosophy"
       ],
       "degree": 3
+    },
+    {
+      "id": "Resources/Philosophy/The Simulation Hypothesis",
+      "label": "The Simulation Hypothesis",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The simulation hypothesis argues that our experienced reality could be generated by a more fundamental computational system. It modernizes skepticism with computing language, but remains difficult to test.",
+      "tags": [
+        "resource",
+        "philosophy"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Philosophy/Utilitarianism — Bentham and Mill",
@@ -5966,7 +6293,7 @@
         "startups",
         "projects"
       ],
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Resources/Programming Languages",
@@ -5978,7 +6305,7 @@
         "resource",
         "study"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Programming Languages/C — Memory Management and Pointers",
@@ -6002,7 +6329,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Programming Languages/Concurrency Primitives (Mutex, Semaphore, Condition Variable)",
@@ -6182,7 +6509,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Programming Languages/Memory Models and Happens-Before Ordering",
@@ -6422,7 +6749,7 @@
         "resource",
         "bobby"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/RLHF and Alignment",
@@ -6505,7 +6832,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Security",
@@ -6627,7 +6954,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Security & Privacy/End-to-End Encryption",
@@ -6639,7 +6966,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Security & Privacy/JWT — Structure, Signing, and Security",
@@ -6759,7 +7086,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Security & Privacy/SQL Injection — Prevention",
@@ -6843,7 +7170,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 11
+      "degree": 13
     },
     {
       "id": "Resources/Security & Privacy/Threat Modeling (STRIDE)",
@@ -7026,7 +7353,7 @@
         "resource",
         "sleep-science"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Sleep Science/Sleep Deprivation — Cognitive and Physical Effects",
@@ -7592,7 +7919,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Software Engineering/OpenAPI and API Documentation",
@@ -7724,7 +8051,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Software Engineering/Trunk-Based Development",
@@ -8502,7 +8829,7 @@
         "resource",
         "web-technologies"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Web Technologies/Next.js App Router Architecture",
@@ -8618,7 +8945,7 @@
         "web-technologies",
         "css"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/Web Technologies/SEO Fundamentals",
@@ -8680,7 +9007,7 @@
         "resource",
         "web-technologies"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Web Technologies/Web Performance Optimization",
@@ -8760,6 +9087,15 @@
       "degree": 3
     },
     {
+      "id": "Special Relativity — Key Ideas (Time Dilation, Length Contraction)",
+      "label": "Special Relativity — Key Ideas (Time Dilation, Length Contraction)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Startup",
       "label": "Startup",
       "folder": null,
@@ -8796,8 +9132,8 @@
       "degree": 1
     },
     {
-      "id": "The Simulation Hypothesis",
-      "label": "The Simulation Hypothesis",
+      "id": "The Age of Surveillance Capitalism",
+      "label": "The Age of Surveillance Capitalism",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -8821,6 +9157,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 5
+    },
+    {
+      "id": "Web Technologies/How Browsers Work (Parsing, Rendering, Compositing)",
+      "label": "How Browsers Work (Parsing, Rendering, Compositing)",
+      "folder": "Web Technologies",
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "Writing Good Documentation",
@@ -12975,6 +13320,258 @@
       "target": "Resources/Health & Fitness/VO2 Max — What It Is and How to Improve It"
     },
     {
+      "source": "Resources/History of Technology/Bell Labs and Its Innovations",
+      "target": "Resources/History of Technology/History of the Transistor and Integrated Circuit"
+    },
+    {
+      "source": "Resources/History of Technology/Bell Labs and Its Innovations",
+      "target": "Resources/Mathematics/Information Theory — Entropy, Cross-Entropy, KL Divergence"
+    },
+    {
+      "source": "Resources/History of Technology/Bell Labs and Its Innovations",
+      "target": "Resources/Software Engineering/The Unix Philosophy"
+    },
+    {
+      "source": "Resources/History of Technology/History of Artificial Intelligence (1950s-Present)",
+      "target": "AI & Machine Learning/Neural Network Fundamentals"
+    },
+    {
+      "source": "Resources/History of Technology/History of Artificial Intelligence (1950s-Present)",
+      "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
+    },
+    {
+      "source": "Resources/History of Technology/History of Artificial Intelligence (1950s-Present)",
+      "target": "Resources/LLM Capabilities and AI Ethics"
+    },
+    {
+      "source": "Resources/History of Technology/History of Cloud Computing",
+      "target": "Resources/Cloud Cost Optimization"
+    },
+    {
+      "source": "Resources/History of Technology/History of Cloud Computing",
+      "target": "Resources/Cloud Services"
+    },
+    {
+      "source": "Resources/History of Technology/History of Cloud Computing",
+      "target": "Resources/IaaS PaaS SaaS"
+    },
+    {
+      "source": "Resources/History of Technology/History of Cryptography",
+      "target": "Resources/Security & Privacy/Encryption — Symmetric vs Asymmetric"
+    },
+    {
+      "source": "Resources/History of Technology/History of Cryptography",
+      "target": "Resources/Security & Privacy/End-to-End Encryption"
+    },
+    {
+      "source": "Resources/History of Technology/History of Cryptography",
+      "target": "Resources/Security & Privacy/Public Key Infrastructure (PKI)"
+    },
+    {
+      "source": "Resources/History of Technology/History of Mobile Computing",
+      "target": "Resources/History of Technology/Rise of the Smartphone (The iPhone Moment)"
+    },
+    {
+      "source": "Resources/History of Technology/History of Mobile Computing",
+      "target": "Resources/Personal Productivity/Notification Hygiene"
+    },
+    {
+      "source": "Resources/History of Technology/History of Mobile Computing",
+      "target": "Resources/Web Technologies/Responsive Design Principles"
+    },
+    {
+      "source": "Resources/History of Technology/History of Open Source",
+      "target": "Resources/History of Technology/The Open Source Movement (Linux, GNU, Apache)"
+    },
+    {
+      "source": "Resources/History of Technology/History of Open Source",
+      "target": "Resources/Security & Privacy/Supply Chain Security"
+    },
+    {
+      "source": "Resources/History of Technology/History of Open Source",
+      "target": "Resources/Software Engineering/Open Source Licensing (MIT, Apache, GPL, etc.)"
+    },
+    {
+      "source": "Resources/History of Technology/History of Personal Computing (Altair to iPhone)",
+      "target": "Resources/History of Technology/History of Mobile Computing"
+    },
+    {
+      "source": "Resources/History of Technology/History of Personal Computing (Altair to iPhone)",
+      "target": "Resources/History of Technology/Rise of the Smartphone (The iPhone Moment)"
+    },
+    {
+      "source": "Resources/History of Technology/History of Personal Computing (Altair to iPhone)",
+      "target": "Resources/History of Technology/Xerox PARC — Ideas That Changed Computing"
+    },
+    {
+      "source": "Resources/History of Technology/History of Programming Languages",
+      "target": "Resources/Programming Languages"
+    },
+    {
+      "source": "Resources/History of Technology/History of Programming Languages",
+      "target": "Resources/Programming Languages/Compiled vs Interpreted vs JIT Languages"
+    },
+    {
+      "source": "Resources/History of Technology/History of Programming Languages",
+      "target": "Resources/Programming Languages/Language Design Tradeoffs"
+    },
+    {
+      "source": "Resources/History of Technology/History of Search Engines",
+      "target": "Resources/AI & Machine Learning/Semantic Search vs Keyword Search"
+    },
+    {
+      "source": "Resources/History of Technology/History of Search Engines",
+      "target": "Resources/RAG and Bobby Vector Search"
+    },
+    {
+      "source": "Resources/History of Technology/History of Search Engines",
+      "target": "Resources/Search Systems"
+    },
+    {
+      "source": "Resources/History of Technology/History of Social Media",
+      "target": "Resources/Mental Health & Psychology/FOMO and Digital Anxiety"
+    },
+    {
+      "source": "Resources/History of Technology/History of Social Media",
+      "target": "Resources/Personal Productivity/Notification Hygiene"
+    },
+    {
+      "source": "Resources/History of Technology/History of Social Media",
+      "target": "The Age of Surveillance Capitalism"
+    },
+    {
+      "source": "Resources/History of Technology/History of Video Games",
+      "target": "Areas/Gaming"
+    },
+    {
+      "source": "Resources/History of Technology/History of Video Games",
+      "target": "History of Video Game Consoles"
+    },
+    {
+      "source": "Resources/History of Technology/History of Video Games",
+      "target": "Resources/Mental Health & Psychology/The Role of Play in Adult Life"
+    },
+    {
+      "source": "Resources/History of Technology/History of the Internet (ARPANET to Web3)",
+      "target": "History of the Web (Web 1.0 → 2.0 → 3.0)"
+    },
+    {
+      "source": "Resources/History of Technology/History of the Internet (ARPANET to Web3)",
+      "target": "Resources/History of Technology/The Open Source Movement (Linux, GNU, Apache)"
+    },
+    {
+      "source": "Resources/History of Technology/History of the Internet (ARPANET to Web3)",
+      "target": "Resources/Networking"
+    },
+    {
+      "source": "Resources/History of Technology/History of the Transistor and Integrated Circuit",
+      "target": "Computer Architecture"
+    },
+    {
+      "source": "Resources/History of Technology/History of the Transistor and Integrated Circuit",
+      "target": "Resources/History of Technology/History of Personal Computing (Altair to iPhone)"
+    },
+    {
+      "source": "Resources/History of Technology/History of the Transistor and Integrated Circuit",
+      "target": "Resources/History of Technology/Moore's Law — History and Decline"
+    },
+    {
+      "source": "Resources/History of Technology/History of the Web (Web 1.0 to 2.0 to 3.0)",
+      "target": "Resources/History of Technology/History of the Internet (ARPANET to Web3)"
+    },
+    {
+      "source": "Resources/History of Technology/History of the Web (Web 1.0 to 2.0 to 3.0)",
+      "target": "Resources/History of Technology/The Browser Wars"
+    },
+    {
+      "source": "Resources/History of Technology/History of the Web (Web 1.0 to 2.0 to 3.0)",
+      "target": "Web Technologies/How Browsers Work (Parsing, Rendering, Compositing)"
+    },
+    {
+      "source": "Resources/History of Technology/Moore's Law — History and Decline",
+      "target": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)"
+    },
+    {
+      "source": "Resources/History of Technology/Moore's Law — History and Decline",
+      "target": "Resources/FlashAttention"
+    },
+    {
+      "source": "Resources/History of Technology/Moore's Law — History and Decline",
+      "target": "Resources/History of Technology/History of the Transistor and Integrated Circuit"
+    },
+    {
+      "source": "Resources/History of Technology/Rise of the Smartphone (The iPhone Moment)",
+      "target": "Resources/History of Technology/History of Mobile Computing"
+    },
+    {
+      "source": "Resources/History of Technology/Rise of the Smartphone (The iPhone Moment)",
+      "target": "Resources/Personal Productivity/Notification Hygiene"
+    },
+    {
+      "source": "Resources/History of Technology/Rise of the Smartphone (The iPhone Moment)",
+      "target": "Resources/Web Technologies/Responsive Design Principles"
+    },
+    {
+      "source": "Resources/History of Technology/The Browser Wars",
+      "target": "Resources/History of Technology/History of the Web (Web 1.0 to 2.0 to 3.0)"
+    },
+    {
+      "source": "Resources/History of Technology/The Browser Wars",
+      "target": "Resources/Web Technologies/How Browsers Work (Parsing, Rendering, Compositing)"
+    },
+    {
+      "source": "Resources/History of Technology/The Browser Wars",
+      "target": "Resources/Web Technologies/Web Components"
+    },
+    {
+      "source": "Resources/History of Technology/The Dotcom Boom and Bust",
+      "target": "Resources/Cloud Cost Optimization"
+    },
+    {
+      "source": "Resources/History of Technology/The Dotcom Boom and Bust",
+      "target": "Resources/Cognitive Science & Biases/Survivorship Bias"
+    },
+    {
+      "source": "Resources/History of Technology/The Dotcom Boom and Bust",
+      "target": "Resources/History of Technology/History of the Internet (ARPANET to Web3)"
+    },
+    {
+      "source": "Resources/History of Technology/The Homebrew Computer Club",
+      "target": "Areas/Dev Setup"
+    },
+    {
+      "source": "Resources/History of Technology/The Homebrew Computer Club",
+      "target": "Resources/History of Technology/History of Open Source"
+    },
+    {
+      "source": "Resources/History of Technology/The Homebrew Computer Club",
+      "target": "Resources/History of Technology/History of Personal Computing (Altair to iPhone)"
+    },
+    {
+      "source": "Resources/History of Technology/The Open Source Movement (Linux, GNU, Apache)",
+      "target": "Resources/History of Technology/History of Open Source"
+    },
+    {
+      "source": "Resources/History of Technology/The Open Source Movement (Linux, GNU, Apache)",
+      "target": "Resources/Security & Privacy/Supply Chain Security"
+    },
+    {
+      "source": "Resources/History of Technology/The Open Source Movement (Linux, GNU, Apache)",
+      "target": "Resources/Software Engineering/Open Source Licensing (MIT, Apache, GPL, etc.)"
+    },
+    {
+      "source": "Resources/History of Technology/Xerox PARC — Ideas That Changed Computing",
+      "target": "Resources/History of Technology/History of Personal Computing (Altair to iPhone)"
+    },
+    {
+      "source": "Resources/History of Technology/Xerox PARC — Ideas That Changed Computing",
+      "target": "Resources/History of Technology/History of the Web (Web 1.0 to 2.0 to 3.0)"
+    },
+    {
+      "source": "Resources/History of Technology/Xerox PARC — Ideas That Changed Computing",
+      "target": "Resources/Product Engineering"
+    },
+    {
       "source": "Resources/IaaS PaaS SaaS",
       "target": "Resources/CI CD"
     },
@@ -15232,11 +15829,11 @@
     },
     {
       "source": "Resources/Philosophy/Effective Altruism — Ideas and Critiques",
-      "target": "Longtermism"
+      "target": "Resources/Philosophy/AI Ethics — Alignment and Safety"
     },
     {
       "source": "Resources/Philosophy/Effective Altruism — Ideas and Critiques",
-      "target": "Resources/Philosophy/AI Ethics — Alignment and Safety"
+      "target": "Resources/Philosophy/Longtermism"
     },
     {
       "source": "Resources/Philosophy/Effective Altruism — Ideas and Critiques",
@@ -15339,6 +15936,30 @@
       "target": "Resources/Philosophy/Philosophy of Mind — Consciousness"
     },
     {
+      "source": "Resources/Philosophy/Longtermism",
+      "target": "Resources/Philosophy/AI Ethics — Alignment and Safety"
+    },
+    {
+      "source": "Resources/Philosophy/Longtermism",
+      "target": "Resources/Philosophy/Effective Altruism — Ideas and Critiques"
+    },
+    {
+      "source": "Resources/Philosophy/Longtermism",
+      "target": "Resources/Philosophy/Ethics — Consequentialism"
+    },
+    {
+      "source": "Resources/Philosophy/Moral Realism vs Anti-Realism",
+      "target": "Resources/Philosophy/AI Ethics — Bias, Fairness, and Accountability"
+    },
+    {
+      "source": "Resources/Philosophy/Moral Realism vs Anti-Realism",
+      "target": "Resources/Philosophy/Ethics — Consequentialism"
+    },
+    {
+      "source": "Resources/Philosophy/Moral Realism vs Anti-Realism",
+      "target": "Resources/Philosophy/Ethics — Deontology (Kant's Categorical Imperative)"
+    },
+    {
       "source": "Resources/Philosophy/Personal Identity Over Time (Ship of Theseus)",
       "target": "Resources/Agent Memory"
     },
@@ -15387,6 +16008,18 @@
       "target": "Resources/Philosophy/Falsifiability and the Demarcation Problem"
     },
     {
+      "source": "Resources/Philosophy/Philosophy of Time — A-Theory vs B-Theory",
+      "target": "Resources/Philosophy/Personal Identity Over Time (Ship of Theseus)"
+    },
+    {
+      "source": "Resources/Philosophy/Philosophy of Time — A-Theory vs B-Theory",
+      "target": "Resources/Sleep Science/Sleep Cycles and Ultradian Rhythms"
+    },
+    {
+      "source": "Resources/Philosophy/Philosophy of Time — A-Theory vs B-Theory",
+      "target": "Special Relativity — Key Ideas (Time Dilation, Length Contraction)"
+    },
+    {
       "source": "Resources/Philosophy/Pragmatism (Peirce, James, Dewey)",
       "target": "Resources/Engineering Judgment and Tool Tradeoffs"
     },
@@ -15420,7 +16053,7 @@
     },
     {
       "source": "Resources/Philosophy/Solipsism and External World Skepticism",
-      "target": "The Simulation Hypothesis"
+      "target": "Resources/Philosophy/The Simulation Hypothesis"
     },
     {
       "source": "Resources/Philosophy/Stoicism vs Buddhism — Comparison",
@@ -15469,6 +16102,18 @@
     {
       "source": "Resources/Philosophy/Taoism Key Concepts (Wu Wei, Yin-Yang)",
       "target": "Resources/Philosophy/Stoicism vs Buddhism — Comparison"
+    },
+    {
+      "source": "Resources/Philosophy/The Simulation Hypothesis",
+      "target": "Resources/Philosophy/Epistemology — How We Know Things"
+    },
+    {
+      "source": "Resources/Philosophy/The Simulation Hypothesis",
+      "target": "Resources/Philosophy/Philosophy of Mind — Consciousness"
+    },
+    {
+      "source": "Resources/Philosophy/The Simulation Hypothesis",
+      "target": "Resources/Philosophy/Solipsism and External World Skepticism"
     },
     {
       "source": "Resources/Philosophy/Utilitarianism — Bentham and Mill",
@@ -19247,5 +19892,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-26T17:20:59Z"
+  "generated_at": "2026-05-26T22:57:05Z"
 }
