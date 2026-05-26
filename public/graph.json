@@ -19,6 +19,15 @@
       "degree": 1
     },
     {
+      "id": "Alcohol Metabolism (Ethanol → Acetaldehyde → Acetate)",
+      "label": "Alcohol Metabolism (Ethanol → Acetaldehyde → Acetate)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Areas/Dev Setup",
       "label": "Dev Setup",
       "folder": "Areas",
@@ -246,6 +255,15 @@
       "degree": 1
     },
     {
+      "id": "Epigenetics — Gene Expression Without Sequence Change",
+      "label": "Epigenetics — Gene Expression Without Sequence Change",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Feedback loops",
       "label": "Feedback loops",
       "folder": null,
@@ -378,6 +396,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 1
+    },
+    {
+      "id": "Mitochondria and ATP — The Energy Currency",
+      "label": "Mitochondria and ATP — The Energy Currency",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 3
     },
     {
       "id": "Note Title",
@@ -1270,6 +1297,150 @@
       "degree": 17
     },
     {
+      "id": "Resources/Biology & Life Sciences/Aging Biology — Hallmarks of Aging",
+      "label": "Aging Biology — Hallmarks of Aging",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The hallmarks of aging are biological processes associated with age-related decline, including genomic instability, telomere attrition, epigenetic changes, proteostasis loss, mitochondrial dysfunction, senescence, and altered signaling. The framework is useful but not a menu of proven human interventions.",
+      "tags": [
+        "resource",
+        "biology-life-sciences"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Biology & Life Sciences/CRISPR — How Gene Editing Works",
+      "label": "CRISPR — How Gene Editing Works",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "CRISPR gene editing uses guide RNA and Cas enzymes to target specific DNA sequences for cutting or modification. It is powerful for research and therapy, but delivery, off-target effects, ethics, and long-term monitoring matter.",
+      "tags": [
+        "resource",
+        "biology-life-sciences"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Biology & Life Sciences/Cell Biology Basics (Organelles and Their Roles)",
+      "label": "Cell Biology Basics (Organelles and Their Roles)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Cell biology studies the structures and processes that make cells function. Organelles like the nucleus, mitochondria, ribosomes, endoplasmic reticulum, Golgi apparatus, lysosomes, and membranes divide cellular labor.",
+      "tags": [
+        "resource",
+        "biology-life-sciences"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Biology & Life Sciences/Evolution — Natural Selection and Genetic Drift",
+      "label": "Evolution — Natural Selection and Genetic Drift",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Evolution is change in heritable traits across generations, driven by mechanisms including natural selection, genetic drift, mutation, gene flow, and sexual selection. Selection is not intentional; it filters variation through differential survival and reproduction.",
+      "tags": [
+        "resource",
+        "biology-life-sciences"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Biology & Life Sciences/Evolutionary Psychology Overview",
+      "label": "Evolutionary Psychology Overview",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Evolutionary psychology studies how evolved pressures may have shaped cognition, emotion, and behavior. It can generate useful hypotheses, but it is vulnerable to just-so stories when evidence is weak.",
+      "tags": [
+        "resource",
+        "biology-life-sciences"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Biology & Life Sciences/Genetics — DNA to Protein to Phenotype",
+      "label": "Genetics — DNA to Protein to Phenotype",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Genetics links DNA sequence, gene expression, proteins, traits, and environment. Phenotype is not a simple one-gene output; it emerges from gene networks, regulation, development, and context.",
+      "tags": [
+        "resource",
+        "biology-life-sciences"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Biology & Life Sciences/Hormones Overview (Cortisol, Testosterone, Estrogen, Insulin, GH)",
+      "label": "Hormones Overview (Cortisol, Testosterone, Estrogen, Insulin, GH)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Hormones are signaling molecules that coordinate metabolism, stress, reproduction, growth, sleep, and energy balance. Cortisol, testosterone, estrogen, insulin, and growth hormone are context-dependent regulators, not simple good-or-bad chemicals.",
+      "tags": [
+        "resource",
+        "biology-life-sciences"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Biology & Life Sciences/Immune System Overview (Innate vs Adaptive)",
+      "label": "Immune System Overview (Innate vs Adaptive)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The immune system protects the body through innate fast defenses and adaptive targeted responses. Innate immunity recognizes broad patterns, while adaptive immunity uses B cells, T cells, antibodies, and memory.",
+      "tags": [
+        "resource",
+        "biology-life-sciences"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Biology & Life Sciences/Inflammation — Acute vs Chronic",
+      "label": "Inflammation — Acute vs Chronic",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Acute inflammation is a short-term protective response to injury or infection, while chronic inflammation persists and can contribute to disease. The goal is regulation and resolution, not eliminating inflammation entirely.",
+      "tags": [
+        "resource",
+        "biology-life-sciences"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Biology & Life Sciences/Insulin and Blood Sugar Regulation",
+      "label": "Insulin and Blood Sugar Regulation",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Insulin helps regulate blood glucose by signaling cells to take up and store nutrients. Blood sugar regulation depends on diet, activity, muscle, liver function, sleep, stress, hormones, and insulin sensitivity.",
+      "tags": [
+        "resource",
+        "biology-life-sciences"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Biology & Life Sciences/Longevity Research Overview (Sirtuins, mTOR, Senolytics)",
+      "label": "Longevity Research Overview (Sirtuins, mTOR, Senolytics)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Longevity research studies pathways and interventions that might affect healthspan or lifespan, including sirtuins, mTOR, senolytics, caloric restriction, exercise, and metabolic signals. Human evidence is much weaker than animal and mechanistic hype.",
+      "tags": [
+        "resource",
+        "biology-life-sciences"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Biology & Life Sciences/The Stress Response (Fight-or-Flight, Freeze, Fawn)",
+      "label": "The Stress Response (Fight-or-Flight, Freeze, Fawn)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The stress response coordinates nervous-system, hormonal, and behavioral patterns such as fight, flight, freeze, and fawn. These responses can be adaptive in threat but costly when chronically activated.",
+      "tags": [
+        "resource",
+        "biology-life-sciences"
+      ],
+      "degree": 3
+    },
+    {
       "id": "Resources/Bobby Commands",
       "label": "Bobby Commands",
       "folder": "Resources",
@@ -1746,6 +1917,162 @@
       "degree": 17
     },
     {
+      "id": "Resources/Chemistry & Biochemistry/Alcohol Metabolism (Ethanol to Acetaldehyde to Acetate)",
+      "label": "Alcohol Metabolism (Ethanol to Acetaldehyde to Acetate)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Alcohol metabolism primarily converts ethanol to acetaldehyde and then acetate, mostly in the liver. Acetaldehyde is toxic, and metabolism affects sleep, inflammation, liver stress, cancer risk, and hangover symptoms.",
+      "tags": [
+        "resource",
+        "chemistry-biochemistry"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Chemistry & Biochemistry/Biochemistry — Proteins and Enzymes",
+      "label": "Biochemistry — Proteins and Enzymes",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Proteins are amino-acid polymers that fold into functional structures, and enzymes are proteins or RNA molecules that catalyze reactions. Protein shape, binding sites, and environmental conditions determine function.",
+      "tags": [
+        "resource",
+        "chemistry-biochemistry"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Chemistry & Biochemistry/Caffeine Mechanism (Adenosine Antagonism)",
+      "label": "Caffeine Mechanism (Adenosine Antagonism)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Caffeine mainly works by blocking adenosine receptors, reducing the feeling of sleep pressure and increasing alertness. It does not erase sleep debt, and its half-life makes timing important.",
+      "tags": [
+        "resource",
+        "chemistry-biochemistry"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Chemistry & Biochemistry/Chemical Bonding (Ionic, Covalent, Hydrogen, Van der Waals)",
+      "label": "Chemical Bonding (Ionic, Covalent, Hydrogen, Van der Waals)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Chemical bonding explains how atoms and molecules stick together through electron sharing, electron transfer, polarity, and weak intermolecular forces. Ionic, covalent, hydrogen, and van der Waals interactions shape chemistry and biology.",
+      "tags": [
+        "resource",
+        "chemistry-biochemistry"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Chemistry & Biochemistry/DNA and RNA — Structure and Function",
+      "label": "DNA and RNA — Structure and Function",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "DNA stores genetic information in a double-stranded nucleotide sequence, while RNA helps copy, regulate, and express that information. DNA, RNA, and proteins form the core information flow of biology.",
+      "tags": [
+        "resource",
+        "chemistry-biochemistry"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Chemistry & Biochemistry/How Drugs Affect the Brain (Receptor Mechanisms)",
+      "label": "How Drugs Affect the Brain (Receptor Mechanisms)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Brain-active drugs change neural signaling by interacting with receptors, transporters, enzymes, and ion channels. Effects depend on target, dose, timing, brain region, tolerance, individual biology, and context.",
+      "tags": [
+        "resource",
+        "chemistry-biochemistry"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Chemistry & Biochemistry/Metabolic Pathways (Glycolysis, Krebs Cycle, Electron Transport Chain)",
+      "label": "Metabolic Pathways (Glycolysis, Krebs Cycle, Electron Transport Chain)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Metabolic pathways transform nutrients into usable energy and cellular building blocks. Glycolysis, the Krebs cycle, and the electron transport chain are central to ATP production.",
+      "tags": [
+        "resource",
+        "chemistry-biochemistry"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Chemistry & Biochemistry/Nootropics — Evidence-Based Overview",
+      "label": "Nootropics — Evidence-Based Overview",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Nootropics are substances marketed or used to improve cognition, but evidence, safety, regulation, and effect size vary widely. Sleep, exercise, treatment of real disorders, caffeine, and creatine have stronger grounding than most supplement stacks.",
+      "tags": [
+        "resource",
+        "chemistry-biochemistry"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Chemistry & Biochemistry/Organic Chemistry Basics",
+      "label": "Organic Chemistry Basics",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Organic chemistry studies carbon-containing molecules, functional groups, structure, reactivity, and mechanisms. It matters because proteins, fats, carbohydrates, DNA, drugs, and many materials are organic chemistry in action.",
+      "tags": [
+        "resource",
+        "chemistry-biochemistry"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Chemistry & Biochemistry/Periodic Table Essentials",
+      "label": "Periodic Table Essentials",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The periodic table organizes elements by atomic number, electron structure, and recurring chemical properties. Its rows and columns reveal patterns in reactivity, bonding, size, electronegativity, and metallic character.",
+      "tags": [
+        "resource",
+        "chemistry-biochemistry"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Chemistry & Biochemistry/Pharmacology Basics — How Drugs Work",
+      "label": "Pharmacology Basics — How Drugs Work",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Pharmacology studies how drugs interact with the body through absorption, distribution, metabolism, excretion, receptors, dose-response, efficacy, potency, and side effects. Effects depend on both molecule and context.",
+      "tags": [
+        "resource",
+        "chemistry-biochemistry"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Chemistry & Biochemistry/Protein Synthesis (Transcription and Translation)",
+      "label": "Protein Synthesis (Transcription and Translation)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Protein synthesis turns genetic information into proteins through transcription and translation. DNA is transcribed into RNA, then ribosomes translate mRNA codons into amino-acid chains.",
+      "tags": [
+        "resource",
+        "chemistry-biochemistry"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Chemistry & Biochemistry/The Chemistry of Sleep (Melatonin, Adenosine, GABA)",
+      "label": "The Chemistry of Sleep (Melatonin, Adenosine, GABA)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Sleep chemistry involves timing signals like melatonin, sleep-pressure signals like adenosine, inhibitory signaling through GABA, and many interacting systems. No single chemical explains sleep by itself.",
+      "tags": [
+        "resource",
+        "chemistry-biochemistry"
+      ],
+      "degree": 3
+    },
+    {
       "id": "Resources/Claude Code Skills",
       "label": "Claude Code Skills",
       "folder": "Resources",
@@ -1843,7 +2170,7 @@
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Cognitive Science & Biases/Cognitive Load Theory",
@@ -3336,7 +3663,7 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Health & Fitness/Breathing Techniques (Box Breathing, Physiological Sigh, Wim Hof)",
@@ -3408,7 +3735,7 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Health & Fitness/Eye Strain and Screen Time (20-20-20 Rule)",
@@ -4662,7 +4989,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Mental Health & Psychology/Cognitive Behavioral Therapy (CBT) Basics",
@@ -4722,7 +5049,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Mental Health & Psychology/FOMO and Digital Anxiety",
@@ -4926,7 +5253,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Mental Health & Psychology/Stoicism Applied to Modern Life",
@@ -4950,7 +5277,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Mental Health & Psychology/The Role of Play in Adult Life",
@@ -5124,7 +5451,7 @@
         "resource",
         "neuroscience"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Neuroscience/Long-Term Potentiation (LTP) and Memory Formation",
@@ -5148,7 +5475,7 @@
         "resource",
         "neuroscience"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Neuroscience/Neuron Structure and Electrochemical Signaling",
@@ -5234,7 +5561,7 @@
         "resource",
         "nutrition-diet"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Nutrition & Diet/Anti-Inflammatory Foods",
@@ -5246,7 +5573,7 @@
         "resource",
         "nutrition-diet"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Nutrition & Diet/Caffeine Timing and Adenosine Clearance",
@@ -5258,7 +5585,7 @@
         "resource",
         "nutrition-diet"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Nutrition & Diet/Caffeine — Pharmacology and Optimization",
@@ -5270,7 +5597,7 @@
         "resource",
         "nutrition-diet"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Nutrition & Diet/Caloric Deficit and Surplus",
@@ -5294,7 +5621,7 @@
         "resource",
         "nutrition-diet"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Nutrition & Diet/Glycemic Index and Blood Sugar Management",
@@ -5306,7 +5633,7 @@
         "resource",
         "nutrition-diet"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Nutrition & Diet/Gut Microbiome Basics",
@@ -5366,7 +5693,7 @@
         "resource",
         "nutrition-diet"
       ],
-      "degree": 5
+      "degree": 8
     },
     {
       "id": "Resources/Nutrition & Diet/Magnesium — Uses, Forms, and Deficiency",
@@ -5414,7 +5741,7 @@
         "resource",
         "nutrition-diet"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/Nutrition & Diet/Omega-3 Fatty Acids — EPA, DHA, and Inflammation",
@@ -5450,7 +5777,7 @@
         "resource",
         "nutrition-diet"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Nutrition & Diet/Supplements Worth Taking (Evidence-Based)",
@@ -5974,7 +6301,7 @@
         "philosophy",
         "ai"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Philosophy/Absurdism (Camus)",
@@ -7530,7 +7857,7 @@
         "resource",
         "sleep-science"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Sleep Science/Blue Light and Melatonin Suppression",
@@ -7590,7 +7917,7 @@
         "resource",
         "sleep-science"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Sleep Science/Napping — Types and Optimal Duration (Power Nap, Full Cycle)",
@@ -7650,7 +7977,7 @@
         "resource",
         "sleep-science"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Sleep Science/Sleep Disorders Overview (Apnea, Insomnia, RLS)",
@@ -7686,7 +8013,7 @@
         "resource",
         "sleep-science"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Sleep Science/Sleep Stages (NREM 1-2-3 and REM)",
@@ -9405,7 +9732,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "TLS 1.3",
@@ -10848,6 +11175,150 @@
       "target": "VAULT_INDEX"
     },
     {
+      "source": "Resources/Biology & Life Sciences/Aging Biology — Hallmarks of Aging",
+      "target": "Mitochondria and ATP — The Energy Currency"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Aging Biology — Hallmarks of Aging",
+      "target": "Resources/Biology & Life Sciences/Inflammation — Acute vs Chronic"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Aging Biology — Hallmarks of Aging",
+      "target": "Resources/Biology & Life Sciences/Longevity Research Overview (Sirtuins, mTOR, Senolytics)"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/CRISPR — How Gene Editing Works",
+      "target": "Resources/Biology & Life Sciences/Genetics — DNA to Protein to Phenotype"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/CRISPR — How Gene Editing Works",
+      "target": "Resources/Chemistry & Biochemistry/DNA and RNA — Structure and Function"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/CRISPR — How Gene Editing Works",
+      "target": "Resources/Philosophy/AI Ethics — Bias, Fairness, and Accountability"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Cell Biology Basics (Organelles and Their Roles)",
+      "target": "Mitochondria and ATP — The Energy Currency"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Cell Biology Basics (Organelles and Their Roles)",
+      "target": "Resources/Chemistry & Biochemistry/DNA and RNA — Structure and Function"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Cell Biology Basics (Organelles and Their Roles)",
+      "target": "Resources/Chemistry & Biochemistry/Protein Synthesis (Transcription and Translation)"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Evolution — Natural Selection and Genetic Drift",
+      "target": "Resources/Biology & Life Sciences/Evolutionary Psychology Overview"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Evolution — Natural Selection and Genetic Drift",
+      "target": "Resources/Biology & Life Sciences/Genetics — DNA to Protein to Phenotype"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Evolution — Natural Selection and Genetic Drift",
+      "target": "Systems Biology"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Evolutionary Psychology Overview",
+      "target": "Resources/Biology & Life Sciences/Evolution — Natural Selection and Genetic Drift"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Evolutionary Psychology Overview",
+      "target": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Evolutionary Psychology Overview",
+      "target": "Resources/Mental Health & Psychology/Social Comparison Theory"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Genetics — DNA to Protein to Phenotype",
+      "target": "Epigenetics — Gene Expression Without Sequence Change"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Genetics — DNA to Protein to Phenotype",
+      "target": "Resources/Chemistry & Biochemistry/DNA and RNA — Structure and Function"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Genetics — DNA to Protein to Phenotype",
+      "target": "Resources/Chemistry & Biochemistry/Protein Synthesis (Transcription and Translation)"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Hormones Overview (Cortisol, Testosterone, Estrogen, Insulin, GH)",
+      "target": "Resources/Biology & Life Sciences/Insulin and Blood Sugar Regulation"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Hormones Overview (Cortisol, Testosterone, Estrogen, Insulin, GH)",
+      "target": "Resources/Health & Fitness/Blood Work Markers Worth Tracking"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Hormones Overview (Cortisol, Testosterone, Estrogen, Insulin, GH)",
+      "target": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Immune System Overview (Innate vs Adaptive)",
+      "target": "Resources/Biology & Life Sciences/Aging Biology — Hallmarks of Aging"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Immune System Overview (Innate vs Adaptive)",
+      "target": "Resources/Biology & Life Sciences/Inflammation — Acute vs Chronic"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Immune System Overview (Innate vs Adaptive)",
+      "target": "Resources/Nutrition & Diet/Micronutrients — Key Vitamins and Minerals"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Inflammation — Acute vs Chronic",
+      "target": "Resources/Biology & Life Sciences/Immune System Overview (Innate vs Adaptive)"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Inflammation — Acute vs Chronic",
+      "target": "Resources/Mental Health & Psychology/Chronic Stress — Long-Term Physical and Mental Effects"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Inflammation — Acute vs Chronic",
+      "target": "Resources/Nutrition & Diet/Anti-Inflammatory Foods"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Insulin and Blood Sugar Regulation",
+      "target": "Resources/Chemistry & Biochemistry/Metabolic Pathways (Glycolysis, Krebs Cycle, Electron Transport Chain)"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Insulin and Blood Sugar Regulation",
+      "target": "Resources/Nutrition & Diet/Glycemic Index and Blood Sugar Management"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Insulin and Blood Sugar Regulation",
+      "target": "Resources/Nutrition & Diet/Macronutrients — Protein, Fat, Carbohydrates"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Longevity Research Overview (Sirtuins, mTOR, Senolytics)",
+      "target": "Resources/Biology & Life Sciences/Aging Biology — Hallmarks of Aging"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Longevity Research Overview (Sirtuins, mTOR, Senolytics)",
+      "target": "Resources/Chemistry & Biochemistry/Nootropics — Evidence-Based Overview"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Longevity Research Overview (Sirtuins, mTOR, Senolytics)",
+      "target": "Resources/Health & Fitness/Exercise Science Fundamentals"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/The Stress Response (Fight-or-Flight, Freeze, Fawn)",
+      "target": "Resources/Mental Health & Psychology/Emotional Regulation Techniques"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/The Stress Response (Fight-or-Flight, Freeze, Fawn)",
+      "target": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/The Stress Response (Fight-or-Flight, Freeze, Fawn)",
+      "target": "Resources/Neuroscience/Interoception — Body Awareness and Emotions"
+    },
+    {
       "source": "Resources/Bobby Commands",
       "target": "Resources/Bobby Memory Architecture"
     },
@@ -11438,6 +11909,162 @@
     {
       "source": "Resources/Caching",
       "target": "Resources/System Design Notes"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Alcohol Metabolism (Ethanol to Acetaldehyde to Acetate)",
+      "target": "Resources/Chemistry & Biochemistry/Pharmacology Basics — How Drugs Work"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Alcohol Metabolism (Ethanol to Acetaldehyde to Acetate)",
+      "target": "Resources/Nutrition & Diet/Alcohol and Health — What the Research Says"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Alcohol Metabolism (Ethanol to Acetaldehyde to Acetate)",
+      "target": "Resources/Sleep Science/Alcohol and Sleep Quality"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Biochemistry — Proteins and Enzymes",
+      "target": "Resources/Chemistry & Biochemistry/Chemical Bonding (Ionic, Covalent, Hydrogen, Van der Waals)"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Biochemistry — Proteins and Enzymes",
+      "target": "Resources/Chemistry & Biochemistry/Protein Synthesis (Transcription and Translation)"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Biochemistry — Proteins and Enzymes",
+      "target": "Resources/Nutrition & Diet/Protein Intake for Muscle Building and Recovery"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Caffeine Mechanism (Adenosine Antagonism)",
+      "target": "Resources/Nutrition & Diet/Caffeine Timing and Adenosine Clearance"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Caffeine Mechanism (Adenosine Antagonism)",
+      "target": "Resources/Nutrition & Diet/Caffeine — Pharmacology and Optimization"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Caffeine Mechanism (Adenosine Antagonism)",
+      "target": "Resources/Sleep Science/Sleep Pressure and Adenosine"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Chemical Bonding (Ionic, Covalent, Hydrogen, Van der Waals)",
+      "target": "Resources/Chemistry & Biochemistry/Biochemistry — Proteins and Enzymes"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Chemical Bonding (Ionic, Covalent, Hydrogen, Van der Waals)",
+      "target": "Resources/Chemistry & Biochemistry/DNA and RNA — Structure and Function"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Chemical Bonding (Ionic, Covalent, Hydrogen, Van der Waals)",
+      "target": "Resources/Chemistry & Biochemistry/Periodic Table Essentials"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/DNA and RNA — Structure and Function",
+      "target": "Resources/Biology & Life Sciences/CRISPR — How Gene Editing Works"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/DNA and RNA — Structure and Function",
+      "target": "Resources/Biology & Life Sciences/Genetics — DNA to Protein to Phenotype"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/DNA and RNA — Structure and Function",
+      "target": "Resources/Chemistry & Biochemistry/Protein Synthesis (Transcription and Translation)"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/How Drugs Affect the Brain (Receptor Mechanisms)",
+      "target": "Resources/Chemistry & Biochemistry/Caffeine Mechanism (Adenosine Antagonism)"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/How Drugs Affect the Brain (Receptor Mechanisms)",
+      "target": "Resources/Chemistry & Biochemistry/Nootropics — Evidence-Based Overview"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/How Drugs Affect the Brain (Receptor Mechanisms)",
+      "target": "Resources/Neuroscience/Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Metabolic Pathways (Glycolysis, Krebs Cycle, Electron Transport Chain)",
+      "target": "Mitochondria and ATP — The Energy Currency"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Metabolic Pathways (Glycolysis, Krebs Cycle, Electron Transport Chain)",
+      "target": "Resources/Biology & Life Sciences/Insulin and Blood Sugar Regulation"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Metabolic Pathways (Glycolysis, Krebs Cycle, Electron Transport Chain)",
+      "target": "Resources/Nutrition & Diet/Macronutrients — Protein, Fat, Carbohydrates"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Nootropics — Evidence-Based Overview",
+      "target": "Resources/Nutrition & Diet/Caffeine — Pharmacology and Optimization"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Nootropics — Evidence-Based Overview",
+      "target": "Resources/Nutrition & Diet/Creatine — Benefits, Safety, and Protocol"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Nootropics — Evidence-Based Overview",
+      "target": "Resources/Sleep Science/Sleep Deprivation — Cognitive and Physical Effects"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Organic Chemistry Basics",
+      "target": "Resources/Chemistry & Biochemistry/Biochemistry — Proteins and Enzymes"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Organic Chemistry Basics",
+      "target": "Resources/Chemistry & Biochemistry/Pharmacology Basics — How Drugs Work"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Organic Chemistry Basics",
+      "target": "Resources/Nutrition & Diet/Macronutrients — Protein, Fat, Carbohydrates"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Periodic Table Essentials",
+      "target": "Resources/Chemistry & Biochemistry/Chemical Bonding (Ionic, Covalent, Hydrogen, Van der Waals)"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Periodic Table Essentials",
+      "target": "Resources/Chemistry & Biochemistry/Organic Chemistry Basics"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Periodic Table Essentials",
+      "target": "Resources/Nutrition & Diet/Micronutrients — Key Vitamins and Minerals"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Pharmacology Basics — How Drugs Work",
+      "target": "Alcohol Metabolism (Ethanol → Acetaldehyde → Acetate)"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Pharmacology Basics — How Drugs Work",
+      "target": "Resources/Chemistry & Biochemistry/Caffeine Mechanism (Adenosine Antagonism)"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Pharmacology Basics — How Drugs Work",
+      "target": "Resources/Chemistry & Biochemistry/How Drugs Affect the Brain (Receptor Mechanisms)"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Protein Synthesis (Transcription and Translation)",
+      "target": "Resources/Biology & Life Sciences/Genetics — DNA to Protein to Phenotype"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Protein Synthesis (Transcription and Translation)",
+      "target": "Resources/Chemistry & Biochemistry/Biochemistry — Proteins and Enzymes"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/Protein Synthesis (Transcription and Translation)",
+      "target": "Resources/Chemistry & Biochemistry/DNA and RNA — Structure and Function"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/The Chemistry of Sleep (Melatonin, Adenosine, GABA)",
+      "target": "Resources/Chemistry & Biochemistry/Caffeine Mechanism (Adenosine Antagonism)"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/The Chemistry of Sleep (Melatonin, Adenosine, GABA)",
+      "target": "Resources/Sleep Science/Melatonin Supplementation — When and How Much"
+    },
+    {
+      "source": "Resources/Chemistry & Biochemistry/The Chemistry of Sleep (Melatonin, Adenosine, GABA)",
+      "target": "Resources/Sleep Science/Sleep Pressure and Adenosine"
     },
     {
       "source": "Resources/Claude Code Skills",
@@ -20444,5 +21071,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-26T23:04:47Z"
+  "generated_at": "2026-05-26T23:12:30Z"
 }
