@@ -42,7 +42,7 @@
         "area",
         "gaming"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Areas/Job Search",
@@ -135,8 +135,26 @@
       "degree": 2
     },
     {
+      "id": "Chemistry & Biochemistry",
+      "label": "Chemistry & Biochemistry",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Computer Architecture",
       "label": "Computer Architecture",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Cryptography",
+      "label": "Cryptography",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -248,15 +266,6 @@
     {
       "id": "Game Theory Fundamentals",
       "label": "Game Theory Fundamentals",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "History of Video Game Consoles",
-      "label": "History of Video Game Consoles",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -3615,7 +3624,7 @@
         "resource",
         "history-of-technology"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/History of Technology/History of Artificial Intelligence (1950s-Present)",
@@ -3723,7 +3732,19 @@
         "resource",
         "history-of-technology"
       ],
-      "degree": 3
+      "degree": 4
+    },
+    {
+      "id": "Resources/History of Technology/History of Video Game Consoles",
+      "label": "History of Video Game Consoles",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Video game console history moves through arcade-inspired home systems, the 1983 crash, Nintendo's revival, 3D graphics, optical media, online services, motion controls, and hybrid hardware. Consoles are shaped by hardware cycles, exclusive games, distribution, and living-room culture.",
+      "tags": [
+        "resource",
+        "history-of-technology"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/History of Technology/History of Video Games",
@@ -3735,7 +3756,7 @@
         "resource",
         "history-of-technology"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/History of Technology/History of the Internet (ARPANET to Web3)",
@@ -3759,7 +3780,7 @@
         "resource",
         "history-of-technology"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/History of Technology/History of the Web (Web 1.0 to 2.0 to 3.0)",
@@ -3796,6 +3817,18 @@
         "history-of-technology"
       ],
       "degree": 5
+    },
+    {
+      "id": "Resources/History of Technology/The Age of Surveillance Capitalism",
+      "label": "The Age of Surveillance Capitalism",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The age of surveillance capitalism describes business models that extract, predict, and shape behavior through data collection and targeted advertising. The concept is associated with Shoshana Zuboff and helps explain platform incentives.",
+      "tags": [
+        "resource",
+        "history-of-technology"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/History of Technology/The Browser Wars",
@@ -3964,7 +3997,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "Resources/Learning & Memory/Chunking Information",
@@ -4168,7 +4201,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Learning & Memory/Spaced Repetition — Theory and Implementation",
@@ -4192,7 +4225,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Learning & Memory/Teaching as a Learning Tool",
@@ -4304,7 +4337,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Mathematics/Central Limit Theorem",
@@ -4424,7 +4457,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Mathematics/Lagrange Multipliers",
@@ -4929,7 +4962,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Message Queues",
@@ -4969,7 +5002,7 @@
         "study",
         "ai"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Networking",
@@ -4983,7 +5016,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "Resources/Neuroscience/Amygdala and Emotional Processing",
@@ -5591,7 +5624,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Personal Productivity/Distraction Management",
@@ -6133,7 +6166,7 @@
         "resource",
         "philosophy"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Philosophy/Philosophy of Time — A-Theory vs B-Theory",
@@ -6145,7 +6178,7 @@
         "resource",
         "philosophy"
       ],
-      "degree": 3
+      "degree": 5
     },
     {
       "id": "Resources/Philosophy/Pragmatism (Peirce, James, Dewey)",
@@ -6266,6 +6299,258 @@
         "philosophy"
       ],
       "degree": 4
+    },
+    {
+      "id": "Resources/Physics/Chaos Theory and Complexity",
+      "label": "Chaos Theory and Complexity",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Chaos theory studies deterministic systems that are highly sensitive to initial conditions, while complexity studies systems with many interacting parts and emergent behavior. Both explain why simple rules can produce hard-to-predict outcomes.",
+      "tags": [
+        "resource",
+        "physics"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Physics/Classical Mechanics Fundamentals",
+      "label": "Classical Mechanics Fundamentals",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Classical mechanics studies motion, forces, energy, momentum, and rotation at everyday scales. It is the foundation for engineering intuition even though relativity and quantum mechanics supersede it in extreme regimes.",
+      "tags": [
+        "resource",
+        "physics"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Physics/Dark Matter and Dark Energy",
+      "label": "Dark Matter and Dark Energy",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Dark matter and dark energy are names for major gaps in cosmology: unseen gravitational mass and the accelerated expansion of the universe. Together they dominate standard cosmological models, but their underlying nature remains unknown.",
+      "tags": [
+        "resource",
+        "physics"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Physics/Electromagnetism Basics (Maxwell's Equations, Intuition)",
+      "label": "Electromagnetism Basics (Maxwell's Equations, Intuition)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Electromagnetism unifies electric and magnetic fields, charges, currents, light, and electromagnetic waves. Maxwell's equations describe how fields are created, interact, and propagate.",
+      "tags": [
+        "resource",
+        "physics"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Physics/Entropy — Physical and Information Interpretations",
+      "label": "Entropy — Physical and Information Interpretations",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Entropy measures multiplicity, uncertainty, or missing information depending on context. In physics it relates to the number of microstates compatible with a macrostate; in information theory it measures uncertainty in messages.",
+      "tags": [
+        "resource",
+        "physics"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Physics/Fermi Estimation (Orders of Magnitude Thinking)",
+      "label": "Fermi Estimation (Orders of Magnitude Thinking)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Fermi estimation uses rough assumptions and orders of magnitude to estimate unknown quantities. It is useful for physics, engineering, product sizing, system design, and sanity-checking claims.",
+      "tags": [
+        "resource",
+        "physics"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Physics/General Relativity — Key Ideas (Spacetime, Gravity as Curvature)",
+      "label": "General Relativity — Key Ideas (Spacetime, Gravity as Curvature)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "General relativity describes gravity as the curvature of spacetime caused by mass-energy. Objects follow paths through curved spacetime, explaining orbits, gravitational time dilation, black holes, and cosmic expansion.",
+      "tags": [
+        "resource",
+        "physics"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Physics/Heisenberg Uncertainty Principle",
+      "label": "Heisenberg Uncertainty Principle",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Heisenberg uncertainty principle says certain pairs of properties, such as position and momentum, cannot both be known with arbitrary precision. This is a structural feature of quantum systems, not just measurement clumsiness.",
+      "tags": [
+        "resource",
+        "physics"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Physics/Information Theory (Shannon Entropy)",
+      "label": "Information Theory (Shannon Entropy)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Information theory quantifies uncertainty, communication, compression, and noise. Shannon entropy measures expected information content and connects communication engineering to probability, physics, and machine learning.",
+      "tags": [
+        "resource",
+        "physics"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Physics/Many-Worlds Interpretation of Quantum Mechanics",
+      "label": "Many-Worlds Interpretation of Quantum Mechanics",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Many-Worlds interpretation says the quantum wavefunction evolves without collapse, and measurement corresponds to branching into non-interacting outcomes. It is an interpretation of quantum mechanics, not a proven multiverse story.",
+      "tags": [
+        "resource",
+        "physics"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Physics/Phase Transitions and Emergence",
+      "label": "Phase Transitions and Emergence",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Phase transitions occur when systems shift qualitatively as conditions change, such as water freezing or magnets ordering. Emergence describes higher-level behavior that arises from many lower-level interactions.",
+      "tags": [
+        "resource",
+        "physics"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Physics/Quantum Computing Basics (Qubits, Superposition, Entanglement)",
+      "label": "Quantum Computing Basics (Qubits, Superposition, Entanglement)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Quantum computing uses qubits, superposition, entanglement, and interference to perform certain computations differently from classical computers. It is promising for specific problem classes, not a universal faster computer.",
+      "tags": [
+        "resource",
+        "physics"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Physics/Quantum Entanglement and Superposition",
+      "label": "Quantum Entanglement and Superposition",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Superposition allows quantum systems to exist in combinations of states, while entanglement creates correlations between systems that cannot be explained classically. These ideas are central to quantum information and quantum computing.",
+      "tags": [
+        "resource",
+        "physics"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Physics/Quantum Mechanics Fundamentals",
+      "label": "Quantum Mechanics Fundamentals",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Quantum mechanics describes physical systems at microscopic scales using states, amplitudes, measurement probabilities, operators, and quantized observables. It replaces classical certainty with probabilistic structure.",
+      "tags": [
+        "resource",
+        "physics"
+      ],
+      "degree": 10
+    },
+    {
+      "id": "Resources/Physics/Special Relativity — Key Ideas (Time Dilation, Length Contraction)",
+      "label": "Special Relativity — Key Ideas (Time Dilation, Length Contraction)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Special relativity shows that time and space measurements depend on relative motion, while the speed of light is invariant. Time dilation, length contraction, and mass-energy equivalence follow from this structure.",
+      "tags": [
+        "resource",
+        "physics"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Physics/String Theory — Accessible Overview",
+      "label": "String Theory — Accessible Overview",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "String theory proposes that fundamental entities are tiny vibrating strings rather than point particles, offering a possible framework for quantum gravity. It is mathematically rich but experimentally unconfirmed.",
+      "tags": [
+        "resource",
+        "physics"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Physics/The Big Bang Theory",
+      "label": "The Big Bang Theory",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Big Bang theory describes the universe expanding and cooling from an early hot, dense state. Its evidence includes cosmic expansion, the cosmic microwave background, and light-element abundances.",
+      "tags": [
+        "resource",
+        "physics"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Physics/The Standard Model of Particle Physics",
+      "label": "The Standard Model of Particle Physics",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Standard Model describes known elementary particles and three fundamental interactions: electromagnetic, weak, and strong forces. It is extremely successful, but does not include gravity, dark matter, or dark energy.",
+      "tags": [
+        "resource",
+        "physics"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Physics/Thermodynamics and the Arrow of Time",
+      "label": "Thermodynamics and the Arrow of Time",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The arrow of time is the observed direction from past to future, closely tied to entropy increase. Many microscopic laws are time-symmetric, but macroscopic systems overwhelmingly move toward higher-entropy states.",
+      "tags": [
+        "resource",
+        "physics"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Physics/Thermodynamics — Four Laws",
+      "label": "Thermodynamics — Four Laws",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Thermodynamics studies heat, work, energy, temperature, and entropy in physical systems. Its four laws define thermal equilibrium, energy conservation, entropy increase, and the unattainability of absolute zero.",
+      "tags": [
+        "resource",
+        "physics"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Physics/Wave-Particle Duality",
+      "label": "Wave-Particle Duality",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Wave-particle duality is the quantum idea that entities like photons and electrons show wave-like or particle-like behavior depending on experimental context. They are not simply classical waves or classical particles.",
+      "tags": [
+        "resource",
+        "physics"
+      ],
+      "degree": 5
     },
     {
       "id": "Resources/Process Reward Models",
@@ -6930,7 +7215,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Security & Privacy/Defense in Depth",
@@ -8003,7 +8288,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Software Engineering/Static Analysis Tools",
@@ -8572,7 +8857,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/System Design/WebRTC Architecture",
@@ -9087,15 +9372,6 @@
       "degree": 3
     },
     {
-      "id": "Special Relativity — Key Ideas (Time Dilation, Length Contraction)",
-      "label": "Special Relativity — Key Ideas (Time Dilation, Length Contraction)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Startup",
       "label": "Startup",
       "folder": null,
@@ -9123,8 +9399,8 @@
       "degree": 3
     },
     {
-      "id": "TLS 1.3",
-      "label": "TLS 1.3",
+      "id": "Systems Biology",
+      "label": "Systems Biology",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -9132,8 +9408,8 @@
       "degree": 1
     },
     {
-      "id": "The Age of Surveillance Capitalism",
-      "label": "The Age of Surveillance Capitalism",
+      "id": "TLS 1.3",
+      "label": "TLS 1.3",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -13429,6 +13705,10 @@
     },
     {
       "source": "Resources/History of Technology/History of Social Media",
+      "target": "Resources/History of Technology/The Age of Surveillance Capitalism"
+    },
+    {
+      "source": "Resources/History of Technology/History of Social Media",
       "target": "Resources/Mental Health & Psychology/FOMO and Digital Anxiety"
     },
     {
@@ -13436,8 +13716,16 @@
       "target": "Resources/Personal Productivity/Notification Hygiene"
     },
     {
-      "source": "Resources/History of Technology/History of Social Media",
-      "target": "The Age of Surveillance Capitalism"
+      "source": "Resources/History of Technology/History of Video Game Consoles",
+      "target": "Areas/Gaming"
+    },
+    {
+      "source": "Resources/History of Technology/History of Video Game Consoles",
+      "target": "Resources/History of Technology/History of Video Games"
+    },
+    {
+      "source": "Resources/History of Technology/History of Video Game Consoles",
+      "target": "Resources/Mental Health & Psychology/The Role of Play in Adult Life"
     },
     {
       "source": "Resources/History of Technology/History of Video Games",
@@ -13445,7 +13733,7 @@
     },
     {
       "source": "Resources/History of Technology/History of Video Games",
-      "target": "History of Video Game Consoles"
+      "target": "Resources/History of Technology/History of Video Game Consoles"
     },
     {
       "source": "Resources/History of Technology/History of Video Games",
@@ -13510,6 +13798,18 @@
     {
       "source": "Resources/History of Technology/Rise of the Smartphone (The iPhone Moment)",
       "target": "Resources/Web Technologies/Responsive Design Principles"
+    },
+    {
+      "source": "Resources/History of Technology/The Age of Surveillance Capitalism",
+      "target": "Resources/History of Technology/History of Social Media"
+    },
+    {
+      "source": "Resources/History of Technology/The Age of Surveillance Capitalism",
+      "target": "Resources/Personal Productivity/Digital Minimalism"
+    },
+    {
+      "source": "Resources/History of Technology/The Age of Surveillance Capitalism",
+      "target": "Resources/Security & Privacy/Data Privacy Regulations (GDPR, CCPA)"
     },
     {
       "source": "Resources/History of Technology/The Browser Wars",
@@ -16013,11 +16313,11 @@
     },
     {
       "source": "Resources/Philosophy/Philosophy of Time — A-Theory vs B-Theory",
-      "target": "Resources/Sleep Science/Sleep Cycles and Ultradian Rhythms"
+      "target": "Resources/Physics/Special Relativity — Key Ideas (Time Dilation, Length Contraction)"
     },
     {
       "source": "Resources/Philosophy/Philosophy of Time — A-Theory vs B-Theory",
-      "target": "Special Relativity — Key Ideas (Time Dilation, Length Contraction)"
+      "target": "Resources/Sleep Science/Sleep Cycles and Ultradian Rhythms"
     },
     {
       "source": "Resources/Philosophy/Pragmatism (Peirce, James, Dewey)",
@@ -16138,6 +16438,258 @@
     {
       "source": "Resources/Philosophy/Zen Buddhism Basics",
       "target": "Resources/Philosophy/Stoicism vs Buddhism — Comparison"
+    },
+    {
+      "source": "Resources/Physics/Chaos Theory and Complexity",
+      "target": "Resources/Learning & Memory/Second-Order Thinking"
+    },
+    {
+      "source": "Resources/Physics/Chaos Theory and Complexity",
+      "target": "Resources/Learning & Memory/Systems Thinking"
+    },
+    {
+      "source": "Resources/Physics/Chaos Theory and Complexity",
+      "target": "Resources/Physics/Phase Transitions and Emergence"
+    },
+    {
+      "source": "Resources/Physics/Classical Mechanics Fundamentals",
+      "target": "Resources/Mathematics/Calculus — Derivatives and Integrals"
+    },
+    {
+      "source": "Resources/Physics/Classical Mechanics Fundamentals",
+      "target": "Resources/Physics/Fermi Estimation (Orders of Magnitude Thinking)"
+    },
+    {
+      "source": "Resources/Physics/Classical Mechanics Fundamentals",
+      "target": "Resources/Physics/Special Relativity — Key Ideas (Time Dilation, Length Contraction)"
+    },
+    {
+      "source": "Resources/Physics/Dark Matter and Dark Energy",
+      "target": "Resources/Physics/General Relativity — Key Ideas (Spacetime, Gravity as Curvature)"
+    },
+    {
+      "source": "Resources/Physics/Dark Matter and Dark Energy",
+      "target": "Resources/Physics/The Big Bang Theory"
+    },
+    {
+      "source": "Resources/Physics/Dark Matter and Dark Energy",
+      "target": "Resources/Physics/The Standard Model of Particle Physics"
+    },
+    {
+      "source": "Resources/Physics/Electromagnetism Basics (Maxwell's Equations, Intuition)",
+      "target": "Resources/History of Technology/History of the Transistor and Integrated Circuit"
+    },
+    {
+      "source": "Resources/Physics/Electromagnetism Basics (Maxwell's Equations, Intuition)",
+      "target": "Resources/Networking"
+    },
+    {
+      "source": "Resources/Physics/Electromagnetism Basics (Maxwell's Equations, Intuition)",
+      "target": "Resources/Physics/Quantum Mechanics Fundamentals"
+    },
+    {
+      "source": "Resources/Physics/Entropy — Physical and Information Interpretations",
+      "target": "Resources/Mathematics/Information Theory — Entropy, Cross-Entropy, KL Divergence"
+    },
+    {
+      "source": "Resources/Physics/Entropy — Physical and Information Interpretations",
+      "target": "Resources/Physics/Thermodynamics and the Arrow of Time"
+    },
+    {
+      "source": "Resources/Physics/Entropy — Physical and Information Interpretations",
+      "target": "Resources/Physics/Thermodynamics — Four Laws"
+    },
+    {
+      "source": "Resources/Physics/Fermi Estimation (Orders of Magnitude Thinking)",
+      "target": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know"
+    },
+    {
+      "source": "Resources/Physics/Fermi Estimation (Orders of Magnitude Thinking)",
+      "target": "Resources/Software Engineering/Software Estimation Techniques"
+    },
+    {
+      "source": "Resources/Physics/Fermi Estimation (Orders of Magnitude Thinking)",
+      "target": "Resources/System Design/System Design Interview Framework"
+    },
+    {
+      "source": "Resources/Physics/General Relativity — Key Ideas (Spacetime, Gravity as Curvature)",
+      "target": "Resources/Physics/Dark Matter and Dark Energy"
+    },
+    {
+      "source": "Resources/Physics/General Relativity — Key Ideas (Spacetime, Gravity as Curvature)",
+      "target": "Resources/Physics/Special Relativity — Key Ideas (Time Dilation, Length Contraction)"
+    },
+    {
+      "source": "Resources/Physics/General Relativity — Key Ideas (Spacetime, Gravity as Curvature)",
+      "target": "Resources/Physics/The Big Bang Theory"
+    },
+    {
+      "source": "Resources/Physics/Heisenberg Uncertainty Principle",
+      "target": "Resources/Physics/Quantum Computing Basics (Qubits, Superposition, Entanglement)"
+    },
+    {
+      "source": "Resources/Physics/Heisenberg Uncertainty Principle",
+      "target": "Resources/Physics/Quantum Mechanics Fundamentals"
+    },
+    {
+      "source": "Resources/Physics/Heisenberg Uncertainty Principle",
+      "target": "Resources/Physics/Wave-Particle Duality"
+    },
+    {
+      "source": "Resources/Physics/Information Theory (Shannon Entropy)",
+      "target": "Resources/History of Technology/Bell Labs and Its Innovations"
+    },
+    {
+      "source": "Resources/Physics/Information Theory (Shannon Entropy)",
+      "target": "Resources/Mathematics/Information Theory — Entropy, Cross-Entropy, KL Divergence"
+    },
+    {
+      "source": "Resources/Physics/Information Theory (Shannon Entropy)",
+      "target": "Resources/Physics/Entropy — Physical and Information Interpretations"
+    },
+    {
+      "source": "Resources/Physics/Many-Worlds Interpretation of Quantum Mechanics",
+      "target": "Resources/Philosophy/Philosophy of Science (Popper, Kuhn, Lakatos)"
+    },
+    {
+      "source": "Resources/Physics/Many-Worlds Interpretation of Quantum Mechanics",
+      "target": "Resources/Physics/Quantum Entanglement and Superposition"
+    },
+    {
+      "source": "Resources/Physics/Many-Worlds Interpretation of Quantum Mechanics",
+      "target": "Resources/Physics/Quantum Mechanics Fundamentals"
+    },
+    {
+      "source": "Resources/Physics/Phase Transitions and Emergence",
+      "target": "Resources/Multi-Agent Systems"
+    },
+    {
+      "source": "Resources/Physics/Phase Transitions and Emergence",
+      "target": "Resources/Physics/Chaos Theory and Complexity"
+    },
+    {
+      "source": "Resources/Physics/Phase Transitions and Emergence",
+      "target": "Systems Biology"
+    },
+    {
+      "source": "Resources/Physics/Quantum Computing Basics (Qubits, Superposition, Entanglement)",
+      "target": "Cryptography"
+    },
+    {
+      "source": "Resources/Physics/Quantum Computing Basics (Qubits, Superposition, Entanglement)",
+      "target": "Resources/Physics/Quantum Entanglement and Superposition"
+    },
+    {
+      "source": "Resources/Physics/Quantum Computing Basics (Qubits, Superposition, Entanglement)",
+      "target": "Resources/Physics/Quantum Mechanics Fundamentals"
+    },
+    {
+      "source": "Resources/Physics/Quantum Entanglement and Superposition",
+      "target": "Resources/Physics/Many-Worlds Interpretation of Quantum Mechanics"
+    },
+    {
+      "source": "Resources/Physics/Quantum Entanglement and Superposition",
+      "target": "Resources/Physics/Quantum Computing Basics (Qubits, Superposition, Entanglement)"
+    },
+    {
+      "source": "Resources/Physics/Quantum Entanglement and Superposition",
+      "target": "Resources/Physics/Quantum Mechanics Fundamentals"
+    },
+    {
+      "source": "Resources/Physics/Quantum Mechanics Fundamentals",
+      "target": "Resources/Physics/Heisenberg Uncertainty Principle"
+    },
+    {
+      "source": "Resources/Physics/Quantum Mechanics Fundamentals",
+      "target": "Resources/Physics/Quantum Computing Basics (Qubits, Superposition, Entanglement)"
+    },
+    {
+      "source": "Resources/Physics/Quantum Mechanics Fundamentals",
+      "target": "Resources/Physics/Wave-Particle Duality"
+    },
+    {
+      "source": "Resources/Physics/Special Relativity — Key Ideas (Time Dilation, Length Contraction)",
+      "target": "Resources/Philosophy/Philosophy of Time — A-Theory vs B-Theory"
+    },
+    {
+      "source": "Resources/Physics/Special Relativity — Key Ideas (Time Dilation, Length Contraction)",
+      "target": "Resources/Physics/Classical Mechanics Fundamentals"
+    },
+    {
+      "source": "Resources/Physics/Special Relativity — Key Ideas (Time Dilation, Length Contraction)",
+      "target": "Resources/Physics/General Relativity — Key Ideas (Spacetime, Gravity as Curvature)"
+    },
+    {
+      "source": "Resources/Physics/String Theory — Accessible Overview",
+      "target": "Resources/Philosophy/Philosophy of Science (Popper, Kuhn, Lakatos)"
+    },
+    {
+      "source": "Resources/Physics/String Theory — Accessible Overview",
+      "target": "Resources/Physics/General Relativity — Key Ideas (Spacetime, Gravity as Curvature)"
+    },
+    {
+      "source": "Resources/Physics/String Theory — Accessible Overview",
+      "target": "Resources/Physics/The Standard Model of Particle Physics"
+    },
+    {
+      "source": "Resources/Physics/The Big Bang Theory",
+      "target": "Resources/Physics/Dark Matter and Dark Energy"
+    },
+    {
+      "source": "Resources/Physics/The Big Bang Theory",
+      "target": "Resources/Physics/General Relativity — Key Ideas (Spacetime, Gravity as Curvature)"
+    },
+    {
+      "source": "Resources/Physics/The Big Bang Theory",
+      "target": "Resources/Physics/Thermodynamics and the Arrow of Time"
+    },
+    {
+      "source": "Resources/Physics/The Standard Model of Particle Physics",
+      "target": "Resources/Physics/Dark Matter and Dark Energy"
+    },
+    {
+      "source": "Resources/Physics/The Standard Model of Particle Physics",
+      "target": "Resources/Physics/Quantum Mechanics Fundamentals"
+    },
+    {
+      "source": "Resources/Physics/The Standard Model of Particle Physics",
+      "target": "Resources/Physics/String Theory — Accessible Overview"
+    },
+    {
+      "source": "Resources/Physics/Thermodynamics and the Arrow of Time",
+      "target": "Resources/Philosophy/Philosophy of Time — A-Theory vs B-Theory"
+    },
+    {
+      "source": "Resources/Physics/Thermodynamics and the Arrow of Time",
+      "target": "Resources/Physics/Entropy — Physical and Information Interpretations"
+    },
+    {
+      "source": "Resources/Physics/Thermodynamics and the Arrow of Time",
+      "target": "Resources/Physics/Thermodynamics — Four Laws"
+    },
+    {
+      "source": "Resources/Physics/Thermodynamics — Four Laws",
+      "target": "Chemistry & Biochemistry"
+    },
+    {
+      "source": "Resources/Physics/Thermodynamics — Four Laws",
+      "target": "Resources/Physics/Entropy — Physical and Information Interpretations"
+    },
+    {
+      "source": "Resources/Physics/Thermodynamics — Four Laws",
+      "target": "Resources/Physics/Thermodynamics and the Arrow of Time"
+    },
+    {
+      "source": "Resources/Physics/Wave-Particle Duality",
+      "target": "Resources/Physics/Heisenberg Uncertainty Principle"
+    },
+    {
+      "source": "Resources/Physics/Wave-Particle Duality",
+      "target": "Resources/Physics/Quantum Entanglement and Superposition"
+    },
+    {
+      "source": "Resources/Physics/Wave-Particle Duality",
+      "target": "Resources/Physics/Quantum Mechanics Fundamentals"
     },
     {
       "source": "Resources/Process Reward Models",
@@ -19892,5 +20444,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-26T22:57:05Z"
+  "generated_at": "2026-05-26T23:04:47Z"
 }
