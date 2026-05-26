@@ -1,5 +1,23 @@
 # ENGINEERING LOG
 
+## 2026-05-26 — Global Codex documentation hygiene rule (Codex, GPT-5.5 xmedium)
+
+### Why we did this
+
+Kenny asked for the global Codex instructions, not just repo-local instructions, to always prioritize updating docs. The goal is to prevent architecture and implementation docs from becoming stale after code or workflow changes.
+
+### What changed
+
+Updated `/home/keni/.codex/AGENTS.md` so the global workflow now explicitly requires relevant shared docs to be updated in the same change as meaningful code, architecture, implementation, workflow, tooling, or task-status changes. The rule also calls out other authoritative tracking docs such as `PHASES.md`, roadmap files, design notes, and architecture references.
+
+### Checks
+
+No app checks were run because this was an instruction/documentation-only change.
+
+### Commit
+
+Pending commit at log time.
+
 ## 2026-05-26 — InstancedMesh performance optimization + invisible-nodes bug marathon (Claude Code, Sonnet 4.6)
 
 ### Why we did this

@@ -1,11 +1,13 @@
 # HANDOFF
 
-**Last updated:** 2026-05-26 by Claude Code (Sonnet 4.6)
-**Session:** Performance optimization (InstancedMesh, 700→3 draw calls) + invisible-nodes bug marathon. All visual effects confirmed working. Phase 2 (T8-T10) complete.
+**Last updated:** 2026-05-26 by Codex (GPT-5.5 xmedium)
+**Session:** Global Codex instruction update for documentation freshness. Previous performance/Phase 2 state preserved below.
 
 ## State
 
 Phase 1 + Phase 2 fully deployed. Site is live on Vercel. GitHub Action auto-updates graph.json on every vault push.
+
+Global Codex instructions at `/home/keni/.codex/AGENTS.md` now make documentation freshness an explicit priority: meaningful code, architecture, implementation, workflow, tooling, or task-status changes must update the relevant shared docs in the same change. This was added to prevent stale architecture or implementation notes from misleading future Codex/Claude sessions.
 
 Visual effects working:
 - **Nodes**: 3 `THREE.InstancedMesh` objects (one per degree bucket), matrix sync in rAF loop

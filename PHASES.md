@@ -72,6 +72,10 @@ Package the same renderer as a local Obsidian plugin. Architecture TBD — depen
 - [ ] Folder/cluster color toggle — color nodes by Maps/Projects/Resources/Areas
 - [ ] "Last updated" timestamp — display `generated` field from graph.json to detect stale pipeline
 
+## Documentation governance
+
+- [x] Global Codex instructions prioritize documentation freshness and require relevant shared docs to be updated alongside meaningful changes.
+
 ## GSTACK REVIEW REPORT
 
 | Review | Trigger | Why | Runs | Status | Findings |

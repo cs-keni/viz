@@ -1,5 +1,19 @@
 # CURRENT TASK
 
+## Current session — Global documentation hygiene rule
+
+### Status: Complete
+
+Updated `/home/keni/.codex/AGENTS.md` so global Codex instructions explicitly prioritize documentation freshness. The new global rule says meaningful changes to code, architecture, implementation details, workflows, tooling, or task status must update relevant shared docs in the same change.
+
+Repo docs updated in this session:
+- `docs/HANDOFF.md`
+- `docs/CURRENT_TASK.md`
+- `docs/ENGINEERING_LOG.md`
+- `PHASES.md`
+
+---
+
 ## Phase 1 — Standalone hosted site
 
 ### Status: T1-T7 complete. Phase 1 implementation done — deployment pending.
