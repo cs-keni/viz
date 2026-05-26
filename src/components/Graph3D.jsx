@@ -257,6 +257,7 @@ export default function Graph3D({ data }) {
   const bloomAddedRef = useRef(false)
   const hasZoomedToFitRef = useRef(false)
   const startTimeRef = useRef(performance.now())
+  const frameCountRef = useRef(0)
   const starfieldRef = useRef(null)
   const nebulaeRef = useRef([])
   const cometsRef = useRef([])
@@ -515,7 +516,9 @@ export default function Graph3D({ data }) {
     const radius = sizeForDegree(node.degree)
     const isRecent = isRecentlyAdded(node.created)
     const base = baseEmissiveForDegree(node.degree ?? 0)
-    const geometry = new THREE.SphereGeometry(radius, 16, 16)
+    // Fewer segments for tiny nodes — imperceptible at small sizes, ~4x fewer triangles
+    const segs = (node.degree ?? 0) >= 9 ? 12 : (node.degree ?? 0) >= 3 ? 8 : 6
+    const geometry = new THREE.SphereGeometry(radius, segs, segs)
     const material = new THREE.MeshStandardMaterial({
       color, emissive: color, emissiveIntensity: base,
       roughness: 0.55, metalness: 0.05,
@@ -620,24 +623,28 @@ export default function Graph3D({ data }) {
     if (!graph) return
     const t = (performance.now() - startTimeRef.current) / 1000
     const selId = selectedNodeRef.current
+    const frame = ++frameCountRef.current
 
-    graph.nodes?.forEach((node) => {
-      if (!node.__threeObj) return
-      const mat = node.__threeObj.material
+    // Node breathing runs at ~1.2 Hz — updating every other frame (30fps) is imperceptible
+    if (frame % 2 === 0) {
+      graph.nodes?.forEach((node) => {
+        if (!node.__threeObj) return
+        const mat = node.__threeObj.material
 
-      mat.opacity = selId && !neighborSetRef.current.has(node.id) ? 0.08 : 1.0
+        mat.opacity = selId && !neighborSetRef.current.has(node.id) ? 0.08 : 1.0
 
-      const amplitude = node._baseEmissive > 0.5 ? 0.08 : 0.04
-      node.__threeObj.scale.setScalar(1 + amplitude * Math.sin(t * 1.2 + (node._phase || 0)))
+        const amplitude = node._baseEmissive > 0.5 ? 0.08 : 0.04
+        node.__threeObj.scale.setScalar(1 + amplitude * Math.sin(t * 1.2 + (node._phase || 0)))
 
-      // Firefly: oscillates below and above baseEmissive so nodes actually go near-dark
-      const glow = Math.sin(t * 0.7 + (node._glimmerPhase || 0)) * 0.3
-      mat.emissiveIntensity = Math.max(0, (node._baseEmissive || 0.2) + glow)
-    })
+        // Firefly: oscillates below and above baseEmissive so nodes actually go near-dark
+        const glow = Math.sin(t * 0.7 + (node._glimmerPhase || 0)) * 0.3
+        mat.emissiveIntensity = Math.max(0, (node._baseEmissive || 0.2) + glow)
+      })
+    }
 
-    // Star twinkling — each star has its own speed + phase so they never sync
+    // Star twinkling is slow and subtle — 20fps updates are invisible
     const sf = starfieldRef.current
-    if (sf) {
+    if (sf && frame % 3 === 0) {
       const colors = sf.points.geometry.attributes.color
       for (let i = 0; i < STAR_COUNT; i++) {
         const speed = 0.25 + sf.phases[i] * 0.5
@@ -672,7 +679,7 @@ export default function Graph3D({ data }) {
         linkVisibility={getLinkVisibility}
         linkOpacity={0.85}
         linkWidth={1.0}
-        linkDirectionalParticles={3}
+        linkDirectionalParticles={2}
         linkDirectionalParticleSpeed={0.001}
         linkDirectionalParticleWidth={1.5}
         linkDirectionalParticleColor={getLinkParticleColor}
