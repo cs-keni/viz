@@ -117,6 +117,15 @@
       "degree": 2
     },
     {
+      "id": "Circadian Rhythm — How It Works",
+      "label": "Circadian Rhythm — How It Works",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Daily Notes/2026-05-19",
       "label": "2026-05-19",
       "folder": "Daily Notes",
@@ -201,8 +210,8 @@
       "degree": 1
     },
     {
-      "id": "Game Theory Fundamentals",
-      "label": "Game Theory Fundamentals",
+      "id": "Fiber — Soluble vs Insoluble",
+      "label": "Fiber — Soluble vs Insoluble",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -210,13 +219,13 @@
       "degree": 1
     },
     {
-      "id": "Heart Rate Variability (HRV) as a Recovery Metric",
-      "label": "Heart Rate Variability (HRV) as a Recovery Metric",
+      "id": "Game Theory Fundamentals",
+      "label": "Game Theory Fundamentals",
       "folder": null,
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 2
+      "degree": 1
     },
     {
       "id": "How to Update Beliefs Gracefully (Bayesian Updating)",
@@ -230,6 +239,15 @@
     {
       "id": "How to Write a Good Technical Spec",
       "label": "How to Write a Good Technical Spec",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Hydration — How Much, When, and Electrolytes",
+      "label": "Hydration — How Much, When, and Electrolytes",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -299,6 +317,15 @@
       "degree": 4
     },
     {
+      "id": "Mental Health & Psychology",
+      "label": "Mental Health & Psychology",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Note Title",
       "label": "Note Title",
       "folder": null,
@@ -324,6 +351,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 3
+    },
+    {
+      "id": "Processed vs Whole Foods — What Matters",
+      "label": "Processed vs Whole Foods — What Matters",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "Product Analytics Fundamentals",
@@ -2943,7 +2979,31 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 6
+      "degree": 7
+    },
+    {
+      "id": "Resources/Health & Fitness/Blood Work Markers Worth Tracking",
+      "label": "Blood Work Markers Worth Tracking",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Blood work can reveal health patterns that subjective feeling misses, but markers need clinical context. Commonly useful areas include lipids, glucose control, blood count, thyroid, liver, kidney, iron, vitamin D, and inflammation markers.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Health & Fitness/Breathing Techniques (Box Breathing, Physiological Sigh, Wim Hof)",
+      "label": "Breathing Techniques (Box Breathing, Physiological Sigh, Wim Hof)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Breathing techniques use deliberate breath patterns to influence arousal, attention, and perceived stress. Box breathing, the physiological sigh, and Wim Hof-style breathing differ in intensity and should be matched to context and safety.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Health & Fitness/Cardio Types — HIIT vs LISS vs Zone 2",
@@ -2955,7 +3015,19 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 5
+      "degree": 6
+    },
+    {
+      "id": "Resources/Health & Fitness/Cold Exposure — Benefits and Protocols",
+      "label": "Cold Exposure — Benefits and Protocols",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Cold exposure may help alertness, perceived recovery, and cold tolerance, but evidence for broad health claims is still limited and risks are real. Protocols should be conservative, brief, and avoided by people with relevant cardiovascular or medical risk unless cleared.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 3
     },
     {
       "id": "Resources/Health & Fitness/Compound Lifts (Squat, Deadlift, Bench Press, OHP)",
@@ -3006,6 +3078,30 @@
       "degree": 4
     },
     {
+      "id": "Resources/Health & Fitness/Fasting Protocols for Health vs Performance",
+      "label": "Fasting Protocols for Health vs Performance",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Fasting protocols can support calorie control or metabolic goals for some people, but they may conflict with training performance, recovery, medication timing, or disordered eating risk. The protocol should match the goal and individual context.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Health & Fitness/Heart Rate Variability (HRV) as a Recovery Metric",
+      "label": "Heart Rate Variability (HRV) as a Recovery Metric",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Heart rate variability reflects variation between heartbeats and is often used as a recovery and stress signal. It is useful as a trend, not a single-day verdict, and should be interpreted alongside sleep, mood, performance, and illness.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 6
+    },
+    {
       "id": "Resources/Health & Fitness/Hypertrophy vs Strength Programming",
       "label": "Hypertrophy vs Strength Programming",
       "folder": "Resources",
@@ -3015,7 +3111,7 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Health & Fitness/Mobility and Flexibility Training",
@@ -3039,7 +3135,7 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 4
+      "degree": 7
     },
     {
       "id": "Resources/Health & Fitness/Overtraining vs Overreaching",
@@ -3051,7 +3147,7 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Health & Fitness/Posture and Desk Ergonomics",
@@ -3075,7 +3171,31 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 12
+      "degree": 17
+    },
+    {
+      "id": "Resources/Health & Fitness/Sauna — Evidence and Use",
+      "label": "Sauna — Evidence and Use",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Sauna bathing is associated with cardiovascular and relaxation benefits, but much evidence is observational and individual safety matters. It should be treated as a heat-stress recovery tool, not a cure-all.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Health & Fitness/Step Count and NEAT",
+      "label": "Step Count and NEAT",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Step count is a practical proxy for everyday movement and NEAT. It supports health, energy expenditure, and desk-work recovery without requiring every activity to become structured exercise.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 5
     },
     {
       "id": "Resources/Health & Fitness/Strength Training Principles (Progressive Overload, Specificity)",
@@ -3087,7 +3207,7 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Health & Fitness/Stretching — Static vs Dynamic vs PNF",
@@ -3095,6 +3215,18 @@
       "folder": "Resources",
       "created": "2026-05-26",
       "excerpt": "Static, dynamic, and PNF stretching use different methods to improve range of motion or prepare for activity. Dynamic stretching fits warmups, static stretching fits flexibility work, and PNF uses contraction-relaxation patterns.",
+      "tags": [
+        "resource",
+        "health-fitness"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Health & Fitness/Sunlight Exposure and Health",
+      "label": "Sunlight Exposure and Health",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Sunlight supports circadian rhythm, mood, and vitamin D synthesis, but ultraviolet exposure also increases skin cancer and eye-disease risk. The practical balance is morning light, outdoor time, and sun protection when UV exposure is significant.",
       "tags": [
         "resource",
         "health-fitness"
@@ -3111,7 +3243,7 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Health & Fitness/Wrist Health for Programmers",
@@ -3920,6 +4052,210 @@
       "degree": 10
     },
     {
+      "id": "Resources/Nutrition & Diet/Anti-Inflammatory Foods",
+      "label": "Anti-Inflammatory Foods",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Anti-inflammatory eating usually means a pattern rich in minimally processed plants, fiber, unsaturated fats, fish, legumes, and adequate protein, not a single miracle food. The goal is a dietary pattern that supports metabolic and cardiovascular health.",
+      "tags": [
+        "resource",
+        "nutrition-diet"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Nutrition & Diet/Caffeine Timing and Adenosine Clearance",
+      "label": "Caffeine Timing and Adenosine Clearance",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Caffeine timing matters because caffeine has a multi-hour half-life and blocks adenosine signals rather than erasing sleep pressure. Morning or early-day use is usually safer for sleep than afternoon or evening dosing.",
+      "tags": [
+        "resource",
+        "nutrition-diet"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Nutrition & Diet/Caffeine — Pharmacology and Optimization",
+      "label": "Caffeine — Pharmacology and Optimization",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Caffeine is a stimulant that blocks adenosine receptors, increasing alertness and reducing perceived fatigue. Useful dosing depends on tolerance, sleep sensitivity, timing, anxiety, and performance needs.",
+      "tags": [
+        "resource",
+        "nutrition-diet"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Nutrition & Diet/Caloric Deficit and Surplus",
+      "label": "Caloric Deficit and Surplus",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "A caloric deficit generally drives weight loss, while a surplus supports weight gain. Body composition outcomes depend on protein, training, sleep, adherence, and the size of the deficit or surplus.",
+      "tags": [
+        "resource",
+        "nutrition-diet"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Nutrition & Diet/Creatine — Benefits, Safety, and Protocol",
+      "label": "Creatine — Benefits, Safety, and Protocol",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Creatine monohydrate is one of the best-supported supplements for strength, power, and lean mass support. A simple daily dose is usually enough, and most healthy adults tolerate it well.",
+      "tags": [
+        "resource",
+        "nutrition-diet"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Nutrition & Diet/Gut Microbiome Basics",
+      "label": "Gut Microbiome Basics",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The gut microbiome is the community of microbes living in the digestive tract, influencing digestion, immune function, metabolites, and possibly mood. Diet diversity, fiber, fermented foods, sleep, stress, and antibiotics all affect it.",
+      "tags": [
+        "resource",
+        "nutrition-diet"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Nutrition & Diet/Gut-Brain Axis",
+      "label": "Gut-Brain Axis",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The gut-brain axis describes communication between the digestive system, microbiome, immune system, hormones, and nervous system. It is real biology, but consumer claims often run ahead of actionable evidence.",
+      "tags": [
+        "resource",
+        "nutrition-diet"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Nutrition & Diet/Intermittent Fasting — Methods and Evidence",
+      "label": "Intermittent Fasting — Methods and Evidence",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Intermittent fasting restricts eating windows or days and may help some people reduce calorie intake or improve metabolic markers. Evidence does not make it universally superior, and safety depends on health status and context.",
+      "tags": [
+        "resource",
+        "nutrition-diet"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Nutrition & Diet/Macronutrients — Protein, Fat, Carbohydrates",
+      "label": "Macronutrients — Protein, Fat, Carbohydrates",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Macronutrients are the major energy-providing nutrients: protein, fat, and carbohydrates. Each has different roles in muscle repair, hormones, energy, satiety, performance, and overall diet quality.",
+      "tags": [
+        "resource",
+        "nutrition-diet"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Nutrition & Diet/Magnesium — Uses, Forms, and Deficiency",
+      "label": "Magnesium — Uses, Forms, and Deficiency",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Magnesium supports muscle, nerve, energy, and enzymatic function. Forms differ in tolerability and use, and supplementation is most sensible when intake is low, symptoms or labs suggest deficiency, or a clinician recommends it.",
+      "tags": [
+        "resource",
+        "nutrition-diet"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Nutrition & Diet/Meal Timing and Performance",
+      "label": "Meal Timing and Performance",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Meal timing can affect training energy, recovery, digestion, and sleep, but total intake usually matters more for body composition. Timing is most important around hard training, long sessions, and personal tolerance.",
+      "tags": [
+        "resource",
+        "nutrition-diet"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Nutrition & Diet/Metabolic Rate and TDEE",
+      "label": "Metabolic Rate and TDEE",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Metabolic rate and total daily energy expenditure estimate how much energy the body uses. TDEE includes resting metabolism, movement, exercise, digestion, and adaptive changes.",
+      "tags": [
+        "resource",
+        "nutrition-diet"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Nutrition & Diet/Micronutrients — Key Vitamins and Minerals",
+      "label": "Micronutrients — Key Vitamins and Minerals",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Micronutrients are vitamins and minerals needed in small amounts for metabolism, immunity, bone health, oxygen transport, and nervous system function. Deficiency risk depends on diet, health status, lifestyle, and medical context.",
+      "tags": [
+        "resource",
+        "nutrition-diet"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Nutrition & Diet/Omega-3 Fatty Acids — EPA, DHA, and Inflammation",
+      "label": "Omega-3 Fatty Acids — EPA, DHA, and Inflammation",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Omega-3 fatty acids EPA and DHA are important fats found mainly in fatty fish and algae. They are associated with heart, brain, and inflammatory pathways, but supplement value depends on diet, dose, and health context.",
+      "tags": [
+        "resource",
+        "nutrition-diet"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Nutrition & Diet/Protein Intake for Muscle Building and Recovery",
+      "label": "Protein Intake for Muscle Building and Recovery",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Protein intake supports muscle repair, hypertrophy, satiety, and recovery. For active people, daily total protein matters most, with distribution across meals helping muscle protein synthesis.",
+      "tags": [
+        "resource",
+        "nutrition-diet"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Nutrition & Diet/Supplements Worth Taking (Evidence-Based)",
+      "label": "Supplements Worth Taking (Evidence-Based)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Evidence-based supplements are context-dependent tools, not replacements for sleep, training, diet quality, or medical care. Creatine, caffeine, protein powder, vitamin D when low, omega-3 when intake is low, and electrolytes in specific conditions are common practical examples.",
+      "tags": [
+        "resource",
+        "nutrition-diet"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Nutrition & Diet/Vitamin D — Importance and Dosing",
+      "label": "Vitamin D — Importance and Dosing",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Vitamin D supports bone health, immune function, and calcium regulation, with status influenced by sun exposure, diet, skin tone, latitude, season, and supplementation. Dosing is best guided by risk factors and blood levels when possible.",
+      "tags": [
+        "resource",
+        "nutrition-diet"
+      ],
+      "degree": 7
+    },
+    {
       "id": "Resources/OS Fundamentals",
       "label": "OS Fundamentals",
       "folder": "Resources",
@@ -4091,7 +4427,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Personal Productivity/Evening Wind-Down Routines",
@@ -4103,7 +4439,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Personal Productivity/Evergreen Notes",
@@ -4139,7 +4475,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Personal Productivity/Getting Things Done (GTD) Method",
@@ -6979,13 +7315,22 @@
       "degree": 3
     },
     {
-      "id": "Step Count and NEAT",
-      "label": "Step Count and NEAT",
+      "id": "Sleep Hygiene Best Practices",
+      "label": "Sleep Hygiene Best Practices",
       "folder": null,
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 2
+    },
+    {
+      "id": "Sleep Pressure and Adenosine",
+      "label": "Sleep Pressure and Adenosine",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
     },
     {
       "id": "TLS 1.3",
@@ -10579,6 +10924,30 @@
       "target": "Resources/Health & Fitness/Posture and Desk Ergonomics"
     },
     {
+      "source": "Resources/Health & Fitness/Blood Work Markers Worth Tracking",
+      "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
+    },
+    {
+      "source": "Resources/Health & Fitness/Blood Work Markers Worth Tracking",
+      "target": "Resources/Nutrition & Diet/Micronutrients — Key Vitamins and Minerals"
+    },
+    {
+      "source": "Resources/Health & Fitness/Blood Work Markers Worth Tracking",
+      "target": "Resources/Nutrition & Diet/Vitamin D — Importance and Dosing"
+    },
+    {
+      "source": "Resources/Health & Fitness/Breathing Techniques (Box Breathing, Physiological Sigh, Wim Hof)",
+      "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
+    },
+    {
+      "source": "Resources/Health & Fitness/Breathing Techniques (Box Breathing, Physiological Sigh, Wim Hof)",
+      "target": "Resources/Personal Productivity/Evening Wind-Down Routines"
+    },
+    {
+      "source": "Resources/Health & Fitness/Breathing Techniques (Box Breathing, Physiological Sigh, Wim Hof)",
+      "target": "Resources/Personal Productivity/Focus Modes and Context Switching Costs"
+    },
+    {
       "source": "Resources/Health & Fitness/Cardio Types — HIIT vs LISS vs Zone 2",
       "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
     },
@@ -10589,6 +10958,18 @@
     {
       "source": "Resources/Health & Fitness/Cardio Types — HIIT vs LISS vs Zone 2",
       "target": "Resources/Health & Fitness/Zone 2 Cardio — Science and Benefits"
+    },
+    {
+      "source": "Resources/Health & Fitness/Cold Exposure — Benefits and Protocols",
+      "target": "Resources/Health & Fitness/Breathing Techniques (Box Breathing, Physiological Sigh, Wim Hof)"
+    },
+    {
+      "source": "Resources/Health & Fitness/Cold Exposure — Benefits and Protocols",
+      "target": "Resources/Health & Fitness/Overtraining vs Overreaching"
+    },
+    {
+      "source": "Resources/Health & Fitness/Cold Exposure — Benefits and Protocols",
+      "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
     },
     {
       "source": "Resources/Health & Fitness/Compound Lifts (Squat, Deadlift, Bench Press, OHP)",
@@ -10639,6 +11020,30 @@
       "target": "Resources/Personal Productivity/Focus Modes and Context Switching Costs"
     },
     {
+      "source": "Resources/Health & Fitness/Fasting Protocols for Health vs Performance",
+      "target": "Resources/Nutrition & Diet/Intermittent Fasting — Methods and Evidence"
+    },
+    {
+      "source": "Resources/Health & Fitness/Fasting Protocols for Health vs Performance",
+      "target": "Resources/Nutrition & Diet/Meal Timing and Performance"
+    },
+    {
+      "source": "Resources/Health & Fitness/Fasting Protocols for Health vs Performance",
+      "target": "Resources/Nutrition & Diet/Protein Intake for Muscle Building and Recovery"
+    },
+    {
+      "source": "Resources/Health & Fitness/Heart Rate Variability (HRV) as a Recovery Metric",
+      "target": "Resources/Health & Fitness/Overtraining vs Overreaching"
+    },
+    {
+      "source": "Resources/Health & Fitness/Heart Rate Variability (HRV) as a Recovery Metric",
+      "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
+    },
+    {
+      "source": "Resources/Health & Fitness/Heart Rate Variability (HRV) as a Recovery Metric",
+      "target": "Resources/Health & Fitness/VO2 Max — What It Is and How to Improve It"
+    },
+    {
       "source": "Resources/Health & Fitness/Hypertrophy vs Strength Programming",
       "target": "Resources/Health & Fitness/Compound Lifts (Squat, Deadlift, Bench Press, OHP)"
     },
@@ -10668,19 +11073,19 @@
     },
     {
       "source": "Resources/Health & Fitness/NEAT (Non-Exercise Activity Thermogenesis)",
-      "target": "Resources/Personal Productivity/Energy Management vs Time Management"
+      "target": "Resources/Health & Fitness/Step Count and NEAT"
     },
     {
       "source": "Resources/Health & Fitness/NEAT (Non-Exercise Activity Thermogenesis)",
-      "target": "Step Count and NEAT"
-    },
-    {
-      "source": "Resources/Health & Fitness/Overtraining vs Overreaching",
-      "target": "Heart Rate Variability (HRV) as a Recovery Metric"
+      "target": "Resources/Personal Productivity/Energy Management vs Time Management"
     },
     {
       "source": "Resources/Health & Fitness/Overtraining vs Overreaching",
       "target": "Resources/Health & Fitness/Deload Weeks"
+    },
+    {
+      "source": "Resources/Health & Fitness/Overtraining vs Overreaching",
+      "target": "Resources/Health & Fitness/Heart Rate Variability (HRV) as a Recovery Metric"
     },
     {
       "source": "Resources/Health & Fitness/Overtraining vs Overreaching",
@@ -10711,6 +11116,30 @@
       "target": "Resources/Personal Productivity/Energy Management vs Time Management"
     },
     {
+      "source": "Resources/Health & Fitness/Sauna — Evidence and Use",
+      "target": "Hydration — How Much, When, and Electrolytes"
+    },
+    {
+      "source": "Resources/Health & Fitness/Sauna — Evidence and Use",
+      "target": "Resources/Health & Fitness/Heart Rate Variability (HRV) as a Recovery Metric"
+    },
+    {
+      "source": "Resources/Health & Fitness/Sauna — Evidence and Use",
+      "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
+    },
+    {
+      "source": "Resources/Health & Fitness/Step Count and NEAT",
+      "target": "Resources/Health & Fitness/Back Health for Desk Workers"
+    },
+    {
+      "source": "Resources/Health & Fitness/Step Count and NEAT",
+      "target": "Resources/Health & Fitness/NEAT (Non-Exercise Activity Thermogenesis)"
+    },
+    {
+      "source": "Resources/Health & Fitness/Step Count and NEAT",
+      "target": "Resources/Personal Productivity/Energy Management vs Time Management"
+    },
+    {
       "source": "Resources/Health & Fitness/Strength Training Principles (Progressive Overload, Specificity)",
       "target": "Resources/Health & Fitness/Compound Lifts (Squat, Deadlift, Bench Press, OHP)"
     },
@@ -10735,12 +11164,24 @@
       "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
     },
     {
-      "source": "Resources/Health & Fitness/VO2 Max — What It Is and How to Improve It",
-      "target": "Heart Rate Variability (HRV) as a Recovery Metric"
+      "source": "Resources/Health & Fitness/Sunlight Exposure and Health",
+      "target": "Circadian Rhythm — How It Works"
+    },
+    {
+      "source": "Resources/Health & Fitness/Sunlight Exposure and Health",
+      "target": "Resources/Nutrition & Diet/Vitamin D — Importance and Dosing"
+    },
+    {
+      "source": "Resources/Health & Fitness/Sunlight Exposure and Health",
+      "target": "Resources/Personal Productivity/Evening Wind-Down Routines"
     },
     {
       "source": "Resources/Health & Fitness/VO2 Max — What It Is and How to Improve It",
       "target": "Resources/Health & Fitness/Cardio Types — HIIT vs LISS vs Zone 2"
+    },
+    {
+      "source": "Resources/Health & Fitness/VO2 Max — What It Is and How to Improve It",
+      "target": "Resources/Health & Fitness/Heart Rate Variability (HRV) as a Recovery Metric"
     },
     {
       "source": "Resources/Health & Fitness/VO2 Max — What It Is and How to Improve It",
@@ -11709,6 +12150,210 @@
     {
       "source": "Resources/Notification System Design",
       "target": "Resources/System Design Case Studies"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Anti-Inflammatory Foods",
+      "target": "Processed vs Whole Foods — What Matters"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Anti-Inflammatory Foods",
+      "target": "Resources/Nutrition & Diet/Gut Microbiome Basics"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Anti-Inflammatory Foods",
+      "target": "Resources/Nutrition & Diet/Omega-3 Fatty Acids — EPA, DHA, and Inflammation"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Caffeine Timing and Adenosine Clearance",
+      "target": "Resources/Nutrition & Diet/Caffeine — Pharmacology and Optimization"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Caffeine Timing and Adenosine Clearance",
+      "target": "Sleep Hygiene Best Practices"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Caffeine Timing and Adenosine Clearance",
+      "target": "Sleep Pressure and Adenosine"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Caffeine — Pharmacology and Optimization",
+      "target": "Resources/Nutrition & Diet/Caffeine Timing and Adenosine Clearance"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Caffeine — Pharmacology and Optimization",
+      "target": "Resources/Nutrition & Diet/Meal Timing and Performance"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Caffeine — Pharmacology and Optimization",
+      "target": "Sleep Pressure and Adenosine"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Caloric Deficit and Surplus",
+      "target": "Resources/Health & Fitness/NEAT (Non-Exercise Activity Thermogenesis)"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Caloric Deficit and Surplus",
+      "target": "Resources/Nutrition & Diet/Metabolic Rate and TDEE"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Caloric Deficit and Surplus",
+      "target": "Resources/Nutrition & Diet/Protein Intake for Muscle Building and Recovery"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Creatine — Benefits, Safety, and Protocol",
+      "target": "Resources/Health & Fitness/Hypertrophy vs Strength Programming"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Creatine — Benefits, Safety, and Protocol",
+      "target": "Resources/Health & Fitness/Strength Training Principles (Progressive Overload, Specificity)"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Creatine — Benefits, Safety, and Protocol",
+      "target": "Resources/Nutrition & Diet/Supplements Worth Taking (Evidence-Based)"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Gut Microbiome Basics",
+      "target": "Fiber — Soluble vs Insoluble"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Gut Microbiome Basics",
+      "target": "Resources/Nutrition & Diet/Anti-Inflammatory Foods"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Gut Microbiome Basics",
+      "target": "Resources/Nutrition & Diet/Gut-Brain Axis"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Gut-Brain Axis",
+      "target": "Mental Health & Psychology"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Gut-Brain Axis",
+      "target": "Resources/Nutrition & Diet/Anti-Inflammatory Foods"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Gut-Brain Axis",
+      "target": "Resources/Nutrition & Diet/Gut Microbiome Basics"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Intermittent Fasting — Methods and Evidence",
+      "target": "Resources/Health & Fitness/Fasting Protocols for Health vs Performance"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Intermittent Fasting — Methods and Evidence",
+      "target": "Resources/Nutrition & Diet/Caloric Deficit and Surplus"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Intermittent Fasting — Methods and Evidence",
+      "target": "Resources/Nutrition & Diet/Meal Timing and Performance"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Macronutrients — Protein, Fat, Carbohydrates",
+      "target": "Resources/Nutrition & Diet/Caloric Deficit and Surplus"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Macronutrients — Protein, Fat, Carbohydrates",
+      "target": "Resources/Nutrition & Diet/Meal Timing and Performance"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Macronutrients — Protein, Fat, Carbohydrates",
+      "target": "Resources/Nutrition & Diet/Protein Intake for Muscle Building and Recovery"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Magnesium — Uses, Forms, and Deficiency",
+      "target": "Resources/Nutrition & Diet/Micronutrients — Key Vitamins and Minerals"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Magnesium — Uses, Forms, and Deficiency",
+      "target": "Resources/Nutrition & Diet/Supplements Worth Taking (Evidence-Based)"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Magnesium — Uses, Forms, and Deficiency",
+      "target": "Sleep Hygiene Best Practices"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Meal Timing and Performance",
+      "target": "Resources/Health & Fitness/Cardio Types — HIIT vs LISS vs Zone 2"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Meal Timing and Performance",
+      "target": "Resources/Health & Fitness/Fasting Protocols for Health vs Performance"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Meal Timing and Performance",
+      "target": "Resources/Nutrition & Diet/Protein Intake for Muscle Building and Recovery"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Metabolic Rate and TDEE",
+      "target": "Resources/Health & Fitness/NEAT (Non-Exercise Activity Thermogenesis)"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Metabolic Rate and TDEE",
+      "target": "Resources/Health & Fitness/Step Count and NEAT"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Metabolic Rate and TDEE",
+      "target": "Resources/Nutrition & Diet/Caloric Deficit and Surplus"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Micronutrients — Key Vitamins and Minerals",
+      "target": "Resources/Health & Fitness/Blood Work Markers Worth Tracking"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Micronutrients — Key Vitamins and Minerals",
+      "target": "Resources/Nutrition & Diet/Magnesium — Uses, Forms, and Deficiency"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Micronutrients — Key Vitamins and Minerals",
+      "target": "Resources/Nutrition & Diet/Vitamin D — Importance and Dosing"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Omega-3 Fatty Acids — EPA, DHA, and Inflammation",
+      "target": "Resources/Nutrition & Diet/Anti-Inflammatory Foods"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Omega-3 Fatty Acids — EPA, DHA, and Inflammation",
+      "target": "Resources/Nutrition & Diet/Micronutrients — Key Vitamins and Minerals"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Omega-3 Fatty Acids — EPA, DHA, and Inflammation",
+      "target": "Resources/Nutrition & Diet/Supplements Worth Taking (Evidence-Based)"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Protein Intake for Muscle Building and Recovery",
+      "target": "Resources/Health & Fitness/Hypertrophy vs Strength Programming"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Protein Intake for Muscle Building and Recovery",
+      "target": "Resources/Nutrition & Diet/Caloric Deficit and Surplus"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Protein Intake for Muscle Building and Recovery",
+      "target": "Resources/Nutrition & Diet/Macronutrients — Protein, Fat, Carbohydrates"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Supplements Worth Taking (Evidence-Based)",
+      "target": "Resources/Nutrition & Diet/Caffeine — Pharmacology and Optimization"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Supplements Worth Taking (Evidence-Based)",
+      "target": "Resources/Nutrition & Diet/Creatine — Benefits, Safety, and Protocol"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Supplements Worth Taking (Evidence-Based)",
+      "target": "Resources/Nutrition & Diet/Vitamin D — Importance and Dosing"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Vitamin D — Importance and Dosing",
+      "target": "Resources/Health & Fitness/Blood Work Markers Worth Tracking"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Vitamin D — Importance and Dosing",
+      "target": "Resources/Health & Fitness/Sunlight Exposure and Health"
+    },
+    {
+      "source": "Resources/Nutrition & Diet/Vitamin D — Importance and Dosing",
+      "target": "Resources/Nutrition & Diet/Micronutrients — Key Vitamins and Minerals"
     },
     {
       "source": "Resources/OS Fundamentals",
@@ -15723,5 +16368,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-26T16:43:10Z"
+  "generated_at": "2026-05-26T16:49:25Z"
 }
