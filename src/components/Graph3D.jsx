@@ -696,6 +696,13 @@ export default function Graph3D({ data }) {
     const t = (performance.now() - startTimeRef.current) / 1000
     const frame = ++frameCountRef.current
 
+    // Initialize instanced meshes on the first frame where node trackers are ready.
+    // nodeThreeObject runs before onRenderFramePost, so __threeObj is always set here.
+    // Doing this here (not onEngineStop) avoids the timing gap where positions might be stale.
+    if (!instanceInitializedRef.current && graph.nodes?.length && graph.nodes[0]?.__threeObj) {
+      initInstancedMeshes()
+    }
+
     // Sync InstancedMesh matrices every other frame — breathing at 30fps is imperceptible
     if (frame % 2 === 0 && instanceInitializedRef.current) {
       const meshes = instancedMeshRef.current
@@ -747,7 +754,7 @@ export default function Graph3D({ data }) {
       nebula.rotation.x = t * 0.007 * (i % 2 === 0 ? -1 : 1)
     })
 
-  }, [])
+  }, [initInstancedMeshes])
 
   return (
     <>
