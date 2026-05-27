@@ -697,15 +697,6 @@
       "degree": 1
     },
     {
-      "id": "NAT and Port Forwarding",
-      "label": "NAT and Port Forwarding",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Note Title",
       "label": "Note Title",
       "folder": null,
@@ -717,15 +708,6 @@
     {
       "id": "Nutrition — Macronutrients (Protein, Carbs, Fats)",
       "label": "Nutrition — Macronutrients (Protein, Carbs, Fats)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "OSI Model — All 7 Layers with Examples",
-      "label": "OSI Model — All 7 Layers with Examples",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -6060,7 +6042,7 @@
         "hardware-computing",
         "devops"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Hardware & Computing/How CPUs Work (Fetch, Decode, Execute, Write-Back)",
@@ -6135,7 +6117,7 @@
         "hardware-computing",
         "networking"
       ],
-      "degree": 5
+      "degree": 9
     },
     {
       "id": "Resources/Hardware & Computing/Power Supplies and 80+ Efficiency Ratings",
@@ -6183,7 +6165,7 @@
         "resource",
         "hardware-computing"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Health & Fitness/Back Health for Desk Workers",
@@ -8333,6 +8315,181 @@
         "interview-prep"
       ],
       "degree": 15
+    },
+    {
+      "id": "Resources/Networking & Protocols/BGP — Internet Routing",
+      "label": "BGP — Internet Routing",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "BGP is the inter-domain routing protocol that lets autonomous systems announce which IP prefixes they can reach. It makes the internet scalable and decentralized, but its trust model also enables route leaks, hijacks, outages, and policy-driven routing surprises.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Networking & Protocols/Bluetooth Architecture",
+      "label": "Bluetooth Architecture",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Bluetooth is a short-range wireless architecture for peripherals, audio, sensors, and device-to-device communication. Classic Bluetooth and Bluetooth Low Energy serve different needs, which explains why headphones, controllers, trackers, keyboards, and IoT devices behave differently.",
+      "tags": [
+        "resource",
+        "networking-protocols",
+        "hardware-computing"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Networking & Protocols/DHCP",
+      "label": "DHCP",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "DHCP automatically assigns IP configuration to devices on a network, including address, subnet mask, gateway, DNS servers, and lease time. It explains why devices usually connect without manual setup and why IP conflicts, stale leases, or wrong gateways can break local networking.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Networking & Protocols/DNS — How It Works (Recursive Resolution, TTL, Caching)",
+      "label": "DNS — How It Works (Recursive Resolution, TTL, Caching)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "DNS turns human-readable names into network addresses through a distributed hierarchy of resolvers, root servers, TLD servers, and authoritative name servers. TTLs and caching make DNS fast, but they also explain propagation delays and stale answers.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Networking & Protocols/Firewall Types (Stateful vs Stateless vs NGFW)",
+      "label": "Firewall Types (Stateful vs Stateless vs NGFW)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Firewalls enforce network traffic policy, from simple stateless rules to stateful connection tracking and next-generation inspection. Good firewall design starts with explicit trust boundaries, least privilege, logging, and rules that are understandable enough to maintain.",
+      "tags": [
+        "resource",
+        "networking-protocols",
+        "security"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/HTTP-1.1 vs HTTP-2 vs HTTP-3 (QUIC)",
+      "label": "HTTP-1.1 vs HTTP-2 vs HTTP-3 (QUIC)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "HTTP evolved from simple per-request patterns toward multiplexed, lower-latency transports: HTTP/1.1 uses TCP connections, HTTP/2 multiplexes streams over TCP, and HTTP/3 runs over QUIC on UDP. The main tradeoff is reducing latency and head-of-line blocking while preserving web compatibility.",
+      "tags": [
+        "resource",
+        "networking-protocols",
+        "web"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Networking & Protocols/IPv4 vs IPv6",
+      "label": "IPv4 vs IPv6",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "IPv4 and IPv6 are internet-layer addressing systems, with IPv4 limited to 32-bit addresses and IPv6 using a much larger 128-bit space. IPv6 reduces the need for NAT and improves address availability, but coexistence with IPv4 creates transition and compatibility complexity.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/NAT and Port Forwarding",
+      "label": "NAT and Port Forwarding",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "NAT lets many private devices share one public IPv4 address by translating internal addresses and ports. Port forwarding creates explicit inbound mappings, which is useful for hosting services but needs careful firewalling and security.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples",
+      "label": "OSI Model — All 7 Layers with Examples",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "The OSI model is a conceptual seven-layer map for network communication, from physical signals up through applications. Real protocols do not always fit perfectly, but the model is useful for debugging by asking which layer a failure belongs to.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each",
+      "label": "TCP vs UDP — When to Use Each",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "TCP provides reliable, ordered byte streams, while UDP provides lightweight datagrams without built-in delivery guarantees. The choice depends on whether the application values reliability and ordering more than latency, control, and tolerance for packet loss.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/TLS Handshake Step-by-Step",
+      "label": "TLS Handshake Step-by-Step",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "A TLS handshake lets a client and server agree on encryption keys, authenticate the server certificate, and create a secure channel. Understanding the steps helps debug HTTPS failures, certificate errors, protocol mismatches, and latency during connection setup.",
+      "tags": [
+        "resource",
+        "networking-protocols",
+        "security"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Networking & Protocols/VPN Protocols (WireGuard, OpenVPN, IPsec)",
+      "label": "VPN Protocols (WireGuard, OpenVPN, IPsec)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "VPN protocols create encrypted tunnels across untrusted networks, but they differ in complexity, performance, compatibility, and operational model. WireGuard is modern and compact, OpenVPN is flexible and widely supported, and IPsec is deeply integrated into many enterprise and site-to-site setups.",
+      "tags": [
+        "resource",
+        "networking-protocols",
+        "security"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/Wi-Fi Standards (802.11 a-b-g-n-ac-ax)",
+      "label": "Wi-Fi Standards (802.11 a-b-g-n-ac-ax)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Wi-Fi standards describe generations of wireless networking, from early 802.11 variants through Wi-Fi 4, 5, and 6. Real-world performance depends less on the headline standard and more on spectrum, channel width, interference, antenna design, distance, walls, and client support.",
+      "tags": [
+        "resource",
+        "networking-protocols",
+        "hardware-computing"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Networking & Protocols/Zero Trust Networking",
+      "label": "Zero Trust Networking",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Zero trust networking assumes network location is not enough to prove trust, so access decisions should depend on identity, device posture, policy, and continuous verification. The goal is not adding friction everywhere, but reducing implicit trust after a user or device gets onto a network.",
+      "tags": [
+        "resource",
+        "networking-protocols",
+        "security"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/Neuroscience/Amygdala and Emotional Processing",
@@ -10951,7 +11108,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Security & Privacy/Encryption — Symmetric vs Asymmetric",
@@ -11095,7 +11252,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Security & Privacy/SQL Injection — Prevention",
@@ -11143,7 +11300,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "Resources/Security & Privacy/Session Management",
@@ -11227,7 +11384,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Security Deep Dive",
@@ -12161,7 +12318,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/System Design/Cache Invalidation Patterns",
@@ -12557,7 +12714,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Resources/System Design/Scalability — Horizontal vs Vertical",
@@ -13028,7 +13185,7 @@
         "resource",
         "web-technologies"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Web Technologies/Web Scraping Ethics and Techniques",
@@ -19493,15 +19650,15 @@
     },
     {
       "source": "Resources/Hardware & Computing/Networking Hardware (Routers, Switches, NICs)",
-      "target": "NAT and Port Forwarding"
-    },
-    {
-      "source": "Resources/Hardware & Computing/Networking Hardware (Routers, Switches, NICs)",
-      "target": "OSI Model — All 7 Layers with Examples"
-    },
-    {
-      "source": "Resources/Hardware & Computing/Networking Hardware (Routers, Switches, NICs)",
       "target": "Resources/Hardware & Computing/Home Lab Setup Guide"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Networking Hardware (Routers, Switches, NICs)",
+      "target": "Resources/Networking & Protocols/NAT and Port Forwarding"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Networking Hardware (Routers, Switches, NICs)",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
     },
     {
       "source": "Resources/Hardware & Computing/Power Supplies and 80+ Efficiency Ratings",
@@ -21842,6 +21999,174 @@
     {
       "source": "Resources/Networking",
       "target": "Resources/Distributed Systems"
+    },
+    {
+      "source": "Resources/Networking & Protocols/BGP — Internet Routing",
+      "target": "Resources/Networking & Protocols/IPv4 vs IPv6"
+    },
+    {
+      "source": "Resources/Networking & Protocols/BGP — Internet Routing",
+      "target": "Resources/Networking & Protocols/Zero Trust Networking"
+    },
+    {
+      "source": "Resources/Networking & Protocols/BGP — Internet Routing",
+      "target": "Resources/System Design/CDN Architecture"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Bluetooth Architecture",
+      "target": "Resources/Hardware & Computing/Networking Hardware (Routers, Switches, NICs)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Bluetooth Architecture",
+      "target": "Resources/Hardware & Computing/USB Standards Timeline (USB 2.0 through USB4)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Bluetooth Architecture",
+      "target": "Resources/Networking & Protocols/Wi-Fi Standards (802.11 a-b-g-n-ac-ax)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/DHCP",
+      "target": "Resources/Hardware & Computing/Networking Hardware (Routers, Switches, NICs)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/DHCP",
+      "target": "Resources/Networking & Protocols/IPv4 vs IPv6"
+    },
+    {
+      "source": "Resources/Networking & Protocols/DHCP",
+      "target": "Resources/Networking & Protocols/NAT and Port Forwarding"
+    },
+    {
+      "source": "Resources/Networking & Protocols/DNS — How It Works (Recursive Resolution, TTL, Caching)",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/DNS — How It Works (Recursive Resolution, TTL, Caching)",
+      "target": "Resources/Networking & Protocols/TLS Handshake Step-by-Step"
+    },
+    {
+      "source": "Resources/Networking & Protocols/DNS — How It Works (Recursive Resolution, TTL, Caching)",
+      "target": "Resources/System Design/CDN Architecture"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Firewall Types (Stateful vs Stateless vs NGFW)",
+      "target": "Resources/Networking & Protocols/NAT and Port Forwarding"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Firewall Types (Stateful vs Stateless vs NGFW)",
+      "target": "Resources/Networking & Protocols/Zero Trust Networking"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Firewall Types (Stateful vs Stateless vs NGFW)",
+      "target": "Resources/Security & Privacy/Defense in Depth"
+    },
+    {
+      "source": "Resources/Networking & Protocols/HTTP-1.1 vs HTTP-2 vs HTTP-3 (QUIC)",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/HTTP-1.1 vs HTTP-2 vs HTTP-3 (QUIC)",
+      "target": "Resources/Networking & Protocols/TLS Handshake Step-by-Step"
+    },
+    {
+      "source": "Resources/Networking & Protocols/HTTP-1.1 vs HTTP-2 vs HTTP-3 (QUIC)",
+      "target": "Resources/Web Technologies/Web Performance Optimization"
+    },
+    {
+      "source": "Resources/Networking & Protocols/IPv4 vs IPv6",
+      "target": "Resources/Networking & Protocols/BGP — Internet Routing"
+    },
+    {
+      "source": "Resources/Networking & Protocols/IPv4 vs IPv6",
+      "target": "Resources/Networking & Protocols/DNS — How It Works (Recursive Resolution, TTL, Caching)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/IPv4 vs IPv6",
+      "target": "Resources/Networking & Protocols/NAT and Port Forwarding"
+    },
+    {
+      "source": "Resources/Networking & Protocols/NAT and Port Forwarding",
+      "target": "Resources/Networking & Protocols/Firewall Types (Stateful vs Stateless vs NGFW)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/NAT and Port Forwarding",
+      "target": "Resources/Networking & Protocols/IPv4 vs IPv6"
+    },
+    {
+      "source": "Resources/Networking & Protocols/NAT and Port Forwarding",
+      "target": "Resources/Networking & Protocols/VPN Protocols (WireGuard, OpenVPN, IPsec)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples",
+      "target": "Resources/Hardware & Computing/Networking Hardware (Routers, Switches, NICs)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples",
+      "target": "Resources/Networking & Protocols/DNS — How It Works (Recursive Resolution, TTL, Caching)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each",
+      "target": "Resources/Networking & Protocols/HTTP-1.1 vs HTTP-2 vs HTTP-3 (QUIC)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each",
+      "target": "Resources/Networking & Protocols/VPN Protocols (WireGuard, OpenVPN, IPsec)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each",
+      "target": "Resources/System Design/Real-Time Systems Design"
+    },
+    {
+      "source": "Resources/Networking & Protocols/TLS Handshake Step-by-Step",
+      "target": "Resources/Networking & Protocols/HTTP-1.1 vs HTTP-2 vs HTTP-3 (QUIC)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/TLS Handshake Step-by-Step",
+      "target": "Resources/Security & Privacy/Public Key Infrastructure (PKI)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/TLS Handshake Step-by-Step",
+      "target": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/VPN Protocols (WireGuard, OpenVPN, IPsec)",
+      "target": "Resources/Networking & Protocols/Firewall Types (Stateful vs Stateless vs NGFW)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/VPN Protocols (WireGuard, OpenVPN, IPsec)",
+      "target": "Resources/Networking & Protocols/NAT and Port Forwarding"
+    },
+    {
+      "source": "Resources/Networking & Protocols/VPN Protocols (WireGuard, OpenVPN, IPsec)",
+      "target": "Resources/Networking & Protocols/Zero Trust Networking"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Wi-Fi Standards (802.11 a-b-g-n-ac-ax)",
+      "target": "Resources/Hardware & Computing/Home Lab Setup Guide"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Wi-Fi Standards (802.11 a-b-g-n-ac-ax)",
+      "target": "Resources/Hardware & Computing/Networking Hardware (Routers, Switches, NICs)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Wi-Fi Standards (802.11 a-b-g-n-ac-ax)",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Zero Trust Networking",
+      "target": "Resources/Networking & Protocols/Firewall Types (Stateful vs Stateless vs NGFW)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Zero Trust Networking",
+      "target": "Resources/Networking & Protocols/VPN Protocols (WireGuard, OpenVPN, IPsec)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Zero Trust Networking",
+      "target": "Resources/Security & Privacy/Zero-Trust Architecture"
     },
     {
       "source": "Resources/Neuroscience/Amygdala and Emotional Processing",
@@ -27552,5 +27877,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-27T15:02:48Z"
+  "generated_at": "2026-05-27T15:07:33Z"
 }
