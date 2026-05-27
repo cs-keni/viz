@@ -55,6 +55,15 @@
       "degree": 1
     },
     {
+      "id": "Architecture Decision Records (ADRs)",
+      "label": "Architecture Decision Records (ADRs)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
+    },
+    {
       "id": "Areas/Dev Setup",
       "label": "Dev Setup",
       "folder": "Areas",
@@ -231,7 +240,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "Cryptography",
@@ -315,7 +324,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "Debugging",
@@ -372,13 +381,13 @@
       "degree": 1
     },
     {
-      "id": "Engineering Levels and Ladders",
-      "label": "Engineering Levels and Ladders",
+      "id": "Executive Summaries",
+      "label": "Executive Summaries",
       "folder": null,
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 3
+      "degree": 1
     },
     {
       "id": "Existential Risk",
@@ -500,15 +509,6 @@
     {
       "id": "Instructional Design",
       "label": "Instructional Design",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Managing Up",
-      "label": "Managing Up",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -2803,7 +2803,7 @@
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Cognitive Science & Biases/Cognitive Load Theory",
@@ -3054,6 +3054,198 @@
       "tags": [
         "resource",
         "cognitive-science-biases"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Communication & Writing/Active Listening",
+      "label": "Active Listening",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Active listening is the practice of giving full attention, reflecting meaning, asking clarifying questions, and checking understanding. It improves trust, conflict resolution, coaching, research, and collaboration.",
+      "tags": [
+        "resource",
+        "communication-writing"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Communication & Writing/Async vs Sync Communication — When to Use Each",
+      "label": "Async vs Sync Communication — When to Use Each",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Async communication is best for durable context, updates, decisions, and focused work, while synchronous communication is best for ambiguity, conflict, brainstorming, urgency, and relationship repair. The right mode depends on bandwidth and stakes.",
+      "tags": [
+        "resource",
+        "communication-writing"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Communication & Writing/Conflict Resolution Strategies",
+      "label": "Conflict Resolution Strategies",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Conflict resolution turns disagreement into clearer interests, options, boundaries, and decisions. Useful strategies include de-escalation, active listening, reframing, separating people from problems, and choosing the right forum.",
+      "tags": [
+        "resource",
+        "communication-writing"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Communication & Writing/Email Etiquette and Efficiency",
+      "label": "Email Etiquette and Efficiency",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Email etiquette and efficiency depend on clear subjects, explicit asks, concise context, appropriate recipients, and respectful response expectations. Good email reduces coordination cost.",
+      "tags": [
+        "resource",
+        "communication-writing"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Communication & Writing/Explaining Complex Ideas Simply (The Curse of Knowledge)",
+      "label": "Explaining Complex Ideas Simply (The Curse of Knowledge)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Explaining complex ideas simply requires noticing the curse of knowledge: experts forget what beginners do not know. Good explanation uses audience models, concrete examples, progressive disclosure, and checked understanding.",
+      "tags": [
+        "resource",
+        "communication-writing"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Communication & Writing/Negotiation Fundamentals (BATNA, ZOPA)",
+      "label": "Negotiation Fundamentals (BATNA, ZOPA)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Negotiation fundamentals include interests, alternatives, BATNA, reservation price, ZOPA, anchors, concessions, and relationship dynamics. Strong negotiators improve their alternatives and understand the other side's constraints.",
+      "tags": [
+        "resource",
+        "communication-writing"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Communication & Writing/Non-Violent Communication (NVC — Marshall Rosenberg)",
+      "label": "Non-Violent Communication (NVC — Marshall Rosenberg)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Non-Violent Communication frames difficult conversations through observations, feelings, needs, and requests. It tries to reduce blame and increase mutual understanding without avoiding boundaries.",
+      "tags": [
+        "resource",
+        "communication-writing"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Communication & Writing/Persuasion — Cialdini's Six Principles",
+      "label": "Persuasion — Cialdini's Six Principles",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Cialdini's persuasion principles describe common influence patterns: reciprocity, commitment and consistency, social proof, authority, liking, and scarcity. They are useful for understanding influence and for noticing manipulation.",
+      "tags": [
+        "resource",
+        "communication-writing"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Communication & Writing/Presentation Design (Assertion-Evidence vs Bullet Slides)",
+      "label": "Presentation Design (Assertion-Evidence vs Bullet Slides)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Presentation design improves audience understanding by replacing vague topic slides with clear assertions supported by visual evidence. Assertion-evidence slides make the message explicit and reduce cognitive burden.",
+      "tags": [
+        "resource",
+        "communication-writing"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Communication & Writing/Public Speaking — Fear and Techniques",
+      "label": "Public Speaking — Fear and Techniques",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Public speaking improves through preparation, audience focus, structure, rehearsal, breathing, exposure, and recovery from small mistakes. Fear is normal; skill comes from reducing uncertainty and increasing reps.",
+      "tags": [
+        "resource",
+        "communication-writing"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Communication & Writing/Rhetoric — Logos, Ethos, Pathos",
+      "label": "Rhetoric — Logos, Ethos, Pathos",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Rhetoric studies persuasive communication through logic, credibility, emotion, audience, structure, and style. Logos, ethos, and pathos are classic lenses for how arguments persuade.",
+      "tags": [
+        "resource",
+        "communication-writing"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Communication & Writing/Storytelling with Data",
+      "label": "Storytelling with Data",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Storytelling with data turns analysis into a clear argument through audience focus, chart choice, annotation, context, sequencing, and visual emphasis. The goal is insight and decision support, not decorative charts.",
+      "tags": [
+        "resource",
+        "communication-writing"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Communication & Writing/Technical Writing Best Practices",
+      "label": "Technical Writing Best Practices",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Technical writing explains systems, procedures, decisions, and concepts so readers can understand and act. Good technical writing is accurate, structured, audience-aware, searchable, and maintained.",
+      "tags": [
+        "resource",
+        "communication-writing"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Communication & Writing/The Pyramid Principle (Barbara Minto)",
+      "label": "The Pyramid Principle (Barbara Minto)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Pyramid Principle structures communication by leading with the answer, then supporting it with grouped, logically ordered arguments. It is useful for executive summaries, strategy memos, and decision communication.",
+      "tags": [
+        "resource",
+        "communication-writing"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Communication & Writing/Writing Clearly — Principles (Williams, Pinker)",
+      "label": "Writing Clearly — Principles (Williams, Pinker)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Clear writing makes ideas easier to understand by reducing ambiguity, needless abstraction, weak structure, and reader effort. Principles from Joseph Williams and Steven Pinker emphasize concrete subjects, strong verbs, coherence, and reader empathy.",
+      "tags": [
+        "resource",
+        "communication-writing"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Communication & Writing/Writing for Developers — Docs, READMEs, Commit Messages",
+      "label": "Writing for Developers — Docs, READMEs, Commit Messages",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Writing for developers includes docs, READMEs, commit messages, pull request descriptions, comments, and decision records. Good developer writing preserves intent, reduces onboarding cost, and improves collaboration.",
+      "tags": [
+        "resource",
+        "communication-writing"
       ],
       "degree": 4
     },
@@ -3754,6 +3946,42 @@
       "degree": 21
     },
     {
+      "id": "Resources/Design & UX/Human-Centered Design Process",
+      "label": "Human-Centered Design Process",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Human-centered design starts with people's needs, contexts, constraints, and behaviors, then iterates through research, synthesis, ideation, prototyping, testing, and implementation. It treats design as learning, not decoration.",
+      "tags": [
+        "resource",
+        "design-ux"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Design & UX/UX Research Methods Overview",
+      "label": "UX Research Methods Overview",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "UX research methods help teams understand user needs, behavior, context, usability, and attitudes. Methods include interviews, surveys, usability tests, field studies, diary studies, analytics, and concept testing.",
+      "tags": [
+        "resource",
+        "design-ux"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Design & UX/User Personas",
+      "label": "User Personas",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "User personas are synthesized representations of target users, including goals, contexts, behaviors, needs, and constraints. They are useful when evidence-based and dangerous when invented as demographic stereotypes.",
+      "tags": [
+        "resource",
+        "design-ux"
+      ],
+      "degree": 3
+    },
+    {
       "id": "Resources/DevOps & Infrastructure/AWS Core Services (EC2, S3, Lambda, RDS, VPC)",
       "label": "AWS Core Services (EC2, S3, Lambda, RDS, VPC)",
       "folder": "Resources",
@@ -4213,7 +4441,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Economics & Finance/Bitcoin — Blockchain, Proof of Work, Mining",
@@ -4285,7 +4513,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Economics & Finance/Globalization — Benefits and Costs",
@@ -4628,7 +4856,7 @@
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Entrepreneurship & Startups/MVP Design — What Minimum Actually Means",
@@ -5461,7 +5689,7 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Leadership & Management/Async Communication Culture",
@@ -5473,7 +5701,19 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 5
+      "degree": 9
+    },
+    {
+      "id": "Resources/Leadership & Management/Conway's Law",
+      "label": "Conway's Law",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Conway's Law says organizations tend to design systems that mirror their communication structures. Architecture and org design influence each other because teams build along coordination boundaries.",
+      "tags": [
+        "resource",
+        "leadership-management"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Leadership & Management/Decision-Making Frameworks (DACI, RACI)",
@@ -5485,7 +5725,7 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Leadership & Management/Delegation — When and How",
@@ -5500,6 +5740,18 @@
       "degree": 6
     },
     {
+      "id": "Resources/Leadership & Management/Engineering Levels and Ladders",
+      "label": "Engineering Levels and Ladders",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Engineering levels and ladders define expectations for impact, scope, autonomy, technical judgment, collaboration, and leadership across career stages. They make growth and promotion criteria more explicit.",
+      "tags": [
+        "resource",
+        "leadership-management"
+      ],
+      "degree": 8
+    },
+    {
       "id": "Resources/Leadership & Management/Engineering Management vs IC Track",
       "label": "Engineering Management vs IC Track",
       "folder": "Resources",
@@ -5509,7 +5761,7 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Leadership & Management/Giving Feedback (SBI Model — Situation, Behavior, Impact)",
@@ -5521,7 +5773,7 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Leadership & Management/Hiring — Structured Interviews",
@@ -5533,7 +5785,31 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 3
+      "degree": 4
+    },
+    {
+      "id": "Resources/Leadership & Management/Managing Up",
+      "label": "Managing Up",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Managing up means proactively helping a manager make better decisions by clarifying goals, surfacing risks, communicating progress, understanding preferences, and asking for needed support. It is not manipulation; it is upward coordination.",
+      "tags": [
+        "resource",
+        "leadership-management"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Leadership & Management/Organizational Design (Functional vs Divisional vs Matrix)",
+      "label": "Organizational Design (Functional vs Divisional vs Matrix)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Organizational design chooses how work, authority, communication, and accountability are structured. Functional, divisional, and matrix models trade specialization, speed, coordination, and clarity.",
+      "tags": [
+        "resource",
+        "leadership-management"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Leadership & Management/Performance Reviews",
@@ -5545,7 +5821,7 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Leadership & Management/Psychological Safety in Teams (Amy Edmondson)",
@@ -5569,7 +5845,7 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Leadership & Management/Remote Team Management",
@@ -5593,7 +5869,19 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 6
+      "degree": 8
+    },
+    {
+      "id": "Resources/Leadership & Management/Technical Interview Design",
+      "label": "Technical Interview Design",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Technical interview design defines how to evaluate engineering candidates against job-relevant skills with structured tasks, rubrics, calibration, and candidate experience. Good interviews test work signal rather than puzzle performance alone.",
+      "tags": [
+        "resource",
+        "leadership-management"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Leadership & Management/The Principal-Agent Problem",
@@ -5605,7 +5893,19 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 4
+      "degree": 5
+    },
+    {
+      "id": "Resources/Leadership & Management/The Staff Engineer's Path",
+      "label": "The Staff Engineer's Path",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Staff Engineer path is a senior individual-contributor track focused on technical leadership, cross-team influence, architecture, execution, mentorship, and organizational leverage without direct management authority.",
+      "tags": [
+        "resource",
+        "leadership-management"
+      ],
+      "degree": 5
     },
     {
       "id": "Resources/Learning & Memory/Active Recall vs Passive Review",
@@ -7304,7 +7604,7 @@
         "resource",
         "personal-finance"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Personal Finance/Net Worth Tracking",
@@ -8474,7 +8774,7 @@
         "resource",
         "product-management"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Product Management/Design Sprints (Jake Knapp)",
@@ -8558,7 +8858,7 @@
         "resource",
         "product-management"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Product Management/Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)",
@@ -8618,7 +8918,7 @@
         "resource",
         "product-management"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Product Management/User Stories and Jobs to Be Done",
@@ -8630,7 +8930,7 @@
         "resource",
         "product-management"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Programming Languages",
@@ -10016,7 +10316,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 13
+      "degree": 15
     },
     {
       "id": "Resources/Software Engineering/Container Networking",
@@ -10112,7 +10412,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Software Engineering/Event Sourcing",
@@ -10220,7 +10520,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Software Engineering/Monolith vs Microservices Tradeoffs",
@@ -11448,7 +11748,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "Streetlight Effect (Looking Where It's Easy)",
@@ -11478,8 +11778,8 @@
       "degree": 1
     },
     {
-      "id": "Technical Interview Design",
-      "label": "Technical Interview Design",
+      "id": "Teaching to Learn — Feynman Technique",
+      "label": "Teaching to Learn — Feynman Technique",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -11487,17 +11787,8 @@
       "degree": 1
     },
     {
-      "id": "Technical Writing Best Practices",
-      "label": "Technical Writing Best Practices",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "The Staff Engineer's Path",
-      "label": "The Staff Engineer's Path",
+      "id": "Technical Leadership",
+      "label": "Technical Leadership",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -14597,6 +14888,198 @@
       "target": "Streetlight Effect (Looking Where It's Easy)"
     },
     {
+      "source": "Resources/Communication & Writing/Active Listening",
+      "target": "Resources/Communication & Writing/Conflict Resolution Strategies"
+    },
+    {
+      "source": "Resources/Communication & Writing/Active Listening",
+      "target": "Resources/Leadership & Management/1-on-1 Meeting Best Practices"
+    },
+    {
+      "source": "Resources/Communication & Writing/Active Listening",
+      "target": "Resources/Product Management/Customer Interviews — How to Run Them"
+    },
+    {
+      "source": "Resources/Communication & Writing/Async vs Sync Communication — When to Use Each",
+      "target": "Resources/Communication & Writing/Technical Writing Best Practices"
+    },
+    {
+      "source": "Resources/Communication & Writing/Async vs Sync Communication — When to Use Each",
+      "target": "Resources/Leadership & Management/Async Communication Culture"
+    },
+    {
+      "source": "Resources/Communication & Writing/Async vs Sync Communication — When to Use Each",
+      "target": "Resources/Leadership & Management/Running Effective Meetings"
+    },
+    {
+      "source": "Resources/Communication & Writing/Conflict Resolution Strategies",
+      "target": "Resources/Communication & Writing/Active Listening"
+    },
+    {
+      "source": "Resources/Communication & Writing/Conflict Resolution Strategies",
+      "target": "Resources/Communication & Writing/Non-Violent Communication (NVC — Marshall Rosenberg)"
+    },
+    {
+      "source": "Resources/Communication & Writing/Conflict Resolution Strategies",
+      "target": "Resources/Leadership & Management/Radical Candor (Kim Scott)"
+    },
+    {
+      "source": "Resources/Communication & Writing/Email Etiquette and Efficiency",
+      "target": "Resources/Communication & Writing/Writing Clearly — Principles (Williams, Pinker)"
+    },
+    {
+      "source": "Resources/Communication & Writing/Email Etiquette and Efficiency",
+      "target": "Resources/Leadership & Management/Async Communication Culture"
+    },
+    {
+      "source": "Resources/Communication & Writing/Email Etiquette and Efficiency",
+      "target": "Resources/Leadership & Management/Running Effective Meetings"
+    },
+    {
+      "source": "Resources/Communication & Writing/Explaining Complex Ideas Simply (The Curse of Knowledge)",
+      "target": "Resources/Communication & Writing/Active Listening"
+    },
+    {
+      "source": "Resources/Communication & Writing/Explaining Complex Ideas Simply (The Curse of Knowledge)",
+      "target": "Resources/Communication & Writing/Writing Clearly — Principles (Williams, Pinker)"
+    },
+    {
+      "source": "Resources/Communication & Writing/Explaining Complex Ideas Simply (The Curse of Knowledge)",
+      "target": "Teaching to Learn — Feynman Technique"
+    },
+    {
+      "source": "Resources/Communication & Writing/Negotiation Fundamentals (BATNA, ZOPA)",
+      "target": "Resources/Communication & Writing/Conflict Resolution Strategies"
+    },
+    {
+      "source": "Resources/Communication & Writing/Negotiation Fundamentals (BATNA, ZOPA)",
+      "target": "Resources/Economics & Finance/Game Theory Fundamentals"
+    },
+    {
+      "source": "Resources/Communication & Writing/Negotiation Fundamentals (BATNA, ZOPA)",
+      "target": "Resources/Personal Finance/Negotiating Salary — Scripts and Tactics"
+    },
+    {
+      "source": "Resources/Communication & Writing/Non-Violent Communication (NVC — Marshall Rosenberg)",
+      "target": "Resources/Communication & Writing/Active Listening"
+    },
+    {
+      "source": "Resources/Communication & Writing/Non-Violent Communication (NVC — Marshall Rosenberg)",
+      "target": "Resources/Communication & Writing/Conflict Resolution Strategies"
+    },
+    {
+      "source": "Resources/Communication & Writing/Non-Violent Communication (NVC — Marshall Rosenberg)",
+      "target": "Resources/Leadership & Management/Giving Feedback (SBI Model — Situation, Behavior, Impact)"
+    },
+    {
+      "source": "Resources/Communication & Writing/Persuasion — Cialdini's Six Principles",
+      "target": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference"
+    },
+    {
+      "source": "Resources/Communication & Writing/Persuasion — Cialdini's Six Principles",
+      "target": "Resources/Communication & Writing/Rhetoric — Logos, Ethos, Pathos"
+    },
+    {
+      "source": "Resources/Communication & Writing/Persuasion — Cialdini's Six Principles",
+      "target": "Resources/Economics & Finance/Behavioral Economics Overview"
+    },
+    {
+      "source": "Resources/Communication & Writing/Presentation Design (Assertion-Evidence vs Bullet Slides)",
+      "target": "Resources/Communication & Writing/Public Speaking — Fear and Techniques"
+    },
+    {
+      "source": "Resources/Communication & Writing/Presentation Design (Assertion-Evidence vs Bullet Slides)",
+      "target": "Resources/Communication & Writing/Storytelling with Data"
+    },
+    {
+      "source": "Resources/Communication & Writing/Presentation Design (Assertion-Evidence vs Bullet Slides)",
+      "target": "Resources/Communication & Writing/The Pyramid Principle (Barbara Minto)"
+    },
+    {
+      "source": "Resources/Communication & Writing/Public Speaking — Fear and Techniques",
+      "target": "Confidence vs Competence"
+    },
+    {
+      "source": "Resources/Communication & Writing/Public Speaking — Fear and Techniques",
+      "target": "Resources/Communication & Writing/Active Listening"
+    },
+    {
+      "source": "Resources/Communication & Writing/Public Speaking — Fear and Techniques",
+      "target": "Resources/Communication & Writing/Presentation Design (Assertion-Evidence vs Bullet Slides)"
+    },
+    {
+      "source": "Resources/Communication & Writing/Rhetoric — Logos, Ethos, Pathos",
+      "target": "Resources/Communication & Writing/Persuasion — Cialdini's Six Principles"
+    },
+    {
+      "source": "Resources/Communication & Writing/Rhetoric — Logos, Ethos, Pathos",
+      "target": "Resources/Communication & Writing/Public Speaking — Fear and Techniques"
+    },
+    {
+      "source": "Resources/Communication & Writing/Rhetoric — Logos, Ethos, Pathos",
+      "target": "Resources/Communication & Writing/The Pyramid Principle (Barbara Minto)"
+    },
+    {
+      "source": "Resources/Communication & Writing/Storytelling with Data",
+      "target": "Data Visualization Best Practices"
+    },
+    {
+      "source": "Resources/Communication & Writing/Storytelling with Data",
+      "target": "Resources/Communication & Writing/The Pyramid Principle (Barbara Minto)"
+    },
+    {
+      "source": "Resources/Communication & Writing/Storytelling with Data",
+      "target": "Statistical Significance and P-Values"
+    },
+    {
+      "source": "Resources/Communication & Writing/Technical Writing Best Practices",
+      "target": "Architecture Decision Records (ADRs)"
+    },
+    {
+      "source": "Resources/Communication & Writing/Technical Writing Best Practices",
+      "target": "Resources/Communication & Writing/Writing for Developers — Docs, READMEs, Commit Messages"
+    },
+    {
+      "source": "Resources/Communication & Writing/Technical Writing Best Practices",
+      "target": "Resources/Leadership & Management/Async Communication Culture"
+    },
+    {
+      "source": "Resources/Communication & Writing/The Pyramid Principle (Barbara Minto)",
+      "target": "Executive Summaries"
+    },
+    {
+      "source": "Resources/Communication & Writing/The Pyramid Principle (Barbara Minto)",
+      "target": "Resources/Communication & Writing/Presentation Design (Assertion-Evidence vs Bullet Slides)"
+    },
+    {
+      "source": "Resources/Communication & Writing/The Pyramid Principle (Barbara Minto)",
+      "target": "Resources/Communication & Writing/Writing Clearly — Principles (Williams, Pinker)"
+    },
+    {
+      "source": "Resources/Communication & Writing/Writing Clearly — Principles (Williams, Pinker)",
+      "target": "Resources/Communication & Writing/Explaining Complex Ideas Simply (The Curse of Knowledge)"
+    },
+    {
+      "source": "Resources/Communication & Writing/Writing Clearly — Principles (Williams, Pinker)",
+      "target": "Resources/Communication & Writing/Technical Writing Best Practices"
+    },
+    {
+      "source": "Resources/Communication & Writing/Writing Clearly — Principles (Williams, Pinker)",
+      "target": "Resources/Communication & Writing/The Pyramid Principle (Barbara Minto)"
+    },
+    {
+      "source": "Resources/Communication & Writing/Writing for Developers — Docs, READMEs, Commit Messages",
+      "target": "Architecture Decision Records (ADRs)"
+    },
+    {
+      "source": "Resources/Communication & Writing/Writing for Developers — Docs, READMEs, Commit Messages",
+      "target": "Resources/Communication & Writing/Technical Writing Best Practices"
+    },
+    {
+      "source": "Resources/Communication & Writing/Writing for Developers — Docs, READMEs, Commit Messages",
+      "target": "Resources/Software Engineering/Code Review Best Practices"
+    },
+    {
       "source": "Resources/DSA Practice",
       "target": "Projects/Backlog"
     },
@@ -15427,6 +15910,42 @@
     {
       "source": "Resources/Databases",
       "target": "Resources/System Design Notes"
+    },
+    {
+      "source": "Resources/Design & UX/Human-Centered Design Process",
+      "target": "Resources/Design & UX/UX Research Methods Overview"
+    },
+    {
+      "source": "Resources/Design & UX/Human-Centered Design Process",
+      "target": "Resources/Product Management/Product Discovery vs Delivery"
+    },
+    {
+      "source": "Resources/Design & UX/Human-Centered Design Process",
+      "target": "Resources/Product Management/Usability Testing"
+    },
+    {
+      "source": "Resources/Design & UX/UX Research Methods Overview",
+      "target": "Resources/Design & UX/Human-Centered Design Process"
+    },
+    {
+      "source": "Resources/Design & UX/UX Research Methods Overview",
+      "target": "Resources/Product Management/Customer Interviews — How to Run Them"
+    },
+    {
+      "source": "Resources/Design & UX/UX Research Methods Overview",
+      "target": "Resources/Product Management/Usability Testing"
+    },
+    {
+      "source": "Resources/Design & UX/User Personas",
+      "target": "Resources/Design & UX/UX Research Methods Overview"
+    },
+    {
+      "source": "Resources/Design & UX/User Personas",
+      "target": "Resources/Entrepreneurship & Startups/Jobs to Be Done Framework"
+    },
+    {
+      "source": "Resources/Design & UX/User Personas",
+      "target": "Resources/Product Management/User Stories and Jobs to Be Done"
     },
     {
       "source": "Resources/DevOps & Infrastructure/AWS Core Services (EC2, S3, Lambda, RDS, VPC)",
@@ -17306,15 +17825,19 @@
     },
     {
       "source": "Resources/Leadership & Management/1-on-1 Meeting Best Practices",
-      "target": "Managing Up"
-    },
-    {
-      "source": "Resources/Leadership & Management/1-on-1 Meeting Best Practices",
       "target": "Resources/Leadership & Management/Giving Feedback (SBI Model — Situation, Behavior, Impact)"
     },
     {
       "source": "Resources/Leadership & Management/1-on-1 Meeting Best Practices",
+      "target": "Resources/Leadership & Management/Managing Up"
+    },
+    {
+      "source": "Resources/Leadership & Management/1-on-1 Meeting Best Practices",
       "target": "Resources/Leadership & Management/Psychological Safety in Teams (Amy Edmondson)"
+    },
+    {
+      "source": "Resources/Leadership & Management/Async Communication Culture",
+      "target": "Resources/Communication & Writing/Technical Writing Best Practices"
     },
     {
       "source": "Resources/Leadership & Management/Async Communication Culture",
@@ -17325,8 +17848,16 @@
       "target": "Resources/Leadership & Management/Running Effective Meetings"
     },
     {
-      "source": "Resources/Leadership & Management/Async Communication Culture",
-      "target": "Technical Writing Best Practices"
+      "source": "Resources/Leadership & Management/Conway's Law",
+      "target": "Resources/Leadership & Management/Organizational Design (Functional vs Divisional vs Matrix)"
+    },
+    {
+      "source": "Resources/Leadership & Management/Conway's Law",
+      "target": "Resources/Software Engineering/Domain-Driven Design (DDD)"
+    },
+    {
+      "source": "Resources/Leadership & Management/Conway's Law",
+      "target": "Resources/Software Engineering/Microservices Architecture"
     },
     {
       "source": "Resources/Leadership & Management/Decision-Making Frameworks (DACI, RACI)",
@@ -17353,8 +17884,16 @@
       "target": "Resources/Leadership & Management/Performance Reviews"
     },
     {
-      "source": "Resources/Leadership & Management/Engineering Management vs IC Track",
-      "target": "Engineering Levels and Ladders"
+      "source": "Resources/Leadership & Management/Engineering Levels and Ladders",
+      "target": "Resources/Leadership & Management/Engineering Management vs IC Track"
+    },
+    {
+      "source": "Resources/Leadership & Management/Engineering Levels and Ladders",
+      "target": "Resources/Leadership & Management/Performance Reviews"
+    },
+    {
+      "source": "Resources/Leadership & Management/Engineering Levels and Ladders",
+      "target": "Resources/Leadership & Management/The Staff Engineer's Path"
     },
     {
       "source": "Resources/Leadership & Management/Engineering Management vs IC Track",
@@ -17362,7 +17901,11 @@
     },
     {
       "source": "Resources/Leadership & Management/Engineering Management vs IC Track",
-      "target": "The Staff Engineer's Path"
+      "target": "Resources/Leadership & Management/Engineering Levels and Ladders"
+    },
+    {
+      "source": "Resources/Leadership & Management/Engineering Management vs IC Track",
+      "target": "Resources/Leadership & Management/The Staff Engineer's Path"
     },
     {
       "source": "Resources/Leadership & Management/Giving Feedback (SBI Model — Situation, Behavior, Impact)",
@@ -17378,23 +17921,47 @@
     },
     {
       "source": "Resources/Leadership & Management/Hiring — Structured Interviews",
-      "target": "Engineering Levels and Ladders"
-    },
-    {
-      "source": "Resources/Leadership & Management/Hiring — Structured Interviews",
       "target": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference"
     },
     {
       "source": "Resources/Leadership & Management/Hiring — Structured Interviews",
-      "target": "Technical Interview Design"
+      "target": "Resources/Leadership & Management/Engineering Levels and Ladders"
     },
     {
-      "source": "Resources/Leadership & Management/Performance Reviews",
-      "target": "Engineering Levels and Ladders"
+      "source": "Resources/Leadership & Management/Hiring — Structured Interviews",
+      "target": "Resources/Leadership & Management/Technical Interview Design"
+    },
+    {
+      "source": "Resources/Leadership & Management/Managing Up",
+      "target": "Resources/Leadership & Management/1-on-1 Meeting Best Practices"
+    },
+    {
+      "source": "Resources/Leadership & Management/Managing Up",
+      "target": "Resources/Leadership & Management/Async Communication Culture"
+    },
+    {
+      "source": "Resources/Leadership & Management/Managing Up",
+      "target": "Resources/Leadership & Management/Decision-Making Frameworks (DACI, RACI)"
+    },
+    {
+      "source": "Resources/Leadership & Management/Organizational Design (Functional vs Divisional vs Matrix)",
+      "target": "Resources/Leadership & Management/Conway's Law"
+    },
+    {
+      "source": "Resources/Leadership & Management/Organizational Design (Functional vs Divisional vs Matrix)",
+      "target": "Resources/Leadership & Management/Decision-Making Frameworks (DACI, RACI)"
+    },
+    {
+      "source": "Resources/Leadership & Management/Organizational Design (Functional vs Divisional vs Matrix)",
+      "target": "Resources/Leadership & Management/The Principal-Agent Problem"
     },
     {
       "source": "Resources/Leadership & Management/Performance Reviews",
       "target": "Resources/Leadership & Management/1-on-1 Meeting Best Practices"
+    },
+    {
+      "source": "Resources/Leadership & Management/Performance Reviews",
+      "target": "Resources/Leadership & Management/Engineering Levels and Ladders"
     },
     {
       "source": "Resources/Leadership & Management/Performance Reviews",
@@ -17449,6 +18016,18 @@
       "target": "Resources/Leadership & Management/Decision-Making Frameworks (DACI, RACI)"
     },
     {
+      "source": "Resources/Leadership & Management/Technical Interview Design",
+      "target": "Resources/Leadership & Management/Engineering Levels and Ladders"
+    },
+    {
+      "source": "Resources/Leadership & Management/Technical Interview Design",
+      "target": "Resources/Leadership & Management/Hiring — Structured Interviews"
+    },
+    {
+      "source": "Resources/Leadership & Management/Technical Interview Design",
+      "target": "Resources/Software Engineering/Code Review Best Practices"
+    },
+    {
       "source": "Resources/Leadership & Management/The Principal-Agent Problem",
       "target": "Incentive Design"
     },
@@ -17459,6 +18038,18 @@
     {
       "source": "Resources/Leadership & Management/The Principal-Agent Problem",
       "target": "Resources/Leadership & Management/Delegation — When and How"
+    },
+    {
+      "source": "Resources/Leadership & Management/The Staff Engineer's Path",
+      "target": "Resources/Leadership & Management/Engineering Levels and Ladders"
+    },
+    {
+      "source": "Resources/Leadership & Management/The Staff Engineer's Path",
+      "target": "Resources/Leadership & Management/Engineering Management vs IC Track"
+    },
+    {
+      "source": "Resources/Leadership & Management/The Staff Engineer's Path",
+      "target": "Technical Leadership"
     },
     {
       "source": "Resources/Learning & Memory/Active Recall vs Passive Review",
@@ -24341,5 +24932,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-27T04:40:28Z"
+  "generated_at": "2026-05-27T04:56:45Z"
 }
