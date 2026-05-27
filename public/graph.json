@@ -123,7 +123,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "Base rates",
@@ -141,7 +141,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "Blameless Postmortems",
@@ -218,6 +218,15 @@
     {
       "id": "Climate Change — Science and Impacts",
       "label": "Climate Change — Science and Impacts",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Code Smells",
+      "label": "Code Smells",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -354,6 +363,15 @@
       "degree": 2
     },
     {
+      "id": "Decision-Making Frameworks",
+      "label": "Decision-Making Frameworks",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Difficult Conversations",
       "label": "Difficult Conversations",
       "folder": null,
@@ -417,6 +435,15 @@
       "degree": 1
     },
     {
+      "id": "Feedback Loops",
+      "label": "Feedback Loops",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Feedback loops",
       "label": "Feedback loops",
       "folder": null,
@@ -450,7 +477,16 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 2
+      "degree": 3
+    },
+    {
+      "id": "Formal Languages and Automata Theory",
+      "label": "Formal Languages and Automata Theory",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "Goal Setting Frameworks (SMART, OKRs)",
@@ -459,7 +495,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "Graph Algorithms (BFS, DFS, Dijkstra, A*)",
@@ -477,7 +513,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "Hash Functions",
@@ -531,11 +567,20 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "Instructional Design",
       "label": "Instructional Design",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Inversion",
+      "label": "Inversion",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -614,6 +659,15 @@
       "degree": 1
     },
     {
+      "id": "Mental Models",
+      "label": "Mental Models",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
+    },
+    {
       "id": "Metrics That Matter vs Vanity Metrics",
       "label": "Metrics That Matter vs Vanity Metrics",
       "folder": null,
@@ -652,6 +706,33 @@
     {
       "id": "Object-Oriented Programming Concepts",
       "label": "Object-Oriented Programming Concepts",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Optionality",
+      "label": "Optionality",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "PTSD — Symptoms and Treatments",
+      "label": "PTSD — Symptoms and Treatments",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Partitioning and Sharding",
+      "label": "Partitioning and Sharding",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -827,6 +908,15 @@
       "degree": 1
     },
     {
+      "id": "Recursion and Divide-and-Conquer",
+      "label": "Recursion and Divide-and-Conquer",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Resources/AI & Machine Learning/AI Agents and Tool Use",
       "label": "AI Agents and Tool Use",
       "folder": "Resources",
@@ -848,7 +938,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 14
+      "degree": 16
     },
     {
       "id": "Resources/AI & Machine Learning/AI Memory Architectures",
@@ -1340,7 +1430,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)",
@@ -1783,7 +1873,7 @@
         "resource",
         "biology-life-sciences"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Biology & Life Sciences/Evolutionary Psychology Overview",
@@ -1795,7 +1885,7 @@
         "resource",
         "biology-life-sciences"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Biology & Life Sciences/Genetics — DNA to Protein to Phenotype",
@@ -1903,7 +1993,7 @@
         "resource",
         "biology-life-sciences"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Biology & Life Sciences/The Microbiome — Gut Flora and Health",
@@ -1927,7 +2017,7 @@
         "resource",
         "biology-life-sciences"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Bobby Commands",
@@ -1957,6 +2047,294 @@
         "chromadb"
       ],
       "degree": 10
+    },
+    {
+      "id": "Resources/Books & Ideas/Antifragile — Key Ideas (Taleb)",
+      "label": "Antifragile — Key Ideas (Taleb)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Antifragile argues that some systems benefit from volatility, stress, disorder, and uncertainty. Taleb distinguishes fragile, robust, and antifragile systems and favors optionality over prediction.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Books & Ideas/Atomic Habits — Key Ideas (James Clear)",
+      "label": "Atomic Habits — Key Ideas (James Clear)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Atomic Habits presents habit change as identity-aligned behavior shaped by cues, cravings, responses, and rewards. Its practical power is focusing on environment design and small repeatable systems.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Books & Ideas/Clean Code — Key Ideas (Robert C. Martin)",
+      "label": "Clean Code — Key Ideas (Robert C. Martin)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Clean Code argues that code should be readable, intentional, small, well-named, tested, and maintainable. Some advice is debated, but the book's central concern is reducing comprehension cost.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Books & Ideas/Deep Work — Key Ideas (Newport)",
+      "label": "Deep Work — Key Ideas (Newport)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Deep Work argues that cognitively demanding, distraction-free concentration is increasingly valuable and increasingly rare. Newport emphasizes deliberate practice, attention protection, scheduling, and reducing shallow work.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Books & Ideas/Designing Data-Intensive Applications — Key Ideas (Kleppmann)",
+      "label": "Designing Data-Intensive Applications — Key Ideas (Kleppmann)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Designing Data-Intensive Applications explains the tradeoffs behind storage, replication, partitioning, transactions, consistency, batch processing, stream processing, and distributed systems. It is a systems-thinking book for modern data infrastructure.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Books & Ideas/Gödel, Escher, Bach — Key Ideas (Hofstadter)",
+      "label": "Gödel, Escher, Bach — Key Ideas (Hofstadter)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Gödel, Escher, Bach explores minds, meaning, recursion, self-reference, formal systems, music, art, and consciousness. Its central fascination is how strange loops can produce meaning from symbol manipulation.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Books & Ideas/Human Compatible — Key Ideas (Stuart Russell)",
+      "label": "Human Compatible — Key Ideas (Stuart Russell)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Human Compatible argues that AI should be designed around uncertainty about human preferences rather than fixed objectives. Russell reframes alignment as building systems that defer, learn, and remain corrigible.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Books & Ideas/Life 3.0 — Key Ideas (Tegmark)",
+      "label": "Life 3.0 — Key Ideas (Tegmark)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Life 3.0 explores artificial intelligence, consciousness, cosmic futures, and choices about beneficial AI. Tegmark frames intelligence as the ability to accomplish goals and asks what future humans want.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Books & Ideas/Poor Charlie's Almanack — Key Ideas (Munger)",
+      "label": "Poor Charlie's Almanack — Key Ideas (Munger)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Poor Charlie's Almanack collects Charlie Munger's ideas on multidisciplinary thinking, incentives, inversion, mental models, rationality, investing, and judgment. Its core message is to build worldly wisdom across disciplines.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Books & Ideas/Sapiens — Key Ideas (Harari)",
+      "label": "Sapiens — Key Ideas (Harari)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Sapiens tells a broad, interpretive history of humanity through cognitive, agricultural, imperial, scientific, and capitalist revolutions. Its most memorable idea is that shared fictions let large groups cooperate.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Books & Ideas/Superintelligence — Key Ideas (Bostrom)",
+      "label": "Superintelligence — Key Ideas (Bostrom)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Superintelligence explores the possibility that machine intelligence could exceed human intelligence and create severe control problems. Bostrom focuses on takeoff scenarios, instrumental goals, alignment, and governance.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Books & Ideas/The Almanack of Naval Ravikant — Key Ideas",
+      "label": "The Almanack of Naval Ravikant — Key Ideas",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Almanack of Naval Ravikant collects Naval's ideas about wealth, judgment, leverage, specific knowledge, accountability, happiness, and freedom. Its recurring theme is building a life around compounding judgment and autonomy.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Books & Ideas/The Black Swan — Key Ideas (Taleb)",
+      "label": "The Black Swan — Key Ideas (Taleb)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Black Swan examines rare, high-impact, hard-to-predict events and the human tendency to explain them afterward. Taleb warns against overconfidence, naive models, and hidden tail risk.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Books & Ideas/The Body Keeps the Score — Key Ideas (van der Kolk)",
+      "label": "The Body Keeps the Score — Key Ideas (van der Kolk)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Body Keeps the Score argues that trauma affects the brain, body, memory, emotion, and relationships. It popularized body-aware trauma treatment, though specific interventions should be interpreted through current clinical evidence.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Books & Ideas/The Hard Thing About Hard Things — Key Ideas (Horowitz)",
+      "label": "The Hard Thing About Hard Things — Key Ideas (Horowitz)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Hard Thing About Hard Things is Ben Horowitz's practical account of leading companies through fear, layoffs, crisis, ambiguity, and imperfect decisions. It emphasizes that leadership is often about surviving non-ideal reality.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Books & Ideas/The Innovator's Dilemma — Key Ideas (Christensen)",
+      "label": "The Innovator's Dilemma — Key Ideas (Christensen)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Innovator's Dilemma explains how successful companies can fail by rationally serving current customers and profit models while disruptive entrants improve from overlooked markets. The threat is structural, not stupidity.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Books & Ideas/The Pragmatic Programmer — Key Ideas (Hunt, Thomas)",
+      "label": "The Pragmatic Programmer — Key Ideas (Hunt, Thomas)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Pragmatic Programmer is a practical software craftsmanship book about responsibility, feedback, automation, orthogonality, testing, debugging, and continuous learning. Its core message is to act like an owner of the work.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Books & Ideas/The Selfish Gene — Key Ideas (Dawkins)",
+      "label": "The Selfish Gene — Key Ideas (Dawkins)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Selfish Gene popularized a gene-centered view of evolution, explaining behavior through replication, selection, kinship, altruism, and memes. The title is metaphorical: genes are not conscious agents.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Books & Ideas/The Staff Engineer's Path — Key Ideas (Reilly)",
+      "label": "The Staff Engineer's Path — Key Ideas (Reilly)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Staff Engineer's Path explains senior individual-contributor leadership through scope, influence, strategy, execution, mentorship, and visibility. It helps engineers grow without assuming management is the only path.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Books & Ideas/The Structure of Scientific Revolutions — Key Ideas (Kuhn)",
+      "label": "The Structure of Scientific Revolutions — Key Ideas (Kuhn)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Structure of Scientific Revolutions argues that science often develops through paradigms, normal science, anomalies, crises, and revolutionary shifts. Kuhn changed how people discuss scientific progress.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Books & Ideas/Thinking Fast and Slow — Key Ideas (Kahneman)",
+      "label": "Thinking Fast and Slow — Key Ideas (Kahneman)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Thinking, Fast and Slow presents Daniel Kahneman's distinction between fast intuitive judgment and slower deliberate reasoning. Its enduring value is showing how human judgment can be useful, biased, confident, and wrong.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Books & Ideas/Thinking in Systems — Key Ideas (Meadows)",
+      "label": "Thinking in Systems — Key Ideas (Meadows)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Thinking in Systems teaches how to understand stocks, flows, feedback loops, delays, leverage points, and unintended consequences. It is a practical guide to seeing behavior as the product of system structure.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Books & Ideas/Why We Sleep — Key Ideas (Matthew Walker)",
+      "label": "Why We Sleep — Key Ideas (Matthew Walker)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Why We Sleep popularized the importance of sleep for memory, emotion, metabolism, immunity, performance, and health. Some specific claims have been debated, but the broad message that sleep is foundational remains useful.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Books & Ideas/Zero to One — Key Ideas (Thiel)",
+      "label": "Zero to One — Key Ideas (Thiel)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Zero to One argues that startups create the most value by building something new and defensible rather than competing in crowded markets. Its key lens is monopoly-like differentiation through unique insight.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 3
     },
     {
       "id": "Resources/Business & Strategy/Blue Ocean Strategy",
@@ -2004,7 +2382,7 @@
         "resource",
         "business-strategy"
       ],
-      "degree": 12
+      "degree": 14
     },
     {
       "id": "Resources/Business & Strategy/First-Mover vs Fast-Follower",
@@ -2016,7 +2394,7 @@
         "resource",
         "business-strategy"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Business & Strategy/Go-to-Market Strategy",
@@ -2100,7 +2478,7 @@
         "resource",
         "business-strategy"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Business & Strategy/The Strategy of Precommitment",
@@ -2136,7 +2514,7 @@
         "resource",
         "business-strategy"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/CI CD",
@@ -2739,7 +3117,7 @@
         "resource",
         "chemistry-biochemistry"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Claude Code Skills",
@@ -2839,7 +3217,7 @@
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 9
+      "degree": 11
     },
     {
       "id": "Resources/Cognitive Science & Biases/Cognitive Load Theory",
@@ -4681,7 +5059,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/Economics & Finance/Bitcoin — Blockchain, Proof of Work, Mining",
@@ -4753,7 +5131,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Economics & Finance/Globalization — Benefits and Costs",
@@ -5036,7 +5414,7 @@
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Equity and Dilution",
@@ -5132,7 +5510,7 @@
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Startup Funding (Bootstrapping, Angel, Pre-Seed, Seed, Series A)",
@@ -5144,7 +5522,7 @@
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Startup vs Small Business — Key Differences",
@@ -5240,7 +5618,7 @@
         "resource",
         "film-storytelling"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Film & Storytelling/Cinematography Fundamentals",
@@ -5288,7 +5666,7 @@
         "resource",
         "film-storytelling"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Film & Storytelling/Screenplay Writing Basics",
@@ -5315,6 +5693,18 @@
       "degree": 3
     },
     {
+      "id": "Resources/Film & Storytelling/The Role of Conflict in Story",
+      "label": "The Role of Conflict in Story",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Conflict is the pressure that forces characters to reveal values, make choices, and change. It can be external, internal, interpersonal, social, moral, or existential, and it gives story its forward motion.",
+      "tags": [
+        "resource",
+        "film-storytelling"
+      ],
+      "degree": 7
+    },
+    {
       "id": "Resources/Film & Storytelling/Why Certain Stories Resonate (Evolutionary Psychology of Narrative)",
       "label": "Why Certain Stories Resonate (Evolutionary Psychology of Narrative)",
       "folder": "Resources",
@@ -5324,7 +5714,7 @@
         "resource",
         "film-storytelling"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Film & Storytelling/Worldbuilding Principles",
@@ -5336,7 +5726,7 @@
         "resource",
         "film-storytelling"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/FlashAttention",
@@ -6060,7 +6450,7 @@
         "resource",
         "history-of-technology"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/History of Technology/The Browser Wars",
@@ -6265,7 +6655,7 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Leadership & Management/Engineering Management vs IC Track",
@@ -6313,7 +6703,7 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Leadership & Management/Organizational Design (Functional vs Divisional vs Matrix)",
@@ -6349,7 +6739,7 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Leadership & Management/Radical Candor (Kim Scott)",
@@ -6361,7 +6751,7 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Leadership & Management/Remote Team Management",
@@ -6421,7 +6811,7 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Learning & Memory/Active Recall vs Passive Review",
@@ -6685,7 +7075,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Learning & Memory/Teaching as a Learning Tool",
@@ -8132,7 +8522,7 @@
         "resource",
         "personal-finance"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Personal Finance/Credit Scores — How They Work and How to Improve Them",
@@ -8348,7 +8738,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 7
+      "degree": 3
     },
     {
       "id": "Resources/Personal Productivity/Building a Second Brain (BASB — Tiago Forte)",
@@ -8444,7 +8834,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Personal Productivity/Energy Management vs Time Management",
@@ -8769,7 +9159,7 @@
         "philosophy",
         "ai"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Philosophy/AI Ethics — Bias, Fairness, and Accountability",
@@ -8878,7 +9268,7 @@
         "resource",
         "philosophy"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Philosophy/Free Will — Compatibilism vs Hard Determinism",
@@ -8914,7 +9304,7 @@
         "resource",
         "philosophy"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Philosophy/Moral Realism vs Anti-Realism",
@@ -8962,7 +9352,7 @@
         "resource",
         "philosophy"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Philosophy/Philosophy of Science (Popper, Kuhn, Lakatos)",
@@ -8974,7 +9364,7 @@
         "resource",
         "philosophy"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Philosophy/Philosophy of Time — A-Theory vs B-Theory",
@@ -10638,7 +11028,7 @@
         "resource",
         "sleep-science"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Sleep Science/Sleep Disorders Overview (Apnea, Insomnia, RLS)",
@@ -10928,7 +11318,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/Software Engineering/Code Complexity — Cyclomatic Complexity",
@@ -10952,7 +11342,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "Resources/Software Engineering/Container Networking",
@@ -11072,7 +11462,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "Resources/Software Engineering/Feature Flags and Progressive Rollout",
@@ -11228,7 +11618,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Software Engineering/SOLID Principles",
@@ -11300,7 +11690,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "Resources/Software Engineering/Test-Driven Development (TDD)",
@@ -11509,7 +11899,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "Resources/System Design/Database Sharding",
@@ -12348,7 +12738,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Rumination",
@@ -12376,6 +12766,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 3
+    },
+    {
+      "id": "Sleep Architecture — REM and Non-REM",
+      "label": "Sleep Architecture — REM and Non-REM",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "Startup",
@@ -12450,13 +12849,13 @@
       "degree": 1
     },
     {
-      "id": "The Role of Conflict in Story",
-      "label": "The Role of Conflict in Story",
+      "id": "Trauma and the Nervous System",
+      "label": "Trauma and the Nervous System",
       "folder": null,
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 4
+      "degree": 1
     },
     {
       "id": "User-Centered Design",
@@ -14277,6 +14676,294 @@
     {
       "source": "Resources/Bobby Memory Architecture",
       "target": "Resources/WSL2 Setup"
+    },
+    {
+      "source": "Resources/Books & Ideas/Antifragile — Key Ideas (Taleb)",
+      "target": "Optionality"
+    },
+    {
+      "source": "Resources/Books & Ideas/Antifragile — Key Ideas (Taleb)",
+      "target": "Resources/Books & Ideas/The Black Swan — Key Ideas (Taleb)"
+    },
+    {
+      "source": "Resources/Books & Ideas/Antifragile — Key Ideas (Taleb)",
+      "target": "Risk Management Frameworks"
+    },
+    {
+      "source": "Resources/Books & Ideas/Atomic Habits — Key Ideas (James Clear)",
+      "target": "Goal Setting Frameworks (SMART, OKRs)"
+    },
+    {
+      "source": "Resources/Books & Ideas/Atomic Habits — Key Ideas (James Clear)",
+      "target": "Habit Formation — Cue, Routine, Reward"
+    },
+    {
+      "source": "Resources/Books & Ideas/Atomic Habits — Key Ideas (James Clear)",
+      "target": "Resources/Economics & Finance/Behavioral Economics Overview"
+    },
+    {
+      "source": "Resources/Books & Ideas/Clean Code — Key Ideas (Robert C. Martin)",
+      "target": "Code Smells"
+    },
+    {
+      "source": "Resources/Books & Ideas/Clean Code — Key Ideas (Robert C. Martin)",
+      "target": "Resources/Software Engineering/Clean Code Principles"
+    },
+    {
+      "source": "Resources/Books & Ideas/Clean Code — Key Ideas (Robert C. Martin)",
+      "target": "Resources/Software Engineering/Code Review Best Practices"
+    },
+    {
+      "source": "Resources/Books & Ideas/Deep Work — Key Ideas (Newport)",
+      "target": "Attention Residue"
+    },
+    {
+      "source": "Resources/Books & Ideas/Deep Work — Key Ideas (Newport)",
+      "target": "Focus Work — Deep Work Principles"
+    },
+    {
+      "source": "Resources/Books & Ideas/Deep Work — Key Ideas (Newport)",
+      "target": "Resources/Personal Productivity/Distraction Management"
+    },
+    {
+      "source": "Resources/Books & Ideas/Designing Data-Intensive Applications — Key Ideas (Kleppmann)",
+      "target": "Partitioning and Sharding"
+    },
+    {
+      "source": "Resources/Books & Ideas/Designing Data-Intensive Applications — Key Ideas (Kleppmann)",
+      "target": "Resources/Software Engineering/Event-Driven Architecture"
+    },
+    {
+      "source": "Resources/Books & Ideas/Designing Data-Intensive Applications — Key Ideas (Kleppmann)",
+      "target": "Resources/System Design/Database Replication"
+    },
+    {
+      "source": "Resources/Books & Ideas/Gödel, Escher, Bach — Key Ideas (Hofstadter)",
+      "target": "Formal Languages and Automata Theory"
+    },
+    {
+      "source": "Resources/Books & Ideas/Gödel, Escher, Bach — Key Ideas (Hofstadter)",
+      "target": "Recursion and Divide-and-Conquer"
+    },
+    {
+      "source": "Resources/Books & Ideas/Gödel, Escher, Bach — Key Ideas (Hofstadter)",
+      "target": "Resources/Philosophy/Philosophy of Mind — Consciousness"
+    },
+    {
+      "source": "Resources/Books & Ideas/Human Compatible — Key Ideas (Stuart Russell)",
+      "target": "Resources/AI & Machine Learning/AI Alignment Overview"
+    },
+    {
+      "source": "Resources/Books & Ideas/Human Compatible — Key Ideas (Stuart Russell)",
+      "target": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)"
+    },
+    {
+      "source": "Resources/Books & Ideas/Human Compatible — Key Ideas (Stuart Russell)",
+      "target": "Resources/Books & Ideas/Superintelligence — Key Ideas (Bostrom)"
+    },
+    {
+      "source": "Resources/Books & Ideas/Life 3.0 — Key Ideas (Tegmark)",
+      "target": "Resources/Books & Ideas/Superintelligence — Key Ideas (Bostrom)"
+    },
+    {
+      "source": "Resources/Books & Ideas/Life 3.0 — Key Ideas (Tegmark)",
+      "target": "Resources/Philosophy/Longtermism"
+    },
+    {
+      "source": "Resources/Books & Ideas/Life 3.0 — Key Ideas (Tegmark)",
+      "target": "Resources/Philosophy/Philosophy of Mind — Consciousness"
+    },
+    {
+      "source": "Resources/Books & Ideas/Poor Charlie's Almanack — Key Ideas (Munger)",
+      "target": "Incentive Design"
+    },
+    {
+      "source": "Resources/Books & Ideas/Poor Charlie's Almanack — Key Ideas (Munger)",
+      "target": "Inversion"
+    },
+    {
+      "source": "Resources/Books & Ideas/Poor Charlie's Almanack — Key Ideas (Munger)",
+      "target": "Mental Models"
+    },
+    {
+      "source": "Resources/Books & Ideas/Sapiens — Key Ideas (Harari)",
+      "target": "Resources/Biology & Life Sciences/Evolution — Natural Selection and Genetic Drift"
+    },
+    {
+      "source": "Resources/Books & Ideas/Sapiens — Key Ideas (Harari)",
+      "target": "Resources/Film & Storytelling/Why Certain Stories Resonate (Evolutionary Psychology of Narrative)"
+    },
+    {
+      "source": "Resources/Books & Ideas/Sapiens — Key Ideas (Harari)",
+      "target": "Resources/History of Technology/The Age of Surveillance Capitalism"
+    },
+    {
+      "source": "Resources/Books & Ideas/Superintelligence — Key Ideas (Bostrom)",
+      "target": "Resources/AI & Machine Learning/AI Alignment Overview"
+    },
+    {
+      "source": "Resources/Books & Ideas/Superintelligence — Key Ideas (Bostrom)",
+      "target": "Resources/Books & Ideas/Human Compatible — Key Ideas (Stuart Russell)"
+    },
+    {
+      "source": "Resources/Books & Ideas/Superintelligence — Key Ideas (Bostrom)",
+      "target": "Resources/Philosophy/AI Ethics — Alignment and Safety"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Almanack of Naval Ravikant — Key Ideas",
+      "target": "Decision-Making Frameworks"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Almanack of Naval Ravikant — Key Ideas",
+      "target": "Resources/Entrepreneurship & Startups/Solopreneurship and Indie Hacking"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Almanack of Naval Ravikant — Key Ideas",
+      "target": "Resources/Personal Finance/Compound Interest — The Eighth Wonder of the World"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Black Swan — Key Ideas (Taleb)",
+      "target": "Resources/Books & Ideas/Antifragile — Key Ideas (Taleb)"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Black Swan — Key Ideas (Taleb)",
+      "target": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Black Swan — Key Ideas (Taleb)",
+      "target": "Risk Management Frameworks"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Body Keeps the Score — Key Ideas (van der Kolk)",
+      "target": "PTSD — Symptoms and Treatments"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Body Keeps the Score — Key Ideas (van der Kolk)",
+      "target": "Resources/Biology & Life Sciences/The Stress Response (Fight-or-Flight, Freeze, Fawn)"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Body Keeps the Score — Key Ideas (van der Kolk)",
+      "target": "Trauma and the Nervous System"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Hard Thing About Hard Things — Key Ideas (Horowitz)",
+      "target": "Resources/Entrepreneurship & Startups/Startup Funding (Bootstrapping, Angel, Pre-Seed, Seed, Series A)"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Hard Thing About Hard Things — Key Ideas (Horowitz)",
+      "target": "Resources/Leadership & Management/Psychological Safety in Teams (Amy Edmondson)"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Hard Thing About Hard Things — Key Ideas (Horowitz)",
+      "target": "Resources/Leadership & Management/Radical Candor (Kim Scott)"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Innovator's Dilemma — Key Ideas (Christensen)",
+      "target": "Resources/Business & Strategy/Competitive Moats (Network Effects, Switching Costs, Scale, IP)"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Innovator's Dilemma — Key Ideas (Christensen)",
+      "target": "Resources/Business & Strategy/First-Mover vs Fast-Follower"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Innovator's Dilemma — Key Ideas (Christensen)",
+      "target": "Resources/Business & Strategy/The Innovator's Dilemma (Clayton Christensen)"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Pragmatic Programmer — Key Ideas (Hunt, Thomas)",
+      "target": "Resources/Software Engineering/Clean Code Principles"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Pragmatic Programmer — Key Ideas (Hunt, Thomas)",
+      "target": "Resources/Software Engineering/Refactoring Techniques"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Pragmatic Programmer — Key Ideas (Hunt, Thomas)",
+      "target": "Resources/Software Engineering/Technical Debt — Types and Management"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Selfish Gene — Key Ideas (Dawkins)",
+      "target": "Resources/Biology & Life Sciences/Evolution — Natural Selection and Genetic Drift"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Selfish Gene — Key Ideas (Dawkins)",
+      "target": "Resources/Biology & Life Sciences/Evolutionary Psychology Overview"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Selfish Gene — Key Ideas (Dawkins)",
+      "target": "Resources/Economics & Finance/Game Theory Fundamentals"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Staff Engineer's Path — Key Ideas (Reilly)",
+      "target": "Resources/Leadership & Management/Engineering Levels and Ladders"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Staff Engineer's Path — Key Ideas (Reilly)",
+      "target": "Resources/Leadership & Management/Managing Up"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Staff Engineer's Path — Key Ideas (Reilly)",
+      "target": "Resources/Leadership & Management/The Staff Engineer's Path"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Structure of Scientific Revolutions — Key Ideas (Kuhn)",
+      "target": "Mental Models"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Structure of Scientific Revolutions — Key Ideas (Kuhn)",
+      "target": "Resources/Philosophy/Falsifiability and the Demarcation Problem"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Structure of Scientific Revolutions — Key Ideas (Kuhn)",
+      "target": "Resources/Philosophy/Philosophy of Science (Popper, Kuhn, Lakatos)"
+    },
+    {
+      "source": "Resources/Books & Ideas/Thinking Fast and Slow — Key Ideas (Kahneman)",
+      "target": "Bayesian Reasoning"
+    },
+    {
+      "source": "Resources/Books & Ideas/Thinking Fast and Slow — Key Ideas (Kahneman)",
+      "target": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference"
+    },
+    {
+      "source": "Resources/Books & Ideas/Thinking Fast and Slow — Key Ideas (Kahneman)",
+      "target": "Resources/Economics & Finance/Behavioral Economics Overview"
+    },
+    {
+      "source": "Resources/Books & Ideas/Thinking in Systems — Key Ideas (Meadows)",
+      "target": "Feedback Loops"
+    },
+    {
+      "source": "Resources/Books & Ideas/Thinking in Systems — Key Ideas (Meadows)",
+      "target": "Resources/Biology & Life Sciences/Systems Biology"
+    },
+    {
+      "source": "Resources/Books & Ideas/Thinking in Systems — Key Ideas (Meadows)",
+      "target": "Resources/Learning & Memory/Systems Thinking"
+    },
+    {
+      "source": "Resources/Books & Ideas/Why We Sleep — Key Ideas (Matthew Walker)",
+      "target": "Resources/Chemistry & Biochemistry/The Chemistry of Sleep (Melatonin, Adenosine, GABA)"
+    },
+    {
+      "source": "Resources/Books & Ideas/Why We Sleep — Key Ideas (Matthew Walker)",
+      "target": "Resources/Sleep Science/Sleep Deprivation — Cognitive and Physical Effects"
+    },
+    {
+      "source": "Resources/Books & Ideas/Why We Sleep — Key Ideas (Matthew Walker)",
+      "target": "Sleep Architecture — REM and Non-REM"
+    },
+    {
+      "source": "Resources/Books & Ideas/Zero to One — Key Ideas (Thiel)",
+      "target": "Resources/Business & Strategy/Competitive Moats (Network Effects, Switching Costs, Scale, IP)"
+    },
+    {
+      "source": "Resources/Books & Ideas/Zero to One — Key Ideas (Thiel)",
+      "target": "Resources/Business & Strategy/Zero to One — Key Ideas (Peter Thiel)"
+    },
+    {
+      "source": "Resources/Books & Ideas/Zero to One — Key Ideas (Thiel)",
+      "target": "Resources/Entrepreneurship & Startups/Distribution is Everything"
     },
     {
       "source": "Resources/Business & Strategy/Blue Ocean Strategy",
@@ -17988,11 +18675,11 @@
     },
     {
       "source": "Resources/Film & Storytelling/Character Arc Design",
-      "target": "Resources/Film & Storytelling/Why Certain Stories Resonate (Evolutionary Psychology of Narrative)"
+      "target": "Resources/Film & Storytelling/The Role of Conflict in Story"
     },
     {
       "source": "Resources/Film & Storytelling/Character Arc Design",
-      "target": "The Role of Conflict in Story"
+      "target": "Resources/Film & Storytelling/Why Certain Stories Resonate (Evolutionary Psychology of Narrative)"
     },
     {
       "source": "Resources/Film & Storytelling/Cinematography Fundamentals",
@@ -18036,11 +18723,11 @@
     },
     {
       "source": "Resources/Film & Storytelling/Narrative Structure (3-Act, Hero's Journey, Story Circle, Save the Cat)",
-      "target": "Resources/Gaming/Game Narrative Design"
+      "target": "Resources/Film & Storytelling/The Role of Conflict in Story"
     },
     {
       "source": "Resources/Film & Storytelling/Narrative Structure (3-Act, Hero's Journey, Story Circle, Save the Cat)",
-      "target": "The Role of Conflict in Story"
+      "target": "Resources/Gaming/Game Narrative Design"
     },
     {
       "source": "Resources/Film & Storytelling/Screenplay Writing Basics",
@@ -18064,7 +18751,19 @@
     },
     {
       "source": "Resources/Film & Storytelling/The Pixar Storytelling Formula",
-      "target": "The Role of Conflict in Story"
+      "target": "Resources/Film & Storytelling/The Role of Conflict in Story"
+    },
+    {
+      "source": "Resources/Film & Storytelling/The Role of Conflict in Story",
+      "target": "Resources/Film & Storytelling/Character Arc Design"
+    },
+    {
+      "source": "Resources/Film & Storytelling/The Role of Conflict in Story",
+      "target": "Resources/Film & Storytelling/Narrative Structure (3-Act, Hero's Journey, Story Circle, Save the Cat)"
+    },
+    {
+      "source": "Resources/Film & Storytelling/The Role of Conflict in Story",
+      "target": "Resources/Film & Storytelling/Worldbuilding Principles"
     },
     {
       "source": "Resources/Film & Storytelling/Why Certain Stories Resonate (Evolutionary Psychology of Narrative)",
@@ -18084,11 +18783,11 @@
     },
     {
       "source": "Resources/Film & Storytelling/Worldbuilding Principles",
-      "target": "Resources/Gaming/Open World Design"
+      "target": "Resources/Film & Storytelling/The Role of Conflict in Story"
     },
     {
       "source": "Resources/Film & Storytelling/Worldbuilding Principles",
-      "target": "The Role of Conflict in Story"
+      "target": "Resources/Gaming/Open World Design"
     },
     {
       "source": "Resources/FlashAttention",
@@ -21436,7 +22135,7 @@
     },
     {
       "source": "Resources/Personal Productivity/Habit Stacking",
-      "target": "Resources/Personal Productivity/Atomic Habits — Key Ideas (James Clear)"
+      "target": "Resources/Books & Ideas/Atomic Habits — Key Ideas (James Clear)"
     },
     {
       "source": "Resources/Personal Productivity/Habit Stacking",
@@ -21472,7 +22171,7 @@
     },
     {
       "source": "Resources/Personal Productivity/Keystone Habits",
-      "target": "Resources/Personal Productivity/Atomic Habits — Key Ideas (James Clear)"
+      "target": "Resources/Books & Ideas/Atomic Habits — Key Ideas (James Clear)"
     },
     {
       "source": "Resources/Personal Productivity/Keystone Habits",
@@ -21508,7 +22207,7 @@
     },
     {
       "source": "Resources/Personal Productivity/Motivation — Intrinsic vs Extrinsic",
-      "target": "Resources/Personal Productivity/Atomic Habits — Key Ideas (James Clear)"
+      "target": "Resources/Books & Ideas/Atomic Habits — Key Ideas (James Clear)"
     },
     {
       "source": "Resources/Personal Productivity/Motivation — Intrinsic vs Extrinsic",
@@ -21592,7 +22291,7 @@
     },
     {
       "source": "Resources/Personal Productivity/Reward Systems and Dopamine Loops",
-      "target": "Resources/Personal Productivity/Atomic Habits — Key Ideas (James Clear)"
+      "target": "Resources/Books & Ideas/Atomic Habits — Key Ideas (James Clear)"
     },
     {
       "source": "Resources/Personal Productivity/Reward Systems and Dopamine Loops",
@@ -26195,5 +26894,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-27T05:13:39Z"
+  "generated_at": "2026-05-27T05:22:46Z"
 }
