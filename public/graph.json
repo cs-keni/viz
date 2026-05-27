@@ -153,33 +153,6 @@
       "degree": 1
     },
     {
-      "id": "Bobby's Personality and Tone Guide",
-      "label": "Bobby's Personality and Tone Guide",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
-    },
-    {
-      "id": "Bobby's Voice Pipeline Architecture",
-      "label": "Bobby's Voice Pipeline Architecture",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Bobby's Wake Word and Audio Pipeline",
-      "label": "Bobby's Wake Word and Audio Pipeline",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "CI/CD Pipeline Design",
       "label": "CD Pipeline Design",
       "folder": "CI",
@@ -804,7 +777,7 @@
         "python",
         "voice-assistant"
       ],
-      "degree": 18
+      "degree": 25
     },
     {
       "id": "Projects/Bobby Brain Viz",
@@ -816,7 +789,7 @@
         "project",
         "bobby"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Projects/Klip",
@@ -1057,7 +1030,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/AI & Machine Learning/Claude API and Anthropic SDK",
@@ -1656,7 +1629,7 @@
         "bobby",
         "mlops"
       ],
-      "degree": 17
+      "degree": 19
     },
     {
       "id": "Resources/Astronomy & Space/Black Holes — Formation, Types, Hawking Radiation",
@@ -2042,7 +2015,7 @@
         "reference",
         "commands"
       ],
-      "degree": 3
+      "degree": 6
     },
     {
       "id": "Resources/Bobby Memory Architecture",
@@ -2057,7 +2030,239 @@
         "memory",
         "chromadb"
       ],
-      "degree": 10
+      "degree": 12
+    },
+    {
+      "id": "Resources/Bobby/Bobby's ChromaDB Upgrade Path (Vector RAG at 300+ Notes)",
+      "label": "Bobby's ChromaDB Upgrade Path (Vector RAG at 300+ Notes)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Bobby currently uses `VAULT_INDEX.md` for vault routing, but the documented upgrade trigger is around 300 notes or when routing quality degrades. The upgrade path is to embed vault notes, store vectors locally in ChromaDB or pgvector, and use hybrid index-plus-vector retrieval.",
+      "tags": [
+        "resource",
+        "bobby",
+        "rag"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Bobby/Bobby's Config Reference (config.yaml Schema)",
+      "label": "Bobby's Config Reference (config.yaml Schema)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Bobby should have a documented config schema for API keys, model routing, audio devices, wake word settings, memory paths, vault access, tool permissions, and phone bridge behavior. The exact current `config.yaml` schema is not captured in the vault yet, so this note is the intended reference shape plus open verification needs.",
+      "tags": [
+        "resource",
+        "bobby",
+        "config"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Bobby/Bobby's Dangerous Command Rules",
+      "label": "Bobby's Dangerous Command Rules",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Bobby needs strict rules for dangerous commands because it can control the OS, launch apps, access files, and eventually write to calendars or other services. Destructive, irreversible, privileged, external-facing, or privacy-sensitive actions should require confirmation and be logged.",
+      "tags": [
+        "resource",
+        "bobby",
+        "security"
+      ],
+      "degree": 9
+    },
+    {
+      "id": "Resources/Bobby/Bobby's Known Bugs and Workarounds",
+      "label": "Bobby's Known Bugs and Workarounds",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Bobby's known issues include ChromaDB context caps, WSL2 portproxy/IP drift, audio capture quirks, incomplete calendar/email/weather/messaging integrations, and model-routing uncertainty. This note gathers operational risks so debugging starts from known weak points.",
+      "tags": [
+        "resource",
+        "bobby",
+        "debugging"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Bobby/Bobby's Memory System Design",
+      "label": "Bobby's Memory System Design",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Bobby's memory design has three layers: ChromaDB for semantic memories, SQLite for structured history and preferences, and the Obsidian vault for durable high-signal knowledge. The design goal is fast recall for lightweight facts and richer retrieval for notes Bobby can reason over.",
+      "tags": [
+        "resource",
+        "bobby",
+        "memory"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Bobby/Bobby's Model Routing Logic (Haiku vs Sonnet)",
+      "label": "Bobby's Model Routing Logic (Haiku vs Sonnet)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Bobby's current model plan is Haiku for fast routine interactions and Sonnet for complex reasoning, architecture, debugging, or multi-step synthesis. Routing should be based on task risk, ambiguity, context size, tool use, and expected reasoning depth.",
+      "tags": [
+        "resource",
+        "bobby",
+        "models"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Bobby/Bobby's Obsidian Integration Design",
+      "label": "Bobby's Obsidian Integration Design",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Bobby's Obsidian integration uses the vault as Layer 3 memory: scan `VAULT_INDEX.md`, choose relevant notes, fetch full content through the Obsidian Local REST API, and synthesize answers. The integration depends on disciplined index maintenance and WSL2-to-Windows portproxy routing.",
+      "tags": [
+        "resource",
+        "bobby",
+        "obsidian"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Bobby/Bobby's Personality and Tone Guide",
+      "label": "Bobby's Personality and Tone Guide",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Bobby should feel like Kenny's local AI partner: direct, context-aware, useful, technically competent, and lightly personal without becoming performative. The tone target is pragmatic help with memory, initiative, and respect for Kenny's actual workflow.",
+      "tags": [
+        "resource",
+        "bobby"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Bobby/Bobby's Phone App Guide (React PWA)",
+      "label": "Bobby's Phone App Guide (React PWA)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Bobby's phone bridge is a React PWA served through Cloudflare Tunnel, giving mobile access to the local assistant backend. It should be treated as a remote-control surface with authentication, limited actions, clear connection state, and conservative tool permissions.",
+      "tags": [
+        "resource",
+        "bobby",
+        "phone"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Bobby/Bobby's Security Model",
+      "label": "Bobby's Security Model",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Bobby's security model should treat the assistant as a local agent with access to voice, screen, vault notes, OS automation, API keys, and a phone bridge. The safe design is least privilege, explicit confirmation for risky actions, audit logs, local-first storage, and careful boundaries around remote access.",
+      "tags": [
+        "resource",
+        "bobby",
+        "security"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Bobby/Bobby's Shortcut Templates",
+      "label": "Bobby's Shortcut Templates",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Bobby shortcut templates are named command bundles such as `open the usual`, stored in SQLite and used to automate repeated app-launch workflows. Good shortcut design needs fuzzy matching, edit commands, confirmation for broad actions, and human-readable definitions Kenny can inspect.",
+      "tags": [
+        "resource",
+        "bobby",
+        "shortcuts"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Bobby/Bobby's Test Coverage Map",
+      "label": "Bobby's Test Coverage Map",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Bobby's test coverage should map the assistant's highest-risk paths: wake word, audio capture, STT, model routing, tool calls, memory writes, vault retrieval, OS automation, phone bridge, and safety confirmations. The vault does not yet document actual test coverage, so this note captures the coverage map to verify against the repo.",
+      "tags": [
+        "resource",
+        "bobby",
+        "testing"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Bobby/Bobby's Tool Registry — Full Reference",
+      "label": "Bobby's Tool Registry — Full Reference",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Bobby's tool registry should describe every callable capability, what it can do, what inputs it accepts, what safety checks apply, and which layer owns it. The current working capabilities include app control, screenshots, screen understanding, memory lookup/write, Spotify playback, timers, vault retrieval, and phone bridge access.",
+      "tags": [
+        "resource",
+        "bobby"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Bobby/Bobby's Upgrade Roadmap",
+      "label": "Bobby's Upgrade Roadmap",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Bobby's roadmap after Phase 11B points toward proactive suggestions, calendar integration, stronger vault retrieval, memory compression, audit flags for Bobby-created notes, and clearer model routing. The roadmap should prioritize reliability and trust before more autonomy.",
+      "tags": [
+        "resource",
+        "bobby",
+        "roadmap"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Bobby/Bobby's Vault Index Strategy",
+      "label": "Bobby's Vault Index Strategy",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "`VAULT_INDEX.md` is Bobby's current navigation layer: one concise routing sentence per note, kept under the context budget, updated whenever notes change, and used before fetching full content through Obsidian. Its quality determines whether Bobby finds the right vault knowledge.",
+      "tags": [
+        "resource",
+        "bobby",
+        "obsidian"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Bobby/Bobby's Voice Pipeline Architecture",
+      "label": "Bobby's Voice Pipeline Architecture",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Bobby's voice pipeline starts with Porcupine wake-word detection, captures speech for Whisper transcription, routes text through the FastAPI backend and Claude, then streams spoken output through ElevenLabs. The WSL2 audio layer is a recurring constraint, especially for microphone capture and playback.",
+      "tags": [
+        "resource",
+        "bobby",
+        "voice"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Bobby/Bobby's WSL2 Quirks and Workarounds",
+      "label": "Bobby's WSL2 Quirks and Workarounds",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Bobby runs in WSL2, so recurring issues include audio capture, Windows host IP discovery, Obsidian REST API portproxy, localhost confusion, filesystem performance, and WSL restarts. These quirks should be treated as first-class operational knowledge rather than one-off setup trivia.",
+      "tags": [
+        "resource",
+        "bobby",
+        "windows-wsl2"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Bobby/Bobby's Wake Word and Audio Pipeline",
+      "label": "Bobby's Wake Word and Audio Pipeline",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Bobby's wake word and audio path starts with Porcupine detecting `hey bobby`, then captures speech for Whisper and plays ElevenLabs output. In WSL2, audio reliability depends on PulseAudio/WSLg behavior, device permissions, sample rates, and robust fallback diagnostics.",
+      "tags": [
+        "resource",
+        "bobby",
+        "voice"
+      ],
+      "degree": 5
     },
     {
       "id": "Resources/Books & Ideas/Antifragile — Key Ideas (Taleb)",
@@ -10915,7 +11120,7 @@
         "resource",
         "bobby"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/RLHF and Alignment",
@@ -12765,7 +12970,7 @@
         "quality",
         "interview-prep"
       ],
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "Resources/Transformer Architecture",
@@ -12805,7 +13010,7 @@
         "devops",
         "reference"
       ],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Resources/Web Animation",
@@ -13271,7 +13476,7 @@
         "resource",
         "windows-wsl2"
       ],
-      "degree": 3
+      "degree": 6
     },
     {
       "id": "Resources/Windows & WSL2/WSL2 Interop (Windows Executables from WSL)",
@@ -13296,7 +13501,7 @@
         "windows-wsl2",
         "networking-protocols"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Windows & WSL2/Windows Permissions and UAC",
@@ -13309,7 +13514,7 @@
         "windows-wsl2",
         "security"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Windows & WSL2/Windows Registry — How It Works",
@@ -13534,7 +13739,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Values Clarification",
@@ -14024,10 +14229,6 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Constitutional AI",
-      "target": "Bobby's Personality and Tone Guide"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Constitutional AI",
       "target": "Resources/AI & Machine Learning/AI Alignment Overview"
     },
     {
@@ -14037,6 +14238,10 @@
     {
       "source": "Resources/AI & Machine Learning/Constitutional AI",
       "target": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Constitutional AI",
+      "target": "Resources/Bobby/Bobby's Personality and Tone Guide"
     },
     {
       "source": "Resources/AI & Machine Learning/Constitutional AI",
@@ -14704,10 +14909,6 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)",
-      "target": "Bobby's Voice Pipeline Architecture"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)",
       "target": "Resources/AI & Machine Learning/Multimodal Models"
     },
     {
@@ -14723,12 +14924,8 @@
       "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
     },
     {
-      "source": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
-      "target": "Bobby's Personality and Tone Guide"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
-      "target": "Bobby's Wake Word and Audio Pipeline"
+      "source": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)",
+      "target": "Resources/Bobby/Bobby's Voice Pipeline Architecture"
     },
     {
       "source": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
@@ -14737,6 +14934,14 @@
     {
       "source": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
       "target": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
+      "target": "Resources/Bobby/Bobby's Personality and Tone Guide"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
+      "target": "Resources/Bobby/Bobby's Wake Word and Audio Pipeline"
     },
     {
       "source": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
@@ -15337,6 +15542,222 @@
     {
       "source": "Resources/Bobby Memory Architecture",
       "target": "Resources/WSL2 Setup"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's ChromaDB Upgrade Path (Vector RAG at 300+ Notes)",
+      "target": "Resources/AI & Machine Learning/Chunking Strategies for RAG"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's ChromaDB Upgrade Path (Vector RAG at 300+ Notes)",
+      "target": "Resources/Bobby/Bobby's Vault Index Strategy"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's ChromaDB Upgrade Path (Vector RAG at 300+ Notes)",
+      "target": "Resources/RAG and Bobby Vector Search"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Config Reference (config.yaml Schema)",
+      "target": "Projects/Bobby"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Config Reference (config.yaml Schema)",
+      "target": "Resources/Bobby/Bobby's Security Model"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Config Reference (config.yaml Schema)",
+      "target": "Resources/Bobby/Bobby's WSL2 Quirks and Workarounds"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Dangerous Command Rules",
+      "target": "Resources/Agent Security"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Dangerous Command Rules",
+      "target": "Resources/Bobby/Bobby's Security Model"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Dangerous Command Rules",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Known Bugs and Workarounds",
+      "target": "Projects/Bobby"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Known Bugs and Workarounds",
+      "target": "Resources/Bobby Commands"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Known Bugs and Workarounds",
+      "target": "Resources/Bobby/Bobby's WSL2 Quirks and Workarounds"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Memory System Design",
+      "target": "Resources/Bobby Memory Architecture"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Memory System Design",
+      "target": "Resources/Bobby/Bobby's Vault Index Strategy"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Memory System Design",
+      "target": "Resources/RAG and Bobby Vector Search"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Model Routing Logic (Haiku vs Sonnet)",
+      "target": "Projects/Bobby"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Model Routing Logic (Haiku vs Sonnet)",
+      "target": "Resources/Bobby/Bobby's Dangerous Command Rules"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Model Routing Logic (Haiku vs Sonnet)",
+      "target": "Resources/Bobby/Bobby's Personality and Tone Guide"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Obsidian Integration Design",
+      "target": "Resources/Bobby Memory Architecture"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Obsidian Integration Design",
+      "target": "Resources/Bobby/Bobby's Vault Index Strategy"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Obsidian Integration Design",
+      "target": "Resources/WSL2 Setup"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Personality and Tone Guide",
+      "target": "Projects/Bobby"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Personality and Tone Guide",
+      "target": "Resources/Bobby/Bobby's Model Routing Logic (Haiku vs Sonnet)"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Personality and Tone Guide",
+      "target": "Resources/Bobby/Bobby's Security Model"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Phone App Guide (React PWA)",
+      "target": "Projects/Bobby"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Phone App Guide (React PWA)",
+      "target": "Resources/Bobby/Bobby's Dangerous Command Rules"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Phone App Guide (React PWA)",
+      "target": "Resources/Bobby/Bobby's Security Model"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Security Model",
+      "target": "Resources/Agent Security"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Security Model",
+      "target": "Resources/Bobby/Bobby's Dangerous Command Rules"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Security Model",
+      "target": "Resources/Bobby/Bobby's Phone App Guide (React PWA)"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Shortcut Templates",
+      "target": "Resources/Bobby Commands"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Shortcut Templates",
+      "target": "Resources/Bobby/Bobby's Dangerous Command Rules"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Shortcut Templates",
+      "target": "Resources/Bobby/Bobby's Tool Registry — Full Reference"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Test Coverage Map",
+      "target": "Resources/Bobby/Bobby's Dangerous Command Rules"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Test Coverage Map",
+      "target": "Resources/Bobby/Bobby's Known Bugs and Workarounds"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Test Coverage Map",
+      "target": "Resources/Testing Strategy"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Tool Registry — Full Reference",
+      "target": "Resources/Bobby Commands"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Tool Registry — Full Reference",
+      "target": "Resources/Bobby/Bobby's Dangerous Command Rules"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Tool Registry — Full Reference",
+      "target": "Resources/Bobby/Bobby's Shortcut Templates"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Upgrade Roadmap",
+      "target": "Projects/Bobby"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Upgrade Roadmap",
+      "target": "Resources/Bobby/Bobby's ChromaDB Upgrade Path (Vector RAG at 300+ Notes)"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Upgrade Roadmap",
+      "target": "Resources/Bobby/Bobby's Security Model"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Vault Index Strategy",
+      "target": "Projects/Bobby Brain Viz"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Vault Index Strategy",
+      "target": "Resources/Bobby/Bobby's Obsidian Integration Design"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Vault Index Strategy",
+      "target": "VAULT_INDEX"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Voice Pipeline Architecture",
+      "target": "Projects/Bobby"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Voice Pipeline Architecture",
+      "target": "Resources/Bobby/Bobby's Wake Word and Audio Pipeline"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Voice Pipeline Architecture",
+      "target": "Resources/Windows & WSL2/WSL2 Audio Setup (PulseAudio, WSLg RDPSource)"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's WSL2 Quirks and Workarounds",
+      "target": "Resources/WSL2 Setup"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's WSL2 Quirks and Workarounds",
+      "target": "Resources/Windows & WSL2/WSL2 Audio Setup (PulseAudio, WSLg RDPSource)"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's WSL2 Quirks and Workarounds",
+      "target": "Resources/Windows & WSL2/WSL2 Networking (NAT, Gateway IP, Port Proxying)"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Wake Word and Audio Pipeline",
+      "target": "Resources/Bobby/Bobby's Voice Pipeline Architecture"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Wake Word and Audio Pipeline",
+      "target": "Resources/WSL2 Setup"
+    },
+    {
+      "source": "Resources/Bobby/Bobby's Wake Word and Audio Pipeline",
+      "target": "Resources/Windows & WSL2/WSL2 Audio Setup (PulseAudio, WSLg RDPSource)"
     },
     {
       "source": "Resources/Books & Ideas/Antifragile — Key Ideas (Taleb)",
@@ -28191,5 +28612,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-27T15:13:07Z"
+  "generated_at": "2026-05-27T15:22:16Z"
 }
