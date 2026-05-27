@@ -1,6 +1,15 @@
 {
   "nodes": [
     {
+      "id": "A-B Testing Fundamentals",
+      "label": "A-B Testing Fundamentals",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "A/B Testing Design",
       "label": "B Testing Design",
       "folder": "A",
@@ -198,6 +207,15 @@
       "degree": 1
     },
     {
+      "id": "Confidence vs Competence",
+      "label": "Confidence vs Competence",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Cryptography",
       "label": "Cryptography",
       "folder": null,
@@ -360,7 +378,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "Habit Formation — Cue, Routine, Reward",
@@ -506,6 +524,24 @@
       "degree": 1
     },
     {
+      "id": "Metrics That Matter vs Vanity Metrics",
+      "label": "Metrics That Matter vs Vanity Metrics",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Monte Carlo Simulation",
+      "label": "Monte Carlo Simulation",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Note Title",
       "label": "Note Title",
       "folder": null,
@@ -540,6 +576,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 3
+    },
+    {
+      "id": "Personal Metrics and Dashboards",
+      "label": "Personal Metrics and Dashboards",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "Product Analytics Fundamentals",
@@ -676,6 +721,15 @@
     {
       "id": "Python — Closures",
       "label": "Python — Closures",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Rapid Prototyping",
+      "label": "Rapid Prototyping",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -3925,7 +3979,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Economics & Finance/Bitcoin — Blockchain, Proof of Work, Mining",
@@ -4153,7 +4207,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Economics & Finance/The Economics of Attention",
@@ -4189,7 +4243,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Economics and Personal Finance",
@@ -4221,6 +4275,174 @@
         "interview-prep"
       ],
       "degree": 27
+    },
+    {
+      "id": "Resources/Entrepreneurship & Startups/Cap Table Basics",
+      "label": "Cap Table Basics",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "A cap table records who owns a company, including founders, employees, investors, options, convertible instruments, and share classes. It is the source of truth for ownership, dilution, and financing scenarios.",
+      "tags": [
+        "resource",
+        "entrepreneurship-startups"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Entrepreneurship & Startups/Customer Discovery",
+      "label": "Customer Discovery",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Customer discovery is the process of learning whether a real customer segment has a painful problem, current alternatives, buying motivation, and budget. The goal is evidence, not compliments.",
+      "tags": [
+        "resource",
+        "entrepreneurship-startups"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Entrepreneurship & Startups/Equity and Dilution",
+      "label": "Equity and Dilution",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Equity represents ownership in a company, while dilution reduces an owner's percentage when new shares are issued. Dilution can be worthwhile when new capital or talent increases the company's total value enough.",
+      "tags": [
+        "resource",
+        "entrepreneurship-startups"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Entrepreneurship & Startups/Finding Product-Market Fit",
+      "label": "Finding Product-Market Fit",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Product-market fit happens when a product satisfies a strong market need well enough that customers pull it forward. It is visible through retention, usage, referrals, urgency, willingness to pay, and painful disappointment if the product disappears.",
+      "tags": [
+        "resource",
+        "entrepreneurship-startups"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Entrepreneurship & Startups/How VC Funds Work (Management Fees, Carry, Fund Size)",
+      "label": "How VC Funds Work (Management Fees, Carry, Fund Size)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Venture capital funds raise money from limited partners, invest through general partners, charge management fees, and earn carried interest on gains. Fund size and power-law returns shape investor behavior.",
+      "tags": [
+        "resource",
+        "entrepreneurship-startups"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Entrepreneurship & Startups/Jobs to Be Done Framework",
+      "label": "Jobs to Be Done Framework",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Jobs to Be Done frames customers as hiring products to make progress in a specific situation. It focuses on context, desired outcomes, switching triggers, anxieties, and competing alternatives.",
+      "tags": [
+        "resource",
+        "entrepreneurship-startups"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Entrepreneurship & Startups/MVP Design — What Minimum Actually Means",
+      "label": "MVP Design — What Minimum Actually Means",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "An MVP is the smallest experiment that can test a meaningful product or business assumption. Minimum means minimum learning vehicle, not a low-quality version of the final product.",
+      "tags": [
+        "resource",
+        "entrepreneurship-startups"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Entrepreneurship & Startups/Pricing Strategy (Value-Based, Cost-Plus, Freemium)",
+      "label": "Pricing Strategy (Value-Based, Cost-Plus, Freemium)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Pricing strategy determines how a business captures value from what it creates. Common approaches include value-based pricing, cost-plus pricing, competitive pricing, usage pricing, subscriptions, tiers, and freemium.",
+      "tags": [
+        "resource",
+        "entrepreneurship-startups"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Entrepreneurship & Startups/Startup Funding (Bootstrapping, Angel, Pre-Seed, Seed, Series A)",
+      "label": "Startup Funding (Bootstrapping, Angel, Pre-Seed, Seed, Series A)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Startup funding ranges from bootstrapping and customer revenue to angel checks, pre-seed, seed, and Series A venture rounds. Each path changes expectations around speed, ownership, control, risk, and exit size.",
+      "tags": [
+        "resource",
+        "entrepreneurship-startups"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Entrepreneurship & Startups/Startup vs Small Business — Key Differences",
+      "label": "Startup vs Small Business — Key Differences",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "A startup is designed to search for a scalable, repeatable business model under uncertainty, while a small business usually executes a more known model in a defined market. The difference is growth ambition, uncertainty, financing, and operating style.",
+      "tags": [
+        "resource",
+        "entrepreneurship-startups"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Entrepreneurship & Startups/Term Sheets — Key Terms to Negotiate",
+      "label": "Term Sheets — Key Terms to Negotiate",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "A term sheet outlines the economic and control terms of a startup financing. Key terms include valuation, investment amount, liquidation preference, pro rata rights, board control, option pool, vesting, and protective provisions.",
+      "tags": [
+        "resource",
+        "entrepreneurship-startups"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Entrepreneurship & Startups/The Lean Startup Method (Build-Measure-Learn)",
+      "label": "The Lean Startup Method (Build-Measure-Learn)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Lean Startup method treats startups as experiments that move through build-measure-learn loops. The goal is validated learning: discovering whether assumptions about customers, problems, solutions, and business models are true.",
+      "tags": [
+        "resource",
+        "entrepreneurship-startups"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Entrepreneurship & Startups/Unit Economics (CAC, LTV, Payback Period, Churn)",
+      "label": "Unit Economics (CAC, LTV, Payback Period, Churn)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Unit economics measure whether acquiring and serving a customer creates durable profit. Core metrics include CAC, LTV, gross margin, payback period, churn, retention, expansion, and contribution margin.",
+      "tags": [
+        "resource",
+        "entrepreneurship-startups"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Entrepreneurship & Startups/Y Combinator — Lessons and Application Advice",
+      "label": "Y Combinator — Lessons and Application Advice",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Y Combinator is a startup accelerator and investor known for advice such as make something people want, talk to users, launch quickly, and focus on growth. Strong applications are clear, specific, evidence-based, and founder-market aware.",
+      "tags": [
+        "resource",
+        "entrepreneurship-startups"
+      ],
+      "degree": 3
     },
     {
       "id": "Resources/FlashAttention",
@@ -6476,7 +6698,7 @@
         "resource",
         "personal-finance"
       ],
-      "degree": 5
+      "degree": 10
     },
     {
       "id": "Resources/Personal Finance/Budgeting Methods (50-30-20, Zero-Based, Envelope)",
@@ -6488,7 +6710,7 @@
         "resource",
         "personal-finance"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Personal Finance/Compound Interest — The Eighth Wonder of the World",
@@ -6500,7 +6722,7 @@
         "resource",
         "personal-finance"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Personal Finance/Credit Scores — How They Work and How to Improve Them",
@@ -6527,6 +6749,18 @@
       "degree": 6
     },
     {
+      "id": "Resources/Personal Finance/Dollar Cost Averaging",
+      "label": "Dollar Cost Averaging",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Dollar cost averaging invests equal amounts at regular intervals regardless of market movement. It reduces timing regret and creates discipline, though lump-sum investing often has higher expected returns when markets trend upward.",
+      "tags": [
+        "resource",
+        "personal-finance"
+      ],
+      "degree": 3
+    },
+    {
       "id": "Resources/Personal Finance/Emergency Fund — Size and Structure",
       "label": "Emergency Fund — Size and Structure",
       "folder": "Resources",
@@ -6536,7 +6770,31 @@
         "resource",
         "personal-finance"
       ],
-      "degree": 5
+      "degree": 8
+    },
+    {
+      "id": "Resources/Personal Finance/Estate Planning Basics (Will, Beneficiaries, Power of Attorney)",
+      "label": "Estate Planning Basics (Will, Beneficiaries, Power of Attorney)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Estate planning defines what happens to assets, dependents, medical decisions, and legal authority if someone dies or becomes incapacitated. Core tools include wills, beneficiary designations, powers of attorney, healthcare directives, and sometimes trusts.",
+      "tags": [
+        "resource",
+        "personal-finance"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Personal Finance/FIRE Movement — Financial Independence, Retire Early",
+      "label": "FIRE Movement — Financial Independence, Retire Early",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The FIRE movement focuses on reaching financial independence through high savings rates, low expenses, investing, and withdrawal planning. Its strongest lesson is optionality, even when early retirement is not the goal.",
+      "tags": [
+        "resource",
+        "personal-finance"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Personal Finance/Index Funds vs Active Management — The Data",
@@ -6548,7 +6806,91 @@
         "resource",
         "personal-finance"
       ],
-      "degree": 5
+      "degree": 7
+    },
+    {
+      "id": "Resources/Personal Finance/Insurance Types You Actually Need",
+      "label": "Insurance Types You Actually Need",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Insurance transfers large, low-probability risks that could be financially devastating. Health, auto, disability, liability, home or renters, and term life coverage are common core categories depending on circumstances.",
+      "tags": [
+        "resource",
+        "personal-finance"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Personal Finance/Negotiating Salary — Scripts and Tactics",
+      "label": "Negotiating Salary — Scripts and Tactics",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Salary negotiation improves compensation by clarifying market value, alternatives, scope, timing, and total rewards. Effective negotiation is collaborative, specific, and anchored in evidence rather than apology.",
+      "tags": [
+        "resource",
+        "personal-finance"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Personal Finance/Net Worth Tracking",
+      "label": "Net Worth Tracking",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Net worth tracking measures assets minus liabilities over time. It is useful for seeing direction and allocation, but it should be interpreted alongside cash flow, liquidity, risk, and life context.",
+      "tags": [
+        "resource",
+        "personal-finance"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Personal Finance/Real Estate vs Stocks — Long-Term Comparison",
+      "label": "Real Estate vs Stocks — Long-Term Comparison",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Real estate and stocks differ in liquidity, leverage, diversification, maintenance, taxes, cash flow, volatility, and effort. Long-term comparisons depend heavily on geography, financing, expenses, taxes, and investor behavior.",
+      "tags": [
+        "resource",
+        "personal-finance"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Personal Finance/Sequence of Returns Risk",
+      "label": "Sequence of Returns Risk",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Sequence of returns risk is the danger that poor investment returns early in a withdrawal period permanently damage a portfolio. It matters most when money is being withdrawn, not merely accumulated.",
+      "tags": [
+        "resource",
+        "personal-finance"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Personal Finance/Side Income and Tax Implications",
+      "label": "Side Income and Tax Implications",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Side income can create tax obligations, recordkeeping needs, estimated payments, deductible expenses, and self-employment tax exposure. The key is to treat side work like a small business before tax season.",
+      "tags": [
+        "resource",
+        "personal-finance"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Personal Finance/Tax Loss Harvesting",
+      "label": "Tax Loss Harvesting",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Tax loss harvesting realizes investment losses in taxable accounts to offset gains and, within limits, ordinary income. It can improve after-tax outcomes, but wash-sale rules, transaction costs, tracking, and future tax rates matter.",
+      "tags": [
+        "resource",
+        "personal-finance"
+      ],
+      "degree": 3
     },
     {
       "id": "Resources/Personal Finance/Tax-Advantaged Accounts (401k, Roth IRA, HSA, SEP-IRA)",
@@ -6560,7 +6902,19 @@
         "resource",
         "personal-finance"
       ],
-      "degree": 3
+      "degree": 5
+    },
+    {
+      "id": "Resources/Personal Finance/The 4% Rule (Safe Withdrawal Rate)",
+      "label": "The 4% Rule (Safe Withdrawal Rate)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The 4% rule is a retirement withdrawal heuristic based on historical portfolio simulations. It is a starting point, not a guarantee, because fees, taxes, time horizon, asset allocation, inflation, and valuation matter.",
+      "tags": [
+        "resource",
+        "personal-finance"
+      ],
+      "degree": 5
     },
     {
       "id": "Resources/Personal Productivity/Annual Review Template",
@@ -10395,7 +10749,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 4
+      "degree": 7
     },
     {
       "id": "Rumination",
@@ -10423,6 +10777,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 3
+    },
+    {
+      "id": "Solopreneurship and Indie Hacking",
+      "label": "Solopreneurship and Indie Hacking",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
     },
     {
       "id": "Startup",
@@ -10479,6 +10842,15 @@
       "degree": 1
     },
     {
+      "id": "User-Centered Design",
+      "label": "User-Centered Design",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "VAULT_INDEX",
       "label": "VAULT_INDEX",
       "folder": null,
@@ -10486,6 +10858,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 5
+    },
+    {
+      "id": "Values Clarification",
+      "label": "Values Clarification",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "Web Technologies/How Browsers Work (Parsing, Rendering, Compositing)",
@@ -15121,6 +15502,174 @@
       "target": "Resources/System Design Notes"
     },
     {
+      "source": "Resources/Entrepreneurship & Startups/Cap Table Basics",
+      "target": "Resources/Entrepreneurship & Startups/Equity and Dilution"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Cap Table Basics",
+      "target": "Resources/Entrepreneurship & Startups/How VC Funds Work (Management Fees, Carry, Fund Size)"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Cap Table Basics",
+      "target": "Resources/Entrepreneurship & Startups/Term Sheets — Key Terms to Negotiate"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Customer Discovery",
+      "target": "Resources/Entrepreneurship & Startups/Finding Product-Market Fit"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Customer Discovery",
+      "target": "Resources/Entrepreneurship & Startups/Jobs to Be Done Framework"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Customer Discovery",
+      "target": "Resources/Entrepreneurship & Startups/MVP Design — What Minimum Actually Means"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Equity and Dilution",
+      "target": "Resources/Entrepreneurship & Startups/Cap Table Basics"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Equity and Dilution",
+      "target": "Resources/Entrepreneurship & Startups/Startup Funding (Bootstrapping, Angel, Pre-Seed, Seed, Series A)"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Equity and Dilution",
+      "target": "Resources/Entrepreneurship & Startups/Term Sheets — Key Terms to Negotiate"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Finding Product-Market Fit",
+      "target": "Resources/Entrepreneurship & Startups/Customer Discovery"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Finding Product-Market Fit",
+      "target": "Resources/Entrepreneurship & Startups/MVP Design — What Minimum Actually Means"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Finding Product-Market Fit",
+      "target": "Resources/Entrepreneurship & Startups/The Lean Startup Method (Build-Measure-Learn)"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/How VC Funds Work (Management Fees, Carry, Fund Size)",
+      "target": "Resources/Economics & Finance/Winner-Take-All Markets"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/How VC Funds Work (Management Fees, Carry, Fund Size)",
+      "target": "Resources/Entrepreneurship & Startups/Startup Funding (Bootstrapping, Angel, Pre-Seed, Seed, Series A)"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/How VC Funds Work (Management Fees, Carry, Fund Size)",
+      "target": "Resources/Entrepreneurship & Startups/Startup vs Small Business — Key Differences"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Jobs to Be Done Framework",
+      "target": "Resources/Entrepreneurship & Startups/Customer Discovery"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Jobs to Be Done Framework",
+      "target": "Resources/Entrepreneurship & Startups/Finding Product-Market Fit"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Jobs to Be Done Framework",
+      "target": "User-Centered Design"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/MVP Design — What Minimum Actually Means",
+      "target": "Rapid Prototyping"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/MVP Design — What Minimum Actually Means",
+      "target": "Resources/Entrepreneurship & Startups/Customer Discovery"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/MVP Design — What Minimum Actually Means",
+      "target": "Resources/Entrepreneurship & Startups/The Lean Startup Method (Build-Measure-Learn)"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Pricing Strategy (Value-Based, Cost-Plus, Freemium)",
+      "target": "Resources/Economics & Finance/Behavioral Economics Overview"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Pricing Strategy (Value-Based, Cost-Plus, Freemium)",
+      "target": "Resources/Entrepreneurship & Startups/Finding Product-Market Fit"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Pricing Strategy (Value-Based, Cost-Plus, Freemium)",
+      "target": "Resources/Entrepreneurship & Startups/Unit Economics (CAC, LTV, Payback Period, Churn)"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Startup Funding (Bootstrapping, Angel, Pre-Seed, Seed, Series A)",
+      "target": "Resources/Entrepreneurship & Startups/Equity and Dilution"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Startup Funding (Bootstrapping, Angel, Pre-Seed, Seed, Series A)",
+      "target": "Resources/Entrepreneurship & Startups/Startup vs Small Business — Key Differences"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Startup Funding (Bootstrapping, Angel, Pre-Seed, Seed, Series A)",
+      "target": "Resources/Entrepreneurship & Startups/Term Sheets — Key Terms to Negotiate"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Startup vs Small Business — Key Differences",
+      "target": "Resources/Entrepreneurship & Startups/Finding Product-Market Fit"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Startup vs Small Business — Key Differences",
+      "target": "Resources/Entrepreneurship & Startups/Unit Economics (CAC, LTV, Payback Period, Churn)"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Startup vs Small Business — Key Differences",
+      "target": "Solopreneurship and Indie Hacking"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Term Sheets — Key Terms to Negotiate",
+      "target": "Resources/Entrepreneurship & Startups/Cap Table Basics"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Term Sheets — Key Terms to Negotiate",
+      "target": "Resources/Entrepreneurship & Startups/Equity and Dilution"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Term Sheets — Key Terms to Negotiate",
+      "target": "Resources/Entrepreneurship & Startups/Startup Funding (Bootstrapping, Angel, Pre-Seed, Seed, Series A)"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/The Lean Startup Method (Build-Measure-Learn)",
+      "target": "A-B Testing Fundamentals"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/The Lean Startup Method (Build-Measure-Learn)",
+      "target": "Resources/Entrepreneurship & Startups/Customer Discovery"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/The Lean Startup Method (Build-Measure-Learn)",
+      "target": "Resources/Entrepreneurship & Startups/MVP Design — What Minimum Actually Means"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Unit Economics (CAC, LTV, Payback Period, Churn)",
+      "target": "Metrics That Matter vs Vanity Metrics"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Unit Economics (CAC, LTV, Payback Period, Churn)",
+      "target": "Resources/Entrepreneurship & Startups/Pricing Strategy (Value-Based, Cost-Plus, Freemium)"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Unit Economics (CAC, LTV, Payback Period, Churn)",
+      "target": "Resources/Entrepreneurship & Startups/Startup Funding (Bootstrapping, Angel, Pre-Seed, Seed, Series A)"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Y Combinator — Lessons and Application Advice",
+      "target": "Resources/Entrepreneurship & Startups/Customer Discovery"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Y Combinator — Lessons and Application Advice",
+      "target": "Resources/Entrepreneurship & Startups/Finding Product-Market Fit"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Y Combinator — Lessons and Application Advice",
+      "target": "Resources/Entrepreneurship & Startups/The Lean Startup Method (Build-Measure-Learn)"
+    },
+    {
       "source": "Resources/FlashAttention",
       "target": "Resources/LLM System Design"
     },
@@ -17577,6 +18126,18 @@
       "target": "Resources/Personal Finance/Credit Scores — How They Work and How to Improve Them"
     },
     {
+      "source": "Resources/Personal Finance/Dollar Cost Averaging",
+      "target": "Resources/Economics & Finance/Behavioral Economics Overview"
+    },
+    {
+      "source": "Resources/Personal Finance/Dollar Cost Averaging",
+      "target": "Resources/Personal Finance/Asset Allocation by Age and Risk Tolerance"
+    },
+    {
+      "source": "Resources/Personal Finance/Dollar Cost Averaging",
+      "target": "Resources/Personal Finance/Compound Interest — The Eighth Wonder of the World"
+    },
+    {
       "source": "Resources/Personal Finance/Emergency Fund — Size and Structure",
       "target": "Resources/Personal Finance/Budgeting Methods (50-30-20, Zero-Based, Envelope)"
     },
@@ -17587,6 +18148,30 @@
     {
       "source": "Resources/Personal Finance/Emergency Fund — Size and Structure",
       "target": "Risk Management Frameworks"
+    },
+    {
+      "source": "Resources/Personal Finance/Estate Planning Basics (Will, Beneficiaries, Power of Attorney)",
+      "target": "Resources/Personal Finance/Insurance Types You Actually Need"
+    },
+    {
+      "source": "Resources/Personal Finance/Estate Planning Basics (Will, Beneficiaries, Power of Attorney)",
+      "target": "Resources/Personal Finance/Net Worth Tracking"
+    },
+    {
+      "source": "Resources/Personal Finance/Estate Planning Basics (Will, Beneficiaries, Power of Attorney)",
+      "target": "Risk Management Frameworks"
+    },
+    {
+      "source": "Resources/Personal Finance/FIRE Movement — Financial Independence, Retire Early",
+      "target": "Resources/Personal Finance/Budgeting Methods (50-30-20, Zero-Based, Envelope)"
+    },
+    {
+      "source": "Resources/Personal Finance/FIRE Movement — Financial Independence, Retire Early",
+      "target": "Resources/Personal Finance/The 4% Rule (Safe Withdrawal Rate)"
+    },
+    {
+      "source": "Resources/Personal Finance/FIRE Movement — Financial Independence, Retire Early",
+      "target": "Values Clarification"
     },
     {
       "source": "Resources/Personal Finance/Index Funds vs Active Management — The Data",
@@ -17601,6 +18186,90 @@
       "target": "Statistical Significance and P-Values"
     },
     {
+      "source": "Resources/Personal Finance/Insurance Types You Actually Need",
+      "target": "Resources/Personal Finance/Emergency Fund — Size and Structure"
+    },
+    {
+      "source": "Resources/Personal Finance/Insurance Types You Actually Need",
+      "target": "Resources/Personal Finance/Estate Planning Basics (Will, Beneficiaries, Power of Attorney)"
+    },
+    {
+      "source": "Resources/Personal Finance/Insurance Types You Actually Need",
+      "target": "Risk Management Frameworks"
+    },
+    {
+      "source": "Resources/Personal Finance/Negotiating Salary — Scripts and Tactics",
+      "target": "Confidence vs Competence"
+    },
+    {
+      "source": "Resources/Personal Finance/Negotiating Salary — Scripts and Tactics",
+      "target": "Goal Setting Frameworks (SMART, OKRs)"
+    },
+    {
+      "source": "Resources/Personal Finance/Negotiating Salary — Scripts and Tactics",
+      "target": "Resources/Economics & Finance/Technology and Labor Markets (Automation and Jobs)"
+    },
+    {
+      "source": "Resources/Personal Finance/Net Worth Tracking",
+      "target": "Personal Metrics and Dashboards"
+    },
+    {
+      "source": "Resources/Personal Finance/Net Worth Tracking",
+      "target": "Resources/Personal Finance/Asset Allocation by Age and Risk Tolerance"
+    },
+    {
+      "source": "Resources/Personal Finance/Net Worth Tracking",
+      "target": "Resources/Personal Finance/Emergency Fund — Size and Structure"
+    },
+    {
+      "source": "Resources/Personal Finance/Real Estate vs Stocks — Long-Term Comparison",
+      "target": "Resources/Personal Finance/Asset Allocation by Age and Risk Tolerance"
+    },
+    {
+      "source": "Resources/Personal Finance/Real Estate vs Stocks — Long-Term Comparison",
+      "target": "Resources/Personal Finance/Index Funds vs Active Management — The Data"
+    },
+    {
+      "source": "Resources/Personal Finance/Real Estate vs Stocks — Long-Term Comparison",
+      "target": "Risk Management Frameworks"
+    },
+    {
+      "source": "Resources/Personal Finance/Sequence of Returns Risk",
+      "target": "Monte Carlo Simulation"
+    },
+    {
+      "source": "Resources/Personal Finance/Sequence of Returns Risk",
+      "target": "Resources/Personal Finance/Emergency Fund — Size and Structure"
+    },
+    {
+      "source": "Resources/Personal Finance/Sequence of Returns Risk",
+      "target": "Resources/Personal Finance/The 4% Rule (Safe Withdrawal Rate)"
+    },
+    {
+      "source": "Resources/Personal Finance/Side Income and Tax Implications",
+      "target": "Resources/Personal Finance/Budgeting Methods (50-30-20, Zero-Based, Envelope)"
+    },
+    {
+      "source": "Resources/Personal Finance/Side Income and Tax Implications",
+      "target": "Resources/Personal Finance/Tax-Advantaged Accounts (401k, Roth IRA, HSA, SEP-IRA)"
+    },
+    {
+      "source": "Resources/Personal Finance/Side Income and Tax Implications",
+      "target": "Solopreneurship and Indie Hacking"
+    },
+    {
+      "source": "Resources/Personal Finance/Tax Loss Harvesting",
+      "target": "Resources/Personal Finance/Asset Allocation by Age and Risk Tolerance"
+    },
+    {
+      "source": "Resources/Personal Finance/Tax Loss Harvesting",
+      "target": "Resources/Personal Finance/Index Funds vs Active Management — The Data"
+    },
+    {
+      "source": "Resources/Personal Finance/Tax Loss Harvesting",
+      "target": "Resources/Personal Finance/Tax-Advantaged Accounts (401k, Roth IRA, HSA, SEP-IRA)"
+    },
+    {
       "source": "Resources/Personal Finance/Tax-Advantaged Accounts (401k, Roth IRA, HSA, SEP-IRA)",
       "target": "Resources/Personal Finance/Asset Allocation by Age and Risk Tolerance"
     },
@@ -17611,6 +18280,18 @@
     {
       "source": "Resources/Personal Finance/Tax-Advantaged Accounts (401k, Roth IRA, HSA, SEP-IRA)",
       "target": "Resources/Personal Finance/Compound Interest — The Eighth Wonder of the World"
+    },
+    {
+      "source": "Resources/Personal Finance/The 4% Rule (Safe Withdrawal Rate)",
+      "target": "Resources/Personal Finance/Asset Allocation by Age and Risk Tolerance"
+    },
+    {
+      "source": "Resources/Personal Finance/The 4% Rule (Safe Withdrawal Rate)",
+      "target": "Resources/Personal Finance/FIRE Movement — Financial Independence, Retire Early"
+    },
+    {
+      "source": "Resources/Personal Finance/The 4% Rule (Safe Withdrawal Rate)",
+      "target": "Resources/Personal Finance/Sequence of Returns Risk"
     },
     {
       "source": "Resources/Personal Productivity/Annual Review Template",
@@ -22397,5 +23078,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-27T04:12:54Z"
+  "generated_at": "2026-05-27T04:22:46Z"
 }
