@@ -7,7 +7,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "A/B Testing Design",
@@ -225,6 +225,24 @@
       "degree": 1
     },
     {
+      "id": "Competitive Gaming Psychology",
+      "label": "Competitive Gaming Psychology",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
+    },
+    {
+      "id": "Component Design Principles",
+      "label": "Component Design Principles",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Computer Architecture",
       "label": "Computer Architecture",
       "folder": null,
@@ -435,6 +453,15 @@
       "degree": 1
     },
     {
+      "id": "Gaming and Flow State",
+      "label": "Gaming and Flow State",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Goal Setting Frameworks (SMART, OKRs)",
       "label": "Goal Setting Frameworks (SMART, OKRs)",
       "folder": null,
@@ -442,6 +469,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 2
+    },
+    {
+      "id": "Graph Algorithms (BFS, DFS, Dijkstra, A*)",
+      "label": "Graph Algorithms (BFS, DFS, Dijkstra, A*)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "Habit Formation — Cue, Routine, Reward",
@@ -632,6 +668,15 @@
       "degree": 1
     },
     {
+      "id": "Open World Design",
+      "label": "Open World Design",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
+    },
+    {
       "id": "Performance Profiling (CPU, Memory, I/O)",
       "label": "O)",
       "folder": "Performance Profiling (CPU, Memory, I",
@@ -775,6 +820,15 @@
     {
       "id": "Python — Closures",
       "label": "Python — Closures",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Randomness and Probability Distributions",
+      "label": "Randomness and Probability Distributions",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -1944,7 +1998,7 @@
         "resource",
         "business-strategy"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Business & Strategy/Business Model Canvas",
@@ -3211,7 +3265,7 @@
         "resource",
         "communication-writing"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Communication & Writing/The Pyramid Principle (Barbara Minto)",
@@ -3235,7 +3289,7 @@
         "resource",
         "communication-writing"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Communication & Writing/Writing for Developers — Docs, READMEs, Commit Messages",
@@ -3946,6 +4000,114 @@
       "degree": 21
     },
     {
+      "id": "Resources/Design & UX/Accessibility in Design (WCAG 2.1, 2.2)",
+      "label": "Accessibility in Design (WCAG 2.1, 2.2)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Accessibility in design ensures products can be used by people with varied vision, hearing, motor, cognitive, and situational needs. WCAG 2.1 and 2.2 organize guidance around perceivable, operable, understandable, and robust experiences.",
+      "tags": [
+        "resource",
+        "design-ux"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Design & UX/Color Theory Fundamentals",
+      "label": "Color Theory Fundamentals",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Color theory covers hue, saturation, value, contrast, harmony, semantics, accessibility, and emotional association. In product design, color should support hierarchy, meaning, state, and legibility.",
+      "tags": [
+        "resource",
+        "design-ux"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Design & UX/Dark Patterns — A Catalog of What to Avoid",
+      "label": "Dark Patterns — A Catalog of What to Avoid",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Dark patterns are deceptive or manipulative interface designs that push users into choices they might not otherwise make. They can increase short-term metrics while damaging trust, autonomy, and sometimes legal compliance.",
+      "tags": [
+        "resource",
+        "design-ux"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Design & UX/Design Handoff to Engineering",
+      "label": "Design Handoff to Engineering",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Design handoff to engineering translates product intent, interaction states, edge cases, assets, accessibility requirements, and design tokens into buildable guidance. Good handoff is collaboration, not a file drop.",
+      "tags": [
+        "resource",
+        "design-ux"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Design & UX/Design Systems Overview",
+      "label": "Design Systems Overview",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Design systems are shared foundations for product design and engineering, including components, tokens, patterns, guidelines, and governance. They improve consistency and speed when treated as living infrastructure.",
+      "tags": [
+        "resource",
+        "design-ux"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Design & UX/Designing for Emotion",
+      "label": "Designing for Emotion",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Designing for emotion considers how products make people feel through clarity, control, trust, delight, safety, momentum, and identity. Emotional design should support user goals rather than manipulate them.",
+      "tags": [
+        "resource",
+        "design-ux"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Design & UX/Figma Workflow and Components",
+      "label": "Figma Workflow and Components",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Figma workflows use files, pages, frames, components, variants, auto layout, styles, variables, libraries, and comments to support collaborative design. Good structure makes design easier to maintain and hand off.",
+      "tags": [
+        "resource",
+        "design-ux"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Design & UX/Gestalt Principles in Design",
+      "label": "Gestalt Principles in Design",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Gestalt principles describe how people perceive visual patterns as organized wholes. Proximity, similarity, continuity, closure, common region, and figure-ground help designers create clear visual grouping.",
+      "tags": [
+        "resource",
+        "design-ux"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Design & UX/Grid Systems in Design",
+      "label": "Grid Systems in Design",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Grid systems create layout structure through columns, rows, margins, gutters, spacing, and alignment. They help interfaces feel organized, scalable, and easier to scan.",
+      "tags": [
+        "resource",
+        "design-ux"
+      ],
+      "degree": 7
+    },
+    {
       "id": "Resources/Design & UX/Human-Centered Design Process",
       "label": "Human-Centered Design Process",
       "folder": "Resources",
@@ -3955,7 +4117,91 @@
         "resource",
         "design-ux"
       ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Design & UX/Information Architecture",
+      "label": "Information Architecture",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Information architecture organizes content, navigation, labels, and relationships so people can find and understand what they need. It is the structure beneath usable digital experiences.",
+      "tags": [
+        "resource",
+        "design-ux"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Design & UX/Interaction Design Principles (Fitts's Law, Hick's Law, Jakob's Law)",
+      "label": "Interaction Design Principles (Fitts's Law, Hick's Law, Jakob's Law)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Interaction design principles explain how people perceive, choose, and act in interfaces. Fitts's Law, Hick's Law, and Jakob's Law are useful heuristics for targets, choices, and familiar patterns.",
+      "tags": [
+        "resource",
+        "design-ux"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Design & UX/Micro-Interactions Design",
+      "label": "Micro-Interactions Design",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Micro-interactions are small product moments that handle feedback, status, affordance, confirmation, error prevention, and delight. They make interfaces feel responsive and understandable.",
+      "tags": [
+        "resource",
+        "design-ux"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Design & UX/Mobile-First Design",
+      "label": "Mobile-First Design",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Mobile-first design starts with constrained screen space, touch interaction, performance, and core tasks before expanding to larger screens. It forces prioritization and helps create responsive experiences.",
+      "tags": [
+        "resource",
+        "design-ux"
+      ],
       "degree": 4
+    },
+    {
+      "id": "Resources/Design & UX/Motion Design Principles",
+      "label": "Motion Design Principles",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Motion design uses animation and transition to clarify state changes, guide attention, express continuity, and provide feedback. Good motion supports understanding; excessive motion becomes noise or an accessibility problem.",
+      "tags": [
+        "resource",
+        "design-ux"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Design & UX/The Aesthetic-Usability Effect",
+      "label": "The Aesthetic-Usability Effect",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The aesthetic-usability effect is the tendency for users to perceive attractive designs as easier to use. Visual polish can increase tolerance and trust, but it cannot fully compensate for broken usability.",
+      "tags": [
+        "resource",
+        "design-ux"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Design & UX/Typography Fundamentals",
+      "label": "Typography Fundamentals",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Typography shapes readability, hierarchy, tone, and information density through typeface choice, size, weight, line length, spacing, alignment, and contrast. Good typography makes content easier to use.",
+      "tags": [
+        "resource",
+        "design-ux"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/Design & UX/UX Research Methods Overview",
@@ -3967,7 +4213,7 @@
         "resource",
         "design-ux"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Design & UX/User Personas",
@@ -3975,6 +4221,18 @@
       "folder": "Resources",
       "created": "2026-05-26",
       "excerpt": "User personas are synthesized representations of target users, including goals, contexts, behaviors, needs, and constraints. They are useful when evidence-based and dangerous when invented as demographic stereotypes.",
+      "tags": [
+        "resource",
+        "design-ux"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Design & UX/Wireframing vs Prototyping",
+      "label": "Wireframing vs Prototyping",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Wireframes sketch structure and information layout, while prototypes simulate interaction, flow, and behavior. Both reduce uncertainty, but they answer different design questions.",
       "tags": [
         "resource",
         "design-ux"
@@ -4441,7 +4699,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/Economics & Finance/Bitcoin — Blockchain, Proof of Work, Mining",
@@ -4609,7 +4867,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Economics & Finance/Prisoner's Dilemma and Nash Equilibrium",
@@ -4681,7 +4939,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Economics & Finance/Universal Basic Income — Arguments For and Against",
@@ -4868,7 +5126,7 @@
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Pricing Strategy (Value-Based, Cost-Plus, Freemium)",
@@ -5015,6 +5273,102 @@
         "ai"
       ],
       "degree": 9
+    },
+    {
+      "id": "Resources/Gaming/Esports Industry Overview",
+      "label": "Esports Industry Overview",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Esports is the organized competitive gaming ecosystem of players, teams, leagues, publishers, sponsors, broadcasters, platforms, tournaments, and fans. Its economics depend heavily on game ownership, media rights, sponsorship, and community engagement.",
+      "tags": [
+        "resource",
+        "gaming"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Gaming/Game Balance Design",
+      "label": "Game Balance Design",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Game balance tunes systems so choices, challenges, rewards, and strategies feel fair, interesting, and sustainable. Balance is contextual: perfect symmetry is not always the goal.",
+      "tags": [
+        "resource",
+        "gaming"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Gaming/Game Design Fundamentals",
+      "label": "Game Design Fundamentals",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Game design creates structured play through goals, rules, feedback, challenge, choice, progression, and reward. Good design aligns mechanics, dynamics, aesthetics, and player motivation.",
+      "tags": [
+        "resource",
+        "gaming"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Gaming/Game Physics Engines Overview",
+      "label": "Game Physics Engines Overview",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Game physics engines simulate motion, collision, forces, constraints, rigid bodies, and sometimes soft bodies or fluids. They prioritize believable, stable, performant behavior over perfect physical realism.",
+      "tags": [
+        "resource",
+        "gaming"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Gaming/Monetization Models in Games (Gacha, Battle Pass, DLC)",
+      "label": "Monetization Models in Games (Gacha, Battle Pass, DLC)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Game monetization models include premium purchase, DLC, subscriptions, cosmetics, battle passes, ads, loot boxes, and gacha systems. Monetization shapes design incentives and can conflict with player trust.",
+      "tags": [
+        "resource",
+        "gaming"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Gaming/Pathfinding Algorithms (A*, NavMesh)",
+      "label": "Pathfinding Algorithms (A*, NavMesh)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Pathfinding algorithms help game agents move through environments using graph search, heuristics, navigation meshes, and local avoidance. A* and NavMesh systems balance correctness, realism, and performance.",
+      "tags": [
+        "resource",
+        "gaming"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Gaming/Procedural Generation Techniques",
+      "label": "Procedural Generation Techniques",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Procedural generation creates game content algorithmically, including levels, terrain, items, quests, names, maps, and encounters. Good procedural systems combine randomness, constraints, authored rules, and quality control.",
+      "tags": [
+        "resource",
+        "gaming"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Gaming/The Game Loop (Input, Update, Render)",
+      "label": "The Game Loop (Input, Update, Render)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The game loop repeatedly processes input, updates simulation state, and renders output. It is the runtime heartbeat that turns code, assets, and rules into continuous interactive experience.",
+      "tags": [
+        "resource",
+        "gaming"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/Geospatial",
@@ -8206,7 +8560,7 @@
         "resource",
         "philosophy"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Philosophy/Ethics — Virtue Ethics (Aristotle)",
@@ -8494,7 +8848,7 @@
         "resource",
         "physics"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Physics/Dark Matter and Dark Energy",
@@ -8798,7 +9152,7 @@
         "resource",
         "product-management"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Product Management/Metrics Hierarchy (Input vs Output Metrics)",
@@ -8918,7 +9272,7 @@
         "resource",
         "product-management"
       ],
-      "degree": 6
+      "degree": 11
     },
     {
       "id": "Resources/Product Management/User Stories and Jobs to Be Done",
@@ -10436,7 +10790,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "Resources/Software Engineering/Feature Flags and Progressive Rollout",
@@ -11789,6 +12143,15 @@
     {
       "id": "Technical Leadership",
       "label": "Technical Leadership",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "The Psychology of Loot Boxes and Variable Rewards",
+      "label": "The Psychology of Loot Boxes and Variable Rewards",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -15912,6 +16275,114 @@
       "target": "Resources/System Design Notes"
     },
     {
+      "source": "Resources/Design & UX/Accessibility in Design (WCAG 2.1, 2.2)",
+      "target": "Resources/Design & UX/Color Theory Fundamentals"
+    },
+    {
+      "source": "Resources/Design & UX/Accessibility in Design (WCAG 2.1, 2.2)",
+      "target": "Resources/Design & UX/Interaction Design Principles (Fitts's Law, Hick's Law, Jakob's Law)"
+    },
+    {
+      "source": "Resources/Design & UX/Accessibility in Design (WCAG 2.1, 2.2)",
+      "target": "Resources/Product Management/Usability Testing"
+    },
+    {
+      "source": "Resources/Design & UX/Color Theory Fundamentals",
+      "target": "Resources/Business & Strategy/Brand Building"
+    },
+    {
+      "source": "Resources/Design & UX/Color Theory Fundamentals",
+      "target": "Resources/Design & UX/Accessibility in Design (WCAG 2.1, 2.2)"
+    },
+    {
+      "source": "Resources/Design & UX/Color Theory Fundamentals",
+      "target": "Resources/Design & UX/Design Systems Overview"
+    },
+    {
+      "source": "Resources/Design & UX/Dark Patterns — A Catalog of What to Avoid",
+      "target": "Resources/Economics & Finance/Behavioral Economics Overview"
+    },
+    {
+      "source": "Resources/Design & UX/Dark Patterns — A Catalog of What to Avoid",
+      "target": "Resources/Economics & Finance/The Economics of Attention"
+    },
+    {
+      "source": "Resources/Design & UX/Dark Patterns — A Catalog of What to Avoid",
+      "target": "Resources/Philosophy/Ethics — Deontology (Kant's Categorical Imperative)"
+    },
+    {
+      "source": "Resources/Design & UX/Design Handoff to Engineering",
+      "target": "Resources/Communication & Writing/Technical Writing Best Practices"
+    },
+    {
+      "source": "Resources/Design & UX/Design Handoff to Engineering",
+      "target": "Resources/Design & UX/Design Systems Overview"
+    },
+    {
+      "source": "Resources/Design & UX/Design Handoff to Engineering",
+      "target": "Resources/Design & UX/Figma Workflow and Components"
+    },
+    {
+      "source": "Resources/Design & UX/Design Systems Overview",
+      "target": "Component Design Principles"
+    },
+    {
+      "source": "Resources/Design & UX/Design Systems Overview",
+      "target": "Resources/Design & UX/Design Handoff to Engineering"
+    },
+    {
+      "source": "Resources/Design & UX/Design Systems Overview",
+      "target": "Resources/Design & UX/Figma Workflow and Components"
+    },
+    {
+      "source": "Resources/Design & UX/Designing for Emotion",
+      "target": "Resources/Business & Strategy/Brand Building"
+    },
+    {
+      "source": "Resources/Design & UX/Designing for Emotion",
+      "target": "Resources/Design & UX/Dark Patterns — A Catalog of What to Avoid"
+    },
+    {
+      "source": "Resources/Design & UX/Designing for Emotion",
+      "target": "Resources/Design & UX/Micro-Interactions Design"
+    },
+    {
+      "source": "Resources/Design & UX/Figma Workflow and Components",
+      "target": "Resources/Design & UX/Design Handoff to Engineering"
+    },
+    {
+      "source": "Resources/Design & UX/Figma Workflow and Components",
+      "target": "Resources/Design & UX/Design Systems Overview"
+    },
+    {
+      "source": "Resources/Design & UX/Figma Workflow and Components",
+      "target": "Resources/Design & UX/Grid Systems in Design"
+    },
+    {
+      "source": "Resources/Design & UX/Gestalt Principles in Design",
+      "target": "Resources/Design & UX/Grid Systems in Design"
+    },
+    {
+      "source": "Resources/Design & UX/Gestalt Principles in Design",
+      "target": "Resources/Design & UX/Information Architecture"
+    },
+    {
+      "source": "Resources/Design & UX/Gestalt Principles in Design",
+      "target": "Resources/Design & UX/Typography Fundamentals"
+    },
+    {
+      "source": "Resources/Design & UX/Grid Systems in Design",
+      "target": "Resources/Design & UX/Gestalt Principles in Design"
+    },
+    {
+      "source": "Resources/Design & UX/Grid Systems in Design",
+      "target": "Resources/Design & UX/Mobile-First Design"
+    },
+    {
+      "source": "Resources/Design & UX/Grid Systems in Design",
+      "target": "Resources/Design & UX/Typography Fundamentals"
+    },
+    {
       "source": "Resources/Design & UX/Human-Centered Design Process",
       "target": "Resources/Design & UX/UX Research Methods Overview"
     },
@@ -15922,6 +16393,90 @@
     {
       "source": "Resources/Design & UX/Human-Centered Design Process",
       "target": "Resources/Product Management/Usability Testing"
+    },
+    {
+      "source": "Resources/Design & UX/Information Architecture",
+      "target": "Resources/Communication & Writing/Technical Writing Best Practices"
+    },
+    {
+      "source": "Resources/Design & UX/Information Architecture",
+      "target": "Resources/Design & UX/UX Research Methods Overview"
+    },
+    {
+      "source": "Resources/Design & UX/Information Architecture",
+      "target": "Resources/Design & UX/User Personas"
+    },
+    {
+      "source": "Resources/Design & UX/Interaction Design Principles (Fitts's Law, Hick's Law, Jakob's Law)",
+      "target": "Resources/Design & UX/Accessibility in Design (WCAG 2.1, 2.2)"
+    },
+    {
+      "source": "Resources/Design & UX/Interaction Design Principles (Fitts's Law, Hick's Law, Jakob's Law)",
+      "target": "Resources/Design & UX/Micro-Interactions Design"
+    },
+    {
+      "source": "Resources/Design & UX/Interaction Design Principles (Fitts's Law, Hick's Law, Jakob's Law)",
+      "target": "Resources/Product Management/Usability Testing"
+    },
+    {
+      "source": "Resources/Design & UX/Micro-Interactions Design",
+      "target": "Resources/Design & UX/Motion Design Principles"
+    },
+    {
+      "source": "Resources/Design & UX/Micro-Interactions Design",
+      "target": "Resources/Product Management/Feature Flags in Product"
+    },
+    {
+      "source": "Resources/Design & UX/Micro-Interactions Design",
+      "target": "Resources/Product Management/Usability Testing"
+    },
+    {
+      "source": "Resources/Design & UX/Mobile-First Design",
+      "target": "Resources/Design & UX/Accessibility in Design (WCAG 2.1, 2.2)"
+    },
+    {
+      "source": "Resources/Design & UX/Mobile-First Design",
+      "target": "Resources/Design & UX/Grid Systems in Design"
+    },
+    {
+      "source": "Resources/Design & UX/Mobile-First Design",
+      "target": "Resources/Design & UX/Information Architecture"
+    },
+    {
+      "source": "Resources/Design & UX/Motion Design Principles",
+      "target": "Resources/Design & UX/Accessibility in Design (WCAG 2.1, 2.2)"
+    },
+    {
+      "source": "Resources/Design & UX/Motion Design Principles",
+      "target": "Resources/Design & UX/Interaction Design Principles (Fitts's Law, Hick's Law, Jakob's Law)"
+    },
+    {
+      "source": "Resources/Design & UX/Motion Design Principles",
+      "target": "Resources/Design & UX/Micro-Interactions Design"
+    },
+    {
+      "source": "Resources/Design & UX/The Aesthetic-Usability Effect",
+      "target": "Resources/Design & UX/Gestalt Principles in Design"
+    },
+    {
+      "source": "Resources/Design & UX/The Aesthetic-Usability Effect",
+      "target": "Resources/Design & UX/Typography Fundamentals"
+    },
+    {
+      "source": "Resources/Design & UX/The Aesthetic-Usability Effect",
+      "target": "Resources/Product Management/Usability Testing"
+    },
+    {
+      "source": "Resources/Design & UX/Typography Fundamentals",
+      "target": "Resources/Communication & Writing/Writing Clearly — Principles (Williams, Pinker)"
+    },
+    {
+      "source": "Resources/Design & UX/Typography Fundamentals",
+      "target": "Resources/Design & UX/Accessibility in Design (WCAG 2.1, 2.2)"
+    },
+    {
+      "source": "Resources/Design & UX/Typography Fundamentals",
+      "target": "Resources/Design & UX/Grid Systems in Design"
     },
     {
       "source": "Resources/Design & UX/UX Research Methods Overview",
@@ -15946,6 +16501,18 @@
     {
       "source": "Resources/Design & UX/User Personas",
       "target": "Resources/Product Management/User Stories and Jobs to Be Done"
+    },
+    {
+      "source": "Resources/Design & UX/Wireframing vs Prototyping",
+      "target": "Resources/Design & UX/Human-Centered Design Process"
+    },
+    {
+      "source": "Resources/Design & UX/Wireframing vs Prototyping",
+      "target": "Resources/Entrepreneurship & Startups/MVP Design — What Minimum Actually Means"
+    },
+    {
+      "source": "Resources/Design & UX/Wireframing vs Prototyping",
+      "target": "Resources/Product Management/Usability Testing"
     },
     {
       "source": "Resources/DevOps & Infrastructure/AWS Core Services (EC2, S3, Lambda, RDS, VPC)",
@@ -17134,6 +17701,102 @@
     {
       "source": "Resources/Formal Methods Agent Safety",
       "target": "Resources/Multi-Agent Systems"
+    },
+    {
+      "source": "Resources/Gaming/Esports Industry Overview",
+      "target": "Competitive Gaming Psychology"
+    },
+    {
+      "source": "Resources/Gaming/Esports Industry Overview",
+      "target": "Resources/Economics & Finance/Platform Economics (Multi-Sided Markets)"
+    },
+    {
+      "source": "Resources/Gaming/Esports Industry Overview",
+      "target": "Resources/Economics & Finance/The Economics of Attention"
+    },
+    {
+      "source": "Resources/Gaming/Game Balance Design",
+      "target": "A-B Testing Fundamentals"
+    },
+    {
+      "source": "Resources/Gaming/Game Balance Design",
+      "target": "Competitive Gaming Psychology"
+    },
+    {
+      "source": "Resources/Gaming/Game Balance Design",
+      "target": "Resources/Gaming/Game Design Fundamentals"
+    },
+    {
+      "source": "Resources/Gaming/Game Design Fundamentals",
+      "target": "Gaming and Flow State"
+    },
+    {
+      "source": "Resources/Gaming/Game Design Fundamentals",
+      "target": "Resources/Gaming/Game Balance Design"
+    },
+    {
+      "source": "Resources/Gaming/Game Design Fundamentals",
+      "target": "Resources/Gaming/The Game Loop (Input, Update, Render)"
+    },
+    {
+      "source": "Resources/Gaming/Game Physics Engines Overview",
+      "target": "Resources/Gaming/Game Balance Design"
+    },
+    {
+      "source": "Resources/Gaming/Game Physics Engines Overview",
+      "target": "Resources/Gaming/The Game Loop (Input, Update, Render)"
+    },
+    {
+      "source": "Resources/Gaming/Game Physics Engines Overview",
+      "target": "Resources/Physics/Classical Mechanics Fundamentals"
+    },
+    {
+      "source": "Resources/Gaming/Monetization Models in Games (Gacha, Battle Pass, DLC)",
+      "target": "Resources/Design & UX/Dark Patterns — A Catalog of What to Avoid"
+    },
+    {
+      "source": "Resources/Gaming/Monetization Models in Games (Gacha, Battle Pass, DLC)",
+      "target": "Resources/Economics & Finance/Behavioral Economics Overview"
+    },
+    {
+      "source": "Resources/Gaming/Monetization Models in Games (Gacha, Battle Pass, DLC)",
+      "target": "The Psychology of Loot Boxes and Variable Rewards"
+    },
+    {
+      "source": "Resources/Gaming/Pathfinding Algorithms (A*, NavMesh)",
+      "target": "Graph Algorithms (BFS, DFS, Dijkstra, A*)"
+    },
+    {
+      "source": "Resources/Gaming/Pathfinding Algorithms (A*, NavMesh)",
+      "target": "Open World Design"
+    },
+    {
+      "source": "Resources/Gaming/Pathfinding Algorithms (A*, NavMesh)",
+      "target": "Resources/Gaming/The Game Loop (Input, Update, Render)"
+    },
+    {
+      "source": "Resources/Gaming/Procedural Generation Techniques",
+      "target": "Open World Design"
+    },
+    {
+      "source": "Resources/Gaming/Procedural Generation Techniques",
+      "target": "Randomness and Probability Distributions"
+    },
+    {
+      "source": "Resources/Gaming/Procedural Generation Techniques",
+      "target": "Resources/Gaming/Game Balance Design"
+    },
+    {
+      "source": "Resources/Gaming/The Game Loop (Input, Update, Render)",
+      "target": "Resources/Design & UX/Motion Design Principles"
+    },
+    {
+      "source": "Resources/Gaming/The Game Loop (Input, Update, Render)",
+      "target": "Resources/Gaming/Game Physics Engines Overview"
+    },
+    {
+      "source": "Resources/Gaming/The Game Loop (Input, Update, Render)",
+      "target": "Resources/Software Engineering/Event-Driven Architecture"
     },
     {
       "source": "Resources/Geospatial",
@@ -24932,5 +25595,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-27T04:56:45Z"
+  "generated_at": "2026-05-27T05:05:17Z"
 }
