@@ -100,7 +100,7 @@
         "job-search",
         "career"
       ],
-      "degree": 10
+      "degree": 13
     },
     {
       "id": "Areas/Pokemon Collection",
@@ -160,15 +160,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 6
-    },
-    {
-      "id": "Changelog and Release Notes Writing",
-      "label": "Changelog and Release Notes Writing",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
     },
     {
       "id": "Chemistry & Biochemistry",
@@ -502,15 +493,6 @@
     {
       "id": "History of the Web (Web 1.0 → 2.0 → 3.0)",
       "label": "History of the Web (Web 1.0 → 2.0 → 3.0)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "How to Write a Good Technical Spec",
-      "label": "How to Write a Good Technical Spec",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -3475,7 +3457,7 @@
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Cognitive Science & Biases/Confirmation Bias",
@@ -3739,7 +3721,7 @@
         "resource",
         "communication-writing"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Communication & Writing/Conflict Resolution Strategies",
@@ -3775,7 +3757,7 @@
         "resource",
         "communication-writing"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Communication & Writing/Negotiation Fundamentals (BATNA, ZOPA)",
@@ -3787,7 +3769,7 @@
         "resource",
         "communication-writing"
       ],
-      "degree": 3
+      "degree": 5
     },
     {
       "id": "Resources/Communication & Writing/Non-Violent Communication (NVC — Marshall Rosenberg)",
@@ -3823,7 +3805,7 @@
         "resource",
         "communication-writing"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Communication & Writing/Public Speaking — Fear and Techniques",
@@ -3871,7 +3853,7 @@
         "resource",
         "communication-writing"
       ],
-      "degree": 9
+      "degree": 11
     },
     {
       "id": "Resources/Communication & Writing/The Pyramid Principle (Barbara Minto)",
@@ -3907,7 +3889,7 @@
         "resource",
         "communication-writing"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/DSA Practice",
@@ -3922,7 +3904,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Data Engineering",
@@ -5131,7 +5113,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 14
+      "degree": 17
     },
     {
       "id": "Resources/DevOps & Infrastructure/Prometheus and Grafana",
@@ -7122,7 +7104,7 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Leadership & Management/Conway's Law",
@@ -7242,7 +7224,7 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Leadership & Management/Psychological Safety in Teams (Amy Edmondson)",
@@ -7254,7 +7236,7 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Leadership & Management/Radical Candor (Kim Scott)",
@@ -7290,7 +7272,7 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Leadership & Management/Technical Interview Design",
@@ -7302,7 +7284,7 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Leadership & Management/The Principal-Agent Problem",
@@ -7590,7 +7572,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Learning & Memory/Teaching as a Learning Tool",
@@ -8353,7 +8335,7 @@
         "resource",
         "meta-learning-epistemics"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Meta-Learning & Epistemics/Fermi Estimation Techniques",
@@ -8365,7 +8347,7 @@
         "resource",
         "meta-learning-epistemics"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Meta-Learning & Epistemics/How to Build a Mental Model",
@@ -8464,6 +8446,328 @@
         "meta-learning-epistemics"
       ],
       "degree": 4
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/Changelog and Release Notes Writing",
+      "label": "Changelog and Release Notes Writing",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Changelogs and release notes translate project changes into useful history for users, teammates, and future maintainers. Good entries group changes by impact, explain migration needs, and distinguish features, fixes, breaking changes, security updates, and known issues.",
+      "tags": [
+        "resource",
+        "misc-high-value",
+        "communication-writing"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/Code as Communication (Writing for Readers)",
+      "label": "Code as Communication (Writing for Readers)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Code is communication with future readers as much as instruction for machines. Good code makes intent, structure, constraints, and failure behavior legible so maintainers can change it without reconstructing the author's entire mental state.",
+      "tags": [
+        "resource",
+        "misc-high-value",
+        "software-engineering"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/Decision-Making Under Uncertainty",
+      "label": "Decision-Making Under Uncertainty",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Decision-making under uncertainty means choosing without complete information by separating known facts, assumptions, probabilities, stakes, reversibility, and feedback loops. Good decisions are judged by process quality and expected value, not only by whether the outcome happened to work.",
+      "tags": [
+        "resource",
+        "misc-high-value"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/How to Ask for Help Effectively (XY Problem)",
+      "label": "How to Ask for Help Effectively (XY Problem)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Asking for help effectively means sharing the real goal, current approach, observed behavior, constraints, and what has already been tried. This avoids the XY problem, where someone asks about a chosen solution instead of the underlying problem.",
+      "tags": [
+        "resource",
+        "misc-high-value",
+        "communication-writing"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/How to Do a Brag Document",
+      "label": "How to Do a Brag Document",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "A brag document is a running record of accomplishments, impact, feedback, responsibilities, metrics, and lessons. It helps with performance reviews, resumes, interviews, promotion packets, and personal confidence because evidence is captured before memory fades.",
+      "tags": [
+        "resource",
+        "misc-high-value",
+        "career"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/How to Give a Good Demo",
+      "label": "How to Give a Good Demo",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "A good demo makes value visible quickly by showing a real workflow, not by reciting implementation details. It needs a clear audience, tight setup, realistic data, a rehearsed path, backup plan, and explicit takeaway.",
+      "tags": [
+        "resource",
+        "misc-high-value",
+        "communication-writing"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/How to Onboard onto a New Codebase",
+      "label": "How to Onboard onto a New Codebase",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Onboarding onto a new codebase requires building a map of the system before trying to change it: setup, tests, entry points, data flow, ownership boundaries, conventions, and deployment path. The fastest path is to make small verified changes while documenting discoveries.",
+      "tags": [
+        "resource",
+        "misc-high-value",
+        "software-engineering"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/How to Run a Design Review",
+      "label": "How to Run a Design Review",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "A design review is a structured critique of a proposed technical approach before implementation. Good reviews test assumptions, alternatives, interfaces, failure modes, operational risk, and maintainability without turning into taste debates.",
+      "tags": [
+        "resource",
+        "misc-high-value",
+        "software-engineering"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/How to Run a Good Retrospective",
+      "label": "How to Run a Good Retrospective",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "A good retrospective turns recent work into specific learning and action without becoming blame, venting, or vague process theater. It asks what happened, what helped, what hurt, what should change, and who owns the follow-up.",
+      "tags": [
+        "resource",
+        "misc-high-value"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/How to Say No Without Burning Bridges",
+      "label": "How to Say No Without Burning Bridges",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Saying no well means protecting priorities while preserving respect, clarity, and future relationship. The best refusals are timely, direct, brief, grounded in constraints, and sometimes paired with a smaller alternative.",
+      "tags": [
+        "resource",
+        "misc-high-value",
+        "communication-writing"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/How to Write a Good Technical Spec",
+      "label": "How to Write a Good Technical Spec",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "A good technical spec clarifies the problem, goals, non-goals, proposed design, alternatives, tradeoffs, risks, rollout, and validation plan before implementation. Its purpose is to make decisions explicit enough that reviewers can improve the plan while changes are still cheap.",
+      "tags": [
+        "resource",
+        "misc-high-value",
+        "software-engineering"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/Negotiating Job Offers — Full Playbook",
+      "label": "Negotiating Job Offers — Full Playbook",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Negotiating job offers means improving compensation, role fit, start date, location, title, learning opportunity, and risk while preserving the relationship. A strong negotiation uses market data, alternatives, clear priorities, gratitude, and written confirmation.",
+      "tags": [
+        "resource",
+        "misc-high-value",
+        "career"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/Reading Other People's Code",
+      "label": "Reading Other People's Code",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Reading other people's code is a deliberate skill: start from behavior, trace execution paths, inspect tests, map data flow, identify invariants, and resist judging style before understanding constraints. The goal is to reconstruct intent accurately enough to change the code safely.",
+      "tags": [
+        "resource",
+        "misc-high-value",
+        "software-engineering"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/Risk Management Frameworks",
+      "label": "Risk Management Frameworks",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Risk management frameworks help identify, assess, prioritize, mitigate, transfer, accept, and monitor things that could go wrong. The practical value is forcing risks into explicit language before they become surprises.",
+      "tags": [
+        "resource",
+        "misc-high-value"
+      ],
+      "degree": 14
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/Root Cause Analysis (5 Whys, Fishbone)",
+      "label": "Root Cause Analysis (5 Whys, Fishbone)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Root cause analysis looks past the visible symptom to the system conditions that allowed a failure to happen. 5 Whys and fishbone diagrams are simple tools for exploring causal chains, but they need evidence and systems thinking to avoid shallow blame.",
+      "tags": [
+        "resource",
+        "misc-high-value"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/Rubber Duck Debugging",
+      "label": "Rubber Duck Debugging",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Rubber duck debugging is the practice of explaining a problem step by step to reveal hidden assumptions, missing details, and contradictions. It works because forcing a clear explanation often exposes the bug before another person needs to intervene.",
+      "tags": [
+        "resource",
+        "misc-high-value",
+        "software-engineering"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/Technical Interview Preparation Guide",
+      "label": "Technical Interview Preparation Guide",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Technical interview preparation should balance algorithms, system design, project storytelling, behavioral examples, communication practice, and company-specific research. The goal is not memorization alone, but reliable problem-solving under time and social pressure.",
+      "tags": [
+        "resource",
+        "misc-high-value",
+        "career",
+        "study"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/The Art of the README",
+      "label": "The Art of the README",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "A README is the front door of a project: it should explain what the project is, why it exists, how to run it, how to use it, and where to go next. The best READMEs optimize for quick orientation and successful first execution.",
+      "tags": [
+        "resource",
+        "misc-high-value",
+        "communication-writing"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/The Importance of Slack (Buffer Time in Schedules)",
+      "label": "The Importance of Slack (Buffer Time in Schedules)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Slack is unused capacity intentionally left in a schedule or system so it can absorb surprises, recovery, thinking, coordination, and change. Without slack, systems look efficient right up until small disruptions cascade into stress, lateness, and brittle decisions.",
+      "tags": [
+        "resource",
+        "misc-high-value",
+        "productivity"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/The Maker's Schedule vs Manager's Schedule (Paul Graham)",
+      "label": "The Maker's Schedule vs Manager's Schedule (Paul Graham)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Paul Graham's maker-versus-manager schedule distinction explains why meetings can be cheap for managers but expensive for builders. Makers need long, uninterrupted blocks for deep work, while managers can often operate in smaller calendar slots.",
+      "tags": [
+        "resource",
+        "misc-high-value",
+        "productivity"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/The Programmer's Brain (Felienne Hermans)",
+      "label": "The Programmer's Brain (Felienne Hermans)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "The Programmer's Brain explains programming through cognition: working memory limits, long-term memory, reading strategies, chunking, naming, misconceptions, and learning transfer. Its practical takeaway is that code comprehension is a human cognitive task, not just a technical one.",
+      "tags": [
+        "resource",
+        "misc-high-value",
+        "books-ideas"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/The STAR Interview Method",
+      "label": "The STAR Interview Method",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "The STAR method structures interview stories as Situation, Task, Action, and Result. It is useful because it turns vague claims about skill into concrete evidence of context, responsibility, decisions, and impact.",
+      "tags": [
+        "resource",
+        "misc-high-value",
+        "career"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/The XY Problem",
+      "label": "The XY Problem",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "The XY problem happens when someone needs help with goal X but asks about attempted solution Y, causing helpers to optimize the wrong thing. The fix is to surface the original goal, constraints, and why Y seemed necessary.",
+      "tags": [
+        "resource",
+        "misc-high-value",
+        "communication-writing"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/Why Meetings Are Expensive (Cost of Interruption)",
+      "label": "Why Meetings Are Expensive (Cost of Interruption)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Meetings are expensive because their cost includes every participant's time, context switching, preparation, recovery, and opportunity cost. A meeting is worth it when shared understanding or decision quality improves enough to justify that cost.",
+      "tags": [
+        "resource",
+        "misc-high-value",
+        "productivity"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Miscellaneous High-Value Topics/Writing Good Documentation",
+      "label": "Writing Good Documentation",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Good documentation helps the right reader complete a real task or understand a real system with less friction. It should make audience, purpose, prerequisites, examples, edge cases, and maintenance ownership explicit.",
+      "tags": [
+        "resource",
+        "misc-high-value",
+        "communication-writing"
+      ],
+      "degree": 8
     },
     {
       "id": "Resources/Multi-Agent RL",
@@ -9442,7 +9746,7 @@
         "resource",
         "personal-finance"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Personal Finance/Net Worth Tracking",
@@ -9622,7 +9926,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Personal Productivity/Digital Minimalism",
@@ -9658,7 +9962,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 12
+      "degree": 14
     },
     {
       "id": "Resources/Personal Productivity/Evening Wind-Down Routines",
@@ -9934,7 +10238,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Personal Productivity/Weekly Review Process",
@@ -11657,7 +11961,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Security & Privacy/Vulnerability Disclosure and Bug Bounty Programs",
@@ -12142,7 +12446,7 @@
         "engineering",
         "system-design"
       ],
-      "degree": 15
+      "degree": 17
     },
     {
       "id": "Resources/Software Engineering Tools",
@@ -12334,7 +12638,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/Software Engineering/Code Complexity — Cyclomatic Complexity",
@@ -12358,7 +12662,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 16
+      "degree": 18
     },
     {
       "id": "Resources/Software Engineering/Container Networking",
@@ -12382,7 +12686,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Software Engineering/Dependency Management",
@@ -12658,7 +12962,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Software Engineering/Service Mesh (Istio, Linkerd)",
@@ -13906,15 +14210,6 @@
       "degree": 2
     },
     {
-      "id": "Risk Management Frameworks",
-      "label": "Risk Management Frameworks",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 9
-    },
-    {
       "id": "Rumination",
       "label": "Rumination",
       "folder": null,
@@ -13922,6 +14217,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 1
+    },
+    {
+      "id": "STAR Interview Method",
+      "label": "STAR Interview Method",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 3
     },
     {
       "id": "Scientific Method",
@@ -14062,15 +14366,6 @@
       "id": "Web Technologies/How Browsers Work (Parsing, Rendering, Compositing)",
       "label": "How Browsers Work (Parsing, Rendering, Compositing)",
       "folder": "Web Technologies",
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Writing Good Documentation",
-      "label": "Writing Good Documentation",
-      "folder": null,
       "created": null,
       "excerpt": "",
       "tags": [],
@@ -15541,7 +15836,7 @@
     },
     {
       "source": "Resources/Astronomy & Space/Mars Colonization — Technical and Biological Challenges",
-      "target": "Risk Management Frameworks"
+      "target": "Resources/Miscellaneous High-Value Topics/Risk Management Frameworks"
     },
     {
       "source": "Resources/Astronomy & Space/Orbital Mechanics Basics (Kepler, Delta-V, Hohmann Transfer)",
@@ -16077,7 +16372,7 @@
     },
     {
       "source": "Resources/Books & Ideas/Antifragile — Key Ideas (Taleb)",
-      "target": "Risk Management Frameworks"
+      "target": "Resources/Miscellaneous High-Value Topics/Risk Management Frameworks"
     },
     {
       "source": "Resources/Books & Ideas/Atomic Habits — Key Ideas (James Clear)",
@@ -16257,7 +16552,7 @@
     },
     {
       "source": "Resources/Books & Ideas/The Black Swan — Key Ideas (Taleb)",
-      "target": "Risk Management Frameworks"
+      "target": "Resources/Miscellaneous High-Value Topics/Risk Management Frameworks"
     },
     {
       "source": "Resources/Books & Ideas/The Body Keeps the Score — Key Ideas (van der Kolk)",
@@ -19569,7 +19864,7 @@
     },
     {
       "source": "Resources/Economics & Finance/DeFi Basics (Protocols, Liquidity Pools, Yield)",
-      "target": "Risk Management Frameworks"
+      "target": "Resources/Miscellaneous High-Value Topics/Risk Management Frameworks"
     },
     {
       "source": "Resources/Economics & Finance/Externalities and Market Failure",
@@ -22848,6 +23143,306 @@
       "target": "Resources/Meta-Learning & Epistemics/How to Read Primary Research (Not Just Summaries)"
     },
     {
+      "source": "Resources/Miscellaneous High-Value Topics/Changelog and Release Notes Writing",
+      "target": "Resources/Miscellaneous High-Value Topics/Writing Good Documentation"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Changelog and Release Notes Writing",
+      "target": "Resources/Software Engineering/Conventional Commits"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Changelog and Release Notes Writing",
+      "target": "Resources/Software Engineering/Semantic Versioning"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Code as Communication (Writing for Readers)",
+      "target": "Resources/Miscellaneous High-Value Topics/The Programmer's Brain (Felienne Hermans)"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Code as Communication (Writing for Readers)",
+      "target": "Resources/Software Engineering/Clean Code Principles"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Code as Communication (Writing for Readers)",
+      "target": "Resources/Software Engineering/Code Review Best Practices"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Decision-Making Under Uncertainty",
+      "target": "Resources/Meta-Learning & Epistemics/Calibration and Epistemic Humility"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Decision-Making Under Uncertainty",
+      "target": "Resources/Meta-Learning & Epistemics/Fermi Estimation Techniques"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Decision-Making Under Uncertainty",
+      "target": "Resources/Miscellaneous High-Value Topics/Risk Management Frameworks"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/How to Ask for Help Effectively (XY Problem)",
+      "target": "Resources/Communication & Writing/Technical Writing Best Practices"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/How to Ask for Help Effectively (XY Problem)",
+      "target": "Resources/Miscellaneous High-Value Topics/Rubber Duck Debugging"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/How to Ask for Help Effectively (XY Problem)",
+      "target": "Resources/Miscellaneous High-Value Topics/The XY Problem"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/How to Do a Brag Document",
+      "target": "Areas/Job Search"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/How to Do a Brag Document",
+      "target": "Resources/Leadership & Management/Performance Reviews"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/How to Do a Brag Document",
+      "target": "STAR Interview Method"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/How to Give a Good Demo",
+      "target": "Resources/Communication & Writing/Presentation Design (Assertion-Evidence vs Bullet Slides)"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/How to Give a Good Demo",
+      "target": "Resources/Miscellaneous High-Value Topics/The Art of the README"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/How to Give a Good Demo",
+      "target": "STAR Interview Method"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/How to Onboard onto a New Codebase",
+      "target": "Resources/Miscellaneous High-Value Topics/Reading Other People's Code"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/How to Onboard onto a New Codebase",
+      "target": "Resources/Miscellaneous High-Value Topics/The Programmer's Brain (Felienne Hermans)"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/How to Onboard onto a New Codebase",
+      "target": "Resources/Miscellaneous High-Value Topics/Writing Good Documentation"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/How to Run a Design Review",
+      "target": "Resources/Miscellaneous High-Value Topics/How to Write a Good Technical Spec"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/How to Run a Design Review",
+      "target": "Resources/Software Architecture"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/How to Run a Design Review",
+      "target": "Resources/Software Engineering/Code Review Best Practices"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/How to Run a Good Retrospective",
+      "target": "Resources/DevOps & Infrastructure/Postmortem Writing"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/How to Run a Good Retrospective",
+      "target": "Resources/Leadership & Management/Psychological Safety in Teams (Amy Edmondson)"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/How to Run a Good Retrospective",
+      "target": "Resources/Miscellaneous High-Value Topics/Root Cause Analysis (5 Whys, Fishbone)"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/How to Say No Without Burning Bridges",
+      "target": "Resources/Communication & Writing/Async vs Sync Communication — When to Use Each"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/How to Say No Without Burning Bridges",
+      "target": "Resources/Communication & Writing/Negotiation Fundamentals (BATNA, ZOPA)"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/How to Say No Without Burning Bridges",
+      "target": "Resources/Personal Productivity/Energy Management vs Time Management"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/How to Write a Good Technical Spec",
+      "target": "Resources/Miscellaneous High-Value Topics/How to Run a Design Review"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/How to Write a Good Technical Spec",
+      "target": "Resources/Miscellaneous High-Value Topics/Writing Good Documentation"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/How to Write a Good Technical Spec",
+      "target": "Resources/Software Architecture"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Negotiating Job Offers — Full Playbook",
+      "target": "Areas/Job Search"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Negotiating Job Offers — Full Playbook",
+      "target": "Resources/Communication & Writing/Negotiation Fundamentals (BATNA, ZOPA)"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Negotiating Job Offers — Full Playbook",
+      "target": "Resources/Personal Finance/Negotiating Salary — Scripts and Tactics"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Reading Other People's Code",
+      "target": "Resources/Miscellaneous High-Value Topics/Code as Communication (Writing for Readers)"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Reading Other People's Code",
+      "target": "Resources/Miscellaneous High-Value Topics/How to Onboard onto a New Codebase"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Reading Other People's Code",
+      "target": "Resources/Miscellaneous High-Value Topics/The Programmer's Brain (Felienne Hermans)"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Risk Management Frameworks",
+      "target": "Resources/DevOps & Infrastructure/Postmortem Writing"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Risk Management Frameworks",
+      "target": "Resources/Miscellaneous High-Value Topics/Decision-Making Under Uncertainty"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Risk Management Frameworks",
+      "target": "Resources/Security & Privacy/Threat Modeling (STRIDE)"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Root Cause Analysis (5 Whys, Fishbone)",
+      "target": "Resources/DevOps & Infrastructure/Postmortem Writing"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Root Cause Analysis (5 Whys, Fishbone)",
+      "target": "Resources/Learning & Memory/Systems Thinking"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Root Cause Analysis (5 Whys, Fishbone)",
+      "target": "Resources/Miscellaneous High-Value Topics/How to Run a Good Retrospective"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Rubber Duck Debugging",
+      "target": "Resources/Miscellaneous High-Value Topics/Reading Other People's Code"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Rubber Duck Debugging",
+      "target": "Resources/Miscellaneous High-Value Topics/Root Cause Analysis (5 Whys, Fishbone)"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Rubber Duck Debugging",
+      "target": "Resources/Miscellaneous High-Value Topics/The XY Problem"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Technical Interview Preparation Guide",
+      "target": "Resources/DSA Practice"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Technical Interview Preparation Guide",
+      "target": "Resources/Leadership & Management/Technical Interview Design"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Technical Interview Preparation Guide",
+      "target": "STAR Interview Method"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/The Art of the README",
+      "target": "Resources/Communication & Writing/Writing for Developers — Docs, READMEs, Commit Messages"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/The Art of the README",
+      "target": "Resources/Miscellaneous High-Value Topics/How to Give a Good Demo"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/The Art of the README",
+      "target": "Resources/Miscellaneous High-Value Topics/Writing Good Documentation"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/The Importance of Slack (Buffer Time in Schedules)",
+      "target": "Resources/Miscellaneous High-Value Topics/Risk Management Frameworks"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/The Importance of Slack (Buffer Time in Schedules)",
+      "target": "Resources/Personal Productivity/Energy Management vs Time Management"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/The Importance of Slack (Buffer Time in Schedules)",
+      "target": "Resources/Personal Productivity/Time Blocking"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/The Maker's Schedule vs Manager's Schedule (Paul Graham)",
+      "target": "Resources/Miscellaneous High-Value Topics/Why Meetings Are Expensive (Cost of Interruption)"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/The Maker's Schedule vs Manager's Schedule (Paul Graham)",
+      "target": "Resources/Personal Productivity/Deep Work (Cal Newport)"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/The Maker's Schedule vs Manager's Schedule (Paul Graham)",
+      "target": "Resources/Personal Productivity/Time Blocking"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/The Programmer's Brain (Felienne Hermans)",
+      "target": "Resources/Cognitive Science & Biases/Cognitive Load Theory"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/The Programmer's Brain (Felienne Hermans)",
+      "target": "Resources/Miscellaneous High-Value Topics/Code as Communication (Writing for Readers)"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/The Programmer's Brain (Felienne Hermans)",
+      "target": "Resources/Miscellaneous High-Value Topics/Reading Other People's Code"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/The STAR Interview Method",
+      "target": "Areas/Job Search"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/The STAR Interview Method",
+      "target": "Resources/Miscellaneous High-Value Topics/How to Do a Brag Document"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/The STAR Interview Method",
+      "target": "Resources/Miscellaneous High-Value Topics/Technical Interview Preparation Guide"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/The XY Problem",
+      "target": "Resources/Communication & Writing/Explaining Complex Ideas Simply (The Curse of Knowledge)"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/The XY Problem",
+      "target": "Resources/Miscellaneous High-Value Topics/How to Ask for Help Effectively (XY Problem)"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/The XY Problem",
+      "target": "Resources/Miscellaneous High-Value Topics/Rubber Duck Debugging"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Why Meetings Are Expensive (Cost of Interruption)",
+      "target": "Resources/Leadership & Management/Async Communication Culture"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Why Meetings Are Expensive (Cost of Interruption)",
+      "target": "Resources/Leadership & Management/Running Effective Meetings"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Why Meetings Are Expensive (Cost of Interruption)",
+      "target": "Resources/Miscellaneous High-Value Topics/The Maker's Schedule vs Manager's Schedule (Paul Graham)"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Writing Good Documentation",
+      "target": "Resources/Communication & Writing/Technical Writing Best Practices"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Writing Good Documentation",
+      "target": "Resources/Communication & Writing/Writing for Developers — Docs, READMEs, Commit Messages"
+    },
+    {
+      "source": "Resources/Miscellaneous High-Value Topics/Writing Good Documentation",
+      "target": "Resources/Miscellaneous High-Value Topics/The Art of the README"
+    },
+    {
       "source": "Resources/Multi-Agent RL",
       "target": "Resources/Multi-Agent Systems"
     },
@@ -23693,15 +24288,15 @@
     },
     {
       "source": "Resources/Personal Finance/Asset Allocation by Age and Risk Tolerance",
+      "target": "Resources/Miscellaneous High-Value Topics/Risk Management Frameworks"
+    },
+    {
+      "source": "Resources/Personal Finance/Asset Allocation by Age and Risk Tolerance",
       "target": "Resources/Personal Finance/Emergency Fund — Size and Structure"
     },
     {
       "source": "Resources/Personal Finance/Asset Allocation by Age and Risk Tolerance",
       "target": "Resources/Personal Finance/Index Funds vs Active Management — The Data"
-    },
-    {
-      "source": "Resources/Personal Finance/Asset Allocation by Age and Risk Tolerance",
-      "target": "Risk Management Frameworks"
     },
     {
       "source": "Resources/Personal Finance/Budgeting Methods (50-30-20, Zero-Based, Envelope)",
@@ -23765,6 +24360,10 @@
     },
     {
       "source": "Resources/Personal Finance/Emergency Fund — Size and Structure",
+      "target": "Resources/Miscellaneous High-Value Topics/Risk Management Frameworks"
+    },
+    {
+      "source": "Resources/Personal Finance/Emergency Fund — Size and Structure",
       "target": "Resources/Personal Finance/Budgeting Methods (50-30-20, Zero-Based, Envelope)"
     },
     {
@@ -23772,8 +24371,8 @@
       "target": "Resources/Personal Finance/Debt — Types and Payoff Strategies (Avalanche vs Snowball)"
     },
     {
-      "source": "Resources/Personal Finance/Emergency Fund — Size and Structure",
-      "target": "Risk Management Frameworks"
+      "source": "Resources/Personal Finance/Estate Planning Basics (Will, Beneficiaries, Power of Attorney)",
+      "target": "Resources/Miscellaneous High-Value Topics/Risk Management Frameworks"
     },
     {
       "source": "Resources/Personal Finance/Estate Planning Basics (Will, Beneficiaries, Power of Attorney)",
@@ -23782,10 +24381,6 @@
     {
       "source": "Resources/Personal Finance/Estate Planning Basics (Will, Beneficiaries, Power of Attorney)",
       "target": "Resources/Personal Finance/Net Worth Tracking"
-    },
-    {
-      "source": "Resources/Personal Finance/Estate Planning Basics (Will, Beneficiaries, Power of Attorney)",
-      "target": "Risk Management Frameworks"
     },
     {
       "source": "Resources/Personal Finance/FIRE Movement — Financial Independence, Retire Early",
@@ -23813,15 +24408,15 @@
     },
     {
       "source": "Resources/Personal Finance/Insurance Types You Actually Need",
+      "target": "Resources/Miscellaneous High-Value Topics/Risk Management Frameworks"
+    },
+    {
+      "source": "Resources/Personal Finance/Insurance Types You Actually Need",
       "target": "Resources/Personal Finance/Emergency Fund — Size and Structure"
     },
     {
       "source": "Resources/Personal Finance/Insurance Types You Actually Need",
       "target": "Resources/Personal Finance/Estate Planning Basics (Will, Beneficiaries, Power of Attorney)"
-    },
-    {
-      "source": "Resources/Personal Finance/Insurance Types You Actually Need",
-      "target": "Risk Management Frameworks"
     },
     {
       "source": "Resources/Personal Finance/Negotiating Salary — Scripts and Tactics",
@@ -23849,15 +24444,15 @@
     },
     {
       "source": "Resources/Personal Finance/Real Estate vs Stocks — Long-Term Comparison",
+      "target": "Resources/Miscellaneous High-Value Topics/Risk Management Frameworks"
+    },
+    {
+      "source": "Resources/Personal Finance/Real Estate vs Stocks — Long-Term Comparison",
       "target": "Resources/Personal Finance/Asset Allocation by Age and Risk Tolerance"
     },
     {
       "source": "Resources/Personal Finance/Real Estate vs Stocks — Long-Term Comparison",
       "target": "Resources/Personal Finance/Index Funds vs Active Management — The Data"
-    },
-    {
-      "source": "Resources/Personal Finance/Real Estate vs Stocks — Long-Term Comparison",
-      "target": "Risk Management Frameworks"
     },
     {
       "source": "Resources/Personal Finance/Sequence of Returns Risk",
@@ -27165,11 +27760,11 @@
     },
     {
       "source": "Resources/Software Engineering/Conventional Commits",
-      "target": "Changelog and Release Notes Writing"
+      "target": "Resources/AI Workflow"
     },
     {
       "source": "Resources/Software Engineering/Conventional Commits",
-      "target": "Resources/AI Workflow"
+      "target": "Resources/Miscellaneous High-Value Topics/Changelog and Release Notes Writing"
     },
     {
       "source": "Resources/Software Engineering/Conventional Commits",
@@ -27525,7 +28120,7 @@
     },
     {
       "source": "Resources/Software Engineering/Open Source Licensing (MIT, Apache, GPL, etc.)",
-      "target": "Changelog and Release Notes Writing"
+      "target": "Resources/Miscellaneous High-Value Topics/Changelog and Release Notes Writing"
     },
     {
       "source": "Resources/Software Engineering/Open Source Licensing (MIT, Apache, GPL, etc.)",
@@ -27549,6 +28144,10 @@
     },
     {
       "source": "Resources/Software Engineering/OpenAPI and API Documentation",
+      "target": "Resources/Miscellaneous High-Value Topics/Writing Good Documentation"
+    },
+    {
+      "source": "Resources/Software Engineering/OpenAPI and API Documentation",
       "target": "Resources/Software Engineering/API Design — REST Principles"
     },
     {
@@ -27558,10 +28157,6 @@
     {
       "source": "Resources/Software Engineering/OpenAPI and API Documentation",
       "target": "Resources/Software Engineering/Static Analysis Tools"
-    },
-    {
-      "source": "Resources/Software Engineering/OpenAPI and API Documentation",
-      "target": "Writing Good Documentation"
     },
     {
       "source": "Resources/Software Engineering/Property-Based Testing",
@@ -27665,11 +28260,11 @@
     },
     {
       "source": "Resources/Software Engineering/Software Estimation Techniques",
-      "target": "How to Write a Good Technical Spec"
+      "target": "Resources/Engineering Judgment and Tool Tradeoffs"
     },
     {
       "source": "Resources/Software Engineering/Software Estimation Techniques",
-      "target": "Resources/Engineering Judgment and Tool Tradeoffs"
+      "target": "Resources/Miscellaneous High-Value Topics/How to Write a Good Technical Spec"
     },
     {
       "source": "Resources/Software Engineering/Software Estimation Techniques",
@@ -29244,5 +29839,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-27T15:32:50Z"
+  "generated_at": "2026-05-27T17:01:02Z"
 }
