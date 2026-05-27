@@ -225,15 +225,6 @@
       "degree": 1
     },
     {
-      "id": "Competitive Gaming Psychology",
-      "label": "Competitive Gaming Psychology",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
-    },
-    {
       "id": "Component Design Principles",
       "label": "Component Design Principles",
       "folder": null,
@@ -444,8 +435,8 @@
       "degree": 1
     },
     {
-      "id": "Focus Work — Deep Work Principles",
-      "label": "Focus Work — Deep Work Principles",
+      "id": "Flow State and Deep Work",
+      "label": "Flow State and Deep Work",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -453,13 +444,13 @@
       "degree": 1
     },
     {
-      "id": "Gaming and Flow State",
-      "label": "Gaming and Flow State",
+      "id": "Focus Work — Deep Work Principles",
+      "label": "Focus Work — Deep Work Principles",
       "folder": null,
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "Goal Setting Frameworks (SMART, OKRs)",
@@ -666,15 +657,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 1
-    },
-    {
-      "id": "Open World Design",
-      "label": "Open World Design",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
     },
     {
       "id": "Performance Profiling (CPU, Memory, I/O)",
@@ -1813,7 +1795,7 @@
         "resource",
         "biology-life-sciences"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Biology & Life Sciences/Genetics — DNA to Protein to Phenotype",
@@ -3169,7 +3151,7 @@
         "resource",
         "communication-writing"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Communication & Writing/Negotiation Fundamentals (BATNA, ZOPA)",
@@ -3253,7 +3235,7 @@
         "resource",
         "communication-writing"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Communication & Writing/Technical Writing Best Practices",
@@ -4021,7 +4003,7 @@
         "resource",
         "design-ux"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Design & UX/Dark Patterns — A Catalog of What to Avoid",
@@ -4033,7 +4015,7 @@
         "resource",
         "design-ux"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Design & UX/Design Handoff to Engineering",
@@ -4105,7 +4087,7 @@
         "resource",
         "design-ux"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Design & UX/Human-Centered Design Process",
@@ -4177,7 +4159,7 @@
         "resource",
         "design-ux"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Design & UX/The Aesthetic-Usability Effect",
@@ -4867,7 +4849,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Economics & Finance/Prisoner's Dilemma and Nash Equilibrium",
@@ -4939,7 +4921,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Economics & Finance/Universal Basic Income — Arguments For and Against",
@@ -5249,6 +5231,114 @@
       "degree": 4
     },
     {
+      "id": "Resources/Film & Storytelling/Character Arc Design",
+      "label": "Character Arc Design",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Character arc design tracks how a character changes or resists change through desire, flaw, pressure, choice, consequence, and revelation. Strong arcs connect external plot to internal transformation.",
+      "tags": [
+        "resource",
+        "film-storytelling"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Film & Storytelling/Cinematography Fundamentals",
+      "label": "Cinematography Fundamentals",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Cinematography uses camera placement, movement, lens choice, framing, lighting, exposure, color, and composition to shape how a story is seen and felt. It translates narrative meaning into visual experience.",
+      "tags": [
+        "resource",
+        "film-storytelling"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Film & Storytelling/Editing Principles (Continuity, Montage, Jump Cut)",
+      "label": "Editing Principles (Continuity, Montage, Jump Cut)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Film editing shapes time, rhythm, attention, emotion, and meaning by arranging shots. Continuity, montage, and jump cuts represent different ways to preserve, compress, or disrupt the viewer's experience.",
+      "tags": [
+        "resource",
+        "film-storytelling"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Film & Storytelling/Genre Conventions",
+      "label": "Genre Conventions",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Genre conventions are recurring expectations around plot, tone, character, setting, conflict, pacing, and payoff. They help audiences orient, but strong stories often satisfy and subvert conventions deliberately.",
+      "tags": [
+        "resource",
+        "film-storytelling"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Film & Storytelling/Narrative Structure (3-Act, Hero's Journey, Story Circle, Save the Cat)",
+      "label": "Narrative Structure (3-Act, Hero's Journey, Story Circle, Save the Cat)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Narrative structure frameworks organize stories through setup, escalation, transformation, crisis, and resolution. Models like 3-act structure, Hero's Journey, Story Circle, and Save the Cat are tools, not formulas.",
+      "tags": [
+        "resource",
+        "film-storytelling"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Film & Storytelling/Screenplay Writing Basics",
+      "label": "Screenplay Writing Basics",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Screenplay writing tells stories through visible action, dialogue, scene structure, pacing, and cinematic implication. A screenplay is a blueprint for a film, not a novel in script format.",
+      "tags": [
+        "resource",
+        "film-storytelling"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Film & Storytelling/The Pixar Storytelling Formula",
+      "label": "The Pixar Storytelling Formula",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Pixar storytelling formula is a compact story scaffold: once there was, every day, until one day, because of that, until finally. It emphasizes disruption, causality, escalation, and resolution.",
+      "tags": [
+        "resource",
+        "film-storytelling"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Film & Storytelling/Why Certain Stories Resonate (Evolutionary Psychology of Narrative)",
+      "label": "Why Certain Stories Resonate (Evolutionary Psychology of Narrative)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Certain stories resonate because they engage social learning, threat detection, status, love, betrayal, belonging, morality, identity, and transformation. Evolutionary psychology can offer hypotheses, but should not reduce art to one adaptive function.",
+      "tags": [
+        "resource",
+        "film-storytelling"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Film & Storytelling/Worldbuilding Principles",
+      "label": "Worldbuilding Principles",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Worldbuilding creates coherent settings through history, geography, culture, power, technology, economy, ecology, constraints, and lived detail. Strong worlds feel bigger than the plot but still serve the story.",
+      "tags": [
+        "resource",
+        "film-storytelling"
+      ],
+      "degree": 5
+    },
+    {
       "id": "Resources/FlashAttention",
       "label": "FlashAttention",
       "folder": "Resources",
@@ -5275,6 +5365,30 @@
       "degree": 9
     },
     {
+      "id": "Resources/Gaming/Competitive Gaming Psychology",
+      "label": "Competitive Gaming Psychology",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Competitive gaming psychology studies performance under pressure, attention, tilt, confidence, motivation, teamwork, practice, and decision-making. Mental skill can decide outcomes when mechanical skill is similar.",
+      "tags": [
+        "resource",
+        "gaming"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Gaming/Difficulty Scaling in Games",
+      "label": "Difficulty Scaling in Games",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Difficulty scaling adjusts challenge over time through enemy behavior, resource pressure, level design, progression, adaptive systems, and optional mastery. Good scaling preserves tension without feeling unfair or patronizing.",
+      "tags": [
+        "resource",
+        "gaming"
+      ],
+      "degree": 4
+    },
+    {
       "id": "Resources/Gaming/Esports Industry Overview",
       "label": "Esports Industry Overview",
       "folder": "Resources",
@@ -5296,7 +5410,7 @@
         "resource",
         "gaming"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Gaming/Game Design Fundamentals",
@@ -5304,6 +5418,18 @@
       "folder": "Resources",
       "created": "2026-05-26",
       "excerpt": "Game design creates structured play through goals, rules, feedback, challenge, choice, progression, and reward. Good design aligns mechanics, dynamics, aesthetics, and player motivation.",
+      "tags": [
+        "resource",
+        "gaming"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Gaming/Game Narrative Design",
+      "label": "Game Narrative Design",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Game narrative design integrates story with mechanics, player agency, world, pacing, dialogue, quests, and environmental storytelling. The challenge is making story respond to play rather than merely interrupt it.",
       "tags": [
         "resource",
         "gaming"
@@ -5323,6 +5449,18 @@
       "degree": 4
     },
     {
+      "id": "Resources/Gaming/Gaming and Flow State",
+      "label": "Gaming and Flow State",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Gaming can produce flow when challenge and skill are well matched, goals are clear, feedback is immediate, and attention is fully absorbed. Flow explains why well-designed games feel compelling and time-distorting.",
+      "tags": [
+        "resource",
+        "gaming"
+      ],
+      "degree": 7
+    },
+    {
       "id": "Resources/Gaming/Monetization Models in Games (Gacha, Battle Pass, DLC)",
       "label": "Monetization Models in Games (Gacha, Battle Pass, DLC)",
       "folder": "Resources",
@@ -5332,7 +5470,19 @@
         "resource",
         "gaming"
       ],
-      "degree": 3
+      "degree": 4
+    },
+    {
+      "id": "Resources/Gaming/Open World Design",
+      "label": "Open World Design",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Open world design creates large navigable spaces with exploration, landmarks, traversal, activities, pacing, systemic interaction, and player-driven goals. The core challenge is making freedom meaningful rather than empty.",
+      "tags": [
+        "resource",
+        "gaming"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/Gaming/Pathfinding Algorithms (A*, NavMesh)",
@@ -5344,7 +5494,7 @@
         "resource",
         "gaming"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Gaming/Procedural Generation Techniques",
@@ -5356,7 +5506,7 @@
         "resource",
         "gaming"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Gaming/The Game Loop (Input, Update, Render)",
@@ -5369,6 +5519,18 @@
         "gaming"
       ],
       "degree": 6
+    },
+    {
+      "id": "Resources/Gaming/The Psychology of Loot Boxes and Variable Rewards",
+      "label": "The Psychology of Loot Boxes and Variable Rewards",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Loot boxes and variable rewards use uncertainty, anticipation, scarcity, loss aversion, and social comparison to increase engagement and spending. They raise design, ethical, and regulatory concerns when they exploit vulnerable players.",
+      "tags": [
+        "resource",
+        "gaming"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Geospatial",
@@ -5802,7 +5964,7 @@
         "resource",
         "history-of-technology"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/History of Technology/History of Video Game Consoles",
@@ -7303,6 +7465,126 @@
       "degree": 12
     },
     {
+      "id": "Resources/Music/Audio Production Workflow (DAWs, Plugins)",
+      "label": "Audio Production Workflow (DAWs, Plugins)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Audio production workflow moves from idea capture to arrangement, recording, editing, sound design, mixing, and export inside a digital audio workstation. DAWs and plugins provide the tools, but workflow creates the result.",
+      "tags": [
+        "resource",
+        "music"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Music/Harmony and Chord Progressions",
+      "label": "Harmony and Chord Progressions",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Harmony studies how chords relate, move, create tension, and resolve. Chord progressions shape emotional direction through function, voice leading, key, rhythm, and expectation.",
+      "tags": [
+        "resource",
+        "music"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Music/How Streaming Royalties Work",
+      "label": "How Streaming Royalties Work",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Streaming royalties flow through platforms, rightsholders, labels, distributors, publishers, songwriters, performers, and collecting societies. Payouts are not a simple fixed per-stream wage; contracts, markets, rights type, and royalty pools matter.",
+      "tags": [
+        "resource",
+        "music"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Music/Lo-Fi Music — Why It Aids Focus",
+      "label": "Lo-Fi Music — Why It Aids Focus",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Lo-fi music can aid focus because it often combines steady rhythm, limited lyrics, soft textures, repetition, and low emotional volatility. It creates a background atmosphere without demanding full attention.",
+      "tags": [
+        "resource",
+        "music"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Music/Mixing Fundamentals",
+      "label": "Mixing Fundamentals",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Mixing balances tracks through level, panning, EQ, compression, reverb, delay, automation, and arrangement clarity. The goal is a coherent listening experience where important elements are audible and emotionally effective.",
+      "tags": [
+        "resource",
+        "music"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Music/Music Genres and Their Origins",
+      "label": "Music Genres and Their Origins",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Music genres are historical, cultural, commercial, and sonic categories that organize listening and identity. Their origins often involve migration, technology, community, power, and cross-pollination.",
+      "tags": [
+        "resource",
+        "music"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Music/Music Theory Fundamentals (Scales, Chords, Intervals)",
+      "label": "Music Theory Fundamentals (Scales, Chords, Intervals)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Music theory fundamentals describe the building blocks of pitch relationships, including notes, intervals, scales, chords, keys, and harmony. Theory names patterns musicians already hear and use.",
+      "tags": [
+        "resource",
+        "music"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Music/Rhythm and Time Signatures",
+      "label": "Rhythm and Time Signatures",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Rhythm organizes sound in time through beat, meter, tempo, subdivision, syncopation, groove, and time signatures. It is the temporal structure that makes music move.",
+      "tags": [
+        "resource",
+        "music"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Music/Sound Design Basics (Oscillators, Filters, Envelopes)",
+      "label": "Sound Design Basics (Oscillators, Filters, Envelopes)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Sound design shapes timbre through oscillators, filters, envelopes, modulation, effects, sampling, and synthesis. It is the craft of making sounds feel textured, expressive, and intentional.",
+      "tags": [
+        "resource",
+        "music"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Music/The Psychology of Music (Why We Like What We Like)",
+      "label": "The Psychology of Music (Why We Like What We Like)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The psychology of music studies why people respond to rhythm, melody, harmony, timbre, repetition, surprise, memory, identity, and social context. Musical taste blends biology, learning, culture, and personal history.",
+      "tags": [
+        "resource",
+        "music"
+      ],
+      "degree": 9
+    },
+    {
       "id": "Resources/Networking",
       "label": "Networking",
       "folder": "Resources",
@@ -8162,7 +8444,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Personal Productivity/Energy Management vs Time Management",
@@ -12051,6 +12333,15 @@
       "degree": 8
     },
     {
+      "id": "Reward Systems and Dopamine",
+      "label": "Reward Systems and Dopamine",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
+    },
+    {
       "id": "Risk Management Frameworks",
       "label": "Risk Management Frameworks",
       "folder": null,
@@ -12114,6 +12405,15 @@
       "degree": 1
     },
     {
+      "id": "Stress Response",
+      "label": "Stress Response",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Synaptic Plasticity (Hebbian Learning — \"Neurons that Fire Together\")",
       "label": "Synaptic Plasticity (Hebbian Learning — \"Neurons that Fire Together\")",
       "folder": null,
@@ -12150,13 +12450,13 @@
       "degree": 1
     },
     {
-      "id": "The Psychology of Loot Boxes and Variable Rewards",
-      "label": "The Psychology of Loot Boxes and Variable Rewards",
+      "id": "The Role of Conflict in Story",
+      "label": "The Role of Conflict in Story",
       "folder": null,
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 4
     },
     {
       "id": "User-Centered Design",
@@ -17683,6 +17983,114 @@
       "target": "Resources/Entrepreneurship & Startups/The Lean Startup Method (Build-Measure-Learn)"
     },
     {
+      "source": "Resources/Film & Storytelling/Character Arc Design",
+      "target": "Resources/Film & Storytelling/Narrative Structure (3-Act, Hero's Journey, Story Circle, Save the Cat)"
+    },
+    {
+      "source": "Resources/Film & Storytelling/Character Arc Design",
+      "target": "Resources/Film & Storytelling/Why Certain Stories Resonate (Evolutionary Psychology of Narrative)"
+    },
+    {
+      "source": "Resources/Film & Storytelling/Character Arc Design",
+      "target": "The Role of Conflict in Story"
+    },
+    {
+      "source": "Resources/Film & Storytelling/Cinematography Fundamentals",
+      "target": "Resources/Design & UX/Color Theory Fundamentals"
+    },
+    {
+      "source": "Resources/Film & Storytelling/Cinematography Fundamentals",
+      "target": "Resources/Design & UX/Grid Systems in Design"
+    },
+    {
+      "source": "Resources/Film & Storytelling/Cinematography Fundamentals",
+      "target": "Resources/Film & Storytelling/Screenplay Writing Basics"
+    },
+    {
+      "source": "Resources/Film & Storytelling/Editing Principles (Continuity, Montage, Jump Cut)",
+      "target": "Resources/Design & UX/Motion Design Principles"
+    },
+    {
+      "source": "Resources/Film & Storytelling/Editing Principles (Continuity, Montage, Jump Cut)",
+      "target": "Resources/Film & Storytelling/Cinematography Fundamentals"
+    },
+    {
+      "source": "Resources/Film & Storytelling/Editing Principles (Continuity, Montage, Jump Cut)",
+      "target": "Resources/Film & Storytelling/Narrative Structure (3-Act, Hero's Journey, Story Circle, Save the Cat)"
+    },
+    {
+      "source": "Resources/Film & Storytelling/Genre Conventions",
+      "target": "Resources/Film & Storytelling/Narrative Structure (3-Act, Hero's Journey, Story Circle, Save the Cat)"
+    },
+    {
+      "source": "Resources/Film & Storytelling/Genre Conventions",
+      "target": "Resources/Film & Storytelling/Why Certain Stories Resonate (Evolutionary Psychology of Narrative)"
+    },
+    {
+      "source": "Resources/Film & Storytelling/Genre Conventions",
+      "target": "Resources/Music/Music Genres and Their Origins"
+    },
+    {
+      "source": "Resources/Film & Storytelling/Narrative Structure (3-Act, Hero's Journey, Story Circle, Save the Cat)",
+      "target": "Resources/Film & Storytelling/Character Arc Design"
+    },
+    {
+      "source": "Resources/Film & Storytelling/Narrative Structure (3-Act, Hero's Journey, Story Circle, Save the Cat)",
+      "target": "Resources/Gaming/Game Narrative Design"
+    },
+    {
+      "source": "Resources/Film & Storytelling/Narrative Structure (3-Act, Hero's Journey, Story Circle, Save the Cat)",
+      "target": "The Role of Conflict in Story"
+    },
+    {
+      "source": "Resources/Film & Storytelling/Screenplay Writing Basics",
+      "target": "Resources/Film & Storytelling/Character Arc Design"
+    },
+    {
+      "source": "Resources/Film & Storytelling/Screenplay Writing Basics",
+      "target": "Resources/Film & Storytelling/Cinematography Fundamentals"
+    },
+    {
+      "source": "Resources/Film & Storytelling/Screenplay Writing Basics",
+      "target": "Resources/Film & Storytelling/Editing Principles (Continuity, Montage, Jump Cut)"
+    },
+    {
+      "source": "Resources/Film & Storytelling/The Pixar Storytelling Formula",
+      "target": "Resources/Communication & Writing/Explaining Complex Ideas Simply (The Curse of Knowledge)"
+    },
+    {
+      "source": "Resources/Film & Storytelling/The Pixar Storytelling Formula",
+      "target": "Resources/Film & Storytelling/Narrative Structure (3-Act, Hero's Journey, Story Circle, Save the Cat)"
+    },
+    {
+      "source": "Resources/Film & Storytelling/The Pixar Storytelling Formula",
+      "target": "The Role of Conflict in Story"
+    },
+    {
+      "source": "Resources/Film & Storytelling/Why Certain Stories Resonate (Evolutionary Psychology of Narrative)",
+      "target": "Resources/Biology & Life Sciences/Evolutionary Psychology Overview"
+    },
+    {
+      "source": "Resources/Film & Storytelling/Why Certain Stories Resonate (Evolutionary Psychology of Narrative)",
+      "target": "Resources/Film & Storytelling/Character Arc Design"
+    },
+    {
+      "source": "Resources/Film & Storytelling/Why Certain Stories Resonate (Evolutionary Psychology of Narrative)",
+      "target": "Resources/Music/The Psychology of Music (Why We Like What We Like)"
+    },
+    {
+      "source": "Resources/Film & Storytelling/Worldbuilding Principles",
+      "target": "Resources/Film & Storytelling/Genre Conventions"
+    },
+    {
+      "source": "Resources/Film & Storytelling/Worldbuilding Principles",
+      "target": "Resources/Gaming/Open World Design"
+    },
+    {
+      "source": "Resources/Film & Storytelling/Worldbuilding Principles",
+      "target": "The Role of Conflict in Story"
+    },
+    {
       "source": "Resources/FlashAttention",
       "target": "Resources/LLM System Design"
     },
@@ -17703,8 +18111,28 @@
       "target": "Resources/Multi-Agent Systems"
     },
     {
-      "source": "Resources/Gaming/Esports Industry Overview",
-      "target": "Competitive Gaming Psychology"
+      "source": "Resources/Gaming/Competitive Gaming Psychology",
+      "target": "Resources/Gaming/Game Balance Design"
+    },
+    {
+      "source": "Resources/Gaming/Competitive Gaming Psychology",
+      "target": "Resources/Gaming/Gaming and Flow State"
+    },
+    {
+      "source": "Resources/Gaming/Competitive Gaming Psychology",
+      "target": "Stress Response"
+    },
+    {
+      "source": "Resources/Gaming/Difficulty Scaling in Games",
+      "target": "Resources/Gaming/Game Balance Design"
+    },
+    {
+      "source": "Resources/Gaming/Difficulty Scaling in Games",
+      "target": "Resources/Gaming/Game Design Fundamentals"
+    },
+    {
+      "source": "Resources/Gaming/Difficulty Scaling in Games",
+      "target": "Resources/Gaming/Gaming and Flow State"
     },
     {
       "source": "Resources/Gaming/Esports Industry Overview",
@@ -17715,12 +18143,16 @@
       "target": "Resources/Economics & Finance/The Economics of Attention"
     },
     {
+      "source": "Resources/Gaming/Esports Industry Overview",
+      "target": "Resources/Gaming/Competitive Gaming Psychology"
+    },
+    {
       "source": "Resources/Gaming/Game Balance Design",
       "target": "A-B Testing Fundamentals"
     },
     {
       "source": "Resources/Gaming/Game Balance Design",
-      "target": "Competitive Gaming Psychology"
+      "target": "Resources/Gaming/Competitive Gaming Psychology"
     },
     {
       "source": "Resources/Gaming/Game Balance Design",
@@ -17728,15 +18160,27 @@
     },
     {
       "source": "Resources/Gaming/Game Design Fundamentals",
-      "target": "Gaming and Flow State"
-    },
-    {
-      "source": "Resources/Gaming/Game Design Fundamentals",
       "target": "Resources/Gaming/Game Balance Design"
     },
     {
       "source": "Resources/Gaming/Game Design Fundamentals",
+      "target": "Resources/Gaming/Gaming and Flow State"
+    },
+    {
+      "source": "Resources/Gaming/Game Design Fundamentals",
       "target": "Resources/Gaming/The Game Loop (Input, Update, Render)"
+    },
+    {
+      "source": "Resources/Gaming/Game Narrative Design",
+      "target": "Resources/Film & Storytelling/Narrative Structure (3-Act, Hero's Journey, Story Circle, Save the Cat)"
+    },
+    {
+      "source": "Resources/Gaming/Game Narrative Design",
+      "target": "Resources/Film & Storytelling/Worldbuilding Principles"
+    },
+    {
+      "source": "Resources/Gaming/Game Narrative Design",
+      "target": "Resources/Gaming/Game Design Fundamentals"
     },
     {
       "source": "Resources/Gaming/Game Physics Engines Overview",
@@ -17751,6 +18195,18 @@
       "target": "Resources/Physics/Classical Mechanics Fundamentals"
     },
     {
+      "source": "Resources/Gaming/Gaming and Flow State",
+      "target": "Flow State and Deep Work"
+    },
+    {
+      "source": "Resources/Gaming/Gaming and Flow State",
+      "target": "Resources/Gaming/Difficulty Scaling in Games"
+    },
+    {
+      "source": "Resources/Gaming/Gaming and Flow State",
+      "target": "Resources/Gaming/Game Design Fundamentals"
+    },
+    {
       "source": "Resources/Gaming/Monetization Models in Games (Gacha, Battle Pass, DLC)",
       "target": "Resources/Design & UX/Dark Patterns — A Catalog of What to Avoid"
     },
@@ -17760,7 +18216,19 @@
     },
     {
       "source": "Resources/Gaming/Monetization Models in Games (Gacha, Battle Pass, DLC)",
-      "target": "The Psychology of Loot Boxes and Variable Rewards"
+      "target": "Resources/Gaming/The Psychology of Loot Boxes and Variable Rewards"
+    },
+    {
+      "source": "Resources/Gaming/Open World Design",
+      "target": "Resources/Film & Storytelling/Worldbuilding Principles"
+    },
+    {
+      "source": "Resources/Gaming/Open World Design",
+      "target": "Resources/Gaming/Pathfinding Algorithms (A*, NavMesh)"
+    },
+    {
+      "source": "Resources/Gaming/Open World Design",
+      "target": "Resources/Gaming/Procedural Generation Techniques"
     },
     {
       "source": "Resources/Gaming/Pathfinding Algorithms (A*, NavMesh)",
@@ -17768,15 +18236,11 @@
     },
     {
       "source": "Resources/Gaming/Pathfinding Algorithms (A*, NavMesh)",
-      "target": "Open World Design"
+      "target": "Resources/Gaming/Open World Design"
     },
     {
       "source": "Resources/Gaming/Pathfinding Algorithms (A*, NavMesh)",
       "target": "Resources/Gaming/The Game Loop (Input, Update, Render)"
-    },
-    {
-      "source": "Resources/Gaming/Procedural Generation Techniques",
-      "target": "Open World Design"
     },
     {
       "source": "Resources/Gaming/Procedural Generation Techniques",
@@ -17785,6 +18249,10 @@
     {
       "source": "Resources/Gaming/Procedural Generation Techniques",
       "target": "Resources/Gaming/Game Balance Design"
+    },
+    {
+      "source": "Resources/Gaming/Procedural Generation Techniques",
+      "target": "Resources/Gaming/Open World Design"
     },
     {
       "source": "Resources/Gaming/The Game Loop (Input, Update, Render)",
@@ -17797,6 +18265,18 @@
     {
       "source": "Resources/Gaming/The Game Loop (Input, Update, Render)",
       "target": "Resources/Software Engineering/Event-Driven Architecture"
+    },
+    {
+      "source": "Resources/Gaming/The Psychology of Loot Boxes and Variable Rewards",
+      "target": "Resources/Design & UX/Dark Patterns — A Catalog of What to Avoid"
+    },
+    {
+      "source": "Resources/Gaming/The Psychology of Loot Boxes and Variable Rewards",
+      "target": "Resources/Gaming/Monetization Models in Games (Gacha, Battle Pass, DLC)"
+    },
+    {
+      "source": "Resources/Gaming/The Psychology of Loot Boxes and Variable Rewards",
+      "target": "Reward Systems and Dopamine"
     },
     {
       "source": "Resources/Geospatial",
@@ -19873,6 +20353,126 @@
     {
       "source": "Resources/Multi-Agent Systems",
       "target": "Resources/RLHF and Alignment"
+    },
+    {
+      "source": "Resources/Music/Audio Production Workflow (DAWs, Plugins)",
+      "target": "Resources/Music/Mixing Fundamentals"
+    },
+    {
+      "source": "Resources/Music/Audio Production Workflow (DAWs, Plugins)",
+      "target": "Resources/Music/Rhythm and Time Signatures"
+    },
+    {
+      "source": "Resources/Music/Audio Production Workflow (DAWs, Plugins)",
+      "target": "Resources/Music/Sound Design Basics (Oscillators, Filters, Envelopes)"
+    },
+    {
+      "source": "Resources/Music/Harmony and Chord Progressions",
+      "target": "Resources/Music/Music Theory Fundamentals (Scales, Chords, Intervals)"
+    },
+    {
+      "source": "Resources/Music/Harmony and Chord Progressions",
+      "target": "Resources/Music/Sound Design Basics (Oscillators, Filters, Envelopes)"
+    },
+    {
+      "source": "Resources/Music/Harmony and Chord Progressions",
+      "target": "Resources/Music/The Psychology of Music (Why We Like What We Like)"
+    },
+    {
+      "source": "Resources/Music/How Streaming Royalties Work",
+      "target": "Resources/Economics & Finance/Platform Economics (Multi-Sided Markets)"
+    },
+    {
+      "source": "Resources/Music/How Streaming Royalties Work",
+      "target": "Resources/Economics & Finance/The Economics of Attention"
+    },
+    {
+      "source": "Resources/Music/How Streaming Royalties Work",
+      "target": "Resources/Music/Music Genres and Their Origins"
+    },
+    {
+      "source": "Resources/Music/Lo-Fi Music — Why It Aids Focus",
+      "target": "Focus Work — Deep Work Principles"
+    },
+    {
+      "source": "Resources/Music/Lo-Fi Music — Why It Aids Focus",
+      "target": "Resources/Music/The Psychology of Music (Why We Like What We Like)"
+    },
+    {
+      "source": "Resources/Music/Lo-Fi Music — Why It Aids Focus",
+      "target": "Resources/Personal Productivity/Distraction Management"
+    },
+    {
+      "source": "Resources/Music/Mixing Fundamentals",
+      "target": "Resources/Communication & Writing/Storytelling with Data"
+    },
+    {
+      "source": "Resources/Music/Mixing Fundamentals",
+      "target": "Resources/Music/Audio Production Workflow (DAWs, Plugins)"
+    },
+    {
+      "source": "Resources/Music/Mixing Fundamentals",
+      "target": "Resources/Music/Sound Design Basics (Oscillators, Filters, Envelopes)"
+    },
+    {
+      "source": "Resources/Music/Music Genres and Their Origins",
+      "target": "Resources/History of Technology/History of Social Media"
+    },
+    {
+      "source": "Resources/Music/Music Genres and Their Origins",
+      "target": "Resources/Music/How Streaming Royalties Work"
+    },
+    {
+      "source": "Resources/Music/Music Genres and Their Origins",
+      "target": "Resources/Music/The Psychology of Music (Why We Like What We Like)"
+    },
+    {
+      "source": "Resources/Music/Music Theory Fundamentals (Scales, Chords, Intervals)",
+      "target": "Resources/Music/Harmony and Chord Progressions"
+    },
+    {
+      "source": "Resources/Music/Music Theory Fundamentals (Scales, Chords, Intervals)",
+      "target": "Resources/Music/Rhythm and Time Signatures"
+    },
+    {
+      "source": "Resources/Music/Music Theory Fundamentals (Scales, Chords, Intervals)",
+      "target": "Resources/Music/The Psychology of Music (Why We Like What We Like)"
+    },
+    {
+      "source": "Resources/Music/Rhythm and Time Signatures",
+      "target": "Resources/Gaming/Gaming and Flow State"
+    },
+    {
+      "source": "Resources/Music/Rhythm and Time Signatures",
+      "target": "Resources/Music/Audio Production Workflow (DAWs, Plugins)"
+    },
+    {
+      "source": "Resources/Music/Rhythm and Time Signatures",
+      "target": "Resources/Music/Music Theory Fundamentals (Scales, Chords, Intervals)"
+    },
+    {
+      "source": "Resources/Music/Sound Design Basics (Oscillators, Filters, Envelopes)",
+      "target": "Resources/Music/Audio Production Workflow (DAWs, Plugins)"
+    },
+    {
+      "source": "Resources/Music/Sound Design Basics (Oscillators, Filters, Envelopes)",
+      "target": "Resources/Music/Mixing Fundamentals"
+    },
+    {
+      "source": "Resources/Music/Sound Design Basics (Oscillators, Filters, Envelopes)",
+      "target": "Resources/Music/The Psychology of Music (Why We Like What We Like)"
+    },
+    {
+      "source": "Resources/Music/The Psychology of Music (Why We Like What We Like)",
+      "target": "Resources/Music/Harmony and Chord Progressions"
+    },
+    {
+      "source": "Resources/Music/The Psychology of Music (Why We Like What We Like)",
+      "target": "Resources/Music/Lo-Fi Music — Why It Aids Focus"
+    },
+    {
+      "source": "Resources/Music/The Psychology of Music (Why We Like What We Like)",
+      "target": "Reward Systems and Dopamine"
     },
     {
       "source": "Resources/Networking",
@@ -25595,5 +26195,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-27T05:05:17Z"
+  "generated_at": "2026-05-27T05:13:39Z"
 }
