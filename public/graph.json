@@ -75,7 +75,7 @@
         "environment",
         "wsl2"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Areas/Gaming",
@@ -804,7 +804,7 @@
         "python",
         "voice-assistant"
       ],
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "Projects/Bobby Brain Viz",
@@ -862,7 +862,7 @@
         "music",
         "jetpack-compose"
       ],
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "Proof Techniques for Algorithms",
@@ -5064,7 +5064,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Distributed Systems",
@@ -8376,7 +8376,7 @@
         "networking-protocols",
         "security"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Networking & Protocols/HTTP-1.1 vs HTTP-2 vs HTTP-3 (QUIC)",
@@ -8413,7 +8413,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples",
@@ -11108,7 +11108,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Security & Privacy/Encryption — Symmetric vs Asymmetric",
@@ -12241,7 +12241,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/System Design Case Studies",
@@ -13224,6 +13224,164 @@
         "pkm"
       ],
       "degree": 8
+    },
+    {
+      "id": "Resources/Windows & WSL2/Hyper-V Architecture",
+      "label": "Hyper-V Architecture",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Hyper-V is Microsoft's virtualization platform and underpins features such as WSL2, Windows Sandbox, some container workflows, and virtual machines. Understanding its hypervisor, virtual switches, disks, isolation, and resource management explains many WSL2 and Windows virtualization behaviors.",
+      "tags": [
+        "resource",
+        "windows-wsl2"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Windows & WSL2/PowerShell Deep Dive",
+      "label": "PowerShell Deep Dive",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "PowerShell is an object-oriented shell and automation language for Windows and cross-platform administration. Its core difference from traditional shells is that pipelines pass structured .NET objects, making it strong for system inspection, scripting, and administrative automation.",
+      "tags": [
+        "resource",
+        "windows-wsl2"
+      ],
+      "degree": 9
+    },
+    {
+      "id": "Resources/Windows & WSL2/WSL2 Architecture (Lightweight VM, VirtIO, Plan 9)",
+      "label": "WSL2 Architecture (Lightweight VM, VirtIO, Plan 9)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "WSL2 runs Linux inside a lightweight Hyper-V virtual machine with integration layers for filesystem, networking, process interop, graphics, and devices. It feels like a local Linux shell, but VM boundaries explain many performance, networking, and filesystem quirks.",
+      "tags": [
+        "resource",
+        "windows-wsl2"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Windows & WSL2/WSL2 Audio Setup (PulseAudio, WSLg RDPSource)",
+      "label": "WSL2 Audio Setup (PulseAudio, WSLg RDPSource)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "WSL2 audio depends on whether the setup uses older PulseAudio workarounds or modern WSLg integration through RDP-based audio sources. Knowing which path is active helps debug microphone, playback, GUI app, and voice-assistant issues across Windows and Linux.",
+      "tags": [
+        "resource",
+        "windows-wsl2"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Windows & WSL2/WSL2 Interop (Windows Executables from WSL)",
+      "label": "WSL2 Interop (Windows Executables from WSL)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "WSL2 interop lets Linux shells launch Windows executables and lets Windows tools access Linux distributions, making mixed workflows convenient but occasionally confusing. Path translation, quoting, environment variables, filesystem location, and process context are the usual sources of bugs.",
+      "tags": [
+        "resource",
+        "windows-wsl2"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Windows & WSL2/WSL2 Networking (NAT, Gateway IP, Port Proxying)",
+      "label": "WSL2 Networking (NAT, Gateway IP, Port Proxying)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "WSL2 networking usually places the Linux VM behind NAT with a virtual gateway, which affects localhost, inbound access, port forwarding, and connections from Windows to Linux services. Understanding the host/guest boundary helps debug dev servers, APIs, databases, and mobile-device testing.",
+      "tags": [
+        "resource",
+        "windows-wsl2",
+        "networking-protocols"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Windows & WSL2/Windows Permissions and UAC",
+      "label": "Windows Permissions and UAC",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Windows permissions combine users, groups, access control lists, integrity levels, and UAC elevation prompts. UAC is not just an annoyance: it separates normal user context from administrative changes and explains why scripts, installers, services, and terminals behave differently when elevated.",
+      "tags": [
+        "resource",
+        "windows-wsl2",
+        "security"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Windows & WSL2/Windows Registry — How It Works",
+      "label": "Windows Registry — How It Works",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "The Windows Registry is a hierarchical configuration database for the operating system, installed software, device settings, users, services, and shell behavior. It is powerful but easy to damage, so registry edits should be targeted, backed up, and treated like system-level changes.",
+      "tags": [
+        "resource",
+        "windows-wsl2"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Windows & WSL2/Windows Services vs Scheduled Tasks",
+      "label": "Windows Services vs Scheduled Tasks",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Windows services are long-running background processes managed by the Service Control Manager, while scheduled tasks run programs based on triggers such as time, login, idle state, or events. Choosing between them depends on whether work must be continuously supervised or triggered at specific moments.",
+      "tags": [
+        "resource",
+        "windows-wsl2"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Windows & WSL2/Windows Startup and Task Scheduler",
+      "label": "Windows Startup and Task Scheduler",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Windows startup behavior is controlled by several places: Startup folders, registry Run keys, services, scheduled tasks, shell extensions, and app-specific launch settings. Task Scheduler is the structured way to run jobs on triggers such as login, boot, idle, time, or system events.",
+      "tags": [
+        "resource",
+        "windows-wsl2"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Windows & WSL2/Windows Subsystem for Android",
+      "label": "Windows Subsystem for Android",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Windows Subsystem for Android was Microsoft's Android app runtime for Windows, built on virtualization and integration with the Windows host. Microsoft Support says WSA and the Amazon Appstore are no longer available in the Microsoft Store starting March 5, 2025, so it is now mostly useful as subsystem-design context rather than a current Windows app strategy.",
+      "tags": [
+        "resource",
+        "windows-wsl2"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Windows & WSL2/Windows Terminal Configuration",
+      "label": "Windows Terminal Configuration",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Windows Terminal centralizes command-line profiles for PowerShell, Command Prompt, WSL distributions, SSH, fonts, themes, keybindings, startup behavior, and panes. A clean configuration makes Windows and WSL feel like one coherent dev environment instead of separate shells.",
+      "tags": [
+        "resource",
+        "windows-wsl2"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Windows & WSL2/winget and Windows Package Management",
+      "label": "winget and Windows Package Management",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "winget is Microsoft's command-line package manager for discovering, installing, upgrading, and exporting Windows applications. It makes Windows setup more reproducible, especially when combined with PowerShell scripts, terminal profiles, WSL distributions, and documented dev-environment bootstrap steps.",
+      "tags": [
+        "resource",
+        "windows-wsl2"
+      ],
+      "degree": 3
     },
     {
       "id": "Reward Systems and Dopamine",
@@ -27875,7 +28033,163 @@
     {
       "source": "Resources/What Is Obsidian",
       "target": "wikilink"
+    },
+    {
+      "source": "Resources/Windows & WSL2/Hyper-V Architecture",
+      "target": "Resources/Software Engineering/Virtualization — VMs vs Containers"
+    },
+    {
+      "source": "Resources/Windows & WSL2/Hyper-V Architecture",
+      "target": "Resources/Windows & WSL2/WSL2 Architecture (Lightweight VM, VirtIO, Plan 9)"
+    },
+    {
+      "source": "Resources/Windows & WSL2/Hyper-V Architecture",
+      "target": "Resources/Windows & WSL2/WSL2 Networking (NAT, Gateway IP, Port Proxying)"
+    },
+    {
+      "source": "Resources/Windows & WSL2/PowerShell Deep Dive",
+      "target": "Resources/Windows & WSL2/WSL2 Interop (Windows Executables from WSL)"
+    },
+    {
+      "source": "Resources/Windows & WSL2/PowerShell Deep Dive",
+      "target": "Resources/Windows & WSL2/Windows Registry — How It Works"
+    },
+    {
+      "source": "Resources/Windows & WSL2/PowerShell Deep Dive",
+      "target": "Resources/Windows & WSL2/Windows Services vs Scheduled Tasks"
+    },
+    {
+      "source": "Resources/Windows & WSL2/WSL2 Architecture (Lightweight VM, VirtIO, Plan 9)",
+      "target": "Resources/Windows & WSL2/Hyper-V Architecture"
+    },
+    {
+      "source": "Resources/Windows & WSL2/WSL2 Architecture (Lightweight VM, VirtIO, Plan 9)",
+      "target": "Resources/Windows & WSL2/WSL2 Interop (Windows Executables from WSL)"
+    },
+    {
+      "source": "Resources/Windows & WSL2/WSL2 Architecture (Lightweight VM, VirtIO, Plan 9)",
+      "target": "Resources/Windows & WSL2/WSL2 Networking (NAT, Gateway IP, Port Proxying)"
+    },
+    {
+      "source": "Resources/Windows & WSL2/WSL2 Audio Setup (PulseAudio, WSLg RDPSource)",
+      "target": "Projects/Bobby"
+    },
+    {
+      "source": "Resources/Windows & WSL2/WSL2 Audio Setup (PulseAudio, WSLg RDPSource)",
+      "target": "Resources/Windows & WSL2/WSL2 Architecture (Lightweight VM, VirtIO, Plan 9)"
+    },
+    {
+      "source": "Resources/Windows & WSL2/WSL2 Audio Setup (PulseAudio, WSLg RDPSource)",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/Windows & WSL2/WSL2 Interop (Windows Executables from WSL)",
+      "target": "Resources/Windows & WSL2/PowerShell Deep Dive"
+    },
+    {
+      "source": "Resources/Windows & WSL2/WSL2 Interop (Windows Executables from WSL)",
+      "target": "Resources/Windows & WSL2/WSL2 Architecture (Lightweight VM, VirtIO, Plan 9)"
+    },
+    {
+      "source": "Resources/Windows & WSL2/WSL2 Interop (Windows Executables from WSL)",
+      "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
+    },
+    {
+      "source": "Resources/Windows & WSL2/WSL2 Networking (NAT, Gateway IP, Port Proxying)",
+      "target": "Resources/Networking & Protocols/Firewall Types (Stateful vs Stateless vs NGFW)"
+    },
+    {
+      "source": "Resources/Windows & WSL2/WSL2 Networking (NAT, Gateway IP, Port Proxying)",
+      "target": "Resources/Networking & Protocols/NAT and Port Forwarding"
+    },
+    {
+      "source": "Resources/Windows & WSL2/WSL2 Networking (NAT, Gateway IP, Port Proxying)",
+      "target": "Resources/Windows & WSL2/WSL2 Architecture (Lightweight VM, VirtIO, Plan 9)"
+    },
+    {
+      "source": "Resources/Windows & WSL2/Windows Permissions and UAC",
+      "target": "Resources/Security & Privacy/Defense in Depth"
+    },
+    {
+      "source": "Resources/Windows & WSL2/Windows Permissions and UAC",
+      "target": "Resources/Windows & WSL2/Windows Registry — How It Works"
+    },
+    {
+      "source": "Resources/Windows & WSL2/Windows Permissions and UAC",
+      "target": "Resources/Windows & WSL2/Windows Services vs Scheduled Tasks"
+    },
+    {
+      "source": "Resources/Windows & WSL2/Windows Registry — How It Works",
+      "target": "Resources/Windows & WSL2/PowerShell Deep Dive"
+    },
+    {
+      "source": "Resources/Windows & WSL2/Windows Registry — How It Works",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/Windows & WSL2/Windows Registry — How It Works",
+      "target": "Resources/Windows & WSL2/Windows Startup and Task Scheduler"
+    },
+    {
+      "source": "Resources/Windows & WSL2/Windows Services vs Scheduled Tasks",
+      "target": "Resources/DevOps & Infrastructure/systemd — Service and Process Management"
+    },
+    {
+      "source": "Resources/Windows & WSL2/Windows Services vs Scheduled Tasks",
+      "target": "Resources/Windows & WSL2/PowerShell Deep Dive"
+    },
+    {
+      "source": "Resources/Windows & WSL2/Windows Services vs Scheduled Tasks",
+      "target": "Resources/Windows & WSL2/Windows Startup and Task Scheduler"
+    },
+    {
+      "source": "Resources/Windows & WSL2/Windows Startup and Task Scheduler",
+      "target": "Resources/Windows & WSL2/PowerShell Deep Dive"
+    },
+    {
+      "source": "Resources/Windows & WSL2/Windows Startup and Task Scheduler",
+      "target": "Resources/Windows & WSL2/Windows Registry — How It Works"
+    },
+    {
+      "source": "Resources/Windows & WSL2/Windows Startup and Task Scheduler",
+      "target": "Resources/Windows & WSL2/Windows Services vs Scheduled Tasks"
+    },
+    {
+      "source": "Resources/Windows & WSL2/Windows Subsystem for Android",
+      "target": "Projects/Shuckler"
+    },
+    {
+      "source": "Resources/Windows & WSL2/Windows Subsystem for Android",
+      "target": "Resources/Windows & WSL2/Hyper-V Architecture"
+    },
+    {
+      "source": "Resources/Windows & WSL2/Windows Subsystem for Android",
+      "target": "Resources/Windows & WSL2/WSL2 Architecture (Lightweight VM, VirtIO, Plan 9)"
+    },
+    {
+      "source": "Resources/Windows & WSL2/Windows Terminal Configuration",
+      "target": "Areas/Dev Setup"
+    },
+    {
+      "source": "Resources/Windows & WSL2/Windows Terminal Configuration",
+      "target": "Resources/Windows & WSL2/PowerShell Deep Dive"
+    },
+    {
+      "source": "Resources/Windows & WSL2/Windows Terminal Configuration",
+      "target": "Resources/Windows & WSL2/WSL2 Interop (Windows Executables from WSL)"
+    },
+    {
+      "source": "Resources/Windows & WSL2/winget and Windows Package Management",
+      "target": "Areas/Dev Setup"
+    },
+    {
+      "source": "Resources/Windows & WSL2/winget and Windows Package Management",
+      "target": "Resources/Windows & WSL2/PowerShell Deep Dive"
+    },
+    {
+      "source": "Resources/Windows & WSL2/winget and Windows Package Management",
+      "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-27T15:07:33Z"
+  "generated_at": "2026-05-27T15:13:07Z"
 }
