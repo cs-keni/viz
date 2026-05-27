@@ -309,6 +309,15 @@
       "degree": 1
     },
     {
+      "id": "Decision Matrices",
+      "label": "Decision Matrices",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Digital Identity and Authentication",
       "label": "Digital Identity and Authentication",
       "folder": null,
@@ -387,7 +396,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "Hash Functions",
@@ -524,6 +533,15 @@
       "degree": 1
     },
     {
+      "id": "Metrics Hierarchy (Input vs Output Metrics)",
+      "label": "Metrics Hierarchy (Input vs Output Metrics)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Metrics That Matter vs Vanity Metrics",
       "label": "Metrics That Matter vs Vanity Metrics",
       "folder": null,
@@ -587,17 +605,35 @@
       "degree": 1
     },
     {
+      "id": "Positioning",
+      "label": "Positioning",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Prioritization Frameworks (RICE, ICE, MoSCoW, Kano)",
+      "label": "Prioritization Frameworks (RICE, ICE, MoSCoW, Kano)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Product Analytics Fundamentals",
       "label": "Product Analytics Fundamentals",
       "folder": null,
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 3
+      "degree": 5
     },
     {
-      "id": "Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)",
-      "label": "Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)",
+      "id": "Product Discovery vs Delivery",
+      "label": "Product Discovery vs Delivery",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -1867,6 +1903,186 @@
         "chromadb"
       ],
       "degree": 10
+    },
+    {
+      "id": "Resources/Business & Strategy/Blue Ocean Strategy",
+      "label": "Blue Ocean Strategy",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Blue Ocean Strategy argues that companies can escape direct competition by creating new demand and redefining value curves. The goal is not merely differentiation, but making old tradeoffs less relevant.",
+      "tags": [
+        "resource",
+        "business-strategy"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Business & Strategy/Brand Building",
+      "label": "Brand Building",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Brand building creates memory, trust, differentiation, and preference over time. A strong brand reduces perceived risk, makes choices easier, and can compound distribution and pricing power.",
+      "tags": [
+        "resource",
+        "business-strategy"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Business & Strategy/Business Model Canvas",
+      "label": "Business Model Canvas",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Business Model Canvas maps how a business creates, delivers, and captures value through customer segments, value propositions, channels, relationships, revenue, resources, activities, partners, and costs.",
+      "tags": [
+        "resource",
+        "business-strategy"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Business & Strategy/Competitive Moats (Network Effects, Switching Costs, Scale, IP)",
+      "label": "Competitive Moats (Network Effects, Switching Costs, Scale, IP)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Competitive moats are durable advantages that protect a company from competitors. Common moats include network effects, switching costs, scale economies, brand, data, regulation, distribution, and intellectual property.",
+      "tags": [
+        "resource",
+        "business-strategy"
+      ],
+      "degree": 12
+    },
+    {
+      "id": "Resources/Business & Strategy/First-Mover vs Fast-Follower",
+      "label": "First-Mover vs Fast-Follower",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "First movers can gain learning, brand, data, and network advantages, but fast followers can avoid early mistakes and enter once demand is clearer. Timing advantage depends on moats, switching costs, capital, and execution.",
+      "tags": [
+        "resource",
+        "business-strategy"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Business & Strategy/Go-to-Market Strategy",
+      "label": "Go-to-Market Strategy",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Go-to-market strategy defines how a company reaches, sells to, onboards, and retains a target customer segment. It connects positioning, channels, pricing, sales motion, lifecycle, and success metrics.",
+      "tags": [
+        "resource",
+        "business-strategy"
+      ],
+      "degree": 9
+    },
+    {
+      "id": "Resources/Business & Strategy/North Star Metric",
+      "label": "North Star Metric",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "A North Star Metric is a single product or business metric intended to represent delivered customer value and long-term growth. It works only when paired with guardrails and input metrics.",
+      "tags": [
+        "resource",
+        "business-strategy"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Business & Strategy/Platform vs Pipeline Business Models",
+      "label": "Platform vs Pipeline Business Models",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Pipeline businesses create value through a linear chain, while platform businesses facilitate interactions among external participants. Platforms often depend on network effects, governance, trust, and balancing multiple sides.",
+      "tags": [
+        "resource",
+        "business-strategy"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Business & Strategy/Porter's Five Forces",
+      "label": "Porter's Five Forces",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Porter's Five Forces analyzes industry attractiveness through rivalry, buyer power, supplier power, threat of substitutes, and threat of new entrants. It explains profit pressure beyond a company's internal execution.",
+      "tags": [
+        "resource",
+        "business-strategy"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Business & Strategy/SWOT Analysis",
+      "label": "SWOT Analysis",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "SWOT analysis organizes strategy around internal strengths and weaknesses plus external opportunities and threats. It is useful as a quick scan, but weak if it becomes a generic list without decisions.",
+      "tags": [
+        "resource",
+        "business-strategy"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Business & Strategy/Subscription Business Metrics (MRR, ARR, NRR, GRR)",
+      "label": "Subscription Business Metrics (MRR, ARR, NRR, GRR)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Subscription metrics track recurring revenue health through MRR, ARR, churn, retention, NRR, GRR, expansion, and cohort behavior. They reveal whether growth is durable or leaking.",
+      "tags": [
+        "resource",
+        "business-strategy"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Business & Strategy/The Innovator's Dilemma (Clayton Christensen)",
+      "label": "The Innovator's Dilemma (Clayton Christensen)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Innovator's Dilemma explains how successful incumbents can miss disruptive innovations because they rationally serve their best customers and margins. Disruptors often begin in overlooked, low-end, or new-market segments.",
+      "tags": [
+        "resource",
+        "business-strategy"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Business & Strategy/The Strategy of Precommitment",
+      "label": "The Strategy of Precommitment",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Precommitment is a strategy of binding future choices to make a current signal credible or prevent later temptation. It appears in negotiation, game theory, personal behavior, product strategy, and institutional design.",
+      "tags": [
+        "resource",
+        "business-strategy"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Business & Strategy/Vertical vs Horizontal Integration",
+      "label": "Vertical vs Horizontal Integration",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Vertical integration expands control across a supply chain, while horizontal integration expands across similar products, customers, or competitors. Each changes coordination, margin capture, flexibility, and market power.",
+      "tags": [
+        "resource",
+        "business-strategy"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Business & Strategy/Zero to One — Key Ideas (Peter Thiel)",
+      "label": "Zero to One — Key Ideas (Peter Thiel)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Zero to One argues that great startups create new value rather than merely competing in existing markets. Key ideas include monopoly profits, secrets, definite optimism, technology leverage, and starting with a small market.",
+      "tags": [
+        "resource",
+        "business-strategy"
+      ],
+      "degree": 3
     },
     {
       "id": "Resources/CI CD",
@@ -4051,7 +4267,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Economics & Finance/Globalization — Benefits and Costs",
@@ -4135,7 +4351,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Resources/Economics & Finance/Platform Economics (Multi-Sided Markets)",
@@ -4147,7 +4363,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Economics & Finance/Prisoner's Dilemma and Nash Equilibrium",
@@ -4159,7 +4375,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Economics & Finance/Public Goods and the Free Rider Problem",
@@ -4219,7 +4435,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 3
+      "degree": 5
     },
     {
       "id": "Resources/Economics & Finance/Universal Basic Income — Arguments For and Against",
@@ -4277,11 +4493,35 @@
       "degree": 27
     },
     {
+      "id": "Resources/Entrepreneurship & Startups/Building in Public",
+      "label": "Building in Public",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Building in public means sharing progress, decisions, lessons, metrics, and failures while creating a product or business. It can create trust and distribution, but it also risks performative work, copycats, and audience distraction.",
+      "tags": [
+        "resource",
+        "entrepreneurship-startups"
+      ],
+      "degree": 5
+    },
+    {
       "id": "Resources/Entrepreneurship & Startups/Cap Table Basics",
       "label": "Cap Table Basics",
       "folder": "Resources",
       "created": "2026-05-26",
       "excerpt": "A cap table records who owns a company, including founders, employees, investors, options, convertible instruments, and share classes. It is the source of truth for ownership, dilution, and financing scenarios.",
+      "tags": [
+        "resource",
+        "entrepreneurship-startups"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Entrepreneurship & Startups/Community-Led Growth",
+      "label": "Community-Led Growth",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Community-led growth uses shared identity, trust, peer learning, and participation to support acquisition, retention, feedback, and advocacy. It works when community members receive real value beyond being marketed to.",
       "tags": [
         "resource",
         "entrepreneurship-startups"
@@ -4298,7 +4538,19 @@
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 8
+      "degree": 11
+    },
+    {
+      "id": "Resources/Entrepreneurship & Startups/Distribution is Everything",
+      "label": "Distribution is Everything",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Distribution is the ability to reach, persuade, sell to, and retain the right customers. A strong product without a path to customers can fail, while strong distribution can compound product learning and market power.",
+      "tags": [
+        "resource",
+        "entrepreneurship-startups"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Equity and Dilution",
@@ -4322,7 +4574,19 @@
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 8
+      "degree": 11
+    },
+    {
+      "id": "Resources/Entrepreneurship & Startups/Founder-Market Fit",
+      "label": "Founder-Market Fit",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Founder-market fit is the alignment between a founder's insight, credibility, relationships, motivation, and market needs. It increases the odds of finding useful problems, earning trust, and persisting through ambiguity.",
+      "tags": [
+        "resource",
+        "entrepreneurship-startups"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Entrepreneurship & Startups/How VC Funds Work (Management Fees, Carry, Fund Size)",
@@ -4346,7 +4610,7 @@
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Entrepreneurship & Startups/MVP Design — What Minimum Actually Means",
@@ -4358,7 +4622,7 @@
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Pricing Strategy (Value-Based, Cost-Plus, Freemium)",
@@ -4370,7 +4634,19 @@
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 4
+      "degree": 6
+    },
+    {
+      "id": "Resources/Entrepreneurship & Startups/Solopreneurship and Indie Hacking",
+      "label": "Solopreneurship and Indie Hacking",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Solopreneurship and indie hacking focus on building small, profitable, often software-enabled businesses without needing venture-scale growth. The emphasis is autonomy, distribution, low overhead, and direct customer revenue.",
+      "tags": [
+        "resource",
+        "entrepreneurship-startups"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Startup Funding (Bootstrapping, Angel, Pre-Seed, Seed, Series A)",
@@ -4394,7 +4670,7 @@
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Term Sheets — Key Terms to Negotiate",
@@ -4409,6 +4685,18 @@
       "degree": 6
     },
     {
+      "id": "Resources/Entrepreneurship & Startups/The Art of the Pivot",
+      "label": "The Art of the Pivot",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "A pivot is a strategic change in customer, problem, product, channel, business model, or positioning based on evidence. Good pivots preserve learning while abandoning assumptions that are not working.",
+      "tags": [
+        "resource",
+        "entrepreneurship-startups"
+      ],
+      "degree": 3
+    },
+    {
       "id": "Resources/Entrepreneurship & Startups/The Lean Startup Method (Build-Measure-Learn)",
       "label": "The Lean Startup Method (Build-Measure-Learn)",
       "folder": "Resources",
@@ -4418,7 +4706,19 @@
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 6
+      "degree": 7
+    },
+    {
+      "id": "Resources/Entrepreneurship & Startups/Timing a Market",
+      "label": "Timing a Market",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Market timing is the fit between a product idea and the external conditions that make adoption possible. Technology readiness, customer pain, regulation, budgets, behavior, and distribution channels can make the same idea too early, too late, or right on time.",
+      "tags": [
+        "resource",
+        "entrepreneurship-startups"
+      ],
+      "degree": 5
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Unit Economics (CAC, LTV, Payback Period, Churn)",
@@ -4430,7 +4730,7 @@
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Y Combinator — Lessons and Application Advice",
@@ -4442,7 +4742,7 @@
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/FlashAttention",
@@ -7979,6 +8279,42 @@
       "degree": 14
     },
     {
+      "id": "Resources/Product Management/Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)",
+      "label": "Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Product roadmaps communicate product direction, priorities, and sequencing. Feature roadmaps emphasize outputs, while outcome roadmaps emphasize customer or business changes the team is trying to produce.",
+      "tags": [
+        "resource",
+        "product-management"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Product Management/Product Strategy Framework",
+      "label": "Product Strategy Framework",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Product strategy connects customer problems, business goals, market position, product bets, and execution focus. It explains where the product will play, how it will win, and what tradeoffs the team accepts.",
+      "tags": [
+        "resource",
+        "product-management"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Product Management/User Stories and Jobs to Be Done",
+      "label": "User Stories and Jobs to Be Done",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "User stories express product work from a user's perspective, while Jobs to Be Done focuses on progress customers seek in specific situations. Both are useful when they preserve context and intent rather than becoming templates.",
+      "tags": [
+        "resource",
+        "product-management"
+      ],
+      "degree": 4
+    },
+    {
       "id": "Resources/Programming Languages",
       "label": "Programming Languages",
       "folder": "Resources",
@@ -10779,15 +11115,6 @@
       "degree": 3
     },
     {
-      "id": "Solopreneurship and Indie Hacking",
-      "label": "Solopreneurship and Indie Hacking",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
-    },
-    {
       "id": "Startup",
       "label": "Startup",
       "folder": null,
@@ -10826,15 +11153,6 @@
     {
       "id": "TLS 1.3",
       "label": "TLS 1.3",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "User Stories and Jobs to Be Done",
-      "label": "User Stories and Jobs to Be Done",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -12660,6 +12978,186 @@
     {
       "source": "Resources/Bobby Memory Architecture",
       "target": "Resources/WSL2 Setup"
+    },
+    {
+      "source": "Resources/Business & Strategy/Blue Ocean Strategy",
+      "target": "Positioning"
+    },
+    {
+      "source": "Resources/Business & Strategy/Blue Ocean Strategy",
+      "target": "Resources/Business & Strategy/Competitive Moats (Network Effects, Switching Costs, Scale, IP)"
+    },
+    {
+      "source": "Resources/Business & Strategy/Blue Ocean Strategy",
+      "target": "Resources/Business & Strategy/Go-to-Market Strategy"
+    },
+    {
+      "source": "Resources/Business & Strategy/Brand Building",
+      "target": "Resources/Business & Strategy/Competitive Moats (Network Effects, Switching Costs, Scale, IP)"
+    },
+    {
+      "source": "Resources/Business & Strategy/Brand Building",
+      "target": "Resources/Business & Strategy/Go-to-Market Strategy"
+    },
+    {
+      "source": "Resources/Business & Strategy/Brand Building",
+      "target": "Resources/Economics & Finance/The Economics of Attention"
+    },
+    {
+      "source": "Resources/Business & Strategy/Business Model Canvas",
+      "target": "Resources/Business & Strategy/Go-to-Market Strategy"
+    },
+    {
+      "source": "Resources/Business & Strategy/Business Model Canvas",
+      "target": "Resources/Entrepreneurship & Startups/Customer Discovery"
+    },
+    {
+      "source": "Resources/Business & Strategy/Business Model Canvas",
+      "target": "Resources/Entrepreneurship & Startups/Unit Economics (CAC, LTV, Payback Period, Churn)"
+    },
+    {
+      "source": "Resources/Business & Strategy/Competitive Moats (Network Effects, Switching Costs, Scale, IP)",
+      "target": "Resources/Business & Strategy/Brand Building"
+    },
+    {
+      "source": "Resources/Business & Strategy/Competitive Moats (Network Effects, Switching Costs, Scale, IP)",
+      "target": "Resources/Business & Strategy/Porter's Five Forces"
+    },
+    {
+      "source": "Resources/Business & Strategy/Competitive Moats (Network Effects, Switching Costs, Scale, IP)",
+      "target": "Resources/Economics & Finance/Network Effects in Economics (Metcalfe's Law)"
+    },
+    {
+      "source": "Resources/Business & Strategy/First-Mover vs Fast-Follower",
+      "target": "Resources/Business & Strategy/Competitive Moats (Network Effects, Switching Costs, Scale, IP)"
+    },
+    {
+      "source": "Resources/Business & Strategy/First-Mover vs Fast-Follower",
+      "target": "Resources/Business & Strategy/The Innovator's Dilemma (Clayton Christensen)"
+    },
+    {
+      "source": "Resources/Business & Strategy/First-Mover vs Fast-Follower",
+      "target": "Resources/Entrepreneurship & Startups/Timing a Market"
+    },
+    {
+      "source": "Resources/Business & Strategy/Go-to-Market Strategy",
+      "target": "Resources/Business & Strategy/Brand Building"
+    },
+    {
+      "source": "Resources/Business & Strategy/Go-to-Market Strategy",
+      "target": "Resources/Entrepreneurship & Startups/Distribution is Everything"
+    },
+    {
+      "source": "Resources/Business & Strategy/Go-to-Market Strategy",
+      "target": "Resources/Entrepreneurship & Startups/Pricing Strategy (Value-Based, Cost-Plus, Freemium)"
+    },
+    {
+      "source": "Resources/Business & Strategy/North Star Metric",
+      "target": "Metrics Hierarchy (Input vs Output Metrics)"
+    },
+    {
+      "source": "Resources/Business & Strategy/North Star Metric",
+      "target": "Product Analytics Fundamentals"
+    },
+    {
+      "source": "Resources/Business & Strategy/North Star Metric",
+      "target": "Resources/Business & Strategy/Subscription Business Metrics (MRR, ARR, NRR, GRR)"
+    },
+    {
+      "source": "Resources/Business & Strategy/Platform vs Pipeline Business Models",
+      "target": "Resources/Business & Strategy/Competitive Moats (Network Effects, Switching Costs, Scale, IP)"
+    },
+    {
+      "source": "Resources/Business & Strategy/Platform vs Pipeline Business Models",
+      "target": "Resources/Economics & Finance/Network Effects in Economics (Metcalfe's Law)"
+    },
+    {
+      "source": "Resources/Business & Strategy/Platform vs Pipeline Business Models",
+      "target": "Resources/Economics & Finance/Platform Economics (Multi-Sided Markets)"
+    },
+    {
+      "source": "Resources/Business & Strategy/Porter's Five Forces",
+      "target": "Resources/Business & Strategy/Competitive Moats (Network Effects, Switching Costs, Scale, IP)"
+    },
+    {
+      "source": "Resources/Business & Strategy/Porter's Five Forces",
+      "target": "Resources/Business & Strategy/Platform vs Pipeline Business Models"
+    },
+    {
+      "source": "Resources/Business & Strategy/Porter's Five Forces",
+      "target": "Resources/Business & Strategy/SWOT Analysis"
+    },
+    {
+      "source": "Resources/Business & Strategy/SWOT Analysis",
+      "target": "Decision Matrices"
+    },
+    {
+      "source": "Resources/Business & Strategy/SWOT Analysis",
+      "target": "Resources/Business & Strategy/Business Model Canvas"
+    },
+    {
+      "source": "Resources/Business & Strategy/SWOT Analysis",
+      "target": "Resources/Business & Strategy/Porter's Five Forces"
+    },
+    {
+      "source": "Resources/Business & Strategy/Subscription Business Metrics (MRR, ARR, NRR, GRR)",
+      "target": "Product Analytics Fundamentals"
+    },
+    {
+      "source": "Resources/Business & Strategy/Subscription Business Metrics (MRR, ARR, NRR, GRR)",
+      "target": "Resources/Business & Strategy/North Star Metric"
+    },
+    {
+      "source": "Resources/Business & Strategy/Subscription Business Metrics (MRR, ARR, NRR, GRR)",
+      "target": "Resources/Entrepreneurship & Startups/Unit Economics (CAC, LTV, Payback Period, Churn)"
+    },
+    {
+      "source": "Resources/Business & Strategy/The Innovator's Dilemma (Clayton Christensen)",
+      "target": "Resources/Business & Strategy/Competitive Moats (Network Effects, Switching Costs, Scale, IP)"
+    },
+    {
+      "source": "Resources/Business & Strategy/The Innovator's Dilemma (Clayton Christensen)",
+      "target": "Resources/Business & Strategy/First-Mover vs Fast-Follower"
+    },
+    {
+      "source": "Resources/Business & Strategy/The Innovator's Dilemma (Clayton Christensen)",
+      "target": "Resources/Entrepreneurship & Startups/Timing a Market"
+    },
+    {
+      "source": "Resources/Business & Strategy/The Strategy of Precommitment",
+      "target": "Habit Formation — Cue, Routine, Reward"
+    },
+    {
+      "source": "Resources/Business & Strategy/The Strategy of Precommitment",
+      "target": "Resources/Economics & Finance/Game Theory Fundamentals"
+    },
+    {
+      "source": "Resources/Business & Strategy/The Strategy of Precommitment",
+      "target": "Resources/Economics & Finance/Prisoner's Dilemma and Nash Equilibrium"
+    },
+    {
+      "source": "Resources/Business & Strategy/Vertical vs Horizontal Integration",
+      "target": "Resources/Business & Strategy/Business Model Canvas"
+    },
+    {
+      "source": "Resources/Business & Strategy/Vertical vs Horizontal Integration",
+      "target": "Resources/Business & Strategy/Competitive Moats (Network Effects, Switching Costs, Scale, IP)"
+    },
+    {
+      "source": "Resources/Business & Strategy/Vertical vs Horizontal Integration",
+      "target": "Resources/Business & Strategy/Porter's Five Forces"
+    },
+    {
+      "source": "Resources/Business & Strategy/Zero to One — Key Ideas (Peter Thiel)",
+      "target": "Resources/Business & Strategy/Blue Ocean Strategy"
+    },
+    {
+      "source": "Resources/Business & Strategy/Zero to One — Key Ideas (Peter Thiel)",
+      "target": "Resources/Business & Strategy/Competitive Moats (Network Effects, Switching Costs, Scale, IP)"
+    },
+    {
+      "source": "Resources/Business & Strategy/Zero to One — Key Ideas (Peter Thiel)",
+      "target": "Resources/Entrepreneurship & Startups/Founder-Market Fit"
     },
     {
       "source": "Resources/CI CD",
@@ -15502,6 +16000,18 @@
       "target": "Resources/System Design Notes"
     },
     {
+      "source": "Resources/Entrepreneurship & Startups/Building in Public",
+      "target": "Resources/Economics & Finance/The Economics of Attention"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Building in Public",
+      "target": "Resources/Entrepreneurship & Startups/Community-Led Growth"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Building in Public",
+      "target": "Resources/Entrepreneurship & Startups/Solopreneurship and Indie Hacking"
+    },
+    {
       "source": "Resources/Entrepreneurship & Startups/Cap Table Basics",
       "target": "Resources/Entrepreneurship & Startups/Equity and Dilution"
     },
@@ -15514,6 +16024,18 @@
       "target": "Resources/Entrepreneurship & Startups/Term Sheets — Key Terms to Negotiate"
     },
     {
+      "source": "Resources/Entrepreneurship & Startups/Community-Led Growth",
+      "target": "Resources/Business & Strategy/Go-to-Market Strategy"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Community-Led Growth",
+      "target": "Resources/Economics & Finance/Network Effects in Economics (Metcalfe's Law)"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Community-Led Growth",
+      "target": "Resources/Entrepreneurship & Startups/Building in Public"
+    },
+    {
       "source": "Resources/Entrepreneurship & Startups/Customer Discovery",
       "target": "Resources/Entrepreneurship & Startups/Finding Product-Market Fit"
     },
@@ -15524,6 +16046,18 @@
     {
       "source": "Resources/Entrepreneurship & Startups/Customer Discovery",
       "target": "Resources/Entrepreneurship & Startups/MVP Design — What Minimum Actually Means"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Distribution is Everything",
+      "target": "Resources/Business & Strategy/Competitive Moats (Network Effects, Switching Costs, Scale, IP)"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Distribution is Everything",
+      "target": "Resources/Business & Strategy/Go-to-Market Strategy"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Distribution is Everything",
+      "target": "Resources/Entrepreneurship & Startups/Community-Led Growth"
     },
     {
       "source": "Resources/Entrepreneurship & Startups/Equity and Dilution",
@@ -15548,6 +16082,18 @@
     {
       "source": "Resources/Entrepreneurship & Startups/Finding Product-Market Fit",
       "target": "Resources/Entrepreneurship & Startups/The Lean Startup Method (Build-Measure-Learn)"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Founder-Market Fit",
+      "target": "Resources/Entrepreneurship & Startups/Customer Discovery"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Founder-Market Fit",
+      "target": "Resources/Entrepreneurship & Startups/Finding Product-Market Fit"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Founder-Market Fit",
+      "target": "Resources/Entrepreneurship & Startups/Y Combinator — Lessons and Application Advice"
     },
     {
       "source": "Resources/Entrepreneurship & Startups/How VC Funds Work (Management Fees, Carry, Fund Size)",
@@ -15598,6 +16144,18 @@
       "target": "Resources/Entrepreneurship & Startups/Unit Economics (CAC, LTV, Payback Period, Churn)"
     },
     {
+      "source": "Resources/Entrepreneurship & Startups/Solopreneurship and Indie Hacking",
+      "target": "Resources/Entrepreneurship & Startups/Building in Public"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Solopreneurship and Indie Hacking",
+      "target": "Resources/Entrepreneurship & Startups/Pricing Strategy (Value-Based, Cost-Plus, Freemium)"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Solopreneurship and Indie Hacking",
+      "target": "Resources/Entrepreneurship & Startups/Startup vs Small Business — Key Differences"
+    },
+    {
       "source": "Resources/Entrepreneurship & Startups/Startup Funding (Bootstrapping, Angel, Pre-Seed, Seed, Series A)",
       "target": "Resources/Entrepreneurship & Startups/Equity and Dilution"
     },
@@ -15615,11 +16173,11 @@
     },
     {
       "source": "Resources/Entrepreneurship & Startups/Startup vs Small Business — Key Differences",
-      "target": "Resources/Entrepreneurship & Startups/Unit Economics (CAC, LTV, Payback Period, Churn)"
+      "target": "Resources/Entrepreneurship & Startups/Solopreneurship and Indie Hacking"
     },
     {
       "source": "Resources/Entrepreneurship & Startups/Startup vs Small Business — Key Differences",
-      "target": "Solopreneurship and Indie Hacking"
+      "target": "Resources/Entrepreneurship & Startups/Unit Economics (CAC, LTV, Payback Period, Churn)"
     },
     {
       "source": "Resources/Entrepreneurship & Startups/Term Sheets — Key Terms to Negotiate",
@@ -15634,6 +16192,18 @@
       "target": "Resources/Entrepreneurship & Startups/Startup Funding (Bootstrapping, Angel, Pre-Seed, Seed, Series A)"
     },
     {
+      "source": "Resources/Entrepreneurship & Startups/The Art of the Pivot",
+      "target": "Resources/Entrepreneurship & Startups/Finding Product-Market Fit"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/The Art of the Pivot",
+      "target": "Resources/Entrepreneurship & Startups/MVP Design — What Minimum Actually Means"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/The Art of the Pivot",
+      "target": "Resources/Entrepreneurship & Startups/The Lean Startup Method (Build-Measure-Learn)"
+    },
+    {
       "source": "Resources/Entrepreneurship & Startups/The Lean Startup Method (Build-Measure-Learn)",
       "target": "A-B Testing Fundamentals"
     },
@@ -15644,6 +16214,18 @@
     {
       "source": "Resources/Entrepreneurship & Startups/The Lean Startup Method (Build-Measure-Learn)",
       "target": "Resources/Entrepreneurship & Startups/MVP Design — What Minimum Actually Means"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Timing a Market",
+      "target": "Resources/Business & Strategy/First-Mover vs Fast-Follower"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Timing a Market",
+      "target": "Resources/Business & Strategy/The Innovator's Dilemma (Clayton Christensen)"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Timing a Market",
+      "target": "Resources/Entrepreneurship & Startups/Finding Product-Market Fit"
     },
     {
       "source": "Resources/Entrepreneurship & Startups/Unit Economics (CAC, LTV, Payback Period, Churn)",
@@ -18247,15 +18829,15 @@
     },
     {
       "source": "Resources/Personal Finance/Side Income and Tax Implications",
+      "target": "Resources/Entrepreneurship & Startups/Solopreneurship and Indie Hacking"
+    },
+    {
+      "source": "Resources/Personal Finance/Side Income and Tax Implications",
       "target": "Resources/Personal Finance/Budgeting Methods (50-30-20, Zero-Based, Envelope)"
     },
     {
       "source": "Resources/Personal Finance/Side Income and Tax Implications",
       "target": "Resources/Personal Finance/Tax-Advantaged Accounts (401k, Roth IRA, HSA, SEP-IRA)"
-    },
-    {
-      "source": "Resources/Personal Finance/Side Income and Tax Implications",
-      "target": "Solopreneurship and Indie Hacking"
     },
     {
       "source": "Resources/Personal Finance/Tax Loss Harvesting",
@@ -19360,6 +19942,42 @@
     {
       "source": "Resources/Product Engineering",
       "target": "Resources/MLOps and ML Engineering"
+    },
+    {
+      "source": "Resources/Product Management/Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)",
+      "target": "Prioritization Frameworks (RICE, ICE, MoSCoW, Kano)"
+    },
+    {
+      "source": "Resources/Product Management/Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)",
+      "target": "Product Discovery vs Delivery"
+    },
+    {
+      "source": "Resources/Product Management/Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)",
+      "target": "Resources/Product Management/Product Strategy Framework"
+    },
+    {
+      "source": "Resources/Product Management/Product Strategy Framework",
+      "target": "Resources/Business & Strategy/Go-to-Market Strategy"
+    },
+    {
+      "source": "Resources/Product Management/Product Strategy Framework",
+      "target": "Resources/Business & Strategy/North Star Metric"
+    },
+    {
+      "source": "Resources/Product Management/Product Strategy Framework",
+      "target": "Resources/Product Management/Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)"
+    },
+    {
+      "source": "Resources/Product Management/User Stories and Jobs to Be Done",
+      "target": "Resources/Entrepreneurship & Startups/Customer Discovery"
+    },
+    {
+      "source": "Resources/Product Management/User Stories and Jobs to Be Done",
+      "target": "Resources/Entrepreneurship & Startups/Jobs to Be Done Framework"
+    },
+    {
+      "source": "Resources/Product Management/User Stories and Jobs to Be Done",
+      "target": "Resources/Product Management/Product Strategy Framework"
     },
     {
       "source": "Resources/Programming Languages",
@@ -20959,6 +21577,10 @@
     },
     {
       "source": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
+      "target": "Resources/Product Management/User Stories and Jobs to Be Done"
+    },
+    {
+      "source": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
       "target": "Resources/Software Engineering/Integration Testing Strategies"
     },
     {
@@ -20968,10 +21590,6 @@
     {
       "source": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
       "target": "Resources/Testing Strategy"
-    },
-    {
-      "source": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
-      "target": "User Stories and Jobs to Be Done"
     },
     {
       "source": "Resources/Software Engineering/Blue-Green Deployments",
@@ -21659,11 +22277,11 @@
     },
     {
       "source": "Resources/Software Engineering/Software Estimation Techniques",
-      "target": "Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)"
+      "target": "Resources/Engineering Judgment and Tool Tradeoffs"
     },
     {
       "source": "Resources/Software Engineering/Software Estimation Techniques",
-      "target": "Resources/Engineering Judgment and Tool Tradeoffs"
+      "target": "Resources/Product Management/Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)"
     },
     {
       "source": "Resources/Software Engineering/Software Estimation Techniques",
@@ -23078,5 +23696,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-27T04:22:46Z"
+  "generated_at": "2026-05-27T04:34:17Z"
 }
