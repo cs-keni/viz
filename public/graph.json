@@ -100,7 +100,7 @@
         "job-search",
         "career"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Areas/Pokemon Collection",
@@ -892,7 +892,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/AI & Machine Learning/AI Alignment Overview",
@@ -1743,7 +1743,7 @@
         "resource",
         "astronomy-space"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Astronomy & Space/Stellar Evolution (Star Birth, Main Sequence, Supernovae, Remnants)",
@@ -3463,7 +3463,7 @@
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Resources/Cognitive Science & Biases/Cognitive Load Theory",
@@ -4723,7 +4723,7 @@
         "resource",
         "design-ux"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Design & UX/Information Architecture",
@@ -5353,7 +5353,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Economics & Finance/GDP and Economic Indicators",
@@ -5365,7 +5365,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Economics & Finance/Game Theory Fundamentals",
@@ -5389,7 +5389,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 3
+      "degree": 5
     },
     {
       "id": "Resources/Economics & Finance/Inflation — Types, Causes, and Effects",
@@ -5473,7 +5473,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Economics & Finance/Prisoner's Dilemma and Nash Equilibrium",
@@ -5533,7 +5533,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 7
+      "degree": 10
     },
     {
       "id": "Resources/Economics & Finance/The Economics of Attention",
@@ -6808,7 +6808,7 @@
         "resource",
         "history-of-technology"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/History of Technology/History of the Transistor and Integrated Circuit",
@@ -7554,7 +7554,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/Learning & Memory/Second-Order Thinking",
@@ -8451,7 +8451,7 @@
         "resource",
         "meta-learning-epistemics"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Meta-Learning & Epistemics/When to Trust Experts (and When Not To)",
@@ -9646,7 +9646,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Personal Productivity/Energy Management vs Time Management",
@@ -9826,7 +9826,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Personal Productivity/Obsidian Workflow Design",
@@ -10032,7 +10032,7 @@
         "resource",
         "philosophy"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Philosophy/Ethics — Deontology (Kant's Categorical Imperative)",
@@ -10080,7 +10080,7 @@
         "resource",
         "philosophy"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Philosophy/Free Will — Compatibilism vs Hard Determinism",
@@ -10176,7 +10176,7 @@
         "resource",
         "philosophy"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Philosophy/Philosophy of Time — A-Theory vs B-Theory",
@@ -10476,7 +10476,7 @@
         "resource",
         "physics"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Physics/Special Relativity — Key Ideas (Time Dilation, Length Contraction)",
@@ -11405,7 +11405,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Security & Privacy/Defense in Depth",
@@ -11925,6 +11925,210 @@
         "sleep-science"
       ],
       "degree": 5
+    },
+    {
+      "id": "Resources/Society, Culture & History/Climate Change — Science and Policy",
+      "label": "Climate Change — Science and Policy",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Climate change is driven primarily by human greenhouse gas emissions that warm the planet and disrupt weather, oceans, ecosystems, health, and economies. Policy is difficult because the problem is global, long-term, unevenly distributed, politically contested, and tied to energy, industry, land use, and development.",
+      "tags": [
+        "resource",
+        "society-culture-history"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Society, Culture & History/Colonialism and Its Long-Term Effects",
+      "label": "Colonialism and Its Long-Term Effects",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Colonialism involved political domination, extraction, settlement, racial hierarchy, cultural disruption, and imposed institutions across much of the world. Its long-term effects remain visible in borders, languages, wealth gaps, state capacity, land ownership, migration, conflict, and global power relations.",
+      "tags": [
+        "resource",
+        "society-culture-history"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Society, Culture & History/Demographic Transition Theory",
+      "label": "Demographic Transition Theory",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Demographic transition theory describes how societies often move from high birth and death rates to low birth and death rates as health, income, urbanization, education, and family economics change. It helps explain population growth, aging, migration pressure, labor markets, and development patterns.",
+      "tags": [
+        "resource",
+        "society-culture-history"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Society, Culture & History/Social Media and Political Polarization",
+      "label": "Social Media and Political Polarization",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Social media can amplify political polarization by rewarding identity signaling, outrage, selective exposure, virality, and algorithmic engagement. It is not the only cause of polarization, but it changes the speed, visibility, incentives, and emotional texture of political conflict.",
+      "tags": [
+        "resource",
+        "society-culture-history"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Society, Culture & History/Surveillance Capitalism (Shoshana Zuboff)",
+      "label": "Surveillance Capitalism (Shoshana Zuboff)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Surveillance capitalism is Shoshana Zuboff's term for business models that extract behavioral data, predict future behavior, and monetize those predictions through advertising, recommendation, and influence systems. The concept is useful for analyzing platform power, though it should be balanced with technical, economic, and policy nuance.",
+      "tags": [
+        "resource",
+        "society-culture-history"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Society, Culture & History/The Attention Economy",
+      "label": "The Attention Economy",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "The attention economy treats human attention as a scarce resource competed for by platforms, advertisers, creators, apps, and media. Its central problem is that what captures attention is not always what improves judgment, well-being, learning, or civic life.",
+      "tags": [
+        "resource",
+        "society-culture-history"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Society, Culture & History/The Civil Rights Movement",
+      "label": "The Civil Rights Movement",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "The Civil Rights Movement challenged legalized racial segregation and disenfranchisement in the United States through litigation, direct action, organizing, media strategy, federal pressure, and mass mobilization. Its legacy includes major legal victories and ongoing debates about structural inequality, voting rights, policing, education, and economic justice.",
+      "tags": [
+        "resource",
+        "society-culture-history"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Society, Culture & History/The Cold War — Technology and Ideology",
+      "label": "The Cold War — Technology and Ideology",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "The Cold War was a global US-Soviet rivalry fought through ideology, alliances, proxy wars, espionage, nuclear deterrence, space competition, and technology races. It shaped computing, aerospace, communications, military research, development policy, and the geopolitical map after 1945.",
+      "tags": [
+        "resource",
+        "society-culture-history"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Society, Culture & History/The Enlightenment",
+      "label": "The Enlightenment",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "The Enlightenment was an intellectual movement that elevated reason, individual rights, secular inquiry, skepticism of inherited authority, and institutional reform. Its legacy includes liberal democracy, scientific public culture, human rights language, and unresolved tensions around empire, exclusion, and universalism.",
+      "tags": [
+        "resource",
+        "society-culture-history"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Society, Culture & History/The Future of Work (Automation, Remote, AI)",
+      "label": "The Future of Work (Automation, Remote, AI)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "The future of work is being shaped by automation, AI, remote collaboration, demographic change, platform labor, credential shifts, and global competition. The key issue is not whether work disappears, but how tasks, bargaining power, skills, management, geography, and inequality change.",
+      "tags": [
+        "resource",
+        "society-culture-history"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Society, Culture & History/The Industrial Revolution — Causes and Effects",
+      "label": "The Industrial Revolution — Causes and Effects",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "The Industrial Revolution shifted production from agrarian hand labor toward mechanized factories, fossil energy, wage labor, and mass markets. It produced enormous productivity gains while also reshaping cities, class relations, family life, imperial demand, pollution, and modern capitalism.",
+      "tags": [
+        "resource",
+        "society-culture-history"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Society, Culture & History/The Information Age — Social Impacts",
+      "label": "The Information Age — Social Impacts",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "The Information Age shifted social life around computers, networks, software, data, and instant communication. It expanded access to knowledge and coordination while creating new problems around attention, privacy, inequality, misinformation, platform power, and identity.",
+      "tags": [
+        "resource",
+        "society-culture-history"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Society, Culture & History/The Rise of China — Economic Miracle",
+      "label": "The Rise of China — Economic Miracle",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "China's rapid growth after reform and opening combined market incentives, state direction, export manufacturing, infrastructure, urbanization, foreign investment, education, and integration into global trade. It lifted hundreds of millions from poverty while creating tensions around inequality, debt, demographics, environment, authoritarian governance, and geopolitics.",
+      "tags": [
+        "resource",
+        "society-culture-history"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Society, Culture & History/The Scientific Revolution",
+      "label": "The Scientific Revolution",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "The Scientific Revolution transformed European knowledge by shifting authority from inherited texts toward observation, mathematics, experiment, instruments, and public verification. Its importance is not just a list of discoveries, but the creation of a repeatable method for arguing about nature.",
+      "tags": [
+        "resource",
+        "society-culture-history"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Society, Culture & History/Urbanization and Its Effects",
+      "label": "Urbanization and Its Effects",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Urbanization is the shift of people, work, infrastructure, and culture into cities. It raises productivity and innovation through density, but also creates pressures around housing, transportation, inequality, public health, pollution, governance, and social isolation.",
+      "tags": [
+        "resource",
+        "society-culture-history"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Society, Culture & History/World War I — Causes and Consequences",
+      "label": "World War I — Causes and Consequences",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "World War I emerged from militarism, alliances, imperial competition, nationalism, crisis mismanagement, and the assassination of Archduke Franz Ferdinand. Its consequences included mass death, collapsed empires, redrawn borders, revolutionary politics, trauma, and conditions that helped produce World War II.",
+      "tags": [
+        "resource",
+        "society-culture-history"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Society, Culture & History/World War II — Causes and Consequences",
+      "label": "World War II — Causes and Consequences",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "World War II grew from fascist expansion, unresolved World War I settlements, economic crisis, militarism, appeasement, and imperial conflict. Its consequences reshaped the world through decolonization, the United Nations, the Holocaust's moral legacy, nuclear weapons, US-Soviet rivalry, and a new global order.",
+      "tags": [
+        "resource",
+        "society-culture-history"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Software Architecture",
@@ -26376,6 +26580,210 @@
       "target": "Resources/Sleep Science/Sleep Hygiene Best Practices"
     },
     {
+      "source": "Resources/Society, Culture & History/Climate Change — Science and Policy",
+      "target": "Resources/Economics & Finance/Externalities and Market Failure"
+    },
+    {
+      "source": "Resources/Society, Culture & History/Climate Change — Science and Policy",
+      "target": "Resources/Meta-Learning & Epistemics/The Map is Not the Territory"
+    },
+    {
+      "source": "Resources/Society, Culture & History/Climate Change — Science and Policy",
+      "target": "Resources/Society, Culture & History/The Industrial Revolution — Causes and Effects"
+    },
+    {
+      "source": "Resources/Society, Culture & History/Colonialism and Its Long-Term Effects",
+      "target": "Resources/Economics & Finance/Globalization — Benefits and Costs"
+    },
+    {
+      "source": "Resources/Society, Culture & History/Colonialism and Its Long-Term Effects",
+      "target": "Resources/Society, Culture & History/The Civil Rights Movement"
+    },
+    {
+      "source": "Resources/Society, Culture & History/Colonialism and Its Long-Term Effects",
+      "target": "Resources/Society, Culture & History/The Rise of China — Economic Miracle"
+    },
+    {
+      "source": "Resources/Society, Culture & History/Demographic Transition Theory",
+      "target": "Resources/Economics & Finance/GDP and Economic Indicators"
+    },
+    {
+      "source": "Resources/Society, Culture & History/Demographic Transition Theory",
+      "target": "Resources/Society, Culture & History/The Future of Work (Automation, Remote, AI)"
+    },
+    {
+      "source": "Resources/Society, Culture & History/Demographic Transition Theory",
+      "target": "Resources/Society, Culture & History/Urbanization and Its Effects"
+    },
+    {
+      "source": "Resources/Society, Culture & History/Social Media and Political Polarization",
+      "target": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference"
+    },
+    {
+      "source": "Resources/Society, Culture & History/Social Media and Political Polarization",
+      "target": "Resources/Society, Culture & History/The Attention Economy"
+    },
+    {
+      "source": "Resources/Society, Culture & History/Social Media and Political Polarization",
+      "target": "Resources/Society, Culture & History/The Civil Rights Movement"
+    },
+    {
+      "source": "Resources/Society, Culture & History/Surveillance Capitalism (Shoshana Zuboff)",
+      "target": "Resources/Economics & Finance/Platform Economics (Multi-Sided Markets)"
+    },
+    {
+      "source": "Resources/Society, Culture & History/Surveillance Capitalism (Shoshana Zuboff)",
+      "target": "Resources/Security & Privacy/Data Privacy Regulations (GDPR, CCPA)"
+    },
+    {
+      "source": "Resources/Society, Culture & History/Surveillance Capitalism (Shoshana Zuboff)",
+      "target": "Resources/Society, Culture & History/The Attention Economy"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Attention Economy",
+      "target": "Resources/Personal Productivity/Distraction Management"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Attention Economy",
+      "target": "Resources/Personal Productivity/Notification Hygiene"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Attention Economy",
+      "target": "Resources/Society, Culture & History/Surveillance Capitalism (Shoshana Zuboff)"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Civil Rights Movement",
+      "target": "Resources/Learning & Memory/Productive Disagreement"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Civil Rights Movement",
+      "target": "Resources/Society, Culture & History/Social Media and Political Polarization"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Civil Rights Movement",
+      "target": "Resources/Society, Culture & History/The Enlightenment"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Cold War — Technology and Ideology",
+      "target": "Resources/Astronomy & Space/Space Exploration Timeline (Sputnik to Artemis)"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Cold War — Technology and Ideology",
+      "target": "Resources/History of Technology/History of the Internet (ARPANET to Web3)"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Cold War — Technology and Ideology",
+      "target": "Resources/Society, Culture & History/The Information Age — Social Impacts"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Enlightenment",
+      "target": "Resources/Philosophy/Ethics — Consequentialism"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Enlightenment",
+      "target": "Resources/Society, Culture & History/Colonialism and Its Long-Term Effects"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Enlightenment",
+      "target": "Resources/Society, Culture & History/The Scientific Revolution"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Future of Work (Automation, Remote, AI)",
+      "target": "Areas/Job Search"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Future of Work (Automation, Remote, AI)",
+      "target": "Resources/AI & Machine Learning/AI Agents and Tool Use"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Future of Work (Automation, Remote, AI)",
+      "target": "Resources/Economics & Finance/Technology and Labor Markets (Automation and Jobs)"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Industrial Revolution — Causes and Effects",
+      "target": "Resources/Economics & Finance/Technology and Labor Markets (Automation and Jobs)"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Industrial Revolution — Causes and Effects",
+      "target": "Resources/Society, Culture & History/Climate Change — Science and Policy"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Industrial Revolution — Causes and Effects",
+      "target": "Resources/Society, Culture & History/Urbanization and Its Effects"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Information Age — Social Impacts",
+      "target": "Resources/History of Technology/History of the Internet (ARPANET to Web3)"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Information Age — Social Impacts",
+      "target": "Resources/Society, Culture & History/Social Media and Political Polarization"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Information Age — Social Impacts",
+      "target": "Resources/Society, Culture & History/The Attention Economy"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Rise of China — Economic Miracle",
+      "target": "Resources/Economics & Finance/Globalization — Benefits and Costs"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Rise of China — Economic Miracle",
+      "target": "Resources/Economics & Finance/Technology and Labor Markets (Automation and Jobs)"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Rise of China — Economic Miracle",
+      "target": "Resources/Society, Culture & History/The Future of Work (Automation, Remote, AI)"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Scientific Revolution",
+      "target": "Resources/Philosophy/Falsifiability and the Demarcation Problem"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Scientific Revolution",
+      "target": "Resources/Philosophy/Philosophy of Science (Popper, Kuhn, Lakatos)"
+    },
+    {
+      "source": "Resources/Society, Culture & History/The Scientific Revolution",
+      "target": "Resources/Society, Culture & History/The Enlightenment"
+    },
+    {
+      "source": "Resources/Society, Culture & History/Urbanization and Its Effects",
+      "target": "Resources/Design & UX/Human-Centered Design Process"
+    },
+    {
+      "source": "Resources/Society, Culture & History/Urbanization and Its Effects",
+      "target": "Resources/Society, Culture & History/Demographic Transition Theory"
+    },
+    {
+      "source": "Resources/Society, Culture & History/Urbanization and Its Effects",
+      "target": "Resources/Society, Culture & History/The Industrial Revolution — Causes and Effects"
+    },
+    {
+      "source": "Resources/Society, Culture & History/World War I — Causes and Consequences",
+      "target": "Resources/Meta-Learning & Epistemics/The Map is Not the Territory"
+    },
+    {
+      "source": "Resources/Society, Culture & History/World War I — Causes and Consequences",
+      "target": "Resources/Society, Culture & History/The Cold War — Technology and Ideology"
+    },
+    {
+      "source": "Resources/Society, Culture & History/World War I — Causes and Consequences",
+      "target": "Resources/Society, Culture & History/World War II — Causes and Consequences"
+    },
+    {
+      "source": "Resources/Society, Culture & History/World War II — Causes and Consequences",
+      "target": "Resources/Physics/Quantum Mechanics Fundamentals"
+    },
+    {
+      "source": "Resources/Society, Culture & History/World War II — Causes and Consequences",
+      "target": "Resources/Society, Culture & History/The Cold War — Technology and Ideology"
+    },
+    {
+      "source": "Resources/Society, Culture & History/World War II — Causes and Consequences",
+      "target": "Resources/Society, Culture & History/World War I — Causes and Consequences"
+    },
+    {
       "source": "Resources/Software Architecture",
       "target": "Resources/Distributed Systems"
     },
@@ -28836,5 +29244,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-27T15:26:57Z"
+  "generated_at": "2026-05-27T15:32:50Z"
 }
