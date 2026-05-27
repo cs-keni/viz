@@ -697,6 +697,15 @@
       "degree": 1
     },
     {
+      "id": "NAT and Port Forwarding",
+      "label": "NAT and Port Forwarding",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Note Title",
       "label": "Note Title",
       "folder": null,
@@ -708,6 +717,15 @@
     {
       "id": "Nutrition — Macronutrients (Protein, Carbs, Fats)",
       "label": "Nutrition — Macronutrients (Protein, Carbs, Fats)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "OSI Model — All 7 Layers with Examples",
+      "label": "OSI Model — All 7 Layers with Examples",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -1285,7 +1303,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/AI & Machine Learning/Multi-Head Attention",
@@ -1537,7 +1555,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 22
+      "degree": 23
     },
     {
       "id": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)",
@@ -4162,7 +4180,7 @@
         "resource",
         "database-systems"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Database Systems/Database Change Data Capture (CDC)",
@@ -4198,7 +4216,7 @@
         "resource",
         "database-systems"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Database Systems/Database Normalization (1NF through BCNF)",
@@ -4776,7 +4794,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/DevOps & Infrastructure/Error Budgets",
@@ -4884,7 +4902,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)",
@@ -4932,7 +4950,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 12
+      "degree": 14
     },
     {
       "id": "Resources/DevOps & Infrastructure/Postmortem Writing",
@@ -5994,6 +6012,178 @@
         "interview-prep"
       ],
       "degree": 6
+    },
+    {
+      "id": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)",
+      "label": "CPU Architecture (RISC vs CISC, ARM vs x86)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "CPU architecture defines the instruction set and execution design exposed to software, with RISC emphasizing simpler fixed-style instructions and CISC emphasizing richer instructions. Modern ARM and x86 chips blur the old divide internally, but the distinction still helps explain compatibility, power efficiency, and ecosystem tradeoffs.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Hardware & Computing/DRAM vs SRAM",
+      "label": "DRAM vs SRAM",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "DRAM and SRAM are volatile memory technologies with different tradeoffs: DRAM is dense and cheap enough for main memory, while SRAM is faster and more expensive, making it suitable for CPU caches. The distinction explains why computers have separate RAM and cache layers instead of one universal memory.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Hardware & Computing/DisplayPort vs HDMI vs Thunderbolt",
+      "label": "DisplayPort vs HDMI vs Thunderbolt",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "DisplayPort, HDMI, and Thunderbolt all carry video in different ecosystems: HDMI dominates TVs and consoles, DisplayPort is common for PCs and high-refresh monitors, and Thunderbolt carries video plus high-speed data over USB-C. Choosing between them depends on resolution, refresh rate, VRR, HDR, docking, cable quality, and device support.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Hardware & Computing/Home Lab Setup Guide",
+      "label": "Home Lab Setup Guide",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "A home lab is a small personal infrastructure environment for learning networking, servers, storage, containers, automation, and observability. A good setup starts with clear goals, modest hardware, backups, network segmentation, documentation, and services that are useful enough to maintain.",
+      "tags": [
+        "resource",
+        "hardware-computing",
+        "devops"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Hardware & Computing/How CPUs Work (Fetch, Decode, Execute, Write-Back)",
+      "label": "How CPUs Work (Fetch, Decode, Execute, Write-Back)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "CPUs execute programs through an instruction cycle: fetch an instruction, decode it, execute the operation, and write results back to registers or memory. This simple model explains the baseline, while modern CPUs add pipelining, caches, branch prediction, and out-of-order execution to keep work flowing.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Hardware & Computing/How GPUs Work and Why ML Uses Them",
+      "label": "How GPUs Work and Why ML Uses Them",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "GPUs are built for massive parallel throughput: many smaller cores execute similar operations across large batches of data. Machine learning uses them because neural network training and inference are dominated by matrix operations that map well to GPU parallelism and high memory bandwidth.",
+      "tags": [
+        "resource",
+        "hardware-computing",
+        "ai"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Hardware & Computing/Memory Hierarchy (L1-L2-L3 Cache, RAM, Disk)",
+      "label": "Memory Hierarchy (L1-L2-L3 Cache, RAM, Disk)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "The memory hierarchy arranges storage by speed, size, and cost: registers and caches are tiny and fast, RAM is larger and slower, and disks are much larger and slower still. Performance often depends on keeping hot data close to the CPU and avoiding unnecessary movement through the hierarchy.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)",
+      "label": "Motherboard and Bus Architecture (PCIe, DMI)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "A motherboard connects CPU, memory, storage, expansion cards, firmware, power delivery, and I/O through buses and chipset links. PCIe lanes, chipset bandwidth, VRMs, and physical slots determine what hardware can be installed and how much throughput it can actually use.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Hardware & Computing/NAS and Home Storage (ZFS, RAID Levels)",
+      "label": "NAS and Home Storage (ZFS, RAID Levels)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "A NAS centralizes storage on the network, often using RAID or ZFS to improve availability, integrity, and manageability. The crucial caveat is that RAID is not backup: it can survive some drive failures, but it does not protect against deletion, corruption, theft, fire, or ransomware by itself.",
+      "tags": [
+        "resource",
+        "hardware-computing",
+        "storage"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Hardware & Computing/Networking Hardware (Routers, Switches, NICs)",
+      "label": "Networking Hardware (Routers, Switches, NICs)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Networking hardware moves packets between devices and networks: NICs connect hosts, switches connect local devices, and routers connect networks. Understanding these roles helps diagnose home lab, Wi-Fi, latency, throughput, and segmentation problems.",
+      "tags": [
+        "resource",
+        "hardware-computing",
+        "networking"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Hardware & Computing/Power Supplies and 80+ Efficiency Ratings",
+      "label": "Power Supplies and 80+ Efficiency Ratings",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "A computer power supply converts wall AC into stable DC rails for components, and 80+ ratings describe efficiency at specified loads. Good PSU selection is about wattage headroom, build quality, protections, connectors, noise, and efficiency rather than chasing the highest advertised number.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Hardware & Computing/SSD vs HDD — How They Work Internally",
+      "label": "SSD vs HDD — How They Work Internally",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "HDDs store data magnetically on spinning platters, while SSDs store data electronically in NAND flash. SSDs are faster for random access and shock resistance, but have write endurance and controller behavior that matter for reliability and performance.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Hardware & Computing/Thermal Design and CPU-GPU Cooling",
+      "label": "Thermal Design and CPU-GPU Cooling",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Thermal design manages heat from CPUs, GPUs, VRMs, storage, and cases so components can sustain performance without throttling or reliability problems. Cooling depends on heat transfer, cooler capacity, airflow, ambient temperature, fan curves, and dust management.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Hardware & Computing/USB Standards Timeline (USB 2.0 through USB4)",
+      "label": "USB Standards Timeline (USB 2.0 through USB4)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "USB standards evolved from simple peripheral connectivity into high-speed data, charging, display tunneling, and docking. The confusing part is that connector shape, data speed, charging support, and display capability are separate properties that marketing names often blur.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Health & Fitness/Back Health for Desk Workers",
@@ -10148,7 +10338,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Programming Languages/Concurrency Primitives (Mutex, Semaphore, Condition Variable)",
@@ -10244,7 +10434,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Programming Languages/Java — Garbage Collection",
@@ -10556,7 +10746,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/RAG and Bobby Vector Search",
@@ -11582,7 +11772,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Software Engineering/Domain-Driven Design (DDD)",
@@ -19192,6 +19382,174 @@
     {
       "source": "Resources/Geospatial",
       "target": "Resources/System Design Notes"
+    },
+    {
+      "source": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)",
+      "target": "Resources/Hardware & Computing/How CPUs Work (Fetch, Decode, Execute, Write-Back)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)",
+      "target": "Resources/Programming Languages/JIT Compilation"
+    },
+    {
+      "source": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)",
+      "target": "Resources/Programming Languages/WebAssembly (WASM) Basics"
+    },
+    {
+      "source": "Resources/Hardware & Computing/DRAM vs SRAM",
+      "target": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems"
+    },
+    {
+      "source": "Resources/Hardware & Computing/DRAM vs SRAM",
+      "target": "Resources/Hardware & Computing/How CPUs Work (Fetch, Decode, Execute, Write-Back)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/DRAM vs SRAM",
+      "target": "Resources/Hardware & Computing/Memory Hierarchy (L1-L2-L3 Cache, RAM, Disk)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/DisplayPort vs HDMI vs Thunderbolt",
+      "target": "Resources/Hardware & Computing/Home Lab Setup Guide"
+    },
+    {
+      "source": "Resources/Hardware & Computing/DisplayPort vs HDMI vs Thunderbolt",
+      "target": "Resources/Hardware & Computing/How GPUs Work and Why ML Uses Them"
+    },
+    {
+      "source": "Resources/Hardware & Computing/DisplayPort vs HDMI vs Thunderbolt",
+      "target": "Resources/Hardware & Computing/USB Standards Timeline (USB 2.0 through USB4)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Home Lab Setup Guide",
+      "target": "Resources/Hardware & Computing/NAS and Home Storage (ZFS, RAID Levels)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Home Lab Setup Guide",
+      "target": "Resources/Hardware & Computing/Networking Hardware (Routers, Switches, NICs)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Home Lab Setup Guide",
+      "target": "Resources/Software Engineering/Docker Deep Dive"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How CPUs Work (Fetch, Decode, Execute, Write-Back)",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How CPUs Work (Fetch, Decode, Execute, Write-Back)",
+      "target": "Resources/Hardware & Computing/Memory Hierarchy (L1-L2-L3 Cache, RAM, Disk)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How CPUs Work (Fetch, Decode, Execute, Write-Back)",
+      "target": "Resources/Programming Languages/Compiled vs Interpreted vs JIT Languages"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How GPUs Work and Why ML Uses Them",
+      "target": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How GPUs Work and Why ML Uses Them",
+      "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How GPUs Work and Why ML Uses Them",
+      "target": "Resources/Hardware & Computing/Memory Hierarchy (L1-L2-L3 Cache, RAM, Disk)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Memory Hierarchy (L1-L2-L3 Cache, RAM, Disk)",
+      "target": "Resources/Database Systems/Database Indexing Strategies (B-Tree, Hash, GIN, GiST)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Memory Hierarchy (L1-L2-L3 Cache, RAM, Disk)",
+      "target": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Memory Hierarchy (L1-L2-L3 Cache, RAM, Disk)",
+      "target": "Resources/Hardware & Computing/How CPUs Work (Fetch, Decode, Execute, Write-Back)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)",
+      "target": "Resources/Hardware & Computing/Networking Hardware (Routers, Switches, NICs)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)",
+      "target": "Resources/Hardware & Computing/SSD vs HDD — How They Work Internally"
+    },
+    {
+      "source": "Resources/Hardware & Computing/NAS and Home Storage (ZFS, RAID Levels)",
+      "target": "Resources/Database Systems/Database Backups and Point-in-Time Recovery"
+    },
+    {
+      "source": "Resources/Hardware & Computing/NAS and Home Storage (ZFS, RAID Levels)",
+      "target": "Resources/Hardware & Computing/Home Lab Setup Guide"
+    },
+    {
+      "source": "Resources/Hardware & Computing/NAS and Home Storage (ZFS, RAID Levels)",
+      "target": "Resources/Hardware & Computing/SSD vs HDD — How They Work Internally"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Networking Hardware (Routers, Switches, NICs)",
+      "target": "NAT and Port Forwarding"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Networking Hardware (Routers, Switches, NICs)",
+      "target": "OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Networking Hardware (Routers, Switches, NICs)",
+      "target": "Resources/Hardware & Computing/Home Lab Setup Guide"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Power Supplies and 80+ Efficiency Ratings",
+      "target": "Resources/Hardware & Computing/Home Lab Setup Guide"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Power Supplies and 80+ Efficiency Ratings",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Power Supplies and 80+ Efficiency Ratings",
+      "target": "Resources/Hardware & Computing/Thermal Design and CPU-GPU Cooling"
+    },
+    {
+      "source": "Resources/Hardware & Computing/SSD vs HDD — How They Work Internally",
+      "target": "Resources/Database Systems/Database Backups and Point-in-Time Recovery"
+    },
+    {
+      "source": "Resources/Hardware & Computing/SSD vs HDD — How They Work Internally",
+      "target": "Resources/DevOps & Infrastructure/Disk I-O Optimization"
+    },
+    {
+      "source": "Resources/Hardware & Computing/SSD vs HDD — How They Work Internally",
+      "target": "Resources/Hardware & Computing/NAS and Home Storage (ZFS, RAID Levels)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Thermal Design and CPU-GPU Cooling",
+      "target": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Thermal Design and CPU-GPU Cooling",
+      "target": "Resources/Hardware & Computing/How GPUs Work and Why ML Uses Them"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Thermal Design and CPU-GPU Cooling",
+      "target": "Resources/Hardware & Computing/Power Supplies and 80+ Efficiency Ratings"
+    },
+    {
+      "source": "Resources/Hardware & Computing/USB Standards Timeline (USB 2.0 through USB4)",
+      "target": "Resources/Hardware & Computing/DisplayPort vs HDMI vs Thunderbolt"
+    },
+    {
+      "source": "Resources/Hardware & Computing/USB Standards Timeline (USB 2.0 through USB4)",
+      "target": "Resources/Hardware & Computing/Home Lab Setup Guide"
+    },
+    {
+      "source": "Resources/Hardware & Computing/USB Standards Timeline (USB 2.0 through USB4)",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
     },
     {
       "source": "Resources/Health & Fitness/Back Health for Desk Workers",
@@ -27194,5 +27552,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-27T14:57:09Z"
+  "generated_at": "2026-05-27T15:02:48Z"
 }
