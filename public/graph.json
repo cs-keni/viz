@@ -19,6 +19,15 @@
       "degree": 1
     },
     {
+      "id": "AI Safety vs AI Capabilities",
+      "label": "AI Safety vs AI Capabilities",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Alcohol Metabolism (Ethanol → Acetaldehyde → Acetate)",
       "label": "Alcohol Metabolism (Ethanol → Acetaldehyde → Acetate)",
       "folder": null,
@@ -79,6 +88,15 @@
         "collection"
       ],
       "degree": 3
+    },
+    {
+      "id": "Attention Residue",
+      "label": "Attention Residue",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "Base rates",
@@ -155,6 +173,15 @@
     {
       "id": "Chemistry & Biochemistry",
       "label": "Chemistry & Biochemistry",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Climate Change — Science and Impacts",
+      "label": "Climate Change — Science and Impacts",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -264,6 +291,15 @@
       "degree": 1
     },
     {
+      "id": "Digital Identity and Authentication",
+      "label": "Digital Identity and Authentication",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Directed Acyclic Graphs",
       "label": "Directed Acyclic Graphs",
       "folder": null,
@@ -291,8 +327,8 @@
       "degree": 1
     },
     {
-      "id": "Externalities and Market Failure",
-      "label": "Externalities and Market Failure",
+      "id": "Exponential Growth",
+      "label": "Exponential Growth",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -318,8 +354,26 @@
       "degree": 1
     },
     {
-      "id": "Game Theory Fundamentals",
-      "label": "Game Theory Fundamentals",
+      "id": "Goal Setting Frameworks (SMART, OKRs)",
+      "label": "Goal Setting Frameworks (SMART, OKRs)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Habit Formation — Cue, Routine, Reward",
+      "label": "Habit Formation — Cue, Routine, Reward",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Hash Functions",
+      "label": "Hash Functions",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -347,6 +401,24 @@
     {
       "id": "How to Write a Good Technical Spec",
       "label": "How to Write a Good Technical Spec",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Identity Theft Protection",
+      "label": "Identity Theft Protection",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Incentive Design",
+      "label": "Incentive Design",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -427,15 +499,6 @@
     {
       "id": "Mental Health & Psychology",
       "label": "Mental Health & Psychology",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Network Effects in Economics (Metcalfe's Law)",
-      "label": "Network Effects in Economics (Metcalfe's Law)",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -600,6 +663,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 2
+    },
+    {
+      "id": "Public Key Cryptography",
+      "label": "Public Key Cryptography",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "Python — Closures",
@@ -2443,7 +2515,7 @@
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Cognitive Science & Biases/Cognitive Load Theory",
@@ -3844,6 +3916,66 @@
       "degree": 4
     },
     {
+      "id": "Resources/Economics & Finance/Behavioral Economics Overview",
+      "label": "Behavioral Economics Overview",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Behavioral economics studies how real human judgment departs from perfectly rational models. It combines economics, psychology, bounded rationality, heuristics, biases, defaults, framing, and incentives.",
+      "tags": [
+        "resource",
+        "economics-finance"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Economics & Finance/Bitcoin — Blockchain, Proof of Work, Mining",
+      "label": "Bitcoin — Blockchain, Proof of Work, Mining",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Bitcoin is a decentralized digital asset system using a blockchain, proof-of-work consensus, mining incentives, cryptographic signatures, and a fixed issuance schedule. Its design trades throughput and energy use for censorship resistance and settlement assurance.",
+      "tags": [
+        "resource",
+        "economics-finance"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Economics & Finance/Cryptocurrency — Technical Overview",
+      "label": "Cryptocurrency — Technical Overview",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Cryptocurrency uses cryptography, distributed ledgers, consensus mechanisms, wallets, and incentives to coordinate digital assets without a traditional central operator. Technical novelty does not remove economic, security, governance, or regulatory risk.",
+      "tags": [
+        "resource",
+        "economics-finance"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Economics & Finance/DeFi Basics (Protocols, Liquidity Pools, Yield)",
+      "label": "DeFi Basics (Protocols, Liquidity Pools, Yield)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Decentralized finance uses smart contracts to provide trading, lending, borrowing, derivatives, stablecoins, and liquidity pools. It is programmable finance, but smart-contract, oracle, governance, leverage, and liquidity risks are central.",
+      "tags": [
+        "resource",
+        "economics-finance"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Economics & Finance/Externalities and Market Failure",
+      "label": "Externalities and Market Failure",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Externalities occur when market actions impose costs or benefits on third parties not reflected in prices. They are a major reason markets can fail to produce socially efficient outcomes.",
+      "tags": [
+        "resource",
+        "economics-finance"
+      ],
+      "degree": 8
+    },
+    {
       "id": "Resources/Economics & Finance/GDP and Economic Indicators",
       "label": "GDP and Economic Indicators",
       "folder": "Resources",
@@ -3854,6 +3986,30 @@
         "economics-finance"
       ],
       "degree": 6
+    },
+    {
+      "id": "Resources/Economics & Finance/Game Theory Fundamentals",
+      "label": "Game Theory Fundamentals",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Game theory studies strategic situations where each participant's outcome depends on what others do. It is useful for understanding incentives, coordination, competition, bargaining, signaling, and repeated interaction.",
+      "tags": [
+        "resource",
+        "economics-finance"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Economics & Finance/Globalization — Benefits and Costs",
+      "label": "Globalization — Benefits and Costs",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Globalization integrates economies through trade, capital, migration, supply chains, technology, and institutions. It can raise efficiency and growth while also creating disruption, dependency, inequality, and political backlash.",
+      "tags": [
+        "resource",
+        "economics-finance"
+      ],
+      "degree": 3
     },
     {
       "id": "Resources/Economics & Finance/Inflation — Types, Causes, and Effects",
@@ -3901,7 +4057,79 @@
         "resource",
         "economics-finance"
       ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Economics & Finance/NFTs — What They Are and Why They Matter (or Don't)",
+      "label": "NFTs — What They Are and Why They Matter (or Don't)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "NFTs are blockchain tokens intended to represent unique assets, claims, or records. Their importance depends on use case: provenance and digital coordination can matter, but ownership, rights, speculation, liquidity, and permanence are often misunderstood.",
+      "tags": [
+        "resource",
+        "economics-finance"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Economics & Finance/Network Effects in Economics (Metcalfe's Law)",
+      "label": "Network Effects in Economics (Metcalfe's Law)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Network effects occur when a product or platform becomes more valuable as more people use it. They can create strong defensibility, winner-take-most markets, switching costs, and platform power.",
+      "tags": [
+        "resource",
+        "economics-finance"
+      ],
       "degree": 6
+    },
+    {
+      "id": "Resources/Economics & Finance/Platform Economics (Multi-Sided Markets)",
+      "label": "Platform Economics (Multi-Sided Markets)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Platform economics studies businesses that coordinate multiple groups, such as buyers and sellers, riders and drivers, or creators and audiences. Value depends on pricing, trust, liquidity, governance, and cross-side network effects.",
+      "tags": [
+        "resource",
+        "economics-finance"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Economics & Finance/Prisoner's Dilemma and Nash Equilibrium",
+      "label": "Prisoner's Dilemma and Nash Equilibrium",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Prisoner's Dilemma shows how individually rational choices can produce collectively worse outcomes. Nash equilibrium captures a stable strategy profile where no player wants to change alone.",
+      "tags": [
+        "resource",
+        "economics-finance"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Economics & Finance/Public Goods and the Free Rider Problem",
+      "label": "Public Goods and the Free Rider Problem",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Public goods are non-rival and non-excludable, meaning one person's use does not reduce another's and people cannot easily be excluded. The free rider problem makes voluntary funding difficult.",
+      "tags": [
+        "resource",
+        "economics-finance"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Economics & Finance/Rent-Seeking vs Wealth Creation",
+      "label": "Rent-Seeking vs Wealth Creation",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Wealth creation increases real value, productivity, usefulness, or capacity, while rent-seeking captures value through control, privilege, scarcity, regulation, or gatekeeping. Distinguishing them clarifies economic and ethical arguments.",
+      "tags": [
+        "resource",
+        "economics-finance"
+      ],
+      "degree": 3
     },
     {
       "id": "Resources/Economics & Finance/Supply and Demand Fundamentals",
@@ -3913,7 +4141,55 @@
         "resource",
         "economics-finance"
       ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Economics & Finance/Technology and Labor Markets (Automation and Jobs)",
+      "label": "Technology and Labor Markets (Automation and Jobs)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Technology changes labor markets by automating tasks, complementing workers, creating new jobs, shifting bargaining power, and changing skill demand. The effects depend on institutions, timing, diffusion, and who captures productivity gains.",
+      "tags": [
+        "resource",
+        "economics-finance"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Economics & Finance/The Economics of Attention",
+      "label": "The Economics of Attention",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The economics of attention treats human attention as a scarce resource competed for by media, platforms, advertisers, creators, and products. Business models shape incentives around engagement, interruption, personalization, and habit formation.",
+      "tags": [
+        "resource",
+        "economics-finance"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Economics & Finance/Universal Basic Income — Arguments For and Against",
+      "label": "Universal Basic Income — Arguments For and Against",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Universal Basic Income is a recurring cash payment to all members of a population, usually without means testing or work requirements. Arguments center on poverty, autonomy, bureaucracy, labor incentives, inflation, cost, and political feasibility.",
+      "tags": [
+        "resource",
+        "economics-finance"
+      ],
       "degree": 4
+    },
+    {
+      "id": "Resources/Economics & Finance/Winner-Take-All Markets",
+      "label": "Winner-Take-All Markets",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Winner-take-all and winner-take-most markets concentrate rewards among a small number of firms or individuals. They often arise from network effects, scale economies, distribution advantages, superstar dynamics, or platform control.",
+      "tags": [
+        "resource",
+        "economics-finance"
+      ],
+      "degree": 7
     },
     {
       "id": "Resources/Economics and Personal Finance",
@@ -4404,7 +4680,7 @@
         "resource",
         "history-of-technology"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/History of Technology/History of Video Game Consoles",
@@ -4500,7 +4776,7 @@
         "resource",
         "history-of-technology"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/History of Technology/The Browser Wars",
@@ -6191,6 +6467,102 @@
       "degree": 6
     },
     {
+      "id": "Resources/Personal Finance/Asset Allocation by Age and Risk Tolerance",
+      "label": "Asset Allocation by Age and Risk Tolerance",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Asset allocation divides a portfolio across assets such as stocks, bonds, cash, and alternatives based on goals, time horizon, risk tolerance, and need for liquidity. Age is a proxy, not the full answer.",
+      "tags": [
+        "resource",
+        "personal-finance"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Personal Finance/Budgeting Methods (50-30-20, Zero-Based, Envelope)",
+      "label": "Budgeting Methods (50-30-20, Zero-Based, Envelope)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Budgeting methods are systems for directing income toward needs, wants, savings, debt, and goals. The best method is the one that matches a person's cognitive style, volatility, and behavior.",
+      "tags": [
+        "resource",
+        "personal-finance"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Personal Finance/Compound Interest — The Eighth Wonder of the World",
+      "label": "Compound Interest — The Eighth Wonder of the World",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Compound interest is growth on prior growth, making time, rate of return, fees, and consistency extremely important. It works for savings and investing, but it also works against borrowers through compounding debt.",
+      "tags": [
+        "resource",
+        "personal-finance"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Personal Finance/Credit Scores — How They Work and How to Improve Them",
+      "label": "Credit Scores — How They Work and How to Improve Them",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Credit scores estimate borrowing risk using credit-report data, but different models and lenders can produce different scores. Payment history, utilization, account age, credit mix, and new inquiries are common inputs.",
+      "tags": [
+        "resource",
+        "personal-finance"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Personal Finance/Debt — Types and Payoff Strategies (Avalanche vs Snowball)",
+      "label": "Debt — Types and Payoff Strategies (Avalanche vs Snowball)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Debt varies by interest rate, collateral, tax treatment, flexibility, and risk. Payoff strategies such as avalanche and snowball trade mathematical efficiency against motivation and behavioral momentum.",
+      "tags": [
+        "resource",
+        "personal-finance"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Personal Finance/Emergency Fund — Size and Structure",
+      "label": "Emergency Fund — Size and Structure",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "An emergency fund is liquid money reserved for unexpected expenses, income disruption, or urgent repairs. Its size depends on job stability, dependents, fixed expenses, insurance coverage, and risk tolerance.",
+      "tags": [
+        "resource",
+        "personal-finance"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Personal Finance/Index Funds vs Active Management — The Data",
+      "label": "Index Funds vs Active Management — The Data",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Index funds passively track a market index, while active managers try to outperform through selection and timing. Costs, taxes, persistence, and benchmark choice are central to the long-run comparison.",
+      "tags": [
+        "resource",
+        "personal-finance"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Personal Finance/Tax-Advantaged Accounts (401k, Roth IRA, HSA, SEP-IRA)",
+      "label": "Tax-Advantaged Accounts (401k, Roth IRA, HSA, SEP-IRA)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Tax-advantaged accounts change when and how investment income is taxed, including workplace plans, IRAs, HSAs, and self-employed retirement accounts. Rules, limits, eligibility, and withdrawal treatment change over time and depend on circumstances.",
+      "tags": [
+        "resource",
+        "personal-finance"
+      ],
+      "degree": 3
+    },
+    {
       "id": "Resources/Personal Productivity/Annual Review Template",
       "label": "Annual Review Template",
       "folder": "Resources",
@@ -6308,7 +6680,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Personal Productivity/Energy Management vs Time Management",
@@ -6694,7 +7066,7 @@
         "resource",
         "philosophy"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Philosophy/Ethics — Deontology (Kant's Categorical Imperative)",
@@ -8876,7 +9248,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Software Engineering/OpenAPI and API Documentation",
@@ -10023,7 +10395,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 4
     },
     {
       "id": "Rumination",
@@ -10055,6 +10427,15 @@
     {
       "id": "Startup",
       "label": "Startup",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Statistical Significance and P-Values",
+      "label": "Statistical Significance and P-Values",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -11165,15 +11546,15 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals",
-      "target": "Game Theory Fundamentals"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals",
       "target": "Resources/AI & Machine Learning/Direct Preference Optimization (DPO)"
     },
     {
       "source": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals",
       "target": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals",
+      "target": "Resources/Economics & Finance/Game Theory Fundamentals"
     },
     {
       "source": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals",
@@ -14408,6 +14789,66 @@
       "target": "Resources/Interview Communication"
     },
     {
+      "source": "Resources/Economics & Finance/Behavioral Economics Overview",
+      "target": "Habit Formation — Cue, Routine, Reward"
+    },
+    {
+      "source": "Resources/Economics & Finance/Behavioral Economics Overview",
+      "target": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference"
+    },
+    {
+      "source": "Resources/Economics & Finance/Behavioral Economics Overview",
+      "target": "Resources/Personal Finance/Budgeting Methods (50-30-20, Zero-Based, Envelope)"
+    },
+    {
+      "source": "Resources/Economics & Finance/Bitcoin — Blockchain, Proof of Work, Mining",
+      "target": "Hash Functions"
+    },
+    {
+      "source": "Resources/Economics & Finance/Bitcoin — Blockchain, Proof of Work, Mining",
+      "target": "Resources/Economics & Finance/Cryptocurrency — Technical Overview"
+    },
+    {
+      "source": "Resources/Economics & Finance/Bitcoin — Blockchain, Proof of Work, Mining",
+      "target": "Resources/Economics & Finance/Game Theory Fundamentals"
+    },
+    {
+      "source": "Resources/Economics & Finance/Cryptocurrency — Technical Overview",
+      "target": "Public Key Cryptography"
+    },
+    {
+      "source": "Resources/Economics & Finance/Cryptocurrency — Technical Overview",
+      "target": "Resources/Economics & Finance/Bitcoin — Blockchain, Proof of Work, Mining"
+    },
+    {
+      "source": "Resources/Economics & Finance/Cryptocurrency — Technical Overview",
+      "target": "Resources/Economics & Finance/DeFi Basics (Protocols, Liquidity Pools, Yield)"
+    },
+    {
+      "source": "Resources/Economics & Finance/DeFi Basics (Protocols, Liquidity Pools, Yield)",
+      "target": "Resources/Economics & Finance/Cryptocurrency — Technical Overview"
+    },
+    {
+      "source": "Resources/Economics & Finance/DeFi Basics (Protocols, Liquidity Pools, Yield)",
+      "target": "Resources/Economics & Finance/Platform Economics (Multi-Sided Markets)"
+    },
+    {
+      "source": "Resources/Economics & Finance/DeFi Basics (Protocols, Liquidity Pools, Yield)",
+      "target": "Risk Management Frameworks"
+    },
+    {
+      "source": "Resources/Economics & Finance/Externalities and Market Failure",
+      "target": "Climate Change — Science and Impacts"
+    },
+    {
+      "source": "Resources/Economics & Finance/Externalities and Market Failure",
+      "target": "Resources/Economics & Finance/Public Goods and the Free Rider Problem"
+    },
+    {
+      "source": "Resources/Economics & Finance/Externalities and Market Failure",
+      "target": "Resources/Economics & Finance/Supply and Demand Fundamentals"
+    },
+    {
       "source": "Resources/Economics & Finance/GDP and Economic Indicators",
       "target": "Data Visualization Best Practices"
     },
@@ -14418,6 +14859,30 @@
     {
       "source": "Resources/Economics & Finance/GDP and Economic Indicators",
       "target": "Resources/Economics & Finance/Microeconomics vs Macroeconomics"
+    },
+    {
+      "source": "Resources/Economics & Finance/Game Theory Fundamentals",
+      "target": "Incentive Design"
+    },
+    {
+      "source": "Resources/Economics & Finance/Game Theory Fundamentals",
+      "target": "Resources/Economics & Finance/Prisoner's Dilemma and Nash Equilibrium"
+    },
+    {
+      "source": "Resources/Economics & Finance/Game Theory Fundamentals",
+      "target": "Resources/Economics & Finance/Public Goods and the Free Rider Problem"
+    },
+    {
+      "source": "Resources/Economics & Finance/Globalization — Benefits and Costs",
+      "target": "Resources/Economics & Finance/Externalities and Market Failure"
+    },
+    {
+      "source": "Resources/Economics & Finance/Globalization — Benefits and Costs",
+      "target": "Resources/Economics & Finance/Supply and Demand Fundamentals"
+    },
+    {
+      "source": "Resources/Economics & Finance/Globalization — Benefits and Costs",
+      "target": "Resources/Economics & Finance/Technology and Labor Markets (Automation and Jobs)"
     },
     {
       "source": "Resources/Economics & Finance/Inflation — Types, Causes, and Effects",
@@ -14468,16 +14933,136 @@
       "target": "Resources/Economics & Finance/Microeconomics vs Macroeconomics"
     },
     {
-      "source": "Resources/Economics & Finance/Supply and Demand Fundamentals",
-      "target": "Externalities and Market Failure"
+      "source": "Resources/Economics & Finance/NFTs — What They Are and Why They Matter (or Don't)",
+      "target": "Digital Identity and Authentication"
+    },
+    {
+      "source": "Resources/Economics & Finance/NFTs — What They Are and Why They Matter (or Don't)",
+      "target": "Resources/Economics & Finance/Cryptocurrency — Technical Overview"
+    },
+    {
+      "source": "Resources/Economics & Finance/NFTs — What They Are and Why They Matter (or Don't)",
+      "target": "Resources/Economics & Finance/Winner-Take-All Markets"
+    },
+    {
+      "source": "Resources/Economics & Finance/Network Effects in Economics (Metcalfe's Law)",
+      "target": "Resources/Economics & Finance/Platform Economics (Multi-Sided Markets)"
+    },
+    {
+      "source": "Resources/Economics & Finance/Network Effects in Economics (Metcalfe's Law)",
+      "target": "Resources/Economics & Finance/Winner-Take-All Markets"
+    },
+    {
+      "source": "Resources/Economics & Finance/Network Effects in Economics (Metcalfe's Law)",
+      "target": "Resources/History of Technology/History of Social Media"
+    },
+    {
+      "source": "Resources/Economics & Finance/Platform Economics (Multi-Sided Markets)",
+      "target": "Resources/Economics & Finance/Network Effects in Economics (Metcalfe's Law)"
+    },
+    {
+      "source": "Resources/Economics & Finance/Platform Economics (Multi-Sided Markets)",
+      "target": "Resources/Economics & Finance/Winner-Take-All Markets"
+    },
+    {
+      "source": "Resources/Economics & Finance/Platform Economics (Multi-Sided Markets)",
+      "target": "Resources/History of Technology/The Age of Surveillance Capitalism"
+    },
+    {
+      "source": "Resources/Economics & Finance/Prisoner's Dilemma and Nash Equilibrium",
+      "target": "Resources/Economics & Finance/Externalities and Market Failure"
+    },
+    {
+      "source": "Resources/Economics & Finance/Prisoner's Dilemma and Nash Equilibrium",
+      "target": "Resources/Economics & Finance/Game Theory Fundamentals"
+    },
+    {
+      "source": "Resources/Economics & Finance/Prisoner's Dilemma and Nash Equilibrium",
+      "target": "Resources/Economics & Finance/Public Goods and the Free Rider Problem"
+    },
+    {
+      "source": "Resources/Economics & Finance/Public Goods and the Free Rider Problem",
+      "target": "Resources/Economics & Finance/Externalities and Market Failure"
+    },
+    {
+      "source": "Resources/Economics & Finance/Public Goods and the Free Rider Problem",
+      "target": "Resources/Economics & Finance/Prisoner's Dilemma and Nash Equilibrium"
+    },
+    {
+      "source": "Resources/Economics & Finance/Public Goods and the Free Rider Problem",
+      "target": "Resources/Software Engineering/Open Source Licensing (MIT, Apache, GPL, etc.)"
+    },
+    {
+      "source": "Resources/Economics & Finance/Rent-Seeking vs Wealth Creation",
+      "target": "Resources/Economics & Finance/Externalities and Market Failure"
+    },
+    {
+      "source": "Resources/Economics & Finance/Rent-Seeking vs Wealth Creation",
+      "target": "Resources/Economics & Finance/Platform Economics (Multi-Sided Markets)"
+    },
+    {
+      "source": "Resources/Economics & Finance/Rent-Seeking vs Wealth Creation",
+      "target": "Resources/Philosophy/Ethics — Consequentialism"
     },
     {
       "source": "Resources/Economics & Finance/Supply and Demand Fundamentals",
-      "target": "Network Effects in Economics (Metcalfe's Law)"
+      "target": "Resources/Economics & Finance/Externalities and Market Failure"
     },
     {
       "source": "Resources/Economics & Finance/Supply and Demand Fundamentals",
       "target": "Resources/Economics & Finance/Inflation — Types, Causes, and Effects"
+    },
+    {
+      "source": "Resources/Economics & Finance/Supply and Demand Fundamentals",
+      "target": "Resources/Economics & Finance/Network Effects in Economics (Metcalfe's Law)"
+    },
+    {
+      "source": "Resources/Economics & Finance/Technology and Labor Markets (Automation and Jobs)",
+      "target": "AI Safety vs AI Capabilities"
+    },
+    {
+      "source": "Resources/Economics & Finance/Technology and Labor Markets (Automation and Jobs)",
+      "target": "Resources/Economics & Finance/Universal Basic Income — Arguments For and Against"
+    },
+    {
+      "source": "Resources/Economics & Finance/Technology and Labor Markets (Automation and Jobs)",
+      "target": "Resources/Economics & Finance/Winner-Take-All Markets"
+    },
+    {
+      "source": "Resources/Economics & Finance/The Economics of Attention",
+      "target": "Attention Residue"
+    },
+    {
+      "source": "Resources/Economics & Finance/The Economics of Attention",
+      "target": "Resources/History of Technology/The Age of Surveillance Capitalism"
+    },
+    {
+      "source": "Resources/Economics & Finance/The Economics of Attention",
+      "target": "Resources/Personal Productivity/Distraction Management"
+    },
+    {
+      "source": "Resources/Economics & Finance/Universal Basic Income — Arguments For and Against",
+      "target": "Resources/Economics & Finance/Monetary Policy vs Fiscal Policy"
+    },
+    {
+      "source": "Resources/Economics & Finance/Universal Basic Income — Arguments For and Against",
+      "target": "Resources/Economics & Finance/Public Goods and the Free Rider Problem"
+    },
+    {
+      "source": "Resources/Economics & Finance/Universal Basic Income — Arguments For and Against",
+      "target": "Resources/Economics & Finance/Technology and Labor Markets (Automation and Jobs)"
+    },
+    {
+      "source": "Resources/Economics & Finance/Winner-Take-All Markets",
+      "target": "Resources/Economics & Finance/Network Effects in Economics (Metcalfe's Law)"
+    },
+    {
+      "source": "Resources/Economics & Finance/Winner-Take-All Markets",
+      "target": "Resources/Economics & Finance/Platform Economics (Multi-Sided Markets)"
+    },
+    {
+      "source": "Resources/Economics & Finance/Winner-Take-All Markets",
+      "target": "Resources/Economics & Finance/Technology and Labor Markets (Automation and Jobs)"
     },
     {
       "source": "Resources/Economics and Personal Finance",
@@ -16930,6 +17515,102 @@
     {
       "source": "Resources/Observability Case Studies",
       "target": "Resources/Testing Strategy"
+    },
+    {
+      "source": "Resources/Personal Finance/Asset Allocation by Age and Risk Tolerance",
+      "target": "Resources/Personal Finance/Emergency Fund — Size and Structure"
+    },
+    {
+      "source": "Resources/Personal Finance/Asset Allocation by Age and Risk Tolerance",
+      "target": "Resources/Personal Finance/Index Funds vs Active Management — The Data"
+    },
+    {
+      "source": "Resources/Personal Finance/Asset Allocation by Age and Risk Tolerance",
+      "target": "Risk Management Frameworks"
+    },
+    {
+      "source": "Resources/Personal Finance/Budgeting Methods (50-30-20, Zero-Based, Envelope)",
+      "target": "Goal Setting Frameworks (SMART, OKRs)"
+    },
+    {
+      "source": "Resources/Personal Finance/Budgeting Methods (50-30-20, Zero-Based, Envelope)",
+      "target": "Resources/Economics & Finance/Behavioral Economics Overview"
+    },
+    {
+      "source": "Resources/Personal Finance/Budgeting Methods (50-30-20, Zero-Based, Envelope)",
+      "target": "Resources/Personal Finance/Emergency Fund — Size and Structure"
+    },
+    {
+      "source": "Resources/Personal Finance/Compound Interest — The Eighth Wonder of the World",
+      "target": "Exponential Growth"
+    },
+    {
+      "source": "Resources/Personal Finance/Compound Interest — The Eighth Wonder of the World",
+      "target": "Resources/Personal Finance/Debt — Types and Payoff Strategies (Avalanche vs Snowball)"
+    },
+    {
+      "source": "Resources/Personal Finance/Compound Interest — The Eighth Wonder of the World",
+      "target": "Resources/Personal Finance/Index Funds vs Active Management — The Data"
+    },
+    {
+      "source": "Resources/Personal Finance/Credit Scores — How They Work and How to Improve Them",
+      "target": "Identity Theft Protection"
+    },
+    {
+      "source": "Resources/Personal Finance/Credit Scores — How They Work and How to Improve Them",
+      "target": "Resources/Personal Finance/Budgeting Methods (50-30-20, Zero-Based, Envelope)"
+    },
+    {
+      "source": "Resources/Personal Finance/Credit Scores — How They Work and How to Improve Them",
+      "target": "Resources/Personal Finance/Debt — Types and Payoff Strategies (Avalanche vs Snowball)"
+    },
+    {
+      "source": "Resources/Personal Finance/Debt — Types and Payoff Strategies (Avalanche vs Snowball)",
+      "target": "Resources/Economics & Finance/Behavioral Economics Overview"
+    },
+    {
+      "source": "Resources/Personal Finance/Debt — Types and Payoff Strategies (Avalanche vs Snowball)",
+      "target": "Resources/Personal Finance/Compound Interest — The Eighth Wonder of the World"
+    },
+    {
+      "source": "Resources/Personal Finance/Debt — Types and Payoff Strategies (Avalanche vs Snowball)",
+      "target": "Resources/Personal Finance/Credit Scores — How They Work and How to Improve Them"
+    },
+    {
+      "source": "Resources/Personal Finance/Emergency Fund — Size and Structure",
+      "target": "Resources/Personal Finance/Budgeting Methods (50-30-20, Zero-Based, Envelope)"
+    },
+    {
+      "source": "Resources/Personal Finance/Emergency Fund — Size and Structure",
+      "target": "Resources/Personal Finance/Debt — Types and Payoff Strategies (Avalanche vs Snowball)"
+    },
+    {
+      "source": "Resources/Personal Finance/Emergency Fund — Size and Structure",
+      "target": "Risk Management Frameworks"
+    },
+    {
+      "source": "Resources/Personal Finance/Index Funds vs Active Management — The Data",
+      "target": "Resources/Personal Finance/Asset Allocation by Age and Risk Tolerance"
+    },
+    {
+      "source": "Resources/Personal Finance/Index Funds vs Active Management — The Data",
+      "target": "Resources/Personal Finance/Compound Interest — The Eighth Wonder of the World"
+    },
+    {
+      "source": "Resources/Personal Finance/Index Funds vs Active Management — The Data",
+      "target": "Statistical Significance and P-Values"
+    },
+    {
+      "source": "Resources/Personal Finance/Tax-Advantaged Accounts (401k, Roth IRA, HSA, SEP-IRA)",
+      "target": "Resources/Personal Finance/Asset Allocation by Age and Risk Tolerance"
+    },
+    {
+      "source": "Resources/Personal Finance/Tax-Advantaged Accounts (401k, Roth IRA, HSA, SEP-IRA)",
+      "target": "Resources/Personal Finance/Budgeting Methods (50-30-20, Zero-Based, Envelope)"
+    },
+    {
+      "source": "Resources/Personal Finance/Tax-Advantaged Accounts (401k, Roth IRA, HSA, SEP-IRA)",
+      "target": "Resources/Personal Finance/Compound Interest — The Eighth Wonder of the World"
     },
     {
       "source": "Resources/Personal Productivity/Annual Review Template",
@@ -21716,5 +22397,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-26T23:31:25Z"
+  "generated_at": "2026-05-27T04:12:54Z"
 }
