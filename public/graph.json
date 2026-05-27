@@ -7,7 +7,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 3
     },
     {
       "id": "A/B Testing Design",
@@ -30,6 +30,15 @@
     {
       "id": "AI Safety vs AI Capabilities",
       "label": "AI Safety vs AI Capabilities",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Accessibility Fundamentals",
+      "label": "Accessibility Fundamentals",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -119,6 +128,15 @@
     {
       "id": "Bayesian Reasoning",
       "label": "Bayesian Reasoning",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Blameless Postmortems",
+      "label": "Blameless Postmortems",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -315,6 +333,15 @@
       "created": null,
       "excerpt": "",
       "tags": [],
+      "degree": 2
+    },
+    {
+      "id": "Difficult Conversations",
+      "label": "Difficult Conversations",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
       "degree": 1
     },
     {
@@ -343,6 +370,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 1
+    },
+    {
+      "id": "Engineering Levels and Ladders",
+      "label": "Engineering Levels and Ladders",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 3
     },
     {
       "id": "Existential Risk",
@@ -374,6 +410,15 @@
     {
       "id": "Fiber — Soluble vs Insoluble",
       "label": "Fiber — Soluble vs Insoluble",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Focus Work — Deep Work Principles",
+      "label": "Focus Work — Deep Work Principles",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -450,11 +495,20 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "Instructional Design",
       "label": "Instructional Design",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Managing Up",
+      "label": "Managing Up",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -533,15 +587,6 @@
       "degree": 1
     },
     {
-      "id": "Metrics Hierarchy (Input vs Output Metrics)",
-      "label": "Metrics Hierarchy (Input vs Output Metrics)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Metrics That Matter vs Vanity Metrics",
       "label": "Metrics That Matter vs Vanity Metrics",
       "folder": null,
@@ -607,33 +652,6 @@
     {
       "id": "Positioning",
       "label": "Positioning",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Prioritization Frameworks (RICE, ICE, MoSCoW, Kano)",
-      "label": "Prioritization Frameworks (RICE, ICE, MoSCoW, Kano)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Product Analytics Fundamentals",
-      "label": "Product Analytics Fundamentals",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 5
-    },
-    {
-      "id": "Product Discovery vs Delivery",
-      "label": "Product Discovery vs Delivery",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -1986,7 +2004,7 @@
         "resource",
         "business-strategy"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Business & Strategy/Platform vs Pipeline Business Models",
@@ -2034,7 +2052,7 @@
         "resource",
         "business-strategy"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Business & Strategy/The Innovator's Dilemma (Clayton Christensen)",
@@ -2785,7 +2803,7 @@
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Cognitive Science & Biases/Cognitive Load Theory",
@@ -4538,7 +4556,7 @@
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Distribution is Everything",
@@ -4610,7 +4628,7 @@
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Entrepreneurship & Startups/MVP Design — What Minimum Actually Means",
@@ -4622,7 +4640,7 @@
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Pricing Strategy (Value-Based, Cost-Plus, Freemium)",
@@ -5432,6 +5450,162 @@
         "ai"
       ],
       "degree": 31
+    },
+    {
+      "id": "Resources/Leadership & Management/1-on-1 Meeting Best Practices",
+      "label": "1-on-1 Meeting Best Practices",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "1-on-1 meetings are recurring manager-report conversations for support, context, feedback, career development, and trust. The best ones are employee-centered, consistent, and action-oriented.",
+      "tags": [
+        "resource",
+        "leadership-management"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Leadership & Management/Async Communication Culture",
+      "label": "Async Communication Culture",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Async communication culture uses written context, clear ownership, durable decisions, and respectful response expectations so teams can coordinate without constant meetings. It works best with strong writing and explicit norms.",
+      "tags": [
+        "resource",
+        "leadership-management"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Leadership & Management/Decision-Making Frameworks (DACI, RACI)",
+      "label": "Decision-Making Frameworks (DACI, RACI)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "DACI and RACI clarify roles in decisions and execution. They reduce ambiguity by naming who drives, approves, contributes, is informed, is responsible, accountable, consulted, or informed.",
+      "tags": [
+        "resource",
+        "leadership-management"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Leadership & Management/Delegation — When and How",
+      "label": "Delegation — When and How",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Delegation transfers ownership of outcomes, decisions, or tasks to create leverage and growth. Good delegation clarifies context, authority, expectations, support, and feedback loops.",
+      "tags": [
+        "resource",
+        "leadership-management"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Leadership & Management/Engineering Management vs IC Track",
+      "label": "Engineering Management vs IC Track",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Engineering management and individual contributor tracks are distinct leadership paths. Managers lead through people, systems, and priorities; senior ICs lead through technical judgment, architecture, execution, and influence.",
+      "tags": [
+        "resource",
+        "leadership-management"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Leadership & Management/Giving Feedback (SBI Model — Situation, Behavior, Impact)",
+      "label": "Giving Feedback (SBI Model — Situation, Behavior, Impact)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The SBI feedback model structures feedback around the situation, observed behavior, and impact. It reduces vague judgment by grounding feedback in specific events and consequences.",
+      "tags": [
+        "resource",
+        "leadership-management"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Leadership & Management/Hiring — Structured Interviews",
+      "label": "Hiring — Structured Interviews",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Structured interviews use consistent criteria, questions, rubrics, and evidence collection to evaluate candidates more fairly and predictively. They reduce bias compared with improvised interview conversations.",
+      "tags": [
+        "resource",
+        "leadership-management"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Leadership & Management/Performance Reviews",
+      "label": "Performance Reviews",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Performance reviews summarize impact, behavior, growth, expectations, and compensation or promotion implications over a defined period. Good reviews are evidence-based and should not surprise the person being reviewed.",
+      "tags": [
+        "resource",
+        "leadership-management"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Leadership & Management/Psychological Safety in Teams (Amy Edmondson)",
+      "label": "Psychological Safety in Teams (Amy Edmondson)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Psychological safety is a shared belief that people can speak up, ask questions, admit mistakes, and challenge ideas without interpersonal punishment. It supports learning, quality, and risk detection.",
+      "tags": [
+        "resource",
+        "leadership-management"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Leadership & Management/Radical Candor (Kim Scott)",
+      "label": "Radical Candor (Kim Scott)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Radical Candor combines caring personally with challenging directly. The framework warns against ruinous empathy, obnoxious aggression, manipulative insincerity, and silence disguised as kindness.",
+      "tags": [
+        "resource",
+        "leadership-management"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Leadership & Management/Remote Team Management",
+      "label": "Remote Team Management",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Remote team management requires deliberate communication, documentation, trust, rituals, timezone awareness, outcome focus, and social connection. It exposes weak management habits that offices can sometimes hide.",
+      "tags": [
+        "resource",
+        "leadership-management"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Leadership & Management/Running Effective Meetings",
+      "label": "Running Effective Meetings",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Effective meetings have a clear purpose, right participants, useful preparation, active facilitation, explicit decisions, and follow-up. Meetings are expensive coordination tools, not default containers for work.",
+      "tags": [
+        "resource",
+        "leadership-management"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Leadership & Management/The Principal-Agent Problem",
+      "label": "The Principal-Agent Problem",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The principal-agent problem occurs when someone acts on behalf of another but has different incentives, information, or risk exposure. It appears in management, sales, finance, politics, and contracting.",
+      "tags": [
+        "resource",
+        "leadership-management"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Learning & Memory/Active Recall vs Passive Review",
@@ -8279,6 +8453,114 @@
       "degree": 14
     },
     {
+      "id": "Resources/Product Management/Activation Metrics",
+      "label": "Activation Metrics",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Activation metrics measure whether new users reach an early moment of value. Good activation metrics are behavior-based, predictive of retention, and specific to the product's value proposition.",
+      "tags": [
+        "resource",
+        "product-management"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Product Management/Customer Interviews — How to Run Them",
+      "label": "Customer Interviews — How to Run Them",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Customer interviews reveal real problems, workflows, motivations, constraints, and alternatives when they focus on specific past behavior rather than hypothetical opinions. Good interviews reduce product risk.",
+      "tags": [
+        "resource",
+        "product-management"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Product Management/Design Sprints (Jake Knapp)",
+      "label": "Design Sprints (Jake Knapp)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Design sprints are time-boxed processes for answering important product questions through mapping, sketching, deciding, prototyping, and testing. They compress discovery, alignment, and learning into a focused cycle.",
+      "tags": [
+        "resource",
+        "product-management"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Product Management/Feature Flags in Product",
+      "label": "Feature Flags in Product",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Feature flags let teams control feature exposure independently of deployment. They support gradual rollout, experimentation, permissioning, operational safety, and fast rollback, but add complexity and cleanup debt.",
+      "tags": [
+        "resource",
+        "product-management"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Product Management/Metrics Hierarchy (Input vs Output Metrics)",
+      "label": "Metrics Hierarchy (Input vs Output Metrics)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "A metrics hierarchy links high-level outcomes to controllable inputs. Output metrics show results, while input metrics describe behaviors, activities, or product changes teams can influence.",
+      "tags": [
+        "resource",
+        "product-management"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Product Management/Net Promoter Score (NPS) — Uses and Limits",
+      "label": "Net Promoter Score (NPS) — Uses and Limits",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Net Promoter Score asks how likely users are to recommend a product, then groups responses into promoters, passives, and detractors. It is useful as a lightweight sentiment signal but weak as a standalone product truth.",
+      "tags": [
+        "resource",
+        "product-management"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Product Management/Prioritization Frameworks (RICE, ICE, MoSCoW, Kano)",
+      "label": "Prioritization Frameworks (RICE, ICE, MoSCoW, Kano)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Prioritization frameworks help product teams compare work by impact, effort, confidence, urgency, customer value, and strategic fit. RICE, ICE, MoSCoW, and Kano are useful aids, but they do not replace judgment.",
+      "tags": [
+        "resource",
+        "product-management"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Product Management/Product Analytics Fundamentals",
+      "label": "Product Analytics Fundamentals",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Product analytics uses event data, funnels, cohorts, segmentation, and experiments to understand how users experience a product. It is strongest when tied to clear questions and reliable instrumentation.",
+      "tags": [
+        "resource",
+        "product-management"
+      ],
+      "degree": 13
+    },
+    {
+      "id": "Resources/Product Management/Product Discovery vs Delivery",
+      "label": "Product Discovery vs Delivery",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Product discovery reduces uncertainty about problems, users, value, usability, feasibility, and viability, while delivery turns validated direction into reliable shipped product. Healthy teams do both continuously.",
+      "tags": [
+        "resource",
+        "product-management"
+      ],
+      "degree": 7
+    },
+    {
       "id": "Resources/Product Management/Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)",
       "label": "Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)",
       "folder": "Resources",
@@ -8288,7 +8570,7 @@
         "resource",
         "product-management"
       ],
-      "degree": 5
+      "degree": 8
     },
     {
       "id": "Resources/Product Management/Product Strategy Framework",
@@ -8300,7 +8582,43 @@
         "resource",
         "product-management"
       ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Product Management/Retention Analysis",
+      "label": "Retention Analysis",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Retention analysis measures whether users continue using a product over time. It reveals product value, habit formation, fit, and customer health more reliably than acquisition or signup numbers alone.",
+      "tags": [
+        "resource",
+        "product-management"
+      ],
       "degree": 5
+    },
+    {
+      "id": "Resources/Product Management/The Dual Track Agile Approach",
+      "label": "The Dual Track Agile Approach",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Dual Track Agile separates discovery work from delivery work while keeping them connected. One track reduces uncertainty about what to build; the other builds and ships validated work reliably.",
+      "tags": [
+        "resource",
+        "product-management"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Product Management/Usability Testing",
+      "label": "Usability Testing",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Usability testing observes representative users attempting realistic tasks to identify friction, confusion, and mismatches between design intent and user behavior. It tests usability, not whether the product should exist.",
+      "tags": [
+        "resource",
+        "product-management"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Product Management/User Stories and Jobs to Be Done",
@@ -8312,7 +8630,7 @@
         "resource",
         "product-management"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Programming Languages",
@@ -9830,7 +10148,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Software Engineering/Git Flow vs Trunk-Based",
@@ -11153,6 +11471,33 @@
     {
       "id": "TLS 1.3",
       "label": "TLS 1.3",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Technical Interview Design",
+      "label": "Technical Interview Design",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Technical Writing Best Practices",
+      "label": "Technical Writing Best Practices",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "The Staff Engineer's Path",
+      "label": "The Staff Engineer's Path",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -13053,15 +13398,15 @@
     },
     {
       "source": "Resources/Business & Strategy/North Star Metric",
-      "target": "Metrics Hierarchy (Input vs Output Metrics)"
-    },
-    {
-      "source": "Resources/Business & Strategy/North Star Metric",
-      "target": "Product Analytics Fundamentals"
-    },
-    {
-      "source": "Resources/Business & Strategy/North Star Metric",
       "target": "Resources/Business & Strategy/Subscription Business Metrics (MRR, ARR, NRR, GRR)"
+    },
+    {
+      "source": "Resources/Business & Strategy/North Star Metric",
+      "target": "Resources/Product Management/Metrics Hierarchy (Input vs Output Metrics)"
+    },
+    {
+      "source": "Resources/Business & Strategy/North Star Metric",
+      "target": "Resources/Product Management/Product Analytics Fundamentals"
     },
     {
       "source": "Resources/Business & Strategy/Platform vs Pipeline Business Models",
@@ -13101,15 +13446,15 @@
     },
     {
       "source": "Resources/Business & Strategy/Subscription Business Metrics (MRR, ARR, NRR, GRR)",
-      "target": "Product Analytics Fundamentals"
-    },
-    {
-      "source": "Resources/Business & Strategy/Subscription Business Metrics (MRR, ARR, NRR, GRR)",
       "target": "Resources/Business & Strategy/North Star Metric"
     },
     {
       "source": "Resources/Business & Strategy/Subscription Business Metrics (MRR, ARR, NRR, GRR)",
       "target": "Resources/Entrepreneurship & Startups/Unit Economics (CAC, LTV, Payback Period, Churn)"
+    },
+    {
+      "source": "Resources/Business & Strategy/Subscription Business Metrics (MRR, ARR, NRR, GRR)",
+      "target": "Resources/Product Management/Product Analytics Fundamentals"
     },
     {
       "source": "Resources/Business & Strategy/The Innovator's Dilemma (Clayton Christensen)",
@@ -14273,10 +14618,6 @@
     },
     {
       "source": "Resources/Data Science & Analytics/A-B Testing Design",
-      "target": "Product Analytics Fundamentals"
-    },
-    {
-      "source": "Resources/Data Science & Analytics/A-B Testing Design",
       "target": "Resources/Data Science & Analytics/Hypothesis Testing"
     },
     {
@@ -14286,6 +14627,10 @@
     {
       "source": "Resources/Data Science & Analytics/A-B Testing Design",
       "target": "Resources/Data Science & Analytics/P-values and Statistical Significance"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/A-B Testing Design",
+      "target": "Resources/Product Management/Product Analytics Fundamentals"
     },
     {
       "source": "Resources/Data Science & Analytics/A-B Testing Design",
@@ -14573,10 +14918,6 @@
     },
     {
       "source": "Resources/Data Science & Analytics/Hypothesis Testing",
-      "target": "Product Analytics Fundamentals"
-    },
-    {
-      "source": "Resources/Data Science & Analytics/Hypothesis Testing",
       "target": "Resources/Data Science & Analytics/Confidence Intervals"
     },
     {
@@ -14586,6 +14927,10 @@
     {
       "source": "Resources/Data Science & Analytics/Hypothesis Testing",
       "target": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Hypothesis Testing",
+      "target": "Resources/Product Management/Product Analytics Fundamentals"
     },
     {
       "source": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose",
@@ -16958,6 +17303,162 @@
     {
       "source": "Resources/LLM System Design",
       "target": "Resources/RAG and Bobby Vector Search"
+    },
+    {
+      "source": "Resources/Leadership & Management/1-on-1 Meeting Best Practices",
+      "target": "Managing Up"
+    },
+    {
+      "source": "Resources/Leadership & Management/1-on-1 Meeting Best Practices",
+      "target": "Resources/Leadership & Management/Giving Feedback (SBI Model — Situation, Behavior, Impact)"
+    },
+    {
+      "source": "Resources/Leadership & Management/1-on-1 Meeting Best Practices",
+      "target": "Resources/Leadership & Management/Psychological Safety in Teams (Amy Edmondson)"
+    },
+    {
+      "source": "Resources/Leadership & Management/Async Communication Culture",
+      "target": "Resources/Leadership & Management/Remote Team Management"
+    },
+    {
+      "source": "Resources/Leadership & Management/Async Communication Culture",
+      "target": "Resources/Leadership & Management/Running Effective Meetings"
+    },
+    {
+      "source": "Resources/Leadership & Management/Async Communication Culture",
+      "target": "Technical Writing Best Practices"
+    },
+    {
+      "source": "Resources/Leadership & Management/Decision-Making Frameworks (DACI, RACI)",
+      "target": "Resources/Leadership & Management/Delegation — When and How"
+    },
+    {
+      "source": "Resources/Leadership & Management/Decision-Making Frameworks (DACI, RACI)",
+      "target": "Resources/Leadership & Management/Running Effective Meetings"
+    },
+    {
+      "source": "Resources/Leadership & Management/Decision-Making Frameworks (DACI, RACI)",
+      "target": "Resources/Leadership & Management/The Principal-Agent Problem"
+    },
+    {
+      "source": "Resources/Leadership & Management/Delegation — When and How",
+      "target": "Resources/Leadership & Management/Decision-Making Frameworks (DACI, RACI)"
+    },
+    {
+      "source": "Resources/Leadership & Management/Delegation — When and How",
+      "target": "Resources/Leadership & Management/Engineering Management vs IC Track"
+    },
+    {
+      "source": "Resources/Leadership & Management/Delegation — When and How",
+      "target": "Resources/Leadership & Management/Performance Reviews"
+    },
+    {
+      "source": "Resources/Leadership & Management/Engineering Management vs IC Track",
+      "target": "Engineering Levels and Ladders"
+    },
+    {
+      "source": "Resources/Leadership & Management/Engineering Management vs IC Track",
+      "target": "Resources/Leadership & Management/Delegation — When and How"
+    },
+    {
+      "source": "Resources/Leadership & Management/Engineering Management vs IC Track",
+      "target": "The Staff Engineer's Path"
+    },
+    {
+      "source": "Resources/Leadership & Management/Giving Feedback (SBI Model — Situation, Behavior, Impact)",
+      "target": "Resources/Leadership & Management/1-on-1 Meeting Best Practices"
+    },
+    {
+      "source": "Resources/Leadership & Management/Giving Feedback (SBI Model — Situation, Behavior, Impact)",
+      "target": "Resources/Leadership & Management/Performance Reviews"
+    },
+    {
+      "source": "Resources/Leadership & Management/Giving Feedback (SBI Model — Situation, Behavior, Impact)",
+      "target": "Resources/Leadership & Management/Radical Candor (Kim Scott)"
+    },
+    {
+      "source": "Resources/Leadership & Management/Hiring — Structured Interviews",
+      "target": "Engineering Levels and Ladders"
+    },
+    {
+      "source": "Resources/Leadership & Management/Hiring — Structured Interviews",
+      "target": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference"
+    },
+    {
+      "source": "Resources/Leadership & Management/Hiring — Structured Interviews",
+      "target": "Technical Interview Design"
+    },
+    {
+      "source": "Resources/Leadership & Management/Performance Reviews",
+      "target": "Engineering Levels and Ladders"
+    },
+    {
+      "source": "Resources/Leadership & Management/Performance Reviews",
+      "target": "Resources/Leadership & Management/1-on-1 Meeting Best Practices"
+    },
+    {
+      "source": "Resources/Leadership & Management/Performance Reviews",
+      "target": "Resources/Leadership & Management/Giving Feedback (SBI Model — Situation, Behavior, Impact)"
+    },
+    {
+      "source": "Resources/Leadership & Management/Psychological Safety in Teams (Amy Edmondson)",
+      "target": "Blameless Postmortems"
+    },
+    {
+      "source": "Resources/Leadership & Management/Psychological Safety in Teams (Amy Edmondson)",
+      "target": "Resources/Leadership & Management/1-on-1 Meeting Best Practices"
+    },
+    {
+      "source": "Resources/Leadership & Management/Psychological Safety in Teams (Amy Edmondson)",
+      "target": "Resources/Leadership & Management/Radical Candor (Kim Scott)"
+    },
+    {
+      "source": "Resources/Leadership & Management/Radical Candor (Kim Scott)",
+      "target": "Difficult Conversations"
+    },
+    {
+      "source": "Resources/Leadership & Management/Radical Candor (Kim Scott)",
+      "target": "Resources/Leadership & Management/Giving Feedback (SBI Model — Situation, Behavior, Impact)"
+    },
+    {
+      "source": "Resources/Leadership & Management/Radical Candor (Kim Scott)",
+      "target": "Resources/Leadership & Management/Psychological Safety in Teams (Amy Edmondson)"
+    },
+    {
+      "source": "Resources/Leadership & Management/Remote Team Management",
+      "target": "Resources/Leadership & Management/Async Communication Culture"
+    },
+    {
+      "source": "Resources/Leadership & Management/Remote Team Management",
+      "target": "Resources/Leadership & Management/Psychological Safety in Teams (Amy Edmondson)"
+    },
+    {
+      "source": "Resources/Leadership & Management/Remote Team Management",
+      "target": "Resources/Leadership & Management/Running Effective Meetings"
+    },
+    {
+      "source": "Resources/Leadership & Management/Running Effective Meetings",
+      "target": "Focus Work — Deep Work Principles"
+    },
+    {
+      "source": "Resources/Leadership & Management/Running Effective Meetings",
+      "target": "Resources/Leadership & Management/Async Communication Culture"
+    },
+    {
+      "source": "Resources/Leadership & Management/Running Effective Meetings",
+      "target": "Resources/Leadership & Management/Decision-Making Frameworks (DACI, RACI)"
+    },
+    {
+      "source": "Resources/Leadership & Management/The Principal-Agent Problem",
+      "target": "Incentive Design"
+    },
+    {
+      "source": "Resources/Leadership & Management/The Principal-Agent Problem",
+      "target": "Resources/Leadership & Management/Decision-Making Frameworks (DACI, RACI)"
+    },
+    {
+      "source": "Resources/Leadership & Management/The Principal-Agent Problem",
+      "target": "Resources/Leadership & Management/Delegation — When and How"
     },
     {
       "source": "Resources/Learning & Memory/Active Recall vs Passive Review",
@@ -19944,12 +20445,120 @@
       "target": "Resources/MLOps and ML Engineering"
     },
     {
-      "source": "Resources/Product Management/Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)",
-      "target": "Prioritization Frameworks (RICE, ICE, MoSCoW, Kano)"
+      "source": "Resources/Product Management/Activation Metrics",
+      "target": "Resources/Product Management/Product Analytics Fundamentals"
+    },
+    {
+      "source": "Resources/Product Management/Activation Metrics",
+      "target": "Resources/Product Management/Retention Analysis"
+    },
+    {
+      "source": "Resources/Product Management/Activation Metrics",
+      "target": "Resources/Product Management/User Stories and Jobs to Be Done"
+    },
+    {
+      "source": "Resources/Product Management/Customer Interviews — How to Run Them",
+      "target": "Resources/Entrepreneurship & Startups/Customer Discovery"
+    },
+    {
+      "source": "Resources/Product Management/Customer Interviews — How to Run Them",
+      "target": "Resources/Entrepreneurship & Startups/Jobs to Be Done Framework"
+    },
+    {
+      "source": "Resources/Product Management/Customer Interviews — How to Run Them",
+      "target": "Resources/Product Management/Product Discovery vs Delivery"
+    },
+    {
+      "source": "Resources/Product Management/Design Sprints (Jake Knapp)",
+      "target": "Resources/Entrepreneurship & Startups/MVP Design — What Minimum Actually Means"
+    },
+    {
+      "source": "Resources/Product Management/Design Sprints (Jake Knapp)",
+      "target": "Resources/Product Management/Product Discovery vs Delivery"
+    },
+    {
+      "source": "Resources/Product Management/Design Sprints (Jake Knapp)",
+      "target": "Resources/Product Management/Usability Testing"
+    },
+    {
+      "source": "Resources/Product Management/Feature Flags in Product",
+      "target": "A-B Testing Fundamentals"
+    },
+    {
+      "source": "Resources/Product Management/Feature Flags in Product",
+      "target": "Resources/Product Management/Product Analytics Fundamentals"
+    },
+    {
+      "source": "Resources/Product Management/Feature Flags in Product",
+      "target": "Resources/Software Engineering/Feature Flags and Progressive Rollout"
+    },
+    {
+      "source": "Resources/Product Management/Metrics Hierarchy (Input vs Output Metrics)",
+      "target": "Resources/Business & Strategy/North Star Metric"
+    },
+    {
+      "source": "Resources/Product Management/Metrics Hierarchy (Input vs Output Metrics)",
+      "target": "Resources/Product Management/Activation Metrics"
+    },
+    {
+      "source": "Resources/Product Management/Metrics Hierarchy (Input vs Output Metrics)",
+      "target": "Resources/Product Management/Product Analytics Fundamentals"
+    },
+    {
+      "source": "Resources/Product Management/Net Promoter Score (NPS) — Uses and Limits",
+      "target": "Resources/Product Management/Customer Interviews — How to Run Them"
+    },
+    {
+      "source": "Resources/Product Management/Net Promoter Score (NPS) — Uses and Limits",
+      "target": "Resources/Product Management/Metrics Hierarchy (Input vs Output Metrics)"
+    },
+    {
+      "source": "Resources/Product Management/Net Promoter Score (NPS) — Uses and Limits",
+      "target": "Resources/Product Management/Product Analytics Fundamentals"
+    },
+    {
+      "source": "Resources/Product Management/Prioritization Frameworks (RICE, ICE, MoSCoW, Kano)",
+      "target": "Decision Matrices"
+    },
+    {
+      "source": "Resources/Product Management/Prioritization Frameworks (RICE, ICE, MoSCoW, Kano)",
+      "target": "Resources/Product Management/Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)"
+    },
+    {
+      "source": "Resources/Product Management/Prioritization Frameworks (RICE, ICE, MoSCoW, Kano)",
+      "target": "Resources/Product Management/Product Strategy Framework"
+    },
+    {
+      "source": "Resources/Product Management/Product Analytics Fundamentals",
+      "target": "A-B Testing Fundamentals"
+    },
+    {
+      "source": "Resources/Product Management/Product Analytics Fundamentals",
+      "target": "Resources/Product Management/Metrics Hierarchy (Input vs Output Metrics)"
+    },
+    {
+      "source": "Resources/Product Management/Product Analytics Fundamentals",
+      "target": "Resources/Product Management/Retention Analysis"
+    },
+    {
+      "source": "Resources/Product Management/Product Discovery vs Delivery",
+      "target": "Resources/Product Management/Customer Interviews — How to Run Them"
+    },
+    {
+      "source": "Resources/Product Management/Product Discovery vs Delivery",
+      "target": "Resources/Product Management/Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)"
+    },
+    {
+      "source": "Resources/Product Management/Product Discovery vs Delivery",
+      "target": "Resources/Product Management/The Dual Track Agile Approach"
     },
     {
       "source": "Resources/Product Management/Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)",
-      "target": "Product Discovery vs Delivery"
+      "target": "Resources/Product Management/Prioritization Frameworks (RICE, ICE, MoSCoW, Kano)"
+    },
+    {
+      "source": "Resources/Product Management/Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)",
+      "target": "Resources/Product Management/Product Discovery vs Delivery"
     },
     {
       "source": "Resources/Product Management/Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)",
@@ -19966,6 +20575,42 @@
     {
       "source": "Resources/Product Management/Product Strategy Framework",
       "target": "Resources/Product Management/Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)"
+    },
+    {
+      "source": "Resources/Product Management/Retention Analysis",
+      "target": "Resources/Business & Strategy/Subscription Business Metrics (MRR, ARR, NRR, GRR)"
+    },
+    {
+      "source": "Resources/Product Management/Retention Analysis",
+      "target": "Resources/Product Management/Activation Metrics"
+    },
+    {
+      "source": "Resources/Product Management/Retention Analysis",
+      "target": "Resources/Product Management/Product Analytics Fundamentals"
+    },
+    {
+      "source": "Resources/Product Management/The Dual Track Agile Approach",
+      "target": "Resources/Product Management/Customer Interviews — How to Run Them"
+    },
+    {
+      "source": "Resources/Product Management/The Dual Track Agile Approach",
+      "target": "Resources/Product Management/Product Discovery vs Delivery"
+    },
+    {
+      "source": "Resources/Product Management/The Dual Track Agile Approach",
+      "target": "Resources/Product Management/Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)"
+    },
+    {
+      "source": "Resources/Product Management/Usability Testing",
+      "target": "Accessibility Fundamentals"
+    },
+    {
+      "source": "Resources/Product Management/Usability Testing",
+      "target": "Resources/Product Management/Customer Interviews — How to Run Them"
+    },
+    {
+      "source": "Resources/Product Management/Usability Testing",
+      "target": "Resources/Product Management/Design Sprints (Jake Knapp)"
     },
     {
       "source": "Resources/Product Management/User Stories and Jobs to Be Done",
@@ -21953,11 +22598,11 @@
     },
     {
       "source": "Resources/Software Engineering/Feature Flags and Progressive Rollout",
-      "target": "Product Analytics Fundamentals"
+      "target": "Resources/Product Engineering"
     },
     {
       "source": "Resources/Software Engineering/Feature Flags and Progressive Rollout",
-      "target": "Resources/Product Engineering"
+      "target": "Resources/Product Management/Product Analytics Fundamentals"
     },
     {
       "source": "Resources/Software Engineering/Feature Flags and Progressive Rollout",
@@ -23696,5 +24341,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-27T04:34:17Z"
+  "generated_at": "2026-05-27T04:40:28Z"
 }
