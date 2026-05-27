@@ -336,6 +336,17 @@
       "degree": 0
     },
     {
+      "id": "Daily Notes/2026-05-27",
+      "label": "2026-05-27",
+      "folder": "Daily Notes",
+      "created": "2026-05-27",
+      "excerpt": "Session 1 - Topics covered — Continued the Bobby master topics capture from , starting after topic 908. - What was learned or decided — There were 142 topics remaining at the start of the session,…",
+      "tags": [
+        "daily"
+      ],
+      "degree": 0
+    },
+    {
       "id": "Data Visualization Best Practices",
       "label": "Data Visualization Best Practices",
       "folder": null,
@@ -1442,7 +1453,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "Resources/AI & Machine Learning/Scaling Laws",
@@ -1502,7 +1513,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/AI & Machine Learning/Transfer Learning",
@@ -1526,7 +1537,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 21
+      "degree": 22
     },
     {
       "id": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)",
@@ -1562,7 +1573,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "Resources/AI & Machine Learning/Vision-Language Models",
@@ -2070,7 +2081,7 @@
         "resource",
         "books-ideas"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Books & Ideas/Clean Code — Key Ideas (Robert C. Martin)",
@@ -2109,6 +2120,18 @@
       "degree": 3
     },
     {
+      "id": "Resources/Books & Ideas/Drive — Key Ideas (Daniel Pink)",
+      "label": "Drive — Key Ideas (Daniel Pink)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Drive argues that durable motivation depends less on external carrots and sticks than on autonomy, mastery, and purpose. The useful takeaway is to design work, habits, and learning environments so people feel ownership, see progress, and connect effort to something meaningful.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 3
+    },
+    {
       "id": "Resources/Books & Ideas/Gödel, Escher, Bach — Key Ideas (Hofstadter)",
       "label": "Gödel, Escher, Bach — Key Ideas (Hofstadter)",
       "folder": "Resources",
@@ -2138,6 +2161,30 @@
       "folder": "Resources",
       "created": "2026-05-26",
       "excerpt": "Life 3.0 explores artificial intelligence, consciousness, cosmic futures, and choices about beneficial AI. Tegmark frames intelligence as the ability to accomplish goals and asks what future humans want.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Books & Ideas/Man's Search for Meaning — Key Ideas (Viktor Frankl)",
+      "label": "Man's Search for Meaning — Key Ideas (Viktor Frankl)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Man's Search for Meaning argues that humans can endure extreme suffering more effectively when life remains connected to meaning, responsibility, love, or a future task. Its enduring value is not optimism, but the distinction between unavoidable pain and the stance one chooses toward it.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Books & Ideas/Meditations — Key Ideas (Marcus Aurelius)",
+      "label": "Meditations — Key Ideas (Marcus Aurelius)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Meditations is Marcus Aurelius's private Stoic practice journal about discipline, mortality, duty, perception, and control. Its value is as a repeated reminder to separate events from judgments and act according to character rather than mood.",
       "tags": [
         "resource",
         "books-ideas"
@@ -2234,6 +2281,18 @@
       "folder": "Resources",
       "created": "2026-05-26",
       "excerpt": "The Innovator's Dilemma explains how successful companies can fail by rationally serving current customers and profit models while disruptive entrants improve from overlooked markets. The threat is structural, not stupidity.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Books & Ideas/The Power of Now — Key Ideas (Eckhart Tolle)",
+      "label": "The Power of Now — Key Ideas (Eckhart Tolle)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "The Power of Now frames suffering as identification with compulsive thought, regret, anticipation, and ego narratives. Its practical value is the reminder to return attention to immediate experience when mental loops become louder than reality.",
       "tags": [
         "resource",
         "books-ideas"
@@ -3217,7 +3276,7 @@
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Cognitive Science & Biases/Cognitive Load Theory",
@@ -3529,7 +3588,7 @@
         "resource",
         "communication-writing"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Communication & Writing/Negotiation Fundamentals (BATNA, ZOPA)",
@@ -3601,7 +3660,7 @@
         "resource",
         "communication-writing"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Communication & Writing/Storytelling with Data",
@@ -3649,7 +3708,7 @@
         "resource",
         "communication-writing"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Communication & Writing/Writing for Developers — Docs, READMEs, Commit Messages",
@@ -4561,7 +4620,7 @@
         "resource",
         "design-ux"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Design & UX/UX Research Methods Overview",
@@ -6586,6 +6645,103 @@
       "degree": 31
     },
     {
+      "id": "Resources/Language & Linguistics/Effective Vocabulary Building",
+      "label": "Effective Vocabulary Building",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Effective vocabulary building means learning words as usable distinctions, not isolated definitions. Durable vocabulary comes from context, examples, retrieval, morphology, and active use in speech or writing.",
+      "tags": [
+        "resource",
+        "language-linguistics"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Language & Linguistics/Etymology — How Words Evolve",
+      "label": "Etymology — How Words Evolve",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Etymology studies how words change through borrowing, sound shifts, metaphor, semantic drift, and cultural contact. It is useful because word histories reveal hidden connections, but current meaning still depends on present usage.",
+      "tags": [
+        "resource",
+        "language-linguistics"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Language & Linguistics/How Language Works (Syntax, Semantics, Pragmatics)",
+      "label": "How Language Works (Syntax, Semantics, Pragmatics)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Language works through layered systems: syntax structures sentences, semantics carries meaning, and pragmatics explains how context changes what utterances actually do. This note gives Bobby a compact map for reasoning about communication, ambiguity, and human meaning-making.",
+      "tags": [
+        "resource",
+        "language-linguistics"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Language & Linguistics/Language Acquisition — How Humans Learn Language",
+      "label": "Language Acquisition — How Humans Learn Language",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Language acquisition is the human process of learning sound patterns, words, grammar, and social use from rich interaction. It combines biological readiness, statistical learning, feedback, imitation, and meaningful communication.",
+      "tags": [
+        "resource",
+        "language-linguistics"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Language & Linguistics/Language Learning Methods (Immersion, Comprehensible Input, Krashen)",
+      "label": "Language Learning Methods (Immersion, Comprehensible Input, Krashen)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Strong language learning combines comprehensible input, meaningful output, spaced review, pronunciation practice, and real interaction. Krashen's input hypothesis is useful because learners need language they mostly understand, but fluency also benefits from deliberate output and feedback.",
+      "tags": [
+        "resource",
+        "language-linguistics"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Language & Linguistics/Natural Language Processing Overview",
+      "label": "Natural Language Processing Overview",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Natural language processing is the field of making computers process, search, generate, classify, translate, and reason over human language. Modern NLP is dominated by embeddings and transformer language models, but classic tasks still depend on data quality, evaluation, and linguistic ambiguity.",
+      "tags": [
+        "resource",
+        "language-linguistics",
+        "ai"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Language & Linguistics/Sapir-Whorf Hypothesis (Language Shapes Thought)",
+      "label": "Sapir-Whorf Hypothesis (Language Shapes Thought)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "The Sapir-Whorf hypothesis asks whether language shapes thought, with a strong deterministic version mostly rejected and a weaker influence version still useful. The practical takeaway is that words and categories can guide attention without fully trapping cognition.",
+      "tags": [
+        "resource",
+        "language-linguistics"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Language & Linguistics/Writing Systems of the World",
+      "label": "Writing Systems of the World",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Writing systems encode language in different ways: alphabets represent sounds, syllabaries represent syllables, abjads emphasize consonants, and logographic systems represent morphemes or words. Understanding writing systems helps explain literacy, typography, input methods, and why text is not language itself.",
+      "tags": [
+        "resource",
+        "language-linguistics"
+      ],
+      "degree": 3
+    },
+    {
       "id": "Resources/Leadership & Management/1-on-1 Meeting Best Practices",
       "label": "1-on-1 Meeting Best Practices",
       "folder": "Resources",
@@ -6823,7 +6979,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "Resources/Learning & Memory/Anki — Optimal Card Design",
@@ -6871,7 +7027,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/Learning & Memory/Desirable Difficulties in Learning",
@@ -7003,7 +7159,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Learning & Memory/Metacognition",
@@ -7063,7 +7219,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Learning & Memory/Systems Thinking",
@@ -7572,7 +7728,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 11
+      "degree": 13
     },
     {
       "id": "Resources/Mental Health & Psychology/FOMO and Digital Anxiety",
@@ -7680,7 +7836,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Mental Health & Psychology/Neuroplasticity",
@@ -7716,7 +7872,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Mental Health & Psychology/Psychological Safety",
@@ -7740,7 +7896,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Mental Health & Psychology/Self-Compassion vs Self-Esteem (Kristin Neff)",
@@ -7788,7 +7944,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)",
@@ -8882,7 +9038,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Personal Productivity/Focus Modes and Context Switching Costs",
@@ -9002,7 +9158,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Personal Productivity/Notification Hygiene",
@@ -9256,7 +9412,7 @@
         "resource",
         "philosophy"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Philosophy/Falsifiability and the Demarcation Problem",
@@ -9436,7 +9592,7 @@
         "resource",
         "philosophy"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Philosophy/Stoicism — Daily Practices (Negative Visualization, Memento Mori, Amor Fati)",
@@ -14738,6 +14894,18 @@
       "target": "Resources/System Design/Database Replication"
     },
     {
+      "source": "Resources/Books & Ideas/Drive — Key Ideas (Daniel Pink)",
+      "target": "Resources/Books & Ideas/Atomic Habits — Key Ideas (James Clear)"
+    },
+    {
+      "source": "Resources/Books & Ideas/Drive — Key Ideas (Daniel Pink)",
+      "target": "Resources/Personal Productivity/Flow State — How to Trigger It"
+    },
+    {
+      "source": "Resources/Books & Ideas/Drive — Key Ideas (Daniel Pink)",
+      "target": "Resources/Personal Productivity/Motivation — Intrinsic vs Extrinsic"
+    },
+    {
       "source": "Resources/Books & Ideas/Gödel, Escher, Bach — Key Ideas (Hofstadter)",
       "target": "Formal Languages and Automata Theory"
     },
@@ -14772,6 +14940,30 @@
     {
       "source": "Resources/Books & Ideas/Life 3.0 — Key Ideas (Tegmark)",
       "target": "Resources/Philosophy/Philosophy of Mind — Consciousness"
+    },
+    {
+      "source": "Resources/Books & Ideas/Man's Search for Meaning — Key Ideas (Viktor Frankl)",
+      "target": "Resources/Mental Health & Psychology/Post-Traumatic Growth"
+    },
+    {
+      "source": "Resources/Books & Ideas/Man's Search for Meaning — Key Ideas (Viktor Frankl)",
+      "target": "Resources/Mental Health & Psychology/Resilience — How to Build It"
+    },
+    {
+      "source": "Resources/Books & Ideas/Man's Search for Meaning — Key Ideas (Viktor Frankl)",
+      "target": "Resources/Philosophy/Existentialism Basics (Sartre, Camus, Heidegger)"
+    },
+    {
+      "source": "Resources/Books & Ideas/Meditations — Key Ideas (Marcus Aurelius)",
+      "target": "Resources/Mental Health & Psychology/Emotional Regulation Techniques"
+    },
+    {
+      "source": "Resources/Books & Ideas/Meditations — Key Ideas (Marcus Aurelius)",
+      "target": "Resources/Mental Health & Psychology/Stoicism Applied to Modern Life"
+    },
+    {
+      "source": "Resources/Books & Ideas/Meditations — Key Ideas (Marcus Aurelius)",
+      "target": "Resources/Philosophy/Stoicism — Core Principles"
     },
     {
       "source": "Resources/Books & Ideas/Poor Charlie's Almanack — Key Ideas (Munger)",
@@ -14868,6 +15060,18 @@
     {
       "source": "Resources/Books & Ideas/The Innovator's Dilemma — Key Ideas (Christensen)",
       "target": "Resources/Business & Strategy/The Innovator's Dilemma (Clayton Christensen)"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Power of Now — Key Ideas (Eckhart Tolle)",
+      "target": "Resources/Mental Health & Psychology/Emotional Regulation Techniques"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Power of Now — Key Ideas (Eckhart Tolle)",
+      "target": "Resources/Mental Health & Psychology/Mindfulness — Evidence and Practice"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Power of Now — Key Ideas (Eckhart Tolle)",
+      "target": "Resources/Mental Health & Psychology/Stoicism Applied to Modern Life"
     },
     {
       "source": "Resources/Books & Ideas/The Pragmatic Programmer — Key Ideas (Hunt, Thomas)",
@@ -19664,6 +19868,102 @@
     {
       "source": "Resources/LLM System Design",
       "target": "Resources/RAG and Bobby Vector Search"
+    },
+    {
+      "source": "Resources/Language & Linguistics/Effective Vocabulary Building",
+      "target": "Resources/Communication & Writing/Writing Clearly — Principles (Williams, Pinker)"
+    },
+    {
+      "source": "Resources/Language & Linguistics/Effective Vocabulary Building",
+      "target": "Resources/Language & Linguistics/Etymology — How Words Evolve"
+    },
+    {
+      "source": "Resources/Language & Linguistics/Effective Vocabulary Building",
+      "target": "Resources/Learning & Memory/Spaced Repetition — Theory and Implementation"
+    },
+    {
+      "source": "Resources/Language & Linguistics/Etymology — How Words Evolve",
+      "target": "Resources/Communication & Writing/Writing Clearly — Principles (Williams, Pinker)"
+    },
+    {
+      "source": "Resources/Language & Linguistics/Etymology — How Words Evolve",
+      "target": "Resources/Language & Linguistics/Effective Vocabulary Building"
+    },
+    {
+      "source": "Resources/Language & Linguistics/Etymology — How Words Evolve",
+      "target": "Resources/Language & Linguistics/How Language Works (Syntax, Semantics, Pragmatics)"
+    },
+    {
+      "source": "Resources/Language & Linguistics/How Language Works (Syntax, Semantics, Pragmatics)",
+      "target": "Resources/Communication & Writing/Explaining Complex Ideas Simply (The Curse of Knowledge)"
+    },
+    {
+      "source": "Resources/Language & Linguistics/How Language Works (Syntax, Semantics, Pragmatics)",
+      "target": "Resources/Communication & Writing/Rhetoric — Logos, Ethos, Pathos"
+    },
+    {
+      "source": "Resources/Language & Linguistics/How Language Works (Syntax, Semantics, Pragmatics)",
+      "target": "Resources/Language & Linguistics/Natural Language Processing Overview"
+    },
+    {
+      "source": "Resources/Language & Linguistics/Language Acquisition — How Humans Learn Language",
+      "target": "Resources/Language & Linguistics/Language Learning Methods (Immersion, Comprehensible Input, Krashen)"
+    },
+    {
+      "source": "Resources/Language & Linguistics/Language Acquisition — How Humans Learn Language",
+      "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
+    },
+    {
+      "source": "Resources/Language & Linguistics/Language Acquisition — How Humans Learn Language",
+      "target": "Resources/Learning & Memory/Spaced Repetition — Theory and Implementation"
+    },
+    {
+      "source": "Resources/Language & Linguistics/Language Learning Methods (Immersion, Comprehensible Input, Krashen)",
+      "target": "Resources/Language & Linguistics/Effective Vocabulary Building"
+    },
+    {
+      "source": "Resources/Language & Linguistics/Language Learning Methods (Immersion, Comprehensible Input, Krashen)",
+      "target": "Resources/Language & Linguistics/Language Acquisition — How Humans Learn Language"
+    },
+    {
+      "source": "Resources/Language & Linguistics/Language Learning Methods (Immersion, Comprehensible Input, Krashen)",
+      "target": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)"
+    },
+    {
+      "source": "Resources/Language & Linguistics/Natural Language Processing Overview",
+      "target": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)"
+    },
+    {
+      "source": "Resources/Language & Linguistics/Natural Language Processing Overview",
+      "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
+    },
+    {
+      "source": "Resources/Language & Linguistics/Natural Language Processing Overview",
+      "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
+    },
+    {
+      "source": "Resources/Language & Linguistics/Sapir-Whorf Hypothesis (Language Shapes Thought)",
+      "target": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference"
+    },
+    {
+      "source": "Resources/Language & Linguistics/Sapir-Whorf Hypothesis (Language Shapes Thought)",
+      "target": "Resources/Language & Linguistics/Effective Vocabulary Building"
+    },
+    {
+      "source": "Resources/Language & Linguistics/Sapir-Whorf Hypothesis (Language Shapes Thought)",
+      "target": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them"
+    },
+    {
+      "source": "Resources/Language & Linguistics/Writing Systems of the World",
+      "target": "Resources/AI & Machine Learning/Tokenization — BPE, WordPiece, SentencePiece"
+    },
+    {
+      "source": "Resources/Language & Linguistics/Writing Systems of the World",
+      "target": "Resources/Design & UX/Typography Fundamentals"
+    },
+    {
+      "source": "Resources/Language & Linguistics/Writing Systems of the World",
+      "target": "Resources/Language & Linguistics/How Language Works (Syntax, Semantics, Pragmatics)"
     },
     {
       "source": "Resources/Leadership & Management/1-on-1 Meeting Best Practices",
@@ -26894,5 +27194,5 @@
       "target": "wikilink"
     }
   ],
-  "generated_at": "2026-05-27T05:22:46Z"
+  "generated_at": "2026-05-27T14:57:09Z"
 }
