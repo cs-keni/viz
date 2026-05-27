@@ -162,15 +162,6 @@
       "degree": 6
     },
     {
-      "id": "Calibration and Epistemic Humility",
-      "label": "Calibration and Epistemic Humility",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Changelog and Release Notes Writing",
       "label": "Changelog and Release Notes Writing",
       "folder": null,
@@ -511,15 +502,6 @@
     {
       "id": "History of the Web (Web 1.0 → 2.0 → 3.0)",
       "label": "History of the Web (Web 1.0 → 2.0 → 3.0)",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "How to Update Beliefs Gracefully (Bayesian Updating)",
-      "label": "How to Update Beliefs Gracefully (Bayesian Updating)",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -2223,7 +2205,7 @@
         "bobby",
         "obsidian"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Bobby/Bobby's Voice Pipeline Architecture",
@@ -3481,7 +3463,7 @@
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/Cognitive Science & Biases/Cognitive Load Theory",
@@ -3989,7 +3971,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Data Science & Analytics/Causal Inference (Correlation vs Causation)",
@@ -4181,7 +4163,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose",
@@ -4193,7 +4175,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "Resources/Data Science & Analytics/OLAP vs OLTP",
@@ -4217,7 +4199,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Data Science & Analytics/Probability Theory Basics",
@@ -7104,7 +7086,7 @@
         "resource",
         "language-linguistics"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Language & Linguistics/Writing Systems of the World",
@@ -7380,7 +7362,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "Resources/Learning & Memory/Chunking Information",
@@ -7536,7 +7518,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Learning & Memory/Metacognition",
@@ -7572,7 +7554,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Learning & Memory/Second-Order Thinking",
@@ -7608,7 +7590,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Learning & Memory/Teaching as a Learning Tool",
@@ -8360,6 +8342,128 @@
         "interview-prep"
       ],
       "degree": 15
+    },
+    {
+      "id": "Resources/Meta-Learning & Epistemics/Calibration and Epistemic Humility",
+      "label": "Calibration and Epistemic Humility",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Calibration means your confidence matches reality over time: 70 percent confidence should be right about 70 percent of the time. Epistemic humility is the discipline of treating beliefs as improvable models rather than identity claims.",
+      "tags": [
+        "resource",
+        "meta-learning-epistemics"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Meta-Learning & Epistemics/Fermi Estimation Techniques",
+      "label": "Fermi Estimation Techniques",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Fermi estimation is a way to approximate unknown quantities by decomposing them into smaller guesses and orders of magnitude. It is useful for sanity-checking claims, sizing systems, making decisions with incomplete data, and catching impossible numbers early.",
+      "tags": [
+        "resource",
+        "meta-learning-epistemics"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Meta-Learning & Epistemics/How to Build a Mental Model",
+      "label": "How to Build a Mental Model",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "A mental model is a compressed representation of how something works, useful because it lets you predict, explain, and act without memorizing every detail. Building one means identifying the system boundaries, core variables, causal relationships, feedback loops, failure modes, and places where the model breaks.",
+      "tags": [
+        "resource",
+        "meta-learning-epistemics"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Meta-Learning & Epistemics/How to Find the Crux of a Disagreement",
+      "label": "How to Find the Crux of a Disagreement",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "The crux of a disagreement is the belief that would actually change someone's conclusion if it changed. Finding it requires separating definitions, values, evidence, predictions, and trust judgments instead of arguing around surface claims.",
+      "tags": [
+        "resource",
+        "meta-learning-epistemics"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Meta-Learning & Epistemics/How to Read Primary Research (Not Just Summaries)",
+      "label": "How to Read Primary Research (Not Just Summaries)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Reading primary research means inspecting the actual question, methods, data, results, limitations, and incentives rather than relying only on abstracts or popular summaries. The goal is to understand what the study really supports, what it does not, and how much confidence it deserves.",
+      "tags": [
+        "resource",
+        "meta-learning-epistemics",
+        "study"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Meta-Learning & Epistemics/How to Update Beliefs Gracefully (Bayesian Updating)",
+      "label": "How to Update Beliefs Gracefully (Bayesian Updating)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Bayesian updating is the habit of changing confidence when new evidence arrives, rather than flipping between certainty and rejection. Updating gracefully means treating belief changes as maintenance on your model, not as a personal defeat.",
+      "tags": [
+        "resource",
+        "meta-learning-epistemics"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Meta-Learning & Epistemics/How to Write an Evergreen Note",
+      "label": "How to Write an Evergreen Note",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "An evergreen note is a durable, self-contained idea written so it can be reused, linked, and improved over time. Good evergreen notes have a clear claim, context, reasoning, examples, and connections instead of being raw highlights or vague summaries.",
+      "tags": [
+        "resource",
+        "meta-learning-epistemics",
+        "obsidian"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Meta-Learning & Epistemics/The Difference Between Information and Knowledge",
+      "label": "The Difference Between Information and Knowledge",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Information is available content; knowledge is organized, interpreted, connected, and usable understanding. The difference matters because collecting more notes, tabs, or facts does not automatically improve judgment unless the material changes what you can explain, predict, or do.",
+      "tags": [
+        "resource",
+        "meta-learning-epistemics"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Resources/Meta-Learning & Epistemics/The Map is Not the Territory",
+      "label": "The Map is Not the Territory",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "`The map is not the territory` means models, labels, metrics, notes, and abstractions are representations, not reality itself. The principle is a warning to use models as tools while checking them against lived evidence, edge cases, and changing conditions.",
+      "tags": [
+        "resource",
+        "meta-learning-epistemics"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Meta-Learning & Epistemics/When to Trust Experts (and When Not To)",
+      "label": "When to Trust Experts (and When Not To)",
+      "folder": "Resources",
+      "created": "2026-05-27",
+      "excerpt": "Trusting experts is usually rational when the domain has real expertise, feedback loops, transparent methods, and consensus, but expert claims still need scope boundaries. Be more cautious when incentives are distorted, predictions are unfalsifiable, track records are hidden, or the expert is speaking outside their domain.",
+      "tags": [
+        "resource",
+        "meta-learning-epistemics"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Multi-Agent RL",
@@ -9458,7 +9562,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Personal Productivity/Capture Systems (Ubiquitous Capture)",
@@ -9578,7 +9682,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Personal Productivity/Flow State — How to Trigger It",
@@ -9734,7 +9838,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Personal Productivity/PARA Method (Projects, Areas, Resources, Archives)",
@@ -9758,7 +9862,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Personal Productivity/Pomodoro Technique",
@@ -10276,7 +10380,7 @@
         "resource",
         "physics"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Physics/General Relativity — Key Ideas (Spacetime, Gravity as Curvature)",
@@ -12374,7 +12478,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Software Engineering/Static Analysis Tools",
@@ -17617,14 +17721,6 @@
     },
     {
       "source": "Resources/Data Science & Analytics/Bayesian Statistics",
-      "target": "Calibration and Epistemic Humility"
-    },
-    {
-      "source": "Resources/Data Science & Analytics/Bayesian Statistics",
-      "target": "How to Update Beliefs Gracefully (Bayesian Updating)"
-    },
-    {
-      "source": "Resources/Data Science & Analytics/Bayesian Statistics",
       "target": "Resources/Data Science & Analytics/Hypothesis Testing"
     },
     {
@@ -17634,6 +17730,14 @@
     {
       "source": "Resources/Data Science & Analytics/Bayesian Statistics",
       "target": "Resources/Mathematics/Bayes' Theorem"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Bayesian Statistics",
+      "target": "Resources/Meta-Learning & Epistemics/Calibration and Epistemic Humility"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Bayesian Statistics",
+      "target": "Resources/Meta-Learning & Epistemics/How to Update Beliefs Gracefully (Bayesian Updating)"
     },
     {
       "source": "Resources/Data Science & Analytics/Causal Inference (Correlation vs Causation)",
@@ -22418,6 +22522,126 @@
     {
       "source": "Resources/Message Queues",
       "target": "Resources/System Design Notes"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/Calibration and Epistemic Humility",
+      "target": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/Calibration and Epistemic Humility",
+      "target": "Resources/Meta-Learning & Epistemics/Fermi Estimation Techniques"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/Calibration and Epistemic Humility",
+      "target": "Resources/Meta-Learning & Epistemics/How to Update Beliefs Gracefully (Bayesian Updating)"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/Fermi Estimation Techniques",
+      "target": "Resources/Meta-Learning & Epistemics/Calibration and Epistemic Humility"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/Fermi Estimation Techniques",
+      "target": "Resources/Physics/Fermi Estimation (Orders of Magnitude Thinking)"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/Fermi Estimation Techniques",
+      "target": "Resources/Software Engineering/Software Estimation Techniques"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/How to Build a Mental Model",
+      "target": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/How to Build a Mental Model",
+      "target": "Resources/Learning & Memory/Systems Thinking"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/How to Build a Mental Model",
+      "target": "Resources/Meta-Learning & Epistemics/The Map is Not the Territory"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/How to Find the Crux of a Disagreement",
+      "target": "Resources/Learning & Memory/Productive Disagreement"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/How to Find the Crux of a Disagreement",
+      "target": "Resources/Meta-Learning & Epistemics/Calibration and Epistemic Humility"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/How to Find the Crux of a Disagreement",
+      "target": "Resources/Meta-Learning & Epistemics/How to Update Beliefs Gracefully (Bayesian Updating)"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/How to Read Primary Research (Not Just Summaries)",
+      "target": "Resources/Data Science & Analytics/Hypothesis Testing"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/How to Read Primary Research (Not Just Summaries)",
+      "target": "Resources/Data Science & Analytics/P-values and Statistical Significance"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/How to Read Primary Research (Not Just Summaries)",
+      "target": "Resources/Meta-Learning & Epistemics/When to Trust Experts (and When Not To)"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/How to Update Beliefs Gracefully (Bayesian Updating)",
+      "target": "Resources/Data Science & Analytics/Bayesian Statistics"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/How to Update Beliefs Gracefully (Bayesian Updating)",
+      "target": "Resources/Meta-Learning & Epistemics/Calibration and Epistemic Humility"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/How to Update Beliefs Gracefully (Bayesian Updating)",
+      "target": "Resources/Meta-Learning & Epistemics/How to Find the Crux of a Disagreement"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/How to Write an Evergreen Note",
+      "target": "Resources/Bobby/Bobby's Vault Index Strategy"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/How to Write an Evergreen Note",
+      "target": "Resources/Personal Productivity/Evergreen Notes"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/How to Write an Evergreen Note",
+      "target": "Resources/Personal Productivity/Obsidian Workflow Design"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/The Difference Between Information and Knowledge",
+      "target": "Resources/Meta-Learning & Epistemics/How to Write an Evergreen Note"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/The Difference Between Information and Knowledge",
+      "target": "Resources/Personal Productivity/Building a Second Brain (BASB — Tiago Forte)"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/The Difference Between Information and Knowledge",
+      "target": "Resources/Personal Productivity/Personal Knowledge Management (PKM) Overview"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/The Map is Not the Territory",
+      "target": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/The Map is Not the Territory",
+      "target": "Resources/Language & Linguistics/Sapir-Whorf Hypothesis (Language Shapes Thought)"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/The Map is Not the Territory",
+      "target": "Resources/Meta-Learning & Epistemics/How to Build a Mental Model"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/When to Trust Experts (and When Not To)",
+      "target": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/When to Trust Experts (and When Not To)",
+      "target": "Resources/Meta-Learning & Epistemics/Calibration and Epistemic Humility"
+    },
+    {
+      "source": "Resources/Meta-Learning & Epistemics/When to Trust Experts (and When Not To)",
+      "target": "Resources/Meta-Learning & Epistemics/How to Read Primary Research (Not Just Summaries)"
     },
     {
       "source": "Resources/Multi-Agent RL",
@@ -28612,5 +28836,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-27T15:22:16Z"
+  "generated_at": "2026-05-27T15:26:57Z"
 }
