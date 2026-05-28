@@ -6537,7 +6537,7 @@
         "hardware-computing",
         "networking"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Hardware & Computing/Ohm's Law and Basic Circuit Analysis (KVL, KCL, Voltage Dividers, Thevenin)",
@@ -6657,7 +6657,7 @@
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Hardware & Computing/Single-Board Computers (SBCs) — Key Components and Design (CPU, PMIC, RAM, eMMC)",
@@ -9383,7 +9383,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Networking & Protocols/DNS — How It Works (Recursive Resolution, TTL, Caching)",
@@ -9395,7 +9395,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Networking & Protocols/DOCSIS — How Cable Internet Delivers Bandwidth Over Coax",
@@ -9414,12 +9414,12 @@
       "label": "Ethernet Physical Layer — Cables Explained (Cat5e-6-6a-8, SFP, Fiber vs Copper)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Ethernet Physical Layer covers how real networks move, segment, diagnose, and recover traffic, with emphasis on cables explained. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "Ethernet physical-layer troubleshooting covers copper and fiber media, cable categories, SFP modules, link negotiation, duplex, PoE, optics, and error counters. Many network problems that look like routing or application issues start as bad physical signaling.",
       "tags": [
         "resource",
         "networking-protocols"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Networking & Protocols/Firewall Types (Stateful vs Stateless vs NGFW)",
@@ -9444,7 +9444,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Networking & Protocols/HTTP-1.1 vs HTTP-2 vs HTTP-3 (QUIC)",
@@ -9493,7 +9493,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 4
     },
     {
       "id": "Resources/Networking & Protocols/How a Network Switch Learns and Forwards (MAC Table, ARP, Flooding, Aging)",
@@ -9608,12 +9608,12 @@
       "label": "Network Engineer's Toolkit — ping, traceroute, mtr, nslookup, dig, netstat, ss",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Network Engineer's Toolkit covers how real networks move, segment, diagnose, and recover traffic, with emphasis on ping, traceroute, mtr, nslookup, dig, netstat, ss. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "The network engineer's CLI toolkit maps symptoms to evidence: reachability with ping, path behavior with traceroute and mtr, DNS answers with nslookup and dig, and socket state with netstat or ss. These tools are useful because each tests a different layer instead of vaguely asking whether the internet works.",
       "tags": [
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Networking & Protocols/Network Monitoring — SNMP, NetFlow, sFlow, and Prometheus Exporters",
@@ -9625,7 +9625,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Networking & Protocols/Network Segmentation and DMZ Architecture",
@@ -9649,7 +9649,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 41
+      "degree": 33
     },
     {
       "id": "Resources/Networking & Protocols/OSPF — How Routers Discover and Share Route Information (Link-State)",
@@ -9673,38 +9673,38 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Networking & Protocols/Real Scenario - DHCP Failure — Why IPs Stop Being Assigned and How to Fix It",
       "label": "Real Scenario - DHCP Failure — Why IPs Stop Being Assigned and How to Fix It",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Real Scenario: DHCP Failure covers how real networks move, segment, diagnose, and recover traffic, with emphasis on why ips stop being assigned and how to fix it. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "DHCP failure means clients cannot complete the Discover, Offer, Request, Acknowledge exchange that gives them an IP address, gateway, DNS servers, and lease options. Diagnosis focuses on broadcast reachability, DHCP relay, scope health, VLAN placement, and whether replies make it back to the client.",
       "tags": [
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Networking & Protocols/Real Scenario - DNS Failure — Why a Site Stops Resolving and the Diagnostic Chain",
       "label": "Real Scenario - DNS Failure — Why a Site Stops Resolving and the Diagnostic Chain",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Real Scenario: DNS Failure covers how real networks move, segment, diagnose, and recover traffic, with emphasis on why a site stops resolving and the diagnostic chain. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "DNS failure diagnosis separates local resolver settings, cache behavior, recursive resolver failure, authoritative DNS problems, split-horizon DNS, and application-layer confusion. A useful DNS check proves whether the name, resolver, network path, or record data is wrong.",
       "tags": [
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Networking & Protocols/Real Scenario - Diagnosing Slow Network — Bandwidth, Latency, Jitter, Packet Loss",
       "label": "Real Scenario - Diagnosing Slow Network — Bandwidth, Latency, Jitter, Packet Loss",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Real Scenario: Diagnosing Slow Network covers how real networks move, segment, diagnose, and recover traffic, with emphasis on bandwidth, latency, jitter, packet loss. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "Slow-network diagnosis separates bandwidth saturation, latency, jitter, packet loss, retransmissions, DNS delay, Wi-Fi quality, duplex/link problems, and application slowness. The goal is to identify which performance dimension is bad instead of treating all slowness as the same problem.",
       "tags": [
         "resource",
         "networking-protocols"
@@ -9728,12 +9728,12 @@
       "label": "Real Scenario - You Have Power but No Internet — Full Diagnostic Walkthrough",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Real Scenario: You Have Power but No Internet covers how real networks move, segment, diagnose, and recover traffic, with emphasis on full diagnostic walkthrough. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "A full no-internet diagnostic starts by separating physical link, local IP configuration, gateway reachability, DNS, routing, firewall/NAT, ISP, and application-layer problems. The point is to avoid vague reboot-and-hope troubleshooting by proving exactly where packets stop.",
       "tags": [
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Networking & Protocols/Routing Tables and Longest-Prefix Match — How a Packet Finds Its Way",
@@ -9805,7 +9805,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 42
+      "degree": 35
     },
     {
       "id": "Resources/Networking & Protocols/TLS Handshake Step-by-Step",
@@ -9818,7 +9818,7 @@
         "networking-protocols",
         "security"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Networking & Protocols/The Last Mile — How Internet Gets to Your Home (DSL, Cable, GPON Fiber)",
@@ -9842,7 +9842,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Networking & Protocols/VPN Protocols (WireGuard, OpenVPN, IPsec)",
@@ -9879,7 +9879,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Networking & Protocols/Wi-Fi Standards (802.11 a-b-g-n-ac-ax)",
@@ -9899,12 +9899,12 @@
       "label": "Wireshark and Packet Analysis — Reading a Full TCP Handshake",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Wireshark and Packet Analysis covers how real networks move, segment, diagnose, and recover traffic, with emphasis on reading a full tcp handshake. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "Wireshark makes packet captures readable by decoding frames, IP packets, TCP state, DNS, TLS, and application protocols. Reading a TCP handshake means verifying SYN, SYN-ACK, ACK, options, timing, retransmissions, and resets before blaming higher layers.",
       "tags": [
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Networking & Protocols/Zero Trust Networking",
@@ -9924,12 +9924,12 @@
       "label": "tcpdump — Capturing and Reading Raw Packets from the CLI",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "tcpdump covers how real networks move, segment, diagnose, and recover traffic, with emphasis on capturing and reading raw packets from the cli. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "tcpdump captures packets from the command line so a network engineer can prove what actually left, arrived, retransmitted, or never appeared. It is most useful when higher-level tools disagree or when DHCP, DNS, TCP, TLS, or firewall behavior needs packet-level evidence.",
       "tags": [
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Neuroscience/Amygdala and Emotional Processing",
@@ -13945,7 +13945,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/System Administration & IT/DNS Server Configuration (Bind9, Windows DNS, CoreDNS, Split-Horizon)",
@@ -25475,15 +25475,19 @@
     },
     {
       "source": "Resources/Networking & Protocols/Ethernet Physical Layer — Cables Explained (Cat5e-6-6a-8, SFP, Fiber vs Copper)",
+      "target": "Resources/Hardware & Computing/Networking Hardware (Routers, Switches, NICs)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Ethernet Physical Layer — Cables Explained (Cat5e-6-6a-8, SFP, Fiber vs Copper)",
+      "target": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Ethernet Physical Layer — Cables Explained (Cat5e-6-6a-8, SFP, Fiber vs Copper)",
       "target": "Resources/Networking & Protocols/How Ethernet Frames Work (MAC Addresses, Frame Structure, CSMA-CD, Full Duplex)"
     },
     {
       "source": "Resources/Networking & Protocols/Ethernet Physical Layer — Cables Explained (Cat5e-6-6a-8, SFP, Fiber vs Copper)",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
-    },
-    {
-      "source": "Resources/Networking & Protocols/Ethernet Physical Layer — Cables Explained (Cat5e-6-6a-8, SFP, Fiber vs Copper)",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "target": "Resources/Networking & Protocols/Real Scenario - Diagnosing Slow Network — Bandwidth, Latency, Jitter, Packet Loss"
     },
     {
       "source": "Resources/Networking & Protocols/Firewall Types (Stateful vs Stateless vs NGFW)",
@@ -25711,15 +25715,15 @@
     },
     {
       "source": "Resources/Networking & Protocols/Network Engineer's Toolkit — ping, traceroute, mtr, nslookup, dig, netstat, ss",
-      "target": "Resources/Networking & Protocols/How a Network Engineer Works with an ISP (Escalation, NOC, BGP Communities)"
+      "target": "Resources/Networking & Protocols/Real Scenario - DNS Failure — Why a Site Stops Resolving and the Diagnostic Chain"
     },
     {
       "source": "Resources/Networking & Protocols/Network Engineer's Toolkit — ping, traceroute, mtr, nslookup, dig, netstat, ss",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "target": "Resources/Networking & Protocols/Real Scenario - You Have Power but No Internet — Full Diagnostic Walkthrough"
     },
     {
       "source": "Resources/Networking & Protocols/Network Engineer's Toolkit — ping, traceroute, mtr, nslookup, dig, netstat, ss",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "target": "Resources/Networking & Protocols/Wireshark and Packet Analysis — Reading a Full TCP Handshake"
     },
     {
       "source": "Resources/Networking & Protocols/Network Engineer's Toolkit — ping, traceroute, mtr, nslookup, dig, netstat, ss",
@@ -25803,23 +25807,27 @@
     },
     {
       "source": "Resources/Networking & Protocols/Real Scenario - DHCP Failure — Why IPs Stop Being Assigned and How to Fix It",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "target": "Resources/Networking & Protocols/DHCP"
     },
     {
       "source": "Resources/Networking & Protocols/Real Scenario - DHCP Failure — Why IPs Stop Being Assigned and How to Fix It",
-      "target": "Resources/Networking & Protocols/Real Scenario - DNS Failure — Why a Site Stops Resolving and the Diagnostic Chain"
+      "target": "Resources/Networking & Protocols/VLANs — Why Networks Are Segmented and How Trunking Works (802.1Q)"
     },
     {
       "source": "Resources/Networking & Protocols/Real Scenario - DHCP Failure — Why IPs Stop Being Assigned and How to Fix It",
-      "target": "Resources/Networking & Protocols/Real Scenario - Diagnosing Slow Network — Bandwidth, Latency, Jitter, Packet Loss"
+      "target": "Resources/Networking & Protocols/tcpdump — Capturing and Reading Raw Packets from the CLI"
     },
     {
       "source": "Resources/Networking & Protocols/Real Scenario - DHCP Failure — Why IPs Stop Being Assigned and How to Fix It",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "target": "Resources/System Administration & IT/DHCP Server Setup and IP Address Management (IPAM)"
     },
     {
       "source": "Resources/Networking & Protocols/Real Scenario - DNS Failure — Why a Site Stops Resolving and the Diagnostic Chain",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "target": "Resources/Networking & Protocols/DNS — How It Works (Recursive Resolution, TTL, Caching)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Real Scenario - DNS Failure — Why a Site Stops Resolving and the Diagnostic Chain",
+      "target": "Resources/Networking & Protocols/Network Engineer's Toolkit — ping, traceroute, mtr, nslookup, dig, netstat, ss"
     },
     {
       "source": "Resources/Networking & Protocols/Real Scenario - DNS Failure — Why a Site Stops Resolving and the Diagnostic Chain",
@@ -25827,23 +25835,19 @@
     },
     {
       "source": "Resources/Networking & Protocols/Real Scenario - DNS Failure — Why a Site Stops Resolving and the Diagnostic Chain",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
-    },
-    {
-      "source": "Resources/Networking & Protocols/Real Scenario - DNS Failure — Why a Site Stops Resolving and the Diagnostic Chain",
-      "target": "Resources/Networking & Protocols/Wi-Fi Authentication Deep Dive (WPA2-WPA3, PSK, 802.1X - EAP - RADIUS)"
+      "target": "Resources/Networking & Protocols/Real Scenario - You Have Power but No Internet — Full Diagnostic Walkthrough"
     },
     {
       "source": "Resources/Networking & Protocols/Real Scenario - Diagnosing Slow Network — Bandwidth, Latency, Jitter, Packet Loss",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "target": "Resources/Networking & Protocols/Ethernet Physical Layer — Cables Explained (Cat5e-6-6a-8, SFP, Fiber vs Copper)"
     },
     {
       "source": "Resources/Networking & Protocols/Real Scenario - Diagnosing Slow Network — Bandwidth, Latency, Jitter, Packet Loss",
-      "target": "Resources/Networking & Protocols/Real Scenario - DHCP Failure — Why IPs Stop Being Assigned and How to Fix It"
+      "target": "Resources/Networking & Protocols/Network Monitoring — SNMP, NetFlow, sFlow, and Prometheus Exporters"
     },
     {
       "source": "Resources/Networking & Protocols/Real Scenario - Diagnosing Slow Network — Bandwidth, Latency, Jitter, Packet Loss",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "target": "Resources/Networking & Protocols/QoS and Traffic Shaping — How Networks Prioritize VoIP, Video, and Bulk Data"
     },
     {
       "source": "Resources/Networking & Protocols/Real Scenario - Diagnosing Slow Network — Bandwidth, Latency, Jitter, Packet Loss",
@@ -25863,19 +25867,19 @@
     },
     {
       "source": "Resources/Networking & Protocols/Real Scenario - You Have Power but No Internet — Full Diagnostic Walkthrough",
-      "target": "Resources/Networking & Protocols/GPON and XGS-PON — How Fiber-to-the-Home (FTTH) Works"
+      "target": "Resources/Networking & Protocols/Network Engineer's Toolkit — ping, traceroute, mtr, nslookup, dig, netstat, ss"
     },
     {
       "source": "Resources/Networking & Protocols/Real Scenario - You Have Power but No Internet — Full Diagnostic Walkthrough",
-      "target": "Resources/Networking & Protocols/How a Network Engineer Works with an ISP (Escalation, NOC, BGP Communities)"
+      "target": "Resources/Networking & Protocols/Real Scenario - DHCP Failure — Why IPs Stop Being Assigned and How to Fix It"
     },
     {
       "source": "Resources/Networking & Protocols/Real Scenario - You Have Power but No Internet — Full Diagnostic Walkthrough",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "target": "Resources/Networking & Protocols/Real Scenario - DNS Failure — Why a Site Stops Resolving and the Diagnostic Chain"
     },
     {
       "source": "Resources/Networking & Protocols/Real Scenario - You Have Power but No Internet — Full Diagnostic Walkthrough",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "target": "Resources/Networking & Protocols/tcpdump — Capturing and Reading Raw Packets from the CLI"
     },
     {
       "source": "Resources/Networking & Protocols/Routing Tables and Longest-Prefix Match — How a Packet Finds Its Way",
@@ -26071,15 +26075,15 @@
     },
     {
       "source": "Resources/Networking & Protocols/Wireshark and Packet Analysis — Reading a Full TCP Handshake",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
-    },
-    {
-      "source": "Resources/Networking & Protocols/Wireshark and Packet Analysis — Reading a Full TCP Handshake",
       "target": "Resources/Networking & Protocols/Real Scenario - Diagnosing Slow Network — Bandwidth, Latency, Jitter, Packet Loss"
     },
     {
       "source": "Resources/Networking & Protocols/Wireshark and Packet Analysis — Reading a Full TCP Handshake",
       "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Wireshark and Packet Analysis — Reading a Full TCP Handshake",
+      "target": "Resources/Networking & Protocols/TLS Handshake Step-by-Step"
     },
     {
       "source": "Resources/Networking & Protocols/Wireshark and Packet Analysis — Reading a Full TCP Handshake",
@@ -26103,11 +26107,11 @@
     },
     {
       "source": "Resources/Networking & Protocols/tcpdump — Capturing and Reading Raw Packets from the CLI",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "target": "Resources/Networking & Protocols/Real Scenario - DHCP Failure — Why IPs Stop Being Assigned and How to Fix It"
     },
     {
       "source": "Resources/Networking & Protocols/tcpdump — Capturing and Reading Raw Packets from the CLI",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "target": "Resources/Networking & Protocols/Real Scenario - DNS Failure — Why a Site Stops Resolving and the Diagnostic Chain"
     },
     {
       "source": "Resources/Networking & Protocols/tcpdump — Capturing and Reading Raw Packets from the CLI",
@@ -32754,5 +32758,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-28T15:04:57Z"
+  "generated_at": "2026-05-28T15:15:09Z"
 }
