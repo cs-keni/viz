@@ -302,6 +302,17 @@
       "degree": 0
     },
     {
+      "id": "Daily Notes/2026-05-28",
+      "label": "2026-05-28",
+      "folder": "Daily Notes",
+      "created": "2026-05-28",
+      "excerpt": "2026-05-28",
+      "tags": [
+        "daily"
+      ],
+      "degree": 0
+    },
+    {
       "id": "Data Visualization Best Practices",
       "label": "Data Visualization Best Practices",
       "folder": null,
@@ -6165,6 +6176,42 @@
       "degree": 6
     },
     {
+      "id": "Resources/Hardware & Computing/ARM Architecture and the Embedded Computing Ecosystem",
+      "label": "ARM Architecture and the Embedded Computing Ecosystem",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "ARM Architecture and the Embedded Computing Ecosystem explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Hardware & Computing/ASICs vs FPGAs vs CPUs — Design Tradeoffs and When to Use Each",
+      "label": "ASICs vs FPGAs vs CPUs — Design Tradeoffs and When to Use Each",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "ASICs vs FPGAs vs CPUs explains the physical and architectural layer beneath software systems, especially design tradeoffs and when to use each. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Hardware & Computing/Arduino vs Raspberry Pi — Architecture, Use Cases, and What to Pick",
+      "label": "Arduino vs Raspberry Pi — Architecture, Use Cases, and What to Pick",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Arduino vs Raspberry Pi explains the physical and architectural layer beneath software systems, especially architecture, use cases, and what to pick. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
       "id": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)",
       "label": "CPU Architecture (RISC vs CISC, ARM vs x86)",
       "folder": "Resources",
@@ -6174,7 +6221,43 @@
         "resource",
         "hardware-computing"
       ],
-      "degree": 5
+      "degree": 37
+    },
+    {
+      "id": "Resources/Hardware & Computing/CPU Microarchitecture — Pipelines, Branch Prediction, Out-of-Order Execution",
+      "label": "CPU Microarchitecture — Pipelines, Branch Prediction, Out-of-Order Execution",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "CPU Microarchitecture explains the physical and architectural layer beneath software systems, especially pipelines, branch prediction, out-of-order execution. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Hardware & Computing/Chip Packaging Technologies (BGA, Flip-Chip, Chiplets, 2.5D-3D Stacking)",
+      "label": "Chip Packaging Technologies (BGA, Flip-Chip, Chiplets, 2.5D-3D Stacking)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Chip Packaging Technologies explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Hardware & Computing/Clock Signals, Crystal Oscillators, PLLs, and Timing",
+      "label": "Clock Signals, Crystal Oscillators, PLLs, and Timing",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Clock Signals, Crystal Oscillators, PLLs, and Timing explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/Hardware & Computing/DRAM vs SRAM",
@@ -6189,6 +6272,18 @@
       "degree": 3
     },
     {
+      "id": "Resources/Hardware & Computing/Digital Logic — Gates, Flip-Flops, Registers, and Finite State Machines",
+      "label": "Digital Logic — Gates, Flip-Flops, Registers, and Finite State Machines",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Digital Logic explains the physical and architectural layer beneath software systems, especially gates, flip-flops, registers, and finite state machines. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
       "id": "Resources/Hardware & Computing/DisplayPort vs HDMI vs Thunderbolt",
       "label": "DisplayPort vs HDMI vs Thunderbolt",
       "folder": "Resources",
@@ -6199,6 +6294,66 @@
         "hardware-computing"
       ],
       "degree": 4
+    },
+    {
+      "id": "Resources/Hardware & Computing/Electromagnetic Interference (EMI) — Sources, Shielding, and FCC Certification",
+      "label": "Electromagnetic Interference (EMI) — Sources, Shielding, and FCC Certification",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Electromagnetic Interference— Sources, Shielding, and FCC Certification explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Hardware & Computing/Electronic Testing Tools — Multimeter, Oscilloscope, Logic Analyzer, Spectrum Analyzer",
+      "label": "Electronic Testing Tools — Multimeter, Oscilloscope, Logic Analyzer, Spectrum Analyzer",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Electronic Testing Tools explains the physical and architectural layer beneath software systems, especially multimeter, oscilloscope, logic analyzer, spectrum analyzer. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Hardware & Computing/FPGAs — Reprogrammable Hardware and How HDL Compiles to Gates",
+      "label": "FPGAs — Reprogrammable Hardware and How HDL Compiles to Gates",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "FPGAs explains the physical and architectural layer beneath software systems, especially reprogrammable hardware and how hdl compiles to gates. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Hardware & Computing/GPIO and Embedded Interfaces (I2C, SPI, UART, CAN, PWM)",
+      "label": "GPIO and Embedded Interfaces (I2C, SPI, UART, CAN, PWM)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "GPIO and Embedded Interfaces explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Hardware & Computing/HDMI and DisplayPort Signal Standards — How Video Is Transmitted Digitally",
+      "label": "HDMI and DisplayPort Signal Standards — How Video Is Transmitted Digitally",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "HDMI and DisplayPort Signal Standards explains the physical and architectural layer beneath software systems, especially how video is transmitted digitally. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/Hardware & Computing/Home Lab Setup Guide",
@@ -6239,11 +6394,107 @@
       "degree": 5
     },
     {
+      "id": "Resources/Hardware & Computing/How NAND Flash Works (SLC-MLC-TLC-QLC Cells, Wear Leveling, FTL Controllers)",
+      "label": "How NAND Flash Works (SLC-MLC-TLC-QLC Cells, Wear Leveling, FTL Controllers)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "How NAND Flash Works explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Hardware & Computing/How NPUs Work — Neural Processing Units in Modern SoCs (Apple M-series, Snapdragon)",
+      "label": "How NPUs Work — Neural Processing Units in Modern SoCs (Apple M-series, Snapdragon)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "How NPUs Work explains the physical and architectural layer beneath software systems, especially neural processing units in modern socs. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Hardware & Computing/How Semiconductors Work (Silicon, Doping, P-N Junctions, Transistors)",
+      "label": "How Semiconductors Work (Silicon, Doping, P-N Junctions, Transistors)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "How Semiconductors Work explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Hardware & Computing/How USB Works Internally (Host Controller, Enumeration, Transfer Types)",
+      "label": "How USB Works Internally (Host Controller, Enumeration, Transfer Types)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "How USB Works Internally explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Hardware & Computing/How a CPU is Fabricated (Photolithography, EUV, TSMC vs Intel Fabs, Yield)",
+      "label": "How a CPU is Fabricated (Photolithography, EUV, TSMC vs Intel Fabs, Yield)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "How a CPU is Fabricated explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)",
+      "label": "How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "How a GPU is Designed explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
       "id": "Resources/Hardware & Computing/Memory Hierarchy (L1-L2-L3 Cache, RAM, Disk)",
       "label": "Memory Hierarchy (L1-L2-L3 Cache, RAM, Disk)",
       "folder": "Resources",
       "created": "2026-05-27",
       "excerpt": "The memory hierarchy arranges storage by speed, size, and cost: registers and caches are tiny and fast, RAM is larger and slower, and disks are much larger and slower still. Performance often depends on keeping hot data close to the CPU and avoiding unnecessary movement through the hierarchy.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Hardware & Computing/Memory Technologies — LPDDR vs DDR5 vs HBM and Why It Matters for AI",
+      "label": "Memory Technologies — LPDDR vs DDR5 vs HBM and Why It Matters for AI",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Memory Technologies explains the physical and architectural layer beneath software systems, especially lpddr vs ddr5 vs hbm and why it matters for ai. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Hardware & Computing/Microcontrollers vs Microprocessors — Where Each Belongs",
+      "label": "Microcontrollers vs Microprocessors — Where Each Belongs",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Microcontrollers vs Microprocessors explains the physical and architectural layer beneath software systems, especially where each belongs. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
       "tags": [
         "resource",
         "hardware-computing"
@@ -6260,7 +6511,7 @@
         "resource",
         "hardware-computing"
       ],
-      "degree": 5
+      "degree": 37
     },
     {
       "id": "Resources/Hardware & Computing/NAS and Home Storage (ZFS, RAID Levels)",
@@ -6289,6 +6540,66 @@
       "degree": 9
     },
     {
+      "id": "Resources/Hardware & Computing/Ohm's Law and Basic Circuit Analysis (KVL, KCL, Voltage Dividers, Thevenin)",
+      "label": "Ohm's Law and Basic Circuit Analysis (KVL, KCL, Voltage Dividers, Thevenin)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Ohm's Law and Basic Circuit Analysis explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Hardware & Computing/Open Hardware and the Maker Movement (KiCad, OSHW, Raspberry Pi Foundation)",
+      "label": "Open Hardware and the Maker Movement (KiCad, OSHW, Raspberry Pi Foundation)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Open Hardware and the Maker Movement explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Hardware & Computing/PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)",
+      "label": "PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "PCB Design Basics explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Hardware & Computing/PCIe Architecture Deep Dive (Lanes, Gen 4 vs Gen 5, Bifurcation)",
+      "label": "PCIe Architecture Deep Dive (Lanes, Gen 4 vs Gen 5, Bifurcation)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "PCIe Architecture Deep Dive explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Hardware & Computing/Power Management ICs — LDOs vs Buck-Boost Converters",
+      "label": "Power Management ICs — LDOs vs Buck-Boost Converters",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Power Management ICs explains the physical and architectural layer beneath software systems, especially ldos vs buck/boost converters. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
       "id": "Resources/Hardware & Computing/Power Supplies and 80+ Efficiency Ratings",
       "label": "Power Supplies and 80+ Efficiency Ratings",
       "folder": "Resources",
@@ -6299,6 +6610,30 @@
         "hardware-computing"
       ],
       "degree": 4
+    },
+    {
+      "id": "Resources/Hardware & Computing/RISC-V — Open Source ISA and Why It Matters",
+      "label": "RISC-V — Open Source ISA and Why It Matters",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "RISC-V explains the physical and architectural layer beneath software systems, especially open source isa and why it matters. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Hardware & Computing/Resistors, Capacitors, Inductors — What They Do and How They Behave",
+      "label": "Resistors, Capacitors, Inductors — What They Do and How They Behave",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Resistors, Capacitors, Inductors explains the physical and architectural layer beneath software systems, especially what they do and how they behave. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/Hardware & Computing/SSD vs HDD — How They Work Internally",
@@ -6313,6 +6648,42 @@
       "degree": 5
     },
     {
+      "id": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk",
+      "label": "Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Signal Integrity explains the physical and architectural layer beneath software systems, especially impedance matching, transmission lines, reflections, crosstalk. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Hardware & Computing/Single-Board Computers (SBCs) — Key Components and Design (CPU, PMIC, RAM, eMMC)",
+      "label": "Single-Board Computers (SBCs) — Key Components and Design (CPU, PMIC, RAM, eMMC)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Single-Board Computers— Key Components and Design explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Hardware & Computing/Soldering and PCB Assembly Fundamentals (Through-Hole vs SMD)",
+      "label": "Soldering and PCB Assembly Fundamentals (Through-Hole vs SMD)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Soldering and PCB Assembly Fundamentals explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
       "id": "Resources/Hardware & Computing/Thermal Design and CPU-GPU Cooling",
       "label": "Thermal Design and CPU-GPU Cooling",
       "folder": "Resources",
@@ -6325,6 +6696,18 @@
       "degree": 4
     },
     {
+      "id": "Resources/Hardware & Computing/Thermal Design — TDP, Heat Sinks, Heat Pipes, Vapor Chambers, Liquid Cooling",
+      "label": "Thermal Design — TDP, Heat Sinks, Heat Pipes, Vapor Chambers, Liquid Cooling",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Thermal Design explains the physical and architectural layer beneath software systems, especially tdp, heat sinks, heat pipes, vapor chambers, liquid cooling. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
+    },
+    {
       "id": "Resources/Hardware & Computing/USB Standards Timeline (USB 2.0 through USB4)",
       "label": "USB Standards Timeline (USB 2.0 through USB4)",
       "folder": "Resources",
@@ -6335,6 +6718,18 @@
         "hardware-computing"
       ],
       "degree": 5
+    },
+    {
+      "id": "Resources/Hardware & Computing/VLSI Design — From RTL to Tape-Out (Synthesis, Place & Route, Timing Closure)",
+      "label": "VLSI Design — From RTL to Tape-Out (Synthesis, Place & Route, Timing Closure)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "VLSI Design explains the physical and architectural layer beneath software systems, especially from rtl to tape-out. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "tags": [
+        "resource",
+        "hardware-computing"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/Health & Fitness/Back Health for Desk Workers",
@@ -8930,6 +9325,30 @@
       "degree": 15
     },
     {
+      "id": "Resources/Networking & Protocols/Anycast Routing — How CDNs and Public DNS (1.1.1.1, 8.8.8.8) Scale Globally",
+      "label": "Anycast Routing — How CDNs and Public DNS (1.1.1.1, 8.8.8.8) Scale Globally",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Anycast Routing covers how real networks move, segment, diagnose, and recover traffic, with emphasis on how cdns and public dnsscale globally. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/BGP Deep Dive — How the Internet Routes Between Autonomous Systems",
+      "label": "BGP Deep Dive — How the Internet Routes Between Autonomous Systems",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "BGP Deep Dive covers how real networks move, segment, diagnose, and recover traffic, with emphasis on how the internet routes between autonomous systems. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
       "id": "Resources/Networking & Protocols/BGP — Internet Routing",
       "label": "BGP — Internet Routing",
       "folder": "Resources",
@@ -8979,6 +9398,30 @@
       "degree": 5
     },
     {
+      "id": "Resources/Networking & Protocols/DOCSIS — How Cable Internet Delivers Bandwidth Over Coax",
+      "label": "DOCSIS — How Cable Internet Delivers Bandwidth Over Coax",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "DOCSIS covers how real networks move, segment, diagnose, and recover traffic, with emphasis on how cable internet delivers bandwidth over coax. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/Ethernet Physical Layer — Cables Explained (Cat5e-6-6a-8, SFP, Fiber vs Copper)",
+      "label": "Ethernet Physical Layer — Cables Explained (Cat5e-6-6a-8, SFP, Fiber vs Copper)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Ethernet Physical Layer covers how real networks move, segment, diagnose, and recover traffic, with emphasis on cables explained. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 4
+    },
+    {
       "id": "Resources/Networking & Protocols/Firewall Types (Stateful vs Stateless vs NGFW)",
       "label": "Firewall Types (Stateful vs Stateless vs NGFW)",
       "folder": "Resources",
@@ -8990,6 +9433,18 @@
         "security"
       ],
       "degree": 7
+    },
+    {
+      "id": "Resources/Networking & Protocols/GPON and XGS-PON — How Fiber-to-the-Home (FTTH) Works",
+      "label": "GPON and XGS-PON — How Fiber-to-the-Home (FTTH) Works",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "GPON and XGS-PON covers how real networks move, segment, diagnose, and recover traffic, with emphasis on how fiber-to-the-homeworks. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/Networking & Protocols/HTTP-1.1 vs HTTP-2 vs HTTP-3 (QUIC)",
@@ -9005,11 +9460,119 @@
       "degree": 5
     },
     {
+      "id": "Resources/Networking & Protocols/How 5G Networks Work (RAN, Core Network, mmWave vs Sub-6GHz, Network Slicing)",
+      "label": "How 5G Networks Work (RAN, Core Network, mmWave vs Sub-6GHz, Network Slicing)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "How 5G Networks Work covers how real networks move, segment, diagnose, and recover traffic. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/How Ethernet Frames Work (MAC Addresses, Frame Structure, CSMA-CD, Full Duplex)",
+      "label": "How Ethernet Frames Work (MAC Addresses, Frame Structure, CSMA-CD, Full Duplex)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "How Ethernet Frames Work covers how real networks move, segment, diagnose, and recover traffic. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/How a Network Engineer Works with an ISP (Escalation, NOC, BGP Communities)",
+      "label": "How a Network Engineer Works with an ISP (Escalation, NOC, BGP Communities)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "How a Network Engineer Works with an ISP covers how real networks move, segment, diagnose, and recover traffic. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/How a Network Switch Learns and Forwards (MAC Table, ARP, Flooding, Aging)",
+      "label": "How a Network Switch Learns and Forwards (MAC Table, ARP, Flooding, Aging)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "How a Network Switch Learns and Forwards covers how real networks move, segment, diagnose, and recover traffic. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/How an ISP Works — Tiers, Transit Agreements, and Peering",
+      "label": "How an ISP Works — Tiers, Transit Agreements, and Peering",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "How an ISP Works covers how real networks move, segment, diagnose, and recover traffic, with emphasis on tiers, transit agreements, and peering. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
       "id": "Resources/Networking & Protocols/IPv4 vs IPv6",
       "label": "IPv4 vs IPv6",
       "folder": "Resources",
       "created": "2026-05-27",
       "excerpt": "IPv4 and IPv6 are internet-layer addressing systems, with IPv4 limited to 32-bit addresses and IPv6 using a much larger 128-bit space. IPv6 reduces the need for NAT and improves address availability, but coexistence with IPv4 creates transition and compatibility complexity.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/IPv6 Transition Strategies (Dual Stack, NAT64, 6to4, Tunneling)",
+      "label": "IPv6 Transition Strategies (Dual Stack, NAT64, 6to4, Tunneling)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "IPv6 Transition Strategies covers how real networks move, segment, diagnose, and recover traffic. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/Internet Exchange Points (IXPs) — Where ISPs Physically Connect",
+      "label": "Internet Exchange Points (IXPs) — Where ISPs Physically Connect",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Internet Exchange Points— Where ISPs Physically Connect covers how real networks move, segment, diagnose, and recover traffic. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/MPLS — How Enterprise WANs Used to Work",
+      "label": "MPLS — How Enterprise WANs Used to Work",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "MPLS covers how real networks move, segment, diagnose, and recover traffic, with emphasis on how enterprise wans used to work. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/Multicast Networking — IGMP, PIM, and How IPTV Works",
+      "label": "Multicast Networking — IGMP, PIM, and How IPTV Works",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Multicast Networking covers how real networks move, segment, diagnose, and recover traffic, with emphasis on igmp, pim, and how iptv works. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
       "tags": [
         "resource",
         "networking-protocols"
@@ -9029,6 +9592,54 @@
       "degree": 9
     },
     {
+      "id": "Resources/Networking & Protocols/Network Address Translation (NAT) — How It Actually Works, and Why It's a Hack",
+      "label": "Network Address Translation (NAT) — How It Actually Works, and Why It's a Hack",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Network Address Translation— How It Actually Works, and Why It's a Hack covers how real networks move, segment, diagnose, and recover traffic. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/Network Engineer's Toolkit — ping, traceroute, mtr, nslookup, dig, netstat, ss",
+      "label": "Network Engineer's Toolkit — ping, traceroute, mtr, nslookup, dig, netstat, ss",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Network Engineer's Toolkit covers how real networks move, segment, diagnose, and recover traffic, with emphasis on ping, traceroute, mtr, nslookup, dig, netstat, ss. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/Network Monitoring — SNMP, NetFlow, sFlow, and Prometheus Exporters",
+      "label": "Network Monitoring — SNMP, NetFlow, sFlow, and Prometheus Exporters",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Network Monitoring covers how real networks move, segment, diagnose, and recover traffic, with emphasis on snmp, netflow, sflow, and prometheus exporters. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/Network Segmentation and DMZ Architecture",
+      "label": "Network Segmentation and DMZ Architecture",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Network Segmentation and DMZ Architecture covers how real networks move, segment, diagnose, and recover traffic. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
       "id": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples",
       "label": "OSI Model — All 7 Layers with Examples",
       "folder": "Resources",
@@ -9038,7 +9649,151 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 5
+      "degree": 41
+    },
+    {
+      "id": "Resources/Networking & Protocols/OSPF — How Routers Discover and Share Route Information (Link-State)",
+      "label": "OSPF — How Routers Discover and Share Route Information (Link-State)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "OSPF covers how real networks move, segment, diagnose, and recover traffic, with emphasis on how routers discover and share route information. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/QoS and Traffic Shaping — How Networks Prioritize VoIP, Video, and Bulk Data",
+      "label": "QoS and Traffic Shaping — How Networks Prioritize VoIP, Video, and Bulk Data",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "QoS and Traffic Shaping covers how real networks move, segment, diagnose, and recover traffic, with emphasis on how networks prioritize voip, video, and bulk data. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/Real Scenario - DHCP Failure — Why IPs Stop Being Assigned and How to Fix It",
+      "label": "Real Scenario - DHCP Failure — Why IPs Stop Being Assigned and How to Fix It",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Real Scenario: DHCP Failure covers how real networks move, segment, diagnose, and recover traffic, with emphasis on why ips stop being assigned and how to fix it. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/Real Scenario - DNS Failure — Why a Site Stops Resolving and the Diagnostic Chain",
+      "label": "Real Scenario - DNS Failure — Why a Site Stops Resolving and the Diagnostic Chain",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Real Scenario: DNS Failure covers how real networks move, segment, diagnose, and recover traffic, with emphasis on why a site stops resolving and the diagnostic chain. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/Real Scenario - Diagnosing Slow Network — Bandwidth, Latency, Jitter, Packet Loss",
+      "label": "Real Scenario - Diagnosing Slow Network — Bandwidth, Latency, Jitter, Packet Loss",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Real Scenario: Diagnosing Slow Network covers how real networks move, segment, diagnose, and recover traffic, with emphasis on bandwidth, latency, jitter, packet loss. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/Real Scenario - Setting Up a Small Business Network (Router, Switch, AP, VLAN Plan)",
+      "label": "Real Scenario - Setting Up a Small Business Network (Router, Switch, AP, VLAN Plan)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Real Scenario: Setting Up a Small Business Network covers how real networks move, segment, diagnose, and recover traffic. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Networking & Protocols/Real Scenario - You Have Power but No Internet — Full Diagnostic Walkthrough",
+      "label": "Real Scenario - You Have Power but No Internet — Full Diagnostic Walkthrough",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Real Scenario: You Have Power but No Internet covers how real networks move, segment, diagnose, and recover traffic, with emphasis on full diagnostic walkthrough. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/Routing Tables and Longest-Prefix Match — How a Packet Finds Its Way",
+      "label": "Routing Tables and Longest-Prefix Match — How a Packet Finds Its Way",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Routing Tables and Longest-Prefix Match covers how real networks move, segment, diagnose, and recover traffic, with emphasis on how a packet finds its way. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/SD-WAN — Software-Defined Enterprise WAN and Why It Replaced MPLS",
+      "label": "SD-WAN — Software-Defined Enterprise WAN and Why It Replaced MPLS",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "SD-WAN covers how real networks move, segment, diagnose, and recover traffic, with emphasis on software-defined enterprise wan and why it replaced mpls. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/Software-Defined Networking (SDN) — Separating Control Plane from Data Plane",
+      "label": "Software-Defined Networking (SDN) — Separating Control Plane from Data Plane",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Software-Defined Networking— Separating Control Plane from Data Plane covers how real networks move, segment, diagnose, and recover traffic. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/Spanning Tree Protocol (STP - RSTP - MSTP) — Loop Prevention in Switched Networks",
+      "label": "Spanning Tree Protocol (STP - RSTP - MSTP) — Loop Prevention in Switched Networks",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Spanning Tree Protocol— Loop Prevention in Switched Networks covers how real networks move, segment, diagnose, and recover traffic. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/Subnetting and CIDR — How IP Ranges Are Carved Up (with Examples)",
+      "label": "Subnetting and CIDR — How IP Ranges Are Carved Up (with Examples)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Subnetting and CIDR covers how real networks move, segment, diagnose, and recover traffic, with emphasis on how ip ranges are carved up. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each",
@@ -9050,7 +9805,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 42
     },
     {
       "id": "Resources/Networking & Protocols/TLS Handshake Step-by-Step",
@@ -9066,6 +9821,30 @@
       "degree": 5
     },
     {
+      "id": "Resources/Networking & Protocols/The Last Mile — How Internet Gets to Your Home (DSL, Cable, GPON Fiber)",
+      "label": "The Last Mile — How Internet Gets to Your Home (DSL, Cable, GPON Fiber)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "The Last Mile covers how real networks move, segment, diagnose, and recover traffic, with emphasis on how internet gets to your home. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/VLANs — Why Networks Are Segmented and How Trunking Works (802.1Q)",
+      "label": "VLANs — Why Networks Are Segmented and How Trunking Works (802.1Q)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "VLANs covers how real networks move, segment, diagnose, and recover traffic, with emphasis on why networks are segmented and how trunking works. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
       "id": "Resources/Networking & Protocols/VPN Protocols (WireGuard, OpenVPN, IPsec)",
       "label": "VPN Protocols (WireGuard, OpenVPN, IPsec)",
       "folder": "Resources",
@@ -9075,6 +9854,30 @@
         "resource",
         "networking-protocols",
         "security"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/VXLAN — Stretching L2 Networks Over L3 (Used in Data Centers and VMware)",
+      "label": "VXLAN — Stretching L2 Networks Over L3 (Used in Data Centers and VMware)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "VXLAN covers how real networks move, segment, diagnose, and recover traffic, with emphasis on stretching l2 networks over l3. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/Wi-Fi Authentication Deep Dive (WPA2-WPA3, PSK, 802.1X - EAP - RADIUS)",
+      "label": "Wi-Fi Authentication Deep Dive (WPA2-WPA3, PSK, 802.1X - EAP - RADIUS)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Wi-Fi Authentication Deep Dive covers how real networks move, segment, diagnose, and recover traffic. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
       ],
       "degree": 6
     },
@@ -9092,6 +9895,18 @@
       "degree": 4
     },
     {
+      "id": "Resources/Networking & Protocols/Wireshark and Packet Analysis — Reading a Full TCP Handshake",
+      "label": "Wireshark and Packet Analysis — Reading a Full TCP Handshake",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Wireshark and Packet Analysis covers how real networks move, segment, diagnose, and recover traffic, with emphasis on reading a full tcp handshake. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
+      ],
+      "degree": 6
+    },
+    {
       "id": "Resources/Networking & Protocols/Zero Trust Networking",
       "label": "Zero Trust Networking",
       "folder": "Resources",
@@ -9101,6 +9916,18 @@
         "resource",
         "networking-protocols",
         "security"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Networking & Protocols/tcpdump — Capturing and Reading Raw Packets from the CLI",
+      "label": "tcpdump — Capturing and Reading Raw Packets from the CLI",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "tcpdump covers how real networks move, segment, diagnose, and recover traffic, with emphasis on capturing and reading raw packets from the cli. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "tags": [
+        "resource",
+        "networking-protocols"
       ],
       "degree": 6
     },
@@ -13061,6 +13888,450 @@
       "degree": 7
     },
     {
+      "id": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)",
+      "label": "Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Active Directory is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially how it works. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/Capacity Planning for IT Infrastructure — How to Forecast Growth",
+      "label": "Capacity Planning for IT Infrastructure — How to Forecast Growth",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Capacity Planning for IT Infrastructure is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially how to forecast growth. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/Certificate Management — Internal CAs, Let's Encrypt, ACME Protocol",
+      "label": "Certificate Management — Internal CAs, Let's Encrypt, ACME Protocol",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Certificate Management is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially internal cas, let's encrypt, acme protocol. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/Cron, systemd Timers, and Task Scheduling in Linux",
+      "label": "Cron, systemd Timers, and Task Scheduling in Linux",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Cron, systemd Timers, and Task Scheduling in Linux is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/System Administration & IT/DHCP Server Setup and IP Address Management (IPAM)",
+      "label": "DHCP Server Setup and IP Address Management (IPAM)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "DHCP Server Setup and IP Address Management is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/DNS Server Configuration (Bind9, Windows DNS, CoreDNS, Split-Horizon)",
+      "label": "DNS Server Configuration (Bind9, Windows DNS, CoreDNS, Split-Horizon)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "DNS Server Configuration is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/Disaster Recovery and Business Continuity Planning (RPO, RTO)",
+      "label": "Disaster Recovery and Business Continuity Planning (RPO, RTO)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Disaster Recovery and Business Continuity Planning is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/Email Server Architecture (MX Records, SMTP Relay, SPF, DKIM, DMARC)",
+      "label": "Email Server Architecture (MX Records, SMTP Relay, SPF, DKIM, DMARC)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Email Server Architecture is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/Endpoint Management — MDM, Microsoft Intune, Jamf for macOS-iOS",
+      "label": "Endpoint Management — MDM, Microsoft Intune, Jamf for macOS-iOS",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Endpoint Management is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially mdm, microsoft intune, jamf for macos/ios. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/Group Policy Objects (GPOs) — How Windows Domain Policy Is Enforced",
+      "label": "Group Policy Objects (GPOs) — How Windows Domain Policy Is Enforced",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Group Policy Objects— How Windows Domain Policy Is Enforced is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/Hardware Asset Management and IT Procurement Lifecycle",
+      "label": "Hardware Asset Management and IT Procurement Lifecycle",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Hardware Asset Management and IT Procurement Lifecycle is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/IT Help Desk Troubleshooting Methodology — The Systematic Approach",
+      "label": "IT Help Desk Troubleshooting Methodology — The Systematic Approach",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "IT Help Desk Troubleshooting Methodology is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially the systematic approach. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/IT Security Fundamentals — Hardening, Least Privilege, Network Segmentation",
+      "label": "IT Security Fundamentals — Hardening, Least Privilege, Network Segmentation",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "IT Security Fundamentals is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially hardening, least privilege, network segmentation. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/IT Ticketing and ITSM — ITIL Fundamentals and ServiceNow Overview",
+      "label": "IT Ticketing and ITSM — ITIL Fundamentals and ServiceNow Overview",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "IT Ticketing and ITSM is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially itil fundamentals and servicenow overview. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/Kerberos Authentication — How Tickets Work in Windows Environments",
+      "label": "Kerberos Authentication — How Tickets Work in Windows Environments",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Kerberos Authentication is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially how tickets work in windows environments. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/LDAP and Directory Services — Protocol and Schema",
+      "label": "LDAP and Directory Services — Protocol and Schema",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "LDAP and Directory Services is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially protocol and schema. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem",
+      "label": "Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Linux System Monitoring is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially top, htop, iostat, sar, /proc filesystem. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 39
+    },
+    {
+      "id": "Resources/System Administration & IT/Linux User, Group, and Permission Management (useradd, chmod, chown, ACLs)",
+      "label": "Linux User, Group, and Permission Management (useradd, chmod, chown, ACLs)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Linux User, Group, and Permission Management is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/System Administration & IT/Log Management and SIEM — Syslog, Splunk, Elastic Stack (ELK)",
+      "label": "Log Management and SIEM — Syslog, Splunk, Elastic Stack (ELK)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Log Management and SIEM is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially syslog, splunk, elastic stack. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/Monitoring Windows Servers — Event Viewer, Performance Monitor, WMI",
+      "label": "Monitoring Windows Servers — Event Viewer, Performance Monitor, WMI",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Monitoring Windows Servers is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially event viewer, performance monitor, wmi. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/System Administration & IT/NFS and SMB — Network File Sharing Protocols Compared",
+      "label": "NFS and SMB — Network File Sharing Protocols Compared",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "NFS and SMB is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially network file sharing protocols compared. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/NTP and Chrony — Why Clock Accuracy Matters and How to Set It Up",
+      "label": "NTP and Chrony — Why Clock Accuracy Matters and How to Set It Up",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "NTP and Chrony is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially why clock accuracy matters and how to set it up. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/Network Documentation — IP Schema, Rack Diagrams, Network Topology Maps",
+      "label": "Network Documentation — IP Schema, Rack Diagrams, Network Topology Maps",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Network Documentation is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially ip schema, rack diagrams, network topology maps. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/PAM — Pluggable Authentication Modules and How Login Actually Works",
+      "label": "PAM — Pluggable Authentication Modules and How Login Actually Works",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "PAM is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially pluggable authentication modules and how login actually works. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/Patch Management Strategies (WSUS, Ansible, Unattended Upgrades)",
+      "label": "Patch Management Strategies (WSUS, Ansible, Unattended Upgrades)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Patch Management Strategies is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/RAID Levels Explained — What They Actually Protect Against (and Don't)",
+      "label": "RAID Levels Explained — What They Actually Protect Against (and Don't)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "RAID Levels Explained is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially what they actually protect against. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/Real Scenario - Onboarding a New Employee — Accounts, Access, Equipment Checklist",
+      "label": "Real Scenario - Onboarding a New Employee — Accounts, Access, Equipment Checklist",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Real Scenario: Onboarding a New Employee is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially accounts, access, equipment checklist. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/System Administration & IT/Remote Desktop and Remote Management (RDP, SSH Bastions, Jump Hosts)",
+      "label": "Remote Desktop and Remote Management (RDP, SSH Bastions, Jump Hosts)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Remote Desktop and Remote Management is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/SNMP Traps and Network Device Monitoring",
+      "label": "SNMP Traps and Network Device Monitoring",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "SNMP Traps and Network Device Monitoring is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/Server Hardening — CIS Benchmarks, Minimal Attack Surface, Fail2ban",
+      "label": "Server Hardening — CIS Benchmarks, Minimal Attack Surface, Fail2ban",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Server Hardening is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially cis benchmarks, minimal attack surface, fail2ban. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/Storage Area Networks (SAN) vs NAS vs DAS — When to Use Each",
+      "label": "Storage Area Networks (SAN) vs NAS vs DAS — When to Use Each",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Storage Area Networksvs NAS vs DAS is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially when to use each. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/Sudoers File and Privilege Escalation (sudoers, polkit)",
+      "label": "Sudoers File and Privilege Escalation (sudoers, polkit)",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Sudoers File and Privilege Escalation is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/The 3-2-1 Backup Rule — How to Implement Reliable Backups",
+      "label": "The 3-2-1 Backup Rule — How to Implement Reliable Backups",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "The 3-2-1 Backup Rule is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially how to implement reliable backups. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/Virtualization for IT — VMware vSphere, Proxmox, Hyper-V Compared",
+      "label": "Virtualization for IT — VMware vSphere, Proxmox, Hyper-V Compared",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Virtualization for IT is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially vmware vsphere, proxmox, hyper-v compared. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/Zero Trust for IT — Why VPNs Aren't Enough and What Replaces Them",
+      "label": "Zero Trust for IT — Why VPNs Aren't Enough and What Replaces Them",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "Zero Trust for IT is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially why vpns aren't enough and what replaces them. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/iDRAC, iLO, IPMI — Out-of-Band Server Management",
+      "label": "iDRAC, iLO, IPMI — Out-of-Band Server Management",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "iDRAC, iLO, IPMI is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially out-of-band server management. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/System Administration & IT/iSCSI and Fibre Channel — How SAN Storage Is Accessed",
+      "label": "iSCSI and Fibre Channel — How SAN Storage Is Accessed",
+      "folder": "Resources",
+      "created": "2026-05-28",
+      "excerpt": "iSCSI and Fibre Channel is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially how san storage is accessed. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "tags": [
+        "resource",
+        "system-administration-it"
+      ],
+      "degree": 6
+    },
+    {
       "id": "Resources/System Design Case Studies",
       "label": "System Design Case Studies",
       "folder": "Resources",
@@ -14126,7 +15397,7 @@
         "windows-wsl2",
         "security"
       ],
-      "degree": 6
+      "degree": 43
     },
     {
       "id": "Resources/Windows & WSL2/Windows Registry — How It Works",
@@ -20723,6 +21994,54 @@
       "target": "Resources/System Design Notes"
     },
     {
+      "source": "Resources/Hardware & Computing/ARM Architecture and the Embedded Computing Ecosystem",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/ARM Architecture and the Embedded Computing Ecosystem",
+      "target": "Resources/Hardware & Computing/Electronic Testing Tools — Multimeter, Oscilloscope, Logic Analyzer, Spectrum Analyzer"
+    },
+    {
+      "source": "Resources/Hardware & Computing/ARM Architecture and the Embedded Computing Ecosystem",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/ARM Architecture and the Embedded Computing Ecosystem",
+      "target": "Resources/Hardware & Computing/RISC-V — Open Source ISA and Why It Matters"
+    },
+    {
+      "source": "Resources/Hardware & Computing/ASICs vs FPGAs vs CPUs — Design Tradeoffs and When to Use Each",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/ASICs vs FPGAs vs CPUs — Design Tradeoffs and When to Use Each",
+      "target": "Resources/Hardware & Computing/Clock Signals, Crystal Oscillators, PLLs, and Timing"
+    },
+    {
+      "source": "Resources/Hardware & Computing/ASICs vs FPGAs vs CPUs — Design Tradeoffs and When to Use Each",
+      "target": "Resources/Hardware & Computing/FPGAs — Reprogrammable Hardware and How HDL Compiles to Gates"
+    },
+    {
+      "source": "Resources/Hardware & Computing/ASICs vs FPGAs vs CPUs — Design Tradeoffs and When to Use Each",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Arduino vs Raspberry Pi — Architecture, Use Cases, and What to Pick",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Arduino vs Raspberry Pi — Architecture, Use Cases, and What to Pick",
+      "target": "Resources/Hardware & Computing/Microcontrollers vs Microprocessors — Where Each Belongs"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Arduino vs Raspberry Pi — Architecture, Use Cases, and What to Pick",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Arduino vs Raspberry Pi — Architecture, Use Cases, and What to Pick",
+      "target": "Resources/Hardware & Computing/Single-Board Computers (SBCs) — Key Components and Design (CPU, PMIC, RAM, eMMC)"
+    },
+    {
       "source": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)",
       "target": "Resources/Hardware & Computing/How CPUs Work (Fetch, Decode, Execute, Write-Back)"
     },
@@ -20733,6 +22052,54 @@
     {
       "source": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)",
       "target": "Resources/Programming Languages/WebAssembly (WASM) Basics"
+    },
+    {
+      "source": "Resources/Hardware & Computing/CPU Microarchitecture — Pipelines, Branch Prediction, Out-of-Order Execution",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/CPU Microarchitecture — Pipelines, Branch Prediction, Out-of-Order Execution",
+      "target": "Resources/Hardware & Computing/How a CPU is Fabricated (Photolithography, EUV, TSMC vs Intel Fabs, Yield)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/CPU Microarchitecture — Pipelines, Branch Prediction, Out-of-Order Execution",
+      "target": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/CPU Microarchitecture — Pipelines, Branch Prediction, Out-of-Order Execution",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Chip Packaging Technologies (BGA, Flip-Chip, Chiplets, 2.5D-3D Stacking)",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Chip Packaging Technologies (BGA, Flip-Chip, Chiplets, 2.5D-3D Stacking)",
+      "target": "Resources/Hardware & Computing/How NPUs Work — Neural Processing Units in Modern SoCs (Apple M-series, Snapdragon)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Chip Packaging Technologies (BGA, Flip-Chip, Chiplets, 2.5D-3D Stacking)",
+      "target": "Resources/Hardware & Computing/How USB Works Internally (Host Controller, Enumeration, Transfer Types)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Chip Packaging Technologies (BGA, Flip-Chip, Chiplets, 2.5D-3D Stacking)",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Clock Signals, Crystal Oscillators, PLLs, and Timing",
+      "target": "Resources/Hardware & Computing/ASICs vs FPGAs vs CPUs — Design Tradeoffs and When to Use Each"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Clock Signals, Crystal Oscillators, PLLs, and Timing",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Clock Signals, Crystal Oscillators, PLLs, and Timing",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Clock Signals, Crystal Oscillators, PLLs, and Timing",
+      "target": "Resources/Hardware & Computing/Power Management ICs — LDOs vs Buck-Boost Converters"
     },
     {
       "source": "Resources/Hardware & Computing/DRAM vs SRAM",
@@ -20747,6 +22114,22 @@
       "target": "Resources/Hardware & Computing/Memory Hierarchy (L1-L2-L3 Cache, RAM, Disk)"
     },
     {
+      "source": "Resources/Hardware & Computing/Digital Logic — Gates, Flip-Flops, Registers, and Finite State Machines",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Digital Logic — Gates, Flip-Flops, Registers, and Finite State Machines",
+      "target": "Resources/Hardware & Computing/Microcontrollers vs Microprocessors — Where Each Belongs"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Digital Logic — Gates, Flip-Flops, Registers, and Finite State Machines",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Digital Logic — Gates, Flip-Flops, Registers, and Finite State Machines",
+      "target": "Resources/Hardware & Computing/Resistors, Capacitors, Inductors — What They Do and How They Behave"
+    },
+    {
       "source": "Resources/Hardware & Computing/DisplayPort vs HDMI vs Thunderbolt",
       "target": "Resources/Hardware & Computing/Home Lab Setup Guide"
     },
@@ -20757,6 +22140,86 @@
     {
       "source": "Resources/Hardware & Computing/DisplayPort vs HDMI vs Thunderbolt",
       "target": "Resources/Hardware & Computing/USB Standards Timeline (USB 2.0 through USB4)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Electromagnetic Interference (EMI) — Sources, Shielding, and FCC Certification",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Electromagnetic Interference (EMI) — Sources, Shielding, and FCC Certification",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Electromagnetic Interference (EMI) — Sources, Shielding, and FCC Certification",
+      "target": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Electromagnetic Interference (EMI) — Sources, Shielding, and FCC Certification",
+      "target": "Resources/Hardware & Computing/Soldering and PCB Assembly Fundamentals (Through-Hole vs SMD)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Electronic Testing Tools — Multimeter, Oscilloscope, Logic Analyzer, Spectrum Analyzer",
+      "target": "Resources/Hardware & Computing/ARM Architecture and the Embedded Computing Ecosystem"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Electronic Testing Tools — Multimeter, Oscilloscope, Logic Analyzer, Spectrum Analyzer",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Electronic Testing Tools — Multimeter, Oscilloscope, Logic Analyzer, Spectrum Analyzer",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Electronic Testing Tools — Multimeter, Oscilloscope, Logic Analyzer, Spectrum Analyzer",
+      "target": "Resources/Hardware & Computing/Soldering and PCB Assembly Fundamentals (Through-Hole vs SMD)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/FPGAs — Reprogrammable Hardware and How HDL Compiles to Gates",
+      "target": "Resources/Hardware & Computing/ASICs vs FPGAs vs CPUs — Design Tradeoffs and When to Use Each"
+    },
+    {
+      "source": "Resources/Hardware & Computing/FPGAs — Reprogrammable Hardware and How HDL Compiles to Gates",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/FPGAs — Reprogrammable Hardware and How HDL Compiles to Gates",
+      "target": "Resources/Hardware & Computing/GPIO and Embedded Interfaces (I2C, SPI, UART, CAN, PWM)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/FPGAs — Reprogrammable Hardware and How HDL Compiles to Gates",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/GPIO and Embedded Interfaces (I2C, SPI, UART, CAN, PWM)",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/GPIO and Embedded Interfaces (I2C, SPI, UART, CAN, PWM)",
+      "target": "Resources/Hardware & Computing/FPGAs — Reprogrammable Hardware and How HDL Compiles to Gates"
+    },
+    {
+      "source": "Resources/Hardware & Computing/GPIO and Embedded Interfaces (I2C, SPI, UART, CAN, PWM)",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/GPIO and Embedded Interfaces (I2C, SPI, UART, CAN, PWM)",
+      "target": "Resources/Hardware & Computing/Single-Board Computers (SBCs) — Key Components and Design (CPU, PMIC, RAM, eMMC)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/HDMI and DisplayPort Signal Standards — How Video Is Transmitted Digitally",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/HDMI and DisplayPort Signal Standards — How Video Is Transmitted Digitally",
+      "target": "Resources/Hardware & Computing/How USB Works Internally (Host Controller, Enumeration, Transfer Types)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/HDMI and DisplayPort Signal Standards — How Video Is Transmitted Digitally",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/HDMI and DisplayPort Signal Standards — How Video Is Transmitted Digitally",
+      "target": "Resources/Hardware & Computing/Open Hardware and the Maker Movement (KiCad, OSHW, Raspberry Pi Foundation)"
     },
     {
       "source": "Resources/Hardware & Computing/Home Lab Setup Guide",
@@ -20795,6 +22258,98 @@
       "target": "Resources/Hardware & Computing/Memory Hierarchy (L1-L2-L3 Cache, RAM, Disk)"
     },
     {
+      "source": "Resources/Hardware & Computing/How NAND Flash Works (SLC-MLC-TLC-QLC Cells, Wear Leveling, FTL Controllers)",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How NAND Flash Works (SLC-MLC-TLC-QLC Cells, Wear Leveling, FTL Controllers)",
+      "target": "Resources/Hardware & Computing/Memory Technologies — LPDDR vs DDR5 vs HBM and Why It Matters for AI"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How NAND Flash Works (SLC-MLC-TLC-QLC Cells, Wear Leveling, FTL Controllers)",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How NAND Flash Works (SLC-MLC-TLC-QLC Cells, Wear Leveling, FTL Controllers)",
+      "target": "Resources/Hardware & Computing/RISC-V — Open Source ISA and Why It Matters"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How NPUs Work — Neural Processing Units in Modern SoCs (Apple M-series, Snapdragon)",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How NPUs Work — Neural Processing Units in Modern SoCs (Apple M-series, Snapdragon)",
+      "target": "Resources/Hardware & Computing/Chip Packaging Technologies (BGA, Flip-Chip, Chiplets, 2.5D-3D Stacking)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How NPUs Work — Neural Processing Units in Modern SoCs (Apple M-series, Snapdragon)",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How NPUs Work — Neural Processing Units in Modern SoCs (Apple M-series, Snapdragon)",
+      "target": "Resources/Hardware & Computing/PCIe Architecture Deep Dive (Lanes, Gen 4 vs Gen 5, Bifurcation)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How Semiconductors Work (Silicon, Doping, P-N Junctions, Transistors)",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How Semiconductors Work (Silicon, Doping, P-N Junctions, Transistors)",
+      "target": "Resources/Hardware & Computing/How a CPU is Fabricated (Photolithography, EUV, TSMC vs Intel Fabs, Yield)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How Semiconductors Work (Silicon, Doping, P-N Junctions, Transistors)",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How USB Works Internally (Host Controller, Enumeration, Transfer Types)",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How USB Works Internally (Host Controller, Enumeration, Transfer Types)",
+      "target": "Resources/Hardware & Computing/Chip Packaging Technologies (BGA, Flip-Chip, Chiplets, 2.5D-3D Stacking)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How USB Works Internally (Host Controller, Enumeration, Transfer Types)",
+      "target": "Resources/Hardware & Computing/HDMI and DisplayPort Signal Standards — How Video Is Transmitted Digitally"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How USB Works Internally (Host Controller, Enumeration, Transfer Types)",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How a CPU is Fabricated (Photolithography, EUV, TSMC vs Intel Fabs, Yield)",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How a CPU is Fabricated (Photolithography, EUV, TSMC vs Intel Fabs, Yield)",
+      "target": "Resources/Hardware & Computing/CPU Microarchitecture — Pipelines, Branch Prediction, Out-of-Order Execution"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How a CPU is Fabricated (Photolithography, EUV, TSMC vs Intel Fabs, Yield)",
+      "target": "Resources/Hardware & Computing/How Semiconductors Work (Silicon, Doping, P-N Junctions, Transistors)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How a CPU is Fabricated (Photolithography, EUV, TSMC vs Intel Fabs, Yield)",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)",
+      "target": "Resources/Hardware & Computing/CPU Microarchitecture — Pipelines, Branch Prediction, Out-of-Order Execution"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)",
+      "target": "Resources/Hardware & Computing/VLSI Design — From RTL to Tape-Out (Synthesis, Place & Route, Timing Closure)"
+    },
+    {
       "source": "Resources/Hardware & Computing/Memory Hierarchy (L1-L2-L3 Cache, RAM, Disk)",
       "target": "Resources/Database Systems/Database Indexing Strategies (B-Tree, Hash, GIN, GiST)"
     },
@@ -20805,6 +22360,38 @@
     {
       "source": "Resources/Hardware & Computing/Memory Hierarchy (L1-L2-L3 Cache, RAM, Disk)",
       "target": "Resources/Hardware & Computing/How CPUs Work (Fetch, Decode, Execute, Write-Back)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Memory Technologies — LPDDR vs DDR5 vs HBM and Why It Matters for AI",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Memory Technologies — LPDDR vs DDR5 vs HBM and Why It Matters for AI",
+      "target": "Resources/Hardware & Computing/How NAND Flash Works (SLC-MLC-TLC-QLC Cells, Wear Leveling, FTL Controllers)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Memory Technologies — LPDDR vs DDR5 vs HBM and Why It Matters for AI",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Memory Technologies — LPDDR vs DDR5 vs HBM and Why It Matters for AI",
+      "target": "Resources/Hardware & Computing/Thermal Design — TDP, Heat Sinks, Heat Pipes, Vapor Chambers, Liquid Cooling"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Microcontrollers vs Microprocessors — Where Each Belongs",
+      "target": "Resources/Hardware & Computing/Arduino vs Raspberry Pi — Architecture, Use Cases, and What to Pick"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Microcontrollers vs Microprocessors — Where Each Belongs",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Microcontrollers vs Microprocessors — Where Each Belongs",
+      "target": "Resources/Hardware & Computing/Digital Logic — Gates, Flip-Flops, Registers, and Finite State Machines"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Microcontrollers vs Microprocessors — Where Each Belongs",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
     },
     {
       "source": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)",
@@ -20843,6 +22430,82 @@
       "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
     },
     {
+      "source": "Resources/Hardware & Computing/Ohm's Law and Basic Circuit Analysis (KVL, KCL, Voltage Dividers, Thevenin)",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Ohm's Law and Basic Circuit Analysis (KVL, KCL, Voltage Dividers, Thevenin)",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Ohm's Law and Basic Circuit Analysis (KVL, KCL, Voltage Dividers, Thevenin)",
+      "target": "Resources/Hardware & Computing/PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Ohm's Law and Basic Circuit Analysis (KVL, KCL, Voltage Dividers, Thevenin)",
+      "target": "Resources/Hardware & Computing/Resistors, Capacitors, Inductors — What They Do and How They Behave"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Open Hardware and the Maker Movement (KiCad, OSHW, Raspberry Pi Foundation)",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Open Hardware and the Maker Movement (KiCad, OSHW, Raspberry Pi Foundation)",
+      "target": "Resources/Hardware & Computing/HDMI and DisplayPort Signal Standards — How Video Is Transmitted Digitally"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Open Hardware and the Maker Movement (KiCad, OSHW, Raspberry Pi Foundation)",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)",
+      "target": "Resources/Hardware & Computing/Ohm's Law and Basic Circuit Analysis (KVL, KCL, Voltage Dividers, Thevenin)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)",
+      "target": "Resources/Hardware & Computing/VLSI Design — From RTL to Tape-Out (Synthesis, Place & Route, Timing Closure)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/PCIe Architecture Deep Dive (Lanes, Gen 4 vs Gen 5, Bifurcation)",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/PCIe Architecture Deep Dive (Lanes, Gen 4 vs Gen 5, Bifurcation)",
+      "target": "Resources/Hardware & Computing/How NPUs Work — Neural Processing Units in Modern SoCs (Apple M-series, Snapdragon)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/PCIe Architecture Deep Dive (Lanes, Gen 4 vs Gen 5, Bifurcation)",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/PCIe Architecture Deep Dive (Lanes, Gen 4 vs Gen 5, Bifurcation)",
+      "target": "Resources/Hardware & Computing/Thermal Design — TDP, Heat Sinks, Heat Pipes, Vapor Chambers, Liquid Cooling"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Power Management ICs — LDOs vs Buck-Boost Converters",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Power Management ICs — LDOs vs Buck-Boost Converters",
+      "target": "Resources/Hardware & Computing/Clock Signals, Crystal Oscillators, PLLs, and Timing"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Power Management ICs — LDOs vs Buck-Boost Converters",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Power Management ICs — LDOs vs Buck-Boost Converters",
+      "target": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk"
+    },
+    {
       "source": "Resources/Hardware & Computing/Power Supplies and 80+ Efficiency Ratings",
       "target": "Resources/Hardware & Computing/Home Lab Setup Guide"
     },
@@ -20853,6 +22516,38 @@
     {
       "source": "Resources/Hardware & Computing/Power Supplies and 80+ Efficiency Ratings",
       "target": "Resources/Hardware & Computing/Thermal Design and CPU-GPU Cooling"
+    },
+    {
+      "source": "Resources/Hardware & Computing/RISC-V — Open Source ISA and Why It Matters",
+      "target": "Resources/Hardware & Computing/ARM Architecture and the Embedded Computing Ecosystem"
+    },
+    {
+      "source": "Resources/Hardware & Computing/RISC-V — Open Source ISA and Why It Matters",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/RISC-V — Open Source ISA and Why It Matters",
+      "target": "Resources/Hardware & Computing/How NAND Flash Works (SLC-MLC-TLC-QLC Cells, Wear Leveling, FTL Controllers)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/RISC-V — Open Source ISA and Why It Matters",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Resistors, Capacitors, Inductors — What They Do and How They Behave",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Resistors, Capacitors, Inductors — What They Do and How They Behave",
+      "target": "Resources/Hardware & Computing/Digital Logic — Gates, Flip-Flops, Registers, and Finite State Machines"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Resistors, Capacitors, Inductors — What They Do and How They Behave",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Resistors, Capacitors, Inductors — What They Do and How They Behave",
+      "target": "Resources/Hardware & Computing/Ohm's Law and Basic Circuit Analysis (KVL, KCL, Voltage Dividers, Thevenin)"
     },
     {
       "source": "Resources/Hardware & Computing/SSD vs HDD — How They Work Internally",
@@ -20867,6 +22562,54 @@
       "target": "Resources/Hardware & Computing/NAS and Home Storage (ZFS, RAID Levels)"
     },
     {
+      "source": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk",
+      "target": "Resources/Hardware & Computing/Electromagnetic Interference (EMI) — Sources, Shielding, and FCC Certification"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk",
+      "target": "Resources/Hardware & Computing/Power Management ICs — LDOs vs Buck-Boost Converters"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Single-Board Computers (SBCs) — Key Components and Design (CPU, PMIC, RAM, eMMC)",
+      "target": "Resources/Hardware & Computing/Arduino vs Raspberry Pi — Architecture, Use Cases, and What to Pick"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Single-Board Computers (SBCs) — Key Components and Design (CPU, PMIC, RAM, eMMC)",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Single-Board Computers (SBCs) — Key Components and Design (CPU, PMIC, RAM, eMMC)",
+      "target": "Resources/Hardware & Computing/GPIO and Embedded Interfaces (I2C, SPI, UART, CAN, PWM)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Single-Board Computers (SBCs) — Key Components and Design (CPU, PMIC, RAM, eMMC)",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Soldering and PCB Assembly Fundamentals (Through-Hole vs SMD)",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Soldering and PCB Assembly Fundamentals (Through-Hole vs SMD)",
+      "target": "Resources/Hardware & Computing/Electromagnetic Interference (EMI) — Sources, Shielding, and FCC Certification"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Soldering and PCB Assembly Fundamentals (Through-Hole vs SMD)",
+      "target": "Resources/Hardware & Computing/Electronic Testing Tools — Multimeter, Oscilloscope, Logic Analyzer, Spectrum Analyzer"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Soldering and PCB Assembly Fundamentals (Through-Hole vs SMD)",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
       "source": "Resources/Hardware & Computing/Thermal Design and CPU-GPU Cooling",
       "target": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)"
     },
@@ -20879,6 +22622,22 @@
       "target": "Resources/Hardware & Computing/Power Supplies and 80+ Efficiency Ratings"
     },
     {
+      "source": "Resources/Hardware & Computing/Thermal Design — TDP, Heat Sinks, Heat Pipes, Vapor Chambers, Liquid Cooling",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Thermal Design — TDP, Heat Sinks, Heat Pipes, Vapor Chambers, Liquid Cooling",
+      "target": "Resources/Hardware & Computing/Memory Technologies — LPDDR vs DDR5 vs HBM and Why It Matters for AI"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Thermal Design — TDP, Heat Sinks, Heat Pipes, Vapor Chambers, Liquid Cooling",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Thermal Design — TDP, Heat Sinks, Heat Pipes, Vapor Chambers, Liquid Cooling",
+      "target": "Resources/Hardware & Computing/PCIe Architecture Deep Dive (Lanes, Gen 4 vs Gen 5, Bifurcation)"
+    },
+    {
       "source": "Resources/Hardware & Computing/USB Standards Timeline (USB 2.0 through USB4)",
       "target": "Resources/Hardware & Computing/DisplayPort vs HDMI vs Thunderbolt"
     },
@@ -20889,6 +22648,22 @@
     {
       "source": "Resources/Hardware & Computing/USB Standards Timeline (USB 2.0 through USB4)",
       "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/VLSI Design — From RTL to Tape-Out (Synthesis, Place & Route, Timing Closure)",
+      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/VLSI Design — From RTL to Tape-Out (Synthesis, Place & Route, Timing Closure)",
+      "target": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/VLSI Design — From RTL to Tape-Out (Synthesis, Place & Route, Timing Closure)",
+      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/VLSI Design — From RTL to Tape-Out (Synthesis, Place & Route, Timing Closure)",
+      "target": "Resources/Hardware & Computing/PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)"
     },
     {
       "source": "Resources/Health & Fitness/Back Health for Desk Workers",
@@ -23603,6 +25378,38 @@
       "target": "Resources/Distributed Systems"
     },
     {
+      "source": "Resources/Networking & Protocols/Anycast Routing — How CDNs and Public DNS (1.1.1.1, 8.8.8.8) Scale Globally",
+      "target": "Resources/Networking & Protocols/Internet Exchange Points (IXPs) — Where ISPs Physically Connect"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Anycast Routing — How CDNs and Public DNS (1.1.1.1, 8.8.8.8) Scale Globally",
+      "target": "Resources/Networking & Protocols/Network Monitoring — SNMP, NetFlow, sFlow, and Prometheus Exporters"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Anycast Routing — How CDNs and Public DNS (1.1.1.1, 8.8.8.8) Scale Globally",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Anycast Routing — How CDNs and Public DNS (1.1.1.1, 8.8.8.8) Scale Globally",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/BGP Deep Dive — How the Internet Routes Between Autonomous Systems",
+      "target": "Resources/Networking & Protocols/How an ISP Works — Tiers, Transit Agreements, and Peering"
+    },
+    {
+      "source": "Resources/Networking & Protocols/BGP Deep Dive — How the Internet Routes Between Autonomous Systems",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/BGP Deep Dive — How the Internet Routes Between Autonomous Systems",
+      "target": "Resources/Networking & Protocols/OSPF — How Routers Discover and Share Route Information (Link-State)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/BGP Deep Dive — How the Internet Routes Between Autonomous Systems",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
       "source": "Resources/Networking & Protocols/BGP — Internet Routing",
       "target": "Resources/Networking & Protocols/IPv4 vs IPv6"
     },
@@ -23651,6 +25458,34 @@
       "target": "Resources/System Design/CDN Architecture"
     },
     {
+      "source": "Resources/Networking & Protocols/DOCSIS — How Cable Internet Delivers Bandwidth Over Coax",
+      "target": "Resources/Networking & Protocols/GPON and XGS-PON — How Fiber-to-the-Home (FTTH) Works"
+    },
+    {
+      "source": "Resources/Networking & Protocols/DOCSIS — How Cable Internet Delivers Bandwidth Over Coax",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/DOCSIS — How Cable Internet Delivers Bandwidth Over Coax",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/DOCSIS — How Cable Internet Delivers Bandwidth Over Coax",
+      "target": "Resources/Networking & Protocols/The Last Mile — How Internet Gets to Your Home (DSL, Cable, GPON Fiber)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Ethernet Physical Layer — Cables Explained (Cat5e-6-6a-8, SFP, Fiber vs Copper)",
+      "target": "Resources/Networking & Protocols/How Ethernet Frames Work (MAC Addresses, Frame Structure, CSMA-CD, Full Duplex)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Ethernet Physical Layer — Cables Explained (Cat5e-6-6a-8, SFP, Fiber vs Copper)",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Ethernet Physical Layer — Cables Explained (Cat5e-6-6a-8, SFP, Fiber vs Copper)",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
       "source": "Resources/Networking & Protocols/Firewall Types (Stateful vs Stateless vs NGFW)",
       "target": "Resources/Networking & Protocols/NAT and Port Forwarding"
     },
@@ -23661,6 +25496,22 @@
     {
       "source": "Resources/Networking & Protocols/Firewall Types (Stateful vs Stateless vs NGFW)",
       "target": "Resources/Security & Privacy/Defense in Depth"
+    },
+    {
+      "source": "Resources/Networking & Protocols/GPON and XGS-PON — How Fiber-to-the-Home (FTTH) Works",
+      "target": "Resources/Networking & Protocols/DOCSIS — How Cable Internet Delivers Bandwidth Over Coax"
+    },
+    {
+      "source": "Resources/Networking & Protocols/GPON and XGS-PON — How Fiber-to-the-Home (FTTH) Works",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/GPON and XGS-PON — How Fiber-to-the-Home (FTTH) Works",
+      "target": "Resources/Networking & Protocols/Real Scenario - You Have Power but No Internet — Full Diagnostic Walkthrough"
+    },
+    {
+      "source": "Resources/Networking & Protocols/GPON and XGS-PON — How Fiber-to-the-Home (FTTH) Works",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
     },
     {
       "source": "Resources/Networking & Protocols/HTTP-1.1 vs HTTP-2 vs HTTP-3 (QUIC)",
@@ -23675,6 +25526,86 @@
       "target": "Resources/Web Technologies/Web Performance Optimization"
     },
     {
+      "source": "Resources/Networking & Protocols/How 5G Networks Work (RAN, Core Network, mmWave vs Sub-6GHz, Network Slicing)",
+      "target": "Resources/Networking & Protocols/Network Monitoring — SNMP, NetFlow, sFlow, and Prometheus Exporters"
+    },
+    {
+      "source": "Resources/Networking & Protocols/How 5G Networks Work (RAN, Core Network, mmWave vs Sub-6GHz, Network Slicing)",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/How 5G Networks Work (RAN, Core Network, mmWave vs Sub-6GHz, Network Slicing)",
+      "target": "Resources/Networking & Protocols/Software-Defined Networking (SDN) — Separating Control Plane from Data Plane"
+    },
+    {
+      "source": "Resources/Networking & Protocols/How 5G Networks Work (RAN, Core Network, mmWave vs Sub-6GHz, Network Slicing)",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/How Ethernet Frames Work (MAC Addresses, Frame Structure, CSMA-CD, Full Duplex)",
+      "target": "Resources/Networking & Protocols/Ethernet Physical Layer — Cables Explained (Cat5e-6-6a-8, SFP, Fiber vs Copper)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/How Ethernet Frames Work (MAC Addresses, Frame Structure, CSMA-CD, Full Duplex)",
+      "target": "Resources/Networking & Protocols/How a Network Switch Learns and Forwards (MAC Table, ARP, Flooding, Aging)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/How Ethernet Frames Work (MAC Addresses, Frame Structure, CSMA-CD, Full Duplex)",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/How Ethernet Frames Work (MAC Addresses, Frame Structure, CSMA-CD, Full Duplex)",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/How a Network Engineer Works with an ISP (Escalation, NOC, BGP Communities)",
+      "target": "Resources/Networking & Protocols/Network Engineer's Toolkit — ping, traceroute, mtr, nslookup, dig, netstat, ss"
+    },
+    {
+      "source": "Resources/Networking & Protocols/How a Network Engineer Works with an ISP (Escalation, NOC, BGP Communities)",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/How a Network Engineer Works with an ISP (Escalation, NOC, BGP Communities)",
+      "target": "Resources/Networking & Protocols/Real Scenario - You Have Power but No Internet — Full Diagnostic Walkthrough"
+    },
+    {
+      "source": "Resources/Networking & Protocols/How a Network Engineer Works with an ISP (Escalation, NOC, BGP Communities)",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/How a Network Switch Learns and Forwards (MAC Table, ARP, Flooding, Aging)",
+      "target": "Resources/Networking & Protocols/How Ethernet Frames Work (MAC Addresses, Frame Structure, CSMA-CD, Full Duplex)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/How a Network Switch Learns and Forwards (MAC Table, ARP, Flooding, Aging)",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/How a Network Switch Learns and Forwards (MAC Table, ARP, Flooding, Aging)",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/How a Network Switch Learns and Forwards (MAC Table, ARP, Flooding, Aging)",
+      "target": "Resources/Networking & Protocols/VLANs — Why Networks Are Segmented and How Trunking Works (802.1Q)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/How an ISP Works — Tiers, Transit Agreements, and Peering",
+      "target": "Resources/Networking & Protocols/BGP Deep Dive — How the Internet Routes Between Autonomous Systems"
+    },
+    {
+      "source": "Resources/Networking & Protocols/How an ISP Works — Tiers, Transit Agreements, and Peering",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/How an ISP Works — Tiers, Transit Agreements, and Peering",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/How an ISP Works — Tiers, Transit Agreements, and Peering",
+      "target": "Resources/Networking & Protocols/The Last Mile — How Internet Gets to Your Home (DSL, Cable, GPON Fiber)"
+    },
+    {
       "source": "Resources/Networking & Protocols/IPv4 vs IPv6",
       "target": "Resources/Networking & Protocols/BGP — Internet Routing"
     },
@@ -23685,6 +25616,70 @@
     {
       "source": "Resources/Networking & Protocols/IPv4 vs IPv6",
       "target": "Resources/Networking & Protocols/NAT and Port Forwarding"
+    },
+    {
+      "source": "Resources/Networking & Protocols/IPv6 Transition Strategies (Dual Stack, NAT64, 6to4, Tunneling)",
+      "target": "Resources/Networking & Protocols/Multicast Networking — IGMP, PIM, and How IPTV Works"
+    },
+    {
+      "source": "Resources/Networking & Protocols/IPv6 Transition Strategies (Dual Stack, NAT64, 6to4, Tunneling)",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/IPv6 Transition Strategies (Dual Stack, NAT64, 6to4, Tunneling)",
+      "target": "Resources/Networking & Protocols/Real Scenario - Setting Up a Small Business Network (Router, Switch, AP, VLAN Plan)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/IPv6 Transition Strategies (Dual Stack, NAT64, 6to4, Tunneling)",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Internet Exchange Points (IXPs) — Where ISPs Physically Connect",
+      "target": "Resources/Networking & Protocols/Anycast Routing — How CDNs and Public DNS (1.1.1.1, 8.8.8.8) Scale Globally"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Internet Exchange Points (IXPs) — Where ISPs Physically Connect",
+      "target": "Resources/Networking & Protocols/MPLS — How Enterprise WANs Used to Work"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Internet Exchange Points (IXPs) — Where ISPs Physically Connect",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Internet Exchange Points (IXPs) — Where ISPs Physically Connect",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/MPLS — How Enterprise WANs Used to Work",
+      "target": "Resources/Networking & Protocols/Internet Exchange Points (IXPs) — Where ISPs Physically Connect"
+    },
+    {
+      "source": "Resources/Networking & Protocols/MPLS — How Enterprise WANs Used to Work",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/MPLS — How Enterprise WANs Used to Work",
+      "target": "Resources/Networking & Protocols/SD-WAN — Software-Defined Enterprise WAN and Why It Replaced MPLS"
+    },
+    {
+      "source": "Resources/Networking & Protocols/MPLS — How Enterprise WANs Used to Work",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Multicast Networking — IGMP, PIM, and How IPTV Works",
+      "target": "Resources/Networking & Protocols/IPv6 Transition Strategies (Dual Stack, NAT64, 6to4, Tunneling)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Multicast Networking — IGMP, PIM, and How IPTV Works",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Multicast Networking — IGMP, PIM, and How IPTV Works",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Multicast Networking — IGMP, PIM, and How IPTV Works",
+      "target": "Resources/Networking & Protocols/VXLAN — Stretching L2 Networks Over L3 (Used in Data Centers and VMware)"
     },
     {
       "source": "Resources/Networking & Protocols/NAT and Port Forwarding",
@@ -23699,6 +25694,70 @@
       "target": "Resources/Networking & Protocols/VPN Protocols (WireGuard, OpenVPN, IPsec)"
     },
     {
+      "source": "Resources/Networking & Protocols/Network Address Translation (NAT) — How It Actually Works, and Why It's a Hack",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Network Address Translation (NAT) — How It Actually Works, and Why It's a Hack",
+      "target": "Resources/Networking & Protocols/QoS and Traffic Shaping — How Networks Prioritize VoIP, Video, and Bulk Data"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Network Address Translation (NAT) — How It Actually Works, and Why It's a Hack",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Network Address Translation (NAT) — How It Actually Works, and Why It's a Hack",
+      "target": "Resources/Networking & Protocols/Wi-Fi Authentication Deep Dive (WPA2-WPA3, PSK, 802.1X - EAP - RADIUS)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Network Engineer's Toolkit — ping, traceroute, mtr, nslookup, dig, netstat, ss",
+      "target": "Resources/Networking & Protocols/How a Network Engineer Works with an ISP (Escalation, NOC, BGP Communities)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Network Engineer's Toolkit — ping, traceroute, mtr, nslookup, dig, netstat, ss",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Network Engineer's Toolkit — ping, traceroute, mtr, nslookup, dig, netstat, ss",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Network Engineer's Toolkit — ping, traceroute, mtr, nslookup, dig, netstat, ss",
+      "target": "Resources/Networking & Protocols/tcpdump — Capturing and Reading Raw Packets from the CLI"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Network Monitoring — SNMP, NetFlow, sFlow, and Prometheus Exporters",
+      "target": "Resources/Networking & Protocols/Anycast Routing — How CDNs and Public DNS (1.1.1.1, 8.8.8.8) Scale Globally"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Network Monitoring — SNMP, NetFlow, sFlow, and Prometheus Exporters",
+      "target": "Resources/Networking & Protocols/How 5G Networks Work (RAN, Core Network, mmWave vs Sub-6GHz, Network Slicing)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Network Monitoring — SNMP, NetFlow, sFlow, and Prometheus Exporters",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Network Monitoring — SNMP, NetFlow, sFlow, and Prometheus Exporters",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Network Segmentation and DMZ Architecture",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Network Segmentation and DMZ Architecture",
+      "target": "Resources/Networking & Protocols/Software-Defined Networking (SDN) — Separating Control Plane from Data Plane"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Network Segmentation and DMZ Architecture",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Network Segmentation and DMZ Architecture",
+      "target": "Resources/Networking & Protocols/VXLAN — Stretching L2 Networks Over L3 (Used in Data Centers and VMware)"
+    },
+    {
       "source": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples",
       "target": "Resources/Hardware & Computing/Networking Hardware (Routers, Switches, NICs)"
     },
@@ -23708,6 +25767,194 @@
     },
     {
       "source": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/OSPF — How Routers Discover and Share Route Information (Link-State)",
+      "target": "Resources/Networking & Protocols/BGP Deep Dive — How the Internet Routes Between Autonomous Systems"
+    },
+    {
+      "source": "Resources/Networking & Protocols/OSPF — How Routers Discover and Share Route Information (Link-State)",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/OSPF — How Routers Discover and Share Route Information (Link-State)",
+      "target": "Resources/Networking & Protocols/Routing Tables and Longest-Prefix Match — How a Packet Finds Its Way"
+    },
+    {
+      "source": "Resources/Networking & Protocols/OSPF — How Routers Discover and Share Route Information (Link-State)",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/QoS and Traffic Shaping — How Networks Prioritize VoIP, Video, and Bulk Data",
+      "target": "Resources/Networking & Protocols/Network Address Translation (NAT) — How It Actually Works, and Why It's a Hack"
+    },
+    {
+      "source": "Resources/Networking & Protocols/QoS and Traffic Shaping — How Networks Prioritize VoIP, Video, and Bulk Data",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/QoS and Traffic Shaping — How Networks Prioritize VoIP, Video, and Bulk Data",
+      "target": "Resources/Networking & Protocols/SD-WAN — Software-Defined Enterprise WAN and Why It Replaced MPLS"
+    },
+    {
+      "source": "Resources/Networking & Protocols/QoS and Traffic Shaping — How Networks Prioritize VoIP, Video, and Bulk Data",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Real Scenario - DHCP Failure — Why IPs Stop Being Assigned and How to Fix It",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Real Scenario - DHCP Failure — Why IPs Stop Being Assigned and How to Fix It",
+      "target": "Resources/Networking & Protocols/Real Scenario - DNS Failure — Why a Site Stops Resolving and the Diagnostic Chain"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Real Scenario - DHCP Failure — Why IPs Stop Being Assigned and How to Fix It",
+      "target": "Resources/Networking & Protocols/Real Scenario - Diagnosing Slow Network — Bandwidth, Latency, Jitter, Packet Loss"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Real Scenario - DHCP Failure — Why IPs Stop Being Assigned and How to Fix It",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Real Scenario - DNS Failure — Why a Site Stops Resolving and the Diagnostic Chain",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Real Scenario - DNS Failure — Why a Site Stops Resolving and the Diagnostic Chain",
+      "target": "Resources/Networking & Protocols/Real Scenario - DHCP Failure — Why IPs Stop Being Assigned and How to Fix It"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Real Scenario - DNS Failure — Why a Site Stops Resolving and the Diagnostic Chain",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Real Scenario - DNS Failure — Why a Site Stops Resolving and the Diagnostic Chain",
+      "target": "Resources/Networking & Protocols/Wi-Fi Authentication Deep Dive (WPA2-WPA3, PSK, 802.1X - EAP - RADIUS)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Real Scenario - Diagnosing Slow Network — Bandwidth, Latency, Jitter, Packet Loss",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Real Scenario - Diagnosing Slow Network — Bandwidth, Latency, Jitter, Packet Loss",
+      "target": "Resources/Networking & Protocols/Real Scenario - DHCP Failure — Why IPs Stop Being Assigned and How to Fix It"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Real Scenario - Diagnosing Slow Network — Bandwidth, Latency, Jitter, Packet Loss",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Real Scenario - Diagnosing Slow Network — Bandwidth, Latency, Jitter, Packet Loss",
+      "target": "Resources/Networking & Protocols/Wireshark and Packet Analysis — Reading a Full TCP Handshake"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Real Scenario - Setting Up a Small Business Network (Router, Switch, AP, VLAN Plan)",
+      "target": "Resources/Networking & Protocols/IPv6 Transition Strategies (Dual Stack, NAT64, 6to4, Tunneling)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Real Scenario - Setting Up a Small Business Network (Router, Switch, AP, VLAN Plan)",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Real Scenario - Setting Up a Small Business Network (Router, Switch, AP, VLAN Plan)",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Real Scenario - You Have Power but No Internet — Full Diagnostic Walkthrough",
+      "target": "Resources/Networking & Protocols/GPON and XGS-PON — How Fiber-to-the-Home (FTTH) Works"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Real Scenario - You Have Power but No Internet — Full Diagnostic Walkthrough",
+      "target": "Resources/Networking & Protocols/How a Network Engineer Works with an ISP (Escalation, NOC, BGP Communities)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Real Scenario - You Have Power but No Internet — Full Diagnostic Walkthrough",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Real Scenario - You Have Power but No Internet — Full Diagnostic Walkthrough",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Routing Tables and Longest-Prefix Match — How a Packet Finds Its Way",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Routing Tables and Longest-Prefix Match — How a Packet Finds Its Way",
+      "target": "Resources/Networking & Protocols/OSPF — How Routers Discover and Share Route Information (Link-State)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Routing Tables and Longest-Prefix Match — How a Packet Finds Its Way",
+      "target": "Resources/Networking & Protocols/Subnetting and CIDR — How IP Ranges Are Carved Up (with Examples)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Routing Tables and Longest-Prefix Match — How a Packet Finds Its Way",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/SD-WAN — Software-Defined Enterprise WAN and Why It Replaced MPLS",
+      "target": "Resources/Networking & Protocols/MPLS — How Enterprise WANs Used to Work"
+    },
+    {
+      "source": "Resources/Networking & Protocols/SD-WAN — Software-Defined Enterprise WAN and Why It Replaced MPLS",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/SD-WAN — Software-Defined Enterprise WAN and Why It Replaced MPLS",
+      "target": "Resources/Networking & Protocols/QoS and Traffic Shaping — How Networks Prioritize VoIP, Video, and Bulk Data"
+    },
+    {
+      "source": "Resources/Networking & Protocols/SD-WAN — Software-Defined Enterprise WAN and Why It Replaced MPLS",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Software-Defined Networking (SDN) — Separating Control Plane from Data Plane",
+      "target": "Resources/Networking & Protocols/How 5G Networks Work (RAN, Core Network, mmWave vs Sub-6GHz, Network Slicing)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Software-Defined Networking (SDN) — Separating Control Plane from Data Plane",
+      "target": "Resources/Networking & Protocols/Network Segmentation and DMZ Architecture"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Software-Defined Networking (SDN) — Separating Control Plane from Data Plane",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Software-Defined Networking (SDN) — Separating Control Plane from Data Plane",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Spanning Tree Protocol (STP - RSTP - MSTP) — Loop Prevention in Switched Networks",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Spanning Tree Protocol (STP - RSTP - MSTP) — Loop Prevention in Switched Networks",
+      "target": "Resources/Networking & Protocols/Subnetting and CIDR — How IP Ranges Are Carved Up (with Examples)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Spanning Tree Protocol (STP - RSTP - MSTP) — Loop Prevention in Switched Networks",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Spanning Tree Protocol (STP - RSTP - MSTP) — Loop Prevention in Switched Networks",
+      "target": "Resources/Networking & Protocols/VLANs — Why Networks Are Segmented and How Trunking Works (802.1Q)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Subnetting and CIDR — How IP Ranges Are Carved Up (with Examples)",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Subnetting and CIDR — How IP Ranges Are Carved Up (with Examples)",
+      "target": "Resources/Networking & Protocols/Routing Tables and Longest-Prefix Match — How a Packet Finds Its Way"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Subnetting and CIDR — How IP Ranges Are Carved Up (with Examples)",
+      "target": "Resources/Networking & Protocols/Spanning Tree Protocol (STP - RSTP - MSTP) — Loop Prevention in Switched Networks"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Subnetting and CIDR — How IP Ranges Are Carved Up (with Examples)",
       "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
     },
     {
@@ -23735,6 +25982,38 @@
       "target": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)"
     },
     {
+      "source": "Resources/Networking & Protocols/The Last Mile — How Internet Gets to Your Home (DSL, Cable, GPON Fiber)",
+      "target": "Resources/Networking & Protocols/DOCSIS — How Cable Internet Delivers Bandwidth Over Coax"
+    },
+    {
+      "source": "Resources/Networking & Protocols/The Last Mile — How Internet Gets to Your Home (DSL, Cable, GPON Fiber)",
+      "target": "Resources/Networking & Protocols/How an ISP Works — Tiers, Transit Agreements, and Peering"
+    },
+    {
+      "source": "Resources/Networking & Protocols/The Last Mile — How Internet Gets to Your Home (DSL, Cable, GPON Fiber)",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/The Last Mile — How Internet Gets to Your Home (DSL, Cable, GPON Fiber)",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/VLANs — Why Networks Are Segmented and How Trunking Works (802.1Q)",
+      "target": "Resources/Networking & Protocols/How a Network Switch Learns and Forwards (MAC Table, ARP, Flooding, Aging)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/VLANs — Why Networks Are Segmented and How Trunking Works (802.1Q)",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/VLANs — Why Networks Are Segmented and How Trunking Works (802.1Q)",
+      "target": "Resources/Networking & Protocols/Spanning Tree Protocol (STP - RSTP - MSTP) — Loop Prevention in Switched Networks"
+    },
+    {
+      "source": "Resources/Networking & Protocols/VLANs — Why Networks Are Segmented and How Trunking Works (802.1Q)",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
       "source": "Resources/Networking & Protocols/VPN Protocols (WireGuard, OpenVPN, IPsec)",
       "target": "Resources/Networking & Protocols/Firewall Types (Stateful vs Stateless vs NGFW)"
     },
@@ -23745,6 +26024,38 @@
     {
       "source": "Resources/Networking & Protocols/VPN Protocols (WireGuard, OpenVPN, IPsec)",
       "target": "Resources/Networking & Protocols/Zero Trust Networking"
+    },
+    {
+      "source": "Resources/Networking & Protocols/VXLAN — Stretching L2 Networks Over L3 (Used in Data Centers and VMware)",
+      "target": "Resources/Networking & Protocols/Multicast Networking — IGMP, PIM, and How IPTV Works"
+    },
+    {
+      "source": "Resources/Networking & Protocols/VXLAN — Stretching L2 Networks Over L3 (Used in Data Centers and VMware)",
+      "target": "Resources/Networking & Protocols/Network Segmentation and DMZ Architecture"
+    },
+    {
+      "source": "Resources/Networking & Protocols/VXLAN — Stretching L2 Networks Over L3 (Used in Data Centers and VMware)",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/VXLAN — Stretching L2 Networks Over L3 (Used in Data Centers and VMware)",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Wi-Fi Authentication Deep Dive (WPA2-WPA3, PSK, 802.1X - EAP - RADIUS)",
+      "target": "Resources/Networking & Protocols/Network Address Translation (NAT) — How It Actually Works, and Why It's a Hack"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Wi-Fi Authentication Deep Dive (WPA2-WPA3, PSK, 802.1X - EAP - RADIUS)",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Wi-Fi Authentication Deep Dive (WPA2-WPA3, PSK, 802.1X - EAP - RADIUS)",
+      "target": "Resources/Networking & Protocols/Real Scenario - DNS Failure — Why a Site Stops Resolving and the Diagnostic Chain"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Wi-Fi Authentication Deep Dive (WPA2-WPA3, PSK, 802.1X - EAP - RADIUS)",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
     },
     {
       "source": "Resources/Networking & Protocols/Wi-Fi Standards (802.11 a-b-g-n-ac-ax)",
@@ -23759,6 +26070,22 @@
       "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
     },
     {
+      "source": "Resources/Networking & Protocols/Wireshark and Packet Analysis — Reading a Full TCP Handshake",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Wireshark and Packet Analysis — Reading a Full TCP Handshake",
+      "target": "Resources/Networking & Protocols/Real Scenario - Diagnosing Slow Network — Bandwidth, Latency, Jitter, Packet Loss"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Wireshark and Packet Analysis — Reading a Full TCP Handshake",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Wireshark and Packet Analysis — Reading a Full TCP Handshake",
+      "target": "Resources/Networking & Protocols/tcpdump — Capturing and Reading Raw Packets from the CLI"
+    },
+    {
       "source": "Resources/Networking & Protocols/Zero Trust Networking",
       "target": "Resources/Networking & Protocols/Firewall Types (Stateful vs Stateless vs NGFW)"
     },
@@ -23769,6 +26096,22 @@
     {
       "source": "Resources/Networking & Protocols/Zero Trust Networking",
       "target": "Resources/Security & Privacy/Zero-Trust Architecture"
+    },
+    {
+      "source": "Resources/Networking & Protocols/tcpdump — Capturing and Reading Raw Packets from the CLI",
+      "target": "Resources/Networking & Protocols/Network Engineer's Toolkit — ping, traceroute, mtr, nslookup, dig, netstat, ss"
+    },
+    {
+      "source": "Resources/Networking & Protocols/tcpdump — Capturing and Reading Raw Packets from the CLI",
+      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+    },
+    {
+      "source": "Resources/Networking & Protocols/tcpdump — Capturing and Reading Raw Packets from the CLI",
+      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+    },
+    {
+      "source": "Resources/Networking & Protocols/tcpdump — Capturing and Reading Raw Packets from the CLI",
+      "target": "Resources/Networking & Protocols/Wireshark and Packet Analysis — Reading a Full TCP Handshake"
     },
     {
       "source": "Resources/Neuroscience/Amygdala and Emotional Processing",
@@ -28399,6 +30742,578 @@
       "target": "Resources/Software Engineering/Kubernetes Basics"
     },
     {
+      "source": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)",
+      "target": "Resources/System Administration & IT/LDAP and Directory Services — Protocol and Schema"
+    },
+    {
+      "source": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)",
+      "target": "Resources/System Administration & IT/Sudoers File and Privilege Escalation (sudoers, polkit)"
+    },
+    {
+      "source": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/Capacity Planning for IT Infrastructure — How to Forecast Growth",
+      "target": "Resources/System Administration & IT/IT Help Desk Troubleshooting Methodology — The Systematic Approach"
+    },
+    {
+      "source": "Resources/System Administration & IT/Capacity Planning for IT Infrastructure — How to Forecast Growth",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/Capacity Planning for IT Infrastructure — How to Forecast Growth",
+      "target": "Resources/System Administration & IT/Network Documentation — IP Schema, Rack Diagrams, Network Topology Maps"
+    },
+    {
+      "source": "Resources/System Administration & IT/Capacity Planning for IT Infrastructure — How to Forecast Growth",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/Certificate Management — Internal CAs, Let's Encrypt, ACME Protocol",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/Certificate Management — Internal CAs, Let's Encrypt, ACME Protocol",
+      "target": "Resources/System Administration & IT/Log Management and SIEM — Syslog, Splunk, Elastic Stack (ELK)"
+    },
+    {
+      "source": "Resources/System Administration & IT/Certificate Management — Internal CAs, Let's Encrypt, ACME Protocol",
+      "target": "Resources/System Administration & IT/Server Hardening — CIS Benchmarks, Minimal Attack Surface, Fail2ban"
+    },
+    {
+      "source": "Resources/System Administration & IT/Certificate Management — Internal CAs, Let's Encrypt, ACME Protocol",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/Cron, systemd Timers, and Task Scheduling in Linux",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/Cron, systemd Timers, and Task Scheduling in Linux",
+      "target": "Resources/System Administration & IT/NFS and SMB — Network File Sharing Protocols Compared"
+    },
+    {
+      "source": "Resources/System Administration & IT/Cron, systemd Timers, and Task Scheduling in Linux",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/DHCP Server Setup and IP Address Management (IPAM)",
+      "target": "Resources/System Administration & IT/DNS Server Configuration (Bind9, Windows DNS, CoreDNS, Split-Horizon)"
+    },
+    {
+      "source": "Resources/System Administration & IT/DHCP Server Setup and IP Address Management (IPAM)",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/DHCP Server Setup and IP Address Management (IPAM)",
+      "target": "Resources/System Administration & IT/NTP and Chrony — Why Clock Accuracy Matters and How to Set It Up"
+    },
+    {
+      "source": "Resources/System Administration & IT/DHCP Server Setup and IP Address Management (IPAM)",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/DNS Server Configuration (Bind9, Windows DNS, CoreDNS, Split-Horizon)",
+      "target": "Resources/System Administration & IT/DHCP Server Setup and IP Address Management (IPAM)"
+    },
+    {
+      "source": "Resources/System Administration & IT/DNS Server Configuration (Bind9, Windows DNS, CoreDNS, Split-Horizon)",
+      "target": "Resources/System Administration & IT/Group Policy Objects (GPOs) — How Windows Domain Policy Is Enforced"
+    },
+    {
+      "source": "Resources/System Administration & IT/DNS Server Configuration (Bind9, Windows DNS, CoreDNS, Split-Horizon)",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/DNS Server Configuration (Bind9, Windows DNS, CoreDNS, Split-Horizon)",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/Disaster Recovery and Business Continuity Planning (RPO, RTO)",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/Disaster Recovery and Business Continuity Planning (RPO, RTO)",
+      "target": "Resources/System Administration & IT/The 3-2-1 Backup Rule — How to Implement Reliable Backups"
+    },
+    {
+      "source": "Resources/System Administration & IT/Disaster Recovery and Business Continuity Planning (RPO, RTO)",
+      "target": "Resources/System Administration & IT/Virtualization for IT — VMware vSphere, Proxmox, Hyper-V Compared"
+    },
+    {
+      "source": "Resources/System Administration & IT/Disaster Recovery and Business Continuity Planning (RPO, RTO)",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/Email Server Architecture (MX Records, SMTP Relay, SPF, DKIM, DMARC)",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/Email Server Architecture (MX Records, SMTP Relay, SPF, DKIM, DMARC)",
+      "target": "Resources/System Administration & IT/NTP and Chrony — Why Clock Accuracy Matters and How to Set It Up"
+    },
+    {
+      "source": "Resources/System Administration & IT/Email Server Architecture (MX Records, SMTP Relay, SPF, DKIM, DMARC)",
+      "target": "Resources/System Administration & IT/Patch Management Strategies (WSUS, Ansible, Unattended Upgrades)"
+    },
+    {
+      "source": "Resources/System Administration & IT/Email Server Architecture (MX Records, SMTP Relay, SPF, DKIM, DMARC)",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/Endpoint Management — MDM, Microsoft Intune, Jamf for macOS-iOS",
+      "target": "Resources/System Administration & IT/IT Ticketing and ITSM — ITIL Fundamentals and ServiceNow Overview"
+    },
+    {
+      "source": "Resources/System Administration & IT/Endpoint Management — MDM, Microsoft Intune, Jamf for macOS-iOS",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/Endpoint Management — MDM, Microsoft Intune, Jamf for macOS-iOS",
+      "target": "Resources/System Administration & IT/Remote Desktop and Remote Management (RDP, SSH Bastions, Jump Hosts)"
+    },
+    {
+      "source": "Resources/System Administration & IT/Endpoint Management — MDM, Microsoft Intune, Jamf for macOS-iOS",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/Group Policy Objects (GPOs) — How Windows Domain Policy Is Enforced",
+      "target": "Resources/System Administration & IT/DNS Server Configuration (Bind9, Windows DNS, CoreDNS, Split-Horizon)"
+    },
+    {
+      "source": "Resources/System Administration & IT/Group Policy Objects (GPOs) — How Windows Domain Policy Is Enforced",
+      "target": "Resources/System Administration & IT/LDAP and Directory Services — Protocol and Schema"
+    },
+    {
+      "source": "Resources/System Administration & IT/Group Policy Objects (GPOs) — How Windows Domain Policy Is Enforced",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/Group Policy Objects (GPOs) — How Windows Domain Policy Is Enforced",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/Hardware Asset Management and IT Procurement Lifecycle",
+      "target": "Resources/System Administration & IT/IT Help Desk Troubleshooting Methodology — The Systematic Approach"
+    },
+    {
+      "source": "Resources/System Administration & IT/Hardware Asset Management and IT Procurement Lifecycle",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/Hardware Asset Management and IT Procurement Lifecycle",
+      "target": "Resources/System Administration & IT/Monitoring Windows Servers — Event Viewer, Performance Monitor, WMI"
+    },
+    {
+      "source": "Resources/System Administration & IT/Hardware Asset Management and IT Procurement Lifecycle",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/IT Help Desk Troubleshooting Methodology — The Systematic Approach",
+      "target": "Resources/System Administration & IT/Capacity Planning for IT Infrastructure — How to Forecast Growth"
+    },
+    {
+      "source": "Resources/System Administration & IT/IT Help Desk Troubleshooting Methodology — The Systematic Approach",
+      "target": "Resources/System Administration & IT/Hardware Asset Management and IT Procurement Lifecycle"
+    },
+    {
+      "source": "Resources/System Administration & IT/IT Help Desk Troubleshooting Methodology — The Systematic Approach",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/IT Help Desk Troubleshooting Methodology — The Systematic Approach",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/IT Security Fundamentals — Hardening, Least Privilege, Network Segmentation",
+      "target": "Resources/System Administration & IT/Kerberos Authentication — How Tickets Work in Windows Environments"
+    },
+    {
+      "source": "Resources/System Administration & IT/IT Security Fundamentals — Hardening, Least Privilege, Network Segmentation",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/IT Security Fundamentals — Hardening, Least Privilege, Network Segmentation",
+      "target": "Resources/System Administration & IT/Zero Trust for IT — Why VPNs Aren't Enough and What Replaces Them"
+    },
+    {
+      "source": "Resources/System Administration & IT/IT Security Fundamentals — Hardening, Least Privilege, Network Segmentation",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/IT Ticketing and ITSM — ITIL Fundamentals and ServiceNow Overview",
+      "target": "Resources/System Administration & IT/Endpoint Management — MDM, Microsoft Intune, Jamf for macOS-iOS"
+    },
+    {
+      "source": "Resources/System Administration & IT/IT Ticketing and ITSM — ITIL Fundamentals and ServiceNow Overview",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/IT Ticketing and ITSM — ITIL Fundamentals and ServiceNow Overview",
+      "target": "Resources/System Administration & IT/Server Hardening — CIS Benchmarks, Minimal Attack Surface, Fail2ban"
+    },
+    {
+      "source": "Resources/System Administration & IT/IT Ticketing and ITSM — ITIL Fundamentals and ServiceNow Overview",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/Kerberos Authentication — How Tickets Work in Windows Environments",
+      "target": "Resources/System Administration & IT/IT Security Fundamentals — Hardening, Least Privilege, Network Segmentation"
+    },
+    {
+      "source": "Resources/System Administration & IT/Kerberos Authentication — How Tickets Work in Windows Environments",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/Kerberos Authentication — How Tickets Work in Windows Environments",
+      "target": "Resources/System Administration & IT/SNMP Traps and Network Device Monitoring"
+    },
+    {
+      "source": "Resources/System Administration & IT/Kerberos Authentication — How Tickets Work in Windows Environments",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/LDAP and Directory Services — Protocol and Schema",
+      "target": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)"
+    },
+    {
+      "source": "Resources/System Administration & IT/LDAP and Directory Services — Protocol and Schema",
+      "target": "Resources/System Administration & IT/Group Policy Objects (GPOs) — How Windows Domain Policy Is Enforced"
+    },
+    {
+      "source": "Resources/System Administration & IT/LDAP and Directory Services — Protocol and Schema",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/LDAP and Directory Services — Protocol and Schema",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem",
+      "target": "Resources/System Administration & IT/Cron, systemd Timers, and Task Scheduling in Linux"
+    },
+    {
+      "source": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem",
+      "target": "Resources/System Administration & IT/Monitoring Windows Servers — Event Viewer, Performance Monitor, WMI"
+    },
+    {
+      "source": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/Linux User, Group, and Permission Management (useradd, chmod, chown, ACLs)",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/Linux User, Group, and Permission Management (useradd, chmod, chown, ACLs)",
+      "target": "Resources/System Administration & IT/PAM — Pluggable Authentication Modules and How Login Actually Works"
+    },
+    {
+      "source": "Resources/System Administration & IT/Linux User, Group, and Permission Management (useradd, chmod, chown, ACLs)",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/Log Management and SIEM — Syslog, Splunk, Elastic Stack (ELK)",
+      "target": "Resources/System Administration & IT/Certificate Management — Internal CAs, Let's Encrypt, ACME Protocol"
+    },
+    {
+      "source": "Resources/System Administration & IT/Log Management and SIEM — Syslog, Splunk, Elastic Stack (ELK)",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/Log Management and SIEM — Syslog, Splunk, Elastic Stack (ELK)",
+      "target": "Resources/System Administration & IT/Network Documentation — IP Schema, Rack Diagrams, Network Topology Maps"
+    },
+    {
+      "source": "Resources/System Administration & IT/Log Management and SIEM — Syslog, Splunk, Elastic Stack (ELK)",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/Monitoring Windows Servers — Event Viewer, Performance Monitor, WMI",
+      "target": "Resources/System Administration & IT/Hardware Asset Management and IT Procurement Lifecycle"
+    },
+    {
+      "source": "Resources/System Administration & IT/Monitoring Windows Servers — Event Viewer, Performance Monitor, WMI",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/Monitoring Windows Servers — Event Viewer, Performance Monitor, WMI",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/NFS and SMB — Network File Sharing Protocols Compared",
+      "target": "Resources/System Administration & IT/Cron, systemd Timers, and Task Scheduling in Linux"
+    },
+    {
+      "source": "Resources/System Administration & IT/NFS and SMB — Network File Sharing Protocols Compared",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/NFS and SMB — Network File Sharing Protocols Compared",
+      "target": "Resources/System Administration & IT/iDRAC, iLO, IPMI — Out-of-Band Server Management"
+    },
+    {
+      "source": "Resources/System Administration & IT/NFS and SMB — Network File Sharing Protocols Compared",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/NTP and Chrony — Why Clock Accuracy Matters and How to Set It Up",
+      "target": "Resources/System Administration & IT/DHCP Server Setup and IP Address Management (IPAM)"
+    },
+    {
+      "source": "Resources/System Administration & IT/NTP and Chrony — Why Clock Accuracy Matters and How to Set It Up",
+      "target": "Resources/System Administration & IT/Email Server Architecture (MX Records, SMTP Relay, SPF, DKIM, DMARC)"
+    },
+    {
+      "source": "Resources/System Administration & IT/NTP and Chrony — Why Clock Accuracy Matters and How to Set It Up",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/NTP and Chrony — Why Clock Accuracy Matters and How to Set It Up",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/Network Documentation — IP Schema, Rack Diagrams, Network Topology Maps",
+      "target": "Resources/System Administration & IT/Capacity Planning for IT Infrastructure — How to Forecast Growth"
+    },
+    {
+      "source": "Resources/System Administration & IT/Network Documentation — IP Schema, Rack Diagrams, Network Topology Maps",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/Network Documentation — IP Schema, Rack Diagrams, Network Topology Maps",
+      "target": "Resources/System Administration & IT/Log Management and SIEM — Syslog, Splunk, Elastic Stack (ELK)"
+    },
+    {
+      "source": "Resources/System Administration & IT/Network Documentation — IP Schema, Rack Diagrams, Network Topology Maps",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/PAM — Pluggable Authentication Modules and How Login Actually Works",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/PAM — Pluggable Authentication Modules and How Login Actually Works",
+      "target": "Resources/System Administration & IT/Linux User, Group, and Permission Management (useradd, chmod, chown, ACLs)"
+    },
+    {
+      "source": "Resources/System Administration & IT/PAM — Pluggable Authentication Modules and How Login Actually Works",
+      "target": "Resources/System Administration & IT/Sudoers File and Privilege Escalation (sudoers, polkit)"
+    },
+    {
+      "source": "Resources/System Administration & IT/PAM — Pluggable Authentication Modules and How Login Actually Works",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/Patch Management Strategies (WSUS, Ansible, Unattended Upgrades)",
+      "target": "Resources/System Administration & IT/Email Server Architecture (MX Records, SMTP Relay, SPF, DKIM, DMARC)"
+    },
+    {
+      "source": "Resources/System Administration & IT/Patch Management Strategies (WSUS, Ansible, Unattended Upgrades)",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/Patch Management Strategies (WSUS, Ansible, Unattended Upgrades)",
+      "target": "Resources/System Administration & IT/The 3-2-1 Backup Rule — How to Implement Reliable Backups"
+    },
+    {
+      "source": "Resources/System Administration & IT/Patch Management Strategies (WSUS, Ansible, Unattended Upgrades)",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/RAID Levels Explained — What They Actually Protect Against (and Don't)",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/RAID Levels Explained — What They Actually Protect Against (and Don't)",
+      "target": "Resources/System Administration & IT/Storage Area Networks (SAN) vs NAS vs DAS — When to Use Each"
+    },
+    {
+      "source": "Resources/System Administration & IT/RAID Levels Explained — What They Actually Protect Against (and Don't)",
+      "target": "Resources/System Administration & IT/iSCSI and Fibre Channel — How SAN Storage Is Accessed"
+    },
+    {
+      "source": "Resources/System Administration & IT/RAID Levels Explained — What They Actually Protect Against (and Don't)",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/Real Scenario - Onboarding a New Employee — Accounts, Access, Equipment Checklist",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/Real Scenario - Onboarding a New Employee — Accounts, Access, Equipment Checklist",
+      "target": "Resources/System Administration & IT/Zero Trust for IT — Why VPNs Aren't Enough and What Replaces Them"
+    },
+    {
+      "source": "Resources/System Administration & IT/Real Scenario - Onboarding a New Employee — Accounts, Access, Equipment Checklist",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/Remote Desktop and Remote Management (RDP, SSH Bastions, Jump Hosts)",
+      "target": "Resources/System Administration & IT/Endpoint Management — MDM, Microsoft Intune, Jamf for macOS-iOS"
+    },
+    {
+      "source": "Resources/System Administration & IT/Remote Desktop and Remote Management (RDP, SSH Bastions, Jump Hosts)",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/Remote Desktop and Remote Management (RDP, SSH Bastions, Jump Hosts)",
+      "target": "Resources/System Administration & IT/iSCSI and Fibre Channel — How SAN Storage Is Accessed"
+    },
+    {
+      "source": "Resources/System Administration & IT/Remote Desktop and Remote Management (RDP, SSH Bastions, Jump Hosts)",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/SNMP Traps and Network Device Monitoring",
+      "target": "Resources/System Administration & IT/Kerberos Authentication — How Tickets Work in Windows Environments"
+    },
+    {
+      "source": "Resources/System Administration & IT/SNMP Traps and Network Device Monitoring",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/SNMP Traps and Network Device Monitoring",
+      "target": "Resources/System Administration & IT/iDRAC, iLO, IPMI — Out-of-Band Server Management"
+    },
+    {
+      "source": "Resources/System Administration & IT/SNMP Traps and Network Device Monitoring",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/Server Hardening — CIS Benchmarks, Minimal Attack Surface, Fail2ban",
+      "target": "Resources/System Administration & IT/Certificate Management — Internal CAs, Let's Encrypt, ACME Protocol"
+    },
+    {
+      "source": "Resources/System Administration & IT/Server Hardening — CIS Benchmarks, Minimal Attack Surface, Fail2ban",
+      "target": "Resources/System Administration & IT/IT Ticketing and ITSM — ITIL Fundamentals and ServiceNow Overview"
+    },
+    {
+      "source": "Resources/System Administration & IT/Server Hardening — CIS Benchmarks, Minimal Attack Surface, Fail2ban",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/Server Hardening — CIS Benchmarks, Minimal Attack Surface, Fail2ban",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/Storage Area Networks (SAN) vs NAS vs DAS — When to Use Each",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/Storage Area Networks (SAN) vs NAS vs DAS — When to Use Each",
+      "target": "Resources/System Administration & IT/RAID Levels Explained — What They Actually Protect Against (and Don't)"
+    },
+    {
+      "source": "Resources/System Administration & IT/Storage Area Networks (SAN) vs NAS vs DAS — When to Use Each",
+      "target": "Resources/System Administration & IT/Virtualization for IT — VMware vSphere, Proxmox, Hyper-V Compared"
+    },
+    {
+      "source": "Resources/System Administration & IT/Storage Area Networks (SAN) vs NAS vs DAS — When to Use Each",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/Sudoers File and Privilege Escalation (sudoers, polkit)",
+      "target": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)"
+    },
+    {
+      "source": "Resources/System Administration & IT/Sudoers File and Privilege Escalation (sudoers, polkit)",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/Sudoers File and Privilege Escalation (sudoers, polkit)",
+      "target": "Resources/System Administration & IT/PAM — Pluggable Authentication Modules and How Login Actually Works"
+    },
+    {
+      "source": "Resources/System Administration & IT/Sudoers File and Privilege Escalation (sudoers, polkit)",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/The 3-2-1 Backup Rule — How to Implement Reliable Backups",
+      "target": "Resources/System Administration & IT/Disaster Recovery and Business Continuity Planning (RPO, RTO)"
+    },
+    {
+      "source": "Resources/System Administration & IT/The 3-2-1 Backup Rule — How to Implement Reliable Backups",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/The 3-2-1 Backup Rule — How to Implement Reliable Backups",
+      "target": "Resources/System Administration & IT/Patch Management Strategies (WSUS, Ansible, Unattended Upgrades)"
+    },
+    {
+      "source": "Resources/System Administration & IT/The 3-2-1 Backup Rule — How to Implement Reliable Backups",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/Virtualization for IT — VMware vSphere, Proxmox, Hyper-V Compared",
+      "target": "Resources/System Administration & IT/Disaster Recovery and Business Continuity Planning (RPO, RTO)"
+    },
+    {
+      "source": "Resources/System Administration & IT/Virtualization for IT — VMware vSphere, Proxmox, Hyper-V Compared",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/Virtualization for IT — VMware vSphere, Proxmox, Hyper-V Compared",
+      "target": "Resources/System Administration & IT/Storage Area Networks (SAN) vs NAS vs DAS — When to Use Each"
+    },
+    {
+      "source": "Resources/System Administration & IT/Virtualization for IT — VMware vSphere, Proxmox, Hyper-V Compared",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/Zero Trust for IT — Why VPNs Aren't Enough and What Replaces Them",
+      "target": "Resources/System Administration & IT/IT Security Fundamentals — Hardening, Least Privilege, Network Segmentation"
+    },
+    {
+      "source": "Resources/System Administration & IT/Zero Trust for IT — Why VPNs Aren't Enough and What Replaces Them",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/Zero Trust for IT — Why VPNs Aren't Enough and What Replaces Them",
+      "target": "Resources/System Administration & IT/Real Scenario - Onboarding a New Employee — Accounts, Access, Equipment Checklist"
+    },
+    {
+      "source": "Resources/System Administration & IT/Zero Trust for IT — Why VPNs Aren't Enough and What Replaces Them",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/iDRAC, iLO, IPMI — Out-of-Band Server Management",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/iDRAC, iLO, IPMI — Out-of-Band Server Management",
+      "target": "Resources/System Administration & IT/NFS and SMB — Network File Sharing Protocols Compared"
+    },
+    {
+      "source": "Resources/System Administration & IT/iDRAC, iLO, IPMI — Out-of-Band Server Management",
+      "target": "Resources/System Administration & IT/SNMP Traps and Network Device Monitoring"
+    },
+    {
+      "source": "Resources/System Administration & IT/iDRAC, iLO, IPMI — Out-of-Band Server Management",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
+      "source": "Resources/System Administration & IT/iSCSI and Fibre Channel — How SAN Storage Is Accessed",
+      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+    },
+    {
+      "source": "Resources/System Administration & IT/iSCSI and Fibre Channel — How SAN Storage Is Accessed",
+      "target": "Resources/System Administration & IT/RAID Levels Explained — What They Actually Protect Against (and Don't)"
+    },
+    {
+      "source": "Resources/System Administration & IT/iSCSI and Fibre Channel — How SAN Storage Is Accessed",
+      "target": "Resources/System Administration & IT/Remote Desktop and Remote Management (RDP, SSH Bastions, Jump Hosts)"
+    },
+    {
+      "source": "Resources/System Administration & IT/iSCSI and Fibre Channel — How SAN Storage Is Accessed",
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+    },
+    {
       "source": "Resources/System Design Case Studies",
       "target": "Projects/Backlog"
     },
@@ -29839,5 +32754,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-27T17:01:02Z"
+  "generated_at": "2026-05-28T14:56:37Z"
 }
