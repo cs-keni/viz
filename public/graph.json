@@ -9329,24 +9329,24 @@
       "label": "Anycast Routing — How CDNs and Public DNS (1.1.1.1, 8.8.8.8) Scale Globally",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Anycast Routing covers how real networks move, segment, diagnose, and recover traffic, with emphasis on how cdns and public dnsscale globally. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "Anycast advertises the same IP prefix from multiple locations so routing sends users to a nearby or preferred instance, commonly used by CDNs, DNS resolvers, DDoS platforms, and edge services. It scales globally because BGP path selection steers clients without requiring them to know which site will answer.",
       "tags": [
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Networking & Protocols/BGP Deep Dive — How the Internet Routes Between Autonomous Systems",
       "label": "BGP Deep Dive — How the Internet Routes Between Autonomous Systems",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "BGP Deep Dive covers how real networks move, segment, diagnose, and recover traffic, with emphasis on how the internet routes between autonomous systems. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "BGP is the interdomain routing protocol that lets autonomous systems advertise IP prefixes and choose paths across the internet. Its power comes from policy: operators influence routing with AS paths, local preference, MED, communities, filtering, and peering relationships rather than only shortest path.",
       "tags": [
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 10
     },
     {
       "id": "Resources/Networking & Protocols/BGP — Internet Routing",
@@ -9395,7 +9395,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Networking & Protocols/DOCSIS — How Cable Internet Delivers Bandwidth Over Coax",
@@ -9488,12 +9488,12 @@
       "label": "How a Network Engineer Works with an ISP (Escalation, NOC, BGP Communities)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "How a Network Engineer Works with an ISP covers how real networks move, segment, diagnose, and recover traffic. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "Working with an ISP is evidence-driven escalation: prove the customer edge, circuit, packet loss, routing, DNS, and BGP symptoms before asking the provider NOC to act. Good escalation includes timestamps, circuit IDs, source and destination IPs, traceroutes, interface counters, BGP session state, and requested policy changes such as communities.",
       "tags": [
         "resource",
         "networking-protocols"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Networking & Protocols/How a Network Switch Learns and Forwards (MAC Table, ARP, Flooding, Aging)",
@@ -9512,12 +9512,12 @@
       "label": "How an ISP Works — Tiers, Transit Agreements, and Peering",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "How an ISP Works covers how real networks move, segment, diagnose, and recover traffic, with emphasis on tiers, transit agreements, and peering. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "An ISP connects customers to the internet by combining last-mile access, aggregation networks, core routing, DNS/resolver services, transit, private peering, public peering, and operational support. The business relationships behind transit and peering directly affect latency, reachability, redundancy, and escalation paths.",
       "tags": [
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Networking & Protocols/IPv4 vs IPv6",
@@ -9548,12 +9548,12 @@
       "label": "Internet Exchange Points (IXPs) — Where ISPs Physically Connect",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Internet Exchange Points— Where ISPs Physically Connect covers how real networks move, segment, diagnose, and recover traffic. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "An internet exchange point is a shared switching fabric where networks physically connect and exchange traffic through public peering. IXPs reduce cost and latency by letting ISPs, CDNs, cloud providers, and enterprises exchange traffic directly instead of sending it through transit providers.",
       "tags": [
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Networking & Protocols/MPLS — How Enterprise WANs Used to Work",
@@ -9565,7 +9565,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Networking & Protocols/Multicast Networking — IGMP, PIM, and How IPTV Works",
@@ -9625,7 +9625,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Networking & Protocols/Network Segmentation and DMZ Architecture",
@@ -9649,19 +9649,19 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 27
+      "degree": 19
     },
     {
       "id": "Resources/Networking & Protocols/OSPF — How Routers Discover and Share Route Information (Link-State)",
       "label": "OSPF — How Routers Discover and Share Route Information (Link-State)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "OSPF covers how real networks move, segment, diagnose, and recover traffic, with emphasis on how routers discover and share route information. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "OSPF is a link-state interior gateway protocol where routers form adjacencies, flood link-state advertisements, build a shared topology database, and run shortest-path calculations. It is used inside organizations because it converges faster and models topology more explicitly than simple static routing.",
       "tags": [
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Networking & Protocols/QoS and Traffic Shaping — How Networks Prioritize VoIP, Video, and Bulk Data",
@@ -9709,7 +9709,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Networking & Protocols/Real Scenario - Setting Up a Small Business Network (Router, Switch, AP, VLAN Plan)",
@@ -9721,7 +9721,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Networking & Protocols/Real Scenario - You Have Power but No Internet — Full Diagnostic Walkthrough",
@@ -9733,14 +9733,14 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Networking & Protocols/Routing Tables and Longest-Prefix Match — How a Packet Finds Its Way",
       "label": "Routing Tables and Longest-Prefix Match — How a Packet Finds Its Way",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Routing Tables and Longest-Prefix Match covers how real networks move, segment, diagnose, and recover traffic, with emphasis on how a packet finds its way. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "Routing tables map destination prefixes to next hops or interfaces, and longest-prefix match chooses the most specific matching route for each packet. This explains why a /32 host route beats a /24 subnet route, why default routes work, and why overlapping routes can create surprising paths.",
       "tags": [
         "resource",
         "networking-protocols"
@@ -9781,19 +9781,19 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Networking & Protocols/Subnetting and CIDR — How IP Ranges Are Carved Up (with Examples)",
       "label": "Subnetting and CIDR — How IP Ranges Are Carved Up (with Examples)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Subnetting and CIDR covers how real networks move, segment, diagnose, and recover traffic, with emphasis on how ip ranges are carved up. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "Subnetting and CIDR describe how IP address space is divided into prefixes such as /24, /26, or /30 so networks can be routed, segmented, and documented. The practical skill is knowing which addresses belong to a subnet, which addresses are usable by hosts, and how prefix length changes capacity and routing behavior.",
       "tags": [
         "resource",
         "networking-protocols"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each",
@@ -9805,7 +9805,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 29
+      "degree": 21
     },
     {
       "id": "Resources/Networking & Protocols/TLS Handshake Step-by-Step",
@@ -9842,7 +9842,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Networking & Protocols/VPN Protocols (WireGuard, OpenVPN, IPsec)",
@@ -13945,7 +13945,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/System Administration & IT/DNS Server Configuration (Bind9, Windows DNS, CoreDNS, Split-Horizon)",
@@ -25379,6 +25379,14 @@
     },
     {
       "source": "Resources/Networking & Protocols/Anycast Routing — How CDNs and Public DNS (1.1.1.1, 8.8.8.8) Scale Globally",
+      "target": "Resources/Networking & Protocols/BGP Deep Dive — How the Internet Routes Between Autonomous Systems"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Anycast Routing — How CDNs and Public DNS (1.1.1.1, 8.8.8.8) Scale Globally",
+      "target": "Resources/Networking & Protocols/DNS — How It Works (Recursive Resolution, TTL, Caching)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/Anycast Routing — How CDNs and Public DNS (1.1.1.1, 8.8.8.8) Scale Globally",
       "target": "Resources/Networking & Protocols/Internet Exchange Points (IXPs) — Where ISPs Physically Connect"
     },
     {
@@ -25386,12 +25394,12 @@
       "target": "Resources/Networking & Protocols/Network Monitoring — SNMP, NetFlow, sFlow, and Prometheus Exporters"
     },
     {
-      "source": "Resources/Networking & Protocols/Anycast Routing — How CDNs and Public DNS (1.1.1.1, 8.8.8.8) Scale Globally",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "source": "Resources/Networking & Protocols/BGP Deep Dive — How the Internet Routes Between Autonomous Systems",
+      "target": "Resources/Networking & Protocols/Anycast Routing — How CDNs and Public DNS (1.1.1.1, 8.8.8.8) Scale Globally"
     },
     {
-      "source": "Resources/Networking & Protocols/Anycast Routing — How CDNs and Public DNS (1.1.1.1, 8.8.8.8) Scale Globally",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "source": "Resources/Networking & Protocols/BGP Deep Dive — How the Internet Routes Between Autonomous Systems",
+      "target": "Resources/Networking & Protocols/How a Network Engineer Works with an ISP (Escalation, NOC, BGP Communities)"
     },
     {
       "source": "Resources/Networking & Protocols/BGP Deep Dive — How the Internet Routes Between Autonomous Systems",
@@ -25399,15 +25407,7 @@
     },
     {
       "source": "Resources/Networking & Protocols/BGP Deep Dive — How the Internet Routes Between Autonomous Systems",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
-    },
-    {
-      "source": "Resources/Networking & Protocols/BGP Deep Dive — How the Internet Routes Between Autonomous Systems",
-      "target": "Resources/Networking & Protocols/OSPF — How Routers Discover and Share Route Information (Link-State)"
-    },
-    {
-      "source": "Resources/Networking & Protocols/BGP Deep Dive — How the Internet Routes Between Autonomous Systems",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "target": "Resources/Networking & Protocols/Internet Exchange Points (IXPs) — Where ISPs Physically Connect"
     },
     {
       "source": "Resources/Networking & Protocols/BGP — Internet Routing",
@@ -25563,19 +25563,19 @@
     },
     {
       "source": "Resources/Networking & Protocols/How a Network Engineer Works with an ISP (Escalation, NOC, BGP Communities)",
+      "target": "Resources/Networking & Protocols/BGP Deep Dive — How the Internet Routes Between Autonomous Systems"
+    },
+    {
+      "source": "Resources/Networking & Protocols/How a Network Engineer Works with an ISP (Escalation, NOC, BGP Communities)",
+      "target": "Resources/Networking & Protocols/How an ISP Works — Tiers, Transit Agreements, and Peering"
+    },
+    {
+      "source": "Resources/Networking & Protocols/How a Network Engineer Works with an ISP (Escalation, NOC, BGP Communities)",
       "target": "Resources/Networking & Protocols/Network Engineer's Toolkit — ping, traceroute, mtr, nslookup, dig, netstat, ss"
     },
     {
       "source": "Resources/Networking & Protocols/How a Network Engineer Works with an ISP (Escalation, NOC, BGP Communities)",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
-    },
-    {
-      "source": "Resources/Networking & Protocols/How a Network Engineer Works with an ISP (Escalation, NOC, BGP Communities)",
       "target": "Resources/Networking & Protocols/Real Scenario - You Have Power but No Internet — Full Diagnostic Walkthrough"
-    },
-    {
-      "source": "Resources/Networking & Protocols/How a Network Engineer Works with an ISP (Escalation, NOC, BGP Communities)",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
     },
     {
       "source": "Resources/Networking & Protocols/How a Network Switch Learns and Forwards (MAC Table, ARP, Flooding, Aging)",
@@ -25599,11 +25599,11 @@
     },
     {
       "source": "Resources/Networking & Protocols/How an ISP Works — Tiers, Transit Agreements, and Peering",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "target": "Resources/Networking & Protocols/How a Network Engineer Works with an ISP (Escalation, NOC, BGP Communities)"
     },
     {
       "source": "Resources/Networking & Protocols/How an ISP Works — Tiers, Transit Agreements, and Peering",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "target": "Resources/Networking & Protocols/Internet Exchange Points (IXPs) — Where ISPs Physically Connect"
     },
     {
       "source": "Resources/Networking & Protocols/How an ISP Works — Tiers, Transit Agreements, and Peering",
@@ -25643,15 +25643,15 @@
     },
     {
       "source": "Resources/Networking & Protocols/Internet Exchange Points (IXPs) — Where ISPs Physically Connect",
-      "target": "Resources/Networking & Protocols/MPLS — How Enterprise WANs Used to Work"
+      "target": "Resources/Networking & Protocols/BGP Deep Dive — How the Internet Routes Between Autonomous Systems"
     },
     {
       "source": "Resources/Networking & Protocols/Internet Exchange Points (IXPs) — Where ISPs Physically Connect",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "target": "Resources/Networking & Protocols/How an ISP Works — Tiers, Transit Agreements, and Peering"
     },
     {
       "source": "Resources/Networking & Protocols/Internet Exchange Points (IXPs) — Where ISPs Physically Connect",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "target": "Resources/Networking & Protocols/Network Monitoring — SNMP, NetFlow, sFlow, and Prometheus Exporters"
     },
     {
       "source": "Resources/Networking & Protocols/MPLS — How Enterprise WANs Used to Work",
@@ -25779,7 +25779,7 @@
     },
     {
       "source": "Resources/Networking & Protocols/OSPF — How Routers Discover and Share Route Information (Link-State)",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "target": "Resources/Networking & Protocols/Real Scenario - Diagnosing Slow Network — Bandwidth, Latency, Jitter, Packet Loss"
     },
     {
       "source": "Resources/Networking & Protocols/OSPF — How Routers Discover and Share Route Information (Link-State)",
@@ -25787,7 +25787,7 @@
     },
     {
       "source": "Resources/Networking & Protocols/OSPF — How Routers Discover and Share Route Information (Link-State)",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "target": "Resources/Networking & Protocols/Subnetting and CIDR — How IP Ranges Are Carved Up (with Examples)"
     },
     {
       "source": "Resources/Networking & Protocols/QoS and Traffic Shaping — How Networks Prioritize VoIP, Video, and Bulk Data",
@@ -25887,7 +25887,7 @@
     },
     {
       "source": "Resources/Networking & Protocols/Routing Tables and Longest-Prefix Match — How a Packet Finds Its Way",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "target": "Resources/Networking & Protocols/BGP Deep Dive — How the Internet Routes Between Autonomous Systems"
     },
     {
       "source": "Resources/Networking & Protocols/Routing Tables and Longest-Prefix Match — How a Packet Finds Its Way",
@@ -25895,11 +25895,11 @@
     },
     {
       "source": "Resources/Networking & Protocols/Routing Tables and Longest-Prefix Match — How a Packet Finds Its Way",
-      "target": "Resources/Networking & Protocols/Subnetting and CIDR — How IP Ranges Are Carved Up (with Examples)"
+      "target": "Resources/Networking & Protocols/Real Scenario - You Have Power but No Internet — Full Diagnostic Walkthrough"
     },
     {
       "source": "Resources/Networking & Protocols/Routing Tables and Longest-Prefix Match — How a Packet Finds Its Way",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "target": "Resources/Networking & Protocols/Subnetting and CIDR — How IP Ranges Are Carved Up (with Examples)"
     },
     {
       "source": "Resources/Networking & Protocols/SD-WAN — Software-Defined Enterprise WAN and Why It Replaced MPLS",
@@ -25951,7 +25951,7 @@
     },
     {
       "source": "Resources/Networking & Protocols/Subnetting and CIDR — How IP Ranges Are Carved Up (with Examples)",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "target": "Resources/Networking & Protocols/Real Scenario - Setting Up a Small Business Network (Router, Switch, AP, VLAN Plan)"
     },
     {
       "source": "Resources/Networking & Protocols/Subnetting and CIDR — How IP Ranges Are Carved Up (with Examples)",
@@ -25959,11 +25959,11 @@
     },
     {
       "source": "Resources/Networking & Protocols/Subnetting and CIDR — How IP Ranges Are Carved Up (with Examples)",
-      "target": "Resources/Networking & Protocols/Spanning Tree Protocol (STP - RSTP - MSTP) — Loop Prevention in Switched Networks"
+      "target": "Resources/Networking & Protocols/VLANs — Why Networks Are Segmented and How Trunking Works (802.1Q)"
     },
     {
       "source": "Resources/Networking & Protocols/Subnetting and CIDR — How IP Ranges Are Carved Up (with Examples)",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "target": "Resources/System Administration & IT/DHCP Server Setup and IP Address Management (IPAM)"
     },
     {
       "source": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each",
@@ -32762,5 +32762,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-28T17:13:50Z"
+  "generated_at": "2026-05-28T18:30:17Z"
 }
