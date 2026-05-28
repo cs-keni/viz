@@ -9346,7 +9346,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Networking & Protocols/BGP — Internet Routing",
@@ -9402,12 +9402,12 @@
       "label": "DOCSIS — How Cable Internet Delivers Bandwidth Over Coax",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "DOCSIS covers how real networks move, segment, diagnose, and recover traffic, with emphasis on how cable internet delivers bandwidth over coax. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "DOCSIS is the cable-internet standard that lets cable modems carry IP traffic over coaxial networks originally built for TV. It uses downstream and upstream channels, a cable modem termination system, signal levels, modulation, and provisioning to share neighborhood capacity among many subscribers.",
       "tags": [
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Networking & Protocols/Ethernet Physical Layer — Cables Explained (Cat5e-6-6a-8, SFP, Fiber vs Copper)",
@@ -9419,7 +9419,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Networking & Protocols/Firewall Types (Stateful vs Stateless vs NGFW)",
@@ -9432,14 +9432,14 @@
         "networking-protocols",
         "security"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Networking & Protocols/GPON and XGS-PON — How Fiber-to-the-Home (FTTH) Works",
       "label": "GPON and XGS-PON — How Fiber-to-the-Home (FTTH) Works",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "GPON and XGS-PON covers how real networks move, segment, diagnose, and recover traffic, with emphasis on how fiber-to-the-homeworks. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "GPON and XGS-PON are passive optical network technologies that deliver fiber-to-the-home by sharing one provider optical line terminal across many customer ONTs through passive splitters. GPON is typically asymmetric lower-capacity service, while XGS-PON supports higher symmetric capacity on newer optics.",
       "tags": [
         "resource",
         "networking-protocols"
@@ -9464,7 +9464,7 @@
       "label": "How 5G Networks Work (RAN, Core Network, mmWave vs Sub-6GHz, Network Slicing)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "How 5G Networks Work covers how real networks move, segment, diagnose, and recover traffic. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "5G networks combine radio access, spectrum bands, backhaul, a cloud-native core, subscriber identity, mobility management, and policy control to deliver mobile broadband and specialized services. The practical tradeoff is that mmWave offers high capacity over short ranges while sub-6GHz provides broader coverage with less peak throughput.",
       "tags": [
         "resource",
         "networking-protocols"
@@ -9493,7 +9493,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Networking & Protocols/How a Network Switch Learns and Forwards (MAC Table, ARP, Flooding, Aging)",
@@ -9517,7 +9517,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/Networking & Protocols/IPv4 vs IPv6",
@@ -9529,7 +9529,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Networking & Protocols/IPv6 Transition Strategies (Dual Stack, NAT64, 6to4, Tunneling)",
@@ -9553,19 +9553,19 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/Networking & Protocols/MPLS — How Enterprise WANs Used to Work",
       "label": "MPLS — How Enterprise WANs Used to Work",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "MPLS covers how real networks move, segment, diagnose, and recover traffic, with emphasis on how enterprise wans used to work. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "MPLS forwards packets through provider networks using labels rather than normal destination-IP lookups at every hop, enabling carrier-managed VPNs, traffic engineering, and QoS classes. It powered many enterprise WANs before SD-WAN and internet-first architectures became common.",
       "tags": [
         "resource",
         "networking-protocols"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Networking & Protocols/Multicast Networking — IGMP, PIM, and How IPTV Works",
@@ -9596,7 +9596,7 @@
       "label": "Network Address Translation (NAT) — How It Actually Works, and Why It's a Hack",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Network Address Translation— How It Actually Works, and Why It's a Hack covers how real networks move, segment, diagnose, and recover traffic. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "Network Address Translation rewrites packet addresses and often ports so many private hosts can share limited public IPv4 addresses. It works through stateful translation tables, but it complicates inbound connectivity, peer-to-peer protocols, logging, geolocation, and troubleshooting.",
       "tags": [
         "resource",
         "networking-protocols"
@@ -9625,7 +9625,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Networking & Protocols/Network Segmentation and DMZ Architecture",
@@ -9637,7 +9637,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples",
@@ -9649,7 +9649,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 19
+      "degree": 10
     },
     {
       "id": "Resources/Networking & Protocols/OSPF — How Routers Discover and Share Route Information (Link-State)",
@@ -9668,12 +9668,12 @@
       "label": "QoS and Traffic Shaping — How Networks Prioritize VoIP, Video, and Bulk Data",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "QoS and Traffic Shaping covers how real networks move, segment, diagnose, and recover traffic, with emphasis on how networks prioritize voip, video, and bulk data. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "QoS and traffic shaping manage congestion by classifying traffic, marking priority, queuing packets, limiting rates, and protecting latency-sensitive flows like voice and video. QoS cannot create bandwidth, but it can decide which packets suffer first when a link is full.",
       "tags": [
         "resource",
         "networking-protocols"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Networking & Protocols/Real Scenario - DHCP Failure — Why IPs Stop Being Assigned and How to Fix It",
@@ -9685,7 +9685,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Networking & Protocols/Real Scenario - DNS Failure — Why a Site Stops Resolving and the Diagnostic Chain",
@@ -9697,7 +9697,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/Networking & Protocols/Real Scenario - Diagnosing Slow Network — Bandwidth, Latency, Jitter, Packet Loss",
@@ -9709,7 +9709,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/Networking & Protocols/Real Scenario - Setting Up a Small Business Network (Router, Switch, AP, VLAN Plan)",
@@ -9721,7 +9721,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Networking & Protocols/Real Scenario - You Have Power but No Internet — Full Diagnostic Walkthrough",
@@ -9733,7 +9733,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Networking & Protocols/Routing Tables and Longest-Prefix Match — How a Packet Finds Its Way",
@@ -9752,12 +9752,12 @@
       "label": "SD-WAN — Software-Defined Enterprise WAN and Why It Replaced MPLS",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "SD-WAN covers how real networks move, segment, diagnose, and recover traffic, with emphasis on software-defined enterprise wan and why it replaced mpls. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "SD-WAN builds encrypted, policy-driven overlays across multiple underlays such as broadband, LTE/5G, DIA, and MPLS so applications can use the best available path. It displaced many MPLS-only designs by adding central policy, path measurement, faster failover, and cheaper internet links.",
       "tags": [
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Networking & Protocols/Software-Defined Networking (SDN) — Separating Control Plane from Data Plane",
@@ -9769,7 +9769,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/Networking & Protocols/Spanning Tree Protocol (STP - RSTP - MSTP) — Loop Prevention in Switched Networks",
@@ -9805,7 +9805,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 21
+      "degree": 12
     },
     {
       "id": "Resources/Networking & Protocols/TLS Handshake Step-by-Step",
@@ -9825,12 +9825,12 @@
       "label": "The Last Mile — How Internet Gets to Your Home (DSL, Cable, GPON Fiber)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "The Last Mile covers how real networks move, segment, diagnose, and recover traffic, with emphasis on how internet gets to your home. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "The last mile is the access link between a customer site and the provider network, using technologies such as DSL over copper pairs, DOCSIS over coax, GPON/XGS-PON over fiber, fixed wireless, or cellular. Many internet outages start here because the physical medium, signal levels, provisioning, and neighborhood aggregation all affect reliability.",
       "tags": [
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Networking & Protocols/VLANs — Why Networks Are Segmented and How Trunking Works (802.1Q)",
@@ -9842,7 +9842,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Networking & Protocols/VPN Protocols (WireGuard, OpenVPN, IPsec)",
@@ -9874,12 +9874,12 @@
       "label": "Wi-Fi Authentication Deep Dive (WPA2-WPA3, PSK, 802.1X - EAP - RADIUS)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Wi-Fi Authentication Deep Dive covers how real networks move, segment, diagnose, and recover traffic. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "Wi-Fi authentication controls who can join a wireless network using methods such as WPA2/WPA3 personal pre-shared keys or enterprise 802.1X with EAP and RADIUS. Authentication problems must be separated from RF association, VLAN assignment, DHCP, DNS, and captive portal behavior.",
       "tags": [
         "resource",
         "networking-protocols"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/Networking & Protocols/Wi-Fi Standards (802.11 a-b-g-n-ac-ax)",
@@ -9917,7 +9917,7 @@
         "networking-protocols",
         "security"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Networking & Protocols/tcpdump — Capturing and Reading Raw Packets from the CLI",
@@ -13993,7 +13993,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/System Administration & IT/Group Policy Objects (GPOs) — How Windows Domain Policy Is Enforced",
@@ -25459,15 +25459,15 @@
     },
     {
       "source": "Resources/Networking & Protocols/DOCSIS — How Cable Internet Delivers Bandwidth Over Coax",
-      "target": "Resources/Networking & Protocols/GPON and XGS-PON — How Fiber-to-the-Home (FTTH) Works"
+      "target": "Resources/Networking & Protocols/How an ISP Works — Tiers, Transit Agreements, and Peering"
     },
     {
       "source": "Resources/Networking & Protocols/DOCSIS — How Cable Internet Delivers Bandwidth Over Coax",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "target": "Resources/Networking & Protocols/QoS and Traffic Shaping — How Networks Prioritize VoIP, Video, and Bulk Data"
     },
     {
       "source": "Resources/Networking & Protocols/DOCSIS — How Cable Internet Delivers Bandwidth Over Coax",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "target": "Resources/Networking & Protocols/Real Scenario - Diagnosing Slow Network — Bandwidth, Latency, Jitter, Packet Loss"
     },
     {
       "source": "Resources/Networking & Protocols/DOCSIS — How Cable Internet Delivers Bandwidth Over Coax",
@@ -25503,11 +25503,11 @@
     },
     {
       "source": "Resources/Networking & Protocols/GPON and XGS-PON — How Fiber-to-the-Home (FTTH) Works",
-      "target": "Resources/Networking & Protocols/DOCSIS — How Cable Internet Delivers Bandwidth Over Coax"
+      "target": "Resources/Networking & Protocols/Ethernet Physical Layer — Cables Explained (Cat5e-6-6a-8, SFP, Fiber vs Copper)"
     },
     {
       "source": "Resources/Networking & Protocols/GPON and XGS-PON — How Fiber-to-the-Home (FTTH) Works",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "target": "Resources/Networking & Protocols/How an ISP Works — Tiers, Transit Agreements, and Peering"
     },
     {
       "source": "Resources/Networking & Protocols/GPON and XGS-PON — How Fiber-to-the-Home (FTTH) Works",
@@ -25515,7 +25515,7 @@
     },
     {
       "source": "Resources/Networking & Protocols/GPON and XGS-PON — How Fiber-to-the-Home (FTTH) Works",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "target": "Resources/Networking & Protocols/The Last Mile — How Internet Gets to Your Home (DSL, Cable, GPON Fiber)"
     },
     {
       "source": "Resources/Networking & Protocols/HTTP-1.1 vs HTTP-2 vs HTTP-3 (QUIC)",
@@ -25531,19 +25531,19 @@
     },
     {
       "source": "Resources/Networking & Protocols/How 5G Networks Work (RAN, Core Network, mmWave vs Sub-6GHz, Network Slicing)",
+      "target": "Resources/Networking & Protocols/Network Address Translation (NAT) — How It Actually Works, and Why It's a Hack"
+    },
+    {
+      "source": "Resources/Networking & Protocols/How 5G Networks Work (RAN, Core Network, mmWave vs Sub-6GHz, Network Slicing)",
       "target": "Resources/Networking & Protocols/Network Monitoring — SNMP, NetFlow, sFlow, and Prometheus Exporters"
     },
     {
       "source": "Resources/Networking & Protocols/How 5G Networks Work (RAN, Core Network, mmWave vs Sub-6GHz, Network Slicing)",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "target": "Resources/Networking & Protocols/SD-WAN — Software-Defined Enterprise WAN and Why It Replaced MPLS"
     },
     {
       "source": "Resources/Networking & Protocols/How 5G Networks Work (RAN, Core Network, mmWave vs Sub-6GHz, Network Slicing)",
-      "target": "Resources/Networking & Protocols/Software-Defined Networking (SDN) — Separating Control Plane from Data Plane"
-    },
-    {
-      "source": "Resources/Networking & Protocols/How 5G Networks Work (RAN, Core Network, mmWave vs Sub-6GHz, Network Slicing)",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "target": "Resources/Networking & Protocols/The Last Mile — How Internet Gets to Your Home (DSL, Cable, GPON Fiber)"
     },
     {
       "source": "Resources/Networking & Protocols/How Ethernet Frames Work (MAC Addresses, Frame Structure, CSMA-CD, Full Duplex)",
@@ -25655,19 +25655,19 @@
     },
     {
       "source": "Resources/Networking & Protocols/MPLS — How Enterprise WANs Used to Work",
-      "target": "Resources/Networking & Protocols/Internet Exchange Points (IXPs) — Where ISPs Physically Connect"
+      "target": "Resources/Networking & Protocols/BGP Deep Dive — How the Internet Routes Between Autonomous Systems"
     },
     {
       "source": "Resources/Networking & Protocols/MPLS — How Enterprise WANs Used to Work",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "target": "Resources/Networking & Protocols/How a Network Engineer Works with an ISP (Escalation, NOC, BGP Communities)"
+    },
+    {
+      "source": "Resources/Networking & Protocols/MPLS — How Enterprise WANs Used to Work",
+      "target": "Resources/Networking & Protocols/QoS and Traffic Shaping — How Networks Prioritize VoIP, Video, and Bulk Data"
     },
     {
       "source": "Resources/Networking & Protocols/MPLS — How Enterprise WANs Used to Work",
       "target": "Resources/Networking & Protocols/SD-WAN — Software-Defined Enterprise WAN and Why It Replaced MPLS"
-    },
-    {
-      "source": "Resources/Networking & Protocols/MPLS — How Enterprise WANs Used to Work",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
     },
     {
       "source": "Resources/Networking & Protocols/Multicast Networking — IGMP, PIM, and How IPTV Works",
@@ -25699,19 +25699,19 @@
     },
     {
       "source": "Resources/Networking & Protocols/Network Address Translation (NAT) — How It Actually Works, and Why It's a Hack",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "target": "Resources/Networking & Protocols/Firewall Types (Stateful vs Stateless vs NGFW)"
     },
     {
       "source": "Resources/Networking & Protocols/Network Address Translation (NAT) — How It Actually Works, and Why It's a Hack",
-      "target": "Resources/Networking & Protocols/QoS and Traffic Shaping — How Networks Prioritize VoIP, Video, and Bulk Data"
+      "target": "Resources/Networking & Protocols/IPv4 vs IPv6"
     },
     {
       "source": "Resources/Networking & Protocols/Network Address Translation (NAT) — How It Actually Works, and Why It's a Hack",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "target": "Resources/Networking & Protocols/Real Scenario - Setting Up a Small Business Network (Router, Switch, AP, VLAN Plan)"
     },
     {
       "source": "Resources/Networking & Protocols/Network Address Translation (NAT) — How It Actually Works, and Why It's a Hack",
-      "target": "Resources/Networking & Protocols/Wi-Fi Authentication Deep Dive (WPA2-WPA3, PSK, 802.1X - EAP - RADIUS)"
+      "target": "Resources/Networking & Protocols/SD-WAN — Software-Defined Enterprise WAN and Why It Replaced MPLS"
     },
     {
       "source": "Resources/Networking & Protocols/Network Engineer's Toolkit — ping, traceroute, mtr, nslookup, dig, netstat, ss",
@@ -25791,19 +25791,19 @@
     },
     {
       "source": "Resources/Networking & Protocols/QoS and Traffic Shaping — How Networks Prioritize VoIP, Video, and Bulk Data",
-      "target": "Resources/Networking & Protocols/Network Address Translation (NAT) — How It Actually Works, and Why It's a Hack"
+      "target": "Resources/Networking & Protocols/MPLS — How Enterprise WANs Used to Work"
     },
     {
       "source": "Resources/Networking & Protocols/QoS and Traffic Shaping — How Networks Prioritize VoIP, Video, and Bulk Data",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "target": "Resources/Networking & Protocols/Network Monitoring — SNMP, NetFlow, sFlow, and Prometheus Exporters"
+    },
+    {
+      "source": "Resources/Networking & Protocols/QoS and Traffic Shaping — How Networks Prioritize VoIP, Video, and Bulk Data",
+      "target": "Resources/Networking & Protocols/Real Scenario - Diagnosing Slow Network — Bandwidth, Latency, Jitter, Packet Loss"
     },
     {
       "source": "Resources/Networking & Protocols/QoS and Traffic Shaping — How Networks Prioritize VoIP, Video, and Bulk Data",
       "target": "Resources/Networking & Protocols/SD-WAN — Software-Defined Enterprise WAN and Why It Replaced MPLS"
-    },
-    {
-      "source": "Resources/Networking & Protocols/QoS and Traffic Shaping — How Networks Prioritize VoIP, Video, and Bulk Data",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
     },
     {
       "source": "Resources/Networking & Protocols/Real Scenario - DHCP Failure — Why IPs Stop Being Assigned and How to Fix It",
@@ -25907,7 +25907,7 @@
     },
     {
       "source": "Resources/Networking & Protocols/SD-WAN — Software-Defined Enterprise WAN and Why It Replaced MPLS",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "target": "Resources/Networking & Protocols/Network Address Translation (NAT) — How It Actually Works, and Why It's a Hack"
     },
     {
       "source": "Resources/Networking & Protocols/SD-WAN — Software-Defined Enterprise WAN and Why It Replaced MPLS",
@@ -25915,7 +25915,7 @@
     },
     {
       "source": "Resources/Networking & Protocols/SD-WAN — Software-Defined Enterprise WAN and Why It Replaced MPLS",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "target": "Resources/Networking & Protocols/Zero Trust Networking"
     },
     {
       "source": "Resources/Networking & Protocols/Software-Defined Networking (SDN) — Separating Control Plane from Data Plane",
@@ -25995,15 +25995,15 @@
     },
     {
       "source": "Resources/Networking & Protocols/The Last Mile — How Internet Gets to Your Home (DSL, Cable, GPON Fiber)",
+      "target": "Resources/Networking & Protocols/GPON and XGS-PON — How Fiber-to-the-Home (FTTH) Works"
+    },
+    {
+      "source": "Resources/Networking & Protocols/The Last Mile — How Internet Gets to Your Home (DSL, Cable, GPON Fiber)",
       "target": "Resources/Networking & Protocols/How an ISP Works — Tiers, Transit Agreements, and Peering"
     },
     {
       "source": "Resources/Networking & Protocols/The Last Mile — How Internet Gets to Your Home (DSL, Cable, GPON Fiber)",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
-    },
-    {
-      "source": "Resources/Networking & Protocols/The Last Mile — How Internet Gets to Your Home (DSL, Cable, GPON Fiber)",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "target": "Resources/Networking & Protocols/Real Scenario - You Have Power but No Internet — Full Diagnostic Walkthrough"
     },
     {
       "source": "Resources/Networking & Protocols/VLANs — Why Networks Are Segmented and How Trunking Works (802.1Q)",
@@ -26051,19 +26051,19 @@
     },
     {
       "source": "Resources/Networking & Protocols/Wi-Fi Authentication Deep Dive (WPA2-WPA3, PSK, 802.1X - EAP - RADIUS)",
-      "target": "Resources/Networking & Protocols/Network Address Translation (NAT) — How It Actually Works, and Why It's a Hack"
+      "target": "Resources/Networking & Protocols/Network Segmentation and DMZ Architecture"
     },
     {
       "source": "Resources/Networking & Protocols/Wi-Fi Authentication Deep Dive (WPA2-WPA3, PSK, 802.1X - EAP - RADIUS)",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "target": "Resources/Networking & Protocols/Real Scenario - DHCP Failure — Why IPs Stop Being Assigned and How to Fix It"
     },
     {
       "source": "Resources/Networking & Protocols/Wi-Fi Authentication Deep Dive (WPA2-WPA3, PSK, 802.1X - EAP - RADIUS)",
-      "target": "Resources/Networking & Protocols/Real Scenario - DNS Failure — Why a Site Stops Resolving and the Diagnostic Chain"
+      "target": "Resources/Networking & Protocols/VLANs — Why Networks Are Segmented and How Trunking Works (802.1Q)"
     },
     {
       "source": "Resources/Networking & Protocols/Wi-Fi Authentication Deep Dive (WPA2-WPA3, PSK, 802.1X - EAP - RADIUS)",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "target": "Resources/System Administration & IT/Endpoint Management — MDM, Microsoft Intune, Jamf for macOS-iOS"
     },
     {
       "source": "Resources/Networking & Protocols/Wi-Fi Standards (802.11 a-b-g-n-ac-ax)",
@@ -32762,5 +32762,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-28T18:30:17Z"
+  "generated_at": "2026-05-28T23:28:13Z"
 }
