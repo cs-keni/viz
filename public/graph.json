@@ -1035,7 +1035,7 @@
       "label": "Chain-of-Thought Prompting",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Chain-of-thought prompting encourages a model to work through intermediate reasoning steps before answering. It can improve complex task performance, but production systems often need concise hidden reasoning or structured scratchpads rather than verbose explanations.",
+      "excerpt": "Chain-of-thought (CoT) prompting makes a model generate intermediate reasoning steps before producing a final answer. It works because reasoning tokens give the model additional compute budget to work through multi-step problems. CoT dramatically improves performance on math, logic, and planning tasks — but only in models large enough to actually reason (>7B parameters). Self-consistency (majority vote over multiple CoT samples) is the strongest zero-cost quality boost on top of CoT.",
       "tags": [
         "resource",
         "ai-ml"
@@ -1047,7 +1047,7 @@
       "label": "Chunking Strategies for RAG",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Chunking strategies decide how documents are split before retrieval in RAG systems. Good chunks preserve enough context to answer questions while staying small enough for precise search and prompt budgets.",
+      "excerpt": "Chunking splits documents into retrieval units. Chunk size and boundary choice are the highest-leverage variables in RAG quality — they determine retrieval precision, context completeness, and prompt budget. Fixed-size chunking is a baseline; structure-aware and semantic chunking dramatically improve results. Parent-child retrieval and contextual retrieval (Anthropic) are the current best practices.",
       "tags": [
         "resource",
         "ai-ml"
@@ -1095,12 +1095,12 @@
       "label": "Cosine Similarity and Distance Metrics",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Cosine similarity and distance metrics define how vector representations are compared. The metric choice affects semantic search, clustering, recommendations, and nearest-neighbor retrieval quality.",
+      "excerpt": "Distance metrics define what 'similar' means in vector space. Cosine similarity measures the angle between vectors (direction, not magnitude) — the standard for text embeddings. Dot product combines direction and magnitude. Euclidean measures geometric distance. The right metric must match how the embedding model was trained; using the wrong one degrades retrieval quality. ANN indexes are metric-specific.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/AI & Machine Learning/Diffusion Models",
@@ -1179,12 +1179,12 @@
       "label": "Hallucination — Causes and Mitigations",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Hallucination is when a model produces unsupported, false, or fabricated output. It comes from next-token generation, incomplete context, weak uncertainty calibration, and objective mismatch, so mitigation requires retrieval, constraints, verification, and good UX.",
+      "excerpt": "Hallucination is when an LLM generates output that is false, fabricated, or unsupported by its context. It's not a bug to be patched — it's a predictable consequence of probabilistic next-token generation optimized for fluency. Mitigation is architectural: RAG, citations, tool use, constrained decoding, and grounding prompts reduce it; they don't eliminate it. High-stakes systems need external verification.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/AI & Machine Learning/Knowledge Distillation",
@@ -1443,7 +1443,7 @@
       "label": "Retrieval-Augmented Generation (RAG)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Retrieval-Augmented Generation combines search with LLM generation by adding relevant external documents to the prompt. It helps models answer with current or private knowledge without retraining.",
+      "excerpt": "RAG grounds LLM generation in retrieved external documents, enabling current, private, or large-scale knowledge without retraining. The pipeline has two phases: offline indexing (chunk → embed → store) and online retrieval (embed query → search → rerank → generate). Retrieval quality is almost always the bottleneck — not the LLM. Evaluating RAG means measuring retrieval and generation separately.",
       "tags": [
         "resource",
         "ai-ml"
@@ -1467,12 +1467,12 @@
       "label": "Semantic Search vs Keyword Search",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Semantic search retrieves by meaning using embeddings, while keyword search retrieves by exact or lexical term matching. Strong search systems often combine both because each fails in different ways.",
+      "excerpt": "Keyword search matches exact terms with scoring algorithms like BM25. Semantic search embeds query and documents into vector space and retrieves by meaning. They fail in opposite directions: keyword misses paraphrases, semantic misses exact identifiers. Hybrid search (BM25 + dense retrieval + RRF fusion) almost always outperforms either alone and is the correct default for production RAG and search systems.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)",
@@ -1551,19 +1551,19 @@
       "label": "Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Vector databases store embeddings and support fast nearest-neighbor search with metadata filtering. They are commonly used for semantic search, recommendations, and RAG systems.",
+      "excerpt": "Vector databases store high-dimensional embeddings and support fast approximate nearest-neighbor (ANN) search with metadata filtering. HNSW and IVF are the dominant index structures. The choice between dedicated vector DBs (Pinecone, Qdrant, Weaviate) and extensions (pgvector) depends on scale, operational complexity, and whether vectors live near relational data. For most applications under ~1M vectors, pgvector is sufficient.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 9
+      "degree": 7
     },
     {
       "id": "Resources/AI & Machine Learning/Vector Embeddings — How They Work",
       "label": "Vector Embeddings — How They Work",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Vector embeddings represent items such as text, images, users, or products as numerical vectors where distance captures semantic similarity. They make semantic search, clustering, recommendations, and RAG retrieval possible.",
+      "excerpt": "Vector embeddings map items (text, images, code, users) into dense numerical vectors where geometric proximity encodes semantic similarity. Embedding models are trained contrastively — push similar pairs together, pull dissimilar pairs apart. Dimension size, training data, and task-specific fine-tuning determine quality. OpenAI ada-002/3, Cohere, BGE, and E5 are the common choices for text.",
       "tags": [
         "resource",
         "ai-ml"
@@ -1635,7 +1635,7 @@
         "study",
         "ai"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/Agent Security",
@@ -7409,7 +7409,7 @@
         "philosophy",
         "engineering"
       ],
-      "degree": 13
+      "degree": 12
     },
     {
       "id": "Resources/LLM System Design",
@@ -7425,7 +7425,7 @@
         "bobby",
         "ai"
       ],
-      "degree": 25
+      "degree": 23
     },
     {
       "id": "Resources/Language & Linguistics/Effective Vocabulary Building",
@@ -11751,7 +11751,7 @@
         "study",
         "ai"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/Product Engineering",
@@ -12402,7 +12402,7 @@
         "resource",
         "bobby"
       ],
-      "degree": 12
+      "degree": 9
     },
     {
       "id": "Resources/RLHF and Alignment",
@@ -12485,7 +12485,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 12
+      "degree": 10
     },
     {
       "id": "Resources/Security",
@@ -16096,19 +16096,15 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Chain-of-Thought Prompting",
+      "target": "Resources/AI & Machine Learning/Hallucination — Causes and Mitigations"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Chain-of-Thought Prompting",
       "target": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals"
     },
     {
       "source": "Resources/AI & Machine Learning/Chain-of-Thought Prompting",
       "target": "Resources/AI & Machine Learning/ReAct Prompting Pattern"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Chain-of-Thought Prompting",
-      "target": "Resources/LLM System Design"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Chain-of-Thought Prompting",
-      "target": "Resources/Process Reward Models"
     },
     {
       "source": "Resources/AI & Machine Learning/Chunking Strategies for RAG",
@@ -16125,10 +16121,6 @@
     {
       "source": "Resources/AI & Machine Learning/Chunking Strategies for RAG",
       "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Chunking Strategies for RAG",
-      "target": "Resources/RAG and Bobby Vector Search"
     },
     {
       "source": "Resources/AI & Machine Learning/Claude API and Anthropic SDK",
@@ -16205,10 +16197,6 @@
     {
       "source": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics",
       "target": "Resources/Data Science & Analytics/Clustering Algorithms (K-Means, DBSCAN, Hierarchical)"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics",
-      "target": "Resources/Search Systems"
     },
     {
       "source": "Resources/AI & Machine Learning/Diffusion Models",
@@ -16328,6 +16316,10 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Hallucination — Causes and Mitigations",
+      "target": "Resources/AI & Machine Learning/Chain-of-Thought Prompting"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Hallucination — Causes and Mitigations",
       "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
     },
     {
@@ -16337,10 +16329,6 @@
     {
       "source": "Resources/AI & Machine Learning/Hallucination — Causes and Mitigations",
       "target": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Hallucination — Causes and Mitigations",
-      "target": "Resources/LLM Capabilities and AI Ethics"
     },
     {
       "source": "Resources/AI & Machine Learning/Knowledge Distillation",
@@ -16756,19 +16744,19 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)",
+      "target": "Resources/AI & Machine Learning/Hallucination — Causes and Mitigations"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)",
+      "target": "Resources/AI & Machine Learning/Semantic Search vs Keyword Search"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)",
       "target": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)"
     },
     {
       "source": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)",
       "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)",
-      "target": "Resources/LLM System Design"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)",
-      "target": "Resources/RAG and Bobby Vector Search"
     },
     {
       "source": "Resources/AI & Machine Learning/Scaling Laws",
@@ -16792,6 +16780,10 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Semantic Search vs Keyword Search",
+      "target": "Resources/AI & Machine Learning/Chunking Strategies for RAG"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Semantic Search vs Keyword Search",
       "target": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics"
     },
     {
@@ -16800,15 +16792,7 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Semantic Search vs Keyword Search",
-      "target": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Semantic Search vs Keyword Search",
       "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Semantic Search vs Keyword Search",
-      "target": "Resources/Search Systems"
     },
     {
       "source": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)",
@@ -16924,10 +16908,6 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)",
-      "target": "Resources/AI & Machine Learning/Chunking Strategies for RAG"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)",
       "target": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics"
     },
     {
@@ -16936,11 +16916,15 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)",
-      "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
+      "target": "Resources/AI & Machine Learning/Semantic Search vs Keyword Search"
     },
     {
       "source": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)",
-      "target": "Resources/RAG and Bobby Vector Search"
+      "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Vector Embeddings — How They Work",
+      "target": "Resources/AI & Machine Learning/Chunking Strategies for RAG"
     },
     {
       "source": "Resources/AI & Machine Learning/Vector Embeddings — How They Work",
@@ -16957,10 +16941,6 @@
     {
       "source": "Resources/AI & Machine Learning/Vector Embeddings — How They Work",
       "target": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Vector Embeddings — How They Work",
-      "target": "Resources/Agent Memory"
     },
     {
       "source": "Resources/AI & Machine Learning/Vision-Language Models",
@@ -32811,5 +32791,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-29T19:11:20Z"
+  "generated_at": "2026-05-29T19:58:54Z"
 }
