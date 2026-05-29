@@ -1609,7 +1609,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 17
+      "degree": 15
     },
     {
       "id": "Resources/Agent Evaluation",
@@ -4643,7 +4643,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 21
+      "degree": 19
     },
     {
       "id": "Resources/Design & UX/Accessibility in Design (WCAG 2.1, 2.2)",
@@ -5305,7 +5305,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 28
+      "degree": 25
     },
     {
       "id": "Resources/Docker",
@@ -8765,7 +8765,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 15
+      "degree": 13
     },
     {
       "id": "Resources/Meta-Learning & Epistemics/Calibration and Epistemic Humility",
@@ -13320,7 +13320,7 @@
         "engineering",
         "system-design"
       ],
-      "degree": 12
+      "degree": 9
     },
     {
       "id": "Resources/Software Engineering Tools",
@@ -13351,19 +13351,19 @@
       "label": "API Design — GraphQL",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "GraphQL is an API query language and runtime that lets clients request exactly the data shape they need. It is strongest for product surfaces that aggregate many backend entities, but it requires discipline around schema design, authorization, and query cost control.",
+      "excerpt": "GraphQL gives clients exact control over what data they fetch — no over/under-fetching. The schema is the contract; resolvers are the implementation. Critical operational concerns: N+1 queries (solved with DataLoader), query complexity limits (prevent denial-of-service), and field-level authorization. Best as an API composition layer for complex product surfaces.",
       "tags": [
         "resource",
         "software-engineering"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/Software Engineering/API Design — REST Principles",
       "label": "API Design — REST Principles",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "REST API design uses HTTP resources, methods, status codes, and representations to expose predictable service interfaces. Good REST design is less about purity and more about stable contracts, clear semantics, and operational usability.",
+      "excerpt": "REST API design centers on resource URLs, correct HTTP method semantics, meaningful status codes, and consistent error formats. Practical concerns: idempotency for safe retries, cursor-based pagination for large datasets, URL versioning for breaking changes, and RFC 7807 Problem Details for machine-readable errors.",
       "tags": [
         "resource",
         "software-engineering"
@@ -13399,7 +13399,7 @@
       "label": "API Design — gRPC and Protocol Buffers",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "gRPC is a high-performance RPC framework that uses Protocol Buffers to define typed service contracts. It is commonly used for internal service communication where latency, streaming, and strongly typed generated clients matter.",
+      "excerpt": "gRPC is a high-performance RPC framework using Protocol Buffers for typed binary serialization over HTTP/2. It supports four call types (unary, server-streaming, client-streaming, bidirectional). Strongest for internal polyglot service-to-service calls where latency, streaming, and generated client contracts matter. Weaker for browser clients and ad-hoc debugging.",
       "tags": [
         "resource",
         "software-engineering"
@@ -13428,7 +13428,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
@@ -13471,7 +13471,7 @@
       "label": "CQRS Pattern",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "CQRS separates commands that change state from queries that read state. It is useful when write models and read models have different complexity, performance, or scaling needs.",
+      "excerpt": "CQRS separates the write model (commands that enforce business invariants) from the read model (queries optimized for UI/reporting). The write model is normalized and consistent; the read model is denormalized and fast. The tradeoff is eventual consistency between writes and reads, and the complexity of maintaining projections.",
       "tags": [
         "resource",
         "software-engineering"
@@ -13632,14 +13632,14 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 9
+      "degree": 12
     },
     {
       "id": "Resources/Software Engineering/Event Sourcing",
       "label": "Event Sourcing",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Event sourcing stores every state-changing event as the source of truth instead of only storing the latest state. It enables auditability and temporal reconstruction, but requires careful event schema, replay, and operational discipline.",
+      "excerpt": "Event sourcing stores every state change as an immutable event rather than overwriting current state. The event log is the source of truth; current state is derived by replaying events. This gives complete audit history and time-travel debugging, but requires event schema discipline, snapshot optimization, and upcasting strategies for schema evolution.",
       "tags": [
         "resource",
         "software-engineering"
@@ -13651,12 +13651,12 @@
       "label": "Event-Driven Architecture",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Event-driven architecture coordinates systems through published facts about things that happened. It decouples producers from consumers, but shifts complexity into event design, ordering, idempotency, and observability.",
+      "excerpt": "Event-driven architecture coordinates systems through immutable facts about what happened. The core patterns are the outbox pattern (reliable event publishing), choreography vs orchestration (who controls the workflow), and delivery semantics (at-least-once requires idempotent consumers). Complexity shifts from code to event schema design and observability.",
       "tags": [
         "resource",
         "software-engineering"
       ],
-      "degree": 19
+      "degree": 20
     },
     {
       "id": "Resources/Software Engineering/Feature Flags and Progressive Rollout",
@@ -13687,7 +13687,7 @@
       "label": "Hexagonal Architecture (Ports and Adapters)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Hexagonal architecture places domain logic at the center and connects external systems through ports and adapters. It helps keep business rules independent from frameworks, databases, and transport details.",
+      "excerpt": "Hexagonal architecture places domain logic at the center, isolated from infrastructure by ports (interfaces) and adapters (implementations). The core depends on nothing external; all external systems are swapped via adapters. This makes the domain testable in isolation and infrastructure replaceable without touching business logic.",
       "tags": [
         "resource",
         "software-engineering"
@@ -13735,19 +13735,19 @@
       "label": "Microservices Architecture",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Microservices architecture decomposes a system into independently deployable services aligned around business capabilities. It can improve team autonomy and scaling, but it introduces distributed systems complexity that must be justified.",
+      "excerpt": "Microservices decompose a system into independently deployable services aligned around business capabilities. The key prerequisites are strong domain boundaries, team ownership per service, and operational maturity (observability, deployment automation). Without these, microservices produce a distributed monolith — all the complexity, none of the benefits.",
       "tags": [
         "resource",
         "software-engineering"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/Software Engineering/Monolith vs Microservices Tradeoffs",
       "label": "Monolith vs Microservices Tradeoffs",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "The monolith versus microservices decision is a tradeoff between simplicity and independent service autonomy. The right answer depends on team size, domain boundaries, deployment needs, and operational maturity.",
+      "excerpt": "Monolith vs microservices is an organizational and operational tradeoff, not just a technical one. Monoliths are simpler to build and debug; microservices enable team-level deployment independence. The modular monolith is the right intermediate step — clear internal boundaries without distributed systems complexity.",
       "tags": [
         "resource",
         "software-engineering"
@@ -14489,7 +14489,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/System Design/Consensus Algorithms (Raft, Paxos)",
@@ -14549,7 +14549,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/System Design/Design Twitter X Feed",
@@ -14741,7 +14741,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "Resources/System Design/Eventual Consistency",
@@ -14765,7 +14765,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "Resources/System Design/Leader Election",
@@ -29808,10 +29808,6 @@
     },
     {
       "source": "Resources/Software Engineering/API Design — GraphQL",
-      "target": "Resources/API Design"
-    },
-    {
-      "source": "Resources/Software Engineering/API Design — GraphQL",
       "target": "Resources/Software Engineering/API Design — REST Principles"
     },
     {
@@ -29828,15 +29824,7 @@
     },
     {
       "source": "Resources/Software Engineering/API Design — REST Principles",
-      "target": "Resources/API Design"
-    },
-    {
-      "source": "Resources/Software Engineering/API Design — REST Principles",
       "target": "Resources/Software Engineering/API Design — GraphQL"
-    },
-    {
-      "source": "Resources/Software Engineering/API Design — REST Principles",
-      "target": "Resources/Software Engineering/API Design — WebSockets"
     },
     {
       "source": "Resources/Software Engineering/API Design — REST Principles",
@@ -29844,7 +29832,15 @@
     },
     {
       "source": "Resources/Software Engineering/API Design — REST Principles",
+      "target": "Resources/Software Engineering/Backward Compatibility Strategies"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — REST Principles",
       "target": "Resources/Software Engineering/OpenAPI and API Documentation"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — REST Principles",
+      "target": "Resources/System Design/Idempotency in Distributed Systems"
     },
     {
       "source": "Resources/Software Engineering/API Design — Server-Sent Events",
@@ -29888,15 +29884,15 @@
     },
     {
       "source": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers",
-      "target": "Resources/Distributed Systems"
-    },
-    {
-      "source": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers",
       "target": "Resources/Software Engineering/API Design — GraphQL"
     },
     {
       "source": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers",
       "target": "Resources/Software Engineering/API Design — REST Principles"
+    },
+    {
+      "source": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers",
+      "target": "Resources/Software Engineering/API Design — WebSockets"
     },
     {
       "source": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers",
@@ -30008,11 +30004,11 @@
     },
     {
       "source": "Resources/Software Engineering/CQRS Pattern",
-      "target": "Resources/Databases"
+      "target": "Resources/Software Engineering/Design Patterns — Behavioral (Observer, Strategy, Command, State, Iterator)"
     },
     {
       "source": "Resources/Software Engineering/CQRS Pattern",
-      "target": "Resources/Software Engineering/Design Patterns — Behavioral (Observer, Strategy, Command, State, Iterator)"
+      "target": "Resources/Software Engineering/Domain-Driven Design (DDD)"
     },
     {
       "source": "Resources/Software Engineering/CQRS Pattern",
@@ -30280,15 +30276,11 @@
     },
     {
       "source": "Resources/Software Engineering/Event Sourcing",
-      "target": "Resources/Databases"
-    },
-    {
-      "source": "Resources/Software Engineering/Event Sourcing",
-      "target": "Resources/Message Queues"
-    },
-    {
-      "source": "Resources/Software Engineering/Event Sourcing",
       "target": "Resources/Software Engineering/CQRS Pattern"
+    },
+    {
+      "source": "Resources/Software Engineering/Event Sourcing",
+      "target": "Resources/Software Engineering/Domain-Driven Design (DDD)"
     },
     {
       "source": "Resources/Software Engineering/Event Sourcing",
@@ -30296,11 +30288,11 @@
     },
     {
       "source": "Resources/Software Engineering/Event Sourcing",
-      "target": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)"
+      "target": "Resources/System Design/Database Sharding"
     },
     {
-      "source": "Resources/Software Engineering/Event-Driven Architecture",
-      "target": "Resources/Message Queues"
+      "source": "Resources/Software Engineering/Event Sourcing",
+      "target": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)"
     },
     {
       "source": "Resources/Software Engineering/Event-Driven Architecture",
@@ -30309,6 +30301,10 @@
     {
       "source": "Resources/Software Engineering/Event-Driven Architecture",
       "target": "Resources/Software Engineering/Event Sourcing"
+    },
+    {
+      "source": "Resources/Software Engineering/Event-Driven Architecture",
+      "target": "Resources/Software Engineering/Microservices Architecture"
     },
     {
       "source": "Resources/Software Engineering/Event-Driven Architecture",
@@ -30360,15 +30356,15 @@
     },
     {
       "source": "Resources/Software Engineering/Hexagonal Architecture (Ports and Adapters)",
-      "target": "Resources/Software Architecture"
-    },
-    {
-      "source": "Resources/Software Engineering/Hexagonal Architecture (Ports and Adapters)",
       "target": "Resources/Software Engineering/Design Patterns — Structural (Adapter, Bridge, Composite, Decorator, Facade)"
     },
     {
       "source": "Resources/Software Engineering/Hexagonal Architecture (Ports and Adapters)",
       "target": "Resources/Software Engineering/Domain-Driven Design (DDD)"
+    },
+    {
+      "source": "Resources/Software Engineering/Hexagonal Architecture (Ports and Adapters)",
+      "target": "Resources/Software Engineering/Microservices Architecture"
     },
     {
       "source": "Resources/Software Engineering/Hexagonal Architecture (Ports and Adapters)",
@@ -30440,15 +30436,11 @@
     },
     {
       "source": "Resources/Software Engineering/Microservices Architecture",
-      "target": "Resources/Distributed Systems"
-    },
-    {
-      "source": "Resources/Software Engineering/Microservices Architecture",
-      "target": "Resources/Software Architecture"
-    },
-    {
-      "source": "Resources/Software Engineering/Microservices Architecture",
       "target": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers"
+    },
+    {
+      "source": "Resources/Software Engineering/Microservices Architecture",
+      "target": "Resources/Software Engineering/Domain-Driven Design (DDD)"
     },
     {
       "source": "Resources/Software Engineering/Microservices Architecture",
@@ -30459,16 +30451,16 @@
       "target": "Resources/Software Engineering/Monolith vs Microservices Tradeoffs"
     },
     {
-      "source": "Resources/Software Engineering/Monolith vs Microservices Tradeoffs",
-      "target": "Resources/Distributed Systems"
-    },
-    {
-      "source": "Resources/Software Engineering/Monolith vs Microservices Tradeoffs",
-      "target": "Resources/Software Architecture"
+      "source": "Resources/Software Engineering/Microservices Architecture",
+      "target": "Resources/System Design/Circuit Breaker Pattern"
     },
     {
       "source": "Resources/Software Engineering/Monolith vs Microservices Tradeoffs",
       "target": "Resources/Software Engineering/Domain-Driven Design (DDD)"
+    },
+    {
+      "source": "Resources/Software Engineering/Monolith vs Microservices Tradeoffs",
+      "target": "Resources/Software Engineering/Event-Driven Architecture"
     },
     {
       "source": "Resources/Software Engineering/Monolith vs Microservices Tradeoffs",
@@ -30477,6 +30469,10 @@
     {
       "source": "Resources/Software Engineering/Monolith vs Microservices Tradeoffs",
       "target": "Resources/Software Engineering/Microservices Architecture"
+    },
+    {
+      "source": "Resources/Software Engineering/Monolith vs Microservices Tradeoffs",
+      "target": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)"
     },
     {
       "source": "Resources/Software Engineering/Monorepo vs Polyrepo",
@@ -32691,5 +32687,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-29T23:17:38Z"
+  "generated_at": "2026-05-29T23:42:42Z"
 }
