@@ -956,19 +956,19 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/AI & Machine Learning/AI Safety — Interpretability Research",
       "label": "AI Safety — Interpretability Research",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "AI interpretability research tries to understand what neural networks represent internally and why they produce particular outputs. It supports safety by making model behavior less opaque and easier to audit.",
+      "excerpt": "AI interpretability research reverse-engineers neural network internals to understand what models represent and why they behave as they do. Mechanistic interpretability (circuits, superposition, sparse autoencoders) is the dominant current approach, with Anthropic's work producing the first systematic maps of features inside large transformers.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)",
@@ -1040,7 +1040,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 9
+      "degree": 11
     },
     {
       "id": "Resources/AI & Machine Learning/Chunking Strategies for RAG",
@@ -1059,12 +1059,12 @@
       "label": "Claude API and Anthropic SDK",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "The Claude API exposes Anthropic's Claude models through a Messages-style interface and official SDKs. Practical use centers on model selection, message structure, max tokens, streaming, tool use, safety, and cost control.",
+      "excerpt": "The Claude API uses a Messages interface where conversations are structured as alternating user/assistant turns with typed content blocks. Key practical concerns are model routing, prompt caching, extended thinking, tool use schemas, and token cost management.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/AI & Machine Learning/Constitutional AI",
@@ -1076,7 +1076,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)",
@@ -1131,12 +1131,12 @@
       "label": "Emergent Abilities in Large Models",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Emergent abilities are capabilities that appear suddenly or become measurable only after models reach sufficient scale. The concept is debated because some emergence reflects real phase changes, while some reflects metric and evaluation artifacts.",
+      "excerpt": "Emergent abilities appear absent in smaller models and present in larger ones, but the distinction between genuine phase transitions and metric artifacts is actively debated. The Schaeffer et al. (2023) critique showed many apparent emergences vanish when evaluation metrics are changed — but inference-time scaling (chain-of-thought, o1/o3-style reasoning) represents a second scaling axis that produces genuinely new capability patterns.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning",
@@ -1148,7 +1148,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/AI & Machine Learning/Generative Adversarial Networks (GANs)",
@@ -1203,7 +1203,7 @@
       "label": "Local LLMs (Ollama, llama.cpp, LM Studio)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Local LLMs run open-weight language models on personal or self-managed hardware using tools such as Ollama, llama.cpp, and LM Studio. They trade frontier-model quality for privacy, offline use, customization, and cost control.",
+      "excerpt": "Local LLMs run open-weight models on personal hardware using tools like Ollama, llama.cpp, and LM Studio. GGUF quantization makes large models fit in consumer RAM, but performance depends heavily on hardware — a 70B model at Q4 needs ~40GB and delivers ~10–20 tokens/sec on a modern GPU.",
       "tags": [
         "resource",
         "ai-ml"
@@ -1251,12 +1251,12 @@
       "label": "Model Context Protocol (MCP)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Model Context Protocol is an open protocol for connecting AI applications to external tools and context providers. MCP servers expose capabilities such as tools, resources, and prompts through a standardized interface.",
+      "excerpt": "MCP is Anthropic's open protocol for connecting AI applications to external tools, data sources, and context providers via a standardized JSON-RPC interface. It separates capability providers (MCP servers) from model applications (MCP hosts), letting a single server be reused across many AI tools.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/AI & Machine Learning/Model Evaluation Metrics",
@@ -1268,7 +1268,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 16
+      "degree": 15
     },
     {
       "id": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
@@ -1280,7 +1280,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/AI & Machine Learning/Multi-Head Attention",
@@ -1323,7 +1323,7 @@
       "label": "OpenAI API and GPT Models",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "The OpenAI API provides access to GPT and specialized models through interfaces such as the Responses API. Practical integration involves model choice, structured outputs, tools, streaming, embeddings, safety identifiers, and cost control.",
+      "excerpt": "The OpenAI API provides access to GPT, o-series reasoning, embedding, audio, and image models via a chat completions and responses interface. Key decisions involve model routing (o-series vs GPT-4o), tool/function calling schema, structured outputs, and the newer Assistants/Responses API vs the classic Chat Completions endpoint.",
       "tags": [
         "resource",
         "ai-ml"
@@ -1364,14 +1364,14 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 13
+      "degree": 12
     },
     {
       "id": "Resources/AI & Machine Learning/RLHF vs RLAIF",
       "label": "RLHF vs RLAIF",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "RLHF uses human preference feedback while RLAIF uses AI-generated feedback to train model behavior. Both optimize preference signals, but they differ in cost, scalability, bias, oversight, and failure modes.",
+      "excerpt": "RLHF uses human preference labels to train aligned behavior; RLAIF replaces human labelers with AI-generated feedback, enabling 10–100x more data at lower cost. The risk is that RLAIF can amplify the feedback model's biases and blind spots — making the alignment only as good as the AI doing the evaluating.",
       "tags": [
         "resource",
         "ai-ml"
@@ -1436,7 +1436,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 12
+      "degree": 14
     },
     {
       "id": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)",
@@ -1455,7 +1455,7 @@
       "label": "Scaling Laws",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Scaling laws describe predictable relationships between model performance, parameter count, dataset size, and compute. They help labs allocate training budgets and forecast capability improvements.",
+      "excerpt": "Scaling laws are empirical power laws showing that model loss decreases predictably with more parameters, data, and compute. The Chinchilla finding (2022) showed that most models were undertrained — the optimal ratio is ~20 training tokens per parameter. Inference-time scaling (chain-of-thought, o1/o3 reasoning) is a second scaling axis discovered more recently.",
       "tags": [
         "resource",
         "ai-ml"
@@ -1595,7 +1595,7 @@
         "claude",
         "codex"
       ],
-      "degree": 9
+      "degree": 7
     },
     {
       "id": "Resources/API Design",
@@ -1651,7 +1651,7 @@
         "bobby",
         "mlops"
       ],
-      "degree": 16
+      "degree": 14
     },
     {
       "id": "Resources/Astronomy & Space/Black Holes — Formation, Types, Hawking Radiation",
@@ -3416,7 +3416,7 @@
         "ai-tooling",
         "bobby"
       ],
-      "degree": 2
+      "degree": 1
     },
     {
       "id": "Resources/Cloud Cost Optimization",
@@ -6038,7 +6038,7 @@
         "study",
         "ai"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/Gaming/Competitive Gaming Psychology",
@@ -7409,7 +7409,7 @@
         "philosophy",
         "engineering"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/LLM System Design",
@@ -7425,7 +7425,7 @@
         "bobby",
         "ai"
       ],
-      "degree": 17
+      "degree": 14
     },
     {
       "id": "Resources/Language & Linguistics/Effective Vocabulary Building",
@@ -8078,7 +8078,7 @@
         "system-design",
         "bobby"
       ],
-      "degree": 16
+      "degree": 15
     },
     {
       "id": "Resources/Mathematics/Bayes' Theorem",
@@ -8391,7 +8391,7 @@
         "study",
         "ai"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Mental Health & Psychology/ADHD — Understanding and Managing It",
@@ -12415,7 +12415,7 @@
         "study",
         "ai"
       ],
-      "degree": 11
+      "degree": 10
     },
     {
       "id": "Resources/Rate Limiting",
@@ -15992,19 +15992,19 @@
     },
     {
       "source": "Resources/AI & Machine Learning/AI Safety — Interpretability Research",
+      "target": "Resources/AI & Machine Learning/Constitutional AI"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Safety — Interpretability Research",
+      "target": "Resources/AI & Machine Learning/Emergent Abilities in Large Models"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Safety — Interpretability Research",
+      "target": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Safety — Interpretability Research",
       "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/AI Safety — Interpretability Research",
-      "target": "Resources/Agent Security"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/AI Safety — Interpretability Research",
-      "target": "Resources/Formal Methods Agent Safety"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/AI Safety — Interpretability Research",
-      "target": "Resources/Mechanistic Interpretability"
     },
     {
       "source": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)",
@@ -16120,6 +16120,10 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Claude API and Anthropic SDK",
+      "target": "Resources/AI & Machine Learning/AI Memory Architectures"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Claude API and Anthropic SDK",
       "target": "Resources/AI & Machine Learning/Model Context Protocol (MCP)"
     },
     {
@@ -16129,10 +16133,6 @@
     {
       "source": "Resources/AI & Machine Learning/Claude API and Anthropic SDK",
       "target": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Claude API and Anthropic SDK",
-      "target": "Resources/AI Workflow"
     },
     {
       "source": "Resources/AI & Machine Learning/Constitutional AI",
@@ -16220,19 +16220,19 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Emergent Abilities in Large Models",
+      "target": "Resources/AI & Machine Learning/AI Safety — Interpretability Research"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Emergent Abilities in Large Models",
       "target": "Resources/AI & Machine Learning/Benchmarks — MMLU, HumanEval, GSM8K, GPQA"
     },
     {
       "source": "Resources/AI & Machine Learning/Emergent Abilities in Large Models",
-      "target": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning"
+      "target": "Resources/AI & Machine Learning/Chain-of-Thought Prompting"
     },
     {
       "source": "Resources/AI & Machine Learning/Emergent Abilities in Large Models",
       "target": "Resources/AI & Machine Learning/Scaling Laws"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Emergent Abilities in Large Models",
-      "target": "Resources/LLM Capabilities and AI Ethics"
     },
     {
       "source": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning",
@@ -16324,19 +16324,15 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Local LLMs (Ollama, llama.cpp, LM Studio)",
+      "target": "Resources/AI & Machine Learning/Claude API and Anthropic SDK"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Local LLMs (Ollama, llama.cpp, LM Studio)",
       "target": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)"
     },
     {
       "source": "Resources/AI & Machine Learning/Local LLMs (Ollama, llama.cpp, LM Studio)",
       "target": "Resources/AI & Machine Learning/OpenAI API and GPT Models"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Local LLMs (Ollama, llama.cpp, LM Studio)",
-      "target": "Resources/AI Workflow"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Local LLMs (Ollama, llama.cpp, LM Studio)",
-      "target": "Resources/LLM System Design"
     },
     {
       "source": "Resources/AI & Machine Learning/Long Short-Term Memory (LSTM)",
@@ -16400,15 +16396,11 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Model Context Protocol (MCP)",
+      "target": "Resources/AI & Machine Learning/AI Safety — Interpretability Research"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Model Context Protocol (MCP)",
       "target": "Resources/AI & Machine Learning/ReAct Prompting Pattern"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Model Context Protocol (MCP)",
-      "target": "Resources/Agent Security"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Model Context Protocol (MCP)",
-      "target": "Resources/Claude Code Skills"
     },
     {
       "source": "Resources/AI & Machine Learning/Model Evaluation Metrics",
@@ -16504,15 +16496,15 @@
     },
     {
       "source": "Resources/AI & Machine Learning/OpenAI API and GPT Models",
-      "target": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals"
+      "target": "Resources/AI & Machine Learning/Local LLMs (Ollama, llama.cpp, LM Studio)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/OpenAI API and GPT Models",
+      "target": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)"
     },
     {
       "source": "Resources/AI & Machine Learning/OpenAI API and GPT Models",
       "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/OpenAI API and GPT Models",
-      "target": "Resources/LLM System Design"
     },
     {
       "source": "Resources/AI & Machine Learning/Positional Encoding",
@@ -16576,6 +16568,10 @@
     },
     {
       "source": "Resources/AI & Machine Learning/RLHF vs RLAIF",
+      "target": "Resources/AI & Machine Learning/AI Safety — Interpretability Research"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/RLHF vs RLAIF",
       "target": "Resources/AI & Machine Learning/Constitutional AI"
     },
     {
@@ -16585,10 +16581,6 @@
     {
       "source": "Resources/AI & Machine Learning/RLHF vs RLAIF",
       "target": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/RLHF vs RLAIF",
-      "target": "Resources/RLHF and Alignment"
     },
     {
       "source": "Resources/AI & Machine Learning/ReAct Prompting Pattern",
@@ -16692,6 +16684,10 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Scaling Laws",
+      "target": "Resources/AI & Machine Learning/Chain-of-Thought Prompting"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Scaling Laws",
       "target": "Resources/AI & Machine Learning/Emergent Abilities in Large Models"
     },
     {
@@ -16700,15 +16696,11 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Scaling Laws",
-      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
+      "target": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)"
     },
     {
       "source": "Resources/AI & Machine Learning/Scaling Laws",
-      "target": "Resources/LLM System Design"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Scaling Laws",
-      "target": "Resources/MLOps and ML Engineering"
+      "target": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)"
     },
     {
       "source": "Resources/AI & Machine Learning/Semantic Search vs Keyword Search",
@@ -32707,5 +32699,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-29T22:58:21Z"
+  "generated_at": "2026-05-29T23:09:06Z"
 }
