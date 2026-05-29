@@ -385,6 +385,15 @@
       "degree": 1
     },
     {
+      "id": "Endpoint Management — MDM, Intune, Jamf, Compliance Policy",
+      "label": "Endpoint Management — MDM, Intune, Jamf, Compliance Policy",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Executive Summaries",
       "label": "Executive Summaries",
       "folder": null,
@@ -13892,12 +13901,12 @@
       "label": "Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Active Directory is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially how it works. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "Active Directory is Microsoft's directory service — the identity and policy backbone of most enterprise Windows environments. It combines LDAP (object storage), Kerberos (authentication), DNS (service discovery), and Group Policy (configuration management) into one system. Understanding its structure is essential for enterprise IT administration and security.",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Resources/System Administration & IT/Capacity Planning for IT Infrastructure — How to Forecast Growth",
@@ -14000,12 +14009,12 @@
       "label": "Group Policy Objects (GPOs) — How Windows Domain Policy Is Enforced",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Group Policy Objects— How Windows Domain Policy Is Enforced is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "Group Policy Objects (GPOs) are the mechanism Windows domains use to push configuration — security settings, software, drive mappings, firewall rules — to users and computers. Policy is applied hierarchically and automatically; understanding the precedence rules and troubleshooting tools is essential for enterprise Windows administration.",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/System Administration & IT/Hardware Asset Management and IT Procurement Lifecycle",
@@ -14060,19 +14069,19 @@
       "label": "Kerberos Authentication — How Tickets Work in Windows Environments",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Kerberos Authentication is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially how tickets work in windows environments. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "Kerberos is the default authentication protocol in Windows Active Directory environments. It uses cryptographic tickets instead of passwords on the wire, allows single sign-on across services, and is the foundation for most enterprise Windows auth — including the attacks that target it (Golden Ticket, Pass-the-Ticket).",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/System Administration & IT/LDAP and Directory Services — Protocol and Schema",
       "label": "LDAP and Directory Services — Protocol and Schema",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "LDAP and Directory Services is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially protocol and schema. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "LDAP (Lightweight Directory Access Protocol) is the standard protocol for querying and modifying directory services — hierarchical databases of users, groups, and resources. It is the protocol underlying Active Directory, OpenLDAP, FreeIPA, and most enterprise identity systems.",
       "tags": [
         "resource",
         "system-administration-it"
@@ -14089,19 +14098,19 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 39
+      "degree": 32
     },
     {
       "id": "Resources/System Administration & IT/Linux User, Group, and Permission Management (useradd, chmod, chown, ACLs)",
       "label": "Linux User, Group, and Permission Management (useradd, chmod, chown, ACLs)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Linux User, Group, and Permission Management is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "Linux encodes identity and access in UIDs, GIDs, and permission bits on every file and process. Understanding useradd, chmod, chown, and POSIX ACLs is fundamental to secure multi-user system administration — both for day-to-day access control and for understanding privilege escalation risks.",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/System Administration & IT/Log Management and SIEM — Syslog, Splunk, Elastic Stack (ELK)",
@@ -14168,12 +14177,12 @@
       "label": "PAM — Pluggable Authentication Modules and How Login Actually Works",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "PAM is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially pluggable authentication modules and how login actually works. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "PAM is the pluggable authentication layer that sits between a Linux service (SSH, sudo, login) and the actual credential verification. Every login on a Linux system goes through PAM — misconfiguring it can lock out all users or silently bypass security checks.",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/System Administration & IT/Patch Management Strategies (WSUS, Ansible, Unattended Upgrades)",
@@ -14233,7 +14242,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/System Administration & IT/Server Hardening — CIS Benchmarks, Minimal Attack Surface, Fail2ban",
@@ -14264,12 +14273,12 @@
       "label": "Sudoers File and Privilege Escalation (sudoers, polkit)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Sudoers File and Privilege Escalation is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "The sudoers file controls which users can run which commands as root (or another user) on a Linux system. A misconfigured sudoers entry is one of the most common local privilege escalation vectors — understanding the syntax and security implications is essential for both hardening and auditing.",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/System Administration & IT/The 3-2-1 Backup Rule — How to Implement Reliable Backups",
@@ -14300,7 +14309,7 @@
       "label": "Zero Trust for IT — Why VPNs Aren't Enough and What Replaces Them",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Zero Trust for IT is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially why vpns aren't enough and what replaces them. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "Zero Trust is a security model that eliminates implicit network-based trust — the assumption that users inside the VPN perimeter are safe. Instead, every access request is verified against identity, device health, and context before being granted. It's the architectural response to cloud adoption, remote work, and the reality that perimeters are regularly breached.",
       "tags": [
         "resource",
         "system-administration-it"
@@ -15397,7 +15406,7 @@
         "windows-wsl2",
         "security"
       ],
-      "degree": 43
+      "degree": 35
     },
     {
       "id": "Resources/Windows & WSL2/Windows Registry — How It Works",
@@ -30751,19 +30760,19 @@
     },
     {
       "source": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)",
+      "target": "Resources/System Administration & IT/DNS Server Configuration (Bind9, Windows DNS, CoreDNS, Split-Horizon)"
+    },
+    {
+      "source": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)",
+      "target": "Resources/System Administration & IT/Group Policy Objects (GPOs) — How Windows Domain Policy Is Enforced"
+    },
+    {
+      "source": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)",
+      "target": "Resources/System Administration & IT/Kerberos Authentication — How Tickets Work in Windows Environments"
+    },
+    {
+      "source": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)",
       "target": "Resources/System Administration & IT/LDAP and Directory Services — Protocol and Schema"
-    },
-    {
-      "source": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
-    },
-    {
-      "source": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)",
-      "target": "Resources/System Administration & IT/Sudoers File and Privilege Escalation (sudoers, polkit)"
-    },
-    {
-      "source": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
     },
     {
       "source": "Resources/System Administration & IT/Capacity Planning for IT Infrastructure — How to Forecast Growth",
@@ -30891,19 +30900,15 @@
     },
     {
       "source": "Resources/System Administration & IT/Group Policy Objects (GPOs) — How Windows Domain Policy Is Enforced",
-      "target": "Resources/System Administration & IT/DNS Server Configuration (Bind9, Windows DNS, CoreDNS, Split-Horizon)"
+      "target": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)"
+    },
+    {
+      "source": "Resources/System Administration & IT/Group Policy Objects (GPOs) — How Windows Domain Policy Is Enforced",
+      "target": "Resources/System Administration & IT/Kerberos Authentication — How Tickets Work in Windows Environments"
     },
     {
       "source": "Resources/System Administration & IT/Group Policy Objects (GPOs) — How Windows Domain Policy Is Enforced",
       "target": "Resources/System Administration & IT/LDAP and Directory Services — Protocol and Schema"
-    },
-    {
-      "source": "Resources/System Administration & IT/Group Policy Objects (GPOs) — How Windows Domain Policy Is Enforced",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
-    },
-    {
-      "source": "Resources/System Administration & IT/Group Policy Objects (GPOs) — How Windows Domain Policy Is Enforced",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
     },
     {
       "source": "Resources/System Administration & IT/Hardware Asset Management and IT Procurement Lifecycle",
@@ -30971,19 +30976,15 @@
     },
     {
       "source": "Resources/System Administration & IT/Kerberos Authentication — How Tickets Work in Windows Environments",
-      "target": "Resources/System Administration & IT/IT Security Fundamentals — Hardening, Least Privilege, Network Segmentation"
+      "target": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)"
     },
     {
       "source": "Resources/System Administration & IT/Kerberos Authentication — How Tickets Work in Windows Environments",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+      "target": "Resources/System Administration & IT/LDAP and Directory Services — Protocol and Schema"
     },
     {
       "source": "Resources/System Administration & IT/Kerberos Authentication — How Tickets Work in Windows Environments",
-      "target": "Resources/System Administration & IT/SNMP Traps and Network Device Monitoring"
-    },
-    {
-      "source": "Resources/System Administration & IT/Kerberos Authentication — How Tickets Work in Windows Environments",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "target": "Resources/System Administration & IT/PAM — Pluggable Authentication Modules and How Login Actually Works"
     },
     {
       "source": "Resources/System Administration & IT/LDAP and Directory Services — Protocol and Schema",
@@ -30991,15 +30992,11 @@
     },
     {
       "source": "Resources/System Administration & IT/LDAP and Directory Services — Protocol and Schema",
-      "target": "Resources/System Administration & IT/Group Policy Objects (GPOs) — How Windows Domain Policy Is Enforced"
+      "target": "Resources/System Administration & IT/Kerberos Authentication — How Tickets Work in Windows Environments"
     },
     {
       "source": "Resources/System Administration & IT/LDAP and Directory Services — Protocol and Schema",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
-    },
-    {
-      "source": "Resources/System Administration & IT/LDAP and Directory Services — Protocol and Schema",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "target": "Resources/System Administration & IT/PAM — Pluggable Authentication Modules and How Login Actually Works"
     },
     {
       "source": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem",
@@ -31023,7 +31020,7 @@
     },
     {
       "source": "Resources/System Administration & IT/Linux User, Group, and Permission Management (useradd, chmod, chown, ACLs)",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "target": "Resources/System Administration & IT/Sudoers File and Privilege Escalation (sudoers, polkit)"
     },
     {
       "source": "Resources/System Administration & IT/Log Management and SIEM — Syslog, Splunk, Elastic Stack (ELK)",
@@ -31103,7 +31100,7 @@
     },
     {
       "source": "Resources/System Administration & IT/PAM — Pluggable Authentication Modules and How Login Actually Works",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+      "target": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)"
     },
     {
       "source": "Resources/System Administration & IT/PAM — Pluggable Authentication Modules and How Login Actually Works",
@@ -31112,10 +31109,6 @@
     {
       "source": "Resources/System Administration & IT/PAM — Pluggable Authentication Modules and How Login Actually Works",
       "target": "Resources/System Administration & IT/Sudoers File and Privilege Escalation (sudoers, polkit)"
-    },
-    {
-      "source": "Resources/System Administration & IT/PAM — Pluggable Authentication Modules and How Login Actually Works",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
     },
     {
       "source": "Resources/System Administration & IT/Patch Management Strategies (WSUS, Ansible, Unattended Upgrades)",
@@ -31227,19 +31220,15 @@
     },
     {
       "source": "Resources/System Administration & IT/Sudoers File and Privilege Escalation (sudoers, polkit)",
-      "target": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)"
+      "target": "Resources/System Administration & IT/IT Security Fundamentals — Hardening, Least Privilege, Network Segmentation"
     },
     {
       "source": "Resources/System Administration & IT/Sudoers File and Privilege Escalation (sudoers, polkit)",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+      "target": "Resources/System Administration & IT/Linux User, Group, and Permission Management (useradd, chmod, chown, ACLs)"
     },
     {
       "source": "Resources/System Administration & IT/Sudoers File and Privilege Escalation (sudoers, polkit)",
       "target": "Resources/System Administration & IT/PAM — Pluggable Authentication Modules and How Login Actually Works"
-    },
-    {
-      "source": "Resources/System Administration & IT/Sudoers File and Privilege Escalation (sudoers, polkit)",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
     },
     {
       "source": "Resources/System Administration & IT/The 3-2-1 Backup Rule — How to Implement Reliable Backups",
@@ -31275,19 +31264,19 @@
     },
     {
       "source": "Resources/System Administration & IT/Zero Trust for IT — Why VPNs Aren't Enough and What Replaces Them",
+      "target": "Endpoint Management — MDM, Intune, Jamf, Compliance Policy"
+    },
+    {
+      "source": "Resources/System Administration & IT/Zero Trust for IT — Why VPNs Aren't Enough and What Replaces Them",
+      "target": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)"
+    },
+    {
+      "source": "Resources/System Administration & IT/Zero Trust for IT — Why VPNs Aren't Enough and What Replaces Them",
       "target": "Resources/System Administration & IT/IT Security Fundamentals — Hardening, Least Privilege, Network Segmentation"
     },
     {
       "source": "Resources/System Administration & IT/Zero Trust for IT — Why VPNs Aren't Enough and What Replaces Them",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
-    },
-    {
-      "source": "Resources/System Administration & IT/Zero Trust for IT — Why VPNs Aren't Enough and What Replaces Them",
       "target": "Resources/System Administration & IT/Real Scenario - Onboarding a New Employee — Accounts, Access, Equipment Checklist"
-    },
-    {
-      "source": "Resources/System Administration & IT/Zero Trust for IT — Why VPNs Aren't Enough and What Replaces Them",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
     },
     {
       "source": "Resources/System Administration & IT/iDRAC, iLO, IPMI — Out-of-Band Server Management",
@@ -32762,5 +32751,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-29T00:06:41Z"
+  "generated_at": "2026-05-29T05:11:49Z"
 }
