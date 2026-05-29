@@ -743,7 +743,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 3
+      "degree": 2
     },
     {
       "id": "Personal Metrics and Dashboards",
@@ -4362,7 +4362,7 @@
         "neetcode",
         "interview-prep"
       ],
-      "degree": 16
+      "degree": 15
     },
     {
       "id": "Resources/Database Internals Deep Dive",
@@ -4991,7 +4991,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/DevOps & Infrastructure/Disk I-O Optimization",
@@ -5123,7 +5123,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 17
+      "degree": 16
     },
     {
       "id": "Resources/DevOps & Infrastructure/On-Call Culture and Incident Response",
@@ -5305,7 +5305,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 25
+      "degree": 24
     },
     {
       "id": "Resources/Docker",
@@ -10461,7 +10461,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 18
+      "degree": 17
     },
     {
       "id": "Resources/Observability Case Studies",
@@ -11766,7 +11766,7 @@
         "startups",
         "projects"
       ],
-      "degree": 14
+      "degree": 13
     },
     {
       "id": "Resources/Product Management/Activation Metrics",
@@ -11946,7 +11946,7 @@
         "resource",
         "product-management"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Programming Languages",
@@ -12471,7 +12471,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 15
+      "degree": 14
     },
     {
       "id": "Resources/Search Systems",
@@ -13435,12 +13435,12 @@
       "label": "Behavior-Driven Development (BDD)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Behavior-Driven Development extends test-first development by describing system behavior in language shared by engineering, product, and domain stakeholders. It is most useful when examples clarify requirements across roles.",
+      "excerpt": "BDD aligns engineers, product, and QA around concrete behavioral examples written in Given-When-Then format before development. The value is clarity on business rules before code is written. The failure mode is writing low-level UI scripts in business language — scenarios that describe clicks, not behavior.",
       "tags": [
         "resource",
         "software-engineering"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/Software Engineering/Blue-Green Deployments",
@@ -13495,12 +13495,12 @@
       "label": "Chaos Engineering",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Chaos engineering deliberately injects controlled failures to test whether systems remain resilient. It turns reliability assumptions into experiments before real incidents expose them.",
+      "excerpt": "Chaos engineering runs controlled failure experiments to find resilience weaknesses before incidents do. The workflow: define steady state → hypothesize → inject failure → compare → fix. Tools: Chaos Monkey (instance kills), Gremlin (full platform), Chaos Mesh (Kubernetes). Prerequisites: observability, runbooks, and rollback mechanisms must exist before any experiments run.",
       "tags": [
         "resource",
         "software-engineering"
       ],
-      "degree": 7
+      "degree": 10
     },
     {
       "id": "Resources/Software Engineering/Clean Code Principles",
@@ -13531,12 +13531,12 @@
       "label": "Code Review Best Practices",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Code review is a collaborative quality gate for correctness, maintainability, security, and shared understanding. Strong reviews focus on risk and clarity rather than personal preference.",
+      "excerpt": "Code review is the highest-leverage quality gate: it catches correctness bugs, spreads knowledge, and enforces standards before changes harden into production. The discipline: keep PRs small (< 400 lines), distinguish blocking issues from suggestions, automate everything automatable, and review the behavior not the style.",
       "tags": [
         "resource",
         "software-engineering"
       ],
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "Resources/Software Engineering/Container Networking",
@@ -13560,7 +13560,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/Software Engineering/Dependency Management",
@@ -13632,7 +13632,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/Software Engineering/Event Sourcing",
@@ -13692,14 +13692,14 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Software Engineering/Integration Testing Strategies",
       "label": "Integration Testing Strategies",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Integration testing verifies that multiple components work together across real boundaries such as databases, APIs, queues, and filesystems. It catches contract and configuration bugs that unit tests intentionally ignore.",
+      "excerpt": "Integration tests verify behavior across real boundaries — databases, message queues, HTTP APIs, filesystems. The key tools are Testcontainers (real infrastructure in Docker), contract tests (Pact for API boundaries), and transaction rollback (fast DB isolation). The test trophy model argues integration tests often provide better ROI than unit tests for CRUD-heavy code.",
       "tags": [
         "resource",
         "software-engineering"
@@ -13723,7 +13723,7 @@
       "label": "Load Testing and Performance Testing",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Load and performance testing measure how a system behaves under expected, peak, and stressful traffic. The goal is to find capacity limits, latency bottlenecks, and failure modes before users do.",
+      "excerpt": "Load testing measures system behavior under realistic and peak traffic. Key metrics are p95/p99 latency, throughput (RPS), and error rate — not averages. Tools: k6 for code-based scripts, Locust for Python-native, Grafana K6 Cloud for scale. The analysis process: identify the metric that's degrading, correlate with traces and profiles, find the bottleneck.",
       "tags": [
         "resource",
         "software-engineering"
@@ -13740,7 +13740,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/Software Engineering/Monolith vs Microservices Tradeoffs",
@@ -13795,12 +13795,12 @@
       "label": "Property-Based Testing",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Property-based testing checks general invariants over many generated inputs instead of only testing hand-picked examples. It is strongest for parsers, serializers, state machines, algorithms, and code with clear mathematical or domain properties.",
+      "excerpt": "Property-based testing generates hundreds of random inputs to verify that a general invariant holds — rather than testing specific hand-picked examples. The key contribution is automatic shrinking: when a failure is found, the framework reduces the input to the minimal failing case. Best for parsers, serializers, algorithms, and any code with clear mathematical properties.",
       "tags": [
         "resource",
         "software-engineering"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/Software Engineering/Refactoring Techniques",
@@ -13812,7 +13812,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Software Engineering/SOLID Principles",
@@ -13867,12 +13867,12 @@
       "label": "Static Analysis Tools",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Static analysis tools inspect code without running it to find bugs, style issues, security risks, type errors, and maintainability problems. They provide cheap automated feedback when configured to match team priorities.",
+      "excerpt": "Static analysis tools catch bugs, security issues, type errors, and style violations without running code. The key is tuning: too strict and developers ignore it, too loose and it provides no signal. Tools span linters (ruff, ESLint), type checkers (mypy, TypeScript), SAST security scanners (Semgrep, Bandit), and formatters (Black, Prettier). All should run in pre-commit hooks and CI.",
       "tags": [
         "resource",
         "software-engineering"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Software Engineering/Technical Debt — Types and Management",
@@ -13884,14 +13884,14 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "Resources/Software Engineering/Test-Driven Development (TDD)",
       "label": "Test-Driven Development (TDD)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Test-Driven Development is a workflow where tests are written before implementation to clarify desired behavior and guide design. Its value is fastest feedback and design pressure, not simply having more tests.",
+      "excerpt": "TDD is a design discipline: write a failing test, write minimal code to pass it, refactor. The value isn't test coverage — it's design pressure. TDD forces small interfaces, low coupling, and behavior-first thinking. Hardest to apply at UI boundaries and infrastructure edges; most valuable for domain logic and algorithms.",
       "tags": [
         "resource",
         "software-engineering"
@@ -14477,7 +14477,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "Resources/System Design/Circuit Breaker Pattern",
@@ -14549,7 +14549,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/System Design/Design Twitter X Feed",
@@ -14900,7 +14900,7 @@
         "quality",
         "interview-prep"
       ],
-      "degree": 17
+      "degree": 11
     },
     {
       "id": "Resources/Transformer Architecture",
@@ -29944,11 +29944,11 @@
     },
     {
       "source": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
-      "target": "Resources/Product Engineering"
+      "target": "Resources/Software Engineering/Code Review Best Practices"
     },
     {
       "source": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
-      "target": "Resources/Product Management/User Stories and Jobs to Be Done"
+      "target": "Resources/Software Engineering/Domain-Driven Design (DDD)"
     },
     {
       "source": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
@@ -29957,10 +29957,6 @@
     {
       "source": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
       "target": "Resources/Software Engineering/Test-Driven Development (TDD)"
-    },
-    {
-      "source": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
-      "target": "Resources/Testing Strategy"
     },
     {
       "source": "Resources/Software Engineering/Blue-Green Deployments",
@@ -30052,7 +30048,7 @@
     },
     {
       "source": "Resources/Software Engineering/Chaos Engineering",
-      "target": "Resources/Distributed Systems"
+      "target": "Resources/Software Engineering/Load Testing and Performance Testing"
     },
     {
       "source": "Resources/Software Engineering/Chaos Engineering",
@@ -30112,15 +30108,15 @@
     },
     {
       "source": "Resources/Software Engineering/Code Review Best Practices",
-      "target": "Resources/Software Engineering/Conventional Commits"
+      "target": "Resources/Software Engineering/Refactoring Techniques"
+    },
+    {
+      "source": "Resources/Software Engineering/Code Review Best Practices",
+      "target": "Resources/Software Engineering/Static Analysis Tools"
     },
     {
       "source": "Resources/Software Engineering/Code Review Best Practices",
       "target": "Resources/Software Engineering/Technical Debt — Types and Management"
-    },
-    {
-      "source": "Resources/Software Engineering/Code Review Best Practices",
-      "target": "Resources/Testing Strategy"
     },
     {
       "source": "Resources/Software Engineering/Container Networking",
@@ -30376,11 +30372,15 @@
     },
     {
       "source": "Resources/Software Engineering/Integration Testing Strategies",
-      "target": "Resources/DevOps & Infrastructure/Database Migrations Best Practices"
+      "target": "Resources/Software Engineering/Behavior-Driven Development (BDD)"
     },
     {
       "source": "Resources/Software Engineering/Integration Testing Strategies",
-      "target": "Resources/Software Engineering/Behavior-Driven Development (BDD)"
+      "target": "Resources/Software Engineering/Chaos Engineering"
+    },
+    {
+      "source": "Resources/Software Engineering/Integration Testing Strategies",
+      "target": "Resources/Software Engineering/Microservices Architecture"
     },
     {
       "source": "Resources/Software Engineering/Integration Testing Strategies",
@@ -30389,10 +30389,6 @@
     {
       "source": "Resources/Software Engineering/Integration Testing Strategies",
       "target": "Resources/Software Engineering/Test-Driven Development (TDD)"
-    },
-    {
-      "source": "Resources/Software Engineering/Integration Testing Strategies",
-      "target": "Resources/Testing Strategy"
     },
     {
       "source": "Resources/Software Engineering/Kubernetes Basics",
@@ -30416,19 +30412,15 @@
     },
     {
       "source": "Resources/Software Engineering/Load Testing and Performance Testing",
-      "target": "Performance Profiling (CPU, Memory, I/O)"
+      "target": "Resources/Software Engineering/Chaos Engineering"
     },
     {
       "source": "Resources/Software Engineering/Load Testing and Performance Testing",
-      "target": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)"
+      "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
     },
     {
       "source": "Resources/Software Engineering/Load Testing and Performance Testing",
-      "target": "Resources/Observability"
-    },
-    {
-      "source": "Resources/Software Engineering/Load Testing and Performance Testing",
-      "target": "Resources/Scaling"
+      "target": "Resources/System Design/Database Sharding"
     },
     {
       "source": "Resources/Software Engineering/Load Testing and Performance Testing",
@@ -30536,7 +30528,7 @@
     },
     {
       "source": "Resources/Software Engineering/Property-Based Testing",
-      "target": "Resources/Data Structures and Algorithms Patterns"
+      "target": "Resources/Software Engineering/Chaos Engineering"
     },
     {
       "source": "Resources/Software Engineering/Property-Based Testing",
@@ -30549,10 +30541,6 @@
     {
       "source": "Resources/Software Engineering/Property-Based Testing",
       "target": "Resources/System Design/Idempotency in Distributed Systems"
-    },
-    {
-      "source": "Resources/Software Engineering/Property-Based Testing",
-      "target": "Resources/Testing Strategy"
     },
     {
       "source": "Resources/Software Engineering/Refactoring Techniques",
@@ -30672,7 +30660,7 @@
     },
     {
       "source": "Resources/Software Engineering/Static Analysis Tools",
-      "target": "Resources/Testing Strategy"
+      "target": "Resources/Software Engineering/Technical Debt — Types and Management"
     },
     {
       "source": "Resources/Software Engineering/Technical Debt — Types and Management",
@@ -30700,6 +30688,10 @@
     },
     {
       "source": "Resources/Software Engineering/Test-Driven Development (TDD)",
+      "target": "Resources/Software Engineering/Hexagonal Architecture (Ports and Adapters)"
+    },
+    {
+      "source": "Resources/Software Engineering/Test-Driven Development (TDD)",
       "target": "Resources/Software Engineering/Integration Testing Strategies"
     },
     {
@@ -30709,10 +30701,6 @@
     {
       "source": "Resources/Software Engineering/Test-Driven Development (TDD)",
       "target": "Resources/Software Engineering/Refactoring Techniques"
-    },
-    {
-      "source": "Resources/Software Engineering/Test-Driven Development (TDD)",
-      "target": "Resources/Testing Strategy"
     },
     {
       "source": "Resources/Software Engineering/The Unix Philosophy",
@@ -32687,5 +32675,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-29T23:42:42Z"
+  "generated_at": "2026-05-29T23:51:46Z"
 }
