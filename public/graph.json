@@ -975,12 +975,12 @@
       "label": "Activation Functions (ReLU, GELU, Softmax)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Activation functions introduce nonlinear behavior into neural networks and shape how signals flow through layers. ReLU, GELU, sigmoid, tanh, and softmax each serve different roles in modern models.",
+      "excerpt": "Activation functions are the nonlinear gates that make neural networks expressive. Without them, any depth of layers collapses to a single linear transformation. ReLU is the default for hidden layers in vision/MLP models. GELU and SwiGLU dominate transformers. Softmax converts logits to probabilities at output heads. Each has different gradient behavior, training stability, and dead-neuron risk.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/AI & Machine Learning/Attention Mechanism — Self-Attention",
@@ -1004,19 +1004,19 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/AI & Machine Learning/Batch Normalization and Layer Normalization",
       "label": "Batch Normalization and Layer Normalization",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Batch normalization and layer normalization stabilize neural network training by normalizing intermediate activations. BatchNorm is common in CNNs, while LayerNorm is central to transformers and sequence models.",
+      "excerpt": "Normalization layers stabilize training by keeping activations in a reasonable range as gradients flow through many layers. BatchNorm normalizes across the batch dimension (works well in CNNs, breaks with small batches). LayerNorm normalizes across the feature dimension (standard in transformers, batch-size-independent). RMSNorm drops the mean-centering step and is the default in modern LLMs (Llama, Mistral).",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/AI & Machine Learning/Benchmarks — MMLU, HumanEval, GSM8K, GPQA",
@@ -1088,7 +1088,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics",
@@ -1124,7 +1124,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/AI & Machine Learning/Emergent Abilities in Large Models",
@@ -1143,12 +1143,12 @@
       "label": "Few-Shot and Zero-Shot Learning",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Few-shot and zero-shot learning describe a model's ability to perform tasks with little or no task-specific training data. In LLMs, these capabilities often come from prompting rather than updating model weights.",
+      "excerpt": "Zero-shot: the model performs a task from instructions alone with no examples. Few-shot: provide k examples in the prompt and the model generalizes the pattern. Both work through in-context learning — the model uses its pre-trained knowledge conditioned on your demonstration, without any weight updates. Scale is the prerequisite: small models barely generalize; large models generalize reliably.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/AI & Machine Learning/Generative Adversarial Networks (GANs)",
@@ -1172,7 +1172,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 12
+      "degree": 10
     },
     {
       "id": "Resources/AI & Machine Learning/Hallucination — Causes and Mitigations",
@@ -1227,7 +1227,7 @@
       "label": "Loss Functions",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Loss functions define what a model is penalized for during training. They convert prediction errors into a scalar objective that optimization algorithms can minimize.",
+      "excerpt": "The loss function defines what a model is optimizing for. Cross-entropy is the standard for classification and language modeling. MSE for regression. Contrastive losses for embedding/representation learning. The choice encodes your real objective — a mismatch between loss and what you actually care about (e.g., optimizing accuracy proxy instead of business metric) will faithfully produce a model that's good at the wrong thing.",
       "tags": [
         "resource",
         "ai-ml"
@@ -1268,7 +1268,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 22
+      "degree": 19
     },
     {
       "id": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
@@ -1316,7 +1316,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/AI & Machine Learning/OpenAI API and GPT Models",
@@ -1347,19 +1347,19 @@
       "label": "Pre-training vs Fine-tuning",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Pre-training teaches a model broad statistical representations from large datasets, while fine-tuning adapts that model to narrower tasks or behaviors. The distinction explains why modern ML often starts from foundation models instead of training from scratch.",
+      "excerpt": "Pre-training builds broad statistical representations from large-scale self-supervised learning. Fine-tuning adapts those representations to specific tasks, behaviors, or domains using smaller curated datasets. The practical decision — prompt vs RAG vs fine-tune — depends on what you're actually trying to change: knowledge, behavior, format, or capability. Fine-tuning changes weights; prompting and RAG don't.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 9
+      "degree": 11
     },
     {
       "id": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals",
       "label": "Prompt Engineering Fundamentals",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Prompt engineering is the practice of structuring instructions, context, examples, and constraints so an LLM produces useful outputs. It is less about magic phrasing and more about clear task specification and feedback loops.",
+      "excerpt": "Prompt engineering is the craft of structuring model inputs to reliably get useful outputs. It's less about magic phrasing and more about clear task specification, appropriate context, and testing across input variations. For production systems: prompt + few-shot + output format spec + validation is the full stack. Fine-tuning is the escalation path when prompting doesn't reliably generalize.",
       "tags": [
         "resource",
         "ai-ml"
@@ -1407,12 +1407,12 @@
       "label": "Regularization (L1, L2, Dropout, Early Stopping)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Regularization techniques reduce overfitting by constraining how a model learns from training data. L1, L2, dropout, data augmentation, and early stopping encourage better generalization.",
+      "excerpt": "Regularization reduces overfitting by adding constraints or noise to training. L2 (weight decay) shrinks weights toward zero. L1 produces sparse weights. Dropout randomly disables neurons, acting as an ensemble of many smaller networks. Early stopping uses the validation curve as a signal. In modern LLM training, weight decay (AdamW) and dropout are the primary tools.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals",
@@ -1436,7 +1436,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 11
+      "degree": 13
     },
     {
       "id": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)",
@@ -1448,7 +1448,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "Resources/AI & Machine Learning/Scaling Laws",
@@ -1515,12 +1515,12 @@
       "label": "Transfer Learning",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Transfer learning reuses knowledge learned on one dataset or task to improve performance on another. It is the reason pre-trained models can be adapted efficiently to new domains with less data.",
+      "excerpt": "Transfer learning reuses representations learned on a source task to accelerate or improve learning on a related target task. In deep learning, early layers learn general features (edges, syntax) while later layers learn task-specific features — freeze the general layers, retrain the specific ones. The modern extreme: all LLM applications are transfer learning from a foundation model.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive",
@@ -1580,7 +1580,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/AI Workflow",
@@ -7425,7 +7425,7 @@
         "bobby",
         "ai"
       ],
-      "degree": 27
+      "degree": 25
     },
     {
       "id": "Resources/Language & Linguistics/Effective Vocabulary Building",
@@ -8078,7 +8078,7 @@
         "system-design",
         "bobby"
       ],
-      "degree": 22
+      "degree": 20
     },
     {
       "id": "Resources/Mathematics/Bayes' Theorem",
@@ -12415,7 +12415,7 @@
         "study",
         "ai"
       ],
-      "degree": 17
+      "degree": 15
     },
     {
       "id": "Resources/Rate Limiting",
@@ -14913,7 +14913,7 @@
         "study",
         "ai"
       ],
-      "degree": 11
+      "degree": 9
     },
     {
       "id": "Resources/Vault Structure",
@@ -16008,7 +16008,7 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)",
-      "target": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)"
+      "target": "Resources/AI & Machine Learning/Backpropagation Explained"
     },
     {
       "source": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)",
@@ -16021,10 +16021,6 @@
     {
       "source": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)",
       "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)",
-      "target": "Resources/Transformer Architecture"
     },
     {
       "source": "Resources/AI & Machine Learning/Attention Mechanism — Self-Attention",
@@ -16064,19 +16060,15 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Batch Normalization and Layer Normalization",
-      "target": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)"
+      "target": "Resources/AI & Machine Learning/Backpropagation Explained"
     },
     {
       "source": "Resources/AI & Machine Learning/Batch Normalization and Layer Normalization",
-      "target": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)"
+      "target": "Resources/AI & Machine Learning/Neural Network Fundamentals"
     },
     {
       "source": "Resources/AI & Machine Learning/Batch Normalization and Layer Normalization",
       "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Batch Normalization and Layer Normalization",
-      "target": "Resources/Transformer Architecture"
     },
     {
       "source": "Resources/AI & Machine Learning/Benchmarks — MMLU, HumanEval, GSM8K, GPQA",
@@ -16284,10 +16276,6 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning",
-      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning",
       "target": "Resources/AI & Machine Learning/Pre-training vs Fine-tuning"
     },
     {
@@ -16296,7 +16284,7 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning",
-      "target": "Resources/LLM System Design"
+      "target": "Resources/AI & Machine Learning/Transfer Learning"
     },
     {
       "source": "Resources/AI & Machine Learning/Generative Adversarial Networks (GANs)",
@@ -16432,7 +16420,7 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Loss Functions",
-      "target": "Resources/RLHF and Alignment"
+      "target": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)"
     },
     {
       "source": "Resources/AI & Machine Learning/Mixture of Experts (MoE)",
@@ -16608,11 +16596,15 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Pre-training vs Fine-tuning",
-      "target": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning"
+      "target": "Resources/AI & Machine Learning/Direct Preference Optimization (DPO)"
     },
     {
       "source": "Resources/AI & Machine Learning/Pre-training vs Fine-tuning",
       "target": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Pre-training vs Fine-tuning",
+      "target": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)"
     },
     {
       "source": "Resources/AI & Machine Learning/Pre-training vs Fine-tuning",
@@ -16621,10 +16613,6 @@
     {
       "source": "Resources/AI & Machine Learning/Pre-training vs Fine-tuning",
       "target": "Resources/AI & Machine Learning/Transfer Learning"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Pre-training vs Fine-tuning",
-      "target": "Resources/RLHF and Alignment"
     },
     {
       "source": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals",
@@ -16640,11 +16628,11 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals",
-      "target": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)"
+      "target": "Resources/AI & Machine Learning/Pre-training vs Fine-tuning"
     },
     {
       "source": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals",
-      "target": "Resources/LLM System Design"
+      "target": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)"
     },
     {
       "source": "Resources/AI & Machine Learning/RLHF vs RLAIF",
@@ -16716,15 +16704,11 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Regularization (L1, L2, Dropout, Early Stopping)",
-      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
+      "target": "Resources/AI & Machine Learning/Neural Network Fundamentals"
     },
     {
       "source": "Resources/AI & Machine Learning/Regularization (L1, L2, Dropout, Early Stopping)",
-      "target": "Resources/AI & Machine Learning/Transfer Learning"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Regularization (L1, L2, Dropout, Early Stopping)",
-      "target": "Resources/MLOps and ML Engineering"
+      "target": "Resources/AI & Machine Learning/Pre-training vs Fine-tuning"
     },
     {
       "source": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals",
@@ -16884,7 +16868,7 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Transfer Learning",
-      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
+      "target": "Resources/AI & Machine Learning/Few-Shot and Zero-Shot Learning"
     },
     {
       "source": "Resources/AI & Machine Learning/Transfer Learning",
@@ -16896,11 +16880,7 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Transfer Learning",
-      "target": "Resources/AI & Machine Learning/Vision-Language Models"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Transfer Learning",
-      "target": "Resources/MLOps and ML Engineering"
+      "target": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)"
     },
     {
       "source": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive",
@@ -32831,5 +32811,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-29T17:06:54Z"
+  "generated_at": "2026-05-29T19:11:20Z"
 }
