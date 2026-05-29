@@ -980,31 +980,31 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/AI & Machine Learning/Attention Mechanism — Self-Attention",
       "label": "Attention Mechanism — Self-Attention",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Self-attention lets each token in a sequence dynamically read information from other tokens. It is the core mechanism that allows transformers to build contextual representations.",
+      "excerpt": "Self-attention computes a weighted mixture of value vectors for each token, where the weights come from comparing that token's query against every other token's key. It's the mechanism that lets transformers build context-aware representations and capture long-range dependencies — and why context windows are expensive.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/AI & Machine Learning/Backpropagation Explained",
       "label": "Backpropagation Explained",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Backpropagation is the algorithm that computes gradients for neural network parameters efficiently. It applies the chain rule backward through the network so optimizers know how to reduce loss.",
+      "excerpt": "Backpropagation is the chain rule of calculus applied efficiently to a computation graph. Given a scalar loss, it computes ∂L/∂w for every weight w in the network in one backward pass — cost proportional to the forward pass, not the number of parameters. Modern frameworks (PyTorch, JAX) implement this as automatic differentiation over dynamic computation graphs.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 11
+      "degree": 10
     },
     {
       "id": "Resources/AI & Machine Learning/Batch Normalization and Layer Normalization",
@@ -1167,12 +1167,12 @@
       "label": "Gradient Descent Variants (SGD, Adam, AdaGrad)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Gradient descent variants are optimization algorithms that update model parameters using gradients. SGD, AdaGrad, and Adam differ in how they use noise, learning history, momentum, and per-parameter step sizes.",
+      "excerpt": "Gradient descent variants are optimizers that turn gradients into parameter updates. SGD with momentum is simple and generalizes well. Adam adapts per-parameter learning rates using running estimates of gradient magnitude — it's the default for most LLM training. AdamW fixes a weight decay bug in Adam. Learning rate scheduling (warmup + cosine decay) matters as much as the optimizer choice.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 13
+      "degree": 12
     },
     {
       "id": "Resources/AI & Machine Learning/Hallucination — Causes and Mitigations",
@@ -1232,7 +1232,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 16
+      "degree": 15
     },
     {
       "id": "Resources/AI & Machine Learning/Mixture of Experts (MoE)",
@@ -1280,19 +1280,19 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/AI & Machine Learning/Multi-Head Attention",
       "label": "Multi-Head Attention",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Multi-head attention runs several attention operations in parallel so a model can capture different relationships at once. Each head learns its own projections and contributes to the layer output.",
+      "excerpt": "Multi-head attention runs h independent self-attention operations in parallel, each on a lower-dimensional subspace. The heads can specialize in different relationship types. Their outputs are concatenated and projected back to d_model. GQA and MQA reduce the KV cache memory cost by sharing key/value heads across query heads.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/AI & Machine Learning/Multimodal Models",
@@ -1311,7 +1311,7 @@
       "label": "Neural Network Fundamentals",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Neural network fundamentals cover how layered mathematical models learn patterns by adjusting weights from data. The core ideas are neurons, parameters, activations, loss, backpropagation, and gradient-based optimization.",
+      "excerpt": "A neural network is a function approximator built from stacked linear transformations and nonlinearities. Each layer computes Wx + b, then applies an activation function. Depth (many layers) enables hierarchical feature learning. Training adjusts weights via backpropagation + gradient descent to minimize a loss. Understanding the fundamentals explains why networks work, why they fail, and what every more-advanced technique is built on top of.",
       "tags": [
         "resource",
         "ai-ml"
@@ -1335,12 +1335,12 @@
       "label": "Positional Encoding",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Positional encoding gives transformers information about token order. Because self-attention alone is permutation-insensitive, models need positional signals such as sinusoidal embeddings, learned positions, or RoPE.",
+      "excerpt": "Transformers are permutation-invariant — without positional encoding, 'dog bites man' and 'man bites dog' produce identical representations. Positional encodings inject order information. The field has evolved from fixed sinusoidal encodings → learned absolute positions → relative methods → RoPE, which is now the dominant approach in LLMs and enables better context length generalization.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/AI & Machine Learning/Pre-training vs Fine-tuning",
@@ -1352,7 +1352,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals",
@@ -1364,7 +1364,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/AI & Machine Learning/RLHF vs RLAIF",
@@ -1412,7 +1412,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals",
@@ -1448,7 +1448,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 15
+      "degree": 18
     },
     {
       "id": "Resources/AI & Machine Learning/Scaling Laws",
@@ -1503,7 +1503,7 @@
       "label": "Tokenization — BPE, WordPiece, SentencePiece",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Tokenization converts raw text into model-readable token IDs. BPE, WordPiece, and SentencePiece use subword units so models can handle large vocabularies, rare words, and multilingual text.",
+      "excerpt": "Tokenization splits text into subword units that a model embeds as vectors. BPE merges frequent character pairs iteratively; WordPiece maximizes language model likelihood; SentencePiece works on raw bytes and handles any language. Tokenization choices affect context window efficiency, multilingual quality, code handling, and numeric reasoning — and different models tokenize the same text differently.",
       "tags": [
         "resource",
         "ai-ml"
@@ -1527,12 +1527,12 @@
       "label": "Transformer Architecture Deep Dive",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Transformer architecture uses self-attention, feed-forward layers, residual connections, normalization, and positional information to model sequences in parallel. It is the foundation of modern large language models.",
+      "excerpt": "The transformer is a stack of attention + feed-forward blocks that processes tokens in parallel. It replaced RNNs as the dominant sequence architecture because attention captures long-range dependencies without vanishing gradients and scales efficiently on GPU hardware. Modern LLMs, vision transformers, and multimodal models are all transformer variants.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 23
+      "degree": 22
     },
     {
       "id": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)",
@@ -6025,7 +6025,7 @@
         "study",
         "ai"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/Formal Methods Agent Safety",
@@ -7425,7 +7425,7 @@
         "bobby",
         "ai"
       ],
-      "degree": 31
+      "degree": 27
     },
     {
       "id": "Resources/Language & Linguistics/Effective Vocabulary Building",
@@ -8078,7 +8078,7 @@
         "system-design",
         "bobby"
       ],
-      "degree": 24
+      "degree": 22
     },
     {
       "id": "Resources/Mathematics/Bayes' Theorem",
@@ -8150,7 +8150,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/Mathematics/Combinatorics Basics (Permutations, Combinations)",
@@ -8354,7 +8354,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/Mathematics/Probability Distributions (Normal, Binomial, Poisson, Exponential)",
@@ -8391,7 +8391,7 @@
         "study",
         "ai"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/Mental Health & Psychology/ADHD — Understanding and Managing It",
@@ -14913,7 +14913,7 @@
         "study",
         "ai"
       ],
-      "degree": 15
+      "degree": 11
     },
     {
       "id": "Resources/Vault Structure",
@@ -16036,15 +16036,15 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Attention Mechanism — Self-Attention",
+      "target": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Attention Mechanism — Self-Attention",
       "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
     },
     {
-      "source": "Resources/AI & Machine Learning/Attention Mechanism — Self-Attention",
-      "target": "Resources/FlashAttention"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Attention Mechanism — Self-Attention",
-      "target": "Resources/Mechanistic Interpretability"
+      "source": "Resources/AI & Machine Learning/Backpropagation Explained",
+      "target": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)"
     },
     {
       "source": "Resources/AI & Machine Learning/Backpropagation Explained",
@@ -16052,19 +16052,11 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Backpropagation Explained",
-      "target": "Resources/AI & Machine Learning/Loss Functions"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Backpropagation Explained",
       "target": "Resources/AI & Machine Learning/Neural Network Fundamentals"
     },
     {
       "source": "Resources/AI & Machine Learning/Backpropagation Explained",
-      "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Backpropagation Explained",
-      "target": "Resources/Mathematics/Chain Rule (in Context of Backprop)"
+      "target": "Resources/AI & Machine Learning/Regularization (L1, L2, Dropout, Early Stopping)"
     },
     {
       "source": "Resources/AI & Machine Learning/Batch Normalization and Layer Normalization",
@@ -16336,15 +16328,11 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)",
+      "target": "Resources/AI & Machine Learning/Pre-training vs Fine-tuning"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)",
       "target": "Resources/AI & Machine Learning/Regularization (L1, L2, Dropout, Early Stopping)"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)",
-      "target": "Resources/MLOps and ML Engineering"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)",
-      "target": "Resources/Mathematics/Optimization — Convex vs Non-Convex"
     },
     {
       "source": "Resources/AI & Machine Learning/Hallucination — Causes and Mitigations",
@@ -16536,15 +16524,11 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Multi-Head Attention",
+      "target": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Multi-Head Attention",
       "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Multi-Head Attention",
-      "target": "Resources/LLM System Design"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Multi-Head Attention",
-      "target": "Resources/Transformer Architecture"
     },
     {
       "source": "Resources/AI & Machine Learning/Multimodal Models",
@@ -16584,7 +16568,7 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Neural Network Fundamentals",
-      "target": "Resources/MLOps and ML Engineering"
+      "target": "Resources/AI & Machine Learning/Regularization (L1, L2, Dropout, Early Stopping)"
     },
     {
       "source": "Resources/AI & Machine Learning/OpenAI API and GPT Models",
@@ -16612,19 +16596,15 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Positional Encoding",
+      "target": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Positional Encoding",
       "target": "Resources/AI & Machine Learning/Tokenization — BPE, WordPiece, SentencePiece"
     },
     {
       "source": "Resources/AI & Machine Learning/Positional Encoding",
       "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Positional Encoding",
-      "target": "Resources/LLM System Design"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Positional Encoding",
-      "target": "Resources/Transformer Architecture"
     },
     {
       "source": "Resources/AI & Machine Learning/Pre-training vs Fine-tuning",
@@ -16896,15 +16876,11 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Tokenization — BPE, WordPiece, SentencePiece",
+      "target": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Tokenization — BPE, WordPiece, SentencePiece",
       "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Tokenization — BPE, WordPiece, SentencePiece",
-      "target": "Resources/LLM System Design"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Tokenization — BPE, WordPiece, SentencePiece",
-      "target": "Resources/Transformer Architecture"
     },
     {
       "source": "Resources/AI & Machine Learning/Transfer Learning",
@@ -16932,6 +16908,10 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive",
+      "target": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive",
       "target": "Resources/AI & Machine Learning/Multi-Head Attention"
     },
     {
@@ -16940,11 +16920,7 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive",
-      "target": "Resources/LLM System Design"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive",
-      "target": "Resources/Transformer Architecture"
+      "target": "Resources/AI & Machine Learning/Tokenization — BPE, WordPiece, SentencePiece"
     },
     {
       "source": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)",
@@ -32855,5 +32831,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-29T16:55:45Z"
+  "generated_at": "2026-05-29T17:06:54Z"
 }
