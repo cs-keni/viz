@@ -939,7 +939,7 @@
       "label": "AI Alignment Overview",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "AI alignment is the problem of making AI systems pursue goals and behaviors that match human intent, values, and safety constraints. It includes instruction following, truthfulness, robustness, oversight, and control.",
+      "excerpt": "AI alignment is the problem of ensuring AI systems pursue goals that match human intent — not just the proxy we specified. Current LLM alignment (RLHF, DPO, Constitutional AI) makes models helpful and less harmful. Future alignment research addresses whether very capable systems remain controllable, honest, and safe when humans can no longer easily evaluate their outputs.",
       "tags": [
         "resource",
         "ai-ml"
@@ -1023,12 +1023,12 @@
       "label": "Benchmarks — MMLU, HumanEval, GSM8K, GPQA",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "AI benchmarks are standardized tasks used to compare model capabilities. MMLU, HumanEval, GSM8K, and GPQA test different slices of knowledge, coding, math reasoning, and expert-level question answering.",
+      "excerpt": "AI benchmarks provide standardized capability comparisons across models. MMLU tests broad academic knowledge (57 subjects), HumanEval tests functional code generation, GSM8K tests multi-step math reasoning, GPQA tests expert-level science. Each has known limitations: contamination risk, saturation at the frontier, and poor correlation with actual application quality. Chatbot Arena's human preference rankings are more reliable for real-world usefulness.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 7
+      "degree": 5
     },
     {
       "id": "Resources/AI & Machine Learning/Chain-of-Thought Prompting",
@@ -1071,12 +1071,12 @@
       "label": "Constitutional AI",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Constitutional AI trains models using explicit principles that guide critique, revision, and preference selection. It aims to improve helpfulness and harmlessness while reducing dependence on direct human labeling for every case.",
+      "excerpt": "Constitutional AI (Anthropic, 2022) trains models using a written set of principles — a 'constitution' — rather than requiring human labels for every behavior. The model critiques and revises its own responses according to the principles (SL-CAI), then AI-generated preference comparisons train the final policy (RL-CAI / RLAIF). This scales better than RLHF for safety behaviors because the constitution can cover cases without per-example human annotation.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)",
@@ -1119,12 +1119,12 @@
       "label": "Direct Preference Optimization (DPO)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Direct Preference Optimization trains language models directly from preference pairs without fitting a separate reward model and running an RL loop. It is a simpler alternative to classic RLHF for many alignment workflows.",
+      "excerpt": "DPO eliminates the reward model and RL loop from RLHF by reparameterizing the reward directly in terms of the policy ratio. The result is a supervised binary cross-entropy loss on preference pairs that implicitly optimizes the same objective as RLHF. It's simpler, more stable, and now the default for open-source LLM alignment.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 12
+      "degree": 11
     },
     {
       "id": "Resources/AI & Machine Learning/Emergent Abilities in Large Models",
@@ -1184,7 +1184,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 9
+      "degree": 11
     },
     {
       "id": "Resources/AI & Machine Learning/Knowledge Distillation",
@@ -1196,7 +1196,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/AI & Machine Learning/Local LLMs (Ollama, llama.cpp, LM Studio)",
@@ -1232,7 +1232,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "Resources/AI & Machine Learning/Mixture of Experts (MoE)",
@@ -1263,24 +1263,24 @@
       "label": "Model Evaluation Metrics",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Model evaluation metrics measure whether a model is performing the task that matters. Good evaluation separates training loss from real-world quality, reliability, safety, latency, and cost.",
+      "excerpt": "Evaluation metrics measure what the model is actually doing, not what the training loss measured. Classification uses precision/recall/F1/AUC. Generation uses perplexity, BLEU/ROUGE (poor for quality), human evaluation, and LLM-as-judge. For LLM applications: RAGAS for RAG quality, MT-Bench for instruction following, Chatbot Arena for overall preference. The right metric must match the actual user goal.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 19
+      "degree": 17
     },
     {
       "id": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
       "label": "Model Quantization (INT4, INT8, GGUF)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Model quantization compresses neural network weights and activations into lower-precision formats such as INT8 or INT4. It reduces memory and inference cost, often with some quality tradeoff.",
+      "excerpt": "Quantization reduces model weights from float16/32 to int8 or int4, cutting memory 2–4× with manageable quality loss. Q8 is nearly lossless; Q4 is the practical sweet spot for local inference; Q3 and below start causing noticeable degradation. GGUF is the file format for llama.cpp-based local inference. GPTQ and AWQ are GPU-optimized post-training quantization formats. Knowing the memory math tells you what model fits on your hardware.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 11
+      "degree": 10
     },
     {
       "id": "Resources/AI & Machine Learning/Multi-Head Attention",
@@ -1328,7 +1328,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/AI & Machine Learning/Positional Encoding",
@@ -1352,7 +1352,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 11
+      "degree": 13
     },
     {
       "id": "Resources/AI & Machine Learning/Prompt Engineering Fundamentals",
@@ -1419,24 +1419,24 @@
       "label": "Reinforcement Learning Fundamentals",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Reinforcement learning trains agents to choose actions that maximize reward over time. Its core frame is agent, environment, state, action, reward, policy, value, and exploration.",
+      "excerpt": "Reinforcement learning trains an agent to maximize cumulative reward through trial-and-error interaction with an environment. The core abstraction is the MDP (states, actions, transitions, rewards, discount). Q-learning learns action values; policy gradient methods directly optimize the policy. RL underpins game-playing AI, robotics, and the RLHF alignment pipeline for LLMs.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)",
       "label": "Reinforcement Learning from Human Feedback (RLHF)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Reinforcement Learning from Human Feedback trains models toward human-preferred behavior using preference data, reward models, and policy optimization. It is a key method behind instruction-following assistants.",
+      "excerpt": "RLHF is a three-phase pipeline: supervised fine-tuning (SFT) on demonstrations → reward model training on human preference comparisons → PPO policy optimization against the reward model with a KL constraint. It transformed raw pre-trained LLMs into useful assistants. Its costs — labeler disagreement, reward hacking, PPO instability — motivated DPO as a simpler alternative.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 13
+      "degree": 12
     },
     {
       "id": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)",
@@ -1448,7 +1448,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 19
+      "degree": 20
     },
     {
       "id": "Resources/AI & Machine Learning/Scaling Laws",
@@ -1622,7 +1622,7 @@
         "study",
         "ai"
       ],
-      "degree": 15
+      "degree": 13
     },
     {
       "id": "Resources/Agent Memory",
@@ -1651,7 +1651,7 @@
         "bobby",
         "mlops"
       ],
-      "degree": 19
+      "degree": 18
     },
     {
       "id": "Resources/Astronomy & Space/Black Holes — Formation, Types, Hawking Radiation",
@@ -2155,7 +2155,7 @@
         "resource",
         "bobby"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Bobby/Bobby's Phone App Guide (React PWA)",
@@ -5417,7 +5417,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/Economics & Finance/Globalization — Benefits and Costs",
@@ -6534,7 +6534,7 @@
         "resource",
         "hardware-computing"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Hardware & Computing/Microcontrollers vs Microprocessors — Where Each Belongs",
@@ -7409,7 +7409,7 @@
         "philosophy",
         "engineering"
       ],
-      "degree": 12
+      "degree": 11
     },
     {
       "id": "Resources/LLM System Design",
@@ -7425,7 +7425,7 @@
         "bobby",
         "ai"
       ],
-      "degree": 23
+      "degree": 21
     },
     {
       "id": "Resources/Language & Linguistics/Effective Vocabulary Building",
@@ -8078,7 +8078,7 @@
         "system-design",
         "bobby"
       ],
-      "degree": 20
+      "degree": 19
     },
     {
       "id": "Resources/Mathematics/Bayes' Theorem",
@@ -9222,7 +9222,7 @@
         "study",
         "ai"
       ],
-      "degree": 4
+      "degree": 3
     },
     {
       "id": "Resources/Multi-Agent Systems",
@@ -11162,7 +11162,7 @@
         "philosophy",
         "ai"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Philosophy/Absurdism (Camus)",
@@ -11751,7 +11751,7 @@
         "study",
         "ai"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Product Engineering",
@@ -12415,7 +12415,7 @@
         "study",
         "ai"
       ],
-      "degree": 15
+      "degree": 11
     },
     {
       "id": "Resources/Rate Limiting",
@@ -15956,15 +15956,15 @@
     },
     {
       "source": "Resources/AI & Machine Learning/AI Alignment Overview",
+      "target": "Resources/AI & Machine Learning/Hallucination — Causes and Mitigations"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Alignment Overview",
       "target": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)"
     },
     {
       "source": "Resources/AI & Machine Learning/AI Alignment Overview",
-      "target": "Resources/Agent Security"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/AI Alignment Overview",
-      "target": "Resources/RLHF and Alignment"
+      "target": "Resources/Philosophy/AI Ethics — Bias, Fairness, and Accountability"
     },
     {
       "source": "Resources/AI & Machine Learning/AI Memory Architectures",
@@ -16072,10 +16072,6 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Benchmarks — MMLU, HumanEval, GSM8K, GPQA",
-      "target": "Resources/AI & Machine Learning/AI Alignment Overview"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Benchmarks — MMLU, HumanEval, GSM8K, GPQA",
       "target": "Resources/AI & Machine Learning/Chain-of-Thought Prompting"
     },
     {
@@ -16084,11 +16080,7 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Benchmarks — MMLU, HumanEval, GSM8K, GPQA",
-      "target": "Resources/Agent Evaluation"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Benchmarks — MMLU, HumanEval, GSM8K, GPQA",
-      "target": "Resources/LLM System Design"
+      "target": "Resources/AI & Machine Learning/Pre-training vs Fine-tuning"
     },
     {
       "source": "Resources/AI & Machine Learning/Chain-of-Thought Prompting",
@@ -16152,15 +16144,11 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Constitutional AI",
+      "target": "Resources/AI & Machine Learning/Hallucination — Causes and Mitigations"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Constitutional AI",
       "target": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Constitutional AI",
-      "target": "Resources/Bobby/Bobby's Personality and Tone Guide"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Constitutional AI",
-      "target": "Resources/LLM Capabilities and AI Ethics"
     },
     {
       "source": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)",
@@ -16228,15 +16216,11 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Direct Preference Optimization (DPO)",
-      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
+      "target": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals"
     },
     {
       "source": "Resources/AI & Machine Learning/Direct Preference Optimization (DPO)",
       "target": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Direct Preference Optimization (DPO)",
-      "target": "Resources/RLHF and Alignment"
     },
     {
       "source": "Resources/AI & Machine Learning/Emergent Abilities in Large Models",
@@ -16464,15 +16448,7 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Model Evaluation Metrics",
-      "target": "Resources/Agent Evaluation"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Model Evaluation Metrics",
-      "target": "Resources/MLOps and ML Engineering"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
-      "target": "Resources/AI & Machine Learning/Knowledge Distillation"
+      "target": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)"
     },
     {
       "source": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
@@ -16480,7 +16456,7 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
-      "target": "Resources/AI & Machine Learning/OpenAI API and GPT Models"
+      "target": "Resources/AI & Machine Learning/Pre-training vs Fine-tuning"
     },
     {
       "source": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
@@ -16488,7 +16464,7 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
-      "target": "Resources/LLM System Design"
+      "target": "Resources/Hardware & Computing/Memory Technologies — LPDDR vs DDR5 vs HBM and Why It Matters for AI"
     },
     {
       "source": "Resources/AI & Machine Learning/Multi-Head Attention",
@@ -16700,23 +16676,19 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals",
+      "target": "Resources/AI & Machine Learning/AI Alignment Overview"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals",
       "target": "Resources/AI & Machine Learning/Direct Preference Optimization (DPO)"
     },
     {
       "source": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals",
+      "target": "Resources/AI & Machine Learning/Loss Functions"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals",
       "target": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals",
-      "target": "Resources/Economics & Finance/Game Theory Fundamentals"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals",
-      "target": "Resources/Multi-Agent RL"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals",
-      "target": "Resources/RLHF and Alignment"
     },
     {
       "source": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)",
@@ -16732,11 +16704,7 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)",
-      "target": "Resources/Process Reward Models"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Reinforcement Learning from Human Feedback (RLHF)",
-      "target": "Resources/RLHF and Alignment"
+      "target": "Resources/AI & Machine Learning/Reinforcement Learning Fundamentals"
     },
     {
       "source": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)",
@@ -32791,5 +32759,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-29T19:58:54Z"
+  "generated_at": "2026-05-29T20:19:14Z"
 }
