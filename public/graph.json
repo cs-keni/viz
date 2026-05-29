@@ -9334,7 +9334,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/Networking & Protocols/BGP Deep Dive — How the Internet Routes Between Autonomous Systems",
@@ -9346,7 +9346,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Networking & Protocols/BGP — Internet Routing",
@@ -9395,7 +9395,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Networking & Protocols/DOCSIS — How Cable Internet Delivers Bandwidth Over Coax",
@@ -9469,7 +9469,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 4
     },
     {
       "id": "Resources/Networking & Protocols/How Ethernet Frames Work (MAC Addresses, Frame Structure, CSMA-CD, Full Duplex)",
@@ -9493,7 +9493,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Networking & Protocols/How a Network Switch Learns and Forwards (MAC Table, ARP, Flooding, Aging)",
@@ -9529,14 +9529,14 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Networking & Protocols/IPv6 Transition Strategies (Dual Stack, NAT64, 6to4, Tunneling)",
       "label": "IPv6 Transition Strategies (Dual Stack, NAT64, 6to4, Tunneling)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "IPv6 Transition Strategies covers how real networks move, segment, diagnose, and recover traffic. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "IPv6 transition strategies let networks adopt IPv6 while still reaching IPv4-only systems, commonly through dual stack, NAT64/DNS64, tunnels, or older mechanisms such as 6to4. The operational challenge is keeping DNS, routing, firewall policy, observability, and application behavior correct across two protocol families.",
       "tags": [
         "resource",
         "networking-protocols"
@@ -9572,12 +9572,12 @@
       "label": "Multicast Networking — IGMP, PIM, and How IPTV Works",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Multicast Networking covers how real networks move, segment, diagnose, and recover traffic, with emphasis on igmp, pim, and how iptv works. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "Multicast sends one stream to many receivers without duplicating traffic for every client, using IGMP on local networks and PIM across routed networks. It is useful for IPTV, market data, conferencing, and discovery, but it requires explicit control-plane support so unwanted streams do not flood the LAN.",
       "tags": [
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 4
     },
     {
       "id": "Resources/Networking & Protocols/NAT and Port Forwarding",
@@ -9601,7 +9601,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Networking & Protocols/Network Engineer's Toolkit — ping, traceroute, mtr, nslookup, dig, netstat, ss",
@@ -9620,12 +9620,12 @@
       "label": "Network Monitoring — SNMP, NetFlow, sFlow, and Prometheus Exporters",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Network Monitoring covers how real networks move, segment, diagnose, and recover traffic, with emphasis on snmp, netflow, sflow, and prometheus exporters. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "Network monitoring combines device health, interface counters, flow records, logs, synthetic checks, and alerts to show what the network is doing before users complain. SNMP, NetFlow, sFlow, and Prometheus exporters answer different questions, so good monitoring uses them together rather than treating one metric as the whole truth.",
       "tags": [
         "resource",
         "networking-protocols"
       ],
-      "degree": 9
+      "degree": 13
     },
     {
       "id": "Resources/Networking & Protocols/Network Segmentation and DMZ Architecture",
@@ -9637,7 +9637,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples",
@@ -9649,7 +9649,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 10
+      "degree": 5
     },
     {
       "id": "Resources/Networking & Protocols/OSPF — How Routers Discover and Share Route Information (Link-State)",
@@ -9673,7 +9673,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/Networking & Protocols/Real Scenario - DHCP Failure — Why IPs Stop Being Assigned and How to Fix It",
@@ -9709,7 +9709,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Networking & Protocols/Real Scenario - Setting Up a Small Business Network (Router, Switch, AP, VLAN Plan)",
@@ -9721,7 +9721,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/Networking & Protocols/Real Scenario - You Have Power but No Internet — Full Diagnostic Walkthrough",
@@ -9757,19 +9757,19 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Networking & Protocols/Software-Defined Networking (SDN) — Separating Control Plane from Data Plane",
       "label": "Software-Defined Networking (SDN) — Separating Control Plane from Data Plane",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Software-Defined Networking— Separating Control Plane from Data Plane covers how real networks move, segment, diagnose, and recover traffic. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "Software-defined networking separates network control decisions from packet forwarding so policy, topology, and automation can be managed centrally while devices handle the data plane. SDN shows up in data centers, cloud networks, campus fabrics, SD-WAN, and network virtualization.",
       "tags": [
         "resource",
         "networking-protocols"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Networking & Protocols/Spanning Tree Protocol (STP - RSTP - MSTP) — Loop Prevention in Switched Networks",
@@ -9805,7 +9805,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 12
+      "degree": 7
     },
     {
       "id": "Resources/Networking & Protocols/TLS Handshake Step-by-Step",
@@ -9842,7 +9842,7 @@
         "resource",
         "networking-protocols"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/Networking & Protocols/VPN Protocols (WireGuard, OpenVPN, IPsec)",
@@ -9862,12 +9862,12 @@
       "label": "VXLAN — Stretching L2 Networks Over L3 (Used in Data Centers and VMware)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "VXLAN covers how real networks move, segment, diagnose, and recover traffic, with emphasis on stretching l2 networks over l3. The practical value is knowing where to look when packets fail, slow down, or take an unexpected path.",
+      "excerpt": "VXLAN is an overlay technology that encapsulates Layer 2 Ethernet frames inside UDP/IP packets so virtual networks can span a Layer 3 underlay. It is common in data centers because VNIs provide far more tenant segments than VLAN IDs and allow workloads to move across routed fabrics.",
       "tags": [
         "resource",
         "networking-protocols"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Networking & Protocols/Wi-Fi Authentication Deep Dive (WPA2-WPA3, PSK, 802.1X - EAP - RADIUS)",
@@ -14233,7 +14233,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/System Administration & IT/Server Hardening — CIS Benchmarks, Minimal Attack Surface, Fail2ban",
@@ -25623,19 +25623,19 @@
     },
     {
       "source": "Resources/Networking & Protocols/IPv6 Transition Strategies (Dual Stack, NAT64, 6to4, Tunneling)",
-      "target": "Resources/Networking & Protocols/Multicast Networking — IGMP, PIM, and How IPTV Works"
+      "target": "Resources/Networking & Protocols/DNS — How It Works (Recursive Resolution, TTL, Caching)"
     },
     {
       "source": "Resources/Networking & Protocols/IPv6 Transition Strategies (Dual Stack, NAT64, 6to4, Tunneling)",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "target": "Resources/Networking & Protocols/IPv4 vs IPv6"
     },
     {
       "source": "Resources/Networking & Protocols/IPv6 Transition Strategies (Dual Stack, NAT64, 6to4, Tunneling)",
-      "target": "Resources/Networking & Protocols/Real Scenario - Setting Up a Small Business Network (Router, Switch, AP, VLAN Plan)"
+      "target": "Resources/Networking & Protocols/Network Address Translation (NAT) — How It Actually Works, and Why It's a Hack"
     },
     {
       "source": "Resources/Networking & Protocols/IPv6 Transition Strategies (Dual Stack, NAT64, 6to4, Tunneling)",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "target": "Resources/Networking & Protocols/Network Monitoring — SNMP, NetFlow, sFlow, and Prometheus Exporters"
     },
     {
       "source": "Resources/Networking & Protocols/Internet Exchange Points (IXPs) — Where ISPs Physically Connect",
@@ -25675,11 +25675,11 @@
     },
     {
       "source": "Resources/Networking & Protocols/Multicast Networking — IGMP, PIM, and How IPTV Works",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "target": "Resources/Networking & Protocols/Network Monitoring — SNMP, NetFlow, sFlow, and Prometheus Exporters"
     },
     {
       "source": "Resources/Networking & Protocols/Multicast Networking — IGMP, PIM, and How IPTV Works",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "target": "Resources/Networking & Protocols/QoS and Traffic Shaping — How Networks Prioritize VoIP, Video, and Bulk Data"
     },
     {
       "source": "Resources/Networking & Protocols/Multicast Networking — IGMP, PIM, and How IPTV Works",
@@ -25731,19 +25731,19 @@
     },
     {
       "source": "Resources/Networking & Protocols/Network Monitoring — SNMP, NetFlow, sFlow, and Prometheus Exporters",
-      "target": "Resources/Networking & Protocols/Anycast Routing — How CDNs and Public DNS (1.1.1.1, 8.8.8.8) Scale Globally"
+      "target": "Resources/Networking & Protocols/How a Network Engineer Works with an ISP (Escalation, NOC, BGP Communities)"
     },
     {
       "source": "Resources/Networking & Protocols/Network Monitoring — SNMP, NetFlow, sFlow, and Prometheus Exporters",
-      "target": "Resources/Networking & Protocols/How 5G Networks Work (RAN, Core Network, mmWave vs Sub-6GHz, Network Slicing)"
+      "target": "Resources/Networking & Protocols/QoS and Traffic Shaping — How Networks Prioritize VoIP, Video, and Bulk Data"
     },
     {
       "source": "Resources/Networking & Protocols/Network Monitoring — SNMP, NetFlow, sFlow, and Prometheus Exporters",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "target": "Resources/Networking & Protocols/Real Scenario - Diagnosing Slow Network — Bandwidth, Latency, Jitter, Packet Loss"
     },
     {
       "source": "Resources/Networking & Protocols/Network Monitoring — SNMP, NetFlow, sFlow, and Prometheus Exporters",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "target": "Resources/System Administration & IT/SNMP Traps and Network Device Monitoring"
     },
     {
       "source": "Resources/Networking & Protocols/Network Segmentation and DMZ Architecture",
@@ -25919,7 +25919,7 @@
     },
     {
       "source": "Resources/Networking & Protocols/Software-Defined Networking (SDN) — Separating Control Plane from Data Plane",
-      "target": "Resources/Networking & Protocols/How 5G Networks Work (RAN, Core Network, mmWave vs Sub-6GHz, Network Slicing)"
+      "target": "Resources/Networking & Protocols/Network Monitoring — SNMP, NetFlow, sFlow, and Prometheus Exporters"
     },
     {
       "source": "Resources/Networking & Protocols/Software-Defined Networking (SDN) — Separating Control Plane from Data Plane",
@@ -25927,11 +25927,11 @@
     },
     {
       "source": "Resources/Networking & Protocols/Software-Defined Networking (SDN) — Separating Control Plane from Data Plane",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "target": "Resources/Networking & Protocols/SD-WAN — Software-Defined Enterprise WAN and Why It Replaced MPLS"
     },
     {
       "source": "Resources/Networking & Protocols/Software-Defined Networking (SDN) — Separating Control Plane from Data Plane",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "target": "Resources/Networking & Protocols/VXLAN — Stretching L2 Networks Over L3 (Used in Data Centers and VMware)"
     },
     {
       "source": "Resources/Networking & Protocols/Spanning Tree Protocol (STP - RSTP - MSTP) — Loop Prevention in Switched Networks",
@@ -26035,19 +26035,19 @@
     },
     {
       "source": "Resources/Networking & Protocols/VXLAN — Stretching L2 Networks Over L3 (Used in Data Centers and VMware)",
-      "target": "Resources/Networking & Protocols/Multicast Networking — IGMP, PIM, and How IPTV Works"
+      "target": "Resources/Networking & Protocols/BGP Deep Dive — How the Internet Routes Between Autonomous Systems"
     },
     {
       "source": "Resources/Networking & Protocols/VXLAN — Stretching L2 Networks Over L3 (Used in Data Centers and VMware)",
-      "target": "Resources/Networking & Protocols/Network Segmentation and DMZ Architecture"
+      "target": "Resources/Networking & Protocols/Network Monitoring — SNMP, NetFlow, sFlow, and Prometheus Exporters"
     },
     {
       "source": "Resources/Networking & Protocols/VXLAN — Stretching L2 Networks Over L3 (Used in Data Centers and VMware)",
-      "target": "Resources/Networking & Protocols/OSI Model — All 7 Layers with Examples"
+      "target": "Resources/Networking & Protocols/Software-Defined Networking (SDN) — Separating Control Plane from Data Plane"
     },
     {
       "source": "Resources/Networking & Protocols/VXLAN — Stretching L2 Networks Over L3 (Used in Data Centers and VMware)",
-      "target": "Resources/Networking & Protocols/TCP vs UDP — When to Use Each"
+      "target": "Resources/Networking & Protocols/VLANs — Why Networks Are Segmented and How Trunking Works (802.1Q)"
     },
     {
       "source": "Resources/Networking & Protocols/Wi-Fi Authentication Deep Dive (WPA2-WPA3, PSK, 802.1X - EAP - RADIUS)",
@@ -32762,5 +32762,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-28T23:28:13Z"
+  "generated_at": "2026-05-29T00:06:41Z"
 }
