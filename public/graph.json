@@ -556,6 +556,15 @@
       "degree": 1
     },
     {
+      "id": "Linux System Monitoring — top, htop, iostat, sar, /proc Filesystem",
+      "label": "proc Filesystem",
+      "folder": "Linux System Monitoring — top, htop, iostat, sar, ",
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Maps/Bobby",
       "label": "Bobby",
       "folder": "Maps",
@@ -13915,7 +13924,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 14
+      "degree": 17
     },
     {
       "id": "Resources/System Administration & IT/Capacity Planning for IT Infrastructure — How to Forecast Growth",
@@ -13927,7 +13936,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/System Administration & IT/Certificate Management — Internal CAs, Let's Encrypt, ACME Protocol",
@@ -13987,7 +13996,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/System Administration & IT/Email Server Architecture (MX Records, SMTP Relay, SPF, DKIM, DMARC)",
@@ -14006,7 +14015,7 @@
       "label": "Endpoint Management — MDM, Microsoft Intune, Jamf for macOS-iOS",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Endpoint Management is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially mdm, microsoft intune, jamf for macos/ios. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "MDM (Mobile Device Management) lets IT configure, secure, and remotely manage laptops, phones, and tablets at scale. Microsoft Intune handles Windows/macOS/iOS/Android in Microsoft 365 environments; Jamf specializes in macOS and iOS. MDM is a foundational requirement for Zero Trust device trust policies.",
       "tags": [
         "resource",
         "system-administration-it"
@@ -14030,12 +14039,12 @@
       "label": "Hardware Asset Management and IT Procurement Lifecycle",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Hardware Asset Management and IT Procurement Lifecycle is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "Hardware asset management tracks every physical IT asset through its full lifecycle — from procurement through deployment, maintenance, and secure disposal. Without it, organizations lose hardware, overpay for support on unknown inventory, and create data breach risk at end-of-life. Procurement feeds directly into refresh planning and budget cycles.",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 5
+      "degree": 3
     },
     {
       "id": "Resources/System Administration & IT/IT Help Desk Troubleshooting Methodology — The Systematic Approach",
@@ -14054,7 +14063,7 @@
       "label": "IT Security Fundamentals — Hardening, Least Privilege, Network Segmentation",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "IT Security Fundamentals is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially hardening, least privilege, network segmentation. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "IT security fundamentals are the core principles and controls that underpin all security work: defense in depth, least privilege, network segmentation, encryption, monitoring, and incident response. Understanding these as a system — not as isolated checklist items — is what separates reactive security posture from a proactive one.",
       "tags": [
         "resource",
         "system-administration-it"
@@ -14066,7 +14075,7 @@
       "label": "IT Ticketing and ITSM — ITIL Fundamentals and ServiceNow Overview",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "IT Ticketing and ITSM is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially itil fundamentals and servicenow overview. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "ITSM (IT Service Management) is the practice of delivering IT as a structured service aligned to business needs. ITIL 4 is the dominant framework — it defines processes for incident management, problem management, change control, and more. ServiceNow is the leading enterprise platform that implements these processes in software.",
       "tags": [
         "resource",
         "system-administration-it"
@@ -14083,7 +14092,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/System Administration & IT/LDAP and Directory Services — Protocol and Schema",
@@ -14102,12 +14111,12 @@
       "label": "Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Linux System Monitoring is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially top, htop, iostat, sar, /proc filesystem. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "Linux system monitoring uses a toolkit of CLI tools — top/htop for live process and resource views, iostat for disk I/O, sar for historical metrics, and the /proc filesystem for raw kernel state. Understanding what each metric means and when it indicates a problem is essential for diagnosing performance issues on Linux servers.",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 17
+      "degree": 6
     },
     {
       "id": "Resources/System Administration & IT/Linux User, Group, and Permission Management (useradd, chmod, chown, ACLs)",
@@ -14131,19 +14140,19 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Resources/System Administration & IT/Monitoring Windows Servers — Event Viewer, Performance Monitor, WMI",
       "label": "Monitoring Windows Servers — Event Viewer, Performance Monitor, WMI",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Monitoring Windows Servers is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially event viewer, performance monitor, wmi. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "Windows Server monitoring uses Event Viewer for log-based diagnostics, Performance Monitor for real-time and historical resource metrics, and WMI/PowerShell for programmatic queries. Together they cover the two fundamental questions: what happened (event logs) and what's the system doing right now (performance counters).",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/System Administration & IT/NFS and SMB — Network File Sharing Protocols Compared",
@@ -14179,7 +14188,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/System Administration & IT/PAM — Pluggable Authentication Modules and How Login Actually Works",
@@ -14203,31 +14212,31 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/System Administration & IT/RAID Levels Explained — What They Actually Protect Against (and Don't)",
       "label": "RAID Levels Explained — What They Actually Protect Against (and Don't)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "RAID Levels Explained is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially what they actually protect against. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "RAID (Redundant Array of Independent Disks) protects against physical disk failure by distributing data and/or parity across multiple drives. It does not protect against accidental deletion, ransomware, logical corruption, or controller failure — those require backups. Choosing the right RAID level is a tradeoff between capacity, performance, and fault tolerance.",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/System Administration & IT/Real Scenario - Onboarding a New Employee — Accounts, Access, Equipment Checklist",
       "label": "Real Scenario - Onboarding a New Employee — Accounts, Access, Equipment Checklist",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Real Scenario: Onboarding a New Employee is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially accounts, access, equipment checklist. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "Employee onboarding is the IT process that provisions accounts, access, and equipment for a new hire — and offboarding is its mirror, which revokes all of that immediately on departure. Both are cross-functional workflows touching HR, IT, security, and the hiring manager. Failure on onboarding means the employee can't work on day 1; failure on offboarding is a security incident.",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/System Administration & IT/Remote Desktop and Remote Management (RDP, SSH Bastions, Jump Hosts)",
@@ -14239,7 +14248,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/System Administration & IT/SNMP Traps and Network Device Monitoring",
@@ -14270,12 +14279,12 @@
       "label": "Storage Area Networks (SAN) vs NAS vs DAS — When to Use Each",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Storage Area Networksvs NAS vs DAS is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially when to use each. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "DAS, NAS, and SAN are the three storage architectures in enterprise IT. The key distinction: DAS is local to one server, NAS provides shared file access over the network, and SAN provides shared block access over a dedicated storage network — each optimized for different performance and sharing requirements.",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/System Administration & IT/Sudoers File and Privilege Escalation (sudoers, polkit)",
@@ -14299,14 +14308,14 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/System Administration & IT/Virtualization for IT — VMware vSphere, Proxmox, Hyper-V Compared",
       "label": "Virtualization for IT — VMware vSphere, Proxmox, Hyper-V Compared",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Virtualization for IT is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially vmware vsphere, proxmox, hyper-v compared. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "Virtualization lets multiple VMs share one physical host by abstracting hardware through a hypervisor. VMware vSphere is the enterprise standard with advanced cluster features; Hyper-V is the Windows-native option; Proxmox is a capable open-source alternative. Understanding the differences — and VM lifecycle, storage, and networking concepts — is core IT infrastructure knowledge.",
       "tags": [
         "resource",
         "system-administration-it"
@@ -14323,14 +14332,14 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/System Administration & IT/iDRAC, iLO, IPMI — Out-of-Band Server Management",
       "label": "iDRAC, iLO, IPMI — Out-of-Band Server Management",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "iDRAC, iLO, IPMI is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially out-of-band server management. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "iDRAC (Dell), iLO (HPE), and IPMI are out-of-band server management interfaces — a dedicated subsystem that lets you power cycle, view the console, and monitor hardware health even when the server's OS is down or the server is completely powered off. Critical for remote data center management and after-hours incident response.",
       "tags": [
         "resource",
         "system-administration-it"
@@ -14342,7 +14351,7 @@
       "label": "iSCSI and Fibre Channel — How SAN Storage Is Accessed",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "iSCSI and Fibre Channel is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially how san storage is accessed. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "iSCSI and Fibre Channel are the two protocols that connect servers to SAN storage arrays at the block level. iSCSI runs SCSI commands over standard TCP/IP Ethernet — cheaper and more flexible. Fibre Channel uses a dedicated high-speed storage fabric — lower latency, higher throughput, higher cost. NVMe-oF is the emerging successor to both.",
       "tags": [
         "resource",
         "system-administration-it"
@@ -15415,7 +15424,7 @@
         "windows-wsl2",
         "security"
       ],
-      "degree": 18
+      "degree": 6
     },
     {
       "id": "Resources/Windows & WSL2/Windows Registry — How It Works",
@@ -30887,19 +30896,15 @@
     },
     {
       "source": "Resources/System Administration & IT/Endpoint Management — MDM, Microsoft Intune, Jamf for macOS-iOS",
-      "target": "Resources/System Administration & IT/IT Ticketing and ITSM — ITIL Fundamentals and ServiceNow Overview"
+      "target": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)"
     },
     {
       "source": "Resources/System Administration & IT/Endpoint Management — MDM, Microsoft Intune, Jamf for macOS-iOS",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+      "target": "Resources/System Administration & IT/Real Scenario - Onboarding a New Employee — Accounts, Access, Equipment Checklist"
     },
     {
       "source": "Resources/System Administration & IT/Endpoint Management — MDM, Microsoft Intune, Jamf for macOS-iOS",
-      "target": "Resources/System Administration & IT/Remote Desktop and Remote Management (RDP, SSH Bastions, Jump Hosts)"
-    },
-    {
-      "source": "Resources/System Administration & IT/Endpoint Management — MDM, Microsoft Intune, Jamf for macOS-iOS",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "target": "Resources/System Administration & IT/Zero Trust for IT — Why VPNs Aren't Enough and What Replaces Them"
     },
     {
       "source": "Resources/System Administration & IT/Group Policy Objects (GPOs) — How Windows Domain Policy Is Enforced",
@@ -30915,19 +30920,15 @@
     },
     {
       "source": "Resources/System Administration & IT/Hardware Asset Management and IT Procurement Lifecycle",
-      "target": "Resources/System Administration & IT/IT Help Desk Troubleshooting Methodology — The Systematic Approach"
+      "target": "Resources/System Administration & IT/Capacity Planning for IT Infrastructure — How to Forecast Growth"
     },
     {
       "source": "Resources/System Administration & IT/Hardware Asset Management and IT Procurement Lifecycle",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+      "target": "Resources/System Administration & IT/Endpoint Management — MDM, Microsoft Intune, Jamf for macOS-iOS"
     },
     {
       "source": "Resources/System Administration & IT/Hardware Asset Management and IT Procurement Lifecycle",
-      "target": "Resources/System Administration & IT/Monitoring Windows Servers — Event Viewer, Performance Monitor, WMI"
-    },
-    {
-      "source": "Resources/System Administration & IT/Hardware Asset Management and IT Procurement Lifecycle",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "target": "Resources/System Administration & IT/IT Ticketing and ITSM — ITIL Fundamentals and ServiceNow Overview"
     },
     {
       "source": "Resources/System Administration & IT/IT Help Desk Troubleshooting Methodology — The Systematic Approach",
@@ -30943,35 +30944,31 @@
     },
     {
       "source": "Resources/System Administration & IT/IT Security Fundamentals — Hardening, Least Privilege, Network Segmentation",
-      "target": "Resources/System Administration & IT/Kerberos Authentication — How Tickets Work in Windows Environments"
+      "target": "Resources/System Administration & IT/Log Management and SIEM — Syslog, Splunk, Elastic Stack (ELK)"
     },
     {
       "source": "Resources/System Administration & IT/IT Security Fundamentals — Hardening, Least Privilege, Network Segmentation",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+      "target": "Resources/System Administration & IT/Patch Management Strategies (WSUS, Ansible, Unattended Upgrades)"
+    },
+    {
+      "source": "Resources/System Administration & IT/IT Security Fundamentals — Hardening, Least Privilege, Network Segmentation",
+      "target": "Resources/System Administration & IT/Server Hardening — CIS Benchmarks, Minimal Attack Surface, Fail2ban"
     },
     {
       "source": "Resources/System Administration & IT/IT Security Fundamentals — Hardening, Least Privilege, Network Segmentation",
       "target": "Resources/System Administration & IT/Zero Trust for IT — Why VPNs Aren't Enough and What Replaces Them"
     },
     {
-      "source": "Resources/System Administration & IT/IT Security Fundamentals — Hardening, Least Privilege, Network Segmentation",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "source": "Resources/System Administration & IT/IT Ticketing and ITSM — ITIL Fundamentals and ServiceNow Overview",
+      "target": "Resources/System Administration & IT/Disaster Recovery and Business Continuity Planning (RPO, RTO)"
     },
     {
       "source": "Resources/System Administration & IT/IT Ticketing and ITSM — ITIL Fundamentals and ServiceNow Overview",
-      "target": "Resources/System Administration & IT/Endpoint Management — MDM, Microsoft Intune, Jamf for macOS-iOS"
+      "target": "Resources/System Administration & IT/IT Help Desk Troubleshooting Methodology — The Systematic Approach"
     },
     {
       "source": "Resources/System Administration & IT/IT Ticketing and ITSM — ITIL Fundamentals and ServiceNow Overview",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
-    },
-    {
-      "source": "Resources/System Administration & IT/IT Ticketing and ITSM — ITIL Fundamentals and ServiceNow Overview",
-      "target": "Resources/System Administration & IT/Server Hardening — CIS Benchmarks, Minimal Attack Surface, Fail2ban"
-    },
-    {
-      "source": "Resources/System Administration & IT/IT Ticketing and ITSM — ITIL Fundamentals and ServiceNow Overview",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "target": "Resources/System Administration & IT/Network Documentation — IP Schema, Rack Diagrams, Network Topology Maps"
     },
     {
       "source": "Resources/System Administration & IT/Kerberos Authentication — How Tickets Work in Windows Environments",
@@ -31003,11 +31000,11 @@
     },
     {
       "source": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem",
-      "target": "Resources/System Administration & IT/Monitoring Windows Servers — Event Viewer, Performance Monitor, WMI"
+      "target": "Resources/System Administration & IT/Log Management and SIEM — Syslog, Splunk, Elastic Stack (ELK)"
     },
     {
       "source": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "target": "Resources/System Administration & IT/Monitoring Windows Servers — Event Viewer, Performance Monitor, WMI"
     },
     {
       "source": "Resources/System Administration & IT/Linux User, Group, and Permission Management (useradd, chmod, chown, ACLs)",
@@ -31035,15 +31032,15 @@
     },
     {
       "source": "Resources/System Administration & IT/Monitoring Windows Servers — Event Viewer, Performance Monitor, WMI",
-      "target": "Resources/System Administration & IT/Hardware Asset Management and IT Procurement Lifecycle"
+      "target": "Linux System Monitoring — top, htop, iostat, sar, /proc Filesystem"
     },
     {
       "source": "Resources/System Administration & IT/Monitoring Windows Servers — Event Viewer, Performance Monitor, WMI",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+      "target": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)"
     },
     {
       "source": "Resources/System Administration & IT/Monitoring Windows Servers — Event Viewer, Performance Monitor, WMI",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "target": "Resources/System Administration & IT/Log Management and SIEM — Syslog, Splunk, Elastic Stack (ELK)"
     },
     {
       "source": "Resources/System Administration & IT/NFS and SMB — Network File Sharing Protocols Compared",
@@ -31111,31 +31108,31 @@
     },
     {
       "source": "Resources/System Administration & IT/RAID Levels Explained — What They Actually Protect Against (and Don't)",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+      "target": "Resources/System Administration & IT/Storage Area Networks (SAN) vs NAS vs DAS — When to Use Each"
     },
     {
       "source": "Resources/System Administration & IT/RAID Levels Explained — What They Actually Protect Against (and Don't)",
-      "target": "Resources/System Administration & IT/Storage Area Networks (SAN) vs NAS vs DAS — When to Use Each"
+      "target": "Resources/System Administration & IT/The 3-2-1 Backup Rule — How to Implement Reliable Backups"
     },
     {
       "source": "Resources/System Administration & IT/RAID Levels Explained — What They Actually Protect Against (and Don't)",
       "target": "Resources/System Administration & IT/iSCSI and Fibre Channel — How SAN Storage Is Accessed"
     },
     {
-      "source": "Resources/System Administration & IT/RAID Levels Explained — What They Actually Protect Against (and Don't)",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "source": "Resources/System Administration & IT/Real Scenario - Onboarding a New Employee — Accounts, Access, Equipment Checklist",
+      "target": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)"
     },
     {
       "source": "Resources/System Administration & IT/Real Scenario - Onboarding a New Employee — Accounts, Access, Equipment Checklist",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+      "target": "Resources/System Administration & IT/Endpoint Management — MDM, Microsoft Intune, Jamf for macOS-iOS"
+    },
+    {
+      "source": "Resources/System Administration & IT/Real Scenario - Onboarding a New Employee — Accounts, Access, Equipment Checklist",
+      "target": "Resources/System Administration & IT/IT Ticketing and ITSM — ITIL Fundamentals and ServiceNow Overview"
     },
     {
       "source": "Resources/System Administration & IT/Real Scenario - Onboarding a New Employee — Accounts, Access, Equipment Checklist",
       "target": "Resources/System Administration & IT/Zero Trust for IT — Why VPNs Aren't Enough and What Replaces Them"
-    },
-    {
-      "source": "Resources/System Administration & IT/Real Scenario - Onboarding a New Employee — Accounts, Access, Equipment Checklist",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
     },
     {
       "source": "Resources/System Administration & IT/Remote Desktop and Remote Management (RDP, SSH Bastions, Jump Hosts)",
@@ -31179,7 +31176,7 @@
     },
     {
       "source": "Resources/System Administration & IT/Storage Area Networks (SAN) vs NAS vs DAS — When to Use Each",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+      "target": "Resources/System Administration & IT/NFS and SMB — Network File Sharing Protocols Compared"
     },
     {
       "source": "Resources/System Administration & IT/Storage Area Networks (SAN) vs NAS vs DAS — When to Use Each",
@@ -31191,7 +31188,7 @@
     },
     {
       "source": "Resources/System Administration & IT/Storage Area Networks (SAN) vs NAS vs DAS — When to Use Each",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "target": "Resources/System Administration & IT/iSCSI and Fibre Channel — How SAN Storage Is Accessed"
     },
     {
       "source": "Resources/System Administration & IT/Sudoers File and Privilege Escalation (sudoers, polkit)",
@@ -31223,15 +31220,11 @@
     },
     {
       "source": "Resources/System Administration & IT/Virtualization for IT — VMware vSphere, Proxmox, Hyper-V Compared",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
-    },
-    {
-      "source": "Resources/System Administration & IT/Virtualization for IT — VMware vSphere, Proxmox, Hyper-V Compared",
       "target": "Resources/System Administration & IT/Storage Area Networks (SAN) vs NAS vs DAS — When to Use Each"
     },
     {
       "source": "Resources/System Administration & IT/Virtualization for IT — VMware vSphere, Proxmox, Hyper-V Compared",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "target": "Resources/System Administration & IT/iDRAC, iLO, IPMI — Out-of-Band Server Management"
     },
     {
       "source": "Resources/System Administration & IT/Zero Trust for IT — Why VPNs Aren't Enough and What Replaces Them",
@@ -31251,23 +31244,15 @@
     },
     {
       "source": "Resources/System Administration & IT/iDRAC, iLO, IPMI — Out-of-Band Server Management",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+      "target": "Resources/System Administration & IT/Network Documentation — IP Schema, Rack Diagrams, Network Topology Maps"
     },
     {
       "source": "Resources/System Administration & IT/iDRAC, iLO, IPMI — Out-of-Band Server Management",
-      "target": "Resources/System Administration & IT/NFS and SMB — Network File Sharing Protocols Compared"
+      "target": "Resources/System Administration & IT/Remote Desktop and Remote Management (RDP, SSH Bastions, Jump Hosts)"
     },
     {
       "source": "Resources/System Administration & IT/iDRAC, iLO, IPMI — Out-of-Band Server Management",
       "target": "Resources/System Administration & IT/SNMP Traps and Network Device Monitoring"
-    },
-    {
-      "source": "Resources/System Administration & IT/iDRAC, iLO, IPMI — Out-of-Band Server Management",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
-    },
-    {
-      "source": "Resources/System Administration & IT/iSCSI and Fibre Channel — How SAN Storage Is Accessed",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
     },
     {
       "source": "Resources/System Administration & IT/iSCSI and Fibre Channel — How SAN Storage Is Accessed",
@@ -31275,11 +31260,11 @@
     },
     {
       "source": "Resources/System Administration & IT/iSCSI and Fibre Channel — How SAN Storage Is Accessed",
-      "target": "Resources/System Administration & IT/Remote Desktop and Remote Management (RDP, SSH Bastions, Jump Hosts)"
+      "target": "Resources/System Administration & IT/Storage Area Networks (SAN) vs NAS vs DAS — When to Use Each"
     },
     {
       "source": "Resources/System Administration & IT/iSCSI and Fibre Channel — How SAN Storage Is Accessed",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "target": "Resources/System Administration & IT/Virtualization for IT — VMware vSphere, Proxmox, Hyper-V Compared"
     },
     {
       "source": "Resources/System Design Case Studies",
@@ -32722,5 +32707,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-29T05:48:19Z"
+  "generated_at": "2026-05-29T06:25:36Z"
 }
