@@ -654,6 +654,15 @@
       "degree": 1
     },
     {
+      "id": "Network Monitoring — SNMP, NetFlow, Synthetic Checks, Observability Stack",
+      "label": "Network Monitoring — SNMP, NetFlow, Synthetic Checks, Observability Stack",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
+    },
+    {
       "id": "Note Title",
       "label": "Note Title",
       "folder": null,
@@ -13906,19 +13915,19 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Resources/System Administration & IT/Capacity Planning for IT Infrastructure — How to Forecast Growth",
       "label": "Capacity Planning for IT Infrastructure — How to Forecast Growth",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Capacity Planning for IT Infrastructure is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially how to forecast growth. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "Capacity planning ensures that infrastructure resources — CPU, memory, storage, network bandwidth, power — don't run out before the business can respond. It requires tracking current utilization trends, understanding procurement lead times, and translating business growth plans into infrastructure requirements.",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 4
     },
     {
       "id": "Resources/System Administration & IT/Certificate Management — Internal CAs, Let's Encrypt, ACME Protocol",
@@ -13930,7 +13939,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 4
     },
     {
       "id": "Resources/System Administration & IT/Cron, systemd Timers, and Task Scheduling in Linux",
@@ -13942,7 +13951,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/System Administration & IT/DHCP Server Setup and IP Address Management (IPAM)",
@@ -13954,7 +13963,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/System Administration & IT/DNS Server Configuration (Bind9, Windows DNS, CoreDNS, Split-Horizon)",
@@ -13973,12 +13982,12 @@
       "label": "Disaster Recovery and Business Continuity Planning (RPO, RTO)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Disaster Recovery and Business Continuity Planning is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "Disaster Recovery (DR) is the IT-specific plan for restoring systems after a catastrophic event. Business Continuity Planning (BCP) is the broader organizational plan for keeping operations running during a disruption. RPO and RTO are the two metrics that define how much data loss and how much downtime a business can accept — everything in the DR plan flows from these.",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/System Administration & IT/Email Server Architecture (MX Records, SMTP Relay, SPF, DKIM, DMARC)",
@@ -13990,7 +13999,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/System Administration & IT/Endpoint Management — MDM, Microsoft Intune, Jamf for macOS-iOS",
@@ -14026,19 +14035,19 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/System Administration & IT/IT Help Desk Troubleshooting Methodology — The Systematic Approach",
       "label": "IT Help Desk Troubleshooting Methodology — The Systematic Approach",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "IT Help Desk Troubleshooting Methodology is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially the systematic approach. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "The systematic troubleshooting approach — define the problem, hypothesize, test, implement, verify, document — prevents the common failure mode of random changes that make things worse. Combined with the OSI model for network issues and structured escalation, it's the mental framework every IT professional uses to work through unfamiliar failures.",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 4
     },
     {
       "id": "Resources/System Administration & IT/IT Security Fundamentals — Hardening, Least Privilege, Network Segmentation",
@@ -14074,7 +14083,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/System Administration & IT/LDAP and Directory Services — Protocol and Schema",
@@ -14098,7 +14107,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 25
+      "degree": 17
     },
     {
       "id": "Resources/System Administration & IT/Linux User, Group, and Permission Management (useradd, chmod, chown, ACLs)",
@@ -14117,12 +14126,12 @@
       "label": "Log Management and SIEM — Syslog, Splunk, Elastic Stack (ELK)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Log Management and SIEM is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially syslog, splunk, elastic stack. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "Log management collects, stores, and searches logs from all infrastructure sources. A SIEM (Security Information and Event Management) adds correlation rules, alerting, and incident workflow on top. Together they provide the visibility needed to detect breaches, investigate incidents, and satisfy compliance audits.",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/System Administration & IT/Monitoring Windows Servers — Event Viewer, Performance Monitor, WMI",
@@ -14165,12 +14174,12 @@
       "label": "Network Documentation — IP Schema, Rack Diagrams, Network Topology Maps",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Network Documentation is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially ip schema, rack diagrams, network topology maps. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "Network documentation — IP schemas, topology diagrams, rack diagrams, and configuration backups — is what separates a managed network from a mystery. Accurate documentation is the foundation for change management, incident response, and onboarding, and it degrades rapidly without a process to keep it current.",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/System Administration & IT/PAM — Pluggable Authentication Modules and How Login Actually Works",
@@ -14189,7 +14198,7 @@
       "label": "Patch Management Strategies (WSUS, Ansible, Unattended Upgrades)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Patch Management Strategies is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "Patch management is the process of keeping systems current with security fixes and bug patches in a controlled, auditable way. It balances speed (patch critical vulns fast) against stability (don't break production). The tooling differs by OS — WSUS for Windows, unattended-upgrades for Debian/Ubuntu, Ansible for fleet-wide orchestration.",
       "tags": [
         "resource",
         "system-administration-it"
@@ -14237,24 +14246,24 @@
       "label": "SNMP Traps and Network Device Monitoring",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "SNMP Traps and Network Device Monitoring is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "SNMP (Simple Network Management Protocol) is how network devices — switches, routers, UPS units, printers — expose their health metrics and send event notifications. Understanding polling vs traps, OIDs/MIBs, and SNMPv3 security is essential for building a network monitoring stack that actually alerts on problems.",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/System Administration & IT/Server Hardening — CIS Benchmarks, Minimal Attack Surface, Fail2ban",
       "label": "Server Hardening — CIS Benchmarks, Minimal Attack Surface, Fail2ban",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Server Hardening is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially cis benchmarks, minimal attack surface, fail2ban. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "Server hardening reduces the attack surface of a system by removing unnecessary software, disabling unused services, enforcing strict access controls, and configuring security tools like Fail2ban and firewalls. CIS Benchmarks provide the authoritative, OS-specific hardening checklists used across the industry.",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/System Administration & IT/Storage Area Networks (SAN) vs NAS vs DAS — When to Use Each",
@@ -14278,19 +14287,19 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/System Administration & IT/The 3-2-1 Backup Rule — How to Implement Reliable Backups",
       "label": "The 3-2-1 Backup Rule — How to Implement Reliable Backups",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "The 3-2-1 Backup Rule is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially how to implement reliable backups. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "The 3-2-1 rule is the foundational backup strategy: 3 copies of data, on 2 different media types, with 1 copy offsite. In the ransomware era, this is often extended to 3-2-1-1-0: add an immutable or air-gapped copy, and verify zero restore errors. An untested backup is not a backup.",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/System Administration & IT/Virtualization for IT — VMware vSphere, Proxmox, Hyper-V Compared",
@@ -14302,7 +14311,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/System Administration & IT/Zero Trust for IT — Why VPNs Aren't Enough and What Replaces Them",
@@ -14326,7 +14335,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/System Administration & IT/iSCSI and Fibre Channel — How SAN Storage Is Accessed",
@@ -15406,7 +15415,7 @@
         "windows-wsl2",
         "security"
       ],
-      "degree": 27
+      "degree": 18
     },
     {
       "id": "Resources/Windows & WSL2/Windows Registry — How It Works",
@@ -30794,7 +30803,7 @@
     },
     {
       "source": "Resources/System Administration & IT/Capacity Planning for IT Infrastructure — How to Forecast Growth",
-      "target": "Resources/System Administration & IT/IT Help Desk Troubleshooting Methodology — The Systematic Approach"
+      "target": "Resources/System Administration & IT/Disaster Recovery and Business Continuity Planning (RPO, RTO)"
     },
     {
       "source": "Resources/System Administration & IT/Capacity Planning for IT Infrastructure — How to Forecast Growth",
@@ -30803,10 +30812,6 @@
     {
       "source": "Resources/System Administration & IT/Capacity Planning for IT Infrastructure — How to Forecast Growth",
       "target": "Resources/System Administration & IT/Network Documentation — IP Schema, Rack Diagrams, Network Topology Maps"
-    },
-    {
-      "source": "Resources/System Administration & IT/Capacity Planning for IT Infrastructure — How to Forecast Growth",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
     },
     {
       "source": "Resources/System Administration & IT/Certificate Management — Internal CAs, Let's Encrypt, ACME Protocol",
@@ -30858,19 +30863,15 @@
     },
     {
       "source": "Resources/System Administration & IT/Disaster Recovery and Business Continuity Planning (RPO, RTO)",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+      "target": "Resources/System Administration & IT/Network Documentation — IP Schema, Rack Diagrams, Network Topology Maps"
+    },
+    {
+      "source": "Resources/System Administration & IT/Disaster Recovery and Business Continuity Planning (RPO, RTO)",
+      "target": "Resources/System Administration & IT/Server Hardening — CIS Benchmarks, Minimal Attack Surface, Fail2ban"
     },
     {
       "source": "Resources/System Administration & IT/Disaster Recovery and Business Continuity Planning (RPO, RTO)",
       "target": "Resources/System Administration & IT/The 3-2-1 Backup Rule — How to Implement Reliable Backups"
-    },
-    {
-      "source": "Resources/System Administration & IT/Disaster Recovery and Business Continuity Planning (RPO, RTO)",
-      "target": "Resources/System Administration & IT/Virtualization for IT — VMware vSphere, Proxmox, Hyper-V Compared"
-    },
-    {
-      "source": "Resources/System Administration & IT/Disaster Recovery and Business Continuity Planning (RPO, RTO)",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
     },
     {
       "source": "Resources/System Administration & IT/Email Server Architecture (MX Records, SMTP Relay, SPF, DKIM, DMARC)",
@@ -30930,19 +30931,15 @@
     },
     {
       "source": "Resources/System Administration & IT/IT Help Desk Troubleshooting Methodology — The Systematic Approach",
-      "target": "Resources/System Administration & IT/Capacity Planning for IT Infrastructure — How to Forecast Growth"
+      "target": "Resources/System Administration & IT/IT Ticketing and ITSM — ITIL Fundamentals and ServiceNow Overview"
     },
     {
       "source": "Resources/System Administration & IT/IT Help Desk Troubleshooting Methodology — The Systematic Approach",
-      "target": "Resources/System Administration & IT/Hardware Asset Management and IT Procurement Lifecycle"
+      "target": "Resources/System Administration & IT/Log Management and SIEM — Syslog, Splunk, Elastic Stack (ELK)"
     },
     {
       "source": "Resources/System Administration & IT/IT Help Desk Troubleshooting Methodology — The Systematic Approach",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
-    },
-    {
-      "source": "Resources/System Administration & IT/IT Help Desk Troubleshooting Methodology — The Systematic Approach",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "target": "Resources/System Administration & IT/Network Documentation — IP Schema, Rack Diagrams, Network Topology Maps"
     },
     {
       "source": "Resources/System Administration & IT/IT Security Fundamentals — Hardening, Least Privilege, Network Segmentation",
@@ -31026,19 +31023,15 @@
     },
     {
       "source": "Resources/System Administration & IT/Log Management and SIEM — Syslog, Splunk, Elastic Stack (ELK)",
-      "target": "Resources/System Administration & IT/Certificate Management — Internal CAs, Let's Encrypt, ACME Protocol"
+      "target": "Network Monitoring — SNMP, NetFlow, Synthetic Checks, Observability Stack"
     },
     {
       "source": "Resources/System Administration & IT/Log Management and SIEM — Syslog, Splunk, Elastic Stack (ELK)",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+      "target": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)"
     },
     {
       "source": "Resources/System Administration & IT/Log Management and SIEM — Syslog, Splunk, Elastic Stack (ELK)",
-      "target": "Resources/System Administration & IT/Network Documentation — IP Schema, Rack Diagrams, Network Topology Maps"
-    },
-    {
-      "source": "Resources/System Administration & IT/Log Management and SIEM — Syslog, Splunk, Elastic Stack (ELK)",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "target": "Resources/System Administration & IT/Server Hardening — CIS Benchmarks, Minimal Attack Surface, Fail2ban"
     },
     {
       "source": "Resources/System Administration & IT/Monitoring Windows Servers — Event Viewer, Performance Monitor, WMI",
@@ -31086,15 +31079,11 @@
     },
     {
       "source": "Resources/System Administration & IT/Network Documentation — IP Schema, Rack Diagrams, Network Topology Maps",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+      "target": "Resources/System Administration & IT/DHCP Server Setup and IP Address Management (IPAM)"
     },
     {
       "source": "Resources/System Administration & IT/Network Documentation — IP Schema, Rack Diagrams, Network Topology Maps",
-      "target": "Resources/System Administration & IT/Log Management and SIEM — Syslog, Splunk, Elastic Stack (ELK)"
-    },
-    {
-      "source": "Resources/System Administration & IT/Network Documentation — IP Schema, Rack Diagrams, Network Topology Maps",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "target": "Resources/System Administration & IT/Disaster Recovery and Business Continuity Planning (RPO, RTO)"
     },
     {
       "source": "Resources/System Administration & IT/PAM — Pluggable Authentication Modules and How Login Actually Works",
@@ -31110,19 +31099,15 @@
     },
     {
       "source": "Resources/System Administration & IT/Patch Management Strategies (WSUS, Ansible, Unattended Upgrades)",
-      "target": "Resources/System Administration & IT/Email Server Architecture (MX Records, SMTP Relay, SPF, DKIM, DMARC)"
+      "target": "Resources/System Administration & IT/Cron, systemd Timers, and Task Scheduling in Linux"
     },
     {
       "source": "Resources/System Administration & IT/Patch Management Strategies (WSUS, Ansible, Unattended Upgrades)",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+      "target": "Resources/System Administration & IT/Server Hardening — CIS Benchmarks, Minimal Attack Surface, Fail2ban"
     },
     {
       "source": "Resources/System Administration & IT/Patch Management Strategies (WSUS, Ansible, Unattended Upgrades)",
       "target": "Resources/System Administration & IT/The 3-2-1 Backup Rule — How to Implement Reliable Backups"
-    },
-    {
-      "source": "Resources/System Administration & IT/Patch Management Strategies (WSUS, Ansible, Unattended Upgrades)",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
     },
     {
       "source": "Resources/System Administration & IT/RAID Levels Explained — What They Actually Protect Against (and Don't)",
@@ -31170,35 +31155,27 @@
     },
     {
       "source": "Resources/System Administration & IT/SNMP Traps and Network Device Monitoring",
-      "target": "Resources/System Administration & IT/Kerberos Authentication — How Tickets Work in Windows Environments"
+      "target": "Network Monitoring — SNMP, NetFlow, Synthetic Checks, Observability Stack"
     },
     {
       "source": "Resources/System Administration & IT/SNMP Traps and Network Device Monitoring",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+      "target": "Resources/System Administration & IT/Log Management and SIEM — Syslog, Splunk, Elastic Stack (ELK)"
     },
     {
       "source": "Resources/System Administration & IT/SNMP Traps and Network Device Monitoring",
-      "target": "Resources/System Administration & IT/iDRAC, iLO, IPMI — Out-of-Band Server Management"
-    },
-    {
-      "source": "Resources/System Administration & IT/SNMP Traps and Network Device Monitoring",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "target": "Resources/System Administration & IT/Network Documentation — IP Schema, Rack Diagrams, Network Topology Maps"
     },
     {
       "source": "Resources/System Administration & IT/Server Hardening — CIS Benchmarks, Minimal Attack Surface, Fail2ban",
-      "target": "Resources/System Administration & IT/Certificate Management — Internal CAs, Let's Encrypt, ACME Protocol"
+      "target": "Resources/System Administration & IT/Log Management and SIEM — Syslog, Splunk, Elastic Stack (ELK)"
     },
     {
       "source": "Resources/System Administration & IT/Server Hardening — CIS Benchmarks, Minimal Attack Surface, Fail2ban",
-      "target": "Resources/System Administration & IT/IT Ticketing and ITSM — ITIL Fundamentals and ServiceNow Overview"
+      "target": "Resources/System Administration & IT/Patch Management Strategies (WSUS, Ansible, Unattended Upgrades)"
     },
     {
       "source": "Resources/System Administration & IT/Server Hardening — CIS Benchmarks, Minimal Attack Surface, Fail2ban",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
-    },
-    {
-      "source": "Resources/System Administration & IT/Server Hardening — CIS Benchmarks, Minimal Attack Surface, Fail2ban",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "target": "Resources/System Administration & IT/Sudoers File and Privilege Escalation (sudoers, polkit)"
     },
     {
       "source": "Resources/System Administration & IT/Storage Area Networks (SAN) vs NAS vs DAS — When to Use Each",
@@ -31230,19 +31207,15 @@
     },
     {
       "source": "Resources/System Administration & IT/The 3-2-1 Backup Rule — How to Implement Reliable Backups",
+      "target": "Resources/System Administration & IT/Cron, systemd Timers, and Task Scheduling in Linux"
+    },
+    {
+      "source": "Resources/System Administration & IT/The 3-2-1 Backup Rule — How to Implement Reliable Backups",
       "target": "Resources/System Administration & IT/Disaster Recovery and Business Continuity Planning (RPO, RTO)"
     },
     {
       "source": "Resources/System Administration & IT/The 3-2-1 Backup Rule — How to Implement Reliable Backups",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
-    },
-    {
-      "source": "Resources/System Administration & IT/The 3-2-1 Backup Rule — How to Implement Reliable Backups",
       "target": "Resources/System Administration & IT/Patch Management Strategies (WSUS, Ansible, Unattended Upgrades)"
-    },
-    {
-      "source": "Resources/System Administration & IT/The 3-2-1 Backup Rule — How to Implement Reliable Backups",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
     },
     {
       "source": "Resources/System Administration & IT/Virtualization for IT — VMware vSphere, Proxmox, Hyper-V Compared",
@@ -32749,5 +32722,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-29T05:20:04Z"
+  "generated_at": "2026-05-29T05:48:19Z"
 }
