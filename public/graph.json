@@ -932,7 +932,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 13
+      "degree": 12
     },
     {
       "id": "Resources/AI & Machine Learning/AI Alignment Overview",
@@ -992,7 +992,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/AI & Machine Learning/Backpropagation Explained",
@@ -1004,7 +1004,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 12
+      "degree": 14
     },
     {
       "id": "Resources/AI & Machine Learning/Batch Normalization and Layer Normalization",
@@ -1083,7 +1083,7 @@
       "label": "Convolutional Neural Networks (CNNs)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Convolutional neural networks use learned filters to detect local spatial patterns in images and grid-like data. Their inductive bias makes them efficient for vision tasks such as classification, detection, and segmentation.",
+      "excerpt": "CNNs exploit spatial structure in images through shared-weight convolutional filters that detect local patterns (edges, textures, shapes) across the image. Stacking conv layers builds hierarchical representations from pixels to objects. ResNet's skip connections solved deep network training; EfficientNet scaling optimizes across depth/width/resolution. Vision Transformers (ViT) now compete for accuracy at scale, but CNNs remain dominant in edge deployment and real-time detection.",
       "tags": [
         "resource",
         "ai-ml"
@@ -1107,12 +1107,12 @@
       "label": "Diffusion Models",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Diffusion models generate data by learning to reverse a gradual noising process. They are widely used for image, audio, and video generation because they produce high-quality samples with controllable conditioning.",
+      "excerpt": "Diffusion models generate images by learning to reverse a gradual noise-addition process. Training teaches the model to denoise at any noise level; inference starts from pure noise and iteratively denoises to a clean image. Latent Diffusion (Stable Diffusion) operates in a compressed latent space for efficiency. Classifier-free guidance (CFG) controls how strongly the output follows the text prompt.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/AI & Machine Learning/Direct Preference Optimization (DPO)",
@@ -1160,7 +1160,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)",
@@ -1215,12 +1215,12 @@
       "label": "Long Short-Term Memory (LSTM)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Long Short-Term Memory networks are recurrent models with gates that control what information is stored, forgotten, and emitted. They were a major solution to long-range dependency problems before transformers.",
+      "excerpt": "LSTMs add explicit memory management to RNNs via three gates (forget, input, output) and a separate cell state pathway. The cell state provides a gradient highway through time, enabling learning over 100+ step dependencies where plain RNNs fail. GRU is a simpler 2-gate variant that's often equally effective. Both are now largely superseded by transformers for NLP but remain relevant for time series, embedded applications, and streaming contexts.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/AI & Machine Learning/Loss Functions",
@@ -1239,12 +1239,12 @@
       "label": "Mixture of Experts (MoE)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Mixture of Experts models route each input token or example through a subset of specialized expert networks. MoE increases total model capacity while keeping per-token compute lower than a dense model of the same size.",
+      "excerpt": "MoE replaces dense FFN layers in transformers with N expert FFNs, routing each token to only k of them (typically k=1 or 2). Total parameters scale with N×expert_size, but compute per token scales with k×expert_size — you get a much larger model for similar inference cost. Mixtral 8x7B has 8 experts, activates 2 per token: 47B total params but ~13B active — quality like a 30B dense model at 13B inference cost.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/AI & Machine Learning/Model Context Protocol (MCP)",
@@ -1299,12 +1299,12 @@
       "label": "Multimodal Models",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Multimodal models process and relate more than one data type, such as text, images, audio, video, or actions. They make AI systems more useful because real-world tasks rarely arrive as text alone.",
+      "excerpt": "Multimodal models process and reason across multiple data types — text, images, audio, video. The core architecture challenge is aligning different modality representations into a shared space where a single model can reason across them. GPT-4o, Gemini 1.5 Pro, and Claude 3.5 Sonnet are the leading multimodal LLMs; Whisper handles speech; Stable Diffusion handles image generation. Real-time voice (speech-in, speech-out) is the frontier as of 2025.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 10
+      "degree": 8
     },
     {
       "id": "Resources/AI & Machine Learning/Neural Network Fundamentals",
@@ -1395,12 +1395,12 @@
       "label": "Recurrent Neural Networks (RNNs)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Recurrent neural networks process sequences by carrying hidden state from one step to the next. They were historically important for language, speech, and time series before transformers became dominant.",
+      "excerpt": "RNNs process sequences by maintaining a hidden state that's updated at each step. They were the dominant architecture for NLP and speech (2010-2017) before transformers replaced them. Vanishing gradients over long sequences are the core structural weakness — LSTMs and GRUs partially addressed it; transformers eliminated it entirely by replacing recurrence with attention.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/AI & Machine Learning/Regularization (L1, L2, Dropout, Early Stopping)",
@@ -1484,7 +1484,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 10
+      "degree": 7
     },
     {
       "id": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
@@ -1496,7 +1496,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/AI & Machine Learning/Tokenization — BPE, WordPiece, SentencePiece",
@@ -1532,7 +1532,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 22
+      "degree": 24
     },
     {
       "id": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)",
@@ -1575,12 +1575,12 @@
       "label": "Vision-Language Models",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Vision-language models connect visual inputs with language understanding and generation. They support image captioning, visual question answering, document understanding, UI analysis, and multimodal agents.",
+      "excerpt": "VLMs connect a vision encoder (ViT/CLIP/SigLIP) to a language model via a projection layer. Images become 'visual tokens' the LLM can attend to alongside text. The vision encoder was originally CLIP (contrastively trained on image-text pairs); modern VLMs use SigLIP or DINOv2. Each image consumes 256-4096 tokens depending on resolution, explaining why vision is expensive. Key failure modes: counting, spatial reasoning, fine text.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/AI Workflow",
@@ -4323,7 +4323,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 11
+      "degree": 10
     },
     {
       "id": "Resources/Data Science & Analytics/Visualization Best Practices",
@@ -6510,7 +6510,7 @@
         "resource",
         "hardware-computing"
       ],
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "Resources/Hardware & Computing/Memory Hierarchy (L1-L2-L3 Cache, RAM, Disk)",
@@ -7409,7 +7409,7 @@
         "philosophy",
         "engineering"
       ],
-      "degree": 11
+      "degree": 10
     },
     {
       "id": "Resources/LLM System Design",
@@ -7425,7 +7425,7 @@
         "bobby",
         "ai"
       ],
-      "degree": 21
+      "degree": 18
     },
     {
       "id": "Resources/Language & Linguistics/Effective Vocabulary Building",
@@ -8078,7 +8078,7 @@
         "system-design",
         "bobby"
       ],
-      "degree": 19
+      "degree": 18
     },
     {
       "id": "Resources/Mathematics/Bayes' Theorem",
@@ -14913,7 +14913,7 @@
         "study",
         "ai"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/Vault Structure",
@@ -16156,19 +16156,15 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)",
-      "target": "Resources/AI & Machine Learning/Multimodal Models"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)",
       "target": "Resources/AI & Machine Learning/Neural Network Fundamentals"
     },
     {
       "source": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)",
-      "target": "Resources/AI & Machine Learning/Vision-Language Models"
+      "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
     },
     {
       "source": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)",
-      "target": "Resources/MLOps and ML Engineering"
+      "target": "Resources/AI & Machine Learning/Vision-Language Models"
     },
     {
       "source": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics",
@@ -16188,11 +16184,11 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Diffusion Models",
-      "target": "Resources/AI & Machine Learning/Generative Adversarial Networks (GANs)"
+      "target": "Resources/AI & Machine Learning/Multimodal Models"
     },
     {
       "source": "Resources/AI & Machine Learning/Diffusion Models",
-      "target": "Resources/AI & Machine Learning/Multimodal Models"
+      "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
     },
     {
       "source": "Resources/AI & Machine Learning/Diffusion Models",
@@ -16201,10 +16197,6 @@
     {
       "source": "Resources/AI & Machine Learning/Diffusion Models",
       "target": "Resources/AI & Machine Learning/Vision-Language Models"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Diffusion Models",
-      "target": "Resources/LLM Capabilities and AI Ethics"
     },
     {
       "source": "Resources/AI & Machine Learning/Direct Preference Optimization (DPO)",
@@ -16360,15 +16352,11 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Long Short-Term Memory (LSTM)",
-      "target": "Resources/AI & Machine Learning/Attention Mechanism — Self-Attention"
+      "target": "Resources/AI & Machine Learning/Backpropagation Explained"
     },
     {
       "source": "Resources/AI & Machine Learning/Long Short-Term Memory (LSTM)",
       "target": "Resources/AI & Machine Learning/Recurrent Neural Networks (RNNs)"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Long Short-Term Memory (LSTM)",
-      "target": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)"
     },
     {
       "source": "Resources/AI & Machine Learning/Long Short-Term Memory (LSTM)",
@@ -16408,11 +16396,7 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Mixture of Experts (MoE)",
-      "target": "Resources/LLM System Design"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Mixture of Experts (MoE)",
-      "target": "Resources/Transformer Architecture"
+      "target": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)"
     },
     {
       "source": "Resources/AI & Machine Learning/Model Context Protocol (MCP)",
@@ -16488,19 +16472,15 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Multimodal Models",
-      "target": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)"
+      "target": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)"
     },
     {
       "source": "Resources/AI & Machine Learning/Multimodal Models",
-      "target": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)"
+      "target": "Resources/AI & Machine Learning/Diffusion Models"
     },
     {
       "source": "Resources/AI & Machine Learning/Multimodal Models",
       "target": "Resources/AI & Machine Learning/Vision-Language Models"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Multimodal Models",
-      "target": "Resources/LLM System Design"
     },
     {
       "source": "Resources/AI & Machine Learning/Neural Network Fundamentals",
@@ -16644,19 +16624,15 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Recurrent Neural Networks (RNNs)",
+      "target": "Resources/AI & Machine Learning/Backpropagation Explained"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Recurrent Neural Networks (RNNs)",
       "target": "Resources/AI & Machine Learning/Long Short-Term Memory (LSTM)"
     },
     {
       "source": "Resources/AI & Machine Learning/Recurrent Neural Networks (RNNs)",
-      "target": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Recurrent Neural Networks (RNNs)",
       "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Recurrent Neural Networks (RNNs)",
-      "target": "Resources/Data Science & Analytics/Time Series Analysis"
     },
     {
       "source": "Resources/AI & Machine Learning/Regularization (L1, L2, Dropout, Early Stopping)",
@@ -16912,11 +16888,11 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Vision-Language Models",
-      "target": "Resources/AI & Machine Learning/AI Agents and Tool Use"
+      "target": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)"
     },
     {
       "source": "Resources/AI & Machine Learning/Vision-Language Models",
-      "target": "Resources/AI & Machine Learning/Convolutional Neural Networks (CNNs)"
+      "target": "Resources/AI & Machine Learning/Diffusion Models"
     },
     {
       "source": "Resources/AI & Machine Learning/Vision-Language Models",
@@ -16925,10 +16901,6 @@
     {
       "source": "Resources/AI & Machine Learning/Vision-Language Models",
       "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Vision-Language Models",
-      "target": "Resources/LLM System Design"
     },
     {
       "source": "Resources/API Design",
@@ -32759,5 +32731,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-29T20:19:14Z"
+  "generated_at": "2026-05-29T21:45:40Z"
 }
