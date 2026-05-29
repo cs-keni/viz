@@ -927,12 +927,12 @@
       "label": "AI Agents and Tool Use",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "AI agents use models to choose actions, call tools, observe results, and continue toward a goal. Tool use turns an LLM from a text generator into a system that can retrieve data, execute operations, and affect external state.",
+      "excerpt": "AI agents extend LLMs from text generators to actors that can plan, call tools, observe results, and pursue goals over multiple steps. Tool use is implemented via function calling (structured JSON schema) or MCP. The agent loop is: reason → decide action → execute tool → observe result → continue. Key engineering concerns: prompt injection, tool permission scoping, parallelism, and graceful failure handling.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/AI & Machine Learning/AI Alignment Overview",
@@ -944,14 +944,14 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "Resources/AI & Machine Learning/AI Memory Architectures",
       "label": "AI Memory Architectures",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "AI memory architectures organize how agents store, retrieve, update, and use information over time. Useful memory systems combine short-term context, long-term retrieval, summaries, user preferences, and safety controls.",
+      "excerpt": "AI memory architectures define how agents store, retrieve, and use information across sessions. The core challenge is selecting the right memory at the right time — balancing in-context injection, vector retrieval, structured facts, and compression without drowning the model in noise or introducing privacy risk.",
       "tags": [
         "resource",
         "ai-ml"
@@ -1052,7 +1052,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/AI & Machine Learning/Claude API and Anthropic SDK",
@@ -1112,7 +1112,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/AI & Machine Learning/Direct Preference Optimization (DPO)",
@@ -1155,7 +1155,7 @@
       "label": "Generative Adversarial Networks (GANs)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Generative Adversarial Networks train a generator and discriminator in competition. GANs can create sharp samples but are difficult to train and have largely been displaced by diffusion models for many image-generation tasks.",
+      "excerpt": "GANs pit a generator (creates fake samples) against a discriminator (distinguishes real from fake) in a minimax game. The adversarial training produces sharp, realistic samples — but training is notoriously unstable and prone to mode collapse. Diffusion models have largely replaced GANs for image generation, but GANs remain dominant for real-time applications, super-resolution, and video synthesis where diffusion's many inference steps are too slow.",
       "tags": [
         "resource",
         "ai-ml"
@@ -1184,19 +1184,19 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 11
+      "degree": 13
     },
     {
       "id": "Resources/AI & Machine Learning/Knowledge Distillation",
       "label": "Knowledge Distillation",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Knowledge distillation trains a smaller student model to imitate a larger or stronger teacher model. It can reduce inference cost while preserving much of the teacher's behavior.",
+      "excerpt": "Knowledge distillation trains a smaller student model to match a larger teacher's outputs (soft probability distributions) rather than just hard ground-truth labels. Soft labels carry information about class similarity and uncertainty that hard labels discard. For LLMs, distillation means training a small model on teacher-generated text. DistilBERT: 40% smaller, 97% BERT performance, 60% faster. DeepSeek R1-Distill used this to transfer reasoning ability to 7B-70B models cheaply.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/AI & Machine Learning/Local LLMs (Ollama, llama.cpp, LM Studio)",
@@ -1268,7 +1268,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 17
+      "degree": 16
     },
     {
       "id": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
@@ -1328,7 +1328,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/AI & Machine Learning/Positional Encoding",
@@ -1383,12 +1383,12 @@
       "label": "ReAct Prompting Pattern",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "ReAct is a prompting pattern that interleaves reasoning and acting. It helps language-model agents decide what to do, call tools, observe results, and continue with updated context.",
+      "excerpt": "ReAct (Reasoning + Acting) interleaves explicit reasoning steps (Thought:) with tool actions (Action:) and observations (Observation:) in a loop. The original prompting pattern preceded native function calling APIs. Today it's mostly implemented under the hood by agent frameworks, but the mental model — reason about what's missing, retrieve or act, update plan — is the foundation for all agentic LLM workflows.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/AI & Machine Learning/Recurrent Neural Networks (RNNs)",
@@ -1460,7 +1460,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/AI & Machine Learning/Semantic Search vs Keyword Search",
@@ -1479,24 +1479,24 @@
       "label": "Speech Recognition (Whisper, Wav2Vec)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Speech recognition converts audio into text using acoustic modeling, sequence modeling, and language context. Whisper and Wav2Vec represent modern neural approaches that learn robust audio representations.",
+      "excerpt": "Modern ASR converts audio to text using neural sequence models. Whisper (OpenAI) is an encoder-decoder transformer trained on 680K hours with multitask objectives — robust, multilingual, free. Wav2Vec 2.0 (Meta) uses self-supervised pre-training on unlabeled audio to learn speech representations that work with few labeled examples. Word Error Rate (WER) is the standard metric; Whisper large-v3 achieves <5% WER on clean English.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
       "label": "Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Text-to-speech models convert text into natural-sounding audio. Modern TTS systems model linguistic content, speaker identity, prosody, timing, and waveform generation.",
+      "excerpt": "TTS converts text to natural-sounding speech using a pipeline of text normalization → phoneme/duration prediction → mel spectrogram generation → neural vocoder. Modern neural TTS (ElevenLabs, Kokoro, VITS) produces near-human quality with emotional expressiveness. Voice cloning requires 5-30 seconds of reference audio. Streaming latency (time-to-first-audio) is the production constraint for conversational use — target <300ms.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/AI & Machine Learning/Tokenization — BPE, WordPiece, SentencePiece",
@@ -1520,7 +1520,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive",
@@ -1539,12 +1539,12 @@
       "label": "Variational Autoencoders (VAEs)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Variational Autoencoders learn a structured latent space by encoding data into probability distributions and decoding samples back into data. They are useful for representation learning, generation, and latent compression.",
+      "excerpt": "VAEs learn a smooth, structured latent space by encoding inputs to Gaussian distributions and regularizing with KL divergence. The reparameterization trick enables gradient flow through the sampling operation. VAEs produce blurrier samples than GANs or diffusion models, but their structured latent space enables interpolation and semantic editing. The latent diffusion model (Stable Diffusion) uses a VAE to compress images 48× before applying diffusion.",
       "tags": [
         "resource",
         "ai-ml"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)",
@@ -1556,7 +1556,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/AI & Machine Learning/Vector Embeddings — How They Work",
@@ -1622,7 +1622,7 @@
         "study",
         "ai"
       ],
-      "degree": 13
+      "degree": 12
     },
     {
       "id": "Resources/Agent Memory",
@@ -1635,7 +1635,7 @@
         "study",
         "ai"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/Agent Security",
@@ -1651,7 +1651,7 @@
         "bobby",
         "mlops"
       ],
-      "degree": 18
+      "degree": 16
     },
     {
       "id": "Resources/Astronomy & Space/Black Holes — Formation, Types, Hawking Radiation",
@@ -2052,7 +2052,7 @@
         "memory",
         "chromadb"
       ],
-      "degree": 12
+      "degree": 11
     },
     {
       "id": "Resources/Bobby/Bobby's ChromaDB Upgrade Path (Vector RAG at 300+ Notes)",
@@ -2155,7 +2155,7 @@
         "resource",
         "bobby"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/Bobby/Bobby's Phone App Guide (React PWA)",
@@ -2258,7 +2258,7 @@
         "bobby",
         "voice"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/Bobby/Bobby's WSL2 Quirks and Workarounds",
@@ -2284,7 +2284,7 @@
         "bobby",
         "voice"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/Books & Ideas/Antifragile — Key Ideas (Taleb)",
@@ -7425,7 +7425,7 @@
         "bobby",
         "ai"
       ],
-      "degree": 18
+      "degree": 17
     },
     {
       "id": "Resources/Language & Linguistics/Effective Vocabulary Building",
@@ -8078,7 +8078,7 @@
         "system-design",
         "bobby"
       ],
-      "degree": 18
+      "degree": 16
     },
     {
       "id": "Resources/Mathematics/Bayes' Theorem",
@@ -8246,7 +8246,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/Mathematics/Lagrange Multipliers",
@@ -9235,7 +9235,7 @@
         "study",
         "ai"
       ],
-      "degree": 12
+      "degree": 11
     },
     {
       "id": "Resources/Music/Audio Production Workflow (DAWs, Plugins)",
@@ -12402,7 +12402,7 @@
         "resource",
         "bobby"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/RLHF and Alignment",
@@ -15928,7 +15928,15 @@
     },
     {
       "source": "Resources/AI & Machine Learning/AI Agents and Tool Use",
+      "target": "Resources/AI & Machine Learning/AI Alignment Overview"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Agents and Tool Use",
       "target": "Resources/AI & Machine Learning/AI Memory Architectures"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Agents and Tool Use",
+      "target": "Resources/AI & Machine Learning/Hallucination — Causes and Mitigations"
     },
     {
       "source": "Resources/AI & Machine Learning/AI Agents and Tool Use",
@@ -15937,14 +15945,6 @@
     {
       "source": "Resources/AI & Machine Learning/AI Agents and Tool Use",
       "target": "Resources/AI & Machine Learning/ReAct Prompting Pattern"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/AI Agents and Tool Use",
-      "target": "Resources/Agent Security"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/AI Agents and Tool Use",
-      "target": "Resources/Multi-Agent Systems"
     },
     {
       "source": "Resources/AI & Machine Learning/AI Alignment Overview",
@@ -15968,23 +15968,23 @@
     },
     {
       "source": "Resources/AI & Machine Learning/AI Memory Architectures",
+      "target": "Resources/AI & Machine Learning/AI Agents and Tool Use"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Memory Architectures",
+      "target": "Resources/AI & Machine Learning/Chunking Strategies for RAG"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Memory Architectures",
       "target": "Resources/AI & Machine Learning/Retrieval-Augmented Generation (RAG)"
     },
     {
       "source": "Resources/AI & Machine Learning/AI Memory Architectures",
+      "target": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/AI Memory Architectures",
       "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/AI Memory Architectures",
-      "target": "Resources/Agent Memory"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/AI Memory Architectures",
-      "target": "Resources/Bobby Memory Architecture"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/AI Memory Architectures",
-      "target": "Resources/RAG and Bobby Vector Search"
     },
     {
       "source": "Resources/AI & Machine Learning/AI Safety — Interpretability Research",
@@ -16267,10 +16267,6 @@
       "target": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)"
     },
     {
-      "source": "Resources/AI & Machine Learning/Generative Adversarial Networks (GANs)",
-      "target": "Resources/MLOps and ML Engineering"
-    },
-    {
       "source": "Resources/AI & Machine Learning/Gradient Descent Variants (SGD, Adam, AdaGrad)",
       "target": "Resources/AI & Machine Learning/Backpropagation Explained"
     },
@@ -16308,15 +16304,7 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Knowledge Distillation",
-      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Knowledge Distillation",
       "target": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Knowledge Distillation",
-      "target": "Resources/AI & Machine Learning/OpenAI API and GPT Models"
     },
     {
       "source": "Resources/AI & Machine Learning/Knowledge Distillation",
@@ -16324,7 +16312,11 @@
     },
     {
       "source": "Resources/AI & Machine Learning/Knowledge Distillation",
-      "target": "Resources/MLOps and ML Engineering"
+      "target": "Resources/AI & Machine Learning/Scaling Laws"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Knowledge Distillation",
+      "target": "Resources/AI & Machine Learning/Transfer Learning"
     },
     {
       "source": "Resources/AI & Machine Learning/Local LLMs (Ollama, llama.cpp, LM Studio)",
@@ -16608,15 +16600,11 @@
     },
     {
       "source": "Resources/AI & Machine Learning/ReAct Prompting Pattern",
+      "target": "Resources/AI & Machine Learning/Hallucination — Causes and Mitigations"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/ReAct Prompting Pattern",
       "target": "Resources/AI & Machine Learning/Model Context Protocol (MCP)"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/ReAct Prompting Pattern",
-      "target": "Resources/Agent Evaluation"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/ReAct Prompting Pattern",
-      "target": "Resources/Agent Security"
     },
     {
       "source": "Resources/AI & Machine Learning/Recurrent Neural Networks (RNNs)",
@@ -16755,8 +16743,12 @@
       "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
     },
     {
-      "source": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)",
-      "target": "Resources/Bobby/Bobby's Voice Pipeline Architecture"
+      "source": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
+      "target": "Resources/AI & Machine Learning/Diffusion Models"
+    },
+    {
+      "source": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
+      "target": "Resources/AI & Machine Learning/Generative Adversarial Networks (GANs)"
     },
     {
       "source": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
@@ -16765,18 +16757,6 @@
     {
       "source": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
       "target": "Resources/AI & Machine Learning/Speech Recognition (Whisper, Wav2Vec)"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
-      "target": "Resources/Bobby/Bobby's Personality and Tone Guide"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
-      "target": "Resources/Bobby/Bobby's Wake Word and Audio Pipeline"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Text-to-Speech Models (ElevenLabs, Kokoro, Tortoise)",
-      "target": "Resources/LLM System Design"
     },
     {
       "source": "Resources/AI & Machine Learning/Tokenization — BPE, WordPiece, SentencePiece",
@@ -16845,10 +16825,6 @@
     {
       "source": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)",
       "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
-    },
-    {
-      "source": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)",
-      "target": "Resources/Mathematics/Information Theory — Entropy, Cross-Entropy, KL Divergence"
     },
     {
       "source": "Resources/AI & Machine Learning/Vector Databases (Pinecone, Weaviate, ChromaDB, pgvector)",
@@ -32731,5 +32707,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-29T21:45:40Z"
+  "generated_at": "2026-05-29T22:58:21Z"
 }
