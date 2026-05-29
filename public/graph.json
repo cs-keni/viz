@@ -13906,7 +13906,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 9
+      "degree": 13
     },
     {
       "id": "Resources/System Administration & IT/Capacity Planning for IT Infrastructure — How to Forecast Growth",
@@ -13925,7 +13925,7 @@
       "label": "Certificate Management — Internal CAs, Let's Encrypt, ACME Protocol",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Certificate Management is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially internal cas, let's encrypt, acme protocol. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "Certificate management covers issuing, distributing, renewing, and revoking X.509 TLS certificates — both from public CAs like Let's Encrypt and from internal CAs for private infrastructure. Expired or misconfigured certificates are one of the most common causes of sudden outages.",
       "tags": [
         "resource",
         "system-administration-it"
@@ -13937,36 +13937,36 @@
       "label": "Cron, systemd Timers, and Task Scheduling in Linux",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Cron, systemd Timers, and Task Scheduling in Linux is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "Cron and systemd timers are the two ways to schedule recurring tasks in Linux. Cron is simpler and universal; systemd timers integrate with service management, provide better logging, and support dependency ordering. Knowing when to use each — and how to debug both — is core Linux administration.",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/System Administration & IT/DHCP Server Setup and IP Address Management (IPAM)",
       "label": "DHCP Server Setup and IP Address Management (IPAM)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "DHCP Server Setup and IP Address Management is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "DHCP automates IP address assignment across a network using a four-step lease exchange (DORA). IPAM extends this by tracking which IPs are assigned, to what devices, and for how long — providing the visibility needed to prevent conflicts and support audits.",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/System Administration & IT/DNS Server Configuration (Bind9, Windows DNS, CoreDNS, Split-Horizon)",
       "label": "DNS Server Configuration (Bind9, Windows DNS, CoreDNS, Split-Horizon)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "DNS Server Configuration is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "DNS server administration covers running authoritative and recursive resolvers, managing zone files and record types, and implementing split-horizon DNS for internal/external routing differences. It's a foundational IT skill because DNS failure breaks authentication, email, web services, and Active Directory simultaneously.",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/System Administration & IT/Disaster Recovery and Business Continuity Planning (RPO, RTO)",
@@ -13985,7 +13985,7 @@
       "label": "Email Server Architecture (MX Records, SMTP Relay, SPF, DKIM, DMARC)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Email Server Architecture is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "Email delivery relies on MX records for routing, SMTP for transport, and three DNS-based authentication standards — SPF, DKIM, and DMARC — to prevent spoofing and improve deliverability. Understanding this stack is essential for diagnosing why email ends up in spam or fails to deliver.",
       "tags": [
         "resource",
         "system-administration-it"
@@ -14002,7 +14002,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/System Administration & IT/Group Policy Objects (GPOs) — How Windows Domain Policy Is Enforced",
@@ -14014,7 +14014,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/System Administration & IT/Hardware Asset Management and IT Procurement Lifecycle",
@@ -14074,7 +14074,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/System Administration & IT/LDAP and Directory Services — Protocol and Schema",
@@ -14098,7 +14098,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 32
+      "degree": 25
     },
     {
       "id": "Resources/System Administration & IT/Linux User, Group, and Permission Management (useradd, chmod, chown, ACLs)",
@@ -14110,7 +14110,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/System Administration & IT/Log Management and SIEM — Syslog, Splunk, Elastic Stack (ELK)",
@@ -14122,7 +14122,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/System Administration & IT/Monitoring Windows Servers — Event Viewer, Performance Monitor, WMI",
@@ -14141,24 +14141,24 @@
       "label": "NFS and SMB — Network File Sharing Protocols Compared",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "NFS and SMB is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially network file sharing protocols compared. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "NFS and SMB are the two dominant network file sharing protocols — NFS is the Linux/Unix standard, SMB (via Samba) is the Windows standard. Understanding when to use each, how they handle authentication, and their failure modes is essential for shared storage administration.",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/System Administration & IT/NTP and Chrony — Why Clock Accuracy Matters and How to Set It Up",
       "label": "NTP and Chrony — Why Clock Accuracy Matters and How to Set It Up",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "NTP and Chrony is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable, especially why clock accuracy matters and how to set it up. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "NTP (Network Time Protocol) keeps clocks synchronized across systems. Accurate time is a hard dependency for Kerberos authentication, TLS certificates, distributed transaction ordering, and log correlation — clock drift as small as 5 minutes can break Kerberos logins entirely. Chrony is the modern NTP implementation that replaced ntpd.",
       "tags": [
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 4
     },
     {
       "id": "Resources/System Administration & IT/Network Documentation — IP Schema, Rack Diagrams, Network Topology Maps",
@@ -14182,7 +14182,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/System Administration & IT/Patch Management Strategies (WSUS, Ansible, Unattended Upgrades)",
@@ -14194,7 +14194,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/System Administration & IT/RAID Levels Explained — What They Actually Protect Against (and Don't)",
@@ -14225,7 +14225,7 @@
       "label": "Remote Desktop and Remote Management (RDP, SSH Bastions, Jump Hosts)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Remote Desktop and Remote Management is an operational IT topic about keeping users, servers, identity, storage, and infrastructure reliable. It matters because administration work is mostly disciplined change control, access control, observability, and recovery planning.",
+      "excerpt": "Remote management covers the protocols and architecture for accessing servers and desktops without physical presence — RDP for Windows GUIs, SSH for Linux shells, and bastion hosts / jump hosts as the hardened single entry point that provides access control and audit logging for all remote sessions.",
       "tags": [
         "resource",
         "system-administration-it"
@@ -14254,7 +14254,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/System Administration & IT/Storage Area Networks (SAN) vs NAS vs DAS — When to Use Each",
@@ -14314,7 +14314,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/System Administration & IT/iDRAC, iLO, IPMI — Out-of-Band Server Management",
@@ -14338,7 +14338,7 @@
         "resource",
         "system-administration-it"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/System Design Case Studies",
@@ -15406,7 +15406,7 @@
         "windows-wsl2",
         "security"
       ],
-      "degree": 35
+      "degree": 27
     },
     {
       "id": "Resources/Windows & WSL2/Windows Registry — How It Works",
@@ -15492,6 +15492,15 @@
     {
       "id": "Rumination",
       "label": "Rumination",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "SAN vs NAS vs DAS — Storage Architecture Compared",
+      "label": "SAN vs NAS vs DAS — Storage Architecture Compared",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -15600,6 +15609,15 @@
     {
       "id": "Technical Leadership",
       "label": "Technical Leadership",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "The 3-2-1 Backup Rule and Backup Strategy",
+      "label": "The 3-2-1 Backup Rule and Backup Strategy",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -30792,19 +30810,15 @@
     },
     {
       "source": "Resources/System Administration & IT/Certificate Management — Internal CAs, Let's Encrypt, ACME Protocol",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+      "target": "Resources/System Administration & IT/DNS Server Configuration (Bind9, Windows DNS, CoreDNS, Split-Horizon)"
     },
     {
       "source": "Resources/System Administration & IT/Certificate Management — Internal CAs, Let's Encrypt, ACME Protocol",
-      "target": "Resources/System Administration & IT/Log Management and SIEM — Syslog, Splunk, Elastic Stack (ELK)"
+      "target": "Resources/System Administration & IT/Email Server Architecture (MX Records, SMTP Relay, SPF, DKIM, DMARC)"
     },
     {
       "source": "Resources/System Administration & IT/Certificate Management — Internal CAs, Let's Encrypt, ACME Protocol",
-      "target": "Resources/System Administration & IT/Server Hardening — CIS Benchmarks, Minimal Attack Surface, Fail2ban"
-    },
-    {
-      "source": "Resources/System Administration & IT/Certificate Management — Internal CAs, Let's Encrypt, ACME Protocol",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "target": "Resources/System Administration & IT/Zero Trust for IT — Why VPNs Aren't Enough and What Replaces Them"
     },
     {
       "source": "Resources/System Administration & IT/Cron, systemd Timers, and Task Scheduling in Linux",
@@ -30812,11 +30826,15 @@
     },
     {
       "source": "Resources/System Administration & IT/Cron, systemd Timers, and Task Scheduling in Linux",
-      "target": "Resources/System Administration & IT/NFS and SMB — Network File Sharing Protocols Compared"
+      "target": "Resources/System Administration & IT/Linux User, Group, and Permission Management (useradd, chmod, chown, ACLs)"
     },
     {
       "source": "Resources/System Administration & IT/Cron, systemd Timers, and Task Scheduling in Linux",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "target": "The 3-2-1 Backup Rule and Backup Strategy"
+    },
+    {
+      "source": "Resources/System Administration & IT/DHCP Server Setup and IP Address Management (IPAM)",
+      "target": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)"
     },
     {
       "source": "Resources/System Administration & IT/DHCP Server Setup and IP Address Management (IPAM)",
@@ -30824,15 +30842,11 @@
     },
     {
       "source": "Resources/System Administration & IT/DHCP Server Setup and IP Address Management (IPAM)",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
-    },
-    {
-      "source": "Resources/System Administration & IT/DHCP Server Setup and IP Address Management (IPAM)",
       "target": "Resources/System Administration & IT/NTP and Chrony — Why Clock Accuracy Matters and How to Set It Up"
     },
     {
-      "source": "Resources/System Administration & IT/DHCP Server Setup and IP Address Management (IPAM)",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "source": "Resources/System Administration & IT/DNS Server Configuration (Bind9, Windows DNS, CoreDNS, Split-Horizon)",
+      "target": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)"
     },
     {
       "source": "Resources/System Administration & IT/DNS Server Configuration (Bind9, Windows DNS, CoreDNS, Split-Horizon)",
@@ -30840,15 +30854,7 @@
     },
     {
       "source": "Resources/System Administration & IT/DNS Server Configuration (Bind9, Windows DNS, CoreDNS, Split-Horizon)",
-      "target": "Resources/System Administration & IT/Group Policy Objects (GPOs) — How Windows Domain Policy Is Enforced"
-    },
-    {
-      "source": "Resources/System Administration & IT/DNS Server Configuration (Bind9, Windows DNS, CoreDNS, Split-Horizon)",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
-    },
-    {
-      "source": "Resources/System Administration & IT/DNS Server Configuration (Bind9, Windows DNS, CoreDNS, Split-Horizon)",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "target": "Resources/System Administration & IT/Email Server Architecture (MX Records, SMTP Relay, SPF, DKIM, DMARC)"
     },
     {
       "source": "Resources/System Administration & IT/Disaster Recovery and Business Continuity Planning (RPO, RTO)",
@@ -30868,19 +30874,15 @@
     },
     {
       "source": "Resources/System Administration & IT/Email Server Architecture (MX Records, SMTP Relay, SPF, DKIM, DMARC)",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+      "target": "Resources/System Administration & IT/Certificate Management — Internal CAs, Let's Encrypt, ACME Protocol"
     },
     {
       "source": "Resources/System Administration & IT/Email Server Architecture (MX Records, SMTP Relay, SPF, DKIM, DMARC)",
-      "target": "Resources/System Administration & IT/NTP and Chrony — Why Clock Accuracy Matters and How to Set It Up"
+      "target": "Resources/System Administration & IT/DNS Server Configuration (Bind9, Windows DNS, CoreDNS, Split-Horizon)"
     },
     {
       "source": "Resources/System Administration & IT/Email Server Architecture (MX Records, SMTP Relay, SPF, DKIM, DMARC)",
-      "target": "Resources/System Administration & IT/Patch Management Strategies (WSUS, Ansible, Unattended Upgrades)"
-    },
-    {
-      "source": "Resources/System Administration & IT/Email Server Architecture (MX Records, SMTP Relay, SPF, DKIM, DMARC)",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "target": "Resources/System Administration & IT/Server Hardening — CIS Benchmarks, Minimal Attack Surface, Fail2ban"
     },
     {
       "source": "Resources/System Administration & IT/Endpoint Management — MDM, Microsoft Intune, Jamf for macOS-iOS",
@@ -31052,19 +31054,23 @@
     },
     {
       "source": "Resources/System Administration & IT/NFS and SMB — Network File Sharing Protocols Compared",
-      "target": "Resources/System Administration & IT/Cron, systemd Timers, and Task Scheduling in Linux"
+      "target": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)"
     },
     {
       "source": "Resources/System Administration & IT/NFS and SMB — Network File Sharing Protocols Compared",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+      "target": "Resources/System Administration & IT/Kerberos Authentication — How Tickets Work in Windows Environments"
     },
     {
       "source": "Resources/System Administration & IT/NFS and SMB — Network File Sharing Protocols Compared",
-      "target": "Resources/System Administration & IT/iDRAC, iLO, IPMI — Out-of-Band Server Management"
+      "target": "Resources/System Administration & IT/Linux User, Group, and Permission Management (useradd, chmod, chown, ACLs)"
     },
     {
       "source": "Resources/System Administration & IT/NFS and SMB — Network File Sharing Protocols Compared",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "target": "SAN vs NAS vs DAS — Storage Architecture Compared"
+    },
+    {
+      "source": "Resources/System Administration & IT/NTP and Chrony — Why Clock Accuracy Matters and How to Set It Up",
+      "target": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)"
     },
     {
       "source": "Resources/System Administration & IT/NTP and Chrony — Why Clock Accuracy Matters and How to Set It Up",
@@ -31072,15 +31078,7 @@
     },
     {
       "source": "Resources/System Administration & IT/NTP and Chrony — Why Clock Accuracy Matters and How to Set It Up",
-      "target": "Resources/System Administration & IT/Email Server Architecture (MX Records, SMTP Relay, SPF, DKIM, DMARC)"
-    },
-    {
-      "source": "Resources/System Administration & IT/NTP and Chrony — Why Clock Accuracy Matters and How to Set It Up",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
-    },
-    {
-      "source": "Resources/System Administration & IT/NTP and Chrony — Why Clock Accuracy Matters and How to Set It Up",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "target": "Resources/System Administration & IT/Kerberos Authentication — How Tickets Work in Windows Environments"
     },
     {
       "source": "Resources/System Administration & IT/Network Documentation — IP Schema, Rack Diagrams, Network Topology Maps",
@@ -31156,19 +31154,19 @@
     },
     {
       "source": "Resources/System Administration & IT/Remote Desktop and Remote Management (RDP, SSH Bastions, Jump Hosts)",
-      "target": "Resources/System Administration & IT/Endpoint Management — MDM, Microsoft Intune, Jamf for macOS-iOS"
+      "target": "Resources/System Administration & IT/PAM — Pluggable Authentication Modules and How Login Actually Works"
     },
     {
       "source": "Resources/System Administration & IT/Remote Desktop and Remote Management (RDP, SSH Bastions, Jump Hosts)",
-      "target": "Resources/System Administration & IT/Linux System Monitoring — top, htop, iostat, sar, -proc Filesystem"
+      "target": "Resources/System Administration & IT/Server Hardening — CIS Benchmarks, Minimal Attack Surface, Fail2ban"
     },
     {
       "source": "Resources/System Administration & IT/Remote Desktop and Remote Management (RDP, SSH Bastions, Jump Hosts)",
-      "target": "Resources/System Administration & IT/iSCSI and Fibre Channel — How SAN Storage Is Accessed"
+      "target": "Resources/System Administration & IT/Zero Trust for IT — Why VPNs Aren't Enough and What Replaces Them"
     },
     {
       "source": "Resources/System Administration & IT/Remote Desktop and Remote Management (RDP, SSH Bastions, Jump Hosts)",
-      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
+      "target": "Resources/System Administration & IT/iDRAC, iLO, IPMI — Out-of-Band Server Management"
     },
     {
       "source": "Resources/System Administration & IT/SNMP Traps and Network Device Monitoring",
@@ -32751,5 +32749,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-29T05:11:49Z"
+  "generated_at": "2026-05-29T05:20:04Z"
 }
