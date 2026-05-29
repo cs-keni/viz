@@ -313,6 +313,17 @@
       "degree": 0
     },
     {
+      "id": "Daily Notes/2026-05-29",
+      "label": "2026-05-29",
+      "folder": "Daily Notes",
+      "created": "2026-05-29",
+      "excerpt": "Session 1",
+      "tags": [
+        "daily"
+      ],
+      "degree": 0
+    },
+    {
       "id": "Data Visualization Best Practices",
       "label": "Data Visualization Best Practices",
       "folder": null,
@@ -869,6 +880,15 @@
     {
       "id": "Python — Closures",
       "label": "Python — Closures",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "RAID Levels Explained",
+      "label": "RAID Levels Explained",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -6207,36 +6227,36 @@
       "label": "ARM Architecture and the Embedded Computing Ecosystem",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "ARM Architecture and the Embedded Computing Ecosystem explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "ARM is a RISC ISA licensed by Arm Holdings, powering virtually all mobile devices and a large portion of embedded systems worldwide. ARM's business model is licensing IP rather than making chips, which means dozens of companies (Apple, Qualcomm, Samsung, NVIDIA) implement the ISA with wildly different microarchitectures. Understanding ARM explains the mobile performance revolution and Apple Silicon's dominance.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 10
     },
     {
       "id": "Resources/Hardware & Computing/ASICs vs FPGAs vs CPUs — Design Tradeoffs and When to Use Each",
       "label": "ASICs vs FPGAs vs CPUs — Design Tradeoffs and When to Use Each",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "ASICs vs FPGAs vs CPUs explains the physical and architectural layer beneath software systems, especially design tradeoffs and when to use each. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "CPUs are general-purpose and flexible; FPGAs are reconfigurable hardware that can implement custom logic; ASICs are fixed-function chips optimized for exactly one task. The tradeoffs are cost, performance, power, development time, and volume — understanding the decision matrix explains why Bitcoin mines use ASICs, why network switches run ASICs, why ML inference is moving from GPUs to NPUs, and why FPGAs are used in data centers.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Hardware & Computing/Arduino vs Raspberry Pi — Architecture, Use Cases, and What to Pick",
       "label": "Arduino vs Raspberry Pi — Architecture, Use Cases, and What to Pick",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Arduino vs Raspberry Pi explains the physical and architectural layer beneath software systems, especially architecture, use cases, and what to pick. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "Arduino is a microcontroller platform — it boots directly into your code with no OS, millisecond boot time, and μA sleep modes. Raspberry Pi is a Linux single-board computer with GHz CPU, gigabytes of RAM, and a full OS. They're not competing products — they solve different problems, and the right choice is usually obvious once you know which model each represents.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)",
@@ -6248,43 +6268,43 @@
         "resource",
         "hardware-computing"
       ],
-      "degree": 37
+      "degree": 5
     },
     {
       "id": "Resources/Hardware & Computing/CPU Microarchitecture — Pipelines, Branch Prediction, Out-of-Order Execution",
       "label": "CPU Microarchitecture — Pipelines, Branch Prediction, Out-of-Order Execution",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "CPU Microarchitecture explains the physical and architectural layer beneath software systems, especially pipelines, branch prediction, out-of-order execution. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "CPU microarchitecture defines how instructions are executed inside a processor. Pipelines allow overlapping stages of multiple instructions; out-of-order execution reorders independent instructions to fill execution units; branch prediction speculatively executes future instructions before knowing if a branch is taken. These techniques explain most of modern CPU performance — and its vulnerabilities.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 13
     },
     {
       "id": "Resources/Hardware & Computing/Chip Packaging Technologies (BGA, Flip-Chip, Chiplets, 2.5D-3D Stacking)",
       "label": "Chip Packaging Technologies (BGA, Flip-Chip, Chiplets, 2.5D-3D Stacking)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Chip Packaging Technologies explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "Chip packaging connects a bare die to the outside world. BGA (Ball Grid Array) is the standard PCB-mountable package. Flip-chip reverses the die orientation so bumps connect directly to the substrate, reducing parasitics. Chiplets decompose a large monolithic die into smaller dies assembled in one package using 2.5D (silicon interposer) or 3D (die stacking with TSVs) integration. These advanced packaging techniques are now the primary path for scaling performance when transistor density improvements alone aren't enough.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 10
     },
     {
       "id": "Resources/Hardware & Computing/Clock Signals, Crystal Oscillators, PLLs, and Timing",
       "label": "Clock Signals, Crystal Oscillators, PLLs, and Timing",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Clock Signals, Crystal Oscillators, PLLs, and Timing explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "Digital systems are synchronous machines driven by clock signals. Crystal oscillators provide accurate, stable frequencies from piezoelectric resonance. PLLs (Phase-Locked Loops) multiply and divide that reference to generate the many clock frequencies a SoC needs. Clock quality — frequency accuracy, jitter, skew — directly affects whether a system's timing margins hold or fail.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Hardware & Computing/DRAM vs SRAM",
@@ -6303,12 +6323,12 @@
       "label": "Digital Logic — Gates, Flip-Flops, Registers, and Finite State Machines",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Digital Logic explains the physical and architectural layer beneath software systems, especially gates, flip-flops, registers, and finite state machines. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "Digital logic is the foundation of all computing hardware: Boolean gates implement logic functions, flip-flops store a single bit of state synchronized to a clock, registers group flip-flops to store a word, and finite state machines combine registers with combinational logic to implement any sequential behavior. Everything from a CPU to a USB controller is built from these primitives.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 10
     },
     {
       "id": "Resources/Hardware & Computing/DisplayPort vs HDMI vs Thunderbolt",
@@ -6327,55 +6347,55 @@
       "label": "Electromagnetic Interference (EMI) — Sources, Shielding, and FCC Certification",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Electromagnetic Interference— Sources, Shielding, and FCC Certification explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "EMI (Electromagnetic Interference) is unwanted electromagnetic energy that disrupts other devices. Every digital circuit emits EMI — clocks, switching regulators, and fast edges are dominant sources. FCC Part 15 / CE certification sets legal limits on emissions before a product can be sold. EMI mitigation starts in PCB layout and schematic, and is tested in an EMC chamber. Failing an EMC test is expensive: $5–20K for a test session and weeks of redesign.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 10
     },
     {
       "id": "Resources/Hardware & Computing/Electronic Testing Tools — Multimeter, Oscilloscope, Logic Analyzer, Spectrum Analyzer",
       "label": "Electronic Testing Tools — Multimeter, Oscilloscope, Logic Analyzer, Spectrum Analyzer",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Electronic Testing Tools explains the physical and architectural layer beneath software systems, especially multimeter, oscilloscope, logic analyzer, spectrum analyzer. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "Electronic test tools are how you observe what a circuit is actually doing, not what you think it should be doing. A multimeter measures DC voltage, current, and resistance. An oscilloscope shows signal waveforms over time. A logic analyzer captures digital protocol data. A spectrum analyzer shows frequency-domain power distribution. Each tool answers a different class of question.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 12
     },
     {
       "id": "Resources/Hardware & Computing/FPGAs — Reprogrammable Hardware and How HDL Compiles to Gates",
       "label": "FPGAs — Reprogrammable Hardware and How HDL Compiles to Gates",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "FPGAs explains the physical and architectural layer beneath software systems, especially reprogrammable hardware and how hdl compiles to gates. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "FPGAs are integrated circuits with programmable logic fabric — millions of configurable look-up tables, flip-flops, DSP blocks, and memory that can be wired together to implement any digital circuit. HDL (Verilog/VHDL) is synthesized into a netlist, then placed and routed onto the FPGA's programmable fabric via bitstream. FPGAs sit between CPUs (flexible, slow) and ASICs (fast, fixed) — chosen when you need custom hardware logic without the cost and time of a chip tape-out.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Resources/Hardware & Computing/GPIO and Embedded Interfaces (I2C, SPI, UART, CAN, PWM)",
       "label": "GPIO and Embedded Interfaces (I2C, SPI, UART, CAN, PWM)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "GPIO and Embedded Interfaces explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "GPIO, I2C, SPI, UART, CAN, and PWM are the basic communication and control interfaces on every microcontroller and SBC. Each protocol has distinct speed, wiring, and addressing tradeoffs. Knowing which protocol a sensor or peripheral uses — and why — is the core skill for embedded hardware selection and debugging.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 12
     },
     {
       "id": "Resources/Hardware & Computing/HDMI and DisplayPort Signal Standards — How Video Is Transmitted Digitally",
       "label": "HDMI and DisplayPort Signal Standards — How Video Is Transmitted Digitally",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "HDMI and DisplayPort Signal Standards explains the physical and architectural layer beneath software systems, especially how video is transmitted digitally. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "HDMI and DisplayPort are the two dominant digital video standards. HDMI is consumer-focused, carries video + audio + CEC over a single cable, and is royalty-bearing. DisplayPort is industry/PC-focused, royalty-free, and carries video at higher bandwidth with more flexible multi-stream support. Both transmit pixel data as high-speed differential serial streams. USB-C with DisplayPort Alt Mode carries DP signal over the USB-C physical layer, enabling a single cable for power + data + video.",
       "tags": [
         "resource",
         "hardware-computing"
@@ -6425,43 +6445,43 @@
       "label": "How NAND Flash Works (SLC-MLC-TLC-QLC Cells, Wear Leveling, FTL Controllers)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "How NAND Flash Works explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "NAND flash stores data in floating-gate transistors by trapping charge. SLC stores 1 bit per cell with long endurance; TLC stores 3 bits with lower endurance but much higher density and lower cost. An FTL (Flash Translation Layer) in the SSD controller handles wear leveling, garbage collection, and the logical-to-physical address mapping that hides NAND's erase-before-write constraint from the OS. These mechanisms explain write amplification, endurance ratings (TBW), and why SSDs slow down under sustained writes.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Hardware & Computing/How NPUs Work — Neural Processing Units in Modern SoCs (Apple M-series, Snapdragon)",
       "label": "How NPUs Work — Neural Processing Units in Modern SoCs (Apple M-series, Snapdragon)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "How NPUs Work explains the physical and architectural layer beneath software systems, especially neural processing units in modern socs. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "NPUs (Neural Processing Units) are fixed-function hardware accelerators for matrix multiply and activation operations — the core operations of neural network inference. They outperform CPUs and GPUs by 10–100× per watt for supported model types because they eliminate the general-purpose overhead of both. Apple's Neural Engine, Qualcomm Hexagon NPU, and Google's Edge TPU are the dominant mobile implementations. Understanding NPUs explains on-device AI performance claims and which operations actually use them.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Hardware & Computing/How Semiconductors Work (Silicon, Doping, P-N Junctions, Transistors)",
       "label": "How Semiconductors Work (Silicon, Doping, P-N Junctions, Transistors)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "How Semiconductors Work explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "Semiconductors are materials whose conductivity can be precisely controlled by doping and electric fields. Silicon transistors — billions per chip — are the physical switches that make all digital computation possible. Understanding them explains why chips run hot, why process nodes matter, and what limits clock speeds.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 4
+      "degree": 10
     },
     {
       "id": "Resources/Hardware & Computing/How USB Works Internally (Host Controller, Enumeration, Transfer Types)",
       "label": "How USB Works Internally (Host Controller, Enumeration, Transfer Types)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "How USB Works Internally explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "USB is a host-centric, tiered serial bus. The host controller (EHCI, xHCI) manages all device communication — devices can't initiate transactions. On plug-in, the host enumerates the device: assigns address, reads descriptors, loads driver. USB supports four transfer types with different bandwidth/latency guarantees. Understanding enumeration and transfer types explains USB device class drivers, why some USB hubs cause issues, and how USB audio/video latency works.",
       "tags": [
         "resource",
         "hardware-computing"
@@ -6473,24 +6493,24 @@
       "label": "How a CPU is Fabricated (Photolithography, EUV, TSMC vs Intel Fabs, Yield)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "How a CPU is Fabricated explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "CPU fabrication uses photolithography to pattern billions of transistors onto silicon wafers. TSMC, Intel, and Samsung compete at 3nm and below using EUV light sources. Yield — the fraction of good dies per wafer — determines cost and explains why cutting-edge chips are expensive and take time to ramp.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 10
     },
     {
       "id": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)",
       "label": "How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "How a GPU is Designed explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "GPUs trade deep per-thread pipelines for thousands of simple shader cores executing the same operation across massive datasets in parallel. This SIMD/SIMT design makes them ideal for graphics, ML training, and simulation — but poor for branchy, latency-sensitive code. Tensor Cores (matrix multiply accelerators) are the key hardware reason why modern AI training happens on GPUs.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 15
     },
     {
       "id": "Resources/Hardware & Computing/Memory Hierarchy (L1-L2-L3 Cache, RAM, Disk)",
@@ -6502,31 +6522,31 @@
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Hardware & Computing/Memory Technologies — LPDDR vs DDR5 vs HBM and Why It Matters for AI",
       "label": "Memory Technologies — LPDDR vs DDR5 vs HBM and Why It Matters for AI",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Memory Technologies explains the physical and architectural layer beneath software systems, especially lpddr vs ddr5 vs hbm and why it matters for ai. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "DRAM memory comes in multiple packaging and interface variants optimized for different compute contexts. DDR5 is the current desktop/server standard. LPDDR5X is the mobile variant with lower power but narrower bus. HBM3 is 3D-stacked DRAM directly bonded to the GPU die — delivering 10–20× the bandwidth of DDR5 at a fraction of the energy per bit. HBM bandwidth is why LLM inference throughput scales with memory bandwidth, not compute.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 11
     },
     {
       "id": "Resources/Hardware & Computing/Microcontrollers vs Microprocessors — Where Each Belongs",
       "label": "Microcontrollers vs Microprocessors — Where Each Belongs",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Microcontrollers vs Microprocessors explains the physical and architectural layer beneath software systems, especially where each belongs. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "A microcontroller (MCU) integrates CPU, RAM, flash, and peripherals on one chip — it boots and runs directly, with no OS required. A microprocessor (MPU) is a CPU that needs external RAM, storage, and peripherals, typically running a full OS like Linux. The choice drives the entire development stack: bare-metal C vs Linux userspace, interrupt-driven vs process-based, μA sleep modes vs GHz throughput.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 11
     },
     {
       "id": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)",
@@ -6538,7 +6558,7 @@
         "resource",
         "hardware-computing"
       ],
-      "degree": 37
+      "degree": 5
     },
     {
       "id": "Resources/Hardware & Computing/NAS and Home Storage (ZFS, RAID Levels)",
@@ -6571,60 +6591,60 @@
       "label": "Ohm's Law and Basic Circuit Analysis (KVL, KCL, Voltage Dividers, Thevenin)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Ohm's Law and Basic Circuit Analysis explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "Ohm's Law (V = IR) and Kirchhoff's Laws are the foundational tools for analyzing any electrical circuit. Voltage dividers, Thévenin equivalents, and nodal analysis are the practical techniques that follow. These let you predict currents, voltages, and power dissipation in any resistive circuit without simulation.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Hardware & Computing/Open Hardware and the Maker Movement (KiCad, OSHW, Raspberry Pi Foundation)",
       "label": "Open Hardware and the Maker Movement (KiCad, OSHW, Raspberry Pi Foundation)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Open Hardware and the Maker Movement explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "The open hardware movement applies open-source principles to physical electronics: schematics, PCB layouts, and firmware are published under permissive licenses so anyone can study, build, and modify them. KiCad is the dominant open-source EDA tool. OSHW (Open Source Hardware Association) defines the certification standard. The Raspberry Pi Foundation democratized accessible computing hardware. Together they've lowered the barrier for hardware design from 'requires proprietary tools and NDA supplier relationships' to 'anyone with a laptop and $50 for a PCB run.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Hardware & Computing/PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)",
       "label": "PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "PCB Design Basics explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "PCB design turns an electrical schematic into a physical board with copper traces, component pads, and layer stackups. The flow goes: schematic capture → netlist → layout → DRC → Gerber files → fab. Understanding this pipeline explains why hardware bugs are expensive and how board-level signal integrity problems arise.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 14
     },
     {
       "id": "Resources/Hardware & Computing/PCIe Architecture Deep Dive (Lanes, Gen 4 vs Gen 5, Bifurcation)",
       "label": "PCIe Architecture Deep Dive (Lanes, Gen 4 vs Gen 5, Bifurcation)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "PCIe Architecture Deep Dive explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "PCIe (Peripheral Component Interconnect Express) is the universal high-speed bus connecting CPUs to GPUs, NVMe SSDs, NICs, and accelerators. Each lane is a pair of differential serial links; bandwidth scales with lane count and generation. Gen 5 doubles Gen 4 per-lane bandwidth to 32 GT/s, giving a ×16 slot 64 GB/s. Bifurcation, link training, and power delivery are the practical engineering details that affect whether high-speed PCIe works reliably.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 11
     },
     {
       "id": "Resources/Hardware & Computing/Power Management ICs — LDOs vs Buck-Boost Converters",
       "label": "Power Management ICs — LDOs vs Buck-Boost Converters",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Power Management ICs explains the physical and architectural layer beneath software systems, especially ldos vs buck/boost converters. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "Power management ICs regulate voltage and current to supply stable, noise-tolerant power to every circuit on a board. LDOs (Low Dropout regulators) are simple, low-noise, but inefficient — they burn excess voltage as heat. Switching regulators (buck, boost, buck-boost) use inductors and switches to convert voltage with 85–95% efficiency but add switching noise. Choosing between them comes down to efficiency, noise, cost, and the voltage conversion ratio needed.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Resources/Hardware & Computing/Power Supplies and 80+ Efficiency Ratings",
@@ -6643,24 +6663,24 @@
       "label": "RISC-V — Open Source ISA and Why It Matters",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "RISC-V explains the physical and architectural layer beneath software systems, especially open source isa and why it matters. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "RISC-V is a free and open ISA developed at UC Berkeley, designed for clean modularity and permissive licensing. Unlike ARM, no royalties are required, and the entire specification is public. It's seeing rapid adoption in embedded controllers, custom accelerators, and academic research — and is increasingly competing with ARM in commercial silicon.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 10
     },
     {
       "id": "Resources/Hardware & Computing/Resistors, Capacitors, Inductors — What They Do and How They Behave",
       "label": "Resistors, Capacitors, Inductors — What They Do and How They Behave",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Resistors, Capacitors, Inductors explains the physical and architectural layer beneath software systems, especially what they do and how they behave. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "Resistors, capacitors, and inductors are the three passive components that all analog and mixed-signal circuits are built from. Resistors dissipate energy as heat, capacitors store energy in an electric field, and inductors store energy in a magnetic field. Their frequency-dependent behavior (impedance) is what makes filters, oscillators, power converters, and matching networks possible.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Resources/Hardware & Computing/SSD vs HDD — How They Work Internally",
@@ -6672,43 +6692,43 @@
         "resource",
         "hardware-computing"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk",
       "label": "Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Signal Integrity explains the physical and architectural layer beneath software systems, especially impedance matching, transmission lines, reflections, crosstalk. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "Signal integrity (SI) is the study of how electrical signals behave as they travel through conductors. At high frequencies (above ~100–300MHz), PCB traces behave as transmission lines — not simple wires. Impedance mismatches cause reflections that degrade signal edges; crosstalk causes adjacent traces to interfere; simultaneous switching noise stresses power planes. SI is why high-speed PCB design is a discipline, not just routing.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 7
+      "degree": 18
     },
     {
       "id": "Resources/Hardware & Computing/Single-Board Computers (SBCs) — Key Components and Design (CPU, PMIC, RAM, eMMC)",
       "label": "Single-Board Computers (SBCs) — Key Components and Design (CPU, PMIC, RAM, eMMC)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Single-Board Computers— Key Components and Design explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "A single-board computer (SBC) integrates an SoC, DRAM, storage, and I/O onto one PCB — ready to run Linux out of the box. Understanding the components (SoC, PMIC, eMMC, LPDDR) explains performance characteristics, boot failures, thermal limits, and why some SBCs are more reliable than others for production use.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Hardware & Computing/Soldering and PCB Assembly Fundamentals (Through-Hole vs SMD)",
       "label": "Soldering and PCB Assembly Fundamentals (Through-Hole vs SMD)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Soldering and PCB Assembly Fundamentals explains the physical and architectural layer beneath software systems. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "Soldering is the process of joining metal components with a tin-silver alloy that melts at 183–250°C. Through-hole components use leads passing through drilled holes; SMD components sit on pads on the board surface. Understanding the thermal, mechanical, and process differences between them determines component selection, assembly method, and rework strategies for any electronics project.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Hardware & Computing/Thermal Design and CPU-GPU Cooling",
@@ -6727,12 +6747,12 @@
       "label": "Thermal Design — TDP, Heat Sinks, Heat Pipes, Vapor Chambers, Liquid Cooling",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "Thermal Design explains the physical and architectural layer beneath software systems, especially tdp, heat sinks, heat pipes, vapor chambers, liquid cooling. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "Thermal design is the engineering discipline of moving heat from silicon die to ambient air fast enough that junction temperature stays below the safe limit. TDP defines the expected heat to dissipate. Heat sinks, heat pipes, vapor chambers, and liquid cooling are the progressively more capable technologies for moving that heat. Thermal throttling is the firmware response to exceeding limits — it's what caps CPU/GPU performance in thin laptops, hot rooms, and poorly cooled cases.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Hardware & Computing/USB Standards Timeline (USB 2.0 through USB4)",
@@ -6751,12 +6771,12 @@
       "label": "VLSI Design — From RTL to Tape-Out (Synthesis, Place & Route, Timing Closure)",
       "folder": "Resources",
       "created": "2026-05-28",
-      "excerpt": "VLSI Design explains the physical and architectural layer beneath software systems, especially from rtl to tape-out. It matters because hardware constraints shape performance, reliability, cost, power use, and what abstractions a computer can realistically provide.",
+      "excerpt": "VLSI design is the process of turning a hardware description (RTL) into a physical chip layout ready for fabrication. Key stages are synthesis (RTL → gate netlist), place & route (gates → physical locations and wire connections), and timing closure (verifying all signals meet clock deadlines). A tape-out is the final delivery of GDS files to the fab.",
       "tags": [
         "resource",
         "hardware-computing"
       ],
-      "degree": 6
+      "degree": 14
     },
     {
       "id": "Resources/Health & Fitness/Back Health for Desk Workers",
@@ -22040,15 +22060,19 @@
     },
     {
       "source": "Resources/Hardware & Computing/ARM Architecture and the Embedded Computing Ecosystem",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "target": "Resources/Hardware & Computing/CPU Microarchitecture — Pipelines, Branch Prediction, Out-of-Order Execution"
     },
     {
       "source": "Resources/Hardware & Computing/ARM Architecture and the Embedded Computing Ecosystem",
-      "target": "Resources/Hardware & Computing/Electronic Testing Tools — Multimeter, Oscilloscope, Logic Analyzer, Spectrum Analyzer"
+      "target": "Resources/Hardware & Computing/GPIO and Embedded Interfaces (I2C, SPI, UART, CAN, PWM)"
     },
     {
       "source": "Resources/Hardware & Computing/ARM Architecture and the Embedded Computing Ecosystem",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/ARM Architecture and the Embedded Computing Ecosystem",
+      "target": "Resources/Hardware & Computing/Microcontrollers vs Microprocessors — Where Each Belongs"
     },
     {
       "source": "Resources/Hardware & Computing/ARM Architecture and the Embedded Computing Ecosystem",
@@ -22056,23 +22080,31 @@
     },
     {
       "source": "Resources/Hardware & Computing/ASICs vs FPGAs vs CPUs — Design Tradeoffs and When to Use Each",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
-    },
-    {
-      "source": "Resources/Hardware & Computing/ASICs vs FPGAs vs CPUs — Design Tradeoffs and When to Use Each",
-      "target": "Resources/Hardware & Computing/Clock Signals, Crystal Oscillators, PLLs, and Timing"
-    },
-    {
-      "source": "Resources/Hardware & Computing/ASICs vs FPGAs vs CPUs — Design Tradeoffs and When to Use Each",
       "target": "Resources/Hardware & Computing/FPGAs — Reprogrammable Hardware and How HDL Compiles to Gates"
     },
     {
       "source": "Resources/Hardware & Computing/ASICs vs FPGAs vs CPUs — Design Tradeoffs and When to Use Each",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/How NPUs Work — Neural Processing Units in Modern SoCs (Apple M-series, Snapdragon)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/ASICs vs FPGAs vs CPUs — Design Tradeoffs and When to Use Each",
+      "target": "Resources/Hardware & Computing/How a CPU is Fabricated (Photolithography, EUV, TSMC vs Intel Fabs, Yield)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/ASICs vs FPGAs vs CPUs — Design Tradeoffs and When to Use Each",
+      "target": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/ASICs vs FPGAs vs CPUs — Design Tradeoffs and When to Use Each",
+      "target": "Resources/Hardware & Computing/VLSI Design — From RTL to Tape-Out (Synthesis, Place & Route, Timing Closure)"
     },
     {
       "source": "Resources/Hardware & Computing/Arduino vs Raspberry Pi — Architecture, Use Cases, and What to Pick",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "target": "Resources/Hardware & Computing/ARM Architecture and the Embedded Computing Ecosystem"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Arduino vs Raspberry Pi — Architecture, Use Cases, and What to Pick",
+      "target": "Resources/Hardware & Computing/GPIO and Embedded Interfaces (I2C, SPI, UART, CAN, PWM)"
     },
     {
       "source": "Resources/Hardware & Computing/Arduino vs Raspberry Pi — Architecture, Use Cases, and What to Pick",
@@ -22080,7 +22112,7 @@
     },
     {
       "source": "Resources/Hardware & Computing/Arduino vs Raspberry Pi — Architecture, Use Cases, and What to Pick",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/RISC-V — Open Source ISA and Why It Matters"
     },
     {
       "source": "Resources/Hardware & Computing/Arduino vs Raspberry Pi — Architecture, Use Cases, and What to Pick",
@@ -22100,7 +22132,11 @@
     },
     {
       "source": "Resources/Hardware & Computing/CPU Microarchitecture — Pipelines, Branch Prediction, Out-of-Order Execution",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "target": "Resources/Hardware & Computing/Digital Logic — Gates, Flip-Flops, Registers, and Finite State Machines"
+    },
+    {
+      "source": "Resources/Hardware & Computing/CPU Microarchitecture — Pipelines, Branch Prediction, Out-of-Order Execution",
+      "target": "Resources/Hardware & Computing/How Semiconductors Work (Silicon, Doping, P-N Junctions, Transistors)"
     },
     {
       "source": "Resources/Hardware & Computing/CPU Microarchitecture — Pipelines, Branch Prediction, Out-of-Order Execution",
@@ -22112,39 +22148,47 @@
     },
     {
       "source": "Resources/Hardware & Computing/CPU Microarchitecture — Pipelines, Branch Prediction, Out-of-Order Execution",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/Memory Hierarchy (L1-L2-L3 Cache, RAM, Disk)"
     },
     {
       "source": "Resources/Hardware & Computing/Chip Packaging Technologies (BGA, Flip-Chip, Chiplets, 2.5D-3D Stacking)",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "target": "Resources/Hardware & Computing/How a CPU is Fabricated (Photolithography, EUV, TSMC vs Intel Fabs, Yield)"
     },
     {
       "source": "Resources/Hardware & Computing/Chip Packaging Technologies (BGA, Flip-Chip, Chiplets, 2.5D-3D Stacking)",
-      "target": "Resources/Hardware & Computing/How NPUs Work — Neural Processing Units in Modern SoCs (Apple M-series, Snapdragon)"
+      "target": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)"
     },
     {
       "source": "Resources/Hardware & Computing/Chip Packaging Technologies (BGA, Flip-Chip, Chiplets, 2.5D-3D Stacking)",
-      "target": "Resources/Hardware & Computing/How USB Works Internally (Host Controller, Enumeration, Transfer Types)"
+      "target": "Resources/Hardware & Computing/Memory Technologies — LPDDR vs DDR5 vs HBM and Why It Matters for AI"
     },
     {
       "source": "Resources/Hardware & Computing/Chip Packaging Technologies (BGA, Flip-Chip, Chiplets, 2.5D-3D Stacking)",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Chip Packaging Technologies (BGA, Flip-Chip, Chiplets, 2.5D-3D Stacking)",
+      "target": "Resources/Hardware & Computing/VLSI Design — From RTL to Tape-Out (Synthesis, Place & Route, Timing Closure)"
     },
     {
       "source": "Resources/Hardware & Computing/Clock Signals, Crystal Oscillators, PLLs, and Timing",
-      "target": "Resources/Hardware & Computing/ASICs vs FPGAs vs CPUs — Design Tradeoffs and When to Use Each"
+      "target": "Resources/Hardware & Computing/Digital Logic — Gates, Flip-Flops, Registers, and Finite State Machines"
     },
     {
       "source": "Resources/Hardware & Computing/Clock Signals, Crystal Oscillators, PLLs, and Timing",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "target": "Resources/Hardware & Computing/Electronic Testing Tools — Multimeter, Oscilloscope, Logic Analyzer, Spectrum Analyzer"
     },
     {
       "source": "Resources/Hardware & Computing/Clock Signals, Crystal Oscillators, PLLs, and Timing",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/PCIe Architecture Deep Dive (Lanes, Gen 4 vs Gen 5, Bifurcation)"
     },
     {
       "source": "Resources/Hardware & Computing/Clock Signals, Crystal Oscillators, PLLs, and Timing",
-      "target": "Resources/Hardware & Computing/Power Management ICs — LDOs vs Buck-Boost Converters"
+      "target": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Clock Signals, Crystal Oscillators, PLLs, and Timing",
+      "target": "Resources/Hardware & Computing/VLSI Design — From RTL to Tape-Out (Synthesis, Place & Route, Timing Closure)"
     },
     {
       "source": "Resources/Hardware & Computing/DRAM vs SRAM",
@@ -22160,7 +22204,15 @@
     },
     {
       "source": "Resources/Hardware & Computing/Digital Logic — Gates, Flip-Flops, Registers, and Finite State Machines",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "target": "Resources/Hardware & Computing/CPU Microarchitecture — Pipelines, Branch Prediction, Out-of-Order Execution"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Digital Logic — Gates, Flip-Flops, Registers, and Finite State Machines",
+      "target": "Resources/Hardware & Computing/FPGAs — Reprogrammable Hardware and How HDL Compiles to Gates"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Digital Logic — Gates, Flip-Flops, Registers, and Finite State Machines",
+      "target": "Resources/Hardware & Computing/How Semiconductors Work (Silicon, Doping, P-N Junctions, Transistors)"
     },
     {
       "source": "Resources/Hardware & Computing/Digital Logic — Gates, Flip-Flops, Registers, and Finite State Machines",
@@ -22168,11 +22220,7 @@
     },
     {
       "source": "Resources/Hardware & Computing/Digital Logic — Gates, Flip-Flops, Registers, and Finite State Machines",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
-    },
-    {
-      "source": "Resources/Hardware & Computing/Digital Logic — Gates, Flip-Flops, Registers, and Finite State Machines",
-      "target": "Resources/Hardware & Computing/Resistors, Capacitors, Inductors — What They Do and How They Behave"
+      "target": "Resources/Hardware & Computing/VLSI Design — From RTL to Tape-Out (Synthesis, Place & Route, Timing Closure)"
     },
     {
       "source": "Resources/Hardware & Computing/DisplayPort vs HDMI vs Thunderbolt",
@@ -22188,31 +22236,39 @@
     },
     {
       "source": "Resources/Hardware & Computing/Electromagnetic Interference (EMI) — Sources, Shielding, and FCC Certification",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "target": "Resources/Hardware & Computing/Clock Signals, Crystal Oscillators, PLLs, and Timing"
     },
     {
       "source": "Resources/Hardware & Computing/Electromagnetic Interference (EMI) — Sources, Shielding, and FCC Certification",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/Electronic Testing Tools — Multimeter, Oscilloscope, Logic Analyzer, Spectrum Analyzer"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Electromagnetic Interference (EMI) — Sources, Shielding, and FCC Certification",
+      "target": "Resources/Hardware & Computing/PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Electromagnetic Interference (EMI) — Sources, Shielding, and FCC Certification",
+      "target": "Resources/Hardware & Computing/Power Management ICs — LDOs vs Buck-Boost Converters"
     },
     {
       "source": "Resources/Hardware & Computing/Electromagnetic Interference (EMI) — Sources, Shielding, and FCC Certification",
       "target": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk"
     },
     {
-      "source": "Resources/Hardware & Computing/Electromagnetic Interference (EMI) — Sources, Shielding, and FCC Certification",
-      "target": "Resources/Hardware & Computing/Soldering and PCB Assembly Fundamentals (Through-Hole vs SMD)"
+      "source": "Resources/Hardware & Computing/Electronic Testing Tools — Multimeter, Oscilloscope, Logic Analyzer, Spectrum Analyzer",
+      "target": "Resources/Hardware & Computing/Electromagnetic Interference (EMI) — Sources, Shielding, and FCC Certification"
     },
     {
       "source": "Resources/Hardware & Computing/Electronic Testing Tools — Multimeter, Oscilloscope, Logic Analyzer, Spectrum Analyzer",
-      "target": "Resources/Hardware & Computing/ARM Architecture and the Embedded Computing Ecosystem"
+      "target": "Resources/Hardware & Computing/GPIO and Embedded Interfaces (I2C, SPI, UART, CAN, PWM)"
     },
     {
       "source": "Resources/Hardware & Computing/Electronic Testing Tools — Multimeter, Oscilloscope, Logic Analyzer, Spectrum Analyzer",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "target": "Resources/Hardware & Computing/PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)"
     },
     {
       "source": "Resources/Hardware & Computing/Electronic Testing Tools — Multimeter, Oscilloscope, Logic Analyzer, Spectrum Analyzer",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk"
     },
     {
       "source": "Resources/Hardware & Computing/Electronic Testing Tools — Multimeter, Oscilloscope, Logic Analyzer, Spectrum Analyzer",
@@ -22224,35 +22280,43 @@
     },
     {
       "source": "Resources/Hardware & Computing/FPGAs — Reprogrammable Hardware and How HDL Compiles to Gates",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "target": "Resources/Hardware & Computing/Digital Logic — Gates, Flip-Flops, Registers, and Finite State Machines"
     },
     {
       "source": "Resources/Hardware & Computing/FPGAs — Reprogrammable Hardware and How HDL Compiles to Gates",
-      "target": "Resources/Hardware & Computing/GPIO and Embedded Interfaces (I2C, SPI, UART, CAN, PWM)"
+      "target": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)"
     },
     {
       "source": "Resources/Hardware & Computing/FPGAs — Reprogrammable Hardware and How HDL Compiles to Gates",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/RISC-V — Open Source ISA and Why It Matters"
+    },
+    {
+      "source": "Resources/Hardware & Computing/FPGAs — Reprogrammable Hardware and How HDL Compiles to Gates",
+      "target": "Resources/Hardware & Computing/VLSI Design — From RTL to Tape-Out (Synthesis, Place & Route, Timing Closure)"
     },
     {
       "source": "Resources/Hardware & Computing/GPIO and Embedded Interfaces (I2C, SPI, UART, CAN, PWM)",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "target": "Resources/Hardware & Computing/Arduino vs Raspberry Pi — Architecture, Use Cases, and What to Pick"
     },
     {
       "source": "Resources/Hardware & Computing/GPIO and Embedded Interfaces (I2C, SPI, UART, CAN, PWM)",
-      "target": "Resources/Hardware & Computing/FPGAs — Reprogrammable Hardware and How HDL Compiles to Gates"
+      "target": "Resources/Hardware & Computing/Electronic Testing Tools — Multimeter, Oscilloscope, Logic Analyzer, Spectrum Analyzer"
     },
     {
       "source": "Resources/Hardware & Computing/GPIO and Embedded Interfaces (I2C, SPI, UART, CAN, PWM)",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/Microcontrollers vs Microprocessors — Where Each Belongs"
     },
     {
       "source": "Resources/Hardware & Computing/GPIO and Embedded Interfaces (I2C, SPI, UART, CAN, PWM)",
-      "target": "Resources/Hardware & Computing/Single-Board Computers (SBCs) — Key Components and Design (CPU, PMIC, RAM, eMMC)"
+      "target": "Resources/Hardware & Computing/PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/GPIO and Embedded Interfaces (I2C, SPI, UART, CAN, PWM)",
+      "target": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk"
     },
     {
       "source": "Resources/Hardware & Computing/HDMI and DisplayPort Signal Standards — How Video Is Transmitted Digitally",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "target": "Resources/Hardware & Computing/Clock Signals, Crystal Oscillators, PLLs, and Timing"
     },
     {
       "source": "Resources/Hardware & Computing/HDMI and DisplayPort Signal Standards — How Video Is Transmitted Digitally",
@@ -22260,11 +22324,15 @@
     },
     {
       "source": "Resources/Hardware & Computing/HDMI and DisplayPort Signal Standards — How Video Is Transmitted Digitally",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)"
     },
     {
       "source": "Resources/Hardware & Computing/HDMI and DisplayPort Signal Standards — How Video Is Transmitted Digitally",
-      "target": "Resources/Hardware & Computing/Open Hardware and the Maker Movement (KiCad, OSHW, Raspberry Pi Foundation)"
+      "target": "Resources/Hardware & Computing/PCIe Architecture Deep Dive (Lanes, Gen 4 vs Gen 5, Bifurcation)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/HDMI and DisplayPort Signal Standards — How Video Is Transmitted Digitally",
+      "target": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk"
     },
     {
       "source": "Resources/Hardware & Computing/Home Lab Setup Guide",
@@ -22304,7 +22372,11 @@
     },
     {
       "source": "Resources/Hardware & Computing/How NAND Flash Works (SLC-MLC-TLC-QLC Cells, Wear Leveling, FTL Controllers)",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "target": "RAID Levels Explained"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How NAND Flash Works (SLC-MLC-TLC-QLC Cells, Wear Leveling, FTL Controllers)",
+      "target": "Resources/Hardware & Computing/How Semiconductors Work (Silicon, Doping, P-N Junctions, Transistors)"
     },
     {
       "source": "Resources/Hardware & Computing/How NAND Flash Works (SLC-MLC-TLC-QLC Cells, Wear Leveling, FTL Controllers)",
@@ -22312,15 +22384,19 @@
     },
     {
       "source": "Resources/Hardware & Computing/How NAND Flash Works (SLC-MLC-TLC-QLC Cells, Wear Leveling, FTL Controllers)",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/PCIe Architecture Deep Dive (Lanes, Gen 4 vs Gen 5, Bifurcation)"
     },
     {
       "source": "Resources/Hardware & Computing/How NAND Flash Works (SLC-MLC-TLC-QLC Cells, Wear Leveling, FTL Controllers)",
-      "target": "Resources/Hardware & Computing/RISC-V — Open Source ISA and Why It Matters"
+      "target": "Resources/Hardware & Computing/SSD vs HDD — How They Work Internally"
     },
     {
       "source": "Resources/Hardware & Computing/How NPUs Work — Neural Processing Units in Modern SoCs (Apple M-series, Snapdragon)",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "target": "Resources/Hardware & Computing/ARM Architecture and the Embedded Computing Ecosystem"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How NPUs Work — Neural Processing Units in Modern SoCs (Apple M-series, Snapdragon)",
+      "target": "Resources/Hardware & Computing/ASICs vs FPGAs vs CPUs — Design Tradeoffs and When to Use Each"
     },
     {
       "source": "Resources/Hardware & Computing/How NPUs Work — Neural Processing Units in Modern SoCs (Apple M-series, Snapdragon)",
@@ -22328,15 +22404,19 @@
     },
     {
       "source": "Resources/Hardware & Computing/How NPUs Work — Neural Processing Units in Modern SoCs (Apple M-series, Snapdragon)",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)"
     },
     {
       "source": "Resources/Hardware & Computing/How NPUs Work — Neural Processing Units in Modern SoCs (Apple M-series, Snapdragon)",
-      "target": "Resources/Hardware & Computing/PCIe Architecture Deep Dive (Lanes, Gen 4 vs Gen 5, Bifurcation)"
+      "target": "Resources/Hardware & Computing/Memory Technologies — LPDDR vs DDR5 vs HBM and Why It Matters for AI"
     },
     {
       "source": "Resources/Hardware & Computing/How Semiconductors Work (Silicon, Doping, P-N Junctions, Transistors)",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "target": "Resources/Hardware & Computing/CPU Microarchitecture — Pipelines, Branch Prediction, Out-of-Order Execution"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How Semiconductors Work (Silicon, Doping, P-N Junctions, Transistors)",
+      "target": "Resources/Hardware & Computing/Digital Logic — Gates, Flip-Flops, Registers, and Finite State Machines"
     },
     {
       "source": "Resources/Hardware & Computing/How Semiconductors Work (Silicon, Doping, P-N Junctions, Transistors)",
@@ -22344,15 +22424,11 @@
     },
     {
       "source": "Resources/Hardware & Computing/How Semiconductors Work (Silicon, Doping, P-N Junctions, Transistors)",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/VLSI Design — From RTL to Tape-Out (Synthesis, Place & Route, Timing Closure)"
     },
     {
       "source": "Resources/Hardware & Computing/How USB Works Internally (Host Controller, Enumeration, Transfer Types)",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
-    },
-    {
-      "source": "Resources/Hardware & Computing/How USB Works Internally (Host Controller, Enumeration, Transfer Types)",
-      "target": "Resources/Hardware & Computing/Chip Packaging Technologies (BGA, Flip-Chip, Chiplets, 2.5D-3D Stacking)"
+      "target": "Resources/Hardware & Computing/GPIO and Embedded Interfaces (I2C, SPI, UART, CAN, PWM)"
     },
     {
       "source": "Resources/Hardware & Computing/How USB Works Internally (Host Controller, Enumeration, Transfer Types)",
@@ -22360,15 +22436,23 @@
     },
     {
       "source": "Resources/Hardware & Computing/How USB Works Internally (Host Controller, Enumeration, Transfer Types)",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/Microcontrollers vs Microprocessors — Where Each Belongs"
     },
     {
-      "source": "Resources/Hardware & Computing/How a CPU is Fabricated (Photolithography, EUV, TSMC vs Intel Fabs, Yield)",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "source": "Resources/Hardware & Computing/How USB Works Internally (Host Controller, Enumeration, Transfer Types)",
+      "target": "Resources/Hardware & Computing/PCIe Architecture Deep Dive (Lanes, Gen 4 vs Gen 5, Bifurcation)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How USB Works Internally (Host Controller, Enumeration, Transfer Types)",
+      "target": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk"
     },
     {
       "source": "Resources/Hardware & Computing/How a CPU is Fabricated (Photolithography, EUV, TSMC vs Intel Fabs, Yield)",
       "target": "Resources/Hardware & Computing/CPU Microarchitecture — Pipelines, Branch Prediction, Out-of-Order Execution"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How a CPU is Fabricated (Photolithography, EUV, TSMC vs Intel Fabs, Yield)",
+      "target": "Resources/Hardware & Computing/Chip Packaging Technologies (BGA, Flip-Chip, Chiplets, 2.5D-3D Stacking)"
     },
     {
       "source": "Resources/Hardware & Computing/How a CPU is Fabricated (Photolithography, EUV, TSMC vs Intel Fabs, Yield)",
@@ -22376,11 +22460,7 @@
     },
     {
       "source": "Resources/Hardware & Computing/How a CPU is Fabricated (Photolithography, EUV, TSMC vs Intel Fabs, Yield)",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
-    },
-    {
-      "source": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "target": "Resources/Hardware & Computing/VLSI Design — From RTL to Tape-Out (Synthesis, Place & Route, Timing Closure)"
     },
     {
       "source": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)",
@@ -22388,7 +22468,15 @@
     },
     {
       "source": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/How NPUs Work — Neural Processing Units in Modern SoCs (Apple M-series, Snapdragon)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)",
+      "target": "Resources/Hardware & Computing/Memory Technologies — LPDDR vs DDR5 vs HBM and Why It Matters for AI"
+    },
+    {
+      "source": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)",
+      "target": "Resources/Hardware & Computing/PCIe Architecture Deep Dive (Lanes, Gen 4 vs Gen 5, Bifurcation)"
     },
     {
       "source": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)",
@@ -22408,7 +22496,11 @@
     },
     {
       "source": "Resources/Hardware & Computing/Memory Technologies — LPDDR vs DDR5 vs HBM and Why It Matters for AI",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "target": "Resources/Hardware & Computing/CPU Microarchitecture — Pipelines, Branch Prediction, Out-of-Order Execution"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Memory Technologies — LPDDR vs DDR5 vs HBM and Why It Matters for AI",
+      "target": "Resources/Hardware & Computing/Chip Packaging Technologies (BGA, Flip-Chip, Chiplets, 2.5D-3D Stacking)"
     },
     {
       "source": "Resources/Hardware & Computing/Memory Technologies — LPDDR vs DDR5 vs HBM and Why It Matters for AI",
@@ -22416,11 +22508,15 @@
     },
     {
       "source": "Resources/Hardware & Computing/Memory Technologies — LPDDR vs DDR5 vs HBM and Why It Matters for AI",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/How NPUs Work — Neural Processing Units in Modern SoCs (Apple M-series, Snapdragon)"
     },
     {
       "source": "Resources/Hardware & Computing/Memory Technologies — LPDDR vs DDR5 vs HBM and Why It Matters for AI",
-      "target": "Resources/Hardware & Computing/Thermal Design — TDP, Heat Sinks, Heat Pipes, Vapor Chambers, Liquid Cooling"
+      "target": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Microcontrollers vs Microprocessors — Where Each Belongs",
+      "target": "Resources/Hardware & Computing/ARM Architecture and the Embedded Computing Ecosystem"
     },
     {
       "source": "Resources/Hardware & Computing/Microcontrollers vs Microprocessors — Where Each Belongs",
@@ -22428,15 +22524,15 @@
     },
     {
       "source": "Resources/Hardware & Computing/Microcontrollers vs Microprocessors — Where Each Belongs",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "target": "Resources/Hardware & Computing/GPIO and Embedded Interfaces (I2C, SPI, UART, CAN, PWM)"
     },
     {
       "source": "Resources/Hardware & Computing/Microcontrollers vs Microprocessors — Where Each Belongs",
-      "target": "Resources/Hardware & Computing/Digital Logic — Gates, Flip-Flops, Registers, and Finite State Machines"
+      "target": "Resources/Hardware & Computing/RISC-V — Open Source ISA and Why It Matters"
     },
     {
       "source": "Resources/Hardware & Computing/Microcontrollers vs Microprocessors — Where Each Belongs",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/Single-Board Computers (SBCs) — Key Components and Design (CPU, PMIC, RAM, eMMC)"
     },
     {
       "source": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)",
@@ -22476,11 +22572,7 @@
     },
     {
       "source": "Resources/Hardware & Computing/Ohm's Law and Basic Circuit Analysis (KVL, KCL, Voltage Dividers, Thevenin)",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
-    },
-    {
-      "source": "Resources/Hardware & Computing/Ohm's Law and Basic Circuit Analysis (KVL, KCL, Voltage Dividers, Thevenin)",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/Electronic Testing Tools — Multimeter, Oscilloscope, Logic Analyzer, Spectrum Analyzer"
     },
     {
       "source": "Resources/Hardware & Computing/Ohm's Law and Basic Circuit Analysis (KVL, KCL, Voltage Dividers, Thevenin)",
@@ -22488,27 +22580,39 @@
     },
     {
       "source": "Resources/Hardware & Computing/Ohm's Law and Basic Circuit Analysis (KVL, KCL, Voltage Dividers, Thevenin)",
+      "target": "Resources/Hardware & Computing/Power Management ICs — LDOs vs Buck-Boost Converters"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Ohm's Law and Basic Circuit Analysis (KVL, KCL, Voltage Dividers, Thevenin)",
       "target": "Resources/Hardware & Computing/Resistors, Capacitors, Inductors — What They Do and How They Behave"
     },
     {
-      "source": "Resources/Hardware & Computing/Open Hardware and the Maker Movement (KiCad, OSHW, Raspberry Pi Foundation)",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "source": "Resources/Hardware & Computing/Ohm's Law and Basic Circuit Analysis (KVL, KCL, Voltage Dividers, Thevenin)",
+      "target": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk"
     },
     {
       "source": "Resources/Hardware & Computing/Open Hardware and the Maker Movement (KiCad, OSHW, Raspberry Pi Foundation)",
-      "target": "Resources/Hardware & Computing/HDMI and DisplayPort Signal Standards — How Video Is Transmitted Digitally"
+      "target": "Resources/Hardware & Computing/Arduino vs Raspberry Pi — Architecture, Use Cases, and What to Pick"
     },
     {
       "source": "Resources/Hardware & Computing/Open Hardware and the Maker Movement (KiCad, OSHW, Raspberry Pi Foundation)",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Open Hardware and the Maker Movement (KiCad, OSHW, Raspberry Pi Foundation)",
+      "target": "Resources/Hardware & Computing/RISC-V — Open Source ISA and Why It Matters"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Open Hardware and the Maker Movement (KiCad, OSHW, Raspberry Pi Foundation)",
+      "target": "Resources/Hardware & Computing/Single-Board Computers (SBCs) — Key Components and Design (CPU, PMIC, RAM, eMMC)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Open Hardware and the Maker Movement (KiCad, OSHW, Raspberry Pi Foundation)",
+      "target": "Resources/Hardware & Computing/Soldering and PCB Assembly Fundamentals (Through-Hole vs SMD)"
     },
     {
       "source": "Resources/Hardware & Computing/PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
-    },
-    {
-      "source": "Resources/Hardware & Computing/PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/Electronic Testing Tools — Multimeter, Oscilloscope, Logic Analyzer, Spectrum Analyzer"
     },
     {
       "source": "Resources/Hardware & Computing/PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)",
@@ -22516,35 +22620,51 @@
     },
     {
       "source": "Resources/Hardware & Computing/PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)",
-      "target": "Resources/Hardware & Computing/VLSI Design — From RTL to Tape-Out (Synthesis, Place & Route, Timing Closure)"
+      "target": "Resources/Hardware & Computing/Resistors, Capacitors, Inductors — What They Do and How They Behave"
+    },
+    {
+      "source": "Resources/Hardware & Computing/PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)",
+      "target": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk"
+    },
+    {
+      "source": "Resources/Hardware & Computing/PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)",
+      "target": "Resources/Hardware & Computing/Soldering and PCB Assembly Fundamentals (Through-Hole vs SMD)"
     },
     {
       "source": "Resources/Hardware & Computing/PCIe Architecture Deep Dive (Lanes, Gen 4 vs Gen 5, Bifurcation)",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "target": "Resources/Hardware & Computing/Chip Packaging Technologies (BGA, Flip-Chip, Chiplets, 2.5D-3D Stacking)"
     },
     {
       "source": "Resources/Hardware & Computing/PCIe Architecture Deep Dive (Lanes, Gen 4 vs Gen 5, Bifurcation)",
-      "target": "Resources/Hardware & Computing/How NPUs Work — Neural Processing Units in Modern SoCs (Apple M-series, Snapdragon)"
+      "target": "Resources/Hardware & Computing/How NAND Flash Works (SLC-MLC-TLC-QLC Cells, Wear Leveling, FTL Controllers)"
     },
     {
       "source": "Resources/Hardware & Computing/PCIe Architecture Deep Dive (Lanes, Gen 4 vs Gen 5, Bifurcation)",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)"
     },
     {
       "source": "Resources/Hardware & Computing/PCIe Architecture Deep Dive (Lanes, Gen 4 vs Gen 5, Bifurcation)",
-      "target": "Resources/Hardware & Computing/Thermal Design — TDP, Heat Sinks, Heat Pipes, Vapor Chambers, Liquid Cooling"
+      "target": "Resources/Hardware & Computing/Memory Technologies — LPDDR vs DDR5 vs HBM and Why It Matters for AI"
+    },
+    {
+      "source": "Resources/Hardware & Computing/PCIe Architecture Deep Dive (Lanes, Gen 4 vs Gen 5, Bifurcation)",
+      "target": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk"
     },
     {
       "source": "Resources/Hardware & Computing/Power Management ICs — LDOs vs Buck-Boost Converters",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "target": "Resources/Hardware & Computing/Electromagnetic Interference (EMI) — Sources, Shielding, and FCC Certification"
     },
     {
       "source": "Resources/Hardware & Computing/Power Management ICs — LDOs vs Buck-Boost Converters",
-      "target": "Resources/Hardware & Computing/Clock Signals, Crystal Oscillators, PLLs, and Timing"
+      "target": "Resources/Hardware & Computing/Ohm's Law and Basic Circuit Analysis (KVL, KCL, Voltage Dividers, Thevenin)"
     },
     {
       "source": "Resources/Hardware & Computing/Power Management ICs — LDOs vs Buck-Boost Converters",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Power Management ICs — LDOs vs Buck-Boost Converters",
+      "target": "Resources/Hardware & Computing/Resistors, Capacitors, Inductors — What They Do and How They Behave"
     },
     {
       "source": "Resources/Hardware & Computing/Power Management ICs — LDOs vs Buck-Boost Converters",
@@ -22568,31 +22688,39 @@
     },
     {
       "source": "Resources/Hardware & Computing/RISC-V — Open Source ISA and Why It Matters",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "target": "Resources/Hardware & Computing/CPU Microarchitecture — Pipelines, Branch Prediction, Out-of-Order Execution"
     },
     {
       "source": "Resources/Hardware & Computing/RISC-V — Open Source ISA and Why It Matters",
-      "target": "Resources/Hardware & Computing/How NAND Flash Works (SLC-MLC-TLC-QLC Cells, Wear Leveling, FTL Controllers)"
+      "target": "Resources/Hardware & Computing/FPGAs — Reprogrammable Hardware and How HDL Compiles to Gates"
     },
     {
       "source": "Resources/Hardware & Computing/RISC-V — Open Source ISA and Why It Matters",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/GPIO and Embedded Interfaces (I2C, SPI, UART, CAN, PWM)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/RISC-V — Open Source ISA and Why It Matters",
+      "target": "Resources/Hardware & Computing/VLSI Design — From RTL to Tape-Out (Synthesis, Place & Route, Timing Closure)"
     },
     {
       "source": "Resources/Hardware & Computing/Resistors, Capacitors, Inductors — What They Do and How They Behave",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
-    },
-    {
-      "source": "Resources/Hardware & Computing/Resistors, Capacitors, Inductors — What They Do and How They Behave",
-      "target": "Resources/Hardware & Computing/Digital Logic — Gates, Flip-Flops, Registers, and Finite State Machines"
-    },
-    {
-      "source": "Resources/Hardware & Computing/Resistors, Capacitors, Inductors — What They Do and How They Behave",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/Electromagnetic Interference (EMI) — Sources, Shielding, and FCC Certification"
     },
     {
       "source": "Resources/Hardware & Computing/Resistors, Capacitors, Inductors — What They Do and How They Behave",
       "target": "Resources/Hardware & Computing/Ohm's Law and Basic Circuit Analysis (KVL, KCL, Voltage Dividers, Thevenin)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Resistors, Capacitors, Inductors — What They Do and How They Behave",
+      "target": "Resources/Hardware & Computing/PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Resistors, Capacitors, Inductors — What They Do and How They Behave",
+      "target": "Resources/Hardware & Computing/Power Management ICs — LDOs vs Buck-Boost Converters"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Resistors, Capacitors, Inductors — What They Do and How They Behave",
+      "target": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk"
     },
     {
       "source": "Resources/Hardware & Computing/SSD vs HDD — How They Work Internally",
@@ -22608,7 +22736,7 @@
     },
     {
       "source": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "target": "Resources/Hardware & Computing/Clock Signals, Crystal Oscillators, PLLs, and Timing"
     },
     {
       "source": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk",
@@ -22616,11 +22744,19 @@
     },
     {
       "source": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/Electronic Testing Tools — Multimeter, Oscilloscope, Logic Analyzer, Spectrum Analyzer"
     },
     {
       "source": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk",
-      "target": "Resources/Hardware & Computing/Power Management ICs — LDOs vs Buck-Boost Converters"
+      "target": "Resources/Hardware & Computing/PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Signal Integrity — Impedance Matching, Transmission Lines, Reflections, Crosstalk",
+      "target": "Resources/Hardware & Computing/PCIe Architecture Deep Dive (Lanes, Gen 4 vs Gen 5, Bifurcation)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Single-Board Computers (SBCs) — Key Components and Design (CPU, PMIC, RAM, eMMC)",
+      "target": "Resources/Hardware & Computing/ARM Architecture and the Embedded Computing Ecosystem"
     },
     {
       "source": "Resources/Hardware & Computing/Single-Board Computers (SBCs) — Key Components and Design (CPU, PMIC, RAM, eMMC)",
@@ -22628,19 +22764,15 @@
     },
     {
       "source": "Resources/Hardware & Computing/Single-Board Computers (SBCs) — Key Components and Design (CPU, PMIC, RAM, eMMC)",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
-    },
-    {
-      "source": "Resources/Hardware & Computing/Single-Board Computers (SBCs) — Key Components and Design (CPU, PMIC, RAM, eMMC)",
       "target": "Resources/Hardware & Computing/GPIO and Embedded Interfaces (I2C, SPI, UART, CAN, PWM)"
     },
     {
       "source": "Resources/Hardware & Computing/Single-Board Computers (SBCs) — Key Components and Design (CPU, PMIC, RAM, eMMC)",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/Memory Technologies — LPDDR vs DDR5 vs HBM and Why It Matters for AI"
     },
     {
-      "source": "Resources/Hardware & Computing/Soldering and PCB Assembly Fundamentals (Through-Hole vs SMD)",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "source": "Resources/Hardware & Computing/Single-Board Computers (SBCs) — Key Components and Design (CPU, PMIC, RAM, eMMC)",
+      "target": "Resources/Hardware & Computing/Microcontrollers vs Microprocessors — Where Each Belongs"
     },
     {
       "source": "Resources/Hardware & Computing/Soldering and PCB Assembly Fundamentals (Through-Hole vs SMD)",
@@ -22652,7 +22784,15 @@
     },
     {
       "source": "Resources/Hardware & Computing/Soldering and PCB Assembly Fundamentals (Through-Hole vs SMD)",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/Open Hardware and the Maker Movement (KiCad, OSHW, Raspberry Pi Foundation)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Soldering and PCB Assembly Fundamentals (Through-Hole vs SMD)",
+      "target": "Resources/Hardware & Computing/PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Soldering and PCB Assembly Fundamentals (Through-Hole vs SMD)",
+      "target": "Resources/Hardware & Computing/Resistors, Capacitors, Inductors — What They Do and How They Behave"
     },
     {
       "source": "Resources/Hardware & Computing/Thermal Design and CPU-GPU Cooling",
@@ -22668,19 +22808,23 @@
     },
     {
       "source": "Resources/Hardware & Computing/Thermal Design — TDP, Heat Sinks, Heat Pipes, Vapor Chambers, Liquid Cooling",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "target": "Resources/Hardware & Computing/CPU Microarchitecture — Pipelines, Branch Prediction, Out-of-Order Execution"
     },
     {
       "source": "Resources/Hardware & Computing/Thermal Design — TDP, Heat Sinks, Heat Pipes, Vapor Chambers, Liquid Cooling",
-      "target": "Resources/Hardware & Computing/Memory Technologies — LPDDR vs DDR5 vs HBM and Why It Matters for AI"
+      "target": "Resources/Hardware & Computing/How Semiconductors Work (Silicon, Doping, P-N Junctions, Transistors)"
     },
     {
       "source": "Resources/Hardware & Computing/Thermal Design — TDP, Heat Sinks, Heat Pipes, Vapor Chambers, Liquid Cooling",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/How a CPU is Fabricated (Photolithography, EUV, TSMC vs Intel Fabs, Yield)"
     },
     {
       "source": "Resources/Hardware & Computing/Thermal Design — TDP, Heat Sinks, Heat Pipes, Vapor Chambers, Liquid Cooling",
-      "target": "Resources/Hardware & Computing/PCIe Architecture Deep Dive (Lanes, Gen 4 vs Gen 5, Bifurcation)"
+      "target": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/Thermal Design — TDP, Heat Sinks, Heat Pipes, Vapor Chambers, Liquid Cooling",
+      "target": "Resources/Hardware & Computing/Power Management ICs — LDOs vs Buck-Boost Converters"
     },
     {
       "source": "Resources/Hardware & Computing/USB Standards Timeline (USB 2.0 through USB4)",
@@ -22696,19 +22840,23 @@
     },
     {
       "source": "Resources/Hardware & Computing/VLSI Design — From RTL to Tape-Out (Synthesis, Place & Route, Timing Closure)",
-      "target": "Resources/Hardware & Computing/CPU Architecture (RISC vs CISC, ARM vs x86)"
+      "target": "Resources/Hardware & Computing/Chip Packaging Technologies (BGA, Flip-Chip, Chiplets, 2.5D-3D Stacking)"
     },
     {
       "source": "Resources/Hardware & Computing/VLSI Design — From RTL to Tape-Out (Synthesis, Place & Route, Timing Closure)",
-      "target": "Resources/Hardware & Computing/How a GPU is Designed (Shader Cores, SIMD Lanes, Tensor Cores vs CPU Architecture)"
+      "target": "Resources/Hardware & Computing/Digital Logic — Gates, Flip-Flops, Registers, and Finite State Machines"
     },
     {
       "source": "Resources/Hardware & Computing/VLSI Design — From RTL to Tape-Out (Synthesis, Place & Route, Timing Closure)",
-      "target": "Resources/Hardware & Computing/Motherboard and Bus Architecture (PCIe, DMI)"
+      "target": "Resources/Hardware & Computing/FPGAs — Reprogrammable Hardware and How HDL Compiles to Gates"
     },
     {
       "source": "Resources/Hardware & Computing/VLSI Design — From RTL to Tape-Out (Synthesis, Place & Route, Timing Closure)",
-      "target": "Resources/Hardware & Computing/PCB Design Basics (Schematic Capture, Layout, Gerbers, Design Rule Checks)"
+      "target": "Resources/Hardware & Computing/How Semiconductors Work (Silicon, Doping, P-N Junctions, Transistors)"
+    },
+    {
+      "source": "Resources/Hardware & Computing/VLSI Design — From RTL to Tape-Out (Synthesis, Place & Route, Timing Closure)",
+      "target": "Resources/Hardware & Computing/How a CPU is Fabricated (Photolithography, EUV, TSMC vs Intel Fabs, Yield)"
     },
     {
       "source": "Resources/Health & Fitness/Back Health for Desk Workers",
@@ -32707,5 +32855,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-29T06:25:36Z"
+  "generated_at": "2026-05-29T16:21:34Z"
 }
