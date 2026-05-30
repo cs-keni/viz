@@ -838,6 +838,15 @@
       "degree": 1
     },
     {
+      "id": "PTSD",
+      "label": "PTSD",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "PTSD — Symptoms and Treatments",
       "label": "PTSD — Symptoms and Treatments",
       "folder": null,
@@ -3676,7 +3685,7 @@
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 4
+      "degree": 3
     },
     {
       "id": "Resources/Cognitive Science & Biases/Dual Process Theory (System 1 vs System 2)",
@@ -8139,7 +8148,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Learning & Memory/Systems Thinking",
@@ -8540,7 +8549,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Resources/Mental Health & Psychology/Anxiety — Types and Coping Mechanisms",
@@ -8624,7 +8633,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 11
+      "degree": 13
     },
     {
       "id": "Resources/Mental Health & Psychology/Dopamine System — Rewards and Motivation",
@@ -8636,7 +8645,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/Mental Health & Psychology/Emotional Regulation Techniques",
@@ -8876,7 +8885,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 15
+      "degree": 17
     },
     {
       "id": "Resources/Mental Health & Psychology/The Role of Play in Adult Life",
@@ -10120,12 +10129,12 @@
       "label": "Amygdala and Emotional Processing",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The amygdala helps detect emotionally salient information, especially potential threat, and coordinates responses with memory, attention, and body systems. It is not simply the fear center.",
+      "excerpt": "The amygdala is not the 'fear center' — it's the brain's relevance detector, flagging emotionally significant information (threats, rewards, novelty) and coordinating responses across memory, attention, hormones, and body. Fear conditioning happens in the lateral nucleus via NMDA-dependent LTP; extinction creates new safety learning in vmPFC (not erasure of fear); PTSD involves impaired vmPFC→amygdala inhibition.",
       "tags": [
         "resource",
         "neuroscience"
       ],
-      "degree": 4
+      "degree": 8
     },
     {
       "id": "Resources/Neuroscience/Attention Networks in the Brain",
@@ -10156,36 +10165,36 @@
       "label": "Brain Regions and Functions (Simplified Map)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "A simplified brain map links regions to common functions, but real cognition comes from distributed networks. Useful regions include prefrontal cortex, amygdala, hippocampus, basal ganglia, thalamus, cerebellum, and sensory cortices.",
+      "excerpt": "The brain is organized into lobes, subcortical structures, and networks — each with primary functional contributions, but no complex behavior belongs to one region alone. Key regions include the prefrontal cortex (executive control), amygdala (emotional salience), hippocampus (episodic memory), basal ganglia (action selection/habit), thalamus (relay), and cerebellum (timing/prediction). Understanding which region disruptions produce which symptoms is the practical payoff.",
       "tags": [
         "resource",
         "neuroscience"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Neuroscience/Default Mode Network",
       "label": "Default Mode Network",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The default mode network is a set of brain regions active during self-referential thought, mind-wandering, autobiographical memory, and simulation. It is not bad by default, but can be involved in rumination.",
+      "excerpt": "The Default Mode Network (DMN) is the brain's self-simulation system — active during rest, mind-wandering, self-referential thought, social cognition, and future planning. It anti-correlates with the Task Positive Network (TPN); poor DMN suppression during tasks is associated with ADHD and mind-wandering. In depression, the DMN hyperconnects into rumination loops. Meditation and psychedelics both significantly alter DMN activity.",
       "tags": [
         "resource",
         "neuroscience"
       ],
-      "degree": 8
+      "degree": 11
     },
     {
       "id": "Resources/Neuroscience/Hippocampus and Memory Formation",
       "label": "Hippocampus and Memory Formation",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The hippocampus is central for forming episodic memories and linking experiences to context, time, and place. It supports memory consolidation with broader cortical networks.",
+      "excerpt": "The hippocampus is the brain's memory indexer — it binds the scattered cortical traces of an experience into a retrievable record and replays them to the cortex during sleep for long-term consolidation. The DG performs pattern separation; CA3 enables pattern completion; CA1 integrates and outputs. Patient H.M.'s bilateral hippocampal resection proved this structure is essential for new declarative memory but not procedural learning or working memory.",
       "tags": [
         "resource",
         "neuroscience"
       ],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Resources/Neuroscience/How Exercise Affects the Brain (BDNF, Neurogenesis)",
@@ -10228,48 +10237,48 @@
       "label": "Long-Term Potentiation (LTP) and Memory Formation",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Long-term potentiation is a lasting increase in synaptic strength after specific activity patterns. It is one major cellular model for learning and memory, especially in hippocampal circuits.",
+      "excerpt": "Long-term potentiation (LTP) is the lasting strengthening of synaptic connections following coordinated activity — the leading cellular model for how learning physically changes the brain. The NMDA receptor acts as a coincidence detector (requiring both pre and postsynaptic activity to open), triggering CaMKII signaling and AMPA receptor insertion. Early LTP lasts hours; late LTP requires protein synthesis and can last years.",
       "tags": [
         "resource",
         "neuroscience"
       ],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Resources/Neuroscience/Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)",
       "label": "Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Neurochemistry studies signaling molecules that shape mood, attention, learning, arousal, inhibition, and movement. Dopamine, serotonin, GABA, glutamate, and norepinephrine are major players, but none maps cleanly to one emotion or behavior.",
+      "excerpt": "Neurotransmitters are context-dependent modulators, not simple 'happy chemicals' — the same molecule produces different effects depending on receptor type, brain region, and circuit state. This note covers synthesis, release, receptor families, and behavioral roles for glutamate, GABA, dopamine, serotonin, norepinephrine, acetylcholine, and endocannabinoids — plus why the 'chemical imbalance' model of mental illness is an oversimplification.",
       "tags": [
         "resource",
         "neuroscience"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/Neuroscience/Neuron Structure and Electrochemical Signaling",
       "label": "Neuron Structure and Electrochemical Signaling",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Neurons are specialized cells that receive, integrate, and transmit information through electrical impulses and chemical signaling. Their structure includes dendrites, soma, axon, myelin, terminals, and synapses.",
+      "excerpt": "Neurons signal through action potentials — electrical pulses generated by ion channel dynamics — and communicate across synapses via neurotransmitter release. Understanding the mechanism (resting potential, threshold, saltatory conduction, vesicle release) grounds all higher neuroscience: plasticity, drugs, psychiatric conditions, and brain computation.",
       "tags": [
         "resource",
         "neuroscience"
       ],
-      "degree": 4
+      "degree": 7
     },
     {
       "id": "Resources/Neuroscience/Prefrontal Cortex and Decision-Making",
       "label": "Prefrontal Cortex and Decision-Making",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The prefrontal cortex supports planning, inhibition, working memory, goal maintenance, and decision-making. It is especially important when behavior must follow long-term goals rather than immediate impulses.",
+      "excerpt": "The prefrontal cortex (PFC) is the seat of executive function — working memory, inhibitory control, planning, goal maintenance, and value-based decision-making. Different PFC subdivisions do different jobs (dlPFC = working memory, OFC = reward value, vmPFC = somatic markers, ACC = error monitoring). Stress and sleep deprivation selectively impair PFC function, pushing behavior toward reactive amygdala-driven choices.",
       "tags": [
         "resource",
         "neuroscience"
       ],
-      "degree": 7
+      "degree": 11
     },
     {
       "id": "Resources/Neuroscience/Psychedelics and Neuroplasticity (Current Research)",
@@ -10288,12 +10297,12 @@
       "label": "Synaptic Plasticity (Hebbian Learning — Neurons that Fire Together)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Synaptic plasticity is the ability of synapses to strengthen or weaken based on activity. Hebbian learning is the simplified idea that connections strengthen when neurons are active together.",
+      "excerpt": "Synaptic plasticity is the ability of synapses to strengthen (LTP) or weaken (LTD) based on activity patterns. Hebbian learning — 'neurons that fire together wire together' — is the intuitive principle; STDP, CaMKII signaling, and AMPA receptor trafficking are the actual mechanisms. Plasticity explains why practice, attention, and emotional salience all physically change the brain.",
       "tags": [
         "resource",
         "neuroscience"
       ],
-      "degree": 3
+      "degree": 7
     },
     {
       "id": "Resources/Neuroscience/The Gut-Brain Connection (Enteric Nervous System)",
@@ -13155,7 +13164,7 @@
         "resource",
         "sleep-science"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/Sleep Science/Sleep Disorders Overview (Apnea, Insomnia, RLS)",
@@ -15665,15 +15674,6 @@
       "degree": 2
     },
     {
-      "id": "Rumination",
-      "label": "Rumination",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "SAN vs NAS vs DAS — Storage Architecture Compared",
       "label": "SAN vs NAS vs DAS — Storage Architecture Compared",
       "folder": null,
@@ -15761,7 +15761,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 3
+      "degree": 1
     },
     {
       "id": "Synaptic Plasticity (Hebbian Learning)",
@@ -26538,6 +26538,10 @@
     },
     {
       "source": "Resources/Neuroscience/Amygdala and Emotional Processing",
+      "target": "PTSD"
+    },
+    {
+      "source": "Resources/Neuroscience/Amygdala and Emotional Processing",
       "target": "Resources/Mental Health & Psychology/Anxiety — Types and Coping Mechanisms"
     },
     {
@@ -26547,6 +26551,10 @@
     {
       "source": "Resources/Neuroscience/Amygdala and Emotional Processing",
       "target": "Resources/Neuroscience/Hippocampus and Memory Formation"
+    },
+    {
+      "source": "Resources/Neuroscience/Amygdala and Emotional Processing",
+      "target": "Resources/Neuroscience/Prefrontal Cortex and Decision-Making"
     },
     {
       "source": "Resources/Neuroscience/Attention Networks in the Brain",
@@ -26574,6 +26582,10 @@
     },
     {
       "source": "Resources/Neuroscience/Brain Regions and Functions (Simplified Map)",
+      "target": "Resources/Mental Health & Psychology/Dopamine System — Rewards and Motivation"
+    },
+    {
+      "source": "Resources/Neuroscience/Brain Regions and Functions (Simplified Map)",
       "target": "Resources/Neuroscience/Amygdala and Emotional Processing"
     },
     {
@@ -26582,7 +26594,19 @@
     },
     {
       "source": "Resources/Neuroscience/Brain Regions and Functions (Simplified Map)",
+      "target": "Resources/Neuroscience/Hippocampus and Memory Formation"
+    },
+    {
+      "source": "Resources/Neuroscience/Brain Regions and Functions (Simplified Map)",
       "target": "Resources/Neuroscience/Prefrontal Cortex and Decision-Making"
+    },
+    {
+      "source": "Resources/Neuroscience/Default Mode Network",
+      "target": "Resources/Mental Health & Psychology/ADHD — Understanding and Managing It"
+    },
+    {
+      "source": "Resources/Neuroscience/Default Mode Network",
+      "target": "Resources/Mental Health & Psychology/Depression — Biology and Treatment"
     },
     {
       "source": "Resources/Neuroscience/Default Mode Network",
@@ -26594,11 +26618,19 @@
     },
     {
       "source": "Resources/Neuroscience/Default Mode Network",
-      "target": "Rumination"
+      "target": "Resources/Neuroscience/Prefrontal Cortex and Decision-Making"
     },
     {
       "source": "Resources/Neuroscience/Hippocampus and Memory Formation",
       "target": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)"
+    },
+    {
+      "source": "Resources/Neuroscience/Hippocampus and Memory Formation",
+      "target": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)"
+    },
+    {
+      "source": "Resources/Neuroscience/Hippocampus and Memory Formation",
+      "target": "Resources/Neuroscience/Amygdala and Emotional Processing"
     },
     {
       "source": "Resources/Neuroscience/Hippocampus and Memory Formation",
@@ -26650,11 +26682,27 @@
     },
     {
       "source": "Resources/Neuroscience/Long-Term Potentiation (LTP) and Memory Formation",
+      "target": "Resources/Learning & Memory/Spaced Repetition — Theory and Implementation"
+    },
+    {
+      "source": "Resources/Neuroscience/Long-Term Potentiation (LTP) and Memory Formation",
       "target": "Resources/Neuroscience/Hippocampus and Memory Formation"
     },
     {
       "source": "Resources/Neuroscience/Long-Term Potentiation (LTP) and Memory Formation",
-      "target": "Synaptic Plasticity (Hebbian Learning — \"Neurons that Fire Together\")"
+      "target": "Resources/Neuroscience/Neuron Structure and Electrochemical Signaling"
+    },
+    {
+      "source": "Resources/Neuroscience/Long-Term Potentiation (LTP) and Memory Formation",
+      "target": "Resources/Neuroscience/Synaptic Plasticity (Hebbian Learning — Neurons that Fire Together)"
+    },
+    {
+      "source": "Resources/Neuroscience/Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)",
+      "target": "Resources/Mental Health & Psychology/ADHD — Understanding and Managing It"
+    },
+    {
+      "source": "Resources/Neuroscience/Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)",
+      "target": "Resources/Mental Health & Psychology/Depression — Biology and Treatment"
     },
     {
       "source": "Resources/Neuroscience/Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)",
@@ -26674,15 +26722,19 @@
     },
     {
       "source": "Resources/Neuroscience/Neuron Structure and Electrochemical Signaling",
+      "target": "Resources/Neuroscience/Long-Term Potentiation (LTP) and Memory Formation"
+    },
+    {
+      "source": "Resources/Neuroscience/Neuron Structure and Electrochemical Signaling",
       "target": "Resources/Neuroscience/Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)"
     },
     {
       "source": "Resources/Neuroscience/Neuron Structure and Electrochemical Signaling",
-      "target": "Synaptic Plasticity (Hebbian Learning — \"Neurons that Fire Together\")"
+      "target": "Resources/Neuroscience/Synaptic Plasticity (Hebbian Learning — Neurons that Fire Together)"
     },
     {
       "source": "Resources/Neuroscience/Prefrontal Cortex and Decision-Making",
-      "target": "Resources/Cognitive Science & Biases/Decision Fatigue"
+      "target": "Resources/Mental Health & Psychology/ADHD — Understanding and Managing It"
     },
     {
       "source": "Resources/Neuroscience/Prefrontal Cortex and Decision-Making",
@@ -26690,7 +26742,15 @@
     },
     {
       "source": "Resources/Neuroscience/Prefrontal Cortex and Decision-Making",
-      "target": "Resources/Sleep Science/Sleep Deprivation — Cognitive and Physical Effects"
+      "target": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)"
+    },
+    {
+      "source": "Resources/Neuroscience/Prefrontal Cortex and Decision-Making",
+      "target": "Resources/Neuroscience/Amygdala and Emotional Processing"
+    },
+    {
+      "source": "Resources/Neuroscience/Prefrontal Cortex and Decision-Making",
+      "target": "Resources/Neuroscience/Default Mode Network"
     },
     {
       "source": "Resources/Neuroscience/Psychedelics and Neuroplasticity (Current Research)",
@@ -26710,11 +26770,19 @@
     },
     {
       "source": "Resources/Neuroscience/Synaptic Plasticity (Hebbian Learning — Neurons that Fire Together)",
+      "target": "Resources/Mental Health & Psychology/Dopamine System — Rewards and Motivation"
+    },
+    {
+      "source": "Resources/Neuroscience/Synaptic Plasticity (Hebbian Learning — Neurons that Fire Together)",
       "target": "Resources/Mental Health & Psychology/Neuroplasticity"
     },
     {
       "source": "Resources/Neuroscience/Synaptic Plasticity (Hebbian Learning — Neurons that Fire Together)",
       "target": "Resources/Neuroscience/Long-Term Potentiation (LTP) and Memory Formation"
+    },
+    {
+      "source": "Resources/Neuroscience/Synaptic Plasticity (Hebbian Learning — Neurons that Fire Together)",
+      "target": "Resources/Neuroscience/Neuron Structure and Electrochemical Signaling"
     },
     {
       "source": "Resources/Neuroscience/The Gut-Brain Connection (Enteric Nervous System)",
@@ -33045,5 +33113,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-30T07:33:43Z"
+  "generated_at": "2026-05-30T14:35:44Z"
 }
