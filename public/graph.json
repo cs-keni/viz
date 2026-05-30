@@ -3384,7 +3384,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 14
+      "degree": 13
     },
     {
       "id": "Resources/Chemistry & Biochemistry/Alcohol Metabolism (Ethanol to Acetaldehyde to Acetate)",
@@ -4682,7 +4682,7 @@
         "resource",
         "database-systems"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/Database Systems/Relational Database Design",
@@ -6357,7 +6357,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Hardware & Computing/ARM Architecture and the Embedded Computing Ecosystem",
@@ -9506,7 +9506,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 12
+      "degree": 11
     },
     {
       "id": "Resources/Networking & Protocols/Anycast Routing — How CDNs and Public DNS (1.1.1.1, 8.8.8.8) Scale Globally",
@@ -11903,7 +11903,7 @@
         "startups",
         "projects"
       ],
-      "degree": 11
+      "degree": 10
     },
     {
       "id": "Resources/Product Management/Activation Metrics",
@@ -12566,7 +12566,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/References/VanossGaming - Dewit",
@@ -12636,7 +12636,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 9
+      "degree": 7
     },
     {
       "id": "Resources/Security & Privacy/API Key Management",
@@ -13505,7 +13505,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 10
+      "degree": 8
     },
     {
       "id": "Resources/Software Engineering/API Design — Server-Sent Events",
@@ -14527,7 +14527,7 @@
         "architecture",
         "interview-prep"
       ],
-      "degree": 15
+      "degree": 13
     },
     {
       "id": "Resources/System Design Interview Rubric",
@@ -14626,7 +14626,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/System Design/Consensus Algorithms (Raft, Paxos)",
@@ -14650,7 +14650,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 12
+      "degree": 14
     },
     {
       "id": "Resources/System Design/Content Delivery and Edge Computing",
@@ -14693,7 +14693,7 @@
       "label": "Design Twitter X Feed",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Designing a Twitter/X feed tests fanout, timeline generation, ranking, social graph storage, media handling, caching, and realtime updates. The core tradeoff is fanout-on-write versus fanout-on-read.",
+      "excerpt": "Twitter/X feed design centers on the fan-out problem: when a user posts, how do followers' feeds get updated? Fan-out on write (push): tweet is inserted into each follower's timeline at write time — reads are O(1) from cache, but a celebrity with 10M followers generates 10M writes per tweet. Fan-out on read (pull): followers' feeds computed on demand by merging followed-user posts — reads are expensive (scatter-gather N users), writes are cheap. Twitter's hybrid: fan-out on write for normal accounts (<~10K followers), fan-out on read for celebrities (>1M followers), merged at read time. Home timeline cached in Redis sorted set per user (max 800 tweets). Ranking: chronological timeline → ML ranking model → reranked feed.",
       "tags": [
         "resource",
         "system-design"
@@ -14705,12 +14705,12 @@
       "label": "Design Uber Ride-Sharing Backend",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Designing an Uber-like backend tests geospatial indexing, realtime location updates, matching, dispatch, pricing, trip state, payments, and reliability. It is a stateful realtime marketplace problem.",
+      "excerpt": "Uber's backend is a real-time geospatial marketplace. Core components: location service (drivers stream GPS every 4s → Redis geospatial index with 30s TTL), matching service (geohash/S2 cell lookup for nearby drivers → rank by ETA not distance → offer to top driver, 15s accept window), trip state machine (REQUESTED → DRIVER_ASSIGNED → EN_ROUTE → ARRIVED → IN_PROGRESS → COMPLETED), surge pricing (supply/demand ratio per geographic cell → pricing multiplier). Data consistency split: driver location = eventually consistent (Redis, lose old data), trip state = strongly consistent (MySQL with explicit state transitions). ETA calculation uses Dijkstra on road network graph (OpenStreetMap), updated with real-time traffic data. Payment uses saga pattern: authorize → complete trip → capture → send receipt.",
       "tags": [
         "resource",
         "system-design"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/System Design/Design a Chat Application",
@@ -14722,14 +14722,14 @@
         "resource",
         "system-design"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/System Design/Design a Distributed Cache",
       "label": "Design a Distributed Cache",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Designing a distributed cache tests key partitioning, replication, eviction, consistency, failure recovery, hot keys, and client routing. It is a core infrastructure system for reducing backend load.",
+      "excerpt": "Distributed cache design covers: consistent hashing for key→node routing (adding one node remaps only ~1/N keys vs modulo's ~(N-1)/N), replication (primary-replica for read scale, Redis Sentinel for failover), eviction policies (LRU via doubly-linked list + hashmap O(1); LFU via frequency buckets + decay), and three failure modes (stampede, penetration, avalanche — each with specific mitigations). Hot key problem: single viral key overwhelms one node — solutions: local L1 in-process cache + distributed L2, or key sharding (post:123:shard:0..9 spread across 10 nodes). Redis Cluster uses 16,384 hash slots mapped to nodes, gossip protocol for cluster state, CRC16(key) % 16384 for slot assignment.",
       "tags": [
         "resource",
         "system-design"
@@ -14765,24 +14765,24 @@
       "label": "Design a Payment System",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Designing a payment system tests correctness, idempotency, ledger modeling, provider integration, retries, reconciliation, fraud checks, and auditability. Reliability matters more than raw throughput.",
+      "excerpt": "Payment system design prioritizes correctness over throughput. The central pattern: PaymentIntent (Stripe's model) — create intent → confirm → provider webhook updates status. Idempotency is non-negotiable: client generates UUID before request; server stores (idempotency_key → result) for 24h; on retry returns stored result without re-charging. Ledger uses double-entry bookkeeping: every money movement = debit one account + credit another in same transaction, append-only, never delete. State machine: CREATED → PROCESSING → AUTHORIZED → CAPTURED → REFUNDED → FAILED → DISPUTED. Provider webhook handling: verify HMAC signature → process idempotently → respond 200 immediately → process async. Amounts stored as integers in smallest unit (cents); never use floating point for money.",
       "tags": [
         "resource",
         "system-design"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/System Design/Design a Rate Limiter",
       "label": "Design a Rate Limiter",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Designing a rate limiter tests algorithms, distributed counters, identity keys, storage, latency, consistency, and failure behavior. The goal is to protect systems while being predictable for legitimate clients.",
+      "excerpt": "Rate limiter system design (as a service, not just the algorithm) covers: where to enforce (client library, API gateway plugin, or standalone middleware service), what identity to limit by (IP, user_id, API key, tenant — multi-tier applied in order), which algorithm to use (sliding window counter: O(1) storage, ~99.6% accuracy, Cloudflare-validated), and how to handle failures (fail-open = allow all when Redis is down, standard choice for availability-first services). Redis-backed centralized enforcement adds ~1-2ms. Multi-datacenter: regional Redis clusters with slight overcounting accepted. Dynamic rules: limits stored in Redis/DB and hot-reloaded, not hardcoded. See Rate Limiting Algorithms note for the five algorithm implementations in detail.",
       "tags": [
         "resource",
         "system-design"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/System Design/Design a Recommendation System",
@@ -14801,7 +14801,7 @@
       "label": "Design a Scheduling System (like Calendly)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Designing a Calendly-like scheduling system tests availability calculation, calendar integrations, time zones, booking holds, conflict prevention, notifications, and consistency. Time handling is the hidden complexity.",
+      "excerpt": "Scheduling system design (Calendly-like) has three hard problems: time zone correctness (always store UTC, use IANA zone names not fixed offsets, convert at display time — DST changes offsets), slot computation (generate slots from availability rules → subtract busy events from Google Calendar/Outlook sync → return free slots), and double-booking prevention (unique constraint on (host_user_id, start_time) + SELECT FOR UPDATE + booking hold TTL). Calendly's availability model: rules define working hours per day-of-week, with minimum buffer between meetings, maximum meetings per day, and blackout dates. Calendar sync: OAuth2 → Google Calendar API polling + webhook push for real-time busy event updates.",
       "tags": [
         "resource",
         "system-design"
@@ -14854,7 +14854,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/System Design/Distributed Locking",
@@ -14890,7 +14890,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/System Design/Idempotency in Distributed Systems",
@@ -14902,7 +14902,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 19
+      "degree": 20
     },
     {
       "id": "Resources/System Design/Leader Election",
@@ -14938,7 +14938,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 16
+      "degree": 15
     },
     {
       "id": "Resources/System Design/PACELC Theorem",
@@ -14962,7 +14962,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
@@ -14986,7 +14986,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 14
+      "degree": 16
     },
     {
       "id": "Resources/System Design/Scalability — Horizontal vs Vertical",
@@ -15017,7 +15017,7 @@
       "label": "WebRTC Architecture",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "WebRTC enables low-latency peer-to-peer audio, video, and data communication in browsers and apps. Its architecture combines signaling, ICE, STUN, TURN, RTP media, and optional SFU/MCU servers.",
+      "excerpt": "WebRTC enables browser-native real-time audio/video/data P2P communication. Connection setup: Offer/Answer SDP exchange via signaling (WebSocket) → ICE candidate gathering (local, reflexive via STUN, relay via TURN) → connectivity checks → best path selected. STUN discovers public IP behind NAT; TURN relays traffic when direct P2P fails (symmetric NAT, strict firewall) — target <30% of calls needing TURN. Group calls: full mesh (N×(N-1)/2 connections, breaks at 5+ people) → SFU (Selective Forwarding Unit: participants send 1 upstream, SFU routes to all others, supports simulcast) → MCU (server-side mixing, 1 downstream per participant but CPU-expensive). Production SFU implementations: Livekit (Go), mediasoup (Node.js), Janus, Jitsi. Media is SRTP (encrypted by default via DTLS key exchange).",
       "tags": [
         "resource",
         "system-design"
@@ -32332,11 +32332,7 @@
     },
     {
       "source": "Resources/System Design/Design Twitter X Feed",
-      "target": "Resources/System Design Case Studies"
-    },
-    {
-      "source": "Resources/System Design/Design Twitter X Feed",
-      "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
+      "target": "Resources/System Design/Consistent Hashing"
     },
     {
       "source": "Resources/System Design/Design Twitter X Feed",
@@ -32348,11 +32344,15 @@
     },
     {
       "source": "Resources/System Design/Design Twitter X Feed",
-      "target": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)"
+      "target": "Resources/System Design/Pub Sub Architecture"
+    },
+    {
+      "source": "Resources/System Design/Design Twitter X Feed",
+      "target": "Resources/System Design/Real-Time Systems Design"
     },
     {
       "source": "Resources/System Design/Design Uber Ride-Sharing Backend",
-      "target": "Resources/Geospatial"
+      "target": "Resources/System Design/Consistent Hashing"
     },
     {
       "source": "Resources/System Design/Design Uber Ride-Sharing Backend",
@@ -32392,15 +32392,15 @@
     },
     {
       "source": "Resources/System Design/Design a Distributed Cache",
-      "target": "Resources/Caching"
-    },
-    {
-      "source": "Resources/System Design/Design a Distributed Cache",
       "target": "Resources/System Design/Cache Invalidation Patterns"
     },
     {
       "source": "Resources/System Design/Design a Distributed Cache",
       "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
+    },
+    {
+      "source": "Resources/System Design/Design a Distributed Cache",
+      "target": "Resources/System Design/Circuit Breaker Pattern"
     },
     {
       "source": "Resources/System Design/Design a Distributed Cache",
@@ -32452,11 +32452,7 @@
     },
     {
       "source": "Resources/System Design/Design a Payment System",
-      "target": "Resources/Security"
-    },
-    {
-      "source": "Resources/System Design/Design a Payment System",
-      "target": "Resources/System Design Case Studies"
+      "target": "Resources/System Design/Design Uber Ride-Sharing Backend"
     },
     {
       "source": "Resources/System Design/Design a Payment System",
@@ -32468,23 +32464,23 @@
     },
     {
       "source": "Resources/System Design/Design a Payment System",
+      "target": "Resources/System Design/Eventual Consistency"
+    },
+    {
+      "source": "Resources/System Design/Design a Payment System",
       "target": "Resources/System Design/Idempotency in Distributed Systems"
     },
     {
       "source": "Resources/System Design/Design a Rate Limiter",
-      "target": "Resources/Database Systems/Redis Patterns (Caching, Pub Sub, Job Queues, Rate Limiting)"
+      "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
     },
     {
       "source": "Resources/System Design/Design a Rate Limiter",
-      "target": "Resources/Rate Limiting"
+      "target": "Resources/System Design/Design an API Gateway"
     },
     {
       "source": "Resources/System Design/Design a Rate Limiter",
-      "target": "Resources/Security"
-    },
-    {
-      "source": "Resources/System Design/Design a Rate Limiter",
-      "target": "Resources/Software Engineering/API Design — REST Principles"
+      "target": "Resources/System Design/Idempotency in Distributed Systems"
     },
     {
       "source": "Resources/System Design/Design a Rate Limiter",
@@ -32512,15 +32508,11 @@
     },
     {
       "source": "Resources/System Design/Design a Scheduling System (like Calendly)",
-      "target": "Resources/Product Engineering"
-    },
-    {
-      "source": "Resources/System Design/Design a Scheduling System (like Calendly)",
-      "target": "Resources/Software Engineering/API Design — REST Principles"
-    },
-    {
-      "source": "Resources/System Design/Design a Scheduling System (like Calendly)",
       "target": "Resources/System Design/Design a Notification System"
+    },
+    {
+      "source": "Resources/System Design/Design a Scheduling System (like Calendly)",
+      "target": "Resources/System Design/Design a Payment System"
     },
     {
       "source": "Resources/System Design/Design a Scheduling System (like Calendly)",
@@ -32529,6 +32521,10 @@
     {
       "source": "Resources/System Design/Design a Scheduling System (like Calendly)",
       "target": "Resources/System Design/Idempotency in Distributed Systems"
+    },
+    {
+      "source": "Resources/System Design/Design a Scheduling System (like Calendly)",
+      "target": "Resources/System Design/Real-Time Systems Design"
     },
     {
       "source": "Resources/System Design/Design a Search Engine",
@@ -32844,15 +32840,15 @@
     },
     {
       "source": "Resources/System Design/WebRTC Architecture",
-      "target": "Resources/Networking"
-    },
-    {
-      "source": "Resources/System Design/WebRTC Architecture",
       "target": "Resources/Software Engineering/API Design — WebSockets"
     },
     {
       "source": "Resources/System Design/WebRTC Architecture",
       "target": "Resources/System Design/Content Delivery and Edge Computing"
+    },
+    {
+      "source": "Resources/System Design/WebRTC Architecture",
+      "target": "Resources/System Design/Design a Chat Application"
     },
     {
       "source": "Resources/System Design/WebRTC Architecture",
@@ -33451,5 +33447,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-30T19:38:03Z"
+  "generated_at": "2026-05-30T21:27:13Z"
 }
