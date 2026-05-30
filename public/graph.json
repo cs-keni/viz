@@ -3230,12 +3230,12 @@
       "label": "Arrays and Dynamic Arrays",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Arrays store elements contiguously for fast index access, while dynamic arrays resize as they grow. They are simple, cache-friendly, and foundational for many data structures and algorithm patterns.",
+      "excerpt": "Arrays store elements in contiguous memory — the contiguity is why they're fast (cache lines load 64 bytes at a time). Dynamic arrays (Python list, Java ArrayList, C++ vector) grow by doubling capacity when full, giving amortized O(1) append. The key operation costs: O(1) random access, O(n) insert/delete at arbitrary index (shifts elements). Prefix sums and two-pointer patterns are the two highest-value array techniques in interview problems.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 13
+      "degree": 15
     },
     {
       "id": "Resources/CS Theory & Algorithms/Automata Theory Basics (DFA, NFA)",
@@ -3290,7 +3290,7 @@
       "label": "Bloom Filters",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Bloom filters are compact probabilistic data structures for membership checks. They can say an item is definitely not present or possibly present, trading false positives for memory efficiency.",
+      "excerpt": "A Bloom filter is a bit array + k hash functions that answers set membership queries in O(k) time with O(m) space — far less than storing actual keys. False positives are possible (maybe-present when not-present), false negatives are impossible (definitely-not-present is always correct). Optimal parameters: k = (m/n) × ln(2), false positive rate p = (1 - e^(-kn/m))^k. Real uses: Cassandra avoids disk reads for missing keys, Chrome Safe Browsing checks URLs, Redis has a Bloom Filter module. Counting Bloom filter supports deletion at cost of more space.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
@@ -3331,7 +3331,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 8
+      "degree": 11
     },
     {
       "id": "Resources/CS Theory & Algorithms/Graph Traversal (BFS, DFS)",
@@ -3343,19 +3343,19 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/CS Theory & Algorithms/Graphs — Representations (Adjacency List vs Matrix)",
       "label": "Graphs — Representations (Adjacency List vs Matrix)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Graph representation determines how efficiently algorithms inspect neighbors, edges, and connectivity. Adjacency lists are space-efficient for sparse graphs, while adjacency matrices make edge lookup simple but cost more memory.",
+      "excerpt": "Graphs model pairwise relationships. Three representations: adjacency list (dict of lists, O(V+E) space — default for most problems), adjacency matrix (V×V array, O(V²) space, O(1) edge lookup — for dense graphs or Floyd-Warshall), edge list (list of tuples, minimal space — for Kruskal's or when edges are processed wholesale). In Python: defaultdict(list) for adjacency list. Directed vs undirected, weighted vs unweighted, cyclic vs DAG — these properties determine which algorithm applies.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/CS Theory & Algorithms/Greedy Algorithms",
@@ -3374,19 +3374,19 @@
       "label": "Hash Tables — Collision Resolution (Chaining, Open Addressing)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Hash tables map keys to values using a hash function and an array of buckets. Collision resolution strategies such as chaining and open addressing determine how the table behaves when multiple keys land in the same place.",
+      "excerpt": "Hash tables achieve O(1) average-case lookup by mapping keys to array slots via a hash function. Collision resolution: chaining stores collisions in linked lists (Java HashMap) or trees (Java 8+ for long chains); open addressing probes for empty slots (Python dict uses this). Load factor triggers resizing — Java at 0.75, Python at ~2/3. Worst case O(n) if all keys hash to the same slot — modern runtimes use randomized hash seeds to prevent adversarial hash DoS attacks. Python dict and set are both hash tables.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 10
+      "degree": 13
     },
     {
       "id": "Resources/CS Theory & Algorithms/Heaps and Priority Queues",
       "label": "Heaps and Priority Queues",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Heaps are tree-shaped structures that efficiently expose the minimum or maximum element. Priority queues use heaps to process items by priority, supporting scheduling, shortest paths, streaming top-k, and event simulation.",
+      "excerpt": "A binary heap is a complete binary tree stored in an array where parent ≤ children (min-heap). Parent of node i is at (i-1)//2; children are at 2i+1 and 2i+2. Insert: add at end, sift-up O(log n). Extract-min: swap root with last, remove last, sift-down O(log n). Heapify an array in O(n) — not O(n log n). Python heapq is a min-heap. Top-k pattern: maintain a min-heap of size k; if new element > heap min, replace it. Median of stream: two heaps (max-heap left half, min-heap right half).",
       "tags": [
         "resource",
         "cs-theory-algorithms"
@@ -3398,12 +3398,12 @@
       "label": "Linked Lists (Singly, Doubly, Circular)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Linked lists store elements as nodes connected by pointers rather than contiguous memory. They make local insertion and deletion cheap when the node is known, but sacrifice cache locality and fast random access.",
+      "excerpt": "Linked lists store nodes connected by pointers — O(1) insert/delete when you have the node pointer, O(n) random access. In practice, arrays beat linked lists for most use cases due to cache locality (pointer chasing is 10–100x slower than sequential array iteration). Key interview patterns: Floyd's cycle detection (slow/fast pointer), reverse in-place (three-pointer), find middle (slow/fast). Real production use: doubly linked list + hash map = O(1) LRU cache.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/CS Theory & Algorithms/Memoization vs Tabulation",
@@ -3451,7 +3451,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 11
+      "degree": 9
     },
     {
       "id": "Resources/CS Theory & Algorithms/Regular Expressions — Theory and Practice",
@@ -3499,7 +3499,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/CS Theory & Algorithms/Skip Lists",
@@ -3523,7 +3523,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)",
@@ -3535,7 +3535,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/CS Theory & Algorithms/Sorting Algorithms — Non-Comparison (Radix, Counting, Bucket)",
@@ -3554,12 +3554,12 @@
       "label": "Stacks and Queues",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Stacks and queues are linear data structures with constrained access patterns. Stacks use last-in-first-out behavior, while queues use first-in-first-out behavior, making them useful for parsing, traversal, scheduling, and buffering.",
+      "excerpt": "Stacks (LIFO) and queues (FIFO) are constrained-access structures whose value lies in the constraint itself — it forces a discipline that makes certain algorithms correct and efficient. Monotonic stack is the single most underutilized interview pattern: maintain a stack where elements are always increasing (or decreasing), enabling O(n) solutions to 'next greater element', histogram area, and trap water problems. In Python: list as stack (append/pop), collections.deque as queue (append/popleft — never use list for queue, popleft is O(n)).",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/CS Theory & Algorithms/String Matching Algorithms (KMP, Rabin-Karp)",
@@ -3583,26 +3583,26 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black",
       "label": "Trees — Binary, BST, AVL, Red-Black",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Trees are hierarchical data structures made of nodes and parent-child relationships. Binary trees, search trees, AVL trees, and red-black trees trade structure and balancing rules for efficient lookup, insertion, deletion, and ordered traversal.",
+      "excerpt": "Binary Search Trees give O(log n) search/insert/delete when balanced — but degenerate to O(n) if the tree becomes a linked list (sorted input is the classic trigger). AVL trees maintain strict balance (|height_left - height_right| ≤ 1) via rotations after every insert/delete. Red-black trees use 5 color invariants for looser balance — O(log n) guaranteed, fewer rotations than AVL, used in Java TreeMap and Linux kernel. In-order traversal of a BST yields sorted order. Python has no built-in BST — use sortedcontainers.SortedList.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 8
+      "degree": 11
     },
     {
       "id": "Resources/CS Theory & Algorithms/Tries (Prefix Trees)",
       "label": "Tries (Prefix Trees)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Tries store strings by sharing common prefixes across paths in a tree. They are useful for autocomplete, prefix queries, dictionaries, routing tables, and problems where prefix structure matters more than full-key hashing.",
+      "excerpt": "A trie (prefix tree) stores strings by sharing common prefixes — each node represents one character, paths from root to leaf nodes spell out words. Lookup, insert, and prefix search are all O(L) where L = key length, independent of the number of stored keys. Key advantage over hash map: prefix queries ('all words starting with ca-') are O(L + k) vs O(n) linear scan. Memory: each node needs 26 child pointers for lowercase English — use dict-of-children for sparse alphabets. Radix tree / compressed trie collapses single-child chains into one edge.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
@@ -3631,7 +3631,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Caching",
@@ -3645,7 +3645,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 13
+      "degree": 12
     },
     {
       "id": "Resources/Chemistry & Biochemistry/Alcohol Metabolism (Ethanol to Acetaldehyde to Acetate)",
@@ -4760,7 +4760,7 @@
         "neetcode",
         "interview-prep"
       ],
-      "degree": 14
+      "degree": 10
     },
     {
       "id": "Resources/Database Internals Deep Dive",
@@ -8500,7 +8500,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 12
+      "degree": 11
     },
     {
       "id": "Resources/Mathematics/Boolean Algebra and Logic Gates",
@@ -8632,7 +8632,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 12
+      "degree": 11
     },
     {
       "id": "Resources/Mathematics/Information Theory — Entropy, Cross-Entropy, KL Divergence",
@@ -8740,7 +8740,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/Mathematics/Optimization — Convex vs Non-Convex",
@@ -8776,7 +8776,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/Mechanistic Interpretability",
@@ -12883,7 +12883,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 9
+      "degree": 7
     },
     {
       "id": "Resources/Security",
@@ -14875,7 +14875,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "Resources/System Design/Circuit Breaker Pattern",
@@ -15079,7 +15079,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/System Design/Design a URL Shortener",
@@ -15959,7 +15959,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 3
+      "degree": 1
     },
     {
       "id": "Sleep Architecture — REM and Non-REM",
@@ -16027,6 +16027,15 @@
     {
       "id": "Synaptic Plasticity (Hebbian Learning)",
       "label": "Synaptic Plasticity (Hebbian Learning)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "System Design — Cassandra",
+      "label": "System Design — Cassandra",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -18530,19 +18539,23 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays",
+      "target": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays",
+      "target": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays",
       "target": "Resources/CS Theory & Algorithms/Sliding Window Technique"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays",
+      "target": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays",
       "target": "Resources/CS Theory & Algorithms/Two-Pointer Technique"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays",
-      "target": "Resources/Data Structures and Algorithms Patterns"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays",
-      "target": "Resources/Mathematics/Big-O Notation and Complexity Analysis"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Automata Theory Basics (DFA, NFA)",
@@ -18618,11 +18631,11 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Bloom Filters",
-      "target": "Resources/Caching"
+      "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Bloom Filters",
-      "target": "Resources/Search Systems"
+      "target": "System Design — Cassandra"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Computational Complexity Classes (P, NP, NP-Hard)",
@@ -18698,11 +18711,15 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Graphs — Representations (Adjacency List vs Matrix)",
-      "target": "Resources/Mathematics/Graph Theory Fundamentals"
+      "target": "Resources/CS Theory & Algorithms/Shortest Path Algorithms (Dijkstra, Bellman-Ford, A-star, Floyd-Warshall)"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Graphs — Representations (Adjacency List vs Matrix)",
-      "target": "Shortest Path Algorithms (Dijkstra, Bellman-Ford, A*, Floyd-Warshall)"
+      "target": "Resources/CS Theory & Algorithms/Topological Sort"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Graphs — Representations (Adjacency List vs Matrix)",
+      "target": "Resources/CS Theory & Algorithms/Union-Find (Disjoint Set Union)"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Greedy Algorithms",
@@ -18722,19 +18739,27 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)",
+      "target": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)",
       "target": "Resources/CS Theory & Algorithms/Bloom Filters"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)",
-      "target": "Resources/Mathematics/Number Theory Basics (Primes, Modular Arithmetic)"
+      "target": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)",
-      "target": "Resources/Mathematics/Set Theory"
+      "target": "Resources/CS Theory & Algorithms/Linked Lists (Singly, Doubly, Circular)"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)",
       "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Heaps and Priority Queues",
+      "target": "Resources/CS Theory & Algorithms/Shortest Path Algorithms (Dijkstra, Bellman-Ford, A-star, Floyd-Warshall)"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Heaps and Priority Queues",
@@ -18746,11 +18771,7 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Heaps and Priority Queues",
-      "target": "Resources/Data Structures and Algorithms Patterns"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/Heaps and Priority Queues",
-      "target": "Shortest Path Algorithms (Dijkstra, Bellman-Ford, A*, Floyd-Warshall)"
+      "target": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Linked Lists (Singly, Doubly, Circular)",
@@ -18758,15 +18779,15 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Linked Lists (Singly, Doubly, Circular)",
-      "target": "Resources/CS Theory & Algorithms/Recursion and Stack Frames"
+      "target": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Linked Lists (Singly, Doubly, Circular)",
+      "target": "Resources/CS Theory & Algorithms/Stacks and Queues"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Linked Lists (Singly, Doubly, Circular)",
       "target": "Resources/CS Theory & Algorithms/Two-Pointer Technique"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/Linked Lists (Singly, Doubly, Circular)",
-      "target": "Resources/Data Structures and Algorithms Patterns"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Memoization vs Tabulation",
@@ -18970,11 +18991,15 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Stacks and Queues",
+      "target": "Resources/CS Theory & Algorithms/Linked Lists (Singly, Doubly, Circular)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Stacks and Queues",
       "target": "Resources/CS Theory & Algorithms/Recursion and Stack Frames"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Stacks and Queues",
-      "target": "Resources/Data Structures and Algorithms Patterns"
+      "target": "Resources/CS Theory & Algorithms/Sliding Window Technique"
     },
     {
       "source": "Resources/CS Theory & Algorithms/String Matching Algorithms (KMP, Rabin-Karp)",
@@ -19014,15 +19039,23 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black",
+      "target": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black",
+      "target": "Resources/CS Theory & Algorithms/Graph Traversal (BFS, DFS)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black",
       "target": "Resources/CS Theory & Algorithms/Heaps and Priority Queues"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black",
-      "target": "Resources/CS Theory & Algorithms/Recursion and Stack Frames"
+      "target": "Resources/CS Theory & Algorithms/Segment Trees and Fenwick Trees"
     },
     {
-      "source": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black",
-      "target": "Resources/CS Theory & Algorithms/Segment Trees and Fenwick Trees"
+      "source": "Resources/CS Theory & Algorithms/Tries (Prefix Trees)",
+      "target": "Resources/CS Theory & Algorithms/Graph Traversal (BFS, DFS)"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Tries (Prefix Trees)",
@@ -19034,11 +19067,7 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Tries (Prefix Trees)",
-      "target": "Resources/Search Systems"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/Tries (Prefix Trees)",
-      "target": "Resources/System Design/Design a Search Engine"
+      "target": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Two-Pointer Technique",
@@ -33913,5 +33942,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-30T23:14:35Z"
+  "generated_at": "2026-05-30T23:26:33Z"
 }
