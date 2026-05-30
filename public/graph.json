@@ -4208,7 +4208,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 11
+      "degree": 9
     },
     {
       "id": "Resources/Data Science & Analytics/Data Cleaning Strategies",
@@ -5152,7 +5152,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/DevOps & Infrastructure/GitHub Actions Deep Dive",
@@ -5200,7 +5200,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/DevOps & Infrastructure/Lambda Functions and FaaS",
@@ -5231,12 +5231,12 @@
       "label": "Log Aggregation (ELK Stack, Loki)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Log aggregation centralizes application and infrastructure logs so engineers can search, correlate, alert, and debug across machines and services. ELK and Loki represent two common approaches to storing and querying logs.",
+      "excerpt": "Log aggregation centralizes logs from all services into a searchable store. ELK Stack (Elasticsearch + Logstash + Kibana): full-text indexed search, expensive but powerful for complex queries and log analytics. Loki (Grafana Labs): stores compressed streams indexed only by labels (not content), 10x cheaper, queries via LogQL. Key design decisions: structured JSON logs, correlation IDs in every line, retention windows, and sensitive data redaction before logs leave the application. Filebeat/Promtail ship logs from pods without sidecar overhead.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems",
@@ -5255,12 +5255,12 @@
       "label": "Observability — Logs, Metrics, Traces (The Three Pillars)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Observability uses logs, metrics, and traces to understand system behavior from the outside. The goal is not collecting more telemetry, but making production failures diagnosable and service health measurable.",
+      "excerpt": "Observability is the ability to understand a system's internal state from its external outputs — without deploying new code to answer every new question. Three signal types: logs (discrete events), metrics (numeric time-series), traces (request paths across services). The four golden signals (rate, errors, duration, saturation) are the minimum viable SLI set. Correlation IDs connect the pillars. High-cardinality labels are powerful but expensive — unbounded label values can blow up Prometheus memory.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 15
+      "degree": 17
     },
     {
       "id": "Resources/DevOps & Infrastructure/On-Call Culture and Incident Response",
@@ -5272,19 +5272,19 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/DevOps & Infrastructure/OpenTelemetry",
       "label": "OpenTelemetry",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "OpenTelemetry is an open standard and toolkit for collecting traces, metrics, and logs across services. It helps teams avoid vendor-specific instrumentation while preserving context propagation and consistent telemetry.",
+      "excerpt": "OpenTelemetry (OTel) is the open-source standard for instrumenting distributed systems — it produces traces, metrics, and logs through a vendor-neutral API. Key components: API (instrument your code), SDK (configure exporters/samplers), Collector (pipeline — receive, process, export), semantic conventions (standardize attribute names). W3C traceparent header propagates trace context across service boundaries. Tail-based sampling catches slow/error traces that head-based sampling would discard. OTel auto-instrumentation covers 80% of coverage with zero code change.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)",
@@ -5308,19 +5308,19 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 20
+      "degree": 21
     },
     {
       "id": "Resources/DevOps & Infrastructure/Prometheus and Grafana",
       "label": "Prometheus and Grafana",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Prometheus collects time-series metrics and Grafana visualizes them in dashboards and alerts. Together they are a common open-source stack for monitoring service health, latency, errors, saturation, and infrastructure behavior.",
+      "excerpt": "Prometheus scrapes metrics from targets via HTTP pull (not push), stores labeled time-series, and queries them with PromQL. Grafana visualizes Prometheus data in dashboards and manages alerts. Key: four metric types (Counter/Gauge/Histogram/Summary), rate() for per-second rate from counters, histogram_quantile() for P99 latency, and the cardinality danger of unbounded label values. AlertManager routes alerts by severity/team. Recording rules pre-compute expensive queries for dashboard performance.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 7
+      "degree": 10
     },
     {
       "id": "Resources/DevOps & Infrastructure/Reverse Proxies (Nginx, Caddy, Traefik)",
@@ -5351,12 +5351,12 @@
       "label": "SLIs, SLOs, and SLAs",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "SLIs measure service behavior, SLOs set reliability targets, and SLAs define external commitments and consequences. Together they translate reliability from vague uptime goals into measurable engineering decisions.",
+      "excerpt": "SLIs measure service behavior (a PromQL expression), SLOs set reliability targets (99.9% over 30 days), SLAs are external contractual promises (weaker than SLO to leave headroom). The four golden signals map directly to SLI candidates: availability (error rate), latency (histogram_quantile), throughput (rate), saturation (resource %). Percentiles describe latency far better than averages — a P99 of 2s means 1% of users wait 2+ seconds. Time windows matter: 30-day rolling windows are more forgiving of short incidents than calendar-month windows.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/DevOps & Infrastructure/SSH Best Practices",
@@ -12912,7 +12912,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 18
+      "degree": 17
     },
     {
       "id": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)",
@@ -20884,6 +20884,10 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Log Aggregation (ELK Stack, Loki)",
+      "target": "Resources/DevOps & Infrastructure/On-Call Culture and Incident Response"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Log Aggregation (ELK Stack, Loki)",
       "target": "Resources/DevOps & Infrastructure/OpenTelemetry"
     },
     {
@@ -20892,7 +20896,7 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Log Aggregation (ELK Stack, Loki)",
-      "target": "Resources/Security & Privacy/Security Auditing"
+      "target": "Resources/DevOps & Infrastructure/Prometheus and Grafana"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems",
@@ -20912,7 +20916,15 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)",
+      "target": "Resources/DevOps & Infrastructure/Error Budgets"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)",
       "target": "Resources/DevOps & Infrastructure/Log Aggregation (ELK Stack, Loki)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)",
+      "target": "Resources/DevOps & Infrastructure/On-Call Culture and Incident Response"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)",
@@ -20945,6 +20957,10 @@
     {
       "source": "Resources/DevOps & Infrastructure/On-Call Culture and Incident Response",
       "target": "Resources/DevOps & Infrastructure/SLIs, SLOs, and SLAs"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/OpenTelemetry",
+      "target": "Resources/DevOps & Infrastructure/Kubernetes YAML — Deployment, Service, Ingress"
     },
     {
       "source": "Resources/DevOps & Infrastructure/OpenTelemetry",
@@ -21000,7 +21016,11 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Prometheus and Grafana",
-      "target": "Resources/Data Science & Analytics/Dashboard Design Principles"
+      "target": "Resources/DevOps & Infrastructure/Error Budgets"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Prometheus and Grafana",
+      "target": "Resources/DevOps & Infrastructure/Kubernetes YAML — Deployment, Service, Ingress"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Prometheus and Grafana",
@@ -21052,10 +21072,6 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/SLIs, SLOs, and SLAs",
-      "target": "Resources/Data Science & Analytics/Dashboard Design Principles"
-    },
-    {
-      "source": "Resources/DevOps & Infrastructure/SLIs, SLOs, and SLAs",
       "target": "Resources/DevOps & Infrastructure/Error Budgets"
     },
     {
@@ -21065,6 +21081,14 @@
     {
       "source": "Resources/DevOps & Infrastructure/SLIs, SLOs, and SLAs",
       "target": "Resources/DevOps & Infrastructure/On-Call Culture and Incident Response"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/SLIs, SLOs, and SLAs",
+      "target": "Resources/DevOps & Infrastructure/Postmortem Writing"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/SLIs, SLOs, and SLAs",
+      "target": "Resources/DevOps & Infrastructure/Prometheus and Grafana"
     },
     {
       "source": "Resources/DevOps & Infrastructure/SSH Best Practices",
@@ -33479,5 +33503,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-30T22:47:08Z"
+  "generated_at": "2026-05-30T23:03:38Z"
 }
