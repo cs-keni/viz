@@ -3393,7 +3393,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 17
+      "degree": 15
     },
     {
       "id": "Resources/Chemistry & Biochemistry/Alcohol Metabolism (Ethanol to Acetaldehyde to Acetate)",
@@ -3601,7 +3601,7 @@
         "study",
         "systems"
       ],
-      "degree": 17
+      "degree": 15
     },
     {
       "id": "Resources/Cognitive Science & Biases/Anchoring Bias",
@@ -4523,7 +4523,7 @@
         "internals",
         "system-design"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/Database Systems/Database Backups and Point-in-Time Recovery",
@@ -4789,7 +4789,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 19
+      "degree": 17
     },
     {
       "id": "Resources/Design & UX/Accessibility in Design (WCAG 2.1, 2.2)",
@@ -5451,7 +5451,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 24
+      "degree": 23
     },
     {
       "id": "Resources/Docker",
@@ -9515,7 +9515,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 14
+      "degree": 12
     },
     {
       "id": "Resources/Networking & Protocols/Anycast Routing — How CDNs and Public DNS (1.1.1.1, 8.8.8.8) Scale Globally",
@@ -12575,7 +12575,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/References/VanossGaming - Dewit",
@@ -12617,7 +12617,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 14
+      "degree": 12
     },
     {
       "id": "Resources/Search Systems",
@@ -14536,7 +14536,7 @@
         "architecture",
         "interview-prep"
       ],
-      "degree": 19
+      "degree": 18
     },
     {
       "id": "Resources/System Design Interview Rubric",
@@ -14549,7 +14549,7 @@
         "system-design",
         "interview-prep"
       ],
-      "degree": 12
+      "degree": 10
     },
     {
       "id": "Resources/System Design Notes",
@@ -14587,14 +14587,14 @@
         "resource",
         "system-design"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/System Design/CDN Architecture",
       "label": "CDN Architecture",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "A content delivery network caches and serves content from edge locations close to users. CDNs improve latency, absorb traffic spikes, reduce origin load, and add security controls.",
+      "excerpt": "A CDN (content delivery network) is a geographically distributed network of edge servers that cache and serve content near users, reducing latency and origin load. The core architecture: client DNS resolves to the nearest edge via anycast or GeoDNS; edge serves from cache on hit; on miss, edge fetches from origin and caches per HTTP cache headers. The most important operational decisions are cache key construction (what makes two requests distinct), TTL and invalidation strategy (purge API vs versioned URLs), and when to use edge compute (Cloudflare Workers, Lambda@Edge) for dynamic content that doesn't cache but benefits from edge processing.",
       "tags": [
         "resource",
         "system-design"
@@ -14606,19 +14606,19 @@
       "label": "Cache Invalidation Patterns",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Cache invalidation is the process of removing or updating stale cached data. The right pattern depends on freshness requirements, write frequency, ownership, and tolerance for temporary inconsistency.",
+      "excerpt": "Cache invalidation is the problem of keeping cached data consistent with the source of truth when the source changes. Phil Karlton's quote ('There are only two hard things in Computer Science: cache invalidation and naming things') understates the actual difficulty: invalidation must handle distributed cache layers, concurrent writes, network delays, and the CAP tradeoff between consistency and availability. The practical patterns — delete on write, write-through, versioned keys, event-driven invalidation, and stale-while-revalidate — each make different tradeoffs between correctness, complexity, and performance.",
       "tags": [
         "resource",
         "system-design"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)",
       "label": "Caching Strategies (LRU, LFU, TTL)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Caching stores frequently used data closer to callers to reduce latency, cost, and backend load. LRU, LFU, and TTL are common policies for deciding what stays fresh and what gets evicted.",
+      "excerpt": "Caching stores computed or retrieved data in fast storage so subsequent requests can skip expensive recomputation or I/O. The hard problems aren't storing data — they're eviction (what to remove when space is full), invalidation (when to discard stale data), and failure handling (what happens when the cache is unavailable). LRU (least recently used) is the default eviction policy; LFU (least frequently used) is better for stable hot-key workloads. The three cache failure modes — stampede, penetration, and avalanche — each require specific mitigations. Redis is the canonical distributed cache; Memcached is simpler but lacks persistence and data structures.",
       "tags": [
         "resource",
         "system-design"
@@ -14678,7 +14678,7 @@
       "label": "Database Replication",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Database replication copies data from one database node to others for read scaling, high availability, disaster recovery, or geographic locality. Replication design determines consistency, failover behavior, and data-loss risk.",
+      "excerpt": "Database replication copies data from one node to others for read scaling, high availability, and disaster recovery. The replication substrate is the write-ahead log (WAL) — every change is logged before being applied, and replicas replay the log to converge. The core tradeoff: synchronous replication (RPO=0, guaranteed no data loss) vs. asynchronous replication (lower write latency, but potential data loss on failover). The consistency anomalies from replication lag — reading your own writes, monotonic reads violations, and causally-inconsistent reads — are what cause most replication-related bugs in production.",
       "tags": [
         "resource",
         "system-design"
@@ -14690,12 +14690,12 @@
       "label": "Database Sharding",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Database sharding horizontally partitions data across multiple nodes. It increases capacity but introduces routing, resharding, hotspot, transaction, and query-complexity tradeoffs.",
+      "excerpt": "Database sharding horizontally partitions data across multiple nodes, each owning a disjoint subset. It solves the problem that a single database primary eventually saturates on write throughput or storage capacity, regardless of how vertically scaled it is. The shard key selection is the most critical design decision — a bad shard key creates hotspots, prevents efficient queries, or requires expensive cross-shard joins. Resharding (redistributing data as the cluster grows) is operationally difficult and should be anticipated with consistent hashing or virtual nodes. The recommendation: exhaust indexing, caching, read replicas, and vertical scaling before sharding — sharding is one of the hardest architectural decisions to reverse.",
       "tags": [
         "resource",
         "system-design"
       ],
-      "degree": 13
+      "degree": 12
     },
     {
       "id": "Resources/System Design/Design Twitter X Feed",
@@ -14930,7 +14930,7 @@
       "label": "Load Balancing Strategies",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Load balancing distributes traffic across multiple servers to improve capacity, availability, and latency. Strategy choices depend on protocol, health checks, statefulness, geography, and failure behavior.",
+      "excerpt": "Load balancing distributes traffic across multiple backend servers to improve throughput, availability, and fault tolerance. The strategy choice (round robin, least connections, consistent hash, weighted) depends on the protocol, statefulness of backends, and failure behavior requirements. L4 load balancers route by TCP/UDP headers and are extremely fast; L7 load balancers understand HTTP semantics and enable path-based routing, header-based auth, and request rewriting. The most critical design concern is not the routing algorithm but the failure behavior: health checks, connection draining, retry semantics, and what happens when the load balancer itself fails.",
       "tags": [
         "resource",
         "system-design"
@@ -15002,24 +15002,24 @@
       "label": "Scalability — Horizontal vs Vertical",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Scalability is a system's ability to handle more load by adding resources or improving efficiency. Vertical scaling makes individual machines stronger, while horizontal scaling adds more machines.",
+      "excerpt": "Scalability is a system's ability to handle more load without sacrificing performance or reliability. Vertical scaling (bigger machine) is simpler but hits hard limits; horizontal scaling (more machines) has near-infinite ceiling but requires stateless service design, distributed coordination, and load distribution. The most important practical constraint: stateful components (databases, caches with local state, anything using a sticky session) are hard to scale horizontally, while stateless services (API servers, workers) scale trivially. Amdahl's Law quantifies the ceiling: if 10% of work is serial, no amount of parallelization can exceed 10x speedup.",
       "tags": [
         "resource",
         "system-design"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/System Design/System Design Interview Framework",
       "label": "System Design Interview Framework",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "A system design interview framework gives a repeatable structure for turning vague product prompts into scalable architectures. It keeps candidates from jumping to boxes before clarifying requirements, scale, data, APIs, tradeoffs, and failure modes.",
+      "excerpt": "A system design interview framework gives a repeatable structure for turning vague product prompts into scalable architectures under time pressure. The canonical flow is: clarify requirements → estimate scale → define APIs → high-level design → deep dive bottlenecks → discuss tradeoffs. The most common failure modes are jumping to architecture before clarifying requirements, staying at the whiteboard-boxes level without reasoning about why each component is there, and not surfacing tradeoffs explicitly. Strong candidates drive the conversation, state assumptions, and use scale estimates to justify every major design decision.",
       "tags": [
         "resource",
         "system-design"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/System Design/WebRTC Architecture",
@@ -32193,14 +32193,6 @@
     },
     {
       "source": "Resources/System Design/CDN Architecture",
-      "target": "Resources/Cloud Services"
-    },
-    {
-      "source": "Resources/System Design/CDN Architecture",
-      "target": "Resources/Networking"
-    },
-    {
-      "source": "Resources/System Design/CDN Architecture",
       "target": "Resources/System Design/Cache Invalidation Patterns"
     },
     {
@@ -32212,16 +32204,16 @@
       "target": "Resources/System Design/Content Delivery and Edge Computing"
     },
     {
-      "source": "Resources/System Design/Cache Invalidation Patterns",
-      "target": "Resources/Caching"
-    },
-    {
-      "source": "Resources/System Design/Cache Invalidation Patterns",
-      "target": "Resources/Distributed Systems"
+      "source": "Resources/System Design/CDN Architecture",
+      "target": "Resources/System Design/Load Balancing Strategies"
     },
     {
       "source": "Resources/System Design/Cache Invalidation Patterns",
       "target": "Resources/Software Engineering/Event-Driven Architecture"
+    },
+    {
+      "source": "Resources/System Design/Cache Invalidation Patterns",
+      "target": "Resources/System Design/CDN Architecture"
     },
     {
       "source": "Resources/System Design/Cache Invalidation Patterns",
@@ -32230,14 +32222,6 @@
     {
       "source": "Resources/System Design/Cache Invalidation Patterns",
       "target": "Resources/System Design/Eventual Consistency"
-    },
-    {
-      "source": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)",
-      "target": "Resources/Caching"
-    },
-    {
-      "source": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)",
-      "target": "Resources/Rate Limiting"
     },
     {
       "source": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)",
@@ -32250,6 +32234,10 @@
     {
       "source": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)",
       "target": "Resources/System Design/Consistent Hashing"
+    },
+    {
+      "source": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)",
+      "target": "Resources/System Design/Scalability — Horizontal vs Vertical"
     },
     {
       "source": "Resources/System Design/Circuit Breaker Pattern",
@@ -32333,11 +32321,7 @@
     },
     {
       "source": "Resources/System Design/Database Replication",
-      "target": "Resources/Database Internals Deep Dive"
-    },
-    {
-      "source": "Resources/System Design/Database Replication",
-      "target": "Resources/Databases"
+      "target": "Resources/System Design/CAP Theorem"
     },
     {
       "source": "Resources/System Design/Database Replication",
@@ -32353,14 +32337,6 @@
     },
     {
       "source": "Resources/System Design/Database Sharding",
-      "target": "Resources/Databases"
-    },
-    {
-      "source": "Resources/System Design/Database Sharding",
-      "target": "Resources/Scaling"
-    },
-    {
-      "source": "Resources/System Design/Database Sharding",
       "target": "Resources/System Design/Consistent Hashing"
     },
     {
@@ -32370,6 +32346,10 @@
     {
       "source": "Resources/System Design/Database Sharding",
       "target": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)"
+    },
+    {
+      "source": "Resources/System Design/Database Sharding",
+      "target": "Resources/System Design/Scalability — Horizontal vs Vertical"
     },
     {
       "source": "Resources/System Design/Design Twitter X Feed",
@@ -32753,14 +32733,6 @@
     },
     {
       "source": "Resources/System Design/Load Balancing Strategies",
-      "target": "Resources/Cloud Services"
-    },
-    {
-      "source": "Resources/System Design/Load Balancing Strategies",
-      "target": "Resources/Networking"
-    },
-    {
-      "source": "Resources/System Design/Load Balancing Strategies",
       "target": "Resources/System Design/Circuit Breaker Pattern"
     },
     {
@@ -32770,6 +32742,10 @@
     {
       "source": "Resources/System Design/Load Balancing Strategies",
       "target": "Resources/System Design/Scalability — Horizontal vs Vertical"
+    },
+    {
+      "source": "Resources/System Design/Load Balancing Strategies",
+      "target": "Resources/System Design/System Design Interview Framework"
     },
     {
       "source": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)",
@@ -32873,15 +32849,11 @@
     },
     {
       "source": "Resources/System Design/Scalability — Horizontal vs Vertical",
-      "target": "Resources/Scaling"
-    },
-    {
-      "source": "Resources/System Design/Scalability — Horizontal vs Vertical",
-      "target": "Resources/System Design Interview Rubric"
-    },
-    {
-      "source": "Resources/System Design/Scalability — Horizontal vs Vertical",
       "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
+    },
+    {
+      "source": "Resources/System Design/Scalability — Horizontal vs Vertical",
+      "target": "Resources/System Design/Database Replication"
     },
     {
       "source": "Resources/System Design/Scalability — Horizontal vs Vertical",
@@ -32892,12 +32864,16 @@
       "target": "Resources/System Design/Load Balancing Strategies"
     },
     {
-      "source": "Resources/System Design/System Design Interview Framework",
-      "target": "Resources/System Design Case Studies"
+      "source": "Resources/System Design/Scalability — Horizontal vs Vertical",
+      "target": "Resources/System Design/System Design Interview Framework"
     },
     {
       "source": "Resources/System Design/System Design Interview Framework",
-      "target": "Resources/System Design Interview Rubric"
+      "target": "Resources/System Design/CAP Theorem"
+    },
+    {
+      "source": "Resources/System Design/System Design Interview Framework",
+      "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
     },
     {
       "source": "Resources/System Design/System Design Interview Framework",
@@ -33520,5 +33496,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-30T16:05:43Z"
+  "generated_at": "2026-05-30T16:16:09Z"
 }
