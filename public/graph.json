@@ -790,7 +790,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "Nutrition — Macronutrients (Protein, Carbs, Fats)",
@@ -2198,7 +2198,7 @@
         "memory",
         "chromadb"
       ],
-      "degree": 11
+      "degree": 10
     },
     {
       "id": "Resources/Bobby/Bobby's ChromaDB Upgrade Path (Vector RAG at 300+ Notes)",
@@ -3685,7 +3685,7 @@
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Cognitive Science & Biases/Dual Process Theory (System 1 vs System 2)",
@@ -8016,7 +8016,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Learning & Memory/How to Retain What You Read",
@@ -8549,7 +8549,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Mental Health & Psychology/Anxiety — Types and Coping Mechanisms",
@@ -10862,7 +10862,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Personal Productivity/Atomic Habits — Key Ideas (James Clear)",
@@ -10881,12 +10881,12 @@
       "label": "Building a Second Brain (BASB — Tiago Forte)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Building a Second Brain is Tiago Forte's method for capturing, organizing, distilling, and expressing knowledge. Its practical value is making information reusable for projects instead of storing it as passive reference.",
+      "excerpt": "BASB (Tiago Forte, 2022) is a PKM framework centered on CODE — Capture, Organize, Distill, Express — designed to make accumulated knowledge useful for projects and creative output. Its key contribution is the Express step (most PKM systems stop at storage) and Progressive Summarization (multi-layer distillation so notes are fast to re-use). The failure mode is obsessing over Capture and Organize while never Expressing anything.",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Personal Productivity/Capture Systems (Ubiquitous Capture)",
@@ -10922,7 +10922,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/Personal Productivity/Decision Journaling",
@@ -10941,12 +10941,12 @@
       "label": "Deep Work (Cal Newport)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Deep Work is Cal Newport's term for cognitively demanding, distraction-free work that creates high-value output. It requires protected time, clear goals, and deliberate resistance to shallow-task drift.",
+      "excerpt": "Deep Work (Cal Newport, 2016) argues that cognitively demanding, distraction-free work is becoming simultaneously rarer and more valuable — creating an opportunity for those who cultivate it. Newport's practical system includes four scheduling philosophies (monastic to journalistic), the attention residue problem (why even brief context-switching contaminates focus), the shutdown ritual, and fixed-schedule productivity as a forcing function for eliminating shallow work.",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/Personal Productivity/Digital Minimalism",
@@ -10970,7 +10970,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Personal Productivity/Energy Management vs Time Management",
@@ -11001,12 +11001,12 @@
       "label": "Evergreen Notes",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Evergreen notes are durable, reusable notes that stay valuable beyond the day they were written. They work best when they express a clear idea in your own words and connect to related notes.",
+      "excerpt": "Evergreen notes (Andy Matuschak) are permanent, atomic, concept-oriented notes designed to remain useful indefinitely — distinct from highlights, book summaries, and meeting notes. The key disciplines: titles as assertable claims, written in your own words, densely linked with explanatory connections, and actively refactored as understanding deepens. The goal is a thinking network that generates new ideas when browsed, not just a knowledge repository that reminds you of old ones.",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 7
+      "degree": 12
     },
     {
       "id": "Resources/Personal Productivity/Flow State — How to Trigger It",
@@ -11037,12 +11037,12 @@
       "label": "Getting Things Done (GTD) Method",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Getting Things Done is a productivity method built around capturing every commitment, clarifying the next action, organizing by context, reviewing regularly, and trusting an external system instead of mental juggling.",
+      "excerpt": "GTD (David Allen, 2001) is a complete workflow for managing commitments externally so the mind stays clear. The core loop — Capture, Clarify, Organize, Reflect, Engage — is only trustworthy when the weekly review is done consistently; without it, the system decays. The practical genius is the two-minute rule and the next physical action discipline, which eliminate the decision paralysis that stalls most to-do lists.",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 7
+      "degree": 10
     },
     {
       "id": "Resources/Personal Productivity/Goal Frameworks (OKRs, SMART, 12-Week Year)",
@@ -11157,36 +11157,36 @@
       "label": "Obsidian Workflow Design",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Obsidian workflow design is about making capture, linking, review, and retrieval easy enough to sustain. For Kenny, the best workflow is discussion first, distilled notes second, and index updates so Bobby can actually use the vault.",
+      "excerpt": "Obsidian is a local-first markdown note-taking app that treats your vault as a folder of plain text files with bidirectional wikilinks. Effective workflow design has four stages: Capture (low-friction, immediate), Process (move to correct folder, add frontmatter), Connect (meaningful links, VAULT_INDEX update), and Review (daily notes + weekly pass). The failure mode is over-engineering — complex plugin stacks and beautiful graph views that substitute for actual note-making.",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 9
+      "degree": 14
     },
     {
       "id": "Resources/Personal Productivity/PARA Method (Projects, Areas, Resources, Archives)",
       "label": "PARA Method (Projects, Areas, Resources, Archives)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "PARA organizes information into Projects, Areas, Resources, and Archives based on actionability. It is useful because it separates active outcomes from ongoing responsibilities and reference material.",
+      "excerpt": "PARA (Tiago Forte) organizes all information into four categories based on actionability: Projects (active goals with deadlines), Areas (ongoing standards to maintain), Resources (reference material by topic), and Archives (inactive items). The key discipline is maintaining the Projects list as a live, committed list of outcomes — not a wishlist — and moving notes just-in-time rather than filing everything upfront.",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 4
+      "degree": 8
     },
     {
       "id": "Resources/Personal Productivity/Personal Knowledge Management (PKM) Overview",
       "label": "Personal Knowledge Management (PKM) Overview",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Personal Knowledge Management is the practice of capturing, organizing, connecting, and revisiting knowledge so it compounds over time. In this vault, PKM matters because Bobby relies on notes that are specific enough to retrieve and useful enough to act on.",
+      "excerpt": "PKM is the deliberate practice of capturing, processing, connecting, and expressing knowledge so it compounds over time rather than staying siloed in individual notes. The core challenge is that most PKM systems optimize for input (capture) and neglect output (expression) — notes accumulate but never produce thinking. The only metric that matters: does the system make you smarter and more productive when you actually need it?",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 10
+      "degree": 14
     },
     {
       "id": "Resources/Personal Productivity/Pomodoro Technique",
@@ -11210,7 +11210,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Personal Productivity/Reward Systems and Dopamine Loops",
@@ -11265,24 +11265,24 @@
       "label": "Weekly Review Process",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "A weekly review refreshes trusted systems by closing loops, reviewing commitments, updating priorities, and deciding what matters next. It prevents task systems and notes from slowly becoming stale.",
+      "excerpt": "The weekly review is GTD's 'critical success factor' — without it, any capture/organize system decays within weeks. The process has three phases: Get Clear (empty inboxes, capture stray thoughts), Get Current (review all lists and calendar), Get Creative (check Someday/Maybe, ask what else matters). The common failure is scope creep making it feel overwhelming; the fix is keeping it scoped to 30–90 minutes with a fixed checklist.",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/Personal Productivity/Zettelkasten Method",
       "label": "Zettelkasten Method",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Zettelkasten is a linked-note method that emphasizes small, durable ideas connected through explicit relationships. Its value comes from turning notes into a thinking network rather than a pile of excerpts.",
+      "excerpt": "Zettelkasten ('slip box') is Niklas Luhmann's linked-note system — ~90,000 atomic notes connected by explicit relationships, not folder hierarchies. The key innovations: permanent notes written in your own words, unique IDs enabling non-hierarchical linking, and emergent structure through connections. Modern digital implementations (Obsidian, Roam, Logseq) adapt this with bidirectional links and full-text search; the failure mode in practice is link theater without actual thinking.",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 6
+      "degree": 11
     },
     {
       "id": "Resources/Philosophy/AI Ethics — Alignment and Safety",
@@ -15072,7 +15072,7 @@
         "obsidian",
         "reference"
       ],
-      "degree": 7
+      "degree": 3
     },
     {
       "id": "Resources/WSL2 Setup",
@@ -15504,7 +15504,7 @@
         "obsidian",
         "pkm"
       ],
-      "degree": 8
+      "degree": 6
     },
     {
       "id": "Resources/Windows & WSL2/Hyper-V Architecture",
@@ -15848,6 +15848,24 @@
       "id": "Web Technologies/How Browsers Work (Parsing, Rendering, Compositing)",
       "label": "How Browsers Work (Parsing, Rendering, Compositing)",
       "folder": "Web Technologies",
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "X",
+      "label": "X",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
+    },
+    {
+      "id": "spaced-repetition-makes-memory-a-choice",
+      "label": "spaced-repetition-makes-memory-a-choice",
+      "folder": null,
       "created": null,
       "excerpt": "",
       "tags": [],
@@ -27374,6 +27392,10 @@
     },
     {
       "source": "Resources/Personal Productivity/Building a Second Brain (BASB — Tiago Forte)",
+      "target": "Resources/Personal Productivity/Evergreen Notes"
+    },
+    {
+      "source": "Resources/Personal Productivity/Building a Second Brain (BASB — Tiago Forte)",
       "target": "Resources/Personal Productivity/PARA Method (Projects, Areas, Resources, Archives)"
     },
     {
@@ -27382,7 +27404,7 @@
     },
     {
       "source": "Resources/Personal Productivity/Building a Second Brain (BASB — Tiago Forte)",
-      "target": "Resources/Vault Structure"
+      "target": "Resources/Personal Productivity/Zettelkasten Method"
     },
     {
       "source": "Resources/Personal Productivity/Capture Systems (Ubiquitous Capture)",
@@ -27434,11 +27456,19 @@
     },
     {
       "source": "Resources/Personal Productivity/Deep Work (Cal Newport)",
+      "target": "Resources/Personal Productivity/Distraction Management"
+    },
+    {
+      "source": "Resources/Personal Productivity/Deep Work (Cal Newport)",
       "target": "Resources/Personal Productivity/Flow State — How to Trigger It"
     },
     {
       "source": "Resources/Personal Productivity/Deep Work (Cal Newport)",
       "target": "Resources/Personal Productivity/Focus Modes and Context Switching Costs"
+    },
+    {
+      "source": "Resources/Personal Productivity/Deep Work (Cal Newport)",
+      "target": "Resources/Personal Productivity/Procrastination — Root Causes and Fixes"
     },
     {
       "source": "Resources/Personal Productivity/Deep Work (Cal Newport)",
@@ -27494,6 +27524,14 @@
     },
     {
       "source": "Resources/Personal Productivity/Evergreen Notes",
+      "target": "Resources/Cognitive Science & Biases/Decision Fatigue"
+    },
+    {
+      "source": "Resources/Personal Productivity/Evergreen Notes",
+      "target": "Resources/Learning & Memory/How to Read a Technical Paper"
+    },
+    {
+      "source": "Resources/Personal Productivity/Evergreen Notes",
       "target": "Resources/Personal Productivity/Obsidian Workflow Design"
     },
     {
@@ -27530,7 +27568,15 @@
     },
     {
       "source": "Resources/Personal Productivity/Getting Things Done (GTD) Method",
+      "target": "Resources/Mental Health & Psychology/ADHD — Understanding and Managing It"
+    },
+    {
+      "source": "Resources/Personal Productivity/Getting Things Done (GTD) Method",
       "target": "Resources/Personal Productivity/Capture Systems (Ubiquitous Capture)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Getting Things Done (GTD) Method",
+      "target": "Resources/Personal Productivity/Personal Knowledge Management (PKM) Overview"
     },
     {
       "source": "Resources/Personal Productivity/Getting Things Done (GTD) Method",
@@ -27650,15 +27696,27 @@
     },
     {
       "source": "Resources/Personal Productivity/Obsidian Workflow Design",
-      "target": "Resources/Bobby Memory Architecture"
+      "target": "Note Title"
     },
     {
       "source": "Resources/Personal Productivity/Obsidian Workflow Design",
-      "target": "Resources/Vault Structure"
+      "target": "Resources/Personal Productivity/Evergreen Notes"
     },
     {
       "source": "Resources/Personal Productivity/Obsidian Workflow Design",
-      "target": "Resources/What Is Obsidian"
+      "target": "Resources/Personal Productivity/PARA Method (Projects, Areas, Resources, Archives)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Obsidian Workflow Design",
+      "target": "Resources/Personal Productivity/Personal Knowledge Management (PKM) Overview"
+    },
+    {
+      "source": "Resources/Personal Productivity/Obsidian Workflow Design",
+      "target": "Resources/Personal Productivity/Zettelkasten Method"
+    },
+    {
+      "source": "Resources/Personal Productivity/Obsidian Workflow Design",
+      "target": "X"
     },
     {
       "source": "Resources/Personal Productivity/PARA Method (Projects, Areas, Resources, Archives)",
@@ -27666,23 +27724,35 @@
     },
     {
       "source": "Resources/Personal Productivity/PARA Method (Projects, Areas, Resources, Archives)",
+      "target": "Resources/Personal Productivity/Getting Things Done (GTD) Method"
+    },
+    {
+      "source": "Resources/Personal Productivity/PARA Method (Projects, Areas, Resources, Archives)",
       "target": "Resources/Personal Productivity/Obsidian Workflow Design"
     },
     {
       "source": "Resources/Personal Productivity/PARA Method (Projects, Areas, Resources, Archives)",
-      "target": "Resources/Vault Structure"
+      "target": "Resources/Personal Productivity/Weekly Review Process"
+    },
+    {
+      "source": "Resources/Personal Productivity/Personal Knowledge Management (PKM) Overview",
+      "target": "Resources/Personal Productivity/Building a Second Brain (BASB — Tiago Forte)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Personal Knowledge Management (PKM) Overview",
+      "target": "Resources/Personal Productivity/Evergreen Notes"
+    },
+    {
+      "source": "Resources/Personal Productivity/Personal Knowledge Management (PKM) Overview",
+      "target": "Resources/Personal Productivity/Obsidian Workflow Design"
+    },
+    {
+      "source": "Resources/Personal Productivity/Personal Knowledge Management (PKM) Overview",
+      "target": "Resources/Personal Productivity/PARA Method (Projects, Areas, Resources, Archives)"
     },
     {
       "source": "Resources/Personal Productivity/Personal Knowledge Management (PKM) Overview",
       "target": "Resources/Personal Productivity/Zettelkasten Method"
-    },
-    {
-      "source": "Resources/Personal Productivity/Personal Knowledge Management (PKM) Overview",
-      "target": "Resources/Vault Structure"
-    },
-    {
-      "source": "Resources/Personal Productivity/Personal Knowledge Management (PKM) Overview",
-      "target": "Resources/What Is Obsidian"
     },
     {
       "source": "Resources/Personal Productivity/Pomodoro Technique",
@@ -27758,7 +27828,7 @@
     },
     {
       "source": "Resources/Personal Productivity/Weekly Review Process",
-      "target": "Resources/Personal Productivity/Daily Note Template"
+      "target": "Resources/Personal Productivity/Annual Review Template"
     },
     {
       "source": "Resources/Personal Productivity/Weekly Review Process",
@@ -27769,8 +27839,16 @@
       "target": "Resources/Personal Productivity/Goal Frameworks (OKRs, SMART, 12-Week Year)"
     },
     {
+      "source": "Resources/Personal Productivity/Weekly Review Process",
+      "target": "Resources/Personal Productivity/PARA Method (Projects, Areas, Resources, Archives)"
+    },
+    {
       "source": "Resources/Personal Productivity/Zettelkasten Method",
       "target": "Resources/Personal Productivity/Evergreen Notes"
+    },
+    {
+      "source": "Resources/Personal Productivity/Zettelkasten Method",
+      "target": "Resources/Personal Productivity/Obsidian Workflow Design"
     },
     {
       "source": "Resources/Personal Productivity/Zettelkasten Method",
@@ -27779,6 +27857,14 @@
     {
       "source": "Resources/Personal Productivity/Zettelkasten Method",
       "target": "Resources/Personal Productivity/The Map of Content (MOC) in Obsidian"
+    },
+    {
+      "source": "Resources/Personal Productivity/Zettelkasten Method",
+      "target": "X"
+    },
+    {
+      "source": "Resources/Personal Productivity/Zettelkasten Method",
+      "target": "spaced-repetition-makes-memory-a-choice"
     },
     {
       "source": "Resources/Philosophy/AI Ethics — Alignment and Safety",
@@ -33113,5 +33199,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-30T14:35:44Z"
+  "generated_at": "2026-05-30T14:46:48Z"
 }
