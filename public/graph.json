@@ -5032,19 +5032,19 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/DevOps & Infrastructure/Ansible Basics",
       "label": "Ansible Basics",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Ansible automates configuration management, provisioning, and operational tasks over SSH or connection plugins. It is useful for making server state repeatable without requiring an agent on every machine.",
+      "excerpt": "Ansible automates configuration management, server setup, and operational tasks over SSH (agentless). Core concepts: inventory (which hosts to target), playbooks (ordered YAML list of plays/tasks), modules (apt, copy, template, service, user), roles (packaged reusable task sets), and handlers (actions triggered by changes, run once at end of play). Ansible vs Terraform: Ansible configures machines after they exist; Terraform provisions the machines. Ansible Vault encrypts secrets within playbooks. Key idempotency rule: well-written Ansible can run multiple times safely — same result each run.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/DevOps & Infrastructure/Bash Scripting",
@@ -5063,24 +5063,24 @@
       "label": "Blue-Green vs Canary vs Rolling Deployments",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Blue-green, canary, and rolling deployments are rollout strategies for reducing release risk. They differ in infrastructure cost, speed, rollback behavior, traffic control, and how quickly user impact is detected.",
+      "excerpt": "Three main deployment strategies for reducing release risk: blue-green (maintain two identical environments, switch traffic instantly, fast rollback, expensive), canary (route small % to new version, validate, incrementally increase, best for risk reduction but requires observability), rolling (replace instances one-by-one, no extra infrastructure cost, slowest rollback). The critical constraint all three share: database migrations must be backward-compatible — the new and old code will run simultaneously during the transition, so schemas must support both. Argo Rollouts automates canary progression via Prometheus-queried golden signals.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design",
       "label": "CI-CD Pipeline Design",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "CI/CD pipeline design automates building, testing, packaging, securing, and deploying software. A good pipeline is fast enough for developer feedback, strict enough to protect production, and observable enough to debug failures.",
+      "excerpt": "CI/CD pipeline design automates the path from commit to production. The core principle: build the artifact once, test it repeatedly, promote the same binary through environments. A good pipeline catches failures fast (< 10 min for most feedback), enforces quality gates without slowing engineers, and produces an auditable record of every change. Stage ordering is deliberate: run cheap fast checks first (lint/typecheck/unit), expensive slow checks later (integration/e2e/security). Every stage output — test results, scan reports, artifact digests — is traceability data.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/DevOps & Infrastructure/Cloud Providers Overview (AWS, GCP, Azure)",
@@ -5159,36 +5159,36 @@
       "label": "GitHub Actions Deep Dive",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "GitHub Actions is a workflow automation platform built around events, jobs, steps, runners, actions, secrets, and permissions. Using it well means controlling triggers, caches, credentials, artifacts, and least-privilege access.",
+      "excerpt": "GitHub Actions runs workflows on repository events using a jobs-and-steps model on hosted or self-hosted runners. Key skills: trigger design (push/PR/schedule/workflow_dispatch), matrix builds for multi-version testing, dependency caching, OIDC for secretless cloud auth, and security hardening (minimal permissions, pinned actions, fork PR isolation). Reusable workflows and composite actions reduce duplication across repositories. The most dangerous footgun: pull_request_target running attacker-controlled code with repo secrets.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/DevOps & Infrastructure/GitOps Principles",
       "label": "GitOps Principles",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "GitOps manages infrastructure and application delivery by storing desired state in Git and reconciling runtime systems to match it. It improves auditability, review, rollback, and drift detection when repository boundaries and permissions are designed well.",
+      "excerpt": "GitOps manages infrastructure and application delivery by storing desired state in Git and using controllers to reconcile live systems toward that state. The reconciliation is pull-based (controller watches Git, applies changes) rather than push-based (CI pipeline writes directly to cluster). Key implementations: Argo CD (app-centric, UI-first) and Flux (operator pattern, GitOps toolkit). Core problems: secret management (never commit raw secrets — use Sealed Secrets or SOPS), multi-environment management (separate repos or branches), and emergency changes that bypass Git (must be reconciled back).",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/DevOps & Infrastructure/Infrastructure as Code (IaC)",
       "label": "Infrastructure as Code (IaC)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Infrastructure as Code manages cloud and platform resources through versioned declarative or scripted definitions. It makes infrastructure reviewable, repeatable, auditable, and safer to change.",
+      "excerpt": "Infrastructure as Code (IaC) defines cloud resources in versioned files instead of clicking through consoles. The core value is reproducibility, auditability, and review. The dominant tools: Terraform (declarative HCL, provider-agnostic, state-file-based), Pulumi (same model in Python/TypeScript/Go), AWS CDK (TypeScript/Python generating CloudFormation), CloudFormation (AWS-native, verbose YAML/JSON). The hardest IaC problems are not syntax — they're state management (remote state with locking), secrets handling (never in state or code), drift remediation (when real infra diverges), and import workflows (adding existing resources to IaC control).",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/DevOps & Infrastructure/Kubernetes YAML — Deployment, Service, Ingress",
@@ -5207,12 +5207,12 @@
       "label": "Lambda Functions and FaaS",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Lambda functions and Function-as-a-Service platforms run short-lived code in response to events. They are useful for bursty event processing, API handlers, automation, and glue logic when limits and retry behavior are designed explicitly.",
+      "excerpt": "Lambda is AWS's Function-as-a-Service platform. Each invocation runs in an isolated Firecracker micro-VM (execution environment). Key mechanics: cold vs warm starts (cold = new environment spin-up, 200ms–5s depending on runtime/package; warm = reuse existing environment), memory config controls CPU proportionally (1769 MB = 1 vCPU), and retry behavior varies by trigger type (SQS: at-least-once with DLQ; API GW: sync, no retry). Design rules: small single-purpose functions, idempotent handlers, connection pooling via RDS Proxy, and correlation IDs in every log line.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/DevOps & Infrastructure/Linux Command Line Essentials",
@@ -5380,31 +5380,31 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 20
+      "degree": 21
     },
     {
       "id": "Resources/DevOps & Infrastructure/Serverless Architecture",
       "label": "Serverless Architecture",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Serverless architecture uses managed services where the provider handles server provisioning, scaling, and much of the operations surface. It can reduce infrastructure toil, but shifts design concerns to events, limits, cold starts, observability, cost shape, and vendor boundaries.",
+      "excerpt": "Serverless architecture builds systems from managed compute (Lambda/Cloud Run), managed data stores (DynamoDB, S3, SQS), and managed integrations (API Gateway, EventBridge) — eliminating server provisioning, capacity planning, and OS patching. The key tradeoffs: cold starts (100ms–2s depending on runtime and package size), execution limits (15 min max for Lambda), cost shape that's cheap for bursty workloads but expensive at sustained high throughput, and debugging complexity that increases as workflows span more managed services. Best fit: event-driven processing, API backends with spiky traffic, automation and glue logic, scheduled jobs.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/DevOps & Infrastructure/Terraform Basics",
       "label": "Terraform Basics",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Terraform is a declarative Infrastructure as Code tool that plans and applies changes to cloud and platform resources. Its core model is providers, resources, modules, state, variables, outputs, and plan/apply workflows.",
+      "excerpt": "Terraform is HashiCorp's declarative IaC tool using HCL (HashiCorp Configuration Language). Core concepts: providers (API adapters), resources (cloud objects), data sources (read existing infra), variables, outputs, locals, and modules. State is the critical operational concern — use S3+DynamoDB remote state with locking. Lifecycle rules (prevent_destroy, ignore_changes) guard against accidental destruction. count vs for_each for resource iteration. Common footguns: forgetting to review the plan before apply, state file leaking secrets, and renaming resources causing destroy+recreate.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/DevOps & Infrastructure/VPN Architecture",
@@ -12960,7 +12960,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 13
+      "degree": 12
     },
     {
       "id": "Resources/Security & Privacy/Threat Modeling (STRIDE)",
@@ -14902,7 +14902,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 20
+      "degree": 21
     },
     {
       "id": "Resources/System Design/Leader Election",
@@ -20608,6 +20608,10 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Ansible Basics",
+      "target": "Resources/DevOps & Infrastructure/Terraform Basics"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Ansible Basics",
       "target": "Resources/DevOps & Infrastructure/systemd — Service and Process Management"
     },
     {
@@ -20653,6 +20657,10 @@
     {
       "source": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design",
       "target": "Resources/DevOps & Infrastructure/GitOps Principles"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design",
+      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
     },
     {
       "source": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design",
@@ -20760,6 +20768,10 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/GitHub Actions Deep Dive",
+      "target": "Resources/DevOps & Infrastructure/Blue-Green vs Canary vs Rolling Deployments"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/GitHub Actions Deep Dive",
       "target": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design"
     },
     {
@@ -20769,10 +20781,6 @@
     {
       "source": "Resources/DevOps & Infrastructure/GitHub Actions Deep Dive",
       "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
-    },
-    {
-      "source": "Resources/DevOps & Infrastructure/GitHub Actions Deep Dive",
-      "target": "Resources/Security & Privacy/Supply Chain Security"
     },
     {
       "source": "Resources/DevOps & Infrastructure/GitOps Principles",
@@ -20793,6 +20801,10 @@
     {
       "source": "Resources/DevOps & Infrastructure/Infrastructure as Code (IaC)",
       "target": "Resources/DevOps & Infrastructure/Cloud Providers Overview (AWS, GCP, Azure)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Infrastructure as Code (IaC)",
+      "target": "Resources/DevOps & Infrastructure/GitHub Actions Deep Dive"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Infrastructure as Code (IaC)",
@@ -20821,6 +20833,10 @@
     {
       "source": "Resources/DevOps & Infrastructure/Kubernetes YAML — Deployment, Service, Ingress",
       "target": "Resources/Software Engineering/Kubernetes Basics"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Lambda Functions and FaaS",
+      "target": "Resources/DevOps & Infrastructure/AWS Core Services (EC2, S3, Lambda, RDS, VPC)"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Lambda Functions and FaaS",
@@ -21088,6 +21104,10 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Serverless Architecture",
+      "target": "Resources/System Design/Idempotency in Distributed Systems"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Serverless Architecture",
       "target": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)"
     },
     {
@@ -21097,6 +21117,10 @@
     {
       "source": "Resources/DevOps & Infrastructure/Terraform Basics",
       "target": "Resources/DevOps & Infrastructure/GitHub Actions Deep Dive"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Terraform Basics",
+      "target": "Resources/DevOps & Infrastructure/GitOps Principles"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Terraform Basics",
@@ -33447,5 +33471,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-30T21:27:13Z"
+  "generated_at": "2026-05-30T22:20:29Z"
 }
