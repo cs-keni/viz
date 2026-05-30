@@ -3579,7 +3579,7 @@
         "study",
         "systems"
       ],
-      "degree": 13
+      "degree": 12
     },
     {
       "id": "Resources/Cloud Services",
@@ -3592,7 +3592,7 @@
         "study",
         "systems"
       ],
-      "degree": 15
+      "degree": 14
     },
     {
       "id": "Resources/Cognitive Science & Biases/Anchoring Bias",
@@ -5442,7 +5442,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 18
+      "degree": 13
     },
     {
       "id": "Resources/Docker",
@@ -7530,7 +7530,7 @@
         "study",
         "systems"
       ],
-      "degree": 13
+      "degree": 12
     },
     {
       "id": "Resources/LLM Capabilities and AI Ethics",
@@ -10319,7 +10319,7 @@
         "architecture",
         "interview-prep"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/Nutrition & Diet/Alcohol and Health — What the Research Says",
@@ -10598,7 +10598,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 16
+      "degree": 14
     },
     {
       "id": "Resources/Observability Case Studies",
@@ -12608,7 +12608,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 11
+      "degree": 10
     },
     {
       "id": "Resources/Search Systems",
@@ -13505,7 +13505,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 12
+      "degree": 11
     },
     {
       "id": "Resources/Software Engineering/API Design — Server-Sent Events",
@@ -13517,7 +13517,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Software Engineering/API Design — WebSockets",
@@ -13529,7 +13529,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 11
+      "degree": 10
     },
     {
       "id": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers",
@@ -13637,7 +13637,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 14
+      "degree": 12
     },
     {
       "id": "Resources/Software Engineering/Clean Code Principles",
@@ -13793,7 +13793,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 19
+      "degree": 18
     },
     {
       "id": "Resources/Software Engineering/Feature Flags and Progressive Rollout",
@@ -14561,12 +14561,12 @@
       "label": "Bulkhead Pattern",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "The bulkhead pattern isolates resources so one failing dependency or workload cannot exhaust the entire system. It is inspired by ship compartments that prevent one leak from sinking everything.",
+      "excerpt": "The bulkhead pattern partitions resources so one failing or saturated dependency cannot exhaust the entire system. Named after ship compartments that prevent one breach from sinking everything. Two main forms: thread pool bulkheads (separate fixed-size thread pools per dependency) and semaphore bulkheads (concurrent call count caps without pool overhead). Critical for multi-tenant SaaS (noisy neighbor isolation), microservices (recommendation slowness shouldn't kill payments), and queue systems (image processing backlog shouldn't block email delivery).",
       "tags": [
         "resource",
         "system-design"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/System Design/CAP Theorem",
@@ -14621,19 +14621,19 @@
       "label": "Circuit Breaker Pattern",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "The circuit breaker pattern stops calls to a failing dependency before failures cascade. It moves between closed, open, and half-open states based on recent success or failure.",
+      "excerpt": "The circuit breaker pattern stops calls to a failing dependency before failures cascade into system-wide outage. It operates as a state machine with three states — Closed (normal), Open (fail-fast), Half-Open (probing recovery) — tripped by configurable failure thresholds. In practice: a 50% error rate over 20 calls in a 10-second sliding window opens the circuit; after a 30-second wait, one probe request tests recovery. The pattern is popularized by Netflix Hystrix (now Resilience4j) and described in Michael Nygard's 'Release It!' (2007). Critical pairing: circuit breakers stop cascading failures; bulkheads prevent resource exhaustion; timeouts prevent hanging threads.",
       "tags": [
         "resource",
         "system-design"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/System Design/Consensus Algorithms (Raft, Paxos)",
       "label": "Consensus Algorithms (Raft, Paxos)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Consensus algorithms let distributed nodes agree on a value or ordered log despite failures. Raft and Paxos are foundational protocols for replicated state machines and strongly consistent coordination.",
+      "excerpt": "Consensus algorithms let distributed nodes agree on an ordered sequence of values despite node failures and message delays. The problem: any two correct nodes that decide must decide the same value. Paxos (Lamport 1989/1998) is the foundational theoretical protocol; Raft (Ongaro & Ousterhout, 2014) was designed to be understandable and implementable. Real systems use Raft (etcd, CockroachDB, TiKV), ZAB (ZooKeeper, Paxos-like), or Viewstamped Replication. Key insight: consensus requires at least ⌊(N-1)/2⌋ fault tolerance — a 5-node cluster tolerates 2 failures. Engineers use consensus via etcd, ZooKeeper, or Consul — never implement from scratch.",
       "tags": [
         "resource",
         "system-design"
@@ -14650,19 +14650,19 @@
         "resource",
         "system-design"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/System Design/Content Delivery and Edge Computing",
       "label": "Content Delivery and Edge Computing",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Content delivery and edge computing move data and computation closer to users. They reduce latency, origin load, and bandwidth costs while introducing cache, consistency, deployment, and observability tradeoffs.",
+      "excerpt": "Content delivery moves cached data closer to users via CDN PoPs (200+ locations for Cloudflare/Akamai); edge computing runs logic at those locations. The CDN fundamentals (cache keys, TTL, pull vs push, purge) live in CDN Architecture — this note focuses on edge compute: Cloudflare Workers, AWS Lambda@Edge, and Fastly Compute@Edge. Key distinction: CDN = cache static assets; edge compute = run code at the edge. Edge compute uses V8 Isolates (not containers — cold start ~0ms vs 100ms+) with strict runtime limits (~50ms CPU, ~128MB memory, no filesystem). Best uses: A/B testing, geo-routing, auth at edge, request/response transformation. Worst uses: database-heavy operations, strong consistency requirements, long-running computation.",
       "tags": [
         "resource",
         "system-design"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/System Design/Database Replication",
@@ -14674,7 +14674,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "Resources/System Design/Database Sharding",
@@ -14686,7 +14686,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/System Design/Design Twitter X Feed",
@@ -14861,12 +14861,12 @@
       "label": "Distributed Locking",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Distributed locking coordinates exclusive access to shared resources across multiple processes or machines. It is useful but risky because lock correctness depends on timeouts, ownership, failures, and the underlying consistency model.",
+      "excerpt": "Distributed locking coordinates exclusive access to a shared resource across multiple processes or machines. Harder than local locking because nodes can pause (GC, OS scheduling), crash, or disagree about time. The standard patterns: Redis SET NX EX for non-critical locks (single Redis instance, O(1) acquisition), Redlock for higher fault-tolerance (5-node Redis quorum, but Martin Kleppmann's 2016 critique shows it's unsafe under clock drift/GC pauses), etcd/ZooKeeper leases for strong guarantees (consensus-backed). Fencing tokens (monotonically increasing counter from the lock server) are the key safety mechanism: storage systems reject writes from stale lock holders. Best answer: design to avoid needing distributed locks — idempotency + optimistic concurrency often suffice.",
       "tags": [
         "resource",
         "system-design"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)",
@@ -14878,7 +14878,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "Resources/System Design/Eventual Consistency",
@@ -14897,19 +14897,19 @@
       "label": "Idempotency in Distributed Systems",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Idempotency means an operation can be applied multiple times with the same intended effect as applying it once. It is essential for safe retries, duplicate messages, and unreliable networks.",
+      "excerpt": "Idempotency means an operation applied multiple times has the same effect as applying it once. Essential for safe retries in distributed systems where clients can't know if a request succeeded before the network dropped. The key mechanism: idempotency keys (client-generated UUID stored server-side with the result, checked on duplicate requests). Stripe's implementation is canonical: Idempotency-Key HTTP header, server stores (key → response) for 24 hours, deduplicates in-flight requests. HTTP method semantics: GET/PUT/DELETE are idempotent by spec; POST is not and needs explicit idempotency design. Critical for: payments, order creation, email sends, message consumers receiving at-least-once delivery.",
       "tags": [
         "resource",
         "system-design"
       ],
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "Resources/System Design/Leader Election",
       "label": "Leader Election",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Leader election is the process of selecting one node to coordinate work in a distributed system. It is used for primary replicas, schedulers, singleton jobs, and consensus groups.",
+      "excerpt": "Leader election selects one node from a group to act as coordinator — for write routing, job scheduling, consensus group management, or any operation requiring a single decision-maker. The hard problem: split-brain, where two nodes simultaneously believe they are leader. Prevention requires quorum (majority of nodes must vote for a candidate) and term/epoch numbers (monotonically increasing counter that stale leaders can't fake). In practice, Raft (etcd) and ZooKeeper ZAB implement correct leader election — teams should not build their own. Kubernetes uses leader election via ConfigMap/Lease API for controller HA. The election timeout tradeoff: too short = unnecessary elections; too long = slow failover (Raft default: 150–300ms).",
       "tags": [
         "resource",
         "system-design"
@@ -14926,7 +14926,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 13
+      "degree": 15
     },
     {
       "id": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)",
@@ -14938,7 +14938,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "Resources/System Design/PACELC Theorem",
@@ -14950,7 +14950,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/System Design/Pub Sub Architecture",
@@ -14962,7 +14962,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
@@ -14974,19 +14974,19 @@
         "resource",
         "system-design"
       ],
-      "degree": 12
+      "degree": 15
     },
     {
       "id": "Resources/System Design/Real-Time Systems Design",
       "label": "Real-Time Systems Design",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Real-time systems deliver updates with tight latency expectations. Design choices depend on latency budget, fanout, ordering, delivery guarantees, transport, backpressure, and failure handling.",
+      "excerpt": "Real-time systems deliver updates fast enough that delay changes the user experience — chat, multiplayer games, collaborative editing, live trading dashboards, notifications. The core architecture: persistent client connections (WebSockets) → gateway servers (handle 10K–100K connections each via non-blocking I/O) → internal pub/sub broker (Redis, Kafka) → backend services. Key design challenges: connection fan-out (celebrity problem: one event → 10M notifications), presence detection (heartbeat every 30s + Redis sorted set + TTL), reconnection (exponential backoff + last event ID for SSE replay), and backpressure (server drops slow clients or uses bounded buffers). Transport choice: WebSockets for bidirectional; SSE for server→client only; long polling as fallback. Conflict resolution in collaborative editing: OT (Google Docs) or CRDTs (Figma, Notion).",
       "tags": [
         "resource",
         "system-design"
       ],
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Resources/System Design/Scalability — Horizontal vs Vertical",
@@ -15022,7 +15022,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/Testing Strategy",
@@ -32144,23 +32144,19 @@
     },
     {
       "source": "Resources/System Design/Bulkhead Pattern",
-      "target": "Resources/Observability"
-    },
-    {
-      "source": "Resources/System Design/Bulkhead Pattern",
-      "target": "Resources/Scaling"
-    },
-    {
-      "source": "Resources/System Design/Bulkhead Pattern",
-      "target": "Resources/Software Engineering/Chaos Engineering"
-    },
-    {
-      "source": "Resources/System Design/Bulkhead Pattern",
       "target": "Resources/System Design/Circuit Breaker Pattern"
     },
     {
       "source": "Resources/System Design/Bulkhead Pattern",
+      "target": "Resources/System Design/Load Balancing Strategies"
+    },
+    {
+      "source": "Resources/System Design/Bulkhead Pattern",
       "target": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)"
+    },
+    {
+      "source": "Resources/System Design/Bulkhead Pattern",
+      "target": "Resources/System Design/Real-Time Systems Design"
     },
     {
       "source": "Resources/System Design/CAP Theorem",
@@ -32228,27 +32224,23 @@
     },
     {
       "source": "Resources/System Design/Circuit Breaker Pattern",
-      "target": "Resources/Distributed Systems"
-    },
-    {
-      "source": "Resources/System Design/Circuit Breaker Pattern",
-      "target": "Resources/Observability"
-    },
-    {
-      "source": "Resources/System Design/Circuit Breaker Pattern",
-      "target": "Resources/Software Engineering/Chaos Engineering"
-    },
-    {
-      "source": "Resources/System Design/Circuit Breaker Pattern",
       "target": "Resources/System Design/Bulkhead Pattern"
+    },
+    {
+      "source": "Resources/System Design/Circuit Breaker Pattern",
+      "target": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)"
+    },
+    {
+      "source": "Resources/System Design/Circuit Breaker Pattern",
+      "target": "Resources/System Design/Idempotency in Distributed Systems"
     },
     {
       "source": "Resources/System Design/Circuit Breaker Pattern",
       "target": "Resources/System Design/Load Balancing Strategies"
     },
     {
-      "source": "Resources/System Design/Consensus Algorithms (Raft, Paxos)",
-      "target": "Resources/Distributed Systems"
+      "source": "Resources/System Design/Circuit Breaker Pattern",
+      "target": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)"
     },
     {
       "source": "Resources/System Design/Consensus Algorithms (Raft, Paxos)",
@@ -32265,6 +32257,10 @@
     {
       "source": "Resources/System Design/Consensus Algorithms (Raft, Paxos)",
       "target": "Resources/System Design/Leader Election"
+    },
+    {
+      "source": "Resources/System Design/Consensus Algorithms (Raft, Paxos)",
+      "target": "Resources/System Design/PACELC Theorem"
     },
     {
       "source": "Resources/System Design/Consistent Hashing",
@@ -32284,19 +32280,19 @@
     },
     {
       "source": "Resources/System Design/Content Delivery and Edge Computing",
-      "target": "Resources/Cloud Networking"
-    },
-    {
-      "source": "Resources/System Design/Content Delivery and Edge Computing",
-      "target": "Resources/Cloud Services"
-    },
-    {
-      "source": "Resources/System Design/Content Delivery and Edge Computing",
       "target": "Resources/System Design/CDN Architecture"
     },
     {
       "source": "Resources/System Design/Content Delivery and Edge Computing",
       "target": "Resources/System Design/Cache Invalidation Patterns"
+    },
+    {
+      "source": "Resources/System Design/Content Delivery and Edge Computing",
+      "target": "Resources/System Design/Load Balancing Strategies"
+    },
+    {
+      "source": "Resources/System Design/Content Delivery and Edge Computing",
+      "target": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)"
     },
     {
       "source": "Resources/System Design/Content Delivery and Edge Computing",
@@ -32616,11 +32612,11 @@
     },
     {
       "source": "Resources/System Design/Distributed Locking",
-      "target": "Resources/Distributed Systems"
+      "target": "Resources/System Design/Consensus Algorithms (Raft, Paxos)"
     },
     {
       "source": "Resources/System Design/Distributed Locking",
-      "target": "Resources/System Design/Consensus Algorithms (Raft, Paxos)"
+      "target": "Resources/System Design/Database Replication"
     },
     {
       "source": "Resources/System Design/Distributed Locking",
@@ -32668,15 +32664,11 @@
     },
     {
       "source": "Resources/System Design/Idempotency in Distributed Systems",
-      "target": "Resources/Distributed Systems"
+      "target": "Resources/System Design/Circuit Breaker Pattern"
     },
     {
       "source": "Resources/System Design/Idempotency in Distributed Systems",
-      "target": "Resources/Software Engineering/API Design — REST Principles"
-    },
-    {
-      "source": "Resources/System Design/Idempotency in Distributed Systems",
-      "target": "Resources/Software Engineering/Event-Driven Architecture"
+      "target": "Resources/System Design/Distributed Locking"
     },
     {
       "source": "Resources/System Design/Idempotency in Distributed Systems",
@@ -32687,16 +32679,16 @@
       "target": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)"
     },
     {
-      "source": "Resources/System Design/Leader Election",
-      "target": "Resources/Distributed Systems"
-    },
-    {
-      "source": "Resources/System Design/Leader Election",
-      "target": "Resources/Kubernetes"
+      "source": "Resources/System Design/Idempotency in Distributed Systems",
+      "target": "Resources/System Design/Pub Sub Architecture"
     },
     {
       "source": "Resources/System Design/Leader Election",
       "target": "Resources/System Design/Consensus Algorithms (Raft, Paxos)"
+    },
+    {
+      "source": "Resources/System Design/Leader Election",
+      "target": "Resources/System Design/Consistent Hashing"
     },
     {
       "source": "Resources/System Design/Leader Election",
@@ -32705,6 +32697,10 @@
     {
       "source": "Resources/System Design/Leader Election",
       "target": "Resources/System Design/Distributed Locking"
+    },
+    {
+      "source": "Resources/System Design/Leader Election",
+      "target": "Resources/System Design/PACELC Theorem"
     },
     {
       "source": "Resources/System Design/Load Balancing Strategies",
@@ -32788,15 +32784,15 @@
     },
     {
       "source": "Resources/System Design/Real-Time Systems Design",
-      "target": "Resources/Notification System Design"
+      "target": "Resources/System Design/Content Delivery and Edge Computing"
     },
     {
       "source": "Resources/System Design/Real-Time Systems Design",
-      "target": "Resources/Software Engineering/API Design — Server-Sent Events"
+      "target": "Resources/System Design/Database Sharding"
     },
     {
       "source": "Resources/System Design/Real-Time Systems Design",
-      "target": "Resources/Software Engineering/API Design — WebSockets"
+      "target": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)"
     },
     {
       "source": "Resources/System Design/Real-Time Systems Design",
@@ -32804,7 +32800,7 @@
     },
     {
       "source": "Resources/System Design/Real-Time Systems Design",
-      "target": "Resources/System Design/WebRTC Architecture"
+      "target": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)"
     },
     {
       "source": "Resources/System Design/Scalability — Horizontal vs Vertical",
@@ -33455,5 +33451,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-30T17:10:39Z"
+  "generated_at": "2026-05-30T17:50:11Z"
 }
