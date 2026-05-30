@@ -8789,7 +8789,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Mental Health & Psychology/Post-Traumatic Growth",
@@ -8837,7 +8837,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/Mental Health & Psychology/Serotonin System",
@@ -10946,31 +10946,31 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 12
+      "degree": 15
     },
     {
       "id": "Resources/Personal Productivity/Digital Minimalism",
       "label": "Digital Minimalism",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Digital minimalism is the deliberate use of technology based on values, not defaults. The aim is not rejecting tools, but removing low-value digital noise so attention goes to meaningful work and relationships.",
+      "excerpt": "Digital minimalism (Cal Newport, 2019) is a philosophy of technology use built on values rather than defaults: adopt a tool only if it directly supports something you deeply care about, and reject tools that offer marginal benefits at the cost of fragmented attention. The key insight is that the attention economy deliberately designs apps for maximum engagement, not user wellbeing — and that passive consumption crowds out the solitude, boredom, and creative reflection that generate original thinking.",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Personal Productivity/Distraction Management",
       "label": "Distraction Management",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Distraction management is the practice of shaping environment, devices, commitments, and work blocks so attention is less likely to be pulled away. It works best when it removes triggers rather than relying on willpower.",
+      "excerpt": "Distraction management works through environment design rather than willpower — removing triggers before they activate reduces the need for self-control entirely. External distractions (notifications, colleague interruptions, open browser tabs) and internal distractions (boredom, anxiety, checking impulse) require different interventions, but both are better addressed through pre-commitment and system design than in-the-moment resistance.",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 11
+      "degree": 16
     },
     {
       "id": "Resources/Personal Productivity/Energy Management vs Time Management",
@@ -10982,7 +10982,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 14
+      "degree": 13
     },
     {
       "id": "Resources/Personal Productivity/Evening Wind-Down Routines",
@@ -11013,24 +11013,24 @@
       "label": "Flow State — How to Trigger It",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Flow is a state of deep absorption where challenge and skill are well matched. It is more likely when goals are clear, feedback is immediate, distractions are low, and the task is neither too easy nor too overwhelming.",
+      "excerpt": "Flow (Csikszentmihalyi, 1990) is a state of complete absorption in a challenging task where time distorts, self-consciousness fades, and action feels effortless. Neurologically, it involves transient hypofrontality (reduced PFC activity) and a cocktail of dopamine, norepinephrine, serotonin, anandamide, and endorphins. Flow cannot be forced directly, but four conditions reliably increase its probability: challenge slightly exceeding current skill, clear goals with immediate feedback, distraction-free time blocks, and at least 15–20 minutes of focused entry time.",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 8
+      "degree": 14
     },
     {
       "id": "Resources/Personal Productivity/Focus Modes and Context Switching Costs",
       "label": "Focus Modes and Context Switching Costs",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Focus modes reduce context switching by grouping compatible work and protecting attention from unrelated inputs. Context switches are costly because the brain carries attention residue from the previous task.",
+      "excerpt": "Context switching imposes a hidden cognitive tax: when you move from one type of work to another, attention residue from the previous task lingers for 15–20 minutes and degrades performance on the new one. Focus modes reduce this tax by grouping cognitively compatible work and protecting distinct mental states from contamination. For engineers, the most costly switches are between deep implementation and communication tasks.",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 12
+      "degree": 16
     },
     {
       "id": "Resources/Personal Productivity/Getting Things Done (GTD) Method",
@@ -11090,7 +11090,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/Personal Productivity/Keystone Habits",
@@ -11145,12 +11145,12 @@
       "label": "Notification Hygiene",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Notification hygiene means deciding which alerts deserve immediate attention and silencing the rest. Good defaults protect deep work while preserving truly time-sensitive signals.",
+      "excerpt": "Notifications are asymmetric: they cost milliseconds to send and 15–23 minutes of full attention to recover from. Gloria Mark (UC Irvine) found that knowledge workers are interrupted on average every 11 minutes and take 23 minutes to fully return to a task. Good notification hygiene is not a cosmetic preference — it is the first-line defense against involuntary context switching, and the default settings on every platform are wrong by design.",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/Personal Productivity/Obsidian Workflow Design",
@@ -11193,24 +11193,24 @@
       "label": "Pomodoro Technique",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Pomodoro Technique breaks work into focused intervals with short breaks, commonly 25 minutes on and 5 minutes off. It is most useful as an anti-procrastination and attention-starting tool.",
+      "excerpt": "The Pomodoro Technique (Francesco Cirillo, late 1980s) uses 25-minute focused intervals with 5-minute breaks to solve two distinct problems: the activation energy barrier to starting work, and the attention fatigue that builds from working without structured recovery. It is most effective as an anti-procrastination tool and a time estimation method, but it can interrupt flow if applied rigidly during deep work.",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 5
+      "degree": 8
     },
     {
       "id": "Resources/Personal Productivity/Procrastination — Root Causes and Fixes",
       "label": "Procrastination — Root Causes and Fixes",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Procrastination is often emotion regulation, ambiguity, fear, low energy, or task design failure rather than laziness. Fixes work best when they target the specific cause.",
+      "excerpt": "Procrastination is fundamentally emotion regulation, not time management (Pychyl & Sirois, 2013) — people avoid tasks to escape aversive feelings (anxiety, self-doubt, boredom), and the avoidance reliably provides immediate mood relief. Because the root cause varies (emotional avoidance, task ambiguity, perfectionism, low energy, overwhelm, low interest), effective fixes require diagnosing the actual cause first. Blunt interventions like 'just start' often miss the mechanism.",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 9
+      "degree": 14
     },
     {
       "id": "Resources/Personal Productivity/Reward Systems and Dopamine Loops",
@@ -11253,12 +11253,12 @@
       "label": "Time Blocking",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Time blocking assigns work to calendar blocks so priorities compete against real time instead of an abstract task list. It is useful for protecting deep work and making tradeoffs visible.",
+      "excerpt": "Time blocking assigns every hour of the workday to a specific task or task category on the calendar, so priorities compete against real time instead of an abstract to-do list. The core insight is that tasks without scheduled time are wishful thinking — blocking converts intentions into capacity commitments and makes overcommitment visible before it happens.",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 9
+      "degree": 14
     },
     {
       "id": "Resources/Personal Productivity/Weekly Review Process",
@@ -11270,7 +11270,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/Personal Productivity/Zettelkasten Method",
@@ -27484,7 +27484,19 @@
     },
     {
       "source": "Resources/Personal Productivity/Digital Minimalism",
+      "target": "Resources/Personal Productivity/Flow State — How to Trigger It"
+    },
+    {
+      "source": "Resources/Personal Productivity/Digital Minimalism",
+      "target": "Resources/Personal Productivity/Focus Modes and Context Switching Costs"
+    },
+    {
+      "source": "Resources/Personal Productivity/Digital Minimalism",
       "target": "Resources/Personal Productivity/Notification Hygiene"
+    },
+    {
+      "source": "Resources/Personal Productivity/Distraction Management",
+      "target": "Resources/Personal Productivity/Deep Work (Cal Newport)"
     },
     {
       "source": "Resources/Personal Productivity/Distraction Management",
@@ -27497,6 +27509,10 @@
     {
       "source": "Resources/Personal Productivity/Distraction Management",
       "target": "Resources/Personal Productivity/Notification Hygiene"
+    },
+    {
+      "source": "Resources/Personal Productivity/Distraction Management",
+      "target": "Resources/Personal Productivity/Procrastination — Root Causes and Fixes"
     },
     {
       "source": "Resources/Personal Productivity/Energy Management vs Time Management",
@@ -27548,6 +27564,10 @@
     },
     {
       "source": "Resources/Personal Productivity/Flow State — How to Trigger It",
+      "target": "Resources/Personal Productivity/Distraction Management"
+    },
+    {
+      "source": "Resources/Personal Productivity/Flow State — How to Trigger It",
       "target": "Resources/Personal Productivity/Focus Modes and Context Switching Costs"
     },
     {
@@ -27555,16 +27575,32 @@
       "target": "Resources/Personal Productivity/Pomodoro Technique"
     },
     {
+      "source": "Resources/Personal Productivity/Flow State — How to Trigger It",
+      "target": "Resources/Personal Productivity/Procrastination — Root Causes and Fixes"
+    },
+    {
+      "source": "Resources/Personal Productivity/Flow State — How to Trigger It",
+      "target": "Resources/Personal Productivity/Time Blocking"
+    },
+    {
       "source": "Resources/Personal Productivity/Focus Modes and Context Switching Costs",
       "target": "Resources/Personal Productivity/Deep Work (Cal Newport)"
     },
     {
       "source": "Resources/Personal Productivity/Focus Modes and Context Switching Costs",
-      "target": "Resources/Personal Productivity/Energy Management vs Time Management"
+      "target": "Resources/Personal Productivity/Distraction Management"
+    },
+    {
+      "source": "Resources/Personal Productivity/Focus Modes and Context Switching Costs",
+      "target": "Resources/Personal Productivity/Flow State — How to Trigger It"
     },
     {
       "source": "Resources/Personal Productivity/Focus Modes and Context Switching Costs",
       "target": "Resources/Personal Productivity/Notification Hygiene"
+    },
+    {
+      "source": "Resources/Personal Productivity/Focus Modes and Context Switching Costs",
+      "target": "Resources/Personal Productivity/Time Blocking"
     },
     {
       "source": "Resources/Personal Productivity/Getting Things Done (GTD) Method",
@@ -27695,6 +27731,10 @@
       "target": "Resources/Personal Productivity/Distraction Management"
     },
     {
+      "source": "Resources/Personal Productivity/Notification Hygiene",
+      "target": "Resources/Personal Productivity/Focus Modes and Context Switching Costs"
+    },
+    {
       "source": "Resources/Personal Productivity/Obsidian Workflow Design",
       "target": "Note Title"
     },
@@ -27756,6 +27796,10 @@
     },
     {
       "source": "Resources/Personal Productivity/Pomodoro Technique",
+      "target": "Resources/Personal Productivity/Deep Work (Cal Newport)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Pomodoro Technique",
       "target": "Resources/Personal Productivity/Flow State — How to Trigger It"
     },
     {
@@ -27767,12 +27811,28 @@
       "target": "Resources/Personal Productivity/Procrastination — Root Causes and Fixes"
     },
     {
-      "source": "Resources/Personal Productivity/Procrastination — Root Causes and Fixes",
-      "target": "Resources/Personal Productivity/Digital Minimalism"
+      "source": "Resources/Personal Productivity/Pomodoro Technique",
+      "target": "Resources/Personal Productivity/Time Blocking"
     },
     {
       "source": "Resources/Personal Productivity/Procrastination — Root Causes and Fixes",
-      "target": "Resources/Personal Productivity/Intention Setting"
+      "target": "Resources/Mental Health & Psychology/Perfectionism — Causes and Fixes"
+    },
+    {
+      "source": "Resources/Personal Productivity/Procrastination — Root Causes and Fixes",
+      "target": "Resources/Mental Health & Psychology/Self-Compassion vs Self-Esteem (Kristin Neff)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Procrastination — Root Causes and Fixes",
+      "target": "Resources/Personal Productivity/Deep Work (Cal Newport)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Procrastination — Root Causes and Fixes",
+      "target": "Resources/Personal Productivity/Distraction Management"
+    },
+    {
+      "source": "Resources/Personal Productivity/Procrastination — Root Causes and Fixes",
+      "target": "Resources/Personal Productivity/Flow State — How to Trigger It"
     },
     {
       "source": "Resources/Personal Productivity/Procrastination — Root Causes and Fixes",
@@ -27825,6 +27885,14 @@
     {
       "source": "Resources/Personal Productivity/Time Blocking",
       "target": "Resources/Personal Productivity/Focus Modes and Context Switching Costs"
+    },
+    {
+      "source": "Resources/Personal Productivity/Time Blocking",
+      "target": "Resources/Personal Productivity/Pomodoro Technique"
+    },
+    {
+      "source": "Resources/Personal Productivity/Time Blocking",
+      "target": "Resources/Personal Productivity/Weekly Review Process"
     },
     {
       "source": "Resources/Personal Productivity/Weekly Review Process",
@@ -33199,5 +33267,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-30T14:46:48Z"
+  "generated_at": "2026-05-30T15:05:45Z"
 }
