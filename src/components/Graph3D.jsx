@@ -9,7 +9,7 @@ import InfoPanel from './InfoPanel'
 
 const BACKGROUND_COLOR = '#050820'
 const STAR_COUNT = 4000
-const STAR_RADIUS = 4000
+const STAR_RADIUS = 8000
 const LINK_PARTICLE_COLOR = '#a0c0ff'
 const COMET_TRAIL = 25
 const COMET_TRAIL_DEPTH = 0.18
@@ -514,7 +514,7 @@ export default function Graph3D({ data }) {
 
     const controls = instance.controls()
     if (controls) {
-      controls.maxDistance = 3000
+      controls.maxDistance = 6000
       controls.autoRotate = false  // manual rotation via applyAxisAngle — more reliable across Three.js versions
       controls.enableDamping = true
       controls.dampingFactor = 0.08
