@@ -650,6 +650,15 @@
       "degree": 1
     },
     {
+      "id": "Leadership & Management → Radical Candor",
+      "label": "Leadership & Management → Radical Candor",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Linux System Monitoring — top, htop, iostat, sar, /proc Filesystem",
       "label": "proc Filesystem",
       "folder": "Linux System Monitoring — top, htop, iostat, sar, ",
@@ -7905,7 +7914,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 16
+      "degree": 15
     },
     {
       "id": "Resources/Learning & Memory/Chunking Information",
@@ -7965,7 +7974,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)",
@@ -8097,7 +8106,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 13
+      "degree": 11
     },
     {
       "id": "Resources/Learning & Memory/Second-Order Thinking",
@@ -8541,12 +8550,12 @@
       "label": "Attachment Styles (Secure, Anxious, Avoidant, Fearful)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Attachment styles describe patterns of closeness, trust, threat, and regulation in relationships. Secure, anxious, avoidant, and fearful patterns are useful lenses, but they are not fixed identities or full explanations of a person.",
+      "excerpt": "Attachment theory (Bowlby, Ainsworth) describes how early caregiver relationships shape internal working models of closeness, safety, and self-worth in relationships. Four adult attachment styles — secure, anxious, avoidant, fearful — predict how people behave under relational stress, seek or reject support, and regulate emotions in close relationships. Styles are patterns, not fixed identities, and can shift with experience and therapy.",
       "tags": [
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Mental Health & Psychology/Burnout — Signs, Stages, and Recovery",
@@ -8558,7 +8567,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 11
+      "degree": 13
     },
     {
       "id": "Resources/Mental Health & Psychology/Chronic Stress — Long-Term Physical and Mental Effects",
@@ -8570,7 +8579,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Mental Health & Psychology/Cognitive Behavioral Therapy (CBT) Basics",
@@ -8582,7 +8591,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Mental Health & Psychology/Cognitive Distortions — Complete Reference",
@@ -8594,19 +8603,19 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Mental Health & Psychology/Depression — Biology and Treatment",
       "label": "Depression — Biology and Treatment",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Depression is a serious mood disorder involving emotion, cognition, sleep, appetite, energy, motivation, and body systems. Treatment can include psychotherapy, medication, lifestyle support, social support, and sometimes advanced interventions under clinical care.",
+      "excerpt": "Major depressive disorder involves persistent low mood or anhedonia plus at least 4 additional symptoms for 2+ weeks, causing significant impairment. The biology is more complex than the 'chemical imbalance' framing: neuroinflammation, HPA dysregulation, and default mode network overactivity are all implicated. Treatment evidence supports CBT, behavioral activation, SSRIs/SNRIs, and exercise — with newer options (ketamine, TMS) for treatment-resistant cases.",
       "tags": [
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 9
+      "degree": 11
     },
     {
       "id": "Resources/Mental Health & Psychology/Dopamine System — Rewards and Motivation",
@@ -8630,7 +8639,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "Resources/Mental Health & Psychology/FOMO and Digital Anxiety",
@@ -8661,24 +8670,24 @@
       "label": "Impostor Syndrome",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Impostor syndrome is the persistent feeling of being a fraud despite evidence of competence. It often appears in high-achieving or uncertain environments and improves through evidence tracking, normalization, feedback, and realistic standards.",
+      "excerpt": "Impostor syndrome (Clance & Imes, 1978) is the persistent internal experience of intellectual fraudulence despite objective evidence of competence. It is driven by a self-perpetuating cognitive cycle that attributes success to external factors and treats mistakes as evidence of true inadequacy. Highly prevalent in software engineering — especially among high performers, in new roles, or in underrepresented groups.",
       "tags": [
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 6
+      "degree": 10
     },
     {
       "id": "Resources/Mental Health & Psychology/Journaling for Mental Health",
       "label": "Journaling for Mental Health",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Journaling supports mental health by externalizing thoughts, naming emotions, tracking patterns, and turning vague distress into clearer problems. It works best when it leads to reflection or action rather than rumination loops.",
+      "excerpt": "Journaling has solid research support (Pennebaker's expressive writing paradigm) for processing difficult experiences and reducing their ongoing physiological impact. Different journaling formats serve different purposes — expressive writing, gratitude, CBT thought records, decision journaling. The key distinction: reflection that moves toward insight is different from venting that reinforces rumination.",
       "tags": [
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Mental Health & Psychology/Learned Helplessness",
@@ -8721,24 +8730,24 @@
       "label": "Meditation Types and Benefits",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Meditation includes practices such as mindfulness, focused attention, open monitoring, loving-kindness, body scan, mantra, and movement meditation. Benefits depend on the person, practice, consistency, and psychological context.",
+      "excerpt": "Meditation is a family of distinct practices that train different cognitive and emotional capacities. Focused attention trains sustained concentration. Open monitoring trains metacognitive awareness. Loving-kindness trains compassion and social warmth. Body scan trains interoception. Choosing the right type depends on what the person actually needs, not a generic 'try meditation' recommendation.",
       "tags": [
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 5
+      "degree": 8
     },
     {
       "id": "Resources/Mental Health & Psychology/Mindfulness — Evidence and Practice",
       "label": "Mindfulness — Evidence and Practice",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Mindfulness is paying attention to present experience with less automatic judgment. Evidence supports it as a helpful skill for stress and emotion regulation for many people, though it is not a universal cure.",
+      "excerpt": "Mindfulness is the practice of deliberately attending to present-moment experience — thoughts, sensations, emotions — with less automatic reactivity. Jon Kabat-Zinn operationalized it in 1979 as MBSR and launched three decades of neuroscience research showing measurable structural and functional brain changes. It is evidence-supported for stress, anxiety, depression relapse, and pain — but not a universal treatment and requires care around trauma.",
       "tags": [
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 10
+      "degree": 13
     },
     {
       "id": "Resources/Mental Health & Psychology/Neuroplasticity",
@@ -8750,19 +8759,19 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Mental Health & Psychology/Perfectionism — Causes and Fixes",
       "label": "Perfectionism — Causes and Fixes",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Perfectionism combines high standards with fear, rigidity, or self-worth dependence. It improves when standards become flexible, feedback becomes information, and imperfect action becomes safer than avoidance.",
+      "excerpt": "Perfectionism is not high standards — it is a pattern where self-worth becomes contingent on achievement quality, mistakes feel threatening rather than informative, and avoidance becomes preferable to imperfect output. Frost's Multidimensional Perfectionism Scale identifies six components. Maladaptive perfectionism is a primary driver of procrastination, burnout, and chronic underperformance despite high ability.",
       "tags": [
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Resources/Mental Health & Psychology/Post-Traumatic Growth",
@@ -8781,12 +8790,12 @@
       "label": "Psychological Safety",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Psychological safety is the shared belief that people can speak up, ask questions, admit mistakes, and challenge ideas without interpersonal punishment. It is crucial for learning teams and honest engineering work.",
+      "excerpt": "Psychological safety (Amy Edmondson, Harvard) is the shared belief that a team is safe for interpersonal risk-taking — speaking up, admitting mistakes, asking questions, and challenging ideas without fear of punishment or humiliation. Google's Project Aristotle identified it as the single strongest predictor of team performance. It is created primarily through leader behavior, especially how leaders respond to bad news.",
       "tags": [
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 6
+      "degree": 10
     },
     {
       "id": "Resources/Mental Health & Psychology/Resilience — How to Build It",
@@ -8798,19 +8807,19 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "Resources/Mental Health & Psychology/Self-Compassion vs Self-Esteem (Kristin Neff)",
       "label": "Self-Compassion vs Self-Esteem (Kristin Neff)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Self-compassion means responding to difficulty with kindness, common humanity, and mindful awareness, while self-esteem evaluates worth or competence. Kristin Neff's framing is useful because self-compassion supports resilience without needing to feel superior or successful.",
+      "excerpt": "Self-compassion (Kristin Neff) means treating yourself during difficulty with the same kindness you'd offer a good friend — not excusing poor performance, but responding to failure and pain without harsh self-attack. Unlike self-esteem, it doesn't require positive self-evaluation to maintain. Research shows it predicts lower shame, less fear of failure, more motivation to improve, and better resilience than high self-esteem.",
       "tags": [
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 6
+      "degree": 11
     },
     {
       "id": "Resources/Mental Health & Psychology/Serotonin System",
@@ -8822,7 +8831,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Mental Health & Psychology/Social Comparison Theory",
@@ -8858,7 +8867,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "Resources/Mental Health & Psychology/The Role of Play in Adult Life",
@@ -10155,7 +10164,7 @@
         "resource",
         "neuroscience"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Neuroscience/Hippocampus and Memory Formation",
@@ -10895,7 +10904,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Personal Productivity/Decision Journaling",
@@ -10907,7 +10916,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "Resources/Personal Productivity/Deep Work (Cal Newport)",
@@ -11183,7 +11192,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Personal Productivity/Reward Systems and Dopamine Loops",
@@ -24635,15 +24644,23 @@
     },
     {
       "source": "Resources/Mental Health & Psychology/Attachment Styles (Secure, Anxious, Avoidant, Fearful)",
-      "target": "Resources/Learning & Memory/Productive Disagreement"
-    },
-    {
-      "source": "Resources/Mental Health & Psychology/Attachment Styles (Secure, Anxious, Avoidant, Fearful)",
       "target": "Resources/Mental Health & Psychology/Emotional Regulation Techniques"
     },
     {
       "source": "Resources/Mental Health & Psychology/Attachment Styles (Secure, Anxious, Avoidant, Fearful)",
       "target": "Resources/Mental Health & Psychology/Loneliness and Connection — The Health Impact"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Attachment Styles (Secure, Anxious, Avoidant, Fearful)",
+      "target": "Resources/Mental Health & Psychology/Psychological Safety"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Attachment Styles (Secure, Anxious, Avoidant, Fearful)",
+      "target": "Resources/Mental Health & Psychology/Resilience — How to Build It"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Attachment Styles (Secure, Anxious, Avoidant, Fearful)",
+      "target": "Resources/Mental Health & Psychology/Self-Compassion vs Self-Esteem (Kristin Neff)"
     },
     {
       "source": "Resources/Mental Health & Psychology/Burnout — Signs, Stages, and Recovery",
@@ -24731,11 +24748,19 @@
     },
     {
       "source": "Resources/Mental Health & Psychology/Depression — Biology and Treatment",
+      "target": "Resources/Mental Health & Psychology/Chronic Stress — Long-Term Physical and Mental Effects"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Depression — Biology and Treatment",
       "target": "Resources/Mental Health & Psychology/Cognitive Behavioral Therapy (CBT) Basics"
     },
     {
       "source": "Resources/Mental Health & Psychology/Depression — Biology and Treatment",
-      "target": "Resources/Mental Health & Psychology/Serotonin System"
+      "target": "Resources/Mental Health & Psychology/Neuroplasticity"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Depression — Biology and Treatment",
+      "target": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)"
     },
     {
       "source": "Resources/Mental Health & Psychology/Dopamine System — Rewards and Motivation",
@@ -24795,11 +24820,19 @@
     },
     {
       "source": "Resources/Mental Health & Psychology/Impostor Syndrome",
-      "target": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know"
+      "target": "Resources/Mental Health & Psychology/Cognitive Distortions — Complete Reference"
     },
     {
       "source": "Resources/Mental Health & Psychology/Impostor Syndrome",
-      "target": "Resources/Learning & Memory/Growth Mindset vs Fixed Mindset"
+      "target": "Resources/Mental Health & Psychology/Perfectionism — Causes and Fixes"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Impostor Syndrome",
+      "target": "Resources/Mental Health & Psychology/Psychological Safety"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Impostor Syndrome",
+      "target": "Resources/Mental Health & Psychology/Self-Compassion vs Self-Esteem (Kristin Neff)"
     },
     {
       "source": "Resources/Mental Health & Psychology/Impostor Syndrome",
@@ -24815,7 +24848,15 @@
     },
     {
       "source": "Resources/Mental Health & Psychology/Journaling for Mental Health",
-      "target": "Resources/Personal Productivity/Daily Note Template"
+      "target": "Resources/Mental Health & Psychology/Mindfulness — Evidence and Practice"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Journaling for Mental Health",
+      "target": "Resources/Personal Productivity/Decision Journaling"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Journaling for Mental Health",
+      "target": "Resources/Personal Productivity/Procrastination — Root Causes and Fixes"
     },
     {
       "source": "Resources/Mental Health & Psychology/Learned Helplessness",
@@ -24863,7 +24904,19 @@
     },
     {
       "source": "Resources/Mental Health & Psychology/Meditation Types and Benefits",
+      "target": "Resources/Mental Health & Psychology/Self-Compassion vs Self-Esteem (Kristin Neff)"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Meditation Types and Benefits",
+      "target": "Resources/Neuroscience/Default Mode Network"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Meditation Types and Benefits",
       "target": "Resources/Neuroscience/Interoception — Body Awareness and Emotions"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Mindfulness — Evidence and Practice",
+      "target": "Resources/Mental Health & Psychology/Cognitive Behavioral Therapy (CBT) Basics"
     },
     {
       "source": "Resources/Mental Health & Psychology/Mindfulness — Evidence and Practice",
@@ -24876,6 +24929,10 @@
     {
       "source": "Resources/Mental Health & Psychology/Mindfulness — Evidence and Practice",
       "target": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Mindfulness — Evidence and Practice",
+      "target": "Resources/Neuroscience/Default Mode Network"
     },
     {
       "source": "Resources/Mental Health & Psychology/Neuroplasticity",
@@ -24891,7 +24948,15 @@
     },
     {
       "source": "Resources/Mental Health & Psychology/Perfectionism — Causes and Fixes",
+      "target": "Resources/Mental Health & Psychology/Burnout — Signs, Stages, and Recovery"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Perfectionism — Causes and Fixes",
       "target": "Resources/Mental Health & Psychology/Cognitive Distortions — Complete Reference"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Perfectionism — Causes and Fixes",
+      "target": "Resources/Mental Health & Psychology/Impostor Syndrome"
     },
     {
       "source": "Resources/Mental Health & Psychology/Perfectionism — Causes and Fixes",
@@ -24915,11 +24980,19 @@
     },
     {
       "source": "Resources/Mental Health & Psychology/Psychological Safety",
+      "target": "Leadership & Management → Radical Candor"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Psychological Safety",
       "target": "Resources/DevOps & Infrastructure/Postmortem Writing"
     },
     {
       "source": "Resources/Mental Health & Psychology/Psychological Safety",
-      "target": "Resources/Learning & Memory/Productive Disagreement"
+      "target": "Resources/Mental Health & Psychology/Burnout — Signs, Stages, and Recovery"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Psychological Safety",
+      "target": "Resources/Mental Health & Psychology/Impostor Syndrome"
     },
     {
       "source": "Resources/Mental Health & Psychology/Psychological Safety",
@@ -24951,7 +25024,15 @@
     },
     {
       "source": "Resources/Mental Health & Psychology/Self-Compassion vs Self-Esteem (Kristin Neff)",
+      "target": "Resources/Mental Health & Psychology/Emotional Regulation Techniques"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Self-Compassion vs Self-Esteem (Kristin Neff)",
       "target": "Resources/Mental Health & Psychology/Impostor Syndrome"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Self-Compassion vs Self-Esteem (Kristin Neff)",
+      "target": "Resources/Mental Health & Psychology/Meditation Types and Benefits"
     },
     {
       "source": "Resources/Mental Health & Psychology/Self-Compassion vs Self-Esteem (Kristin Neff)",
@@ -32878,5 +32959,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-30T07:11:52Z"
+  "generated_at": "2026-05-30T07:22:03Z"
 }
