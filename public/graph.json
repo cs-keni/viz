@@ -52,7 +52,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "API Design gRPC",
@@ -195,7 +195,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 9
+      "degree": 11
     },
     {
       "id": "Chemistry & Biochemistry",
@@ -773,6 +773,24 @@
       "degree": 1
     },
     {
+      "id": "Open Source Contributing",
+      "label": "Open Source Contributing",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Open Source Licensing",
+      "label": "Open Source Licensing",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Optionality",
       "label": "Optionality",
       "folder": null,
@@ -1145,7 +1163,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/AI & Machine Learning/Constitutional AI",
@@ -1409,7 +1427,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/AI & Machine Learning/Positional Encoding",
@@ -1690,7 +1708,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 15
+      "degree": 14
     },
     {
       "id": "Resources/Agent Evaluation",
@@ -3536,7 +3554,7 @@
         "study",
         "systems"
       ],
-      "degree": 18
+      "degree": 17
     },
     {
       "id": "Resources/Cognitive Science & Biases/Anchoring Bias",
@@ -5399,7 +5417,7 @@
         "study",
         "systems"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/Dynamic Programming Deep Dive",
@@ -7506,7 +7524,7 @@
         "bobby",
         "ai"
       ],
-      "degree": 14
+      "degree": 13
     },
     {
       "id": "Resources/Language & Linguistics/Effective Vocabulary Building",
@@ -8981,7 +8999,7 @@
         "misc-high-value",
         "communication-writing"
       ],
-      "degree": 4
+      "degree": 3
     },
     {
       "id": "Resources/Miscellaneous High-Value Topics/Code as Communication (Writing for Readers)",
@@ -10528,7 +10546,7 @@
         "study",
         "systems"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/Observability",
@@ -12580,7 +12598,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 11
+      "degree": 10
     },
     {
       "id": "Resources/Security & Privacy/API Key Management",
@@ -13401,7 +13419,7 @@
         "engineering",
         "system-design"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/Software Engineering Tools",
@@ -13413,7 +13431,7 @@
         "resource",
         "study"
       ],
-      "degree": 3
+      "degree": 1
     },
     {
       "id": "Resources/Software Engineering/12-Factor App Methodology",
@@ -13449,14 +13467,14 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 15
+      "degree": 14
     },
     {
       "id": "Resources/Software Engineering/API Design — Server-Sent Events",
       "label": "API Design — Server-Sent Events",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Server-Sent Events are a simple HTTP-based way for servers to stream updates to clients. SSE is a good fit for one-way live updates where WebSockets would add unnecessary connection and protocol complexity.",
+      "excerpt": "Server-Sent Events (SSE) stream text events from server to client over a persistent HTTP connection. The wire format is dead simple: text/event-stream lines with data:, event:, id:, retry: fields. Browsers get EventSource with built-in reconnection and Last-Event-ID resumption. The main real-world use is AI token streaming (OpenAI, Anthropic both use SSE). The main gotcha is proxy buffering — Nginx buffers by default and breaks SSE.",
       "tags": [
         "resource",
         "software-engineering"
@@ -13540,7 +13558,7 @@
       "label": "Build Systems Overview (Make, Bazel, Nx)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Build systems turn source code into tested, packaged, runnable artifacts. Tools like Make, Bazel, and Nx differ in how much structure they provide for dependency graphs, caching, reproducibility, and monorepo scale.",
+      "excerpt": "Build systems automate the compilation, testing, and packaging pipeline. Make is rule-based and ubiquitous; Bazel is hermetic and graph-based (correctness over convenience); Nx and Turborepo are task orchestrators designed for JS/TS monorepos with remote caching. The key concept across all of them: a build graph where outputs depend on inputs, and incremental builds skip work when inputs haven't changed.",
       "tags": [
         "resource",
         "software-engineering"
@@ -13600,7 +13618,7 @@
       "label": "Code Complexity — Cyclomatic Complexity",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Cyclomatic complexity measures the number of independent paths through code. It is a useful warning signal for testing and maintainability, but it should be interpreted with context rather than treated as a universal score.",
+      "excerpt": "Cyclomatic complexity (McCabe, 1976) counts independent paths through a function via its control-flow graph: V(G) = E - N + 2. Each if/elif/for/while/case/catch adds 1. Thresholds: ≤10 simple, 11-20 moderate, 21-50 high, >50 untestable. High complexity correlates with defect density. Cognitive complexity (SonarSource) is a better human-readability metric — it penalizes nested structure more heavily.",
       "tags": [
         "resource",
         "software-engineering"
@@ -13648,7 +13666,7 @@
       "label": "Dependency Management",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Dependency management controls how projects select, version, update, audit, and isolate third-party or internal packages. It affects security, reliability, reproducibility, and long-term maintenance.",
+      "excerpt": "Dependency management controls what third-party code runs in your product. Core mechanics: package managers resolve dependency graphs, lockfiles pin exact versions for reproducibility, and vulnerability scanners (Dependabot, Snyk, Trivy) flag CVEs in transitive deps. The main failure modes: dependency confusion attacks, supply chain compromises (leftpad, event-stream, xz-utils), version drift, and license violations. Key discipline: minimize dependencies, audit what you have, and automate security updates.",
       "tags": [
         "resource",
         "software-engineering"
@@ -13821,7 +13839,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 13
+      "degree": 15
     },
     {
       "id": "Resources/Software Engineering/Monolith vs Microservices Tradeoffs",
@@ -13840,24 +13858,24 @@
       "label": "Monorepo vs Polyrepo",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Monorepo and polyrepo strategies organize source code around different tradeoffs in coordination, tooling, ownership, and release independence. The best choice depends on team scale, dependency coupling, and build infrastructure maturity.",
+      "excerpt": "Monorepos store all code in one repository; polyrepos split it across many. The real tradeoff isn't storage — it's integration visibility vs deployment independence. Monorepos make cross-cutting changes atomic and dependency drift impossible, but require fast selective builds. Polyrepos give services independent lifecycles but make coordination across repos painful. Tools: Nx and Turborepo for JS/TS monorepos, Bazel for large-scale. Google runs the world's largest monorepo; most startups use polyrepos by default.",
       "tags": [
         "resource",
         "software-engineering"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Software Engineering/Open Source Licensing (MIT, Apache, GPL, etc.)",
       "label": "Open Source Licensing (MIT, Apache, GPL, etc.)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Open source licenses define what others may do with code and what obligations they inherit. Engineers need licensing literacy because dependency choices can affect distribution, compliance, and business risk.",
+      "excerpt": "Open source licenses range from permissive (MIT, Apache 2.0 — use however you want, keep attribution) to copyleft (GPL — derivatives must also be open source) to network copyleft (AGPL — even SaaS use requires releasing source). The key engineering decision: GPL in a dependency forces your product open if you distribute it; AGPL does the same even if you only run it as a service. Apache 2.0 includes a patent license MIT doesn't have.",
       "tags": [
         "resource",
         "software-engineering"
       ],
-      "degree": 9
+      "degree": 7
     },
     {
       "id": "Resources/Software Engineering/OpenAPI and API Documentation",
@@ -13984,7 +14002,7 @@
       "label": "The Unix Philosophy",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "The Unix philosophy favors small composable programs that do one thing well and communicate through simple interfaces. Its lasting lesson is that good software tools become powerful when they compose cleanly.",
+      "excerpt": "The Unix philosophy (McIlroy, 1978) is three rules: do one thing well, make programs work together, handle text streams. The real lesson isn't 'make everything tiny' — it's 'design for composition.' Pipes as the composition primitive, text as the universal data format, silence on success as the failure signaling convention. The philosophy influenced microservices, REST APIs, and CLI tool design. Its tension: composition requires stable interfaces, and sometimes a monolithic design is clearer.",
       "tags": [
         "resource",
         "software-engineering"
@@ -14001,14 +14019,14 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Software Engineering/Virtualization — VMs vs Containers",
       "label": "Virtualization — VMs vs Containers",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Virtual machines and containers isolate workloads at different layers. VMs virtualize hardware with separate guest operating systems, while containers isolate processes that share the host kernel.",
+      "excerpt": "VMs virtualize hardware via a hypervisor — each VM has its own OS kernel, strong isolation, and slow startup (seconds). Containers share the host kernel and use Linux namespaces + cgroups for isolation — lighter, faster (milliseconds), but weaker isolation. The security tradeoff is real: container escapes are possible; VM escapes are extremely rare. In practice: cloud VMs provide the trust boundary; containers run inside them for density and deployment flexibility.",
       "tags": [
         "resource",
         "software-engineering"
@@ -29925,11 +29943,11 @@
     },
     {
       "source": "Resources/Software Engineering/API Design — Server-Sent Events",
-      "target": "Resources/API Design"
+      "target": "Resources/AI & Machine Learning/Claude API and Anthropic SDK"
     },
     {
       "source": "Resources/Software Engineering/API Design — Server-Sent Events",
-      "target": "Resources/LLM System Design"
+      "target": "Resources/AI & Machine Learning/OpenAI API and GPT Models"
     },
     {
       "source": "Resources/Software Engineering/API Design — Server-Sent Events",
@@ -30065,10 +30083,6 @@
     },
     {
       "source": "Resources/Software Engineering/Build Systems Overview (Make, Bazel, Nx)",
-      "target": "Resources/Software Engineering Tools"
-    },
-    {
-      "source": "Resources/Software Engineering/Build Systems Overview (Make, Bazel, Nx)",
       "target": "Resources/Software Engineering/Dependency Management"
     },
     {
@@ -30078,6 +30092,10 @@
     {
       "source": "Resources/Software Engineering/Build Systems Overview (Make, Bazel, Nx)",
       "target": "Resources/Software Engineering/Static Analysis Tools"
+    },
+    {
+      "source": "Resources/Software Engineering/Build Systems Overview (Make, Bazel, Nx)",
+      "target": "Resources/Software Engineering/Trunk-Based Development"
     },
     {
       "source": "Resources/Software Engineering/CQRS Pattern",
@@ -30241,7 +30259,7 @@
     },
     {
       "source": "Resources/Software Engineering/Dependency Management",
-      "target": "Resources/Security"
+      "target": "Open Source Licensing"
     },
     {
       "source": "Resources/Software Engineering/Dependency Management",
@@ -30253,7 +30271,7 @@
     },
     {
       "source": "Resources/Software Engineering/Dependency Management",
-      "target": "Resources/Software Engineering/Open Source Licensing (MIT, Apache, GPL, etc.)"
+      "target": "Resources/Software Engineering/Monorepo vs Polyrepo"
     },
     {
       "source": "Resources/Software Engineering/Dependency Management",
@@ -30549,7 +30567,7 @@
     },
     {
       "source": "Resources/Software Engineering/Monorepo vs Polyrepo",
-      "target": "Resources/Software Architecture"
+      "target": "CI/CD Pipeline Design"
     },
     {
       "source": "Resources/Software Engineering/Monorepo vs Polyrepo",
@@ -30569,15 +30587,11 @@
     },
     {
       "source": "Resources/Software Engineering/Open Source Licensing (MIT, Apache, GPL, etc.)",
-      "target": "Resources/Miscellaneous High-Value Topics/Changelog and Release Notes Writing"
+      "target": "Open Source Contributing"
     },
     {
       "source": "Resources/Software Engineering/Open Source Licensing (MIT, Apache, GPL, etc.)",
       "target": "Resources/Security & Privacy/Supply Chain Security"
-    },
-    {
-      "source": "Resources/Software Engineering/Open Source Licensing (MIT, Apache, GPL, etc.)",
-      "target": "Resources/Software Engineering Tools"
     },
     {
       "source": "Resources/Software Engineering/Open Source Licensing (MIT, Apache, GPL, etc.)",
@@ -30785,11 +30799,11 @@
     },
     {
       "source": "Resources/Software Engineering/The Unix Philosophy",
-      "target": "Resources/DevOps & Infrastructure/Bash Scripting"
+      "target": "API Design REST"
     },
     {
       "source": "Resources/Software Engineering/The Unix Philosophy",
-      "target": "Resources/OS Fundamentals"
+      "target": "Resources/DevOps & Infrastructure/Bash Scripting"
     },
     {
       "source": "Resources/Software Engineering/The Unix Philosophy",
@@ -30797,11 +30811,11 @@
     },
     {
       "source": "Resources/Software Engineering/The Unix Philosophy",
-      "target": "Resources/Software Engineering/API Design — REST Principles"
+      "target": "Resources/Software Engineering/Clean Code Principles"
     },
     {
       "source": "Resources/Software Engineering/The Unix Philosophy",
-      "target": "Resources/Software Engineering/Clean Code Principles"
+      "target": "Resources/Software Engineering/Microservices Architecture"
     },
     {
       "source": "Resources/Software Engineering/Trunk-Based Development",
@@ -30825,11 +30839,7 @@
     },
     {
       "source": "Resources/Software Engineering/Virtualization — VMs vs Containers",
-      "target": "Resources/Cloud Services"
-    },
-    {
-      "source": "Resources/Software Engineering/Virtualization — VMs vs Containers",
-      "target": "Resources/Docker"
+      "target": "CI/CD Pipeline Design"
     },
     {
       "source": "Resources/Software Engineering/Virtualization — VMs vs Containers",
@@ -30842,6 +30852,10 @@
     {
       "source": "Resources/Software Engineering/Virtualization — VMs vs Containers",
       "target": "Resources/Software Engineering/Kubernetes Basics"
+    },
+    {
+      "source": "Resources/Software Engineering/Virtualization — VMs vs Containers",
+      "target": "Resources/Software Engineering/Microservices Architecture"
     },
     {
       "source": "Resources/System Administration & IT/Active Directory — How It Works (Domains, OUs, Forest, Trusts, Kerberos)",
@@ -32756,5 +32770,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-30T00:43:45Z"
+  "generated_at": "2026-05-30T01:15:33Z"
 }
