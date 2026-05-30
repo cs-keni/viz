@@ -1,11 +1,18 @@
 # HANDOFF
 
-**Last updated:** 2026-05-26 by Codex (GPT-5.5 xmedium)
+**Last updated:** 2026-05-29 by Claude Code (Sonnet 4.6)
 **Session:** Global Codex instruction update for documentation freshness. Previous performance/Phase 2 state preserved below.
 
 ## State
 
-Phase 1 + Phase 2 fully deployed. Site is live on Vercel. GitHub Action auto-updates graph.json on every vault push.
+Phase 1 + Phase 2 fully deployed. Site is live on Vercel. Phase 3 (five feature expansion) implemented 2026-05-29 — awaiting visual QA.
+
+**Phase 3 features live:**
+- **F1 Search** — `/ or ⌘K` focuses floating search bar; matches dim non-matching nodes; exclusive with selection
+- **F2 Share link** — `#node=<id>` hash in URL; auto-selects node on load; "COPY LINK" button in InfoPanel
+- **F3 Connection ripple** — clicking a node spawns expanding billboard rings at neighbor positions
+- **F4 Path highlight** — alt-click two nodes for BFS gold path overlay; Escape to clear
+- **F5 Timeline** — "TIMELINE" button (bottom-right) opens scrubber; nodes scale to 0 before creation date
 
 Global Codex instructions at `/home/keni/.codex/AGENTS.md` now make documentation freshness an explicit priority: meaningful code, architecture, implementation, workflow, tooling, or task-status changes must update the relevant shared docs in the same change. This was added to prevent stale architecture or implementation notes from misleading future Codex/Claude sessions.
 
@@ -41,7 +48,7 @@ All per-frame animation lives in the **independent `requestAnimationFrame` loop*
 - T10: Camera fly-to + `InfoPanel` on node click.
 - Perf: InstancedMesh optimization (700+ → 3 draw calls).
 
-## Key file — Graph3D.jsx (~788 lines)
+## Key file — Graph3D.jsx (~1,110 lines)
 
 | Callback / section | Owns |
 |---|---|
@@ -50,7 +57,7 @@ All per-frame animation lives in the **independent `requestAnimationFrame` loop*
 | `initInstancedMeshes` | Creates 3 InstancedMeshes; called by rAF loop (normal) and onEngineStop (fallback) |
 | `applySelectionColors` | `setColorAt` per instance for selected/dimmed state; called on click/dismiss only |
 | `onEngineStop` | `zoomToFit`, start cinematic reel, fallback `initInstancedMeshes` |
-| `nodeThreeObject` | Sets `node._radius`, `_phase`, `_baseEmissive`; returns invisible `Object3D` tracker |
+| `nodeThreeObject` | Sets `node._radius`, `_phase`, `_baseEmissive`, `_createdMs`; returns invisible `Mesh` tracker |
 | `onNodeClick` / `handleDismiss` | Selection state, orbit pause/resume, InfoPanel open/close |
 
 Notable module-level helpers:

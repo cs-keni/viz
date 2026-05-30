@@ -89,19 +89,37 @@ export default function InfoPanel({ node, onDismiss }) {
         {node.created && <span>{formatDate(node.created)}</span>}
       </div>
 
-      {/* Dismiss hint */}
-      <div
-        onClick={onDismiss}
-        style={{
-          marginTop: 16,
-          fontSize: 10,
-          color: 'rgba(160, 192, 255, 0.3)',
-          cursor: 'pointer',
-          letterSpacing: '0.05em',
-          textAlign: 'right',
-        }}
-      >
-        ESC or click away to close
+      {/* Actions row */}
+      <div style={{ marginTop: 16, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <button
+          onClick={() => navigator.clipboard?.writeText(window.location.href)}
+          style={{
+            background: 'none',
+            border: '1px solid rgba(160, 192, 255, 0.2)',
+            color: 'rgba(160, 192, 255, 0.5)',
+            borderRadius: 4,
+            padding: '3px 10px',
+            fontSize: 10,
+            letterSpacing: '0.05em',
+            cursor: 'pointer',
+            transition: 'border-color 0.15s ease, color 0.15s ease',
+          }}
+          onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(160, 192, 255, 0.5)'; e.currentTarget.style.color = 'rgba(160, 192, 255, 0.85)' }}
+          onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(160, 192, 255, 0.2)'; e.currentTarget.style.color = 'rgba(160, 192, 255, 0.5)' }}
+        >
+          COPY LINK
+        </button>
+        <div
+          onClick={onDismiss}
+          style={{
+            fontSize: 10,
+            color: 'rgba(160, 192, 255, 0.3)',
+            cursor: 'pointer',
+            letterSpacing: '0.05em',
+          }}
+        >
+          ESC or click away to close
+        </div>
       </div>
     </div>
   )

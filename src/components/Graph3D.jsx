@@ -6,6 +6,9 @@ import { forceCollide } from 'd3-force-3d'
 import { colorForDegree, isRecentlyAdded, sizeForDegree } from '../utils/colors'
 import { isMobile } from '../utils/device'
 import InfoPanel from './InfoPanel'
+import { parseNodeHash } from '../utils/parseNodeHash'
+import { matchesSearch } from '../utils/matchesSearch'
+import { findPath } from '../utils/findPath'
 
 const BACKGROUND_COLOR = '#050820'
 const STAR_COUNT = 6000
@@ -14,8 +17,12 @@ const LINK_PARTICLE_COLOR = '#a0c0ff'
 const COMET_TRAIL = 25
 const COMET_TRAIL_DEPTH = 0.18
 const ORBIT_RESUME_DELAY = 3000
+const RIPPLE_DURATION = 0.85
+const RIPPLE_MAX_SCALE = 3.5
+const TIMELINE_PLAY_DURATION_SEC = 30
+const TIMELINE_LINK_DEBOUNCE_MS = 200
+const TIMELINE_FADE_MS = 3 * 86400 * 1000
 
-// Cached Y-axis vector for orbit rotation
 const Y_AXIS = new THREE.Vector3(0, 1, 0)
 
 // Shared material + per-radius geometry cache for invisible raycast tracker meshes.
@@ -29,8 +36,6 @@ function getTopHubs(nodes, n) {
   return [...nodes].sort((a, b) => (b.degree ?? 0) - (a.degree ?? 0)).slice(0, n)
 }
 
-// Cinematic attract-mode shots — like a racing game's idle camera reel.
-// Each shot: instant cut to position, slow orbit around pivot, then cut to next.
 const WIDE_SHOT = {
   key: 'WIDE',
   duration: 12000,
@@ -40,7 +45,6 @@ const WIDE_SHOT = {
 const CINEMATIC_SHOTS = [
   WIDE_SHOT,
   {
-    // Hub close-up — tight orbit around the most-connected node
     key: 'HUB_0',
     duration: 10000,
     setup: (nodes) => {
@@ -52,26 +56,22 @@ const CINEMATIC_SHOTS = [
   },
   WIDE_SHOT,
   {
-    // Underworld — camera below the graph looking up, dramatic tilt
     key: 'UNDERWORLD',
     duration: 11000,
     setup: () => ({ pos: { x: 80, y: -360, z: 320 }, pivot: new THREE.Vector3(0, 0, 0), speed: 0.0007 }),
   },
   {
-    // Polar — camera directly above looking down at the constellation
     key: 'POLAR',
     duration: 11000,
     setup: () => ({ pos: { x: 60, y: 580, z: 100 }, pivot: new THREE.Vector3(0, 0, 0), speed: 0.0006 }),
   },
   WIDE_SHOT,
   {
-    // Side sweep — constellation at medium distance from the side
     key: 'SIDE',
     duration: 12000,
     setup: () => ({ pos: { x: 620, y: 60, z: 80 }, pivot: new THREE.Vector3(0, 0, 0), speed: 0.0007 }),
   },
   {
-    // Second hub close-up — different node, slightly different angle
     key: 'HUB_1',
     duration: 10000,
     setup: (nodes) => {
@@ -90,8 +90,6 @@ function shouldUseBloom() {
   return !isMobile()
 }
 
-// --- degree helpers ---
-
 function baseEmissiveForDegree(degree) {
   if (degree >= 9) return 0.75
   if (degree >= 3) return 0.45
@@ -104,9 +102,12 @@ function edgeColorForDegree(degree) {
   return '#4a78e0'
 }
 
-// --- scene object builders ---
+function bucketColor(bucket) {
+  if (bucket === 'high') return '#F4C87B'
+  if (bucket === 'mid') return '#C4A0E8'
+  return '#7ab8ff'
+}
 
-// Cached circular sprite texture — makes Points render as soft circles, not squares
 let _circleTex = null
 function getCircleTex() {
   if (_circleTex) return _circleTex
@@ -123,24 +124,12 @@ function getCircleTex() {
   return _circleTex
 }
 
-function randomOnSphere(r) {
-  const theta = Math.random() * Math.PI * 2
-  const phi = Math.acos(2 * Math.random() - 1)
-  return new THREE.Vector3(
-    r * Math.sin(phi) * Math.cos(theta),
-    r * Math.sin(phi) * Math.sin(theta),
-    r * Math.cos(phi),
-  )
-}
-
 function spawnComet(scene, spawnT, camera) {
   const camFwd = new THREE.Vector3()
   camera.getWorldDirection(camFwd)
   const camRight = new THREE.Vector3().crossVectors(camFwd, camera.up).normalize()
   const camUp2 = new THREE.Vector3().crossVectors(camRight, camFwd).normalize()
 
-  // Sample a point near the peripheral edge of the forward hemisphere
-  // (60-80° from forward) so comets spawn at screen edges and sweep across.
   const mkEdge = () => {
     const coneAngle = (Math.PI / 180) * (60 + Math.random() * 20)
     const spin = Math.random() * Math.PI * 2
@@ -153,19 +142,14 @@ function spawnComet(scene, spawnT, camera) {
   }
 
   const start = mkEdge()
-  // End point on the opposite side of the screen (negate the spin component)
-  // by ensuring it's far enough from start that the comet sweeps across.
   let end = mkEdge()
   let tries = 0
-  while (start.distanceTo(end) < STAR_RADIUS * 0.8 && tries++ < 8) {
-    end = mkEdge()
-  }
+  while (start.distanceTo(end) < STAR_RADIUS * 0.8 && tries++ < 8) end = mkEdge()
 
-  // Trail
   const trailPositions = new Float32Array(COMET_TRAIL * 3)
   const trailColors = new Float32Array(COMET_TRAIL * 3)
   for (let i = 0; i < COMET_TRAIL; i++) {
-    trailPositions[i * 3]     = start.x
+    trailPositions[i * 3] = start.x
     trailPositions[i * 3 + 1] = start.y
     trailPositions[i * 3 + 2] = start.z
   }
@@ -175,19 +159,16 @@ function spawnComet(scene, spawnT, camera) {
   const tex = getCircleTex()
   const trailMat = new THREE.PointsMaterial({
     vertexColors: true, size: 3.5, sizeAttenuation: false,
-    map: tex, alphaTest: 0.01,
-    transparent: true, opacity: 0.6, depthWrite: false,
+    map: tex, alphaTest: 0.01, transparent: true, opacity: 0.6, depthWrite: false,
   })
   const trail = new THREE.Points(trailGeo, trailMat)
   scene.add(trail)
 
-  // Head: pure white, small soft circle
   const headGeo = new THREE.BufferGeometry()
   headGeo.setAttribute('position', new THREE.BufferAttribute(new Float32Array([start.x, start.y, start.z]), 3))
   const headMat = new THREE.PointsMaterial({
     color: '#ffffff', size: 7, sizeAttenuation: false,
-    map: tex, alphaTest: 0.01,
-    transparent: true, opacity: 0.55, depthWrite: false,
+    map: tex, alphaTest: 0.01, transparent: true, opacity: 0.55, depthWrite: false,
   })
   const head = new THREE.Points(headGeo, headMat)
   scene.add(head)
@@ -236,8 +217,6 @@ function buildNebulae(scene) {
   })
 }
 
-// --- tooltip styles ---
-
 const tooltipBase = {
   position: 'fixed',
   background: 'rgba(5, 8, 32, 0.88)',
@@ -256,6 +235,16 @@ const tooltipBase = {
   transition: 'opacity 0.18s ease, transform 0.18s ease',
 }
 
+const spacePanel = {
+  background: 'rgba(5, 8, 32, 0.88)',
+  border: '1px solid rgba(160, 192, 255, 0.22)',
+  backdropFilter: 'blur(12px)',
+  borderRadius: 8,
+  fontFamily: "'Inter', system-ui, sans-serif",
+  color: '#a0c0ff',
+  boxShadow: '0 0 24px rgba(74, 80, 160, 0.3)',
+}
+
 // --- component ---
 
 export default function Graph3D({ data }) {
@@ -265,6 +254,7 @@ export default function Graph3D({ data }) {
   const hasZoomedToFitRef = useRef(false)
   const startTimeRef = useRef(performance.now())
   const frameCountRef = useRef(0)
+  const prevTRef = useRef(null)
   const instancedMeshRef = useRef({ low: null, mid: null, high: null })
   const instanceInitializedRef = useRef(false)
   const dummyRef = useRef(new THREE.Object3D())
@@ -279,23 +269,55 @@ export default function Graph3D({ data }) {
   const mouseRef = useRef({ x: 0, y: 0 })
   const orbitResumeTimerRef = useRef(null)
   const isAutoRotatingRef = useRef(true)
-  // nextShotAt is a performance.now() timestamp; when the RAF tick passes it, it fires advanceShot.
-  // This is more reliable than setTimeout which can be cleared or fire late in headless contexts.
   const cinematicRef = useRef({ shotIndex: 0, pivot: new THREE.Vector3(0, 0, 0), speed: 0.0008, nextShotAt: 0 })
   const advanceShotRef = useRef(null)
+  const nodeMapRef = useRef(new Map())
+  // F2
+  const selectNodeRef = useRef(null)
+  // F1
+  const searchQueryRef = useRef('')
+  const searchInputRef = useRef(null)
+  // F3
+  const ripplesRef = useRef([])
+  // F4
+  const pathSourceRef = useRef(null)
+  const pathLinesRef = useRef([])
+  const pathSpheresRef = useRef([])
+  const toastTimerRef = useRef(null)
+  // F5
+  const timelineDateRef = useRef(null)
+  const timelinePlayingRef = useRef(false)
+  const timelineMinRef = useRef(0)
+  const timelineMaxRef = useRef(Date.now())
+  const timelineLinkTimerRef = useRef(null)
+
   const [graphData, setGraphData] = useState(data)
   const [selectedNodeId, setSelectedNodeId] = useState(null)
   const [selectedNode, setSelectedNode] = useState(null)
   const [hoveredNode, setHoveredNode] = useState(null)
+  const [searchQuery, setSearchQuery] = useState('')
+  const [pathSourceId, setPathSourceId] = useState(null)
+  const [toast, setToast] = useState(null)
+  const [timelineActive, setTimelineActive] = useState(false)
+  const [timelineDate, setTimelineDate] = useState(0)
+  const [timelinePlaying, setTimelinePlaying] = useState(false)
+  const [timelineLinkDate, setTimelineLinkDate] = useState(null)
 
   useEffect(() => {
     graphRef.current = data
     setGraphData(data)
+    nodeMapRef.current = new Map(data?.nodes?.map(n => [n.id, n]) ?? [])
+    const dateMsArr = (data?.nodes ?? [])
+      .map(n => n.created ? new Date(n.created).getTime() : null)
+      .filter(Boolean)
+    if (dateMsArr.length) {
+      timelineMinRef.current = Math.min(...dateMsArr)
+      timelineMaxRef.current = Math.max(...dateMsArr)
+    }
   }, [data])
 
-  // Independent rAF loop — drives orbit, comets, InstancedMesh sync, stars, nebulae.
-  // onRenderFramePost is declared in react-force-graph-3d PropTypes but never invoked
-  // by the library, so all per-frame work lives here instead.
+  // Independent rAF loop — drives orbit, comets, ripples, InstancedMesh sync, stars, nebulae.
+  // onRenderFramePost is a dead stub in react-force-graph-3d, so all per-frame work lives here.
   useEffect(() => {
     let rafId
 
@@ -303,46 +325,41 @@ export default function Graph3D({ data }) {
     const BUCKET_BASE_EI = { low: 0.2, mid: 0.45, high: 0.75 }
 
     const tick = () => {
-      const fg = fgRef.current
-      const t = (performance.now() - startTimeRef.current) / 1000
+      const nowMs = performance.now()
+      const t = (nowMs - startTimeRef.current) / 1000
+      const dt = prevTRef.current !== null ? t - prevTRef.current : 1 / 60
+      prevTRef.current = t
       const frame = ++frameCountRef.current
 
+      const fg = fgRef.current
+      const camera = fg?.camera?.()
+      const controls = fg?.controls?.()
+
       // --- Cinematic orbit + shot timer ---
-      if (isAutoRotatingRef.current && fg) {
-        const camera = fg.camera?.()
-        const controls = fg.controls?.()
-        if (camera && controls) {
-          const c = cinematicRef.current
-          // Orbit around pivot
-          camera.position.sub(c.pivot)
-          camera.position.applyAxisAngle(Y_AXIS, c.speed)
-          camera.position.add(c.pivot)
-          camera.lookAt(c.pivot)
-          controls.target.copy(c.pivot)
-          // Shot timer — checked every frame, immune to setTimeout issues
-          if (c.nextShotAt > 0 && performance.now() >= c.nextShotAt) {
-            c.nextShotAt = 0
-            advanceShotRef.current?.()
-          }
+      if (isAutoRotatingRef.current && fg && camera && controls) {
+        const c = cinematicRef.current
+        camera.position.sub(c.pivot)
+        camera.position.applyAxisAngle(Y_AXIS, c.speed)
+        camera.position.add(c.pivot)
+        camera.lookAt(c.pivot)
+        controls.target.copy(c.pivot)
+        if (c.nextShotAt > 0 && nowMs >= c.nextShotAt) {
+          c.nextShotAt = 0
+          advanceShotRef.current?.()
         }
       }
 
       // --- Comets ---
       if (fg) {
         const scene = fg.scene?.()
-        const camera = fg.camera?.()
 
-        // Animate existing comets
         cometsRef.current.forEach((comet) => {
           const progress = (t - comet.spawnT) / comet.duration
           const fadeIn = Math.min(1, progress * 12)
-          // Head fades out first (starts at 55%, gone by 82%)
           const headFade = Math.max(0, 1 - Math.max(0, (progress - 0.55) / 0.27))
-          // Trail lingers (starts at 70%, gone by 100%)
           const trailFade = Math.max(0, 1 - Math.max(0, (progress - 0.70) / 0.30))
           const headEnv = fadeIn * headFade
           const trailEnv = fadeIn * trailFade
-
           const tPos = comet.trail.geometry.attributes.position
           const tCol = comet.trail.geometry.attributes.color
           for (let i = 0; i < COMET_TRAIL; i++) {
@@ -353,13 +370,11 @@ export default function Graph3D({ data }) {
               comet.start.y + (comet.end.y - comet.start.y) * trailT,
               comet.start.z + (comet.end.z - comet.start.z) * trailT,
             )
-            // Ice-white trail fading with its own envelope
             const brightness = (1 - i / COMET_TRAIL) * trailEnv
             tCol.setXYZ(i, brightness, brightness * 0.96, brightness * 0.92)
           }
           tPos.needsUpdate = true
           tCol.needsUpdate = true
-
           const hPos = comet.head.geometry.attributes.position
           hPos.setXYZ(
             0,
@@ -371,53 +386,95 @@ export default function Graph3D({ data }) {
           comet.head.material.opacity = headEnv * 0.55
         })
 
-        // Remove finished comets
         cometsRef.current = cometsRef.current.filter((comet) => {
           const done = t - comet.spawnT >= comet.duration
           if (done && scene) {
-            scene.remove(comet.trail)
-            scene.remove(comet.head)
-            comet.trail.geometry.dispose()
-            comet.trail.material.dispose()
-            comet.head.geometry.dispose()
-            comet.head.material.dispose()
+            scene.remove(comet.trail); scene.remove(comet.head)
+            comet.trail.geometry.dispose(); comet.trail.material.dispose()
+            comet.head.geometry.dispose(); comet.head.material.dispose()
           }
           return !done
         })
 
-        // Spawn new comet — up to 5 concurrent, interval 1.5-3s
         if (t >= nextCometRef.current && scene && camera && cometsRef.current.length < 5) {
           const fwd = new THREE.Vector3()
           camera.getWorldDirection(fwd)
-          if (fwd.lengthSq() > 0.5) {
-            cometsRef.current.push(spawnComet(scene, t, camera))
-          }
+          if (fwd.lengthSq() > 0.5) cometsRef.current.push(spawnComet(scene, t, camera))
           nextCometRef.current = t + 1.5 + Math.random() * 1.5
         }
       }
 
+      // --- F3: Connection ripple animation ---
+      if (ripplesRef.current.length > 0 && fg) {
+        const scene = fg.scene?.()
+        ripplesRef.current = ripplesRef.current.filter(ripple => {
+          const age = t - ripple.spawnT
+          if (age >= RIPPLE_DURATION) {
+            scene?.remove(ripple.mesh)
+            ripple.mesh.geometry.dispose()
+            ripple.mesh.material.dispose()
+            return false
+          }
+          const progress = age / RIPPLE_DURATION
+          ripple.mesh.scale.setScalar(1 + progress * RIPPLE_MAX_SCALE)
+          ripple.mesh.material.opacity = (1 - progress) * 0.8
+          if (camera) ripple.mesh.lookAt(camera.position)
+          return true
+        })
+      }
+
+      // --- F5: Timeline play advancement ---
+      if (timelinePlayingRef.current) {
+        const totalMs = Math.max(timelineMaxRef.current - timelineMinRef.current, 1)
+        const advance = (totalMs / TIMELINE_PLAY_DURATION_SEC) * dt
+        const curMs = timelineDateRef.current?.getTime() ?? timelineMinRef.current
+        const next = Math.min(curMs + advance, timelineMaxRef.current)
+        timelineDateRef.current = new Date(next)
+        if (next >= timelineMaxRef.current) {
+          timelinePlayingRef.current = false
+          setTimelinePlaying(false)
+        }
+        if (frame % 6 === 0) setTimelineDate(next)
+        if (frame % 30 === 0) setTimelineLinkDate(timelineDateRef.current)
+      }
+
       // --- InstancedMesh: init once positions are ready, then sync every 2nd frame ---
-      // warmupTicks runs synchronously before the render loop starts, so node.x is
-      // defined by the time this rAF loop fires for the first time.
       if (!instanceInitializedRef.current) {
         const graph = graphRef.current
         const n0 = graph?.nodes?.[0]
-        if (n0?._radius !== undefined && n0?.x !== undefined) {
-          initInstancedMeshes()
-        }
+        if (n0?._radius !== undefined && n0?.x !== undefined) initInstancedMeshes()
       }
       if (frame % 2 === 0 && instanceInitializedRef.current) {
         const graph = graphRef.current
         const meshes = instancedMeshRef.current
         const dummy = dummyRef.current
         const dirty = { low: false, mid: false, high: false }
+        const tlDate = timelineDateRef.current
+        const tlDateMs = tlDate ? tlDate.getTime() : 0
 
         graph?.nodes?.forEach((node) => {
           if (node._bucket === undefined || node._instanceIdx === undefined) return
           const mesh = meshes[node._bucket]
           if (!mesh) return
+
           const amplitude = node._baseEmissive > 0.5 ? 0.08 : 0.04
-          const scale = (node._radius ?? 1) * (1 + amplitude * Math.sin(t * 1.2 + (node._phase || 0)))
+          const pulse = 1 + amplitude * Math.sin(t * 1.2 + (node._phase || 0))
+
+          let scale
+          if (tlDate) {
+            const hidden = node._createdMs != null && node._createdMs > tlDateMs
+            if (hidden) {
+              scale = 0
+            } else {
+              // F5: fade in over TIMELINE_FADE_MS from creation date; preserves breathing pulse
+              const ageMs = tlDateMs - (node._createdMs ?? tlDateMs)
+              const fadeIn = node._createdMs ? Math.min(1, ageMs / TIMELINE_FADE_MS) : 1
+              scale = (node._radius ?? 1) * pulse * fadeIn
+            }
+          } else {
+            scale = (node._radius ?? 1) * pulse
+          }
+
           dummy.position.set(node.x ?? 0, node.y ?? 0, node.z ?? 0)
           dummy.scale.setScalar(scale)
           dummy.updateMatrix()
@@ -425,7 +482,6 @@ export default function Graph3D({ data }) {
           dirty[node._bucket] = true
         })
 
-        // Staggered per-bucket emissive pulse — cohesive cluster glow
         Object.entries(BUCKET_PHASES).forEach(([key, phase]) => {
           const mesh = meshes[key]
           if (mesh?.material) {
@@ -436,7 +492,7 @@ export default function Graph3D({ data }) {
         })
       }
 
-      // --- Star twinkling — 20fps updates are imperceptible ---
+      // --- Star twinkling ---
       const sf = starfieldRef.current
       if (sf && frame % 3 === 0) {
         const colors = sf.points.geometry.attributes.color
@@ -461,15 +517,12 @@ export default function Graph3D({ data }) {
     return () => cancelAnimationFrame(rafId)
   }, [])
 
-  // Advance to the next cinematic shot — instant cut, new pivot, new orbit speed
   const advanceShot = useCallback(() => {
     const fg = fgRef.current
     const nodes = graphRef.current?.nodes ?? []
     if (!fg) return
-
     const c = cinematicRef.current
     let idx = (c.shotIndex + 1) % CINEMATIC_SHOTS.length
-
     for (let tries = 0; tries < CINEMATIC_SHOTS.length; tries++) {
       const shot = CINEMATIC_SHOTS[idx]
       const cfg = shot.setup(nodes)
@@ -486,7 +539,6 @@ export default function Graph3D({ data }) {
             ctrl.update()
           }
         }
-        // Schedule next shot via RAF-tick timer (no setTimeout — more reliable)
         c.nextShotAt = performance.now() + shot.duration
         return
       }
@@ -496,7 +548,6 @@ export default function Graph3D({ data }) {
 
   useEffect(() => { advanceShotRef.current = advanceShot }, [advanceShot])
 
-  // Track mouse position to place tooltip without re-renders
   useEffect(() => {
     const onMove = (e) => {
       mouseRef.current = { x: e.clientX, y: e.clientY }
@@ -512,20 +563,16 @@ export default function Graph3D({ data }) {
   const setForceGraphRef = useCallback((instance) => {
     fgRef.current = instance
     if (!instance) return
-
-    // Push nodes apart — default charge is too weak for 67 nodes with 175 links
     if (instance.d3Force('charge')) instance.d3Force('charge').strength(-200)
     if (instance.d3Force('link')) instance.d3Force('link').distance(70)
-    // Collision force prevents nodes from physically overlapping regardless of link tension
     instance.d3Force('collide', forceCollide(n => sizeForDegree(n.degree) * 2.5 + 12))
 
     const controls = instance.controls()
     if (controls) {
       controls.maxDistance = 4500
-      controls.autoRotate = false  // manual rotation via applyAxisAngle — more reliable across Three.js versions
+      controls.autoRotate = false
       controls.enableDamping = true
       controls.dampingFactor = 0.08
-      // Pause orbit on grab; resume 3s after release
       controls.addEventListener('start', () => {
         isAutoRotatingRef.current = false
         clearTimeout(orbitResumeTimerRef.current)
@@ -536,7 +583,6 @@ export default function Graph3D({ data }) {
           isAutoRotatingRef.current = true
           const selId = selectedNodeRef.current
           if (selId) {
-            // A node is selected — orbit around it until dismissed, no shot changes
             const node = graphRef.current?.nodes?.find(n => n.id === selId)
             if (node?.x != null) {
               cinematicRef.current.pivot.set(node.x, node.y ?? 0, node.z ?? 0)
@@ -545,7 +591,6 @@ export default function Graph3D({ data }) {
               return
             }
           }
-          // No node selected — resume cinematic reel
           cinematicRef.current.nextShotAt = performance.now() + 2000
         }, ORBIT_RESUME_DELAY)
       })
@@ -556,12 +601,8 @@ export default function Graph3D({ data }) {
       starfieldRef.current = sf
       instance.scene().add(sf.points)
     }
+    if (!nebulaeRef.current.length) nebulaeRef.current = buildNebulae(instance.scene())
 
-    if (!nebulaeRef.current.length) {
-      nebulaeRef.current = buildNebulae(instance.scene())
-    }
-
-    // Cap pixel ratio on mobile — phones report 3× DPR which kills GPU throughput
     if (instance.renderer) {
       const renderer = instance.renderer()
       if (renderer) {
@@ -581,8 +622,6 @@ export default function Graph3D({ data }) {
     }
   }, [])
 
-  // Create 3 InstancedMeshes (one per degree bucket) — 3 draw calls for all nodes.
-  // Unit-sphere geometry scaled per-instance via matrix.
   const initInstancedMeshes = useCallback(() => {
     if (instanceInitializedRef.current) return
     const fg = fgRef.current
@@ -631,8 +670,6 @@ export default function Graph3D({ data }) {
     instanceInitializedRef.current = true
   }, [])
 
-  // Set per-instance colors to communicate selection state.
-  // White = full color, near-black = dimmed non-neighbor.
   const applySelectionColors = useCallback(() => {
     if (!instanceInitializedRef.current) return
     const graph = graphRef.current
@@ -642,7 +679,6 @@ export default function Graph3D({ data }) {
     const bright = new THREE.Color(1, 1, 1)
     const dim = new THREE.Color(0.08, 0.08, 0.08)
     const meshes = instancedMeshRef.current
-
     graph.nodes.forEach(node => {
       if (node._bucket === undefined || node._instanceIdx === undefined) return
       const mesh = meshes[node._bucket]
@@ -652,38 +688,125 @@ export default function Graph3D({ data }) {
     Object.values(meshes).forEach(m => { if (m?.instanceColor) m.instanceColor.needsUpdate = true })
   }, [])
 
-  // Ensure auto-orbit is running once physics settles, then start cinematic reel
-  const onEngineStop = useCallback(() => {
-    isAutoRotatingRef.current = true
-    if (!hasZoomedToFitRef.current && fgRef.current) {
-      fgRef.current.zoomToFit(0, 160)
-      hasZoomedToFitRef.current = true
-      const wideCfg = CINEMATIC_SHOTS[0].setup([])
-      cinematicRef.current.shotIndex = 0
-      cinematicRef.current.pivot.copy(wideCfg.pivot)
-      cinematicRef.current.speed = wideCfg.speed
-      cinematicRef.current.nextShotAt = performance.now() + CINEMATIC_SHOTS[0].duration
-    }
-    initInstancedMeshes()
-  }, [initInstancedMeshes])
+  // --- FEATURE: F1 Search ---
 
-  const nodeThreeObject = useCallback((node) => {
-    // Invisible Mesh tracker — InstancedMesh handles all rendering.
-    // Must be a Mesh (not Object3D) so the library's THREE.Raycaster can
-    // register hits for onNodeClick / onNodeHover. Object3D.raycast() is a
-    // no-op stub and is never intersected. visible=false skips rendering;
-    // this Three.js build does not check visible during ray traversal.
-    const base = baseEmissiveForDegree(node.degree ?? 0)
-    const isRecent = isRecentlyAdded(node.created)
-    node._phase = Math.random() * Math.PI * 2
-    node._baseEmissive = isRecent ? Math.min(1.0, base * 1.5) : base
-    node._radius = sizeForDegree(node.degree)
-    const r = node._radius
-    if (!_trackerGeos[r]) _trackerGeos[r] = new THREE.SphereGeometry(r, 6, 4)
-    const tracker = new THREE.Mesh(_trackerGeos[r], TRACKER_MAT)
-    tracker.visible = false
-    return tracker
+  const applySearchColors = useCallback((query) => {
+    if (!instanceInitializedRef.current) return
+    const graph = graphRef.current
+    if (!graph?.nodes) return
+    const bright = new THREE.Color(1, 1, 1)
+    const dim = new THREE.Color(0.08, 0.08, 0.08)
+    const meshes = instancedMeshRef.current
+    graph.nodes.forEach(node => {
+      if (node._bucket === undefined || node._instanceIdx === undefined) return
+      const mesh = meshes[node._bucket]
+      if (!mesh) return
+      mesh.setColorAt(node._instanceIdx, (!query || matchesSearch(node, query)) ? bright : dim)
+    })
+    Object.values(meshes).forEach(m => { if (m?.instanceColor) m.instanceColor.needsUpdate = true })
   }, [])
+
+  // --- FEATURE: F3 Connection Ripple ---
+
+  const clearRipples = useCallback(() => {
+    const scene = fgRef.current?.scene()
+    ripplesRef.current.forEach(r => {
+      scene?.remove(r.mesh)
+      r.mesh.geometry.dispose()
+      r.mesh.material.dispose()
+    })
+    ripplesRef.current = []
+  }, [])
+
+  // --- FEATURE: F4 Path Highlight ---
+
+  const clearPathOverlay = useCallback(() => {
+    const scene = fgRef.current?.scene()
+    ;[...pathLinesRef.current, ...pathSpheresRef.current].forEach(obj => {
+      scene?.remove(obj)
+      obj.geometry.dispose()
+      obj.material.dispose()
+    })
+    pathLinesRef.current = []
+    pathSpheresRef.current = []
+    pathSourceRef.current = null
+    setPathSourceId(null)
+  }, [])
+
+  const showToast = useCallback((msg) => {
+    setToast(msg)
+    clearTimeout(toastTimerRef.current)
+    toastTimerRef.current = setTimeout(() => setToast(null), 3000)
+  }, [])
+
+  const renderPathOverlay = useCallback((path) => {
+    const scene = fgRef.current?.scene()
+    if (!scene || path.length < 2) return
+    const nMap = nodeMapRef.current
+
+    for (let i = 0; i < path.length - 1; i++) {
+      const a = nMap.get(path[i])
+      const b = nMap.get(path[i + 1])
+      if (!a || !b) continue
+      const pts = [
+        new THREE.Vector3(a.x ?? 0, a.y ?? 0, a.z ?? 0),
+        new THREE.Vector3(b.x ?? 0, b.y ?? 0, b.z ?? 0),
+      ]
+      const geo = new THREE.BufferGeometry().setFromPoints(pts)
+      // linewidth > 1 is clamped to 1 in WebGL2; gold color + bloom glow gives strong visibility
+      const mat = new THREE.LineBasicMaterial({ color: '#F4C87B', linewidth: 1 })
+      const line = new THREE.Line(geo, mat)
+      scene.add(line)
+      pathLinesRef.current.push(line)
+    }
+
+    path.slice(1, -1).forEach(nodeId => {
+      const n = nMap.get(nodeId)
+      if (!n) return
+      const geo = new THREE.SphereGeometry((n._radius ?? 4) * 1.5, 8, 6)
+      const mat = new THREE.MeshBasicMaterial({ color: '#F4C87B', transparent: true, opacity: 0.35 })
+      const sphere = new THREE.Mesh(geo, mat)
+      sphere.position.set(n.x ?? 0, n.y ?? 0, n.z ?? 0)
+      scene.add(sphere)
+      pathSpheresRef.current.push(sphere)
+    })
+  }, [])
+
+  const handlePathAltClick = useCallback((node) => {
+    const prevSource = pathSourceRef.current
+    const hadPath = pathLinesRef.current.length > 0
+
+    // Clear existing overlays before deciding what to do next
+    const scene = fgRef.current?.scene()
+    ;[...pathLinesRef.current, ...pathSpheresRef.current].forEach(obj => {
+      scene?.remove(obj); obj.geometry.dispose(); obj.material.dispose()
+    })
+    pathLinesRef.current = []
+    pathSpheresRef.current = []
+    pathSourceRef.current = null
+    setPathSourceId(null)
+
+    if (prevSource && prevSource !== node.id) {
+      // Second node — run BFS from prevSource to this node
+      const path = findPath(
+        graphRef.current?.nodes ?? [],
+        graphRef.current?.links ?? [],
+        prevSource,
+        node.id,
+      )
+      if (!path) {
+        showToast('No path found')
+      } else {
+        renderPathOverlay(path)
+      }
+    } else if (prevSource && prevSource === node.id) {
+      // Same node again — cancel (already cleared above)
+    } else {
+      // Idle or path was shown — set clicked node as source
+      pathSourceRef.current = node.id
+      setPathSourceId(node.id)
+    }
+  }, [showToast, renderPathOverlay])
 
   const handleDismiss = useCallback(() => {
     selectedNodeRef.current = null
@@ -691,6 +814,8 @@ export default function Graph3D({ data }) {
     setSelectedNodeId(null)
     setSelectedNode(null)
     applySelectionColors()
+    history.replaceState(null, '', location.pathname + location.search)
+    clearRipples()
     isAutoRotatingRef.current = false
     clearTimeout(orbitResumeTimerRef.current)
     cinematicRef.current.nextShotAt = 0
@@ -698,21 +823,36 @@ export default function Graph3D({ data }) {
       isAutoRotatingRef.current = true
       cinematicRef.current.nextShotAt = performance.now() + 2000
     }, ORBIT_RESUME_DELAY)
-  }, [applySelectionColors])
+  }, [applySelectionColors, clearRipples])
 
-  const onNodeClick = useCallback((node) => {
+  const onNodeClick = useCallback((node, event) => {
+    // F4: alt-click enters path mode
+    if (event?.altKey) {
+      handlePathAltClick(node)
+      return
+    }
+
+    // F1: clear active search when clicking a node
+    if (searchQueryRef.current) {
+      searchQueryRef.current = ''
+      setSearchQuery('')
+    }
+
+    // F4: regular click clears active path
+    if (pathSourceRef.current !== null || pathLinesRef.current.length > 0) {
+      clearPathOverlay()
+    }
+
     if (selectedNodeRef.current === node.id) {
       handleDismiss()
       return
     }
 
-    // Fly camera to 60 units in front of the node
     const fg = fgRef.current
     if (fg) {
       const camera = fg.camera()
       const nodeVec = new THREE.Vector3(node.x ?? 0, node.y ?? 0, node.z ?? 0)
-      const camVec = camera.position.clone()
-      const dir = nodeVec.clone().sub(camVec)
+      const dir = nodeVec.clone().sub(camera.position.clone())
       if (dir.lengthSq() > 0.01) {
         dir.normalize()
         const targetCamPos = nodeVec.clone().sub(dir.multiplyScalar(60))
@@ -739,11 +879,63 @@ export default function Graph3D({ data }) {
     applySelectionColors()
     setSelectedNodeId(node.id)
     setSelectedNode(node)
-  }, [handleDismiss, applySelectionColors])
 
-  const onBackgroundClick = useCallback(() => {
-    handleDismiss()
-  }, [handleDismiss])
+    // F2: update URL hash
+    history.replaceState(null, '', '#node=' + encodeURIComponent(node.id))
+
+    // F3: spawn ripple rings at each neighbor
+    clearRipples()
+    const scene = fgRef.current?.scene()
+    if (scene) {
+      const spawnT = (performance.now() - startTimeRef.current) / 1000
+      neighbors.forEach(neighborId => {
+        if (neighborId === node.id) return
+        const n = nodeMapRef.current.get(neighborId)
+        if (!n?.x) return
+        const baseR = (n._radius ?? 4) + 2
+        const geo = new THREE.RingGeometry(baseR * 0.5, baseR * 0.95, 32)
+        const mat = new THREE.MeshBasicMaterial({
+          color: bucketColor(n._bucket),
+          transparent: true, opacity: 0.85,
+          side: THREE.DoubleSide, depthWrite: false,
+        })
+        const mesh = new THREE.Mesh(geo, mat)
+        mesh.position.set(n.x, n.y ?? 0, n.z ?? 0)
+        scene.add(mesh)
+        ripplesRef.current.push({ mesh, spawnT })
+      })
+    }
+  }, [handleDismiss, applySelectionColors, clearRipples, clearPathOverlay, handlePathAltClick])
+
+  // F2: keep selectNodeRef current so onEngineStop can call onNodeClick after graph settles
+  useEffect(() => { selectNodeRef.current = onNodeClick }, [onNodeClick])
+
+  const onEngineStop = useCallback(() => {
+    isAutoRotatingRef.current = true
+    if (!hasZoomedToFitRef.current && fgRef.current) {
+      fgRef.current.zoomToFit(0, 160)
+      hasZoomedToFitRef.current = true
+      const wideCfg = CINEMATIC_SHOTS[0].setup([])
+      cinematicRef.current.shotIndex = 0
+      cinematicRef.current.pivot.copy(wideCfg.pivot)
+      cinematicRef.current.speed = wideCfg.speed
+      cinematicRef.current.nextShotAt = performance.now() + CINEMATIC_SHOTS[0].duration
+
+      // F2: auto-select node from URL hash after graph has settled
+      const nodeId = parseNodeHash(window.location.hash)
+      if (nodeId) {
+        const node = graphRef.current?.nodes?.find(n => n.id === nodeId)
+        if (node) {
+          setTimeout(() => selectNodeRef.current?.(node, {}), 600)
+        } else {
+          history.replaceState(null, '', location.pathname + location.search)
+        }
+      }
+    }
+    initInstancedMeshes()
+  }, [initInstancedMeshes])
+
+  const onBackgroundClick = useCallback(() => { handleDismiss() }, [handleDismiss])
 
   const onNodeHover = useCallback((node) => {
     document.body.style.cursor = node ? 'pointer' : ''
@@ -761,16 +953,115 @@ export default function Graph3D({ data }) {
     return edgeColorForDegree(degree)
   }, [])
 
-  // Hide non-neighbor links entirely when a node is selected — avoids dark
-  // lines rendering on top of the background (Three.js lines ignore alpha).
+  // Hide non-neighbor links when a node is selected; hide links to hidden nodes during timeline.
   const getLinkVisibility = useCallback((link) => {
-    if (!selectedNodeId) return true
     const srcId = typeof link.source === 'object' && link.source ? link.source.id : link.source
     const tgtId = typeof link.target === 'object' && link.target ? link.target.id : link.target
-    return neighborSetRef.current.has(srcId) || neighborSetRef.current.has(tgtId)
-  }, [selectedNodeId])
+
+    if (selectedNodeId && !neighborSetRef.current.has(srcId) && !neighborSetRef.current.has(tgtId)) return false
+
+    if (timelineLinkDate) {
+      const tlMs = timelineLinkDate.getTime()
+      const srcNode = nodeMapRef.current.get(srcId)
+      const tgtNode = nodeMapRef.current.get(tgtId)
+      const srcOk = !srcNode?._createdMs || srcNode._createdMs <= tlMs
+      const tgtOk = !tgtNode?._createdMs || tgtNode._createdMs <= tlMs
+      if (!srcOk || !tgtOk) return false
+    }
+
+    return true
+  }, [selectedNodeId, timelineLinkDate])
 
   const getLinkParticleColor = useCallback(() => LINK_PARTICLE_COLOR, [])
+
+  // F1 + F4: keyboard shortcuts — search focus, Escape to clear state
+  useEffect(() => {
+    const onKey = (e) => {
+      const inInput = document.activeElement?.tagName === 'INPUT' || document.activeElement?.tagName === 'TEXTAREA'
+
+      if (e.key === 'Escape') {
+        if (searchQueryRef.current) {
+          searchQueryRef.current = ''
+          setSearchQuery('')
+          applySelectionColors()
+          return
+        }
+        if (pathSourceRef.current !== null) {
+          pathSourceRef.current = null
+          setPathSourceId(null)
+          return
+        }
+        if (pathLinesRef.current.length > 0) {
+          clearPathOverlay()
+          return
+        }
+      }
+
+      if (!inInput && e.key === '/' && !e.ctrlKey && !e.metaKey && !e.altKey) {
+        e.preventDefault()
+        searchInputRef.current?.focus()
+      }
+      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+        e.preventDefault()
+        searchInputRef.current?.focus()
+      }
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [applySelectionColors, clearPathOverlay])
+
+  const nodeThreeObject = useCallback((node) => {
+    const base = baseEmissiveForDegree(node.degree ?? 0)
+    const isRecent = isRecentlyAdded(node.created)
+    node._phase = Math.random() * Math.PI * 2
+    node._baseEmissive = isRecent ? Math.min(1.0, base * 1.5) : base
+    node._radius = sizeForDegree(node.degree)
+    // F5: cache parsed timestamp for hot-path rAF comparisons — avoids new Date() per frame
+    node._createdMs = node.created ? new Date(node.created).getTime() : null
+    const r = node._radius
+    if (!_trackerGeos[r]) _trackerGeos[r] = new THREE.SphereGeometry(r, 6, 4)
+    const tracker = new THREE.Mesh(_trackerGeos[r], TRACKER_MAT)
+    tracker.visible = false
+    return tracker
+  }, [])
+
+  // --- FEATURE: F5 Timeline helpers ---
+
+  const startTimeline = useCallback(() => {
+    const startMs = timelineMinRef.current
+    timelineDateRef.current = new Date(startMs)
+    setTimelineActive(true)
+    setTimelineDate(startMs)
+    setTimelineLinkDate(new Date(startMs))
+  }, [])
+
+  const exitTimeline = useCallback(() => {
+    timelineDateRef.current = null
+    timelinePlayingRef.current = false
+    clearTimeout(timelineLinkTimerRef.current)
+    setTimelineActive(false)
+    setTimelinePlaying(false)
+    setTimelineLinkDate(null)
+  }, [])
+
+  const handleTimelineScrub = useCallback((e) => {
+    const ms = parseInt(e.target.value)
+    const d = new Date(ms)
+    timelineDateRef.current = d
+    setTimelineDate(ms)
+    clearTimeout(timelineLinkTimerRef.current)
+    timelineLinkTimerRef.current = setTimeout(() => setTimelineLinkDate(d), TIMELINE_LINK_DEBOUNCE_MS)
+  }, [])
+
+  const toggleTimelinePlay = useCallback(() => {
+    const next = !timelinePlayingRef.current
+    if (next && timelineDateRef.current?.getTime() >= timelineMaxRef.current) {
+      timelineDateRef.current = new Date(timelineMinRef.current)
+      setTimelineDate(timelineMinRef.current)
+    }
+    timelinePlayingRef.current = next
+    setTimelinePlaying(next)
+  }, [])
 
   return (
     <>
@@ -794,6 +1085,8 @@ export default function Graph3D({ data }) {
         linkDirectionalParticleWidth={1.5}
         linkDirectionalParticleColor={getLinkParticleColor}
       />
+
+      {/* Hover tooltip */}
       <div
         ref={tooltipDivRef}
         style={{
@@ -804,7 +1097,170 @@ export default function Graph3D({ data }) {
       >
         {hoveredNode?.label}
       </div>
+
       {selectedNode && <InfoPanel node={selectedNode} onDismiss={handleDismiss} />}
+
+      {/* F1: Search input — top-center, / or ⌘K to focus */}
+      <div style={{ position: 'fixed', top: 20, left: '50%', transform: 'translateX(-50%)', zIndex: 20 }}>
+        <div style={{ position: 'relative', display: 'inline-block' }}>
+          <span style={{
+            position: 'absolute', left: 10, top: '50%', transform: 'translateY(-50%)',
+            fontSize: 13, color: 'rgba(160, 192, 255, 0.45)', pointerEvents: 'none',
+          }}>⌕</span>
+          <input
+            ref={searchInputRef}
+            type="text"
+            value={searchQuery}
+            onChange={(e) => {
+              const q = e.target.value
+              searchQueryRef.current = q
+              setSearchQuery(q)
+              if (q && selectedNodeRef.current) {
+                selectedNodeRef.current = null
+                neighborSetRef.current = new Set()
+                setSelectedNodeId(null)
+                setSelectedNode(null)
+                history.replaceState(null, '', location.pathname + location.search)
+                clearRipples()
+              }
+              if (q) {
+                applySearchColors(q)
+              } else {
+                applySelectionColors()
+              }
+            }}
+            onKeyDown={(e) => {
+              if (e.key === 'Escape') {
+                searchQueryRef.current = ''
+                setSearchQuery('')
+                applySelectionColors()
+              }
+            }}
+            placeholder="Search notes…  / or ⌘K"
+            style={{
+              ...spacePanel,
+              padding: '7px 30px 7px 26px',
+              borderRadius: 20,
+              fontSize: 12,
+              outline: 'none',
+              width: 220,
+              letterSpacing: '0.03em',
+              opacity: searchQuery ? 1 : 0.6,
+              transition: 'opacity 0.2s ease',
+              caretColor: '#a0c0ff',
+            }}
+          />
+          {searchQuery && (
+            <button
+              onClick={() => {
+                searchQueryRef.current = ''
+                setSearchQuery('')
+                applySelectionColors()
+                searchInputRef.current?.focus()
+              }}
+              style={{
+                position: 'absolute', right: 8, top: '50%', transform: 'translateY(-50%)',
+                background: 'none', border: 'none', cursor: 'pointer',
+                color: 'rgba(160, 192, 255, 0.5)', fontSize: 14, lineHeight: 1, padding: 2,
+              }}
+            >×</button>
+          )}
+        </div>
+      </div>
+
+      {/* F4: Path source indicator */}
+      {pathSourceId && (
+        <div style={{
+          position: 'fixed', top: 58, left: '50%', transform: 'translateX(-50%)',
+          zIndex: 20, fontSize: 11, letterSpacing: '0.05em', pointerEvents: 'none',
+          color: 'rgba(244, 200, 123, 0.75)',
+        }}>
+          Alt-click another node to trace path
+          {nodeMapRef.current.get(pathSourceId)?.label && (
+            <span style={{ color: '#F4C87B', marginLeft: 4 }}>
+              · {nodeMapRef.current.get(pathSourceId).label}
+            </span>
+          )}
+        </div>
+      )}
+
+      {/* F4: Toast notification */}
+      {toast && (
+        <div style={{
+          position: 'fixed', bottom: 80, left: '50%', transform: 'translateX(-50%)',
+          zIndex: 20, ...spacePanel, padding: '8px 18px',
+          fontSize: 12, letterSpacing: '0.04em',
+          color: 'rgba(160, 192, 255, 0.85)',
+        }}>
+          {toast}
+        </div>
+      )}
+
+      {/* F5: Timeline toggle button */}
+      {!timelineActive && (
+        <button
+          onClick={startTimeline}
+          style={{
+            position: 'fixed', bottom: 24, right: 24, zIndex: 20,
+            ...spacePanel, padding: '7px 14px',
+            fontSize: 10, letterSpacing: '0.1em', cursor: 'pointer',
+            color: 'rgba(160, 192, 255, 0.5)',
+            opacity: 0.7, transition: 'opacity 0.2s ease',
+          }}
+          onMouseEnter={e => { e.currentTarget.style.opacity = '1' }}
+          onMouseLeave={e => { e.currentTarget.style.opacity = '0.7' }}
+        >
+          TIMELINE
+        </button>
+      )}
+
+      {/* F5: Timeline scrubber */}
+      {timelineActive && (
+        <div style={{
+          position: 'fixed', bottom: 24, left: '50%', transform: 'translateX(-50%)',
+          zIndex: 20, ...spacePanel, padding: '14px 22px',
+          display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10,
+          minWidth: 340,
+        }}>
+          <div style={{ fontSize: 12, color: 'rgba(160, 192, 255, 0.7)', letterSpacing: '0.06em' }}>
+            {timelineDate
+              ? new Date(timelineDate).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })
+              : '—'}
+          </div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12, width: '100%' }}>
+            <button
+              onClick={toggleTimelinePlay}
+              style={{
+                background: 'none',
+                border: '1px solid rgba(160, 192, 255, 0.3)',
+                color: '#a0c0ff', borderRadius: 4,
+                padding: '3px 10px', cursor: 'pointer',
+                fontSize: 13, flexShrink: 0,
+              }}
+            >
+              {timelinePlaying ? '⏸' : '▶'}
+            </button>
+            <input
+              type="range"
+              min={timelineMinRef.current}
+              max={timelineMaxRef.current}
+              value={timelineDate || timelineMinRef.current}
+              onChange={handleTimelineScrub}
+              style={{ flex: 1, accentColor: '#a0c0ff', cursor: 'pointer' }}
+            />
+          </div>
+          <button
+            onClick={exitTimeline}
+            style={{
+              background: 'none', border: 'none',
+              color: 'rgba(160, 192, 255, 0.3)',
+              fontSize: 10, cursor: 'pointer', letterSpacing: '0.08em',
+            }}
+          >
+            EXIT TIMELINE
+          </button>
+        </div>
+      )}
     </>
   )
 }

@@ -1,5 +1,60 @@
 # ENGINEERING LOG
 
+## 2026-05-29 — Five feature expansion: F1 search, F2 share link, F3 ripple, F4 path, F5 timeline (Claude Code, Sonnet 4.6)
+
+Implemented all five planned features from the design doc in a single session. All 45 tests pass, build succeeds.
+
+### F2: Share link (`#node=<id>` URL hash)
+- `parseNodeHash(hash)` pure util in `src/utils/parseNodeHash.js` — decodes `#node=<encodedId>`
+- `onEngineStop` auto-selects node from hash after graph settles (600ms delay post-zoomToFit)
+- `onNodeClick` writes `history.replaceState(null, '', '#node=...')` — no back-button pollution
+- `handleDismiss` clears hash via `history.replaceState`
+- InfoPanel: "COPY LINK" button using `navigator.clipboard.writeText(window.location.href)`
+- Guard: if node not found in graph, hash cleared silently
+
+### F1: Search/filter bar
+- `matchesSearch(node, query)` pure util — matches label + tags, case-insensitive
+- Floating input at top-center; `/` or `⌘K` to focus
+- `applySearchColors(query)` — same `setColorAt` pattern as `applySelectionColors`; non-matches dimmed to `(0.08, 0.08, 0.08)`
+- Search and selection are mutually exclusive: search input clears active selection, node click clears search
+- Escape clears search and restores selection colors
+
+### F3: Connection ripple
+- `RingGeometry(baseR * 0.5, baseR * 0.95, 32)` spawned at each neighbor position on node click
+- Per-ring `MeshBasicMaterial` with `side: DoubleSide, depthWrite: false`
+- `ring.lookAt(camera.position)` each rAF tick — billboard behavior
+- Scale: `1 + progress * RIPPLE_MAX_SCALE (3.5)`, opacity: `(1 - progress) * 0.8`
+- Duration: 0.85s; disposed on completion, instantly cleared on dismiss
+- Ring color matches node's degree bucket (gold/violet/blue)
+
+### F4: Path highlight
+- `findPath(nodes, links, srcId, tgtId)` pure BFS in `src/utils/findPath.js`
+- Alt-click state machine: IDLE → SOURCE_SELECTED → PATH_SHOWN → back to IDLE
+- Gold `THREE.Line` objects (1px linewidth — WebGL2 clamp) + bloom glow for visibility
+- Intermediate nodes: semi-transparent gold `SphereGeometry` overlay
+- "No path found" toast (3s auto-dismiss)
+- Path source indicator at top-center when awaiting second node
+- Escape clears path; regular click clears path and opens InfoPanel normally
+
+### F5: Growth replay / timeline
+- `isNodeVisibleAtDate(node, date)` pure util in `src/utils/isNodeVisibleAtDate.js`
+- `node._createdMs` cached in `nodeThreeObject` — avoids `new Date()` parse in hot rAF path
+- `timelineDateRef` (not state) for rAF reads — avoids stale closure
+- rAF: `scale = radius * pulse * fadeIn` — breathing pulse PRESERVED during timeline (multiply in, not replace)
+- `fadeIn` over 3-day window from creation date; hidden nodes: `scale = 0`
+- Link visibility: `timelineLinkDate` state (debounced 200ms); uses `_createdMs` for O(1) comparison
+- Timeline play: advances 30s for full date range; throttled React updates (slider every 6 frames, links every 30)
+- UI: "TIMELINE" button (bottom-right), scrubber panel (bottom-center), play/pause, exit
+
+### Architecture notes
+- All 5 features confirmed to fit in Graph3D.jsx without structural rewrite (~1,110 lines, threshold 1,200)
+- Callback ordering preserved — no TDZ issues (all deps defined before use in `useCallback` dep arrays)
+- `nodeMapRef` (Map by node ID) added for O(1) lookups in getLinkVisibility and ripple spawning
+- `prevTRef` added for accurate `dt` in timeline play speed calculation
+
+### Commits
+`TBD`
+
 ## 2026-05-29 — Orbit locks to selected node; five future ideas documented (Claude Code, Sonnet 4.6)
 
 Modified `controls.end` resume callback: when it fires after `ORBIT_RESUME_DELAY` and a node is selected, instead of resuming the cinematic reel it locks `cinematicRef.pivot` to the node's world position, sets speed to `0.0016`, and sets `nextShotAt = Infinity` (suppresses all shot changes). The orbit gently circles the selected node until the InfoPanel is dismissed, at which point the next `controls.end` fires with `selectedNodeRef.current = null` and resumes the normal cinematic reel. No new state or refs needed — reads `selectedNodeRef` and `graphRef` at timer-fire time, not at setup time.
