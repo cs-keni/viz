@@ -4517,7 +4517,7 @@
         "neetcode",
         "interview-prep"
       ],
-      "degree": 15
+      "degree": 14
     },
     {
       "id": "Resources/Database Internals Deep Dive",
@@ -7912,24 +7912,24 @@
       "label": "Active Recall vs Passive Review",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Active recall strengthens memory by forcing retrieval, while passive review mainly creates familiarity. Durable learning comes from trying to remember before looking at the answer.",
+      "excerpt": "The testing effect (Roediger & Karpicke, 2006) demonstrated that testing yourself on material produces 50% better retention at one week than restudying the same material — even though students in the restudy condition felt they were learning more. The mechanism is the 'retrieval practice effect': the neural effort of reconstructing a memory from partially-degraded cues strengthens the memory trace in ways that passive exposure does not. Passive review creates the fluency illusion — familiarity mistaken for recall.",
       "tags": [
         "resource",
         "learning-memory"
       ],
-      "degree": 17
+      "degree": 21
     },
     {
       "id": "Resources/Learning & Memory/Anki — Optimal Card Design",
       "label": "Anki — Optimal Card Design",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Good Anki cards test one clear idea, use active recall, and minimize ambiguity. Card quality matters more than deck size because vague cards train frustration instead of memory.",
+      "excerpt": "Good Anki cards follow the minimum information principle: one question, one unambiguous answer, one clear fact — small enough to be graded honestly without partial credit. Michael Nielsen's rule: 'if you can't rate the card straightforwardly, it's probably testing multiple things.' The most common failure is adding cards for material not yet understood, creating decks that train frustration rather than memory.",
       "tags": [
         "resource",
         "learning-memory"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know",
@@ -7941,7 +7941,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 15
+      "degree": 14
     },
     {
       "id": "Resources/Learning & Memory/Chunking Information",
@@ -7953,31 +7953,31 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)",
       "label": "Deliberate Practice (Anders Ericsson)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Deliberate practice is focused practice designed to improve a specific weakness with feedback, challenge, and repetition. It differs from simply spending time because it targets the edge of current ability.",
+      "excerpt": "Deliberate practice (Anders Ericsson, 1993 paper; Peak, 2016) is the specific type of practice that produces expertise — not just time spent, but structured practice targeting a specific weakness, at the edge of current ability, with immediate feedback. Ericsson's most important finding: expert violinists practiced ~4 hours of deliberate practice per day, not 8 or 10, because deliberate practice is maximally effortful and requires real recovery. The 10,000-hour rule (Gladwell's popularization) missed the key qualifier: it's 10,000 hours of deliberate practice, not just time in the domain.",
       "tags": [
         "resource",
         "learning-memory"
       ],
-      "degree": 13
+      "degree": 17
     },
     {
       "id": "Resources/Learning & Memory/Desirable Difficulties in Learning",
       "label": "Desirable Difficulties in Learning",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Desirable difficulties are learning conditions that feel harder in the short term but improve long-term retention and transfer. Examples include spacing, retrieval, interleaving, variation, and generation.",
+      "excerpt": "Desirable difficulties (Robert Bjork, 1994) are learning conditions that feel harder and slower in the short term but consistently produce better long-term retention and transfer. The 'desirable' qualifier is critical: the difficulties must still allow success with effort and must provide feedback for error correction — otherwise they become just difficult, not productively difficult. The core counterintuitive finding: the ease with which learning feels to occur during a session is inversely correlated with how much is actually retained.",
       "tags": [
         "resource",
         "learning-memory"
       ],
-      "degree": 4
+      "degree": 10
     },
     {
       "id": "Resources/Learning & Memory/First Principles Thinking",
@@ -8008,12 +8008,12 @@
       "label": "How Memory Works (Encoding, Storage, Retrieval)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Memory involves encoding information, storing it over time, and retrieving it later. Learning improves when attention, meaning, retrieval practice, spacing, and context are designed deliberately.",
+      "excerpt": "Memory is an active reconstruction process, not a recording — Bartlett (1932) showed that retrieved memories are rebuilt from gist plus schemas, which explains why retrieval practice (not re-reading) is the primary mechanism for strengthening memory traces. The Ebbinghaus forgetting curve, sleep consolidation via hippocampal sharp-wave ripples, and the testing effect together define the optimal learning system: encode with depth, retrieve with spacing, sleep after learning.",
       "tags": [
         "resource",
         "learning-memory"
       ],
-      "degree": 9
+      "degree": 14
     },
     {
       "id": "Resources/Learning & Memory/How to Read a Technical Paper",
@@ -8025,7 +8025,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/Learning & Memory/How to Retain What You Read",
@@ -8037,19 +8037,19 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/Learning & Memory/Interleaving Practice",
       "label": "Interleaving Practice",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Interleaving practice mixes related problem types instead of drilling one type in a block. It improves discrimination because learners must decide which strategy applies, not just repeat the obvious one.",
+      "excerpt": "Interleaving practice (Shea & Morgan, 1979; Robert Bjork) mixes related problem types within sessions instead of drilling one type exhaustively before moving to the next. Despite feeling harder and less productive during practice, it consistently produces 20-50% better retention and transfer on delayed tests because it forces discrimination — learners must retrieve the relevant strategy with each problem rather than keeping the same approach loaded in working memory. The most important warning: interleaving is only beneficial after basic exposure; premature interleaving of unlearned material creates confusion, not desirable difficulty.",
       "tags": [
         "resource",
         "learning-memory"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Learning & Memory/Inversion Thinking",
@@ -8085,7 +8085,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them",
@@ -8152,12 +8152,12 @@
       "label": "Spaced Repetition — Theory and Implementation",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Spaced repetition schedules reviews just before forgetting so memories are strengthened efficiently. It works best for durable facts, concepts, prompts, and procedures that benefit from repeated retrieval.",
+      "excerpt": "Spaced repetition exploits the Ebbinghaus forgetting curve by scheduling reviews just before a memory would fully decay — the effortful retrieval of a partially-faded memory strengthens it far more than reviewing a still-fresh one. The SM-2 algorithm (Wozniak, 1987, still used by Anki) calculates optimal intervals by tracking per-card difficulty, expanding intervals for easy cards and contracting them for hard ones. The system is high-leverage for durable factual retention but fails for understanding, rapidly-changing knowledge, and decks too large to maintain.",
       "tags": [
         "resource",
         "learning-memory"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/Learning & Memory/Systems Thinking",
@@ -8181,19 +8181,19 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Learning & Memory/The Feynman Technique",
       "label": "The Feynman Technique",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Feynman Technique tests understanding by explaining a concept simply, finding gaps, revisiting the source, and refining the explanation. It is useful because clear explanation exposes fuzzy knowledge.",
+      "excerpt": "The Feynman Technique tests understanding by forcing explanation in plain language without jargon — and treating every point where the explanation becomes vague or hand-wavy as a precise diagnosis of where understanding is incomplete. Named for Richard Feynman (Nobel Physics 1965), who famously claimed he could explain any physics concept to a freshman because genuinely understanding something and being able to explain it simply are the same thing.",
       "tags": [
         "resource",
         "learning-memory"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Learning & Memory/The Learning Pyramid",
@@ -10203,7 +10203,7 @@
         "resource",
         "neuroscience"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Neuroscience/How Exercise Affects the Brain (BDNF, Neurogenesis)",
@@ -10251,7 +10251,7 @@
         "resource",
         "neuroscience"
       ],
-      "degree": 9
+      "degree": 11
     },
     {
       "id": "Resources/Neuroscience/Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)",
@@ -11027,7 +11027,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "Resources/Personal Productivity/Focus Modes and Context Switching Costs",
@@ -23902,6 +23902,14 @@
     },
     {
       "source": "Resources/Learning & Memory/Active Recall vs Passive Review",
+      "target": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)"
+    },
+    {
+      "source": "Resources/Learning & Memory/Active Recall vs Passive Review",
+      "target": "Resources/Learning & Memory/Desirable Difficulties in Learning"
+    },
+    {
+      "source": "Resources/Learning & Memory/Active Recall vs Passive Review",
       "target": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)"
     },
     {
@@ -23913,16 +23921,24 @@
       "target": "Resources/Learning & Memory/The Feynman Technique"
     },
     {
+      "source": "Resources/Learning & Memory/Active Recall vs Passive Review",
+      "target": "Resources/Neuroscience/Long-Term Potentiation (LTP) and Memory Formation"
+    },
+    {
       "source": "Resources/Learning & Memory/Anki — Optimal Card Design",
       "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
     },
     {
       "source": "Resources/Learning & Memory/Anki — Optimal Card Design",
-      "target": "Resources/Learning & Memory/How to Retain What You Read"
+      "target": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)"
     },
     {
       "source": "Resources/Learning & Memory/Anki — Optimal Card Design",
       "target": "Resources/Learning & Memory/Spaced Repetition — Theory and Implementation"
+    },
+    {
+      "source": "Resources/Learning & Memory/Anki — Optimal Card Design",
+      "target": "Resources/Learning & Memory/The Feynman Technique"
     },
     {
       "source": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know",
@@ -23954,15 +23970,27 @@
     },
     {
       "source": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)",
-      "target": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know"
+      "target": "Resources/Learning & Memory/Desirable Difficulties in Learning"
     },
     {
       "source": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)",
-      "target": "Resources/Learning & Memory/Learning a New Programming Language Fast"
+      "target": "Resources/Learning & Memory/Interleaving Practice"
+    },
+    {
+      "source": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)",
+      "target": "Resources/Personal Productivity/Flow State — How to Trigger It"
     },
     {
       "source": "Resources/Learning & Memory/Desirable Difficulties in Learning",
       "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
+    },
+    {
+      "source": "Resources/Learning & Memory/Desirable Difficulties in Learning",
+      "target": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)"
+    },
+    {
+      "source": "Resources/Learning & Memory/Desirable Difficulties in Learning",
+      "target": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)"
     },
     {
       "source": "Resources/Learning & Memory/Desirable Difficulties in Learning",
@@ -24002,11 +24030,19 @@
     },
     {
       "source": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)",
-      "target": "Resources/Learning & Memory/Chunking Information"
+      "target": "Resources/Learning & Memory/Desirable Difficulties in Learning"
     },
     {
       "source": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)",
       "target": "Resources/Learning & Memory/Spaced Repetition — Theory and Implementation"
+    },
+    {
+      "source": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)",
+      "target": "Resources/Neuroscience/Hippocampus and Memory Formation"
+    },
+    {
+      "source": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)",
+      "target": "Resources/Neuroscience/Long-Term Potentiation (LTP) and Memory Formation"
     },
     {
       "source": "Resources/Learning & Memory/How to Read a Technical Paper",
@@ -24034,7 +24070,7 @@
     },
     {
       "source": "Resources/Learning & Memory/Interleaving Practice",
-      "target": "Resources/Data Structures and Algorithms Patterns"
+      "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
     },
     {
       "source": "Resources/Learning & Memory/Interleaving Practice",
@@ -24043,6 +24079,10 @@
     {
       "source": "Resources/Learning & Memory/Interleaving Practice",
       "target": "Resources/Learning & Memory/Desirable Difficulties in Learning"
+    },
+    {
+      "source": "Resources/Learning & Memory/Interleaving Practice",
+      "target": "Resources/Learning & Memory/Spaced Repetition — Theory and Implementation"
     },
     {
       "source": "Resources/Learning & Memory/Inversion Thinking",
@@ -24150,6 +24190,10 @@
     },
     {
       "source": "Resources/Learning & Memory/Spaced Repetition — Theory and Implementation",
+      "target": "Resources/Learning & Memory/Desirable Difficulties in Learning"
+    },
+    {
+      "source": "Resources/Learning & Memory/Spaced Repetition — Theory and Implementation",
       "target": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)"
     },
     {
@@ -24182,11 +24226,15 @@
     },
     {
       "source": "Resources/Learning & Memory/The Feynman Technique",
-      "target": "Resources/Learning & Memory/How to Read a Technical Paper"
+      "target": "Resources/Learning & Memory/Anki — Optimal Card Design"
     },
     {
       "source": "Resources/Learning & Memory/The Feynman Technique",
-      "target": "Resources/Learning & Memory/Teaching as a Learning Tool"
+      "target": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)"
+    },
+    {
+      "source": "Resources/Learning & Memory/The Feynman Technique",
+      "target": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)"
     },
     {
       "source": "Resources/Learning & Memory/The Learning Pyramid",
@@ -33417,5 +33465,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-30T15:40:00Z"
+  "generated_at": "2026-05-30T15:50:16Z"
 }
