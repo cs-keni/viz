@@ -3579,7 +3579,7 @@
         "study",
         "systems"
       ],
-      "degree": 12
+      "degree": 8
     },
     {
       "id": "Resources/Cloud Services",
@@ -5027,12 +5027,12 @@
       "label": "AWS Core Services (EC2, S3, Lambda, RDS, VPC)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "AWS core services map to common infrastructure primitives: EC2 for virtual machines, S3 for object storage, Lambda for functions, RDS for managed relational databases, and VPC for private networking. These services form the base vocabulary for many AWS architectures.",
+      "excerpt": "AWS core services form the vocabulary for most cloud architectures: EC2 (virtual machines with instance families for different workloads), S3 (durable object storage with storage classes, lifecycle rules, and presigned URLs), Lambda (serverless functions — see Lambda note for depth), RDS/Aurora (managed relational databases with Multi-AZ failover and read replicas), and VPC (private networking with public/private subnets, NAT Gateway, and Security Groups). IAM roles tie everything together by granting workload-specific permissions without static credentials.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/DevOps & Infrastructure/Ansible Basics",
@@ -5068,7 +5068,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design",
@@ -5080,14 +5080,14 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/DevOps & Infrastructure/Cloud Providers Overview (AWS, GCP, Azure)",
       "label": "Cloud Providers Overview (AWS, GCP, Azure)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "AWS, GCP, and Azure provide managed compute, storage, networking, database, security, and analytics services. Choosing among them is usually about ecosystem fit, team familiarity, enterprise constraints, pricing shape, and managed-service maturity.",
+      "excerpt": "AWS dominates on service breadth (200+ services) and ecosystem maturity. GCP leads on data analytics (BigQuery), Kubernetes heritage (GKE was the original managed k8s), and AI/ML infrastructure (TPUs, Vertex AI). Azure wins in Microsoft enterprise environments (Active Directory integration, Office 365 ecosystem, hybrid on-premises). In practice: if your company has no existing commitment, AWS is the default for startups; Azure if Microsoft-heavy enterprise; GCP if data/ML-primary. Multi-cloud is real but expensive in operational overhead — most teams are better served by using one provider well.",
       "tags": [
         "resource",
         "devops-infrastructure"
@@ -5099,12 +5099,12 @@
       "label": "Cloudflare Services Overview",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Cloudflare provides edge services for DNS, CDN caching, DDoS mitigation, TLS, web application security, access control, workers, tunnels, and traffic routing. It is often used as the public edge in front of applications.",
+      "excerpt": "Cloudflare is a global edge network (300+ PoPs) that proxies traffic between users and origins, adding CDN caching, DDoS protection, WAF, TLS termination, and edge compute (Workers). Key operational concepts: orange cloud (proxied, Cloudflare IP) vs gray cloud (DNS only, origin IP exposed); SSL modes (Full Strict required for real TLS security); Workers as V8-isolate edge compute (0ms cold start, 50ms CPU limit); Cloudflare Tunnel for exposing private services without opening firewall ports; R2 for S3-compatible storage with no egress fees.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/DevOps & Infrastructure/Cron Jobs and Task Scheduling",
@@ -5176,7 +5176,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/DevOps & Infrastructure/Infrastructure as Code (IaC)",
@@ -5188,19 +5188,19 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/DevOps & Infrastructure/Kubernetes YAML — Deployment, Service, Ingress",
       "label": "Kubernetes YAML — Deployment, Service, Ingress",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Kubernetes YAML defines desired state for workloads, networking, and routing through objects such as Deployments, Services, and Ingresses. Reading these manifests means understanding selectors, pods, replicas, ports, health checks, and controller behavior.",
+      "excerpt": "Kubernetes desired-state manifests: Deployment (manages replicated pods, rolling update strategy, readiness/liveness probes), Service (stable network identity for pods via label selectors — ClusterIP for internal, LoadBalancer for external), Ingress (HTTP routing by host/path to Services via ingress controller). The critical mechanic connecting everything: label selectors. Deployment's spec.selector must match pod template labels; Service's selector must match pod labels. A mismatch silently routes to zero pods. Resource requests/limits affect scheduling and throttling.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/DevOps & Infrastructure/Lambda Functions and FaaS",
@@ -5212,7 +5212,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/DevOps & Infrastructure/Linux Command Line Essentials",
@@ -5327,7 +5327,7 @@
       "label": "Reverse Proxies (Nginx, Caddy, Traefik)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Reverse proxies sit in front of backend services to route traffic, terminate TLS, balance load, enforce policies, and add observability. Nginx, Caddy, and Traefik represent different tradeoffs in control, automation, and dynamic configuration.",
+      "excerpt": "Reverse proxies receive client requests and forward to backends, adding TLS termination, load balancing, caching, header manipulation, and rate limiting. Nginx: mature, high-performance, complex config (server blocks, location blocks); best for fine-grained control. Caddy: automatic HTTPS with ACME, minimal config, ideal for simpler setups. Traefik: dynamic configuration from Docker labels or k8s CRDs — discovers services automatically; best in container environments. All three can terminate TLS, route by host/path, load balance, and forward headers.",
       "tags": [
         "resource",
         "devops-infrastructure"
@@ -5363,7 +5363,7 @@
       "label": "SSH Best Practices",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "SSH best practices reduce the risk of unauthorized server access while preserving secure administrative workflows. Key ideas include key-based auth, least privilege, bastions, agent hygiene, host verification, logging, and avoiding shared credentials.",
+      "excerpt": "SSH best practices: use ed25519 keys (not RSA-2048), protect private keys with passphrases, disable password auth in sshd_config, restrict to specific users/groups, use ProxyJump for bastion hosts. Modern alternative: AWS SSM Session Manager provides SSH-equivalent access without opening port 22 — no key management, full audit log in CloudTrail. For teams: SSH certificate authority (CA) is better than managing authorized_keys files — short-lived signed certs replace per-user key distribution.",
       "tags": [
         "resource",
         "devops-infrastructure"
@@ -5375,12 +5375,12 @@
       "label": "Secret Management (Vault, AWS Secrets Manager)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Secret management stores, distributes, rotates, and audits credentials such as API keys, database passwords, certificates, and tokens. Tools like Vault and AWS Secrets Manager reduce hardcoded secrets but still require careful IAM, rotation, and runtime access design.",
+      "excerpt": "Secret management stores credentials (DB passwords, API keys, TLS certs) centrally, controls access via policy, rotates automatically, and audits all reads. HashiCorp Vault: self-hosted, powerful dynamic secrets (generates short-lived DB credentials on demand), fine-grained policies, multiple auth backends. AWS Secrets Manager: managed, tight IAM integration, automatic rotation for RDS/Redshift/DocDB, cross-account access. AWS SSM Parameter Store: simpler, cheaper, good for config + non-sensitive parameters. The critical anti-patterns: secrets in environment variables (visible in process table), secrets in source code (git history is permanent), secrets in Docker image layers.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 21
+      "degree": 24
     },
     {
       "id": "Resources/DevOps & Infrastructure/Serverless Architecture",
@@ -5404,19 +5404,19 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/DevOps & Infrastructure/VPN Architecture",
       "label": "VPN Architecture",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "VPN architecture creates encrypted network connectivity between users, devices, offices, clouds, or private networks. Good VPN design considers identity, routing, split tunneling, access scope, device trust, performance, and whether zero-trust access is a better fit.",
+      "excerpt": "VPNs create encrypted network tunnels for two use cases: client VPN (remote employees → private network) and site-to-site VPN (offices/clouds connected). Protocol comparison: WireGuard is the modern default (fast, simple config, 4000 lines of code); OpenVPN is mature and audited but slower; IPsec/IKEv2 is used for site-to-site (AWS VPN, Cisco). Split tunnel routes only private traffic through VPN (better performance); full tunnel routes everything (better security control). The modern alternative: Cloudflare Access + Tunnel or Tailscale replace VPNs for web-based internal tools without routing all traffic.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/DevOps & Infrastructure/systemd — Service and Process Management",
@@ -12648,7 +12648,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/Security & Privacy/Authentication vs Authorization",
@@ -12732,7 +12732,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 12
+      "degree": 11
     },
     {
       "id": "Resources/Security & Privacy/Encryption — Symmetric vs Asymmetric",
@@ -12900,7 +12900,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Security & Privacy/Security Auditing",
@@ -12912,7 +12912,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 19
+      "degree": 18
     },
     {
       "id": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)",
@@ -12924,7 +12924,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 14
+      "degree": 12
     },
     {
       "id": "Resources/Security & Privacy/Session Management",
@@ -13685,7 +13685,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/Software Engineering/Conventional Commits",
@@ -13853,7 +13853,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 12
+      "degree": 11
     },
     {
       "id": "Resources/Software Engineering/Load Testing and Performance Testing",
@@ -14662,7 +14662,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/System Design/Database Replication",
@@ -20580,11 +20580,15 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/AWS Core Services (EC2, S3, Lambda, RDS, VPC)",
-      "target": "Resources/Cloud Networking"
+      "target": "Resources/DevOps & Infrastructure/Cloud Providers Overview (AWS, GCP, Azure)"
     },
     {
       "source": "Resources/DevOps & Infrastructure/AWS Core Services (EC2, S3, Lambda, RDS, VPC)",
-      "target": "Resources/DevOps & Infrastructure/Cloud Providers Overview (AWS, GCP, Azure)"
+      "target": "Resources/DevOps & Infrastructure/Infrastructure as Code (IaC)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/AWS Core Services (EC2, S3, Lambda, RDS, VPC)",
+      "target": "Resources/DevOps & Infrastructure/Lambda Functions and FaaS"
     },
     {
       "source": "Resources/DevOps & Infrastructure/AWS Core Services (EC2, S3, Lambda, RDS, VPC)",
@@ -20672,10 +20676,6 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Cloud Providers Overview (AWS, GCP, Azure)",
-      "target": "Resources/Cloud Networking"
-    },
-    {
-      "source": "Resources/DevOps & Infrastructure/Cloud Providers Overview (AWS, GCP, Azure)",
       "target": "Resources/DevOps & Infrastructure/AWS Core Services (EC2, S3, Lambda, RDS, VPC)"
     },
     {
@@ -20683,8 +20683,8 @@
       "target": "Resources/DevOps & Infrastructure/Infrastructure as Code (IaC)"
     },
     {
-      "source": "Resources/DevOps & Infrastructure/Cloudflare Services Overview",
-      "target": "Resources/Cloud Networking"
+      "source": "Resources/DevOps & Infrastructure/Cloud Providers Overview (AWS, GCP, Azure)",
+      "target": "Resources/DevOps & Infrastructure/Kubernetes YAML — Deployment, Service, Ingress"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Cloudflare Services Overview",
@@ -20692,11 +20692,19 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Cloudflare Services Overview",
-      "target": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)"
+      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Cloudflare Services Overview",
+      "target": "Resources/DevOps & Infrastructure/VPN Architecture"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Cloudflare Services Overview",
       "target": "Resources/System Design/CDN Architecture"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Cloudflare Services Overview",
+      "target": "Resources/System Design/Content Delivery and Edge Computing"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Cron Jobs and Task Scheduling",
@@ -20820,6 +20828,10 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Kubernetes YAML — Deployment, Service, Ingress",
+      "target": "Resources/DevOps & Infrastructure/Blue-Green vs Canary vs Rolling Deployments"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Kubernetes YAML — Deployment, Service, Ingress",
       "target": "Resources/DevOps & Infrastructure/GitOps Principles"
     },
     {
@@ -20828,11 +20840,7 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Kubernetes YAML — Deployment, Service, Ingress",
-      "target": "Resources/Software Engineering/Container Networking"
-    },
-    {
-      "source": "Resources/DevOps & Infrastructure/Kubernetes YAML — Deployment, Service, Ingress",
-      "target": "Resources/Software Engineering/Kubernetes Basics"
+      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Lambda Functions and FaaS",
@@ -21008,15 +21016,15 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Reverse Proxies (Nginx, Caddy, Traefik)",
+      "target": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Reverse Proxies (Nginx, Caddy, Traefik)",
       "target": "Resources/DevOps & Infrastructure/Cloudflare Services Overview"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Reverse Proxies (Nginx, Caddy, Traefik)",
       "target": "Resources/DevOps & Infrastructure/Kubernetes YAML — Deployment, Service, Ingress"
-    },
-    {
-      "source": "Resources/DevOps & Infrastructure/Reverse Proxies (Nginx, Caddy, Traefik)",
-      "target": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Reverse Proxies (Nginx, Caddy, Traefik)",
@@ -21064,11 +21072,11 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/SSH Best Practices",
-      "target": "Resources/DevOps & Infrastructure/VPN Architecture"
+      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
     },
     {
       "source": "Resources/DevOps & Infrastructure/SSH Best Practices",
-      "target": "Resources/Security & Privacy/Security Auditing"
+      "target": "Resources/DevOps & Infrastructure/VPN Architecture"
     },
     {
       "source": "Resources/DevOps & Infrastructure/SSH Best Practices",
@@ -21084,11 +21092,11 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)",
-      "target": "Resources/Security & Privacy/API Key Management"
+      "target": "Resources/DevOps & Infrastructure/GitOps Principles"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)",
-      "target": "Resources/Security & Privacy/Secrets Scanning (GitGuardian, truffleHog)"
+      "target": "Resources/DevOps & Infrastructure/Terraform Basics"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Serverless Architecture",
@@ -21132,15 +21140,15 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/VPN Architecture",
-      "target": "Resources/Cloud Networking"
+      "target": "Resources/DevOps & Infrastructure/AWS Core Services (EC2, S3, Lambda, RDS, VPC)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/VPN Architecture",
+      "target": "Resources/DevOps & Infrastructure/Cloudflare Services Overview"
     },
     {
       "source": "Resources/DevOps & Infrastructure/VPN Architecture",
       "target": "Resources/DevOps & Infrastructure/SSH Best Practices"
-    },
-    {
-      "source": "Resources/DevOps & Infrastructure/VPN Architecture",
-      "target": "Resources/Security & Privacy/Defense in Depth"
     },
     {
       "source": "Resources/DevOps & Infrastructure/VPN Architecture",
@@ -33471,5 +33479,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-30T22:20:29Z"
+  "generated_at": "2026-05-30T22:47:08Z"
 }
