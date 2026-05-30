@@ -7135,7 +7135,7 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 20
+      "degree": 19
     },
     {
       "id": "Resources/Health & Fitness/Sauna — Evidence and Use",
@@ -7917,7 +7917,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "Resources/Learning & Memory/Anki — Optimal Card Design",
@@ -8558,7 +8558,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Mental Health & Psychology/Anxiety — Types and Coping Mechanisms",
@@ -10895,19 +10895,19 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Personal Productivity/Capture Systems (Ubiquitous Capture)",
       "label": "Capture Systems (Ubiquitous Capture)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Ubiquitous capture means having a fast, trusted way to record ideas, tasks, commitments, and observations wherever they appear. Capture only works if the inbox is later clarified and processed.",
+      "excerpt": "Ubiquitous capture (David Allen's GTD principle) means having a fast, friction-free way to externalize thoughts, tasks, ideas, and commitments the moment they arise — so the brain can stop holding them in working memory. The Zeigarnik effect explains why uncaptured open loops persistently interrupt attention; capture resolves this by creating a trusted external store the brain can offload to.",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 6
+      "degree": 10
     },
     {
       "id": "Resources/Personal Productivity/Commonplace Book Tradition",
@@ -10931,19 +10931,19 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 4
+      "degree": 3
     },
     {
       "id": "Resources/Personal Productivity/Decision Journaling",
       "label": "Decision Journaling",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Decision journaling records important decisions, assumptions, expected outcomes, confidence, and later results. It improves judgment by separating decision quality from outcome luck.",
+      "excerpt": "Decision journaling records the reasoning, assumptions, and expected outcomes of important decisions before the outcome is known — making it possible to evaluate decision quality separately from outcome luck. The practice addresses 'resulting' (Annie Duke's term for judging decisions by outcomes rather than by reasoning quality), builds calibration by revealing systematic overconfidence or underconfidence, and creates a corpus of past reasoning that surfaces patterns in how you think.",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "Resources/Personal Productivity/Deep Work (Cal Newport)",
@@ -10955,7 +10955,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 16
+      "degree": 18
     },
     {
       "id": "Resources/Personal Productivity/Digital Minimalism",
@@ -10979,31 +10979,31 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "Resources/Personal Productivity/Energy Management vs Time Management",
       "label": "Energy Management vs Time Management",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Energy management asks whether a person has the physical, emotional, and cognitive capacity for the work scheduled. It complements time management because an empty calendar block is not useful if energy is mismatched.",
+      "excerpt": "Energy management (Schwartz & Loehr, The Power of Full Engagement, 2003) frames productivity as managing four energy types — physical, emotional, mental, and purposive — rather than allocating hours. An empty calendar block is only useful if the right type of energy exists to fill it. The key insight is that high performance requires oscillation between stress and recovery: chronic work without recovery produces burnout; recovery without challenge produces atrophy. For most knowledge workers, scheduling by energy type is more impactful than scheduling by time.",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 13
+      "degree": 16
     },
     {
       "id": "Resources/Personal Productivity/Evening Wind-Down Routines",
       "label": "Evening Wind-Down Routines",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "An evening wind-down routine helps the brain transition out of work and into sleep or recovery. It works by lowering stimulation, closing open loops, and making the next morning easier.",
+      "excerpt": "Evening wind-down routines work through two mechanisms: closing open loops (resolving the Zeigarnik effect that causes work rumination during sleep) and aligning with sleep physiology (reducing blue light to allow melatonin release, lowering core body temperature to initiate sleep onset). The evening routine's primary output is sleep quality — which is the direct determinant of tomorrow's cognitive performance, mood, and impulse control.",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 9
+      "degree": 13
     },
     {
       "id": "Resources/Personal Productivity/Evergreen Notes",
@@ -11027,7 +11027,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "Resources/Personal Productivity/Focus Modes and Context Switching Costs",
@@ -11063,7 +11063,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Personal Productivity/Habit Stacking",
@@ -11082,12 +11082,12 @@
       "label": "Inbox Zero Strategy",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Inbox Zero is not about having no messages forever; it is about regularly processing inboxes into decisions, actions, references, or deletion. The goal is reduced ambiguity, not obsessive cleanliness.",
+      "excerpt": "Inbox Zero (Merlin Mann, 2007) is not about having zero emails permanently — it is about using the inbox as a decision queue, not a storage system. The method requires processing each item to a decision (delete/archive/reply/delegate/task) rather than repeatedly re-reading the same unresolved pile, which creates a persistent low-grade anxiety tax even when you're not actively reading email.",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 3
+      "degree": 6
     },
     {
       "id": "Resources/Personal Productivity/Intention Setting",
@@ -11118,24 +11118,24 @@
       "label": "Managing Information Overwhelm",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Managing information overwhelm means limiting inputs, clarifying what deserves action, and turning useful material into trusted systems. The goal is not consuming everything, but preserving attention for what matters.",
+      "excerpt": "Information overwhelm has two distinct failure modes: too much input (following too many sources) and insufficient filtering (no system for deciding depth of engagement per item). The fix is not faster consumption but a triage hierarchy — ignore, skim, read once, capture and process, note-worthy — and the 'just-in-time vs just-in-case' distinction that reveals most information is consumed speculatively and never used. For knowledge workers in fast-moving technical domains, the leverage is in curation (finding high-signal-to-noise sources) not comprehensiveness.",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 3
+      "degree": 8
     },
     {
       "id": "Resources/Personal Productivity/Morning Routines — Research and Design",
       "label": "Morning Routines — Research and Design",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "A morning routine should prepare energy, attention, and priorities for the day, not imitate someone else's ideal schedule. The best routine is small, repeatable, and matched to real constraints.",
+      "excerpt": "Morning routines work by exploiting the Cortisol Awakening Response (a natural alertness spike in the first 30-45 minutes after waking), protecting the highest-quality cognitive window from reactive inputs before it can be colonized by others' demands, and establishing a consistent first-block transition into meaningful work. The research supports: consistent wake time, morning light exposure, movement, and protecting the first 30-60 minutes from phone/email. It does not support elaborate multi-hour routines that collapse under real-world constraints.",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 8
+      "degree": 11
     },
     {
       "id": "Resources/Personal Productivity/Motivation — Intrinsic vs Extrinsic",
@@ -11171,7 +11171,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "Resources/Personal Productivity/PARA Method (Projects, Areas, Resources, Archives)",
@@ -11219,7 +11219,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "Resources/Personal Productivity/Reward Systems and Dopamine Loops",
@@ -11238,12 +11238,12 @@
       "label": "Task Management Philosophies (GTD, Autofocus, ZTD)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Task management philosophies differ in how they capture, prioritize, review, and execute work. GTD emphasizes trusted capture and next actions, Autofocus emphasizes intuitive list scanning, and ZTD simplifies GTD into habits.",
+      "excerpt": "Task management systems are opinionated answers to the same problem: how to reliably capture, prioritize, and execute commitments without mental overhead. GTD (Allen) is comprehensive and powerful for complex multi-project knowledge work; Autofocus (Forster) is lightweight and intuition-driven; Zen To Done (Babauta) adapts GTD into sequential habit formation; Personal Kanban (Benson/Barry) uses visual WIP limits. The best system is the one with the lowest overhead you'll actually maintain.",
       "tags": [
         "resource",
         "personal-productivity"
       ],
-      "degree": 5
+      "degree": 8
     },
     {
       "id": "Resources/Personal Productivity/The Map of Content (MOC) in Obsidian",
@@ -11255,7 +11255,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/Personal Productivity/Time Blocking",
@@ -15721,6 +15721,15 @@
     {
       "id": "Sleep Architecture — REM and Non-REM",
       "label": "Sleep Architecture — REM and Non-REM",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Spaced Repetition",
+      "label": "Spaced Repetition",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -27433,15 +27442,23 @@
     },
     {
       "source": "Resources/Personal Productivity/Capture Systems (Ubiquitous Capture)",
-      "target": "Resources/Personal Productivity/Daily Note Template"
-    },
-    {
-      "source": "Resources/Personal Productivity/Capture Systems (Ubiquitous Capture)",
       "target": "Resources/Personal Productivity/Getting Things Done (GTD) Method"
     },
     {
       "source": "Resources/Personal Productivity/Capture Systems (Ubiquitous Capture)",
+      "target": "Resources/Personal Productivity/Inbox Zero Strategy"
+    },
+    {
+      "source": "Resources/Personal Productivity/Capture Systems (Ubiquitous Capture)",
+      "target": "Resources/Personal Productivity/Managing Information Overwhelm"
+    },
+    {
+      "source": "Resources/Personal Productivity/Capture Systems (Ubiquitous Capture)",
       "target": "Resources/Personal Productivity/Obsidian Workflow Design"
+    },
+    {
+      "source": "Resources/Personal Productivity/Capture Systems (Ubiquitous Capture)",
+      "target": "Resources/Personal Productivity/Task Management Philosophies (GTD, Autofocus, ZTD)"
     },
     {
       "source": "Resources/Personal Productivity/Commonplace Book Tradition",
@@ -27474,6 +27491,10 @@
     {
       "source": "Resources/Personal Productivity/Decision Journaling",
       "target": "Resources/Personal Productivity/Annual Review Template"
+    },
+    {
+      "source": "Resources/Personal Productivity/Decision Journaling",
+      "target": "Resources/Personal Productivity/Goal Frameworks (OKRs, SMART, 12-Week Year)"
     },
     {
       "source": "Resources/Personal Productivity/Decision Journaling",
@@ -27541,7 +27562,7 @@
     },
     {
       "source": "Resources/Personal Productivity/Energy Management vs Time Management",
-      "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
+      "target": "Resources/Mental Health & Psychology/ADHD — Understanding and Managing It"
     },
     {
       "source": "Resources/Personal Productivity/Energy Management vs Time Management",
@@ -27549,11 +27570,31 @@
     },
     {
       "source": "Resources/Personal Productivity/Energy Management vs Time Management",
+      "target": "Resources/Personal Productivity/Evening Wind-Down Routines"
+    },
+    {
+      "source": "Resources/Personal Productivity/Energy Management vs Time Management",
+      "target": "Resources/Personal Productivity/Flow State — How to Trigger It"
+    },
+    {
+      "source": "Resources/Personal Productivity/Energy Management vs Time Management",
+      "target": "Resources/Personal Productivity/Morning Routines — Research and Design"
+    },
+    {
+      "source": "Resources/Personal Productivity/Energy Management vs Time Management",
       "target": "Resources/Personal Productivity/Time Blocking"
     },
     {
       "source": "Resources/Personal Productivity/Evening Wind-Down Routines",
+      "target": "Resources/Personal Productivity/Deep Work (Cal Newport)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Evening Wind-Down Routines",
       "target": "Resources/Personal Productivity/Digital Minimalism"
+    },
+    {
+      "source": "Resources/Personal Productivity/Evening Wind-Down Routines",
+      "target": "Resources/Personal Productivity/Distraction Management"
     },
     {
       "source": "Resources/Personal Productivity/Evening Wind-Down Routines",
@@ -27685,6 +27726,10 @@
     },
     {
       "source": "Resources/Personal Productivity/Inbox Zero Strategy",
+      "target": "Resources/Personal Productivity/Capture Systems (Ubiquitous Capture)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Inbox Zero Strategy",
       "target": "Resources/Personal Productivity/Getting Things Done (GTD) Method"
     },
     {
@@ -27737,7 +27782,23 @@
     },
     {
       "source": "Resources/Personal Productivity/Managing Information Overwhelm",
+      "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
+    },
+    {
+      "source": "Resources/Personal Productivity/Managing Information Overwhelm",
+      "target": "Resources/Personal Productivity/Building a Second Brain (BASB — Tiago Forte)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Managing Information Overwhelm",
+      "target": "Resources/Personal Productivity/Capture Systems (Ubiquitous Capture)"
+    },
+    {
+      "source": "Resources/Personal Productivity/Managing Information Overwhelm",
       "target": "Resources/Personal Productivity/Digital Minimalism"
+    },
+    {
+      "source": "Resources/Personal Productivity/Managing Information Overwhelm",
+      "target": "Resources/Personal Productivity/Obsidian Workflow Design"
     },
     {
       "source": "Resources/Personal Productivity/Managing Information Overwhelm",
@@ -27745,11 +27806,19 @@
     },
     {
       "source": "Resources/Personal Productivity/Managing Information Overwhelm",
-      "target": "Resources/Personal Productivity/The Map of Content (MOC) in Obsidian"
+      "target": "Spaced Repetition"
+    },
+    {
+      "source": "Resources/Personal Productivity/Morning Routines — Research and Design",
+      "target": "Resources/Personal Productivity/Deep Work (Cal Newport)"
     },
     {
       "source": "Resources/Personal Productivity/Morning Routines — Research and Design",
       "target": "Resources/Personal Productivity/Energy Management vs Time Management"
+    },
+    {
+      "source": "Resources/Personal Productivity/Morning Routines — Research and Design",
+      "target": "Resources/Personal Productivity/Evening Wind-Down Routines"
     },
     {
       "source": "Resources/Personal Productivity/Morning Routines — Research and Design",
@@ -27930,6 +27999,14 @@
     {
       "source": "Resources/Personal Productivity/Task Management Philosophies (GTD, Autofocus, ZTD)",
       "target": "Resources/Personal Productivity/Getting Things Done (GTD) Method"
+    },
+    {
+      "source": "Resources/Personal Productivity/Task Management Philosophies (GTD, Autofocus, ZTD)",
+      "target": "Resources/Personal Productivity/Inbox Zero Strategy"
+    },
+    {
+      "source": "Resources/Personal Productivity/Task Management Philosophies (GTD, Autofocus, ZTD)",
+      "target": "Resources/Personal Productivity/Procrastination — Root Causes and Fixes"
     },
     {
       "source": "Resources/Personal Productivity/Task Management Philosophies (GTD, Autofocus, ZTD)",
@@ -33340,5 +33417,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-30T15:29:36Z"
+  "generated_at": "2026-05-30T15:40:00Z"
 }
