@@ -17,6 +17,7 @@ Visual effects working:
 - **Stars**: 4000-point starfield, twinkling every 3rd frame
 - **Nebulae**: `THREE.BackSide`, `emissiveIntensity: 0.12`, slow drift in rAF
 - **Bloom**: `UnrealBloomPass(size, 1.4, 0.4, 0.25)` — desktop only, threshold 0.25
+- **Node interaction**: `nodeThreeObject` returns an invisible `THREE.Mesh` (sphere, `visible=false`) — must be Mesh, not Object3D, because `Object3D.raycast()` is a no-op and the library uses THREE.Raycaster for hover/click
 - **Node clustering**: `charge(-200)`, `link.distance(70)`, `forceCollide` from `d3-force-3d`
 - **Edges**: `#4a78e0 / #8860cc / #d4881a`, `linkOpacity={0.85}`
 - **Selection**: Click node → dim non-neighbors via `setColorAt`, open InfoPanel, pause orbit

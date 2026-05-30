@@ -18,6 +18,13 @@ const ORBIT_RESUME_DELAY = 3000
 // Cached Y-axis vector for orbit rotation
 const Y_AXIS = new THREE.Vector3(0, 1, 0)
 
+// Shared material + per-radius geometry cache for invisible raycast tracker meshes.
+// Object3D.raycast() is a no-op, so trackers must be THREE.Mesh to register hits.
+// visible=false prevents rendering; this Three.js build doesn't skip invisible objects
+// during raycasting, so the mesh is hit-tested but never drawn.
+const TRACKER_MAT = new THREE.MeshBasicMaterial()
+const _trackerGeos = {}
+
 function getTopHubs(nodes, n) {
   return [...nodes].sort((a, b) => (b.degree ?? 0) - (a.degree ?? 0)).slice(0, n)
 }
@@ -650,15 +657,19 @@ export default function Graph3D({ data }) {
   }, [initInstancedMeshes])
 
   const nodeThreeObject = useCallback((node) => {
-    // Invisible position tracker — InstancedMesh handles all rendering.
-    // react-force-graph-3d uses 2D projected distance for hover/click (not raycasting),
-    // so an empty Object3D is sufficient for interaction detection.
+    // Invisible Mesh tracker — InstancedMesh handles all rendering.
+    // Must be a Mesh (not Object3D) so the library's THREE.Raycaster can
+    // register hits for onNodeClick / onNodeHover. Object3D.raycast() is a
+    // no-op stub and is never intersected. visible=false skips rendering;
+    // this Three.js build does not check visible during ray traversal.
     const base = baseEmissiveForDegree(node.degree ?? 0)
     const isRecent = isRecentlyAdded(node.created)
     node._phase = Math.random() * Math.PI * 2
     node._baseEmissive = isRecent ? Math.min(1.0, base * 1.5) : base
     node._radius = sizeForDegree(node.degree)
-    const tracker = new THREE.Object3D()
+    const r = node._radius
+    if (!_trackerGeos[r]) _trackerGeos[r] = new THREE.SphereGeometry(r, 6, 4)
+    const tracker = new THREE.Mesh(_trackerGeos[r], TRACKER_MAT)
     tracker.visible = false
     return tracker
   }, [])

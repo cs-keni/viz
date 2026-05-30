@@ -1,5 +1,13 @@
 # ENGINEERING LOG
 
+## 2026-05-29 — Fix node hover/click broken since InstancedMesh refactor (Claude Code, Sonnet 4.6)
+
+`nodeThreeObject` was returning a `THREE.Object3D` as an invisible tracker. `Object3D.raycast()` is an empty stub — the library's THREE.Raycaster never registers intersections on it, so `onNodeClick`/`onNodeHover` silently never fired. Fixed by returning a `THREE.Mesh(SphereGeometry(node._radius, 6, 4), MeshBasicMaterial)` instead. `visible = false` prevents rendering; this Three.js bundle does not check `visible` during ray traversal so the mesh is hit-tested correctly. Geometries are cached per-radius in a module-level map to avoid N allocations. The wrong comment ("react-force-graph-3d uses 2D projected distance") was also corrected.
+
+This regression was introduced with the InstancedMesh optimization (pre-T10 visible; the original per-node Mesh objects were raycasted correctly). The bug existed since that commit but wasn't noticed until the graph grew large and users tried clicking.
+
+Commit: `TBD`
+
 ## 2026-05-29 — Increase camera maxDistance and starfield radius (Claude Code, Sonnet 4.6)
 
 Constellation has grown large enough that the default zoom limit clips it. Increased `controls.maxDistance` (3000 → 4500) and `STAR_RADIUS` (4000 → 6000). First attempt used 6000/8000 but felt too zoomed out; dialed back to these values. Also scaled `STAR_COUNT` proportionally (4000 → 6000, matching the 1.5× maxDistance increase).
