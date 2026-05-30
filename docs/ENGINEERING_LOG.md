@@ -53,7 +53,7 @@ Implemented all five planned features from the design doc in a single session. A
 - `prevTRef` added for accurate `dt` in timeline play speed calculation
 
 ### Commits
-`TBD`
+`b4d9c59` — feat: add search, share link, ripple, path highlight, timeline (F1-F5)
 
 ## 2026-05-29 — Orbit locks to selected node; five future ideas documented (Claude Code, Sonnet 4.6)
 
