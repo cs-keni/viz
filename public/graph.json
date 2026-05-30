@@ -19,6 +19,15 @@
       "degree": 3
     },
     {
+      "id": "A/B Testing and Experimentation",
+      "label": "B Testing and Experimentation",
+      "folder": "A",
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "AI & Machine Learning/Neural Network Fundamentals",
       "label": "Neural Network Fundamentals",
       "folder": "AI & Machine Learning",
@@ -30,6 +39,24 @@
     {
       "id": "AI Safety vs AI Capabilities",
       "label": "AI Safety vs AI Capabilities",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "API Design REST",
+      "label": "API Design REST",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
+    },
+    {
+      "id": "API Design gRPC",
+      "label": "API Design gRPC",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -126,6 +153,15 @@
       "degree": 2
     },
     {
+      "id": "Authentication and Session Management",
+      "label": "Authentication and Session Management",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Base rates",
       "label": "Base rates",
       "folder": null,
@@ -159,7 +195,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Chemistry & Biochemistry",
@@ -223,6 +259,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 1
+    },
+    {
+      "id": "DORA Metrics",
+      "label": "DORA Metrics",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
     },
     {
       "id": "Daily Notes/2026-05-19",
@@ -331,6 +376,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 2
+    },
+    {
+      "id": "Database Migrations",
+      "label": "Database Migrations",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "Debugging",
@@ -567,6 +621,15 @@
       "degree": 1
     },
     {
+      "id": "Kubernetes Deployments",
+      "label": "Kubernetes Deployments",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Linux System Monitoring — top, htop, iostat, sar, /proc Filesystem",
       "label": "proc Filesystem",
       "folder": "Linux System Monitoring — top, htop, iostat, sar, ",
@@ -728,6 +791,15 @@
       "degree": 1
     },
     {
+      "id": "Package Management and Dependency Resolution",
+      "label": "Package Management and Dependency Resolution",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Partitioning and Sharding",
       "label": "Partitioning and Sharding",
       "folder": null,
@@ -866,7 +938,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 2
+      "degree": 1
     },
     {
       "id": "Public Key Cryptography",
@@ -916,6 +988,15 @@
     {
       "id": "Recursion and Divide-and-Conquer",
       "label": "Recursion and Divide-and-Conquer",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Redis",
+      "label": "Redis",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -1595,7 +1676,7 @@
         "claude",
         "codex"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/API Design",
@@ -2813,7 +2894,7 @@
         "study",
         "systems"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/CS Theory & Algorithms/Amortized Analysis",
@@ -4931,7 +5012,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design",
@@ -5123,7 +5204,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 16
+      "degree": 15
     },
     {
       "id": "Resources/DevOps & Infrastructure/On-Call Culture and Incident Response",
@@ -8900,7 +8981,7 @@
         "misc-high-value",
         "communication-writing"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/Miscellaneous High-Value Topics/Code as Communication (Writing for Readers)",
@@ -9369,7 +9450,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 15
+      "degree": 14
     },
     {
       "id": "Resources/Networking & Protocols/Anycast Routing — How CDNs and Public DNS (1.1.1.1, 8.8.8.8) Scale Globally",
@@ -11766,7 +11847,7 @@
         "startups",
         "projects"
       ],
-      "degree": 13
+      "degree": 12
     },
     {
       "id": "Resources/Product Management/Activation Metrics",
@@ -11862,7 +11943,7 @@
         "resource",
         "product-management"
       ],
-      "degree": 13
+      "degree": 12
     },
     {
       "id": "Resources/Product Management/Product Discovery vs Delivery",
@@ -13368,7 +13449,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 16
+      "degree": 15
     },
     {
       "id": "Resources/Software Engineering/API Design — Server-Sent Events",
@@ -13380,14 +13461,14 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/Software Engineering/API Design — WebSockets",
       "label": "API Design — WebSockets",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "WebSockets provide a persistent bidirectional connection between client and server. They are useful for low-latency interactive features, but they require explicit handling for connection state, scaling, authentication, and backpressure.",
+      "excerpt": "WebSockets provide a persistent, full-duplex TCP connection over a single HTTP upgrade. They enable real-time bidirectional communication unlike REST (request/response) or SSE (server-to-client only). The hard problems are connection management at scale (Redis pub/sub for horizontal scaling), authentication (token at handshake time), and reconnection (exponential backoff with jitter). Use WebSockets for collaborative editing, live chat, multiplayer, and live dashboards; use SSE for one-way streams.",
       "tags": [
         "resource",
         "software-engineering"
@@ -13428,7 +13509,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 13
+      "degree": 10
     },
     {
       "id": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
@@ -13447,7 +13528,7 @@
       "label": "Blue-Green Deployments",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Blue-green deployment keeps two production environments so traffic can switch quickly between old and new versions. It reduces release risk when environments are truly equivalent and rollback is safe.",
+      "excerpt": "Blue-green deployment runs two identical production environments: one live (blue), one idle (green). New version deploys to green; traffic switches atomically. Rollback is instant — flip traffic back to blue. The hard problems are database migrations (must be backward-compatible) and stateful sessions, not the traffic switch itself.",
       "tags": [
         "resource",
         "software-engineering"
@@ -13483,12 +13564,12 @@
       "label": "Canary Releases",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Canary releases expose a new version to a small subset of traffic before full rollout. They reduce blast radius and use real production signals to decide whether to proceed.",
+      "excerpt": "Canary releases route a small fraction of real traffic to the new version, then watch production metrics before expanding. The canary name comes from coal mines — if it dies, you know early. Tools: Argo Rollouts and Flagger for automated analysis; Istio/NGINX for traffic splitting. The key discipline is defining automated rollback triggers before you deploy, not after something breaks.",
       "tags": [
         "resource",
         "software-engineering"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Software Engineering/Chaos Engineering",
@@ -13500,7 +13581,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Software Engineering/Clean Code Principles",
@@ -13536,7 +13617,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 17
+      "degree": 16
     },
     {
       "id": "Resources/Software Engineering/Container Networking",
@@ -13555,12 +13636,12 @@
       "label": "Conventional Commits",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Conventional Commits is a commit-message convention that adds machine-readable intent to project history. It supports changelog generation, semantic versioning, and easier review of change purpose.",
+      "excerpt": "Conventional Commits is a commit message spec: type(scope): description. Types include feat, fix, chore, docs, refactor, test, perf, ci, build. The real payoff is tooling automation: commitlint enforces the spec in CI, semantic-release uses commit history to determine version bumps and auto-generate changelogs. The spec also makes git log a useful artifact rather than a graveyard of 'fix stuff' entries.",
       "tags": [
         "resource",
         "software-engineering"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/Software Engineering/Dependency Management",
@@ -13572,7 +13653,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 11
+      "degree": 10
     },
     {
       "id": "Resources/Software Engineering/Design Patterns — Behavioral (Observer, Strategy, Command, State, Iterator)",
@@ -13656,14 +13737,14 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 20
+      "degree": 21
     },
     {
       "id": "Resources/Software Engineering/Feature Flags and Progressive Rollout",
       "label": "Feature Flags and Progressive Rollout",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Feature flags decouple deploying code from releasing behavior. Progressive rollout uses flags to expose changes gradually, measure impact, and quickly disable risky behavior.",
+      "excerpt": "Feature flags decouple deployment from release — code ships dark, behavior turns on separately. The four flag types (release, experiment, ops kill-switch, permission) have different lifecycles and risk models. Tools: LaunchDarkly and Unleash for production scale, GrowthBook for experiment focus. Critical discipline: flags must have owners and removal dates or they become permanent debt.",
       "tags": [
         "resource",
         "software-engineering"
@@ -13675,12 +13756,12 @@
       "label": "Git Flow vs Trunk-Based",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Git Flow and trunk-based development are contrasting branching models. Git Flow emphasizes release branches and staged stabilization, while trunk-based development emphasizes frequent integration into main.",
+      "excerpt": "Git Flow and trunk-based development are branching strategies with opposite philosophies: Git Flow isolates work in long-lived branches until planned releases; TBD integrates continuously to a single branch. Git Flow suits scheduled releases with extended QA cycles; TBD suits continuous delivery. Most teams that adopted Git Flow in 2010 have since migrated toward TBD. GitHub Flow is the practical middle ground.",
       "tags": [
         "resource",
         "software-engineering"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Software Engineering/Hexagonal Architecture (Ports and Adapters)",
@@ -13776,7 +13857,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/Software Engineering/OpenAPI and API Documentation",
@@ -13831,7 +13912,7 @@
       "label": "Semantic Versioning",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Semantic Versioning is a version numbering convention that communicates compatibility expectations through MAJOR.MINOR.PATCH numbers. It helps package users understand whether an update should be safe, additive, or breaking.",
+      "excerpt": "Semantic Versioning (semver) is a contract: MAJOR.MINOR.PATCH where breaking changes bump MAJOR, new backward-compatible features bump MINOR, and bug fixes bump PATCH. The spec only works if you have a clear definition of your public API — the hard part isn't the numbers, it's the discipline. Tooling: semantic-release automates version decisions from commit history. Version ranges (^, ~) in package managers encode consumer trust.",
       "tags": [
         "resource",
         "software-engineering"
@@ -13848,7 +13929,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Software Engineering/Software Estimation Techniques",
@@ -13884,7 +13965,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 16
+      "degree": 15
     },
     {
       "id": "Resources/Software Engineering/Test-Driven Development (TDD)",
@@ -13915,12 +13996,12 @@
       "label": "Trunk-Based Development",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Trunk-based development is a source-control workflow where engineers integrate small changes into the main branch frequently. It supports continuous integration by reducing long-lived branch drift.",
+      "excerpt": "Trunk-based development (TBD) means everyone commits to a single branch (main/trunk) with branches lasting no longer than 1–2 days. The mechanism that makes it work: feature flags gate incomplete code, not branches. TBD is the highest-correlated practice with DORA's elite deployment frequency metric. The prerequisite is a fast, reliable CI pipeline — without it, TBD just means broken trunk.",
       "tags": [
         "resource",
         "software-engineering"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Software Engineering/Virtualization — VMs vs Containers",
@@ -14585,7 +14666,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/System Design/Design a Distributed Cache",
@@ -14849,7 +14930,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 14
+      "degree": 13
     },
     {
       "id": "Resources/System Design/Scalability — Horizontal vs Vertical",
@@ -29864,23 +29945,23 @@
     },
     {
       "source": "Resources/Software Engineering/API Design — WebSockets",
-      "target": "Pub/Sub Architecture"
+      "target": "API Design REST"
     },
     {
       "source": "Resources/Software Engineering/API Design — WebSockets",
-      "target": "Resources/Networking"
+      "target": "API Design gRPC"
     },
     {
       "source": "Resources/Software Engineering/API Design — WebSockets",
-      "target": "Resources/Software Engineering/API Design — Server-Sent Events"
+      "target": "Authentication and Session Management"
     },
     {
       "source": "Resources/Software Engineering/API Design — WebSockets",
-      "target": "Resources/System Design/Design a Chat Application"
+      "target": "Redis"
     },
     {
       "source": "Resources/Software Engineering/API Design — WebSockets",
-      "target": "Resources/System Design/Real-Time Systems Design"
+      "target": "Resources/Software Engineering/Event-Driven Architecture"
     },
     {
       "source": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers",
@@ -29964,11 +30045,11 @@
     },
     {
       "source": "Resources/Software Engineering/Blue-Green Deployments",
-      "target": "Resources/DevOps & Infrastructure/Blue-Green vs Canary vs Rolling Deployments"
+      "target": "Database Migrations"
     },
     {
       "source": "Resources/Software Engineering/Blue-Green Deployments",
-      "target": "Resources/Software Engineering/Backward Compatibility Strategies"
+      "target": "Kubernetes Deployments"
     },
     {
       "source": "Resources/Software Engineering/Blue-Green Deployments",
@@ -30020,15 +30101,7 @@
     },
     {
       "source": "Resources/Software Engineering/Canary Releases",
-      "target": "Resources/CI CD"
-    },
-    {
-      "source": "Resources/Software Engineering/Canary Releases",
-      "target": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)"
-    },
-    {
-      "source": "Resources/Software Engineering/Canary Releases",
-      "target": "Resources/Software Engineering/Backward Compatibility Strategies"
+      "target": "CI/CD Pipeline Design"
     },
     {
       "source": "Resources/Software Engineering/Canary Releases",
@@ -30036,7 +30109,15 @@
     },
     {
       "source": "Resources/Software Engineering/Canary Releases",
+      "target": "Resources/Software Engineering/Chaos Engineering"
+    },
+    {
+      "source": "Resources/Software Engineering/Canary Releases",
       "target": "Resources/Software Engineering/Feature Flags and Progressive Rollout"
+    },
+    {
+      "source": "Resources/Software Engineering/Canary Releases",
+      "target": "Resources/Software Engineering/Service Mesh (Istio, Linkerd)"
     },
     {
       "source": "Resources/Software Engineering/Chaos Engineering",
@@ -30140,15 +30221,15 @@
     },
     {
       "source": "Resources/Software Engineering/Conventional Commits",
-      "target": "Resources/AI Workflow"
-    },
-    {
-      "source": "Resources/Software Engineering/Conventional Commits",
-      "target": "Resources/Miscellaneous High-Value Topics/Changelog and Release Notes Writing"
+      "target": "CI/CD Pipeline Design"
     },
     {
       "source": "Resources/Software Engineering/Conventional Commits",
       "target": "Resources/Software Engineering/Code Review Best Practices"
+    },
+    {
+      "source": "Resources/Software Engineering/Conventional Commits",
+      "target": "Resources/Software Engineering/Git Flow vs Trunk-Based"
     },
     {
       "source": "Resources/Software Engineering/Conventional Commits",
@@ -30312,11 +30393,7 @@
     },
     {
       "source": "Resources/Software Engineering/Feature Flags and Progressive Rollout",
-      "target": "Resources/Product Engineering"
-    },
-    {
-      "source": "Resources/Software Engineering/Feature Flags and Progressive Rollout",
-      "target": "Resources/Product Management/Product Analytics Fundamentals"
+      "target": "A/B Testing and Experimentation"
     },
     {
       "source": "Resources/Software Engineering/Feature Flags and Progressive Rollout",
@@ -30331,12 +30408,16 @@
       "target": "Resources/Software Engineering/Technical Debt — Types and Management"
     },
     {
+      "source": "Resources/Software Engineering/Feature Flags and Progressive Rollout",
+      "target": "Resources/Software Engineering/Trunk-Based Development"
+    },
+    {
       "source": "Resources/Software Engineering/Git Flow vs Trunk-Based",
       "target": "CI/CD Pipeline Design"
     },
     {
       "source": "Resources/Software Engineering/Git Flow vs Trunk-Based",
-      "target": "Resources/Software Engineering/Code Review Best Practices"
+      "target": "DORA Metrics"
     },
     {
       "source": "Resources/Software Engineering/Git Flow vs Trunk-Based",
@@ -30584,11 +30665,15 @@
     },
     {
       "source": "Resources/Software Engineering/Semantic Versioning",
-      "target": "Resources/Software Engineering/API Design — REST Principles"
+      "target": "API Design REST"
     },
     {
       "source": "Resources/Software Engineering/Semantic Versioning",
-      "target": "Resources/Software Engineering/Backward Compatibility Strategies"
+      "target": "CI/CD Pipeline Design"
+    },
+    {
+      "source": "Resources/Software Engineering/Semantic Versioning",
+      "target": "Package Management and Dependency Resolution"
     },
     {
       "source": "Resources/Software Engineering/Semantic Versioning",
@@ -30596,11 +30681,7 @@
     },
     {
       "source": "Resources/Software Engineering/Semantic Versioning",
-      "target": "Resources/Software Engineering/Dependency Management"
-    },
-    {
-      "source": "Resources/Software Engineering/Semantic Versioning",
-      "target": "Resources/Software Engineering/Open Source Licensing (MIT, Apache, GPL, etc.)"
+      "target": "Resources/Software Engineering/Git Flow vs Trunk-Based"
     },
     {
       "source": "Resources/Software Engineering/Service Mesh (Istio, Linkerd)",
@@ -30728,7 +30809,11 @@
     },
     {
       "source": "Resources/Software Engineering/Trunk-Based Development",
-      "target": "Resources/Software Engineering/Conventional Commits"
+      "target": "DORA Metrics"
+    },
+    {
+      "source": "Resources/Software Engineering/Trunk-Based Development",
+      "target": "Resources/Software Engineering/Canary Releases"
     },
     {
       "source": "Resources/Software Engineering/Trunk-Based Development",
@@ -30737,10 +30822,6 @@
     {
       "source": "Resources/Software Engineering/Trunk-Based Development",
       "target": "Resources/Software Engineering/Git Flow vs Trunk-Based"
-    },
-    {
-      "source": "Resources/Software Engineering/Trunk-Based Development",
-      "target": "Resources/Software Engineering/Technical Debt — Types and Management"
     },
     {
       "source": "Resources/Software Engineering/Virtualization — VMs vs Containers",
@@ -32675,5 +32756,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-29T23:51:46Z"
+  "generated_at": "2026-05-30T00:43:45Z"
 }
