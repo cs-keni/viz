@@ -515,15 +515,6 @@
       "degree": 1
     },
     {
-      "id": "Feedback loops",
-      "label": "Feedback loops",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Fiber — Soluble vs Insoluble",
       "label": "Fiber — Soluble vs Insoluble",
       "folder": null,
@@ -1123,7 +1114,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/AI & Machine Learning/Activation Functions (ReLU, GELU, Softmax)",
@@ -5795,7 +5786,7 @@
         "tradeoffs",
         "interview-prep"
       ],
-      "degree": 25
+      "degree": 24
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Building in Public",
@@ -7917,7 +7908,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 21
+      "degree": 23
     },
     {
       "id": "Resources/Learning & Memory/Anki — Optimal Card Design",
@@ -7948,12 +7939,12 @@
       "label": "Chunking Information",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Chunking groups smaller pieces of information into meaningful units so working memory can handle them more efficiently. Expertise often looks like larger and better-organized chunks.",
+      "excerpt": "Chunking is the cognitive process of grouping information into meaningful units so working memory can handle more with the same capacity. Expertise largely is chunking — experts don't think faster, they perceive at a higher level of abstraction. George Miller (1956) identified the ~7-item working memory limit; Chase & Simon (1973) showed chess masters recalled board positions not by pieces but by configurations of 5–7 pieces, which they'd seen thousands of times. The mechanism: familiar patterns collapse from many low-level items to one high-level chunk, freeing working memory for reasoning.",
       "tags": [
         "resource",
         "learning-memory"
       ],
-      "degree": 4
+      "degree": 8
     },
     {
       "id": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)",
@@ -7965,7 +7956,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 17
+      "degree": 20
     },
     {
       "id": "Resources/Learning & Memory/Desirable Difficulties in Learning",
@@ -7977,19 +7968,19 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Learning & Memory/First Principles Thinking",
       "label": "First Principles Thinking",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "First principles thinking breaks a problem down to basic truths and rebuilds from there. It is useful when analogies, conventions, or inherited assumptions are constraining the solution.",
+      "excerpt": "First principles thinking decomposes a problem to its fundamental truths — constraints that are physically, logically, or economically real — and rebuilds solutions from there, bypassing inherited assumptions and analogical thinking. The method has roots in Aristotle's 'first principles' as the basis of scientific demonstration and Descartes' methodological doubt. Musk's battery example is the canonical modern application: the market price of battery packs (~$600/kWh) was treated as a ceiling; decomposed to commodity material costs (~$80/kWh), it became a floor — revealing that manufacturing efficiency was the real constraint, not material cost.",
       "tags": [
         "resource",
         "learning-memory"
       ],
-      "degree": 4
+      "degree": 9
     },
     {
       "id": "Resources/Learning & Memory/Growth Mindset vs Fixed Mindset",
@@ -8020,12 +8011,12 @@
       "label": "How to Read a Technical Paper",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Reading a technical paper is an active process: identify the question, contribution, method, assumptions, evidence, limitations, and relevance before getting lost in details. Multiple passes usually beat one slow linear read.",
+      "excerpt": "Reading a technical paper effectively requires a structured multi-pass approach, not linear reading from title to references. Srinivasan Keshav's three-pass method (2007, ACM SIGCOMM) is the standard: pass 1 in 5–10 minutes extracts the claim and decides whether the paper is worth reading; pass 2 in ~1 hour maps the evidence to the claim without getting lost in proofs; pass 3 (only for papers you'll implement or critique) reconstructs the paper from first principles. The critical reader's questions — What is the claim? What evidence supports it? What assumptions does it rest on? What would falsify it? — are what distinguish understanding from passive exposure.",
       "tags": [
         "resource",
         "learning-memory"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Learning & Memory/How to Retain What You Read",
@@ -8049,19 +8040,19 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Learning & Memory/Inversion Thinking",
       "label": "Inversion Thinking",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Inversion thinking solves problems by asking what would cause failure, then avoiding or counteracting those causes. It is useful because failure modes are often easier to identify than perfect solutions.",
+      "excerpt": "Inversion thinking solves problems by asking 'what would guarantee failure?' and then avoiding or counteracting those paths. The mathematician Jacobi's principle — 'man muss immer umkehren' (you must always invert) — and Charlie Munger's systematic application made it a core mental model in modern decision-making. The key insight is asymmetry: failure modes are often easier to enumerate precisely than success conditions, especially in complex systems where success requires many things to go right but failure only requires one thing to go wrong. Gary Klein's premortem (1989) is the structured organizational version.",
       "tags": [
         "resource",
         "learning-memory"
       ],
-      "degree": 7
+      "degree": 12
     },
     {
       "id": "Resources/Learning & Memory/Learning a New Domain Fast",
@@ -8080,24 +8071,24 @@
       "label": "Learning a New Programming Language Fast",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Learning a programming language fast means focusing on syntax, type system, runtime model, package workflow, idioms, and small real programs. The fastest route is comparing it to languages already known while building something concrete.",
+      "excerpt": "Learning a new programming language fast requires understanding its mental model — the runtime model, type system, memory model, concurrency model, and error model — not memorizing syntax. Josh Kaufman (The First 20 Hours) showed that focused, deliberate practice on the core concepts produces ~80% functional proficiency in far less time than assumed. For someone with existing languages (Kenny: Go, Python, TypeScript), the fastest path is comparative: what does this language assume differently? Syntax is learned incidentally; the mental model must be acquired deliberately. Reading idiomatic code in the stdlib or well-maintained open source projects is more effective than tutorials for internalizing idioms.",
       "tags": [
         "resource",
         "learning-memory"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them",
       "label": "Mental Models — What They Are and How to Build Them",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Mental models are reusable representations for understanding how something works or what matters in a situation. They improve judgment when they are accurate, connected, and tested against reality.",
+      "excerpt": "Mental models are simplified internal representations of how systems work — used to predict outcomes, notice tradeoffs, and make decisions under uncertainty. Charlie Munger argues a 'latticework of mental models' from multiple disciplines is more powerful than deep expertise in one domain, because real-world problems are interdisciplinary. The failure mode: having a model vs. using it. A model you know abstractly but can't deploy in a live situation is a label, not a tool. Models must be tested against reality, updated when wrong, and actually applied in decision-making to develop into genuine thinking tools.",
       "tags": [
         "resource",
         "learning-memory"
       ],
-      "degree": 10
+      "degree": 18
     },
     {
       "id": "Resources/Learning & Memory/Metacognition",
@@ -8140,12 +8131,12 @@
       "label": "Second-Order Thinking",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Second-order thinking looks beyond the immediate outcome to the downstream consequences of a decision. It is useful for avoiding fixes that solve today's problem by creating tomorrow's.",
+      "excerpt": "Second-order thinking traces consequences beyond the immediate first effect of a decision, accounting for how people, systems, and incentives adapt in response. Howard Marks (Oaktree Capital) frames it as the essential edge in decision-making: first-order thinking is obvious and shared, so it can't produce above-average outcomes. The canonical engineering example is Goodhart's Law — when a metric becomes a target, optimization pressure changes behavior until the metric no longer measures what it was intended to measure. The cobra effect (British colonial India paid bounties for dead cobras; farmers bred cobras for the bounty) is the cleanest historical illustration.",
       "tags": [
         "resource",
         "learning-memory"
       ],
-      "degree": 9
+      "degree": 12
     },
     {
       "id": "Resources/Learning & Memory/Spaced Repetition — Theory and Implementation",
@@ -8164,12 +8155,12 @@
       "label": "Systems Thinking",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Systems thinking studies relationships, feedback loops, delays, incentives, and boundaries rather than isolated parts. It is useful for understanding why local fixes can fail in complex environments.",
+      "excerpt": "Systems thinking (Donella Meadows, 'Thinking in Systems,' 2008) analyzes complex phenomena through stocks, flows, feedback loops, delays, and leverage points rather than linear cause-and-effect chains. The central insight: most problems in complex systems aren't caused by bad actors or obvious causes — they're caused by the structure of the system itself. Balancing and reinforcing feedback loops, combined with delays that make cause and effect invisible, produce counterintuitive behavior like oscillations, collapse, and fixes that make things worse. The policy-resistance archetype — where every intervention triggers adaptive responses that undermine the goal — is why many 'solutions' fail.",
       "tags": [
         "resource",
         "learning-memory"
       ],
-      "degree": 11
+      "degree": 15
     },
     {
       "id": "Resources/Learning & Memory/Teaching as a Learning Tool",
@@ -12113,7 +12104,7 @@
         "resource",
         "study"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Programming Languages/C — Memory Management and Pointers",
@@ -12317,7 +12308,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/Programming Languages/Memory Models and Happens-Before Ordering",
@@ -12990,7 +12981,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/Security & Privacy/Vulnerability Disclosure and Bug Bounty Programs",
@@ -14039,7 +14030,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 15
+      "degree": 14
     },
     {
       "id": "Resources/Software Engineering/Test-Driven Development (TDD)",
@@ -23954,6 +23945,14 @@
     },
     {
       "source": "Resources/Learning & Memory/Chunking Information",
+      "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
+    },
+    {
+      "source": "Resources/Learning & Memory/Chunking Information",
+      "target": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)"
+    },
+    {
+      "source": "Resources/Learning & Memory/Chunking Information",
       "target": "Resources/Learning & Memory/How Memory Works (Encoding, Storage, Retrieval)"
     },
     {
@@ -24002,7 +24001,7 @@
     },
     {
       "source": "Resources/Learning & Memory/First Principles Thinking",
-      "target": "Resources/Engineering Judgment and Tool Tradeoffs"
+      "target": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)"
     },
     {
       "source": "Resources/Learning & Memory/First Principles Thinking",
@@ -24011,6 +24010,14 @@
     {
       "source": "Resources/Learning & Memory/First Principles Thinking",
       "target": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them"
+    },
+    {
+      "source": "Resources/Learning & Memory/First Principles Thinking",
+      "target": "Resources/Learning & Memory/Second-Order Thinking"
+    },
+    {
+      "source": "Resources/Learning & Memory/First Principles Thinking",
+      "target": "Resources/Learning & Memory/Systems Thinking"
     },
     {
       "source": "Resources/Learning & Memory/Growth Mindset vs Fixed Mindset",
@@ -24046,11 +24053,15 @@
     },
     {
       "source": "Resources/Learning & Memory/How to Read a Technical Paper",
-      "target": "Resources/AI & Machine Learning/AI Safety — Interpretability Research"
+      "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
     },
     {
       "source": "Resources/Learning & Memory/How to Read a Technical Paper",
-      "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
+      "target": "Resources/Learning & Memory/Desirable Difficulties in Learning"
+    },
+    {
+      "source": "Resources/Learning & Memory/How to Read a Technical Paper",
+      "target": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them"
     },
     {
       "source": "Resources/Learning & Memory/How to Read a Technical Paper",
@@ -24086,15 +24097,23 @@
     },
     {
       "source": "Resources/Learning & Memory/Inversion Thinking",
+      "target": "Resources/Learning & Memory/First Principles Thinking"
+    },
+    {
+      "source": "Resources/Learning & Memory/Inversion Thinking",
+      "target": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them"
+    },
+    {
+      "source": "Resources/Learning & Memory/Inversion Thinking",
       "target": "Resources/Learning & Memory/Second-Order Thinking"
     },
     {
       "source": "Resources/Learning & Memory/Inversion Thinking",
-      "target": "Resources/Personal Productivity/Decision Journaling"
+      "target": "Resources/Learning & Memory/Systems Thinking"
     },
     {
       "source": "Resources/Learning & Memory/Inversion Thinking",
-      "target": "Resources/Security & Privacy/Threat Modeling (STRIDE)"
+      "target": "Resources/Personal Productivity/Decision Journaling"
     },
     {
       "source": "Resources/Learning & Memory/Learning a New Domain Fast",
@@ -24110,19 +24129,39 @@
     },
     {
       "source": "Resources/Learning & Memory/Learning a New Programming Language Fast",
+      "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
+    },
+    {
+      "source": "Resources/Learning & Memory/Learning a New Programming Language Fast",
+      "target": "Resources/Learning & Memory/Chunking Information"
+    },
+    {
+      "source": "Resources/Learning & Memory/Learning a New Programming Language Fast",
       "target": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)"
     },
     {
       "source": "Resources/Learning & Memory/Learning a New Programming Language Fast",
-      "target": "Resources/Programming Languages"
+      "target": "Resources/Learning & Memory/Interleaving Practice"
     },
     {
       "source": "Resources/Learning & Memory/Learning a New Programming Language Fast",
-      "target": "Resources/Programming Languages/Language Design Tradeoffs"
+      "target": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them"
+    },
+    {
+      "source": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them",
+      "target": "Resources/Learning & Memory/Chunking Information"
+    },
+    {
+      "source": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them",
+      "target": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)"
     },
     {
       "source": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them",
       "target": "Resources/Learning & Memory/First Principles Thinking"
+    },
+    {
+      "source": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them",
+      "target": "Resources/Learning & Memory/Inversion Thinking"
     },
     {
       "source": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them",
@@ -24170,15 +24209,23 @@
     },
     {
       "source": "Resources/Learning & Memory/Second-Order Thinking",
+      "target": "Resources/Learning & Memory/First Principles Thinking"
+    },
+    {
+      "source": "Resources/Learning & Memory/Second-Order Thinking",
+      "target": "Resources/Learning & Memory/Inversion Thinking"
+    },
+    {
+      "source": "Resources/Learning & Memory/Second-Order Thinking",
+      "target": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them"
+    },
+    {
+      "source": "Resources/Learning & Memory/Second-Order Thinking",
       "target": "Resources/Learning & Memory/Systems Thinking"
     },
     {
       "source": "Resources/Learning & Memory/Second-Order Thinking",
       "target": "Resources/Personal Productivity/Decision Journaling"
-    },
-    {
-      "source": "Resources/Learning & Memory/Second-Order Thinking",
-      "target": "Resources/Software Engineering/Technical Debt — Types and Management"
     },
     {
       "source": "Resources/Learning & Memory/Spaced Repetition — Theory and Implementation",
@@ -24198,11 +24245,19 @@
     },
     {
       "source": "Resources/Learning & Memory/Systems Thinking",
-      "target": "Feedback loops"
+      "target": "Resources/Distributed Systems"
     },
     {
       "source": "Resources/Learning & Memory/Systems Thinking",
-      "target": "Resources/Distributed Systems"
+      "target": "Resources/Learning & Memory/First Principles Thinking"
+    },
+    {
+      "source": "Resources/Learning & Memory/Systems Thinking",
+      "target": "Resources/Learning & Memory/Inversion Thinking"
+    },
+    {
+      "source": "Resources/Learning & Memory/Systems Thinking",
+      "target": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them"
     },
     {
       "source": "Resources/Learning & Memory/Systems Thinking",
@@ -33465,5 +33520,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-30T15:50:16Z"
+  "generated_at": "2026-05-30T16:05:43Z"
 }
