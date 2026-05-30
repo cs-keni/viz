@@ -997,15 +997,6 @@
       "degree": 1
     },
     {
-      "id": "Pub/Sub Architecture",
-      "label": "Sub Architecture",
-      "folder": "Pub",
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Public Key Cryptography",
       "label": "Public Key Cryptography",
       "folder": null,
@@ -3393,7 +3384,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 15
+      "degree": 14
     },
     {
       "id": "Resources/Chemistry & Biochemistry/Alcohol Metabolism (Ethanol to Acetaldehyde to Acetate)",
@@ -4121,7 +4112,7 @@
         "study",
         "systems"
       ],
-      "degree": 11
+      "degree": 10
     },
     {
       "id": "Resources/Data Science & Analytics/A-B Testing Design",
@@ -4789,7 +4780,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 17
+      "degree": 16
     },
     {
       "id": "Resources/Design & UX/Accessibility in Design (WCAG 2.1, 2.2)",
@@ -5451,7 +5442,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 23
+      "degree": 18
     },
     {
       "id": "Resources/Docker",
@@ -8911,7 +8902,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 13
+      "degree": 12
     },
     {
       "id": "Resources/Meta-Learning & Epistemics/Calibration and Epistemic Humility",
@@ -10607,7 +10598,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 17
+      "degree": 16
     },
     {
       "id": "Resources/Observability Case Studies",
@@ -12575,7 +12566,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/References/VanossGaming - Dewit",
@@ -12617,7 +12608,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 12
+      "degree": 11
     },
     {
       "id": "Resources/Search Systems",
@@ -12645,7 +12636,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/Security & Privacy/API Key Management",
@@ -12933,7 +12924,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 15
+      "degree": 14
     },
     {
       "id": "Resources/Security & Privacy/Session Management",
@@ -13514,7 +13505,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 13
+      "degree": 12
     },
     {
       "id": "Resources/Software Engineering/API Design — Server-Sent Events",
@@ -13790,7 +13781,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/Software Engineering/Event-Driven Architecture",
@@ -13802,7 +13793,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 21
+      "degree": 19
     },
     {
       "id": "Resources/Software Engineering/Feature Flags and Progressive Rollout",
@@ -13934,7 +13925,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/Software Engineering/Property-Based Testing",
@@ -14582,7 +14573,7 @@
       "label": "CAP Theorem",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "CAP theorem says that during a network partition, a distributed data system must choose between consistency and availability. It is a partition-time tradeoff, not a general excuse for simplistic database labels.",
+      "excerpt": "CAP theorem (Brewer's conjecture, 2000; formally proved by Gilbert & Lynch, 2002) states that during a network partition, a distributed data system must choose between consistency (every read sees the latest write or an error) and availability (every request receives a non-error response). Since partitions are inevitable in real networks, the practical design choice is CP (sacrifice availability to preserve consistency) vs AP (sacrifice consistency to preserve availability). The most important clarification: CAP consistency means linearizability — a much stricter guarantee than 'no stale reads' — and the CA combination only applies to non-distributed single-node systems.",
       "tags": [
         "resource",
         "system-design"
@@ -14647,19 +14638,19 @@
         "resource",
         "system-design"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/System Design/Consistent Hashing",
       "label": "Consistent Hashing",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Consistent hashing distributes keys across changing sets of nodes while minimizing remapping. It is useful for caches, sharded storage, load distribution, and systems where nodes frequently join or leave.",
+      "excerpt": "Consistent hashing distributes keys across a cluster of nodes so that adding or removing a node only remaps ~1/N of keys (vs. nearly all keys under modulo hashing). The algorithm places both keys and nodes on a circular hash ring; each key is owned by the first node clockwise from its hash position. Virtual nodes (each physical node occupying multiple ring positions) fix the load imbalance problem from sparse physical node placement. Consistent hashing is used by Cassandra, DynamoDB, Memcached, and many CDN and load balancing systems — anywhere node membership changes frequently and rehashing disruption must be minimal.",
       "tags": [
         "resource",
         "system-design"
       ],
-      "degree": 11
+      "degree": 10
     },
     {
       "id": "Resources/System Design/Content Delivery and Edge Computing",
@@ -14683,7 +14674,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "Resources/System Design/Database Sharding",
@@ -14882,19 +14873,19 @@
       "label": "Distributed Transactions (2PC, Saga Pattern)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Distributed transactions coordinate changes across multiple services or databases. Two-phase commit preserves atomicity through coordination, while sagas use local transactions and compensating actions.",
+      "excerpt": "Distributed transactions coordinate atomic changes across multiple independent databases or services. Two-phase commit (2PC) achieves atomicity through a coordinator that sequences prepare and commit phases, but blocks indefinitely if the coordinator fails between phases — making it a poor fit for microservices across the internet. Sagas decompose a cross-service workflow into local transactions connected by events or orchestration, with compensating transactions for rollback. The Outbox Pattern solves the reliability problem of publishing events after a local database write. The practical recommendation: avoid distributed transactions by design; when unavoidable, prefer saga over 2PC for microservice architectures.",
       "tags": [
         "resource",
         "system-design"
       ],
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "Resources/System Design/Eventual Consistency",
       "label": "Eventual Consistency",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Eventual consistency means replicas may temporarily disagree but will converge if no new updates occur. It improves availability and latency at the cost of stale reads and conflict handling.",
+      "excerpt": "Eventual consistency is a liveness guarantee: if no new updates are made to a data item, all replicas will eventually converge to the same value. Werner Vogels (Amazon CTO) formalized the concept in a 2009 ACM Queue paper. The key practical insight: eventual consistency is not a single model but a spectrum — BASE (Basically Available, Soft state, Eventually consistent) vs ACID describes the family, but real systems offer session guarantees like read-your-own-writes and monotonic reads that are much stronger than raw eventual consistency. Conflict resolution strategy (last-write-wins, vector clocks, CRDTs) determines what 'converge' means when concurrent writes occur.",
       "tags": [
         "resource",
         "system-design"
@@ -14935,26 +14926,26 @@
         "resource",
         "system-design"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)",
       "label": "Message Queues (Kafka, RabbitMQ, SQS)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Message queues decouple producers and consumers by storing work or events between them. Kafka, RabbitMQ, and SQS represent different tradeoffs in ordering, durability, throughput, routing, and operations.",
+      "excerpt": "Message queues decouple producers from consumers by persisting messages until a consumer processes them. Kafka is a distributed commit log designed for high-throughput event streaming with long retention and replay capability; RabbitMQ is a traditional message broker with rich routing and worker queue patterns; SQS is AWS's managed queue service optimized for simplicity and serverless integration. The choice depends on: do you need replay/event streaming (Kafka) or task distribution/flexible routing (RabbitMQ) or managed simplicity (SQS)? The most critical operational concern for all: dead-letter queues, idempotent consumers, and backpressure handling.",
       "tags": [
         "resource",
         "system-design"
       ],
-      "degree": 17
+      "degree": 16
     },
     {
       "id": "Resources/System Design/PACELC Theorem",
       "label": "PACELC Theorem",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "PACELC extends CAP by saying distributed systems trade consistency for availability during partitions, else trade latency for consistency during normal operation. It is often more useful than CAP for real architecture decisions.",
+      "excerpt": "PACELC (Daniel Abadi, 2010) extends CAP by adding the latency/consistency tradeoff that exists during normal operation (no partition). CAP only covers partition behavior; PACELC covers the rest of the time. The formulation: if Partition, choose between Availability and Consistency; Else choose between Latency and Consistency. The EC side is often more practically important than the PA/PC side — partitions are rare events, but the latency/consistency tradeoff governs every normal request. Cassandra is PA/EL (prioritize availability and low latency); Spanner is PC/EC (strong consistency everywhere); DynamoDB is PA/EL by default, tunable toward PC/EC.",
       "tags": [
         "resource",
         "system-design"
@@ -14966,24 +14957,24 @@
       "label": "Pub Sub Architecture",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Publish/subscribe architecture lets producers publish messages to topics without knowing which consumers receive them. It is useful for fanout, event-driven integration, and decoupled workflows.",
+      "excerpt": "Pub/sub (publish/subscribe) is a messaging pattern where publishers emit events to topics without knowing who consumes them, and subscribers receive all events from topics they've subscribed to. It enables fanout (one event → many consumers), loose coupling (producers and consumers can be added or removed independently), and event-driven integration across services. The critical design decisions are: push vs pull delivery, at-least-once vs exactly-once semantics, topic granularity (too coarse = all consumers see irrelevant events; too fine = topic proliferation), and schema evolution strategy (Avro/Protobuf with a schema registry protects consumers from breaking producer changes).",
       "tags": [
         "resource",
         "system-design"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
       "label": "Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Rate limiting controls how many requests a user, client, or system can make in a period. Token bucket, leaky bucket, and sliding-window algorithms trade burst tolerance, smoothness, precision, and storage cost.",
+      "excerpt": "Rate limiting controls how many requests a client can make in a time period, protecting services from abuse, cost overruns, and overload. The five algorithms — token bucket, leaky bucket, fixed window, sliding window log, and sliding window counter — trade off burst tolerance, smoothness, precision, and storage cost. Token bucket is the most widely used: allows controlled bursts up to bucket capacity, refills at a fixed rate. Distributed rate limiting uses Redis atomic operations (INCR + EXPIRE, or Lua scripts for token bucket) so limits apply across multiple API server instances. Response headers (X-RateLimit-Limit, X-RateLimit-Remaining, Retry-After) are the standard way to communicate limits to clients.",
       "tags": [
         "resource",
         "system-design"
       ],
-      "degree": 13
+      "degree": 12
     },
     {
       "id": "Resources/System Design/Real-Time Systems Design",
@@ -15019,7 +15010,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/System Design/WebRTC Architecture",
@@ -32173,11 +32164,7 @@
     },
     {
       "source": "Resources/System Design/CAP Theorem",
-      "target": "Resources/Databases"
-    },
-    {
-      "source": "Resources/System Design/CAP Theorem",
-      "target": "Resources/Distributed Systems"
+      "target": "Resources/System Design/Consensus Algorithms (Raft, Paxos)"
     },
     {
       "source": "Resources/System Design/CAP Theorem",
@@ -32281,15 +32268,11 @@
     },
     {
       "source": "Resources/System Design/Consistent Hashing",
-      "target": "Resources/Caching"
-    },
-    {
-      "source": "Resources/System Design/Consistent Hashing",
-      "target": "Resources/Distributed Systems"
-    },
-    {
-      "source": "Resources/System Design/Consistent Hashing",
       "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
+    },
+    {
+      "source": "Resources/System Design/Consistent Hashing",
+      "target": "Resources/System Design/Database Replication"
     },
     {
       "source": "Resources/System Design/Consistent Hashing",
@@ -32653,11 +32636,7 @@
     },
     {
       "source": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)",
-      "target": "Resources/Distributed Systems"
-    },
-    {
-      "source": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)",
-      "target": "Resources/Software Engineering/Event Sourcing"
+      "target": "Resources/System Design/CAP Theorem"
     },
     {
       "source": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)",
@@ -32673,14 +32652,6 @@
     },
     {
       "source": "Resources/System Design/Eventual Consistency",
-      "target": "Resources/Distributed Systems"
-    },
-    {
-      "source": "Resources/System Design/Eventual Consistency",
-      "target": "Resources/Software Engineering/Event-Driven Architecture"
-    },
-    {
-      "source": "Resources/System Design/Eventual Consistency",
       "target": "Resources/System Design/CAP Theorem"
     },
     {
@@ -32689,7 +32660,11 @@
     },
     {
       "source": "Resources/System Design/Eventual Consistency",
-      "target": "Resources/System Design/Idempotency in Distributed Systems"
+      "target": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)"
+    },
+    {
+      "source": "Resources/System Design/Eventual Consistency",
+      "target": "Resources/System Design/PACELC Theorem"
     },
     {
       "source": "Resources/System Design/Idempotency in Distributed Systems",
@@ -32749,35 +32724,27 @@
     },
     {
       "source": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)",
-      "target": "Pub/Sub Architecture"
-    },
-    {
-      "source": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)",
-      "target": "Resources/Message Queues"
-    },
-    {
-      "source": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)",
-      "target": "Resources/Observability"
-    },
-    {
-      "source": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)",
-      "target": "Resources/Software Engineering/Event-Driven Architecture"
-    },
-    {
-      "source": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)",
       "target": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)"
     },
     {
-      "source": "Resources/System Design/PACELC Theorem",
-      "target": "Resources/Distributed Systems"
+      "source": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)",
+      "target": "Resources/System Design/Eventual Consistency"
     },
     {
-      "source": "Resources/System Design/PACELC Theorem",
-      "target": "Resources/Scaling"
+      "source": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)",
+      "target": "Resources/System Design/Idempotency in Distributed Systems"
+    },
+    {
+      "source": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)",
+      "target": "Resources/System Design/Pub Sub Architecture"
     },
     {
       "source": "Resources/System Design/PACELC Theorem",
       "target": "Resources/System Design/CAP Theorem"
+    },
+    {
+      "source": "Resources/System Design/PACELC Theorem",
+      "target": "Resources/System Design/Consensus Algorithms (Raft, Paxos)"
     },
     {
       "source": "Resources/System Design/PACELC Theorem",
@@ -32789,15 +32756,11 @@
     },
     {
       "source": "Resources/System Design/Pub Sub Architecture",
-      "target": "Resources/Data Engineering"
-    },
-    {
-      "source": "Resources/System Design/Pub Sub Architecture",
       "target": "Resources/Software Engineering/Event-Driven Architecture"
     },
     {
       "source": "Resources/System Design/Pub Sub Architecture",
-      "target": "Resources/Software Engineering/OpenAPI and API Documentation"
+      "target": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)"
     },
     {
       "source": "Resources/System Design/Pub Sub Architecture",
@@ -32809,23 +32772,19 @@
     },
     {
       "source": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
-      "target": "Resources/Rate Limiting"
-    },
-    {
-      "source": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
-      "target": "Resources/Security"
-    },
-    {
-      "source": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
-      "target": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)"
-    },
-    {
-      "source": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
-      "target": "Resources/Software Engineering/API Design — REST Principles"
-    },
-    {
-      "source": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
       "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
+    },
+    {
+      "source": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
+      "target": "Resources/System Design/Load Balancing Strategies"
+    },
+    {
+      "source": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
+      "target": "Resources/System Design/Pub Sub Architecture"
+    },
+    {
+      "source": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
+      "target": "Resources/System Design/System Design Interview Framework"
     },
     {
       "source": "Resources/System Design/Real-Time Systems Design",
@@ -33496,5 +33455,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-30T16:16:09Z"
+  "generated_at": "2026-05-30T17:10:39Z"
 }
