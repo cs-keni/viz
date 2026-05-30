@@ -1405,7 +1405,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 15
+      "degree": 14
     },
     {
       "id": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
@@ -1746,7 +1746,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 13
+      "degree": 12
     },
     {
       "id": "Resources/Agent Evaluation",
@@ -3592,7 +3592,7 @@
         "study",
         "systems"
       ],
-      "degree": 14
+      "degree": 13
     },
     {
       "id": "Resources/Cognitive Science & Biases/Anchoring Bias",
@@ -4112,7 +4112,7 @@
         "study",
         "systems"
       ],
-      "degree": 10
+      "degree": 7
     },
     {
       "id": "Resources/Data Science & Analytics/A-B Testing Design",
@@ -4292,7 +4292,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Data Science & Analytics/Feature Selection Methods",
@@ -10319,7 +10319,7 @@
         "architecture",
         "interview-prep"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/Nutrition & Diet/Alcohol and Health — What the Research Says",
@@ -11903,7 +11903,7 @@
         "startups",
         "projects"
       ],
-      "degree": 12
+      "degree": 11
     },
     {
       "id": "Resources/Product Management/Activation Metrics",
@@ -12622,7 +12622,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/Security",
@@ -13505,7 +13505,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 11
+      "degree": 10
     },
     {
       "id": "Resources/Software Engineering/API Design — Server-Sent Events",
@@ -13529,7 +13529,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers",
@@ -13793,7 +13793,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 18
+      "degree": 17
     },
     {
       "id": "Resources/Software Engineering/Feature Flags and Progressive Rollout",
@@ -14527,7 +14527,7 @@
         "architecture",
         "interview-prep"
       ],
-      "degree": 18
+      "degree": 15
     },
     {
       "id": "Resources/System Design Interview Rubric",
@@ -14602,7 +14602,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)",
@@ -14626,7 +14626,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/System Design/Consensus Algorithms (Raft, Paxos)",
@@ -14650,7 +14650,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/System Design/Content Delivery and Edge Computing",
@@ -14686,7 +14686,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 13
+      "degree": 15
     },
     {
       "id": "Resources/System Design/Design Twitter X Feed",
@@ -14717,12 +14717,12 @@
       "label": "Design a Chat Application",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Designing a chat application tests realtime delivery, message storage, ordering, presence, fanout, read receipts, offline sync, and notification behavior. It combines realtime systems with durable data modeling.",
+      "excerpt": "Chat system design combines WebSocket gateway servers (stateful, 10K-100K connections each, sticky load balanced), durable message storage (Cassandra partitioned by conversation_id, clustered by Snowflake message_id for ordering), and a pub/sub broker (Redis for real-time delivery across gateways). Message flow: client → gateway → chat service → Cassandra write + Redis pub/sub → other gateways → connected recipients. Key decisions: fan-out strategy for group chats (write for <500 members, read for large groups), delivery states (sent→delivered→read require recipient ACKs), offline sync (reconnect sends last_seen_message_id, server returns missed messages), and media (client uploads directly to S3 via presigned URL, message stores URL reference).",
       "tags": [
         "resource",
         "system-design"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/System Design/Design a Distributed Cache",
@@ -14741,7 +14741,7 @@
       "label": "Design a File Storage System (S3-like)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Designing an S3-like file storage system tests object APIs, metadata, chunking, durability, replication, consistency, access control, and lifecycle management. The main challenge is cheap durable storage at massive scale.",
+      "excerpt": "S3-like object storage addresses objects by (bucket, key) → unique worldwide namespace. Large files use multipart upload (5MB-5GB parts, uploaded in parallel, assembled on CompleteMultipartUpload). Storage nodes hold chunks (default 64MB); a metadata service (MySQL or DynamoDB) maps (bucket, key, version_id) → [chunk_list, checksum, permissions, storage_class]. Durability via erasure coding (8+4 = any 8 of 12 shards can reconstruct the object, 60% storage overhead vs 200% for 3-way replication) for cold storage; 3-replica replication for hot storage. Presigned URLs let clients upload/download directly without routing through the API. S3 achieved strong read-after-write consistency in Dec 2020; prior to that, eventual consistency was the model.",
       "tags": [
         "resource",
         "system-design"
@@ -14753,7 +14753,7 @@
       "label": "Design a Notification System",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Designing a notification system tests event ingestion, user preferences, aggregation, channel delivery, idempotency, retries, rate limits, and fatigue controls. It separates social/product notifications from transactional reliability needs.",
+      "excerpt": "Notification system design separates three categories with different guarantees: transactional (2FA codes, payment confirms — must deliver, no batching), social (likes, comments — can aggregate and suppress), and marketing (promotions — user opt-in controls). Architecture: event producers → Kafka → preference engine → aggregation → channel routing → delivery workers (FCM/APNs/Twilio/SendGrid). Idempotency key = hash(event_id + user_id + channel), stored in Redis with TTL matching retry window. Aggregation is the hardest piece: 'Alice and 47 others liked your post' requires time-window bucketing by (user_id, event_type, context_key). Rate limiting prevents fatigue: 5 push/hour/user, 3 SMS/day/user.",
       "tags": [
         "resource",
         "system-design"
@@ -14789,7 +14789,7 @@
       "label": "Design a Recommendation System",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Designing a recommendation system tests candidate generation, ranking, feedback loops, feature pipelines, online serving, evaluation, and exploration. The architecture connects ML with product metrics.",
+      "excerpt": "Recommendation systems use a two-stage architecture: candidate generation (fast, approximate — ANN retrieval from user/item embeddings, reduces 10M items to 1K candidates in ~10ms) + ranking (slow, accurate — ML model scores each candidate using rich features in ~50ms). Candidate generation uses collaborative filtering (matrix factorization: ALS learns user+item latent vectors, dot product = predicted preference) or content-based filtering. Ranking uses GBDT (LightGBM) or neural models with user features, item features, and context features. Feature pipeline: offline (Spark batch → feature store) + online (Redis for real-time session features). Feedback loops amplify popular items — exploration strategies (ε-greedy, Thompson sampling) counter this.",
       "tags": [
         "resource",
         "system-design"
@@ -14813,19 +14813,19 @@
       "label": "Design a Search Engine",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Designing a search engine tests crawling or ingestion, indexing, ranking, query processing, freshness, autocomplete, and relevance evaluation. Search systems combine data pipelines with low-latency serving.",
+      "excerpt": "Search system design (product/enterprise scope, not web crawling) builds an inverted index: term → postings list [{doc_id, frequency, positions}]. Ranking uses BM25 (the standard lexical algorithm, controlled by k1=1.2 and b=0.75 parameters) for lexical search, or vector cosine similarity for semantic search, or a weighted hybrid. Index pipeline: document → tokenization → normalization → stemming → inverted index construction → distributed across shards. Query path: query parse → lexical expansion (synonyms, spell correction) → shard fan-out → merge + rank → rerank → return. Autocomplete via Trie or Redis ZADD prefix scoring. Freshness via near-real-time indexing (Elasticsearch 1-second refresh interval). Evaluation: NDCG and MRR offline; CTR and conversion online.",
       "tags": [
         "resource",
         "system-design"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/System Design/Design a URL Shortener",
       "label": "Design a URL Shortener",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Designing a URL shortener tests API design, key generation, redirects, storage, caching, analytics, abuse prevention, and high-read scalability. It is a classic compact system design problem.",
+      "excerpt": "A URL shortener maps long URLs to 7-character base62 codes and redirects users via HTTP 302. Classic interview design that tests key generation (counter-based Snowflake ID encoded to base62 vs random vs hash), caching (hot codes in Redis), 301 vs 302 redirect semantics (301 = browser caches, kills analytics; 302 = server always called, enables click tracking), and async analytics (Kafka → ClickHouse). Scale: 100M URLs/day = 1,157 writes/sec; 10:1 read:write = 11,570 reads/sec, almost all served from Redis cache. Storage: ~10 years × 100M/day × 500 bytes/record ≈ 182TB of URL mappings.",
       "tags": [
         "resource",
         "system-design"
@@ -14837,19 +14837,19 @@
       "label": "Design a Video Streaming Platform",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Designing a video streaming platform tests upload, transcoding, storage, CDN delivery, adaptive bitrate streaming, metadata, recommendations, and analytics. It is a media-heavy system with extreme bandwidth concerns.",
+      "excerpt": "Video streaming architecture has two separate pipelines: upload/transcoding (async, expensive) and playback (real-time, CDN-critical). Upload: client → S3 via presigned multipart URL → transcoding job queued on Kafka → FFmpeg workers generate multiple renditions (360p/480p/720p/1080p/4K) in H.264 (broad compat) and H.265 (50% better compression). Output: HLS segments (2-6s each) + manifest (.m3u8). Adaptive Bitrate (ABR): player measures bandwidth, selects quality tier, switches seamlessly per segment. CDN is non-optional: 1080p H.264 = ~8 Mbps × 100K concurrent viewers = 800 Gbps → requires CDN. Storage: originals in S3 Standard, transcoded in Standard-IA, cold content moves to Glacier after 90 days. View count: Redis incr → batch flush to DB every 60s.",
       "tags": [
         "resource",
         "system-design"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/System Design/Design an API Gateway",
       "label": "Design an API Gateway",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Designing an API gateway tests request routing, authentication, authorization, rate limiting, load balancing, observability, protocol translation, and failure handling. It is the front door for many service architectures.",
+      "excerpt": "An API gateway centralizes cross-cutting concerns for client-facing APIs: request routing (path/host/header-based, path rewriting), authentication (JWT verification, API key lookup in Redis), rate limiting (token bucket per API key, multi-tier), TLS termination, request/response transformation, and observability (every request gets a trace ID, logs request+response+latency). Adds ~1-5ms latency. Must be stateless (all state in Redis/DB) and deployed behind an L4 load balancer for HA. Key distinction from service mesh: gateway handles edge traffic (external clients); service mesh handles internal traffic (service-to-service). Real implementations: Kong (Nginx/OpenResty plugin-based), AWS API Gateway (managed), Envoy (proxy-based, sidecar-capable).",
       "tags": [
         "resource",
         "system-design"
@@ -14902,7 +14902,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 17
+      "degree": 19
     },
     {
       "id": "Resources/System Design/Leader Election",
@@ -14938,7 +14938,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 17
+      "degree": 16
     },
     {
       "id": "Resources/System Design/PACELC Theorem",
@@ -14962,7 +14962,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 8
+      "degree": 12
     },
     {
       "id": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)",
@@ -32372,11 +32372,7 @@
     },
     {
       "source": "Resources/System Design/Design a Chat Application",
-      "target": "Resources/Software Engineering/API Design — WebSockets"
-    },
-    {
-      "source": "Resources/System Design/Design a Chat Application",
-      "target": "Resources/System Design Case Studies"
+      "target": "Resources/System Design/Database Sharding"
     },
     {
       "source": "Resources/System Design/Design a Chat Application",
@@ -32384,7 +32380,11 @@
     },
     {
       "source": "Resources/System Design/Design a Chat Application",
-      "target": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)"
+      "target": "Resources/System Design/Idempotency in Distributed Systems"
+    },
+    {
+      "source": "Resources/System Design/Design a Chat Application",
+      "target": "Resources/System Design/Pub Sub Architecture"
     },
     {
       "source": "Resources/System Design/Design a Chat Application",
@@ -32412,15 +32412,11 @@
     },
     {
       "source": "Resources/System Design/Design a File Storage System (S3-like)",
-      "target": "Resources/Cloud Services"
-    },
-    {
-      "source": "Resources/System Design/Design a File Storage System (S3-like)",
-      "target": "Resources/Data Engineering"
-    },
-    {
-      "source": "Resources/System Design/Design a File Storage System (S3-like)",
       "target": "Resources/System Design/CDN Architecture"
+    },
+    {
+      "source": "Resources/System Design/Design a File Storage System (S3-like)",
+      "target": "Resources/System Design/Cache Invalidation Patterns"
     },
     {
       "source": "Resources/System Design/Design a File Storage System (S3-like)",
@@ -32431,12 +32427,12 @@
       "target": "Resources/System Design/Database Replication"
     },
     {
-      "source": "Resources/System Design/Design a Notification System",
-      "target": "Resources/Notification System Design"
+      "source": "Resources/System Design/Design a File Storage System (S3-like)",
+      "target": "Resources/System Design/Design a Video Streaming Platform"
     },
     {
       "source": "Resources/System Design/Design a Notification System",
-      "target": "Resources/Software Engineering/Event-Driven Architecture"
+      "target": "Resources/System Design/Design a Chat Application"
     },
     {
       "source": "Resources/System Design/Design a Notification System",
@@ -32445,6 +32441,10 @@
     {
       "source": "Resources/System Design/Design a Notification System",
       "target": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)"
+    },
+    {
+      "source": "Resources/System Design/Design a Notification System",
+      "target": "Resources/System Design/Pub Sub Architecture"
     },
     {
       "source": "Resources/System Design/Design a Notification System",
@@ -32496,19 +32496,19 @@
     },
     {
       "source": "Resources/System Design/Design a Recommendation System",
-      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
-    },
-    {
-      "source": "Resources/System Design/Design a Recommendation System",
       "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
     },
     {
       "source": "Resources/System Design/Design a Recommendation System",
-      "target": "Resources/Data Engineering"
+      "target": "Resources/Data Science & Analytics/Feature Engineering"
     },
     {
       "source": "Resources/System Design/Design a Recommendation System",
-      "target": "Resources/Product Engineering"
+      "target": "Resources/System Design/Design a Search Engine"
+    },
+    {
+      "source": "Resources/System Design/Design a Recommendation System",
+      "target": "Resources/System Design/Pub Sub Architecture"
     },
     {
       "source": "Resources/System Design/Design a Scheduling System (like Calendly)",
@@ -32540,23 +32540,23 @@
     },
     {
       "source": "Resources/System Design/Design a Search Engine",
-      "target": "Resources/Data Engineering"
-    },
-    {
-      "source": "Resources/System Design/Design a Search Engine",
-      "target": "Resources/Search Systems"
+      "target": "Resources/System Design/Database Sharding"
     },
     {
       "source": "Resources/System Design/Design a Search Engine",
       "target": "Resources/System Design/Design a Recommendation System"
     },
     {
-      "source": "Resources/System Design/Design a URL Shortener",
-      "target": "Resources/System Design Case Studies"
+      "source": "Resources/System Design/Design a Search Engine",
+      "target": "Resources/System Design/Pub Sub Architecture"
     },
     {
       "source": "Resources/System Design/Design a URL Shortener",
       "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
+    },
+    {
+      "source": "Resources/System Design/Design a URL Shortener",
+      "target": "Resources/System Design/Consistent Hashing"
     },
     {
       "source": "Resources/System Design/Design a URL Shortener",
@@ -32572,10 +32572,6 @@
     },
     {
       "source": "Resources/System Design/Design a Video Streaming Platform",
-      "target": "Resources/System Design Case Studies"
-    },
-    {
-      "source": "Resources/System Design/Design a Video Streaming Platform",
       "target": "Resources/System Design/CDN Architecture"
     },
     {
@@ -32588,19 +32584,23 @@
     },
     {
       "source": "Resources/System Design/Design a Video Streaming Platform",
+      "target": "Resources/System Design/Design a Search Engine"
+    },
+    {
+      "source": "Resources/System Design/Design a Video Streaming Platform",
       "target": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)"
     },
     {
       "source": "Resources/System Design/Design an API Gateway",
-      "target": "Resources/API Design"
-    },
-    {
-      "source": "Resources/System Design/Design an API Gateway",
-      "target": "Resources/Software Engineering/API Design — REST Principles"
-    },
-    {
-      "source": "Resources/System Design/Design an API Gateway",
       "target": "Resources/Software Engineering/Service Mesh (Istio, Linkerd)"
+    },
+    {
+      "source": "Resources/System Design/Design an API Gateway",
+      "target": "Resources/System Design/Circuit Breaker Pattern"
+    },
+    {
+      "source": "Resources/System Design/Design an API Gateway",
+      "target": "Resources/System Design/Idempotency in Distributed Systems"
     },
     {
       "source": "Resources/System Design/Design an API Gateway",
@@ -33451,5 +33451,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-30T17:50:11Z"
+  "generated_at": "2026-05-30T19:38:03Z"
 }
