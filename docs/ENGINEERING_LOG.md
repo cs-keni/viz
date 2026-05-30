@@ -1,5 +1,18 @@
 # ENGINEERING LOG
 
+## 2026-05-29 — Post-QA refinements: remove F3/F4, fix search dropdown, timeline camera, copy feedback (Claude Code, Sonnet 4.6)
+
+After visual QA, user feedback led to the following changes:
+
+- **Removed F3 (connection ripple)** — buggy and visually noisy; all ring geometry, rAF animation, and `clearRipples` code deleted
+- **Removed F4 (path highlight)** — gold overlay didn't stand out against existing gold/purple edges; BFS, line overlay, alt-click, toast, and `findPath` usage removed from Graph3D (util + tests retained)
+- **Search → live dropdown** — replaced pure graph-dimming with a results panel below the search input; `useMemo` computes matches reactively; top 8 shown with "+N more" footer; Arrow Down / Enter selects first result; tags previewed inline; no-results state shown
+- **Timeline play → global orbit** — pressing ▶ now calls `fg.zoomToFit(800, 120)` and locks cinematic to the wide shot (`nextShotAt = Infinity`) at 0.55× speed; `timelineWasPlayingRef` gate prevents controls `start`/`end` events from interrupting the automated camera; orbit resumes normally on play end or EXIT TIMELINE
+- **Copy link → green checkmark** — InfoPanel "COPY LINK" button now tracks `copied` state (2s); shows `✓ COPIED` in green with matching border; smooth color transition; hover effects disabled during copied state
+- **Share link fix** — removed 600ms delay; when hash is present in `onEngineStop`, `selectNodeRef.current` is called immediately (no `zoomToFit` conflict); if node not found, falls back to `zoomToFit` + hash clear
+
+45/45 tests still pass. Build succeeds.
+
 ## 2026-05-29 — Five feature expansion: F1 search, F2 share link, F3 ripple, F4 path, F5 timeline (Claude Code, Sonnet 4.6)
 
 Implemented all five planned features from the design doc in a single session. All 45 tests pass, build succeeds.

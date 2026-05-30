@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 function formatDate(dateStr) {
   if (!dateStr) return null
@@ -9,6 +9,7 @@ function formatDate(dateStr) {
 
 export default function InfoPanel({ node, onDismiss }) {
   const panelRef = useRef(null)
+  const [copied, setCopied] = useState(false)
 
   useEffect(() => {
     const onKey = (e) => { if (e.key === 'Escape') onDismiss() }
@@ -92,22 +93,28 @@ export default function InfoPanel({ node, onDismiss }) {
       {/* Actions row */}
       <div style={{ marginTop: 16, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <button
-          onClick={() => navigator.clipboard?.writeText(window.location.href)}
+          onClick={() => {
+            navigator.clipboard?.writeText(window.location.href).then(() => {
+              setCopied(true)
+              setTimeout(() => setCopied(false), 2000)
+            })
+          }}
           style={{
             background: 'none',
-            border: '1px solid rgba(160, 192, 255, 0.2)',
-            color: 'rgba(160, 192, 255, 0.5)',
+            border: `1px solid ${copied ? 'rgba(100, 220, 140, 0.5)' : 'rgba(160, 192, 255, 0.2)'}`,
+            color: copied ? 'rgba(100, 220, 140, 0.9)' : 'rgba(160, 192, 255, 0.5)',
             borderRadius: 4,
             padding: '3px 10px',
             fontSize: 10,
             letterSpacing: '0.05em',
             cursor: 'pointer',
-            transition: 'border-color 0.15s ease, color 0.15s ease',
+            transition: 'border-color 0.2s ease, color 0.2s ease',
+            minWidth: 78,
           }}
-          onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(160, 192, 255, 0.5)'; e.currentTarget.style.color = 'rgba(160, 192, 255, 0.85)' }}
-          onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(160, 192, 255, 0.2)'; e.currentTarget.style.color = 'rgba(160, 192, 255, 0.5)' }}
+          onMouseEnter={e => { if (!copied) { e.currentTarget.style.borderColor = 'rgba(160, 192, 255, 0.5)'; e.currentTarget.style.color = 'rgba(160, 192, 255, 0.85)' }}}
+          onMouseLeave={e => { if (!copied) { e.currentTarget.style.borderColor = 'rgba(160, 192, 255, 0.2)'; e.currentTarget.style.color = 'rgba(160, 192, 255, 0.5)' }}}
         >
-          COPY LINK
+          {copied ? '✓ COPIED' : 'COPY LINK'}
         </button>
         <div
           onClick={onDismiss}
