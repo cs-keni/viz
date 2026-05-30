@@ -1,6 +1,267 @@
 {
   "nodes": [
     {
+      "id": "! \"$A\" == \"x\"",
+      "label": "! \"$A\" == \"x\"",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "\"$A\" != \"$B\"",
+      "label": "\"$A\" != \"$B\"",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "\"$A\" == \"x\"",
+      "label": "\"$A\" == \"x\"",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "\"$A\" == \"x\" && \"$B\" == \"y\"",
+      "label": "\"$A\" == \"x\" && \"$B\" == \"y\"",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "\"$STATUS\" == \"active\"",
+      "label": "\"$STATUS\" == \"active\"",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "\"$STATUS\" == \"failed\"",
+      "label": "\"$STATUS\" == \"failed\"",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "\"$item\" == \"three\"",
+      "label": "\"$item\" == \"three\"",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "\"$item\" == \"two\"",
+      "label": "\"$item\" == \"two\"",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "$COUNT -eq 0",
+      "label": "$COUNT -eq 0",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "$COUNT -gt 10",
+      "label": "$COUNT -gt 10",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "$COUNT -lt 10",
+      "label": "$COUNT -lt 10",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "$COUNT -lt 5",
+      "label": "$COUNT -lt 5",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "$attempt -lt $max_attempts",
+      "label": "$attempt -lt $max_attempts",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "$count -gt 0",
+      "label": "$count -gt 0",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "$exit_code -ne 0",
+      "label": "$exit_code -ne 0",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "-d \"$DIR\"",
+      "label": "-d \"$DIR\"",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "-e \"$PATH\"",
+      "label": "-e \"$PATH\"",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "-f \"$CONFIG\"",
+      "label": "-f \"$CONFIG\"",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "-f \"$FILE\"",
+      "label": "-f \"$FILE\"",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "-f \"$lockfile\"",
+      "label": "-f \"$lockfile\"",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "-n \"$A\"",
+      "label": "-n \"$A\"",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "-n \"$DIR\"",
+      "label": "-n \"$DIR\"",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "-n \"$old_pid\"",
+      "label": "-n \"$old_pid\"",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "-r \"$FILE\"",
+      "label": "-r \"$FILE\"",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "-s \"$FILE\"",
+      "label": "-s \"$FILE\"",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "-x \"$FILE\"",
+      "label": "-x \"$FILE\"",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "-z \"$A\"",
+      "label": "-z \"$A\"",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "-z \"$COMMAND\"",
+      "label": "-z \"$COMMAND\"",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "-z \"$SERVICE\"",
+      "label": "-z \"$SERVICE\"",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "A-B Testing Fundamentals",
       "label": "A-B Testing Fundamentals",
       "folder": null,
@@ -405,6 +666,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 1
+    },
+    {
+      "id": "Database Systems",
+      "label": "Database Systems",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 2
     },
     {
       "id": "Debugging",
@@ -872,15 +1142,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 1
-    },
-    {
-      "id": "Performance Profiling (CPU, Memory, I/O)",
-      "label": "O)",
-      "folder": "Performance Profiling (CPU, Memory, I",
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 2
     },
     {
       "id": "Personal Metrics and Dashboards",
@@ -4514,7 +4775,7 @@
         "internals",
         "system-design"
       ],
-      "degree": 9
+      "degree": 7
     },
     {
       "id": "Resources/Database Systems/Database Backups and Point-in-Time Recovery",
@@ -4780,7 +5041,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 16
+      "degree": 15
     },
     {
       "id": "Resources/Design & UX/Accessibility in Design (WCAG 2.1, 2.2)",
@@ -5032,7 +5293,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/DevOps & Infrastructure/Ansible Basics",
@@ -5044,19 +5305,19 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/DevOps & Infrastructure/Bash Scripting",
       "label": "Bash Scripting",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Bash scripting automates command-line workflows by composing programs, variables, conditionals, loops, functions, and exit codes. Good scripts are boring, explicit, quoted carefully, and written with failure behavior in mind.",
+      "excerpt": "Bash scripting automates shell workflows — CI steps, deployments, system administration, cron jobs, and glue code. The critical discipline: `set -euo pipefail` catches failures, always quote variables with double quotes (unquoted vars break on spaces and globs), use arrays not space-delimited strings. Bash is excellent glue for composing programs; it's a poor choice for complex logic, parsing, or data transformation — use Python when scripts exceed ~50 lines or need anything beyond simple conditionals and loops.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 7
+      "degree": 38
     },
     {
       "id": "Resources/DevOps & Infrastructure/Blue-Green vs Canary vs Rolling Deployments",
@@ -5068,7 +5329,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design",
@@ -5111,36 +5372,36 @@
       "label": "Cron Jobs and Task Scheduling",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Cron jobs and task schedulers run recurring work such as reports, cleanup, backups, imports, and maintenance. Reliable scheduling requires idempotency, locking, observability, retries, time-zone care, and clear ownership.",
+      "excerpt": "Cron runs scheduled work at defined intervals via a 5-field expression (minute/hour/day/month/weekday). The critical requirement: jobs must be idempotent (safe to run twice) and observable (failures must alert, not silently vanish). Two major footguns: overlap (two instances running simultaneously because the first didn't finish) and DST (jobs at 2am disappear or run twice in November). Modern alternatives: systemd timers (better logging), Kubernetes CronJob, AWS EventBridge, and Celery Beat for Python. Dead Man's Snitch pattern: job pings a URL on success; alert fires if ping doesn't arrive.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/DevOps & Infrastructure/Database Migrations Best Practices",
       "label": "Database Migrations Best Practices",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Database migration best practices let teams change schemas and data safely while applications keep running. The safest migrations are small, backward-compatible, observable, reversible where possible, and sequenced with application deployments.",
+      "excerpt": "Database migrations are schema or data changes applied to a live system — the risk is that the database is shared by multiple running application versions simultaneously. The expand-contract (parallel-change) pattern is the safe default: add the new thing, migrate data in batches, switch reads, remove the old thing — never in one atomic step. PostgreSQL DDL locks are the main footgun: ALTER TABLE holds an AccessExclusiveLock that blocks all reads and writes for the duration. CREATE INDEX CONCURRENTLY is the fix. Always run migrations in CI, always have rollback SQL ready.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/DevOps & Infrastructure/Disk I-O Optimization",
       "label": "Disk I-O Optimization",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Disk I/O optimization reduces latency and throughput bottlenecks in reads, writes, fsyncs, logs, databases, and storage systems. It requires understanding access patterns, caching, batching, indexes, queues, and storage-device limits.",
+      "excerpt": "Disk I/O bottlenecks manifest as high iowait (vmstat wa column), high device utilization (iostat %util), or long await times. Sequential I/O is ~100x faster than random on HDDs; SSDs narrow but don't eliminate this gap. The page cache is your first line of defense: reads from hot data cost nothing if it's in RAM. Database fsync is the main durability-vs-latency trade-off. Tools: iostat -x (device stats), iotop -o (per-process), fio (synthetic benchmarks). NFS and EBS add network latency on top of disk latency — never benchmark them as if they're local.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Resources/DevOps & Infrastructure/Error Budgets",
@@ -5200,7 +5461,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/DevOps & Infrastructure/Lambda Functions and FaaS",
@@ -5219,7 +5480,7 @@
       "label": "Linux Command Line Essentials",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Linux command line essentials cover navigating files, inspecting processes, managing text streams, checking resources, editing permissions, and debugging services. Fluency at the shell is still one of the highest-leverage infrastructure skills.",
+      "excerpt": "Linux command line fluency is the highest-leverage infrastructure skill. Navigation (ls/find/fd), text processing (grep/awk/sed/cut/sort/uniq), process inspection (ps/top/lsof/ss), resource checking (df/du/free/vmstat), and redirection/pipes are the core toolkit. The composability model: small focused commands chained with pipes, each transforming text. Key survival commands in a production incident: dmesg (kernel events), journalctl -u (service logs), ss -tlnp (open ports), lsof -p (what files a process has open).",
       "tags": [
         "resource",
         "devops-infrastructure"
@@ -5243,12 +5504,12 @@
       "label": "Memory Management in Operating Systems",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Operating-system memory management gives processes isolated virtual address spaces backed by physical memory, page tables, caches, and swap. Understanding pages, page faults, OOM behavior, and memory pressure helps debug production systems.",
+      "excerpt": "OS memory management gives each process its own virtual address space backed by physical pages. Key concepts: page faults (minor = in cache, major = disk I/O), the page cache (free RAM used as disk cache — not wasted), swap (RAM overflow onto disk — causes severe latency), and OOM killer (kills processes when RAM is exhausted). In containers, cgroup memory limits OOM-kill pods even when the host has free RAM. Tools: free -m (overview), /proc/meminfo (detail), cat /proc/pid/status (per-process RSS), dmesg | grep -i 'killed' (OOM events).",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 10
+      "degree": 13
     },
     {
       "id": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)",
@@ -5291,12 +5552,12 @@
       "label": "Performance Profiling (CPU, Memory, I-O)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Performance profiling identifies where CPU, memory, I/O, network, or lock contention is limiting a system. Good profiling starts from symptoms and measurements before optimizing code or infrastructure.",
+      "excerpt": "Performance profiling finds where CPU, memory, I/O, or network time is actually spent — not where you guess. The discipline: measure first, then optimize. Linux tools: top/htop (overview), perf/py-spy (CPU flame graphs), strace (syscall trace), vmstat/iostat (system-level). Python: cProfile for function-level, memory_profiler for allocations. Flame graphs (Brendan Gregg) are the highest-ROI visualization — wide stacks show hot code. P99 latency matters more than average. EXPLAIN ANALYZE is the single most useful tool for database slowness.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 14
+      "degree": 17
     },
     {
       "id": "Resources/DevOps & Infrastructure/Postmortem Writing",
@@ -5320,7 +5581,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/DevOps & Infrastructure/Reverse Proxies (Nginx, Caddy, Traefik)",
@@ -5344,7 +5605,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 11
+      "degree": 10
     },
     {
       "id": "Resources/DevOps & Infrastructure/SLIs, SLOs, and SLAs",
@@ -5423,12 +5684,12 @@
       "label": "systemd — Service and Process Management",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "systemd manages Linux services, process supervision, dependencies, logs, timers, and boot-time units. Understanding unit files, service lifecycle, journald, and restart behavior is essential for operating Linux servers.",
+      "excerpt": "systemd is PID 1 on most Linux servers — it starts all processes, supervises services, manages dependencies, logs to journald, and runs timers. A service unit file defines the command, user, restart policy, resource limits, and security hardening for any long-running process. Key commands: systemctl start/stop/restart/status/enable/disable and journalctl -u service-name. Drop-in files (/etc/systemd/system/service.d/) let you override vendor unit files without modifying them — critical for packages you don't own.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Distributed Systems",
@@ -10584,7 +10845,7 @@
         "study",
         "systems"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/Observability",
@@ -13565,7 +13826,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/Software Engineering/Behavior-Driven Development (BDD)",
@@ -13757,7 +14018,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 12
+      "degree": 11
     },
     {
       "id": "Resources/Software Engineering/Domain-Driven Design (DDD)",
@@ -13853,7 +14114,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 11
+      "degree": 10
     },
     {
       "id": "Resources/Software Engineering/Load Testing and Performance Testing",
@@ -13865,7 +14126,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Software Engineering/Microservices Architecture",
@@ -14614,7 +14875,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 18
+      "degree": 17
     },
     {
       "id": "Resources/System Design/Circuit Breaker Pattern",
@@ -15077,7 +15338,7 @@
         "devops",
         "reference"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/Web Animation",
@@ -15865,6 +16126,15 @@
     {
       "id": "spaced-repetition-makes-memory-a-choice",
       "label": "spaced-repetition-makes-memory-a-choice",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "vs [ vs test",
+      "label": "vs [ vs test",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -20620,6 +20890,126 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "! \"$A\" == \"x\""
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "\"$A\" != \"$B\""
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "\"$A\" == \"x\""
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "\"$A\" == \"x\" && \"$B\" == \"y\""
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "\"$STATUS\" == \"active\""
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "\"$STATUS\" == \"failed\""
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "\"$item\" == \"three\""
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "\"$item\" == \"two\""
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "$COUNT -eq 0"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "$COUNT -gt 10"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "$COUNT -lt 10"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "$COUNT -lt 5"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "$attempt -lt $max_attempts"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "$count -gt 0"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "$exit_code -ne 0"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "-d \"$DIR\""
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "-e \"$PATH\""
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "-f \"$CONFIG\""
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "-f \"$FILE\""
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "-f \"$lockfile\""
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "-n \"$A\""
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "-n \"$DIR\""
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "-n \"$old_pid\""
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "-r \"$FILE\""
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "-s \"$FILE\""
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "-x \"$FILE\""
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "-z \"$A\""
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "-z \"$COMMAND\""
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "-z \"$SERVICE\""
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "Resources/DevOps & Infrastructure/Ansible Basics"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
       "target": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design"
     },
     {
@@ -20632,7 +21022,11 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Bash Scripting",
-      "target": "Resources/DevOps & Infrastructure/Runbooks and Playbooks"
+      "target": "Resources/DevOps & Infrastructure/systemd — Service and Process Management"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Bash Scripting",
+      "target": "vs [ vs test"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Blue-Green vs Canary vs Rolling Deployments",
@@ -20712,6 +21106,10 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Cron Jobs and Task Scheduling",
+      "target": "Resources/DevOps & Infrastructure/Kubernetes YAML — Deployment, Service, Ingress"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Cron Jobs and Task Scheduling",
       "target": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)"
     },
     {
@@ -20724,7 +21122,11 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Database Migrations Best Practices",
-      "target": "Resources/Databases"
+      "target": "Resources/DevOps & Infrastructure/AWS Core Services (EC2, S3, Lambda, RDS, VPC)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Database Migrations Best Practices",
+      "target": "Resources/DevOps & Infrastructure/Blue-Green vs Canary vs Rolling Deployments"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Database Migrations Best Practices",
@@ -20736,23 +21138,23 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Database Migrations Best Practices",
-      "target": "Resources/Software Engineering/Backward Compatibility Strategies"
+      "target": "Resources/DevOps & Infrastructure/Runbooks and Playbooks"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Disk I-O Optimization",
-      "target": "Resources/Database Internals Deep Dive"
+      "target": "Database Systems"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Disk I-O Optimization",
-      "target": "Resources/DevOps & Infrastructure/Linux Command Line Essentials"
+      "target": "Resources/DevOps & Infrastructure/AWS Core Services (EC2, S3, Lambda, RDS, VPC)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Disk I-O Optimization",
+      "target": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Disk I-O Optimization",
       "target": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)"
-    },
-    {
-      "source": "Resources/DevOps & Infrastructure/Disk I-O Optimization",
-      "target": "Resources/System Design/Caching Strategies (LRU, LFU, TTL)"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Error Budgets",
@@ -20864,19 +21266,23 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Linux Command Line Essentials",
-      "target": "Performance Profiling (CPU, Memory, I/O)"
-    },
-    {
-      "source": "Resources/DevOps & Infrastructure/Linux Command Line Essentials",
       "target": "Resources/DevOps & Infrastructure/Bash Scripting"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Linux Command Line Essentials",
-      "target": "Resources/DevOps & Infrastructure/systemd — Service and Process Management"
+      "target": "Resources/DevOps & Infrastructure/Disk I-O Optimization"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Linux Command Line Essentials",
-      "target": "Resources/WSL2 Setup"
+      "target": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Linux Command Line Essentials",
+      "target": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Linux Command Line Essentials",
+      "target": "Resources/DevOps & Infrastructure/systemd — Service and Process Management"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Log Aggregation (ELK Stack, Loki)",
@@ -20900,19 +21306,19 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems",
+      "target": "Resources/DevOps & Infrastructure/Disk I-O Optimization"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems",
+      "target": "Resources/DevOps & Infrastructure/Kubernetes YAML — Deployment, Service, Ingress"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems",
+      "target": "Resources/DevOps & Infrastructure/Linux Command Line Essentials"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems",
       "target": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)"
-    },
-    {
-      "source": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems",
-      "target": "Resources/OS Fundamentals"
-    },
-    {
-      "source": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems",
-      "target": "Resources/Software Engineering/Docker Deep Dive"
-    },
-    {
-      "source": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems",
-      "target": "Resources/Software Engineering/Kubernetes Basics"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)",
@@ -20980,11 +21386,15 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)",
-      "target": "Resources/Database Internals Deep Dive"
+      "target": "Database Systems"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)",
-      "target": "Resources/DevOps & Infrastructure/Linux Command Line Essentials"
+      "target": "Resources/DevOps & Infrastructure/Disk I-O Optimization"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)",
+      "target": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)",
@@ -20992,7 +21402,7 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)",
-      "target": "Resources/Software Engineering/Load Testing and Performance Testing"
+      "target": "Resources/DevOps & Infrastructure/Prometheus and Grafana"
     },
     {
       "source": "Resources/DevOps & Infrastructure/Postmortem Writing",
@@ -21180,11 +21590,11 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/systemd — Service and Process Management",
-      "target": "Performance Profiling (CPU, Memory, I/O)"
+      "target": "Resources/DevOps & Infrastructure/Ansible Basics"
     },
     {
       "source": "Resources/DevOps & Infrastructure/systemd — Service and Process Management",
-      "target": "Resources/DevOps & Infrastructure/Ansible Basics"
+      "target": "Resources/DevOps & Infrastructure/Cron Jobs and Task Scheduling"
     },
     {
       "source": "Resources/DevOps & Infrastructure/systemd — Service and Process Management",
@@ -21192,7 +21602,7 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/systemd — Service and Process Management",
-      "target": "Resources/DevOps & Infrastructure/Runbooks and Playbooks"
+      "target": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)"
     },
     {
       "source": "Resources/Distributed Systems",
@@ -33503,5 +33913,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-30T23:03:38Z"
+  "generated_at": "2026-05-30T23:14:35Z"
 }
