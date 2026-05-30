@@ -52,7 +52,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 3
+      "degree": 5
     },
     {
       "id": "API Design gRPC",
@@ -195,7 +195,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Chemistry & Biochemistry",
@@ -250,6 +250,15 @@
       "excerpt": "",
       "tags": [],
       "degree": 2
+    },
+    {
+      "id": "Contract Testing",
+      "label": "Contract Testing",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "Cryptography",
@@ -1708,7 +1717,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 14
+      "degree": 13
     },
     {
       "id": "Resources/Agent Evaluation",
@@ -5030,7 +5039,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/DevOps & Infrastructure/CI-CD Pipeline Design",
@@ -5090,7 +5099,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/DevOps & Infrastructure/Disk I-O Optimization",
@@ -5109,12 +5118,12 @@
       "label": "Error Budgets",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Error budgets convert an SLO into the amount of unreliability a service can tolerate during a time window. They help teams balance feature delivery against reliability work with a concrete shared threshold.",
+      "excerpt": "An error budget is the allowed unreliability derived from an SLO: budget = (1 - SLO) × window. A 99.9% SLO allows 43.8 minutes of downtime per month. Burn rate measures how fast the budget is consumed; multi-window alerts (1h fast burn + 6h slow burn) catch both sudden outages and slow degradations. When budget is exhausted, reliability work takes priority over features. The mechanism that makes reliability a product decision, not an engineering complaint.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/DevOps & Infrastructure/GitHub Actions Deep Dive",
@@ -5229,12 +5238,12 @@
       "label": "On-Call Culture and Incident Response",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "On-call culture and incident response define how teams detect, triage, mitigate, communicate, and learn from production failures. Healthy on-call systems protect users without burning out engineers.",
+      "excerpt": "On-call is the human operating layer for production systems. Healthy on-call has clear severity levels (P0–P3), defined roles (IC + comms lead + ops), fast alert-to-ack SLAs, a blameless culture, and measured toil. Unhealthy on-call is characterized by alert fatigue, absent runbooks, no incident commander role, and engineers too burned out to be effective. DORA research: on-call load is one of the top predictors of engineering team burnout.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/DevOps & Infrastructure/OpenTelemetry",
@@ -5265,12 +5274,12 @@
       "label": "Postmortem Writing",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Postmortem writing turns incidents into shared learning and concrete prevention work. A strong postmortem records impact, timeline, contributing factors, detection gaps, response quality, and follow-up actions without blame.",
+      "excerpt": "A postmortem turns an incident into organizational learning. Structure: impact summary, timeline, contributing factors (not a single root cause), detection/response quality assessment, and concrete action items with owners and due dates. Blameless means the individual made a reasonable decision given their context — the system allowed a bad outcome. Good action items change the system; bad ones say 'be more careful.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 18
+      "degree": 20
     },
     {
       "id": "Resources/DevOps & Infrastructure/Prometheus and Grafana",
@@ -5301,12 +5310,12 @@
       "label": "Runbooks and Playbooks",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Runbooks and playbooks document repeatable operational procedures for diagnosing and resolving known situations. Good ones are concise, current, executable, and linked to alerts or service ownership.",
+      "excerpt": "Runbooks are step-by-step operational procedures for specific symptoms or alerts. Playbooks are broader scenario flows (e.g., database failover, regional outage). Both reduce cognitive load during incidents by replacing improvisation with verified steps. A runbook is good when a junior engineer can follow it at 2am without asking for help. The main failure mode: stale runbooks that haven't been tested since they were written.",
       "tags": [
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/DevOps & Infrastructure/SLIs, SLOs, and SLAs",
@@ -5354,7 +5363,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/DevOps & Infrastructure/Terraform Basics",
@@ -5739,7 +5748,7 @@
         "tradeoffs",
         "interview-prep"
       ],
-      "degree": 26
+      "degree": 25
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Building in Public",
@@ -9127,7 +9136,7 @@
         "misc-high-value",
         "software-engineering"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/Miscellaneous High-Value Topics/Negotiating Job Offers — Full Playbook",
@@ -9308,7 +9317,7 @@
         "misc-high-value",
         "communication-writing"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/Multi-Agent RL",
@@ -11985,7 +11994,7 @@
         "resource",
         "product-management"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/Product Management/Product Strategy Framework",
@@ -13438,7 +13447,7 @@
       "label": "12-Factor App Methodology",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "The 12-factor app methodology is a set of practices for building portable, deployable, cloud-friendly services. It emphasizes declarative config, stateless processes, clean dependencies, logs as streams, and strict separation between build and run.",
+      "excerpt": "The 12-factor app methodology (Heroku, 2011) is a set of 12 practices for building deployable, scalable SaaS applications. The core insight: separate code, config, and state so that any deploy environment is a function of environment variables and attached services, not hardcoded assumptions. The most commonly violated factors in practice: config in environment (III), stateless processes (VI), and dev/prod parity (X).",
       "tags": [
         "resource",
         "software-engineering"
@@ -13467,7 +13476,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 14
+      "degree": 13
     },
     {
       "id": "Resources/Software Engineering/API Design — Server-Sent Events",
@@ -13522,7 +13531,7 @@
       "label": "Backward Compatibility Strategies",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Backward compatibility lets existing clients continue working as systems evolve. It requires additive changes, deprecation windows, schema evolution discipline, and careful deployment ordering.",
+      "excerpt": "Backward compatibility means old clients keep working when you deploy new code. The strategy varies by interface type: REST APIs (additive fields, deprecation windows), gRPC/Protobuf (never remove field numbers, use reserved), databases (expand-contract pattern), message queues (consumer tolerance + schema registry), and libraries (semver contract). The golden rule across all of them: additions are safe; removals and renames require migration windows.",
       "tags": [
         "resource",
         "software-engineering"
@@ -13587,7 +13596,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Software Engineering/Chaos Engineering",
@@ -13599,7 +13608,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 11
+      "degree": 14
     },
     {
       "id": "Resources/Software Engineering/Clean Code Principles",
@@ -13815,7 +13824,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Software Engineering/Load Testing and Performance Testing",
@@ -13882,7 +13891,7 @@
       "label": "OpenAPI and API Documentation",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "OpenAPI describes REST-like HTTP APIs in a machine-readable contract. Good API documentation combines accurate schemas with human guidance, examples, error behavior, authentication, and compatibility notes.",
+      "excerpt": "OpenAPI 3.x is a YAML/JSON spec format for describing HTTP APIs — paths, methods, parameters, request/response schemas, authentication, and errors. The real value is the toolchain it enables: Swagger UI/Redoc for browsable docs, contract testing with Spectral/Schemathesis, client code generation, and mock servers. The main failure mode is spec drift — the spec describes what the API was, not what it is. Enforce the spec in CI.",
       "tags": [
         "resource",
         "software-engineering"
@@ -13954,12 +13963,12 @@
       "label": "Software Estimation Techniques",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Software estimation is the practice of forecasting effort, uncertainty, and delivery risk. Good estimates communicate assumptions and ranges, not false precision.",
+      "excerpt": "Software estimation is predicting effort and uncertainty, not committing to a date. The most reliable techniques: decompose work into <2 day tasks (reduces variance), use three-point estimates with PERT formula, and calibrate against historical velocity. Hofstadter's Law is always true: it takes longer than you think, even when you account for Hofstadter's Law. The output of estimation should be a range with explicit assumptions, not a point estimate.",
       "tags": [
         "resource",
         "software-engineering"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/Software Engineering/Static Analysis Tools",
@@ -14019,7 +14028,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Software Engineering/Virtualization — VMs vs Containers",
@@ -20675,10 +20684,6 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/Error Budgets",
-      "target": "Resources/DevOps & Infrastructure/Blue-Green vs Canary vs Rolling Deployments"
-    },
-    {
-      "source": "Resources/DevOps & Infrastructure/Error Budgets",
       "target": "Resources/DevOps & Infrastructure/On-Call Culture and Incident Response"
     },
     {
@@ -20688,6 +20693,14 @@
     {
       "source": "Resources/DevOps & Infrastructure/Error Budgets",
       "target": "Resources/DevOps & Infrastructure/SLIs, SLOs, and SLAs"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Error Budgets",
+      "target": "Resources/Software Engineering/Canary Releases"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Error Budgets",
+      "target": "Resources/Software Engineering/Chaos Engineering"
     },
     {
       "source": "Resources/DevOps & Infrastructure/GitHub Actions Deep Dive",
@@ -20835,6 +20848,10 @@
     },
     {
       "source": "Resources/DevOps & Infrastructure/On-Call Culture and Incident Response",
+      "target": "Resources/DevOps & Infrastructure/Error Budgets"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/On-Call Culture and Incident Response",
       "target": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)"
     },
     {
@@ -20898,6 +20915,10 @@
       "target": "Resources/DevOps & Infrastructure/Runbooks and Playbooks"
     },
     {
+      "source": "Resources/DevOps & Infrastructure/Postmortem Writing",
+      "target": "Resources/Software Engineering/Chaos Engineering"
+    },
+    {
       "source": "Resources/DevOps & Infrastructure/Prometheus and Grafana",
       "target": "Resources/Data Science & Analytics/Dashboard Design Principles"
     },
@@ -20944,6 +20965,10 @@
     {
       "source": "Resources/DevOps & Infrastructure/Runbooks and Playbooks",
       "target": "Resources/DevOps & Infrastructure/Postmortem Writing"
+    },
+    {
+      "source": "Resources/DevOps & Infrastructure/Runbooks and Playbooks",
+      "target": "Resources/Software Engineering/Chaos Engineering"
     },
     {
       "source": "Resources/DevOps & Infrastructure/SLIs, SLOs, and SLAs",
@@ -29895,11 +29920,11 @@
     },
     {
       "source": "Resources/Software Engineering/12-Factor App Methodology",
-      "target": "Resources/DevOps & Infrastructure/Serverless Architecture"
+      "target": "Resources/Software Engineering/Docker Deep Dive"
     },
     {
       "source": "Resources/Software Engineering/12-Factor App Methodology",
-      "target": "Resources/Software Engineering/Docker Deep Dive"
+      "target": "Resources/Software Engineering/Kubernetes Basics"
     },
     {
       "source": "Resources/Software Engineering/12-Factor App Methodology",
@@ -30023,7 +30048,7 @@
     },
     {
       "source": "Resources/Software Engineering/Backward Compatibility Strategies",
-      "target": "Resources/DevOps & Infrastructure/Database Migrations Best Practices"
+      "target": "API Design REST"
     },
     {
       "source": "Resources/Software Engineering/Backward Compatibility Strategies",
@@ -30603,15 +30628,15 @@
     },
     {
       "source": "Resources/Software Engineering/OpenAPI and API Documentation",
-      "target": "Resources/API Design"
+      "target": "API Design REST"
     },
     {
       "source": "Resources/Software Engineering/OpenAPI and API Documentation",
-      "target": "Resources/Miscellaneous High-Value Topics/Writing Good Documentation"
+      "target": "CI/CD Pipeline Design"
     },
     {
       "source": "Resources/Software Engineering/OpenAPI and API Documentation",
-      "target": "Resources/Software Engineering/API Design — REST Principles"
+      "target": "Contract Testing"
     },
     {
       "source": "Resources/Software Engineering/OpenAPI and API Documentation",
@@ -30719,15 +30744,7 @@
     },
     {
       "source": "Resources/Software Engineering/Software Estimation Techniques",
-      "target": "Resources/Engineering Judgment and Tool Tradeoffs"
-    },
-    {
-      "source": "Resources/Software Engineering/Software Estimation Techniques",
-      "target": "Resources/Miscellaneous High-Value Topics/How to Write a Good Technical Spec"
-    },
-    {
-      "source": "Resources/Software Engineering/Software Estimation Techniques",
-      "target": "Resources/Product Management/Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)"
+      "target": "Resources/DevOps & Infrastructure/Postmortem Writing"
     },
     {
       "source": "Resources/Software Engineering/Software Estimation Techniques",
@@ -30736,6 +30753,10 @@
     {
       "source": "Resources/Software Engineering/Software Estimation Techniques",
       "target": "Resources/Software Engineering/Technical Debt — Types and Management"
+    },
+    {
+      "source": "Resources/Software Engineering/Software Estimation Techniques",
+      "target": "Resources/Software Engineering/Trunk-Based Development"
     },
     {
       "source": "Resources/Software Engineering/Static Analysis Tools",
@@ -32770,5 +32791,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-30T01:15:33Z"
+  "generated_at": "2026-05-30T01:25:39Z"
 }
