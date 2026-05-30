@@ -378,6 +378,17 @@
       "degree": 0
     },
     {
+      "id": "Daily Notes/2026-05-30",
+      "label": "2026-05-30",
+      "folder": "Daily Notes",
+      "created": "2026-05-30",
+      "excerpt": "Session 1",
+      "tags": [
+        "daily"
+      ],
+      "degree": 0
+    },
+    {
       "id": "Data Visualization Best Practices",
       "label": "Data Visualization Best Practices",
       "folder": null,
@@ -6920,7 +6931,7 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/Health & Fitness/Cardio Types — HIIT vs LISS vs Zone 2",
@@ -7088,7 +7099,7 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 23
+      "degree": 21
     },
     {
       "id": "Resources/Health & Fitness/Sauna — Evidence and Use",
@@ -8506,24 +8517,24 @@
       "label": "ADHD — Understanding and Managing It",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "ADHD is a neurodevelopmental condition involving attention, impulsivity, executive function, and sometimes hyperactivity. Management can include diagnosis, medication, therapy, coaching, environmental design, sleep, and external structure.",
+      "excerpt": "ADHD is a neurodevelopmental condition driven by dopamine/norepinephrine dysregulation in the prefrontal cortex and striatum — primarily an executive function disorder, not an attention deficit. Russell Barkley's model reframes it as impaired self-regulation and time blindness. Understanding the actual mechanism changes what management strategies are worth trying.",
       "tags": [
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 3
+      "degree": 5
     },
     {
       "id": "Resources/Mental Health & Psychology/Anxiety — Types and Coping Mechanisms",
       "label": "Anxiety — Types and Coping Mechanisms",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Anxiety is a threat-response state that becomes a disorder when it is excessive, persistent, impairing, or mismatched to reality. Coping tools include breathing, exposure, cognitive work, sleep, exercise, support, and professional care when needed.",
+      "excerpt": "Anxiety is the brain's threat-detection system running past its useful range — anticipating danger that either doesn't exist or isn't proportionate. Different anxiety disorders have distinct triggers and mechanisms, but all are maintained by the same core loop: avoidance prevents extinction and keeps fear alive. The most effective coping tools target this avoidance directly.",
       "tags": [
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 6
+      "degree": 10
     },
     {
       "id": "Resources/Mental Health & Psychology/Attachment Styles (Secure, Anxious, Avoidant, Fearful)",
@@ -8542,48 +8553,48 @@
       "label": "Burnout — Signs, Stages, and Recovery",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Burnout is commonly understood as exhaustion, cynicism or detachment, and reduced efficacy from chronic unmanaged stress, especially work stress. Recovery usually requires workload changes, boundaries, rest, support, and meaning repair.",
+      "excerpt": "Burnout is a syndrome of emotional exhaustion, cynicism/depersonalization, and reduced personal accomplishment resulting from chronic unmanaged workplace stress. Christina Maslach's 40+ years of research identifies six organizational misfits that cause it. Recovery requires structural change, not just rest — and often takes 6–12 months for full recovery.",
       "tags": [
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 5
+      "degree": 11
     },
     {
       "id": "Resources/Mental Health & Psychology/Chronic Stress — Long-Term Physical and Mental Effects",
       "label": "Chronic Stress — Long-Term Physical and Mental Effects",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Chronic stress is repeated or sustained demand without enough recovery. It can affect mood, sleep, attention, immune function, cardiovascular risk, appetite, pain sensitivity, and relationships.",
+      "excerpt": "Chronic stress is the physiological and psychological state when the stress response activates more often than the body can recover from it. The long-term effects are systemic: cognitive degradation, cardiovascular damage, immune dysfunction, metabolic changes, and structural brain changes. Understanding the mechanism helps separate 'feeling stressed' from the actual biological load accumulating.",
       "tags": [
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Mental Health & Psychology/Cognitive Behavioral Therapy (CBT) Basics",
       "label": "Cognitive Behavioral Therapy (CBT) Basics",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Cognitive Behavioral Therapy links thoughts, emotions, behaviors, and body sensations, then uses structured practice to change unhelpful patterns. It is evidence-based for many conditions, but therapy should be delivered by qualified clinicians when treating disorders.",
+      "excerpt": "CBT is the most evidence-supported psychotherapy for anxiety, depression, and several other conditions. It works by interrupting the feedback loops between thoughts, emotions, body sensations, and behaviors — and teaching skills to respond differently. The core insight is that changing how you interpret an event changes how you feel about it.",
       "tags": [
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Mental Health & Psychology/Cognitive Distortions — Complete Reference",
       "label": "Cognitive Distortions — Complete Reference",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Cognitive distortions are recurring biased thought patterns that can intensify anxiety, depression, shame, and conflict. Naming them helps create distance from the thought so it can be tested rather than automatically believed.",
+      "excerpt": "Cognitive distortions are habitual, automatic thought patterns that skew interpretation toward threat, failure, blame, or hopelessness. They originate from Aaron Beck's cognitive model and are the primary intervention target in CBT. Naming the pattern creates enough distance from the thought to examine it rather than automatically act on it.",
       "tags": [
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Resources/Mental Health & Psychology/Depression — Biology and Treatment",
@@ -8595,7 +8606,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Mental Health & Psychology/Dopamine System — Rewards and Motivation",
@@ -8607,19 +8618,19 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Mental Health & Psychology/Emotional Regulation Techniques",
       "label": "Emotional Regulation Techniques",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Emotional regulation means noticing, naming, tolerating, and responding to emotions without being controlled by them. Techniques include breathing, grounding, reappraisal, movement, journaling, problem-solving, and seeking support.",
+      "excerpt": "Emotional regulation is the ability to influence which emotions arise, when, how intensely, and how long they last — and then to respond from choice rather than automaticity. James Gross's process model identifies five intervention points. DBT's skills hierarchy (TIPP, STOP, PLEASE) gives a practical ladder. The key distinction: regulation is not suppression — it changes the emotion, not just the expression.",
       "tags": [
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 13
+      "degree": 18
     },
     {
       "id": "Resources/Mental Health & Psychology/FOMO and Digital Anxiety",
@@ -8655,7 +8666,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Mental Health & Psychology/Journaling for Mental Health",
@@ -8667,7 +8678,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/Mental Health & Psychology/Learned Helplessness",
@@ -8727,7 +8738,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Mental Health & Psychology/Neuroplasticity",
@@ -8739,7 +8750,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Mental Health & Psychology/Perfectionism — Causes and Fixes",
@@ -8751,7 +8762,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Mental Health & Psychology/Post-Traumatic Growth",
@@ -8763,7 +8774,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Mental Health & Psychology/Psychological Safety",
@@ -8782,12 +8793,12 @@
       "label": "Resilience — How to Build It",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Resilience is the capacity to adapt, recover, and keep functioning under adversity. It is built through relationships, recovery, meaning, flexible thinking, skills, health basics, and exposure to manageable challenges.",
+      "excerpt": "Resilience is the capacity to absorb adversity, adapt, and maintain or regain function — not the absence of distress. Research (Bonanno, APA, van der Kolk) shows resilience is not a fixed trait but a dynamic resource built through specific factors: relationships, recovery, meaning, flexible thinking, and graduated exposure to manageable challenges. It can be built deliberately.",
       "tags": [
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 10
+      "degree": 15
     },
     {
       "id": "Resources/Mental Health & Psychology/Self-Compassion vs Self-Esteem (Kristin Neff)",
@@ -8842,12 +8853,12 @@
       "label": "Stress Response — HPA Axis (Cortisol Cascade)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The stress response coordinates nervous-system and hormonal changes through systems including the HPA axis and cortisol. Acute stress can be adaptive, but chronic activation can harm sleep, mood, immunity, metabolism, and decision-making.",
+      "excerpt": "The stress response involves two cascading systems: the fast SAM axis (seconds, adrenaline) and the slower HPA axis (minutes to hours, cortisol). Both are adaptive short-term but damaging when chronically activated. Understanding the HPA axis explains why sleep, mood, immunity, memory, and metabolism all degrade under sustained stress.",
       "tags": [
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 9
+      "degree": 14
     },
     {
       "id": "Resources/Mental Health & Psychology/The Role of Play in Adult Life",
@@ -10144,7 +10155,7 @@
         "resource",
         "neuroscience"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Neuroscience/Hippocampus and Memory Formation",
@@ -10992,7 +11003,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Personal Productivity/Getting Things Done (GTD) Method",
@@ -11172,7 +11183,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Personal Productivity/Reward Systems and Dopamine Loops",
@@ -11196,7 +11207,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Personal Productivity/The Map of Content (MOC) in Obsidian",
@@ -13138,7 +13149,7 @@
         "resource",
         "sleep-science"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/Sleep Science/Sleep Hygiene Best Practices",
@@ -24584,23 +24595,39 @@
     },
     {
       "source": "Resources/Mental Health & Psychology/ADHD — Understanding and Managing It",
+      "target": "Resources/Mental Health & Psychology/Burnout — Signs, Stages, and Recovery"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/ADHD — Understanding and Managing It",
+      "target": "Resources/Mental Health & Psychology/Dopamine System — Rewards and Motivation"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/ADHD — Understanding and Managing It",
       "target": "Resources/Personal Productivity/Distraction Management"
     },
     {
       "source": "Resources/Mental Health & Psychology/ADHD — Understanding and Managing It",
-      "target": "Resources/Personal Productivity/Task Management Philosophies (GTD, Autofocus, ZTD)"
+      "target": "Resources/Personal Productivity/Focus Modes and Context Switching Costs"
     },
     {
       "source": "Resources/Mental Health & Psychology/ADHD — Understanding and Managing It",
-      "target": "Resources/Sleep Science/Sleep Disorders Overview (Apnea, Insomnia, RLS)"
-    },
-    {
-      "source": "Resources/Mental Health & Psychology/Anxiety — Types and Coping Mechanisms",
-      "target": "Resources/Health & Fitness/Breathing Techniques (Box Breathing, Physiological Sigh, Wim Hof)"
+      "target": "Resources/Personal Productivity/Procrastination — Root Causes and Fixes"
     },
     {
       "source": "Resources/Mental Health & Psychology/Anxiety — Types and Coping Mechanisms",
       "target": "Resources/Mental Health & Psychology/Cognitive Behavioral Therapy (CBT) Basics"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Anxiety — Types and Coping Mechanisms",
+      "target": "Resources/Mental Health & Psychology/Cognitive Distortions — Complete Reference"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Anxiety — Types and Coping Mechanisms",
+      "target": "Resources/Mental Health & Psychology/Emotional Regulation Techniques"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Anxiety — Types and Coping Mechanisms",
+      "target": "Resources/Mental Health & Psychology/Perfectionism — Causes and Fixes"
     },
     {
       "source": "Resources/Mental Health & Psychology/Anxiety — Types and Coping Mechanisms",
@@ -24620,19 +24647,35 @@
     },
     {
       "source": "Resources/Mental Health & Psychology/Burnout — Signs, Stages, and Recovery",
-      "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
+      "target": "Resources/Mental Health & Psychology/Chronic Stress — Long-Term Physical and Mental Effects"
     },
     {
       "source": "Resources/Mental Health & Psychology/Burnout — Signs, Stages, and Recovery",
-      "target": "Resources/Mental Health & Psychology/Chronic Stress — Long-Term Physical and Mental Effects"
+      "target": "Resources/Mental Health & Psychology/Depression — Biology and Treatment"
     },
     {
       "source": "Resources/Mental Health & Psychology/Burnout — Signs, Stages, and Recovery",
       "target": "Resources/Mental Health & Psychology/Psychological Safety"
     },
     {
+      "source": "Resources/Mental Health & Psychology/Burnout — Signs, Stages, and Recovery",
+      "target": "Resources/Mental Health & Psychology/Resilience — How to Build It"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Burnout — Signs, Stages, and Recovery",
+      "target": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)"
+    },
+    {
       "source": "Resources/Mental Health & Psychology/Chronic Stress — Long-Term Physical and Mental Effects",
       "target": "Resources/Mental Health & Psychology/Burnout — Signs, Stages, and Recovery"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Chronic Stress — Long-Term Physical and Mental Effects",
+      "target": "Resources/Mental Health & Psychology/Neuroplasticity"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Chronic Stress — Long-Term Physical and Mental Effects",
+      "target": "Resources/Mental Health & Psychology/Resilience — How to Build It"
     },
     {
       "source": "Resources/Mental Health & Psychology/Chronic Stress — Long-Term Physical and Mental Effects",
@@ -24655,12 +24698,28 @@
       "target": "Resources/Mental Health & Psychology/Depression — Biology and Treatment"
     },
     {
+      "source": "Resources/Mental Health & Psychology/Cognitive Behavioral Therapy (CBT) Basics",
+      "target": "Resources/Mental Health & Psychology/Emotional Regulation Techniques"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Cognitive Behavioral Therapy (CBT) Basics",
+      "target": "Resources/Mental Health & Psychology/Mindfulness — Evidence and Practice"
+    },
+    {
       "source": "Resources/Mental Health & Psychology/Cognitive Distortions — Complete Reference",
       "target": "Resources/Mental Health & Psychology/Anxiety — Types and Coping Mechanisms"
     },
     {
       "source": "Resources/Mental Health & Psychology/Cognitive Distortions — Complete Reference",
       "target": "Resources/Mental Health & Psychology/Cognitive Behavioral Therapy (CBT) Basics"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Cognitive Distortions — Complete Reference",
+      "target": "Resources/Mental Health & Psychology/Emotional Regulation Techniques"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Cognitive Distortions — Complete Reference",
+      "target": "Resources/Mental Health & Psychology/Impostor Syndrome"
     },
     {
       "source": "Resources/Mental Health & Psychology/Cognitive Distortions — Complete Reference",
@@ -24692,15 +24751,23 @@
     },
     {
       "source": "Resources/Mental Health & Psychology/Emotional Regulation Techniques",
+      "target": "Resources/Mental Health & Psychology/Anxiety — Types and Coping Mechanisms"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Emotional Regulation Techniques",
+      "target": "Resources/Mental Health & Psychology/Burnout — Signs, Stages, and Recovery"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Emotional Regulation Techniques",
       "target": "Resources/Mental Health & Psychology/Cognitive Behavioral Therapy (CBT) Basics"
     },
     {
       "source": "Resources/Mental Health & Psychology/Emotional Regulation Techniques",
-      "target": "Resources/Mental Health & Psychology/Journaling for Mental Health"
+      "target": "Resources/Mental Health & Psychology/Mindfulness — Evidence and Practice"
     },
     {
       "source": "Resources/Mental Health & Psychology/Emotional Regulation Techniques",
-      "target": "Resources/Mental Health & Psychology/Mindfulness — Evidence and Practice"
+      "target": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)"
     },
     {
       "source": "Resources/Mental Health & Psychology/FOMO and Digital Anxiety",
@@ -24860,6 +24927,10 @@
     },
     {
       "source": "Resources/Mental Health & Psychology/Resilience — How to Build It",
+      "target": "Resources/Mental Health & Psychology/Burnout — Signs, Stages, and Recovery"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Resilience — How to Build It",
       "target": "Resources/Mental Health & Psychology/Chronic Stress — Long-Term Physical and Mental Effects"
     },
     {
@@ -24868,7 +24939,15 @@
     },
     {
       "source": "Resources/Mental Health & Psychology/Resilience — How to Build It",
+      "target": "Resources/Mental Health & Psychology/Post-Traumatic Growth"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Resilience — How to Build It",
       "target": "Resources/Mental Health & Psychology/Self-Compassion vs Self-Esteem (Kristin Neff)"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Resilience — How to Build It",
+      "target": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)"
     },
     {
       "source": "Resources/Mental Health & Psychology/Self-Compassion vs Self-Esteem (Kristin Neff)",
@@ -24920,7 +24999,11 @@
     },
     {
       "source": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)",
-      "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
+      "target": "Resources/Mental Health & Psychology/Anxiety — Types and Coping Mechanisms"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)",
+      "target": "Resources/Mental Health & Psychology/Burnout — Signs, Stages, and Recovery"
     },
     {
       "source": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)",
@@ -24929,6 +25012,10 @@
     {
       "source": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)",
       "target": "Resources/Mental Health & Psychology/Resilience — How to Build It"
+    },
+    {
+      "source": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)",
+      "target": "Resources/Neuroscience/Default Mode Network"
     },
     {
       "source": "Resources/Mental Health & Psychology/The Role of Play in Adult Life",
@@ -32791,5 +32878,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-30T01:25:39Z"
+  "generated_at": "2026-05-30T07:11:52Z"
 }
