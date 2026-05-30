@@ -1,5 +1,13 @@
 # ENGINEERING LOG
 
+## 2026-05-29 — Orbit locks to selected node; five future ideas documented (Claude Code, Sonnet 4.6)
+
+Modified `controls.end` resume callback: when it fires after `ORBIT_RESUME_DELAY` and a node is selected, instead of resuming the cinematic reel it locks `cinematicRef.pivot` to the node's world position, sets speed to `0.0016`, and sets `nextShotAt = Infinity` (suppresses all shot changes). The orbit gently circles the selected node until the InfoPanel is dismissed, at which point the next `controls.end` fires with `selectedNodeRef.current = null` and resumes the normal cinematic reel. No new state or refs needed — reads `selectedNodeRef` and `graphRef` at timer-fire time, not at setup time.
+
+Added five future feature ideas to `TODOS.md`: search/filter bar, share link, growth replay/timeline, path highlighting, connection ripple.
+
+Commit: `TBD`
+
 ## 2026-05-29 — Fix node hover/click broken since InstancedMesh refactor (Claude Code, Sonnet 4.6)
 
 `nodeThreeObject` was returning a `THREE.Object3D` as an invisible tracker. `Object3D.raycast()` is an empty stub — the library's THREE.Raycaster never registers intersections on it, so `onNodeClick`/`onNodeHover` silently never fired. Fixed by returning a `THREE.Mesh(SphereGeometry(node._radius, 6, 4), MeshBasicMaterial)` instead. `visible = false` prevents rendering; this Three.js bundle does not check `visible` during ray traversal so the mesh is hit-tested correctly. Geometries are cached per-radius in a module-level map to avoid N allocations. The wrong comment ("react-force-graph-3d uses 2D projected distance") was also corrected.

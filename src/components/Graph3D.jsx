@@ -525,7 +525,7 @@ export default function Graph3D({ data }) {
       controls.autoRotate = false  // manual rotation via applyAxisAngle — more reliable across Three.js versions
       controls.enableDamping = true
       controls.dampingFactor = 0.08
-      // Pause orbit on grab; resume 3s after release with a fresh cinematic shot
+      // Pause orbit on grab; resume 3s after release
       controls.addEventListener('start', () => {
         isAutoRotatingRef.current = false
         clearTimeout(orbitResumeTimerRef.current)
@@ -534,7 +534,18 @@ export default function Graph3D({ data }) {
       controls.addEventListener('end', () => {
         orbitResumeTimerRef.current = setTimeout(() => {
           isAutoRotatingRef.current = true
-          // Brief hold on current angle before snapping to next cinematic shot
+          const selId = selectedNodeRef.current
+          if (selId) {
+            // A node is selected — orbit around it until dismissed, no shot changes
+            const node = graphRef.current?.nodes?.find(n => n.id === selId)
+            if (node?.x != null) {
+              cinematicRef.current.pivot.set(node.x, node.y ?? 0, node.z ?? 0)
+              cinematicRef.current.speed = 0.0016
+              cinematicRef.current.nextShotAt = Infinity
+              return
+            }
+          }
+          // No node selected — resume cinematic reel
           cinematicRef.current.nextShotAt = performance.now() + 2000
         }, ORBIT_RESUME_DELAY)
       })
