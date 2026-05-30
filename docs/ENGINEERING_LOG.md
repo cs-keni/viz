@@ -2,7 +2,7 @@
 
 ## 2026-05-29 — Increase camera maxDistance and starfield radius (Claude Code, Sonnet 4.6)
 
-Constellation has grown large enough that the default zoom limit clips it. Increased `controls.maxDistance` (3000 → 4500) and `STAR_RADIUS` (4000 → 6000). First attempt used 6000/8000 but felt too zoomed out; dialed back to these values.
+Constellation has grown large enough that the default zoom limit clips it. Increased `controls.maxDistance` (3000 → 4500) and `STAR_RADIUS` (4000 → 6000). First attempt used 6000/8000 but felt too zoomed out; dialed back to these values. Also scaled `STAR_COUNT` proportionally (4000 → 6000, matching the 1.5× maxDistance increase).
 
 Commit: `TBD`
 

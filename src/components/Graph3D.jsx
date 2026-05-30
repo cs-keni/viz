@@ -8,7 +8,7 @@ import { isMobile } from '../utils/device'
 import InfoPanel from './InfoPanel'
 
 const BACKGROUND_COLOR = '#050820'
-const STAR_COUNT = 4000
+const STAR_COUNT = 6000
 const STAR_RADIUS = 6000
 const LINK_PARTICLE_COLOR = '#a0c0ff'
 const COMET_TRAIL = 25
