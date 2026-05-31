@@ -5356,7 +5356,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/DevOps & Infrastructure/Cron Jobs and Task Scheduling",
@@ -5500,7 +5500,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 13
+      "degree": 12
     },
     {
       "id": "Resources/DevOps & Infrastructure/Observability — Logs, Metrics, Traces (The Three Pillars)",
@@ -5548,7 +5548,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 18
+      "degree": 20
     },
     {
       "id": "Resources/DevOps & Infrastructure/Postmortem Writing",
@@ -12347,14 +12347,14 @@
         "resource",
         "study"
       ],
-      "degree": 4
+      "degree": 3
     },
     {
       "id": "Resources/Programming Languages/C — Memory Management and Pointers",
       "label": "C — Memory Management and Pointers",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "C gives direct control over memory through pointers, stack allocation, heap allocation, and manual lifetime management. That control enables systems programming but makes bugs such as use-after-free, buffer overflow, and leaks easy to create.",
+      "excerpt": "C memory management is entirely manual: stack memory is automatic (freed when function returns), heap memory must be explicitly malloc'd and free'd. Pointers are just integers holding addresses — all power and all danger flows from this. The most dangerous bugs — use-after-free, buffer overflow, double free — are undefined behavior that compilers can't catch and that Rust's ownership system was designed to prevent at compile time.",
       "tags": [
         "resource",
         "programming-languages"
@@ -12366,12 +12366,12 @@
       "label": "Compiled vs Interpreted vs JIT Languages",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Compiled, interpreted, and JIT execution models describe when code is translated and optimized. The boundaries are blurry in modern runtimes, but the model affects startup time, portability, debugging, deployment, and peak performance.",
+      "excerpt": "The compiled/interpreted/JIT distinction describes when and how code is translated to machine instructions. AOT-compiled (Rust, Go, C) gives predictable startup and no runtime overhead. Interpreted (CPython, Ruby MRI) gives rapid iteration at the cost of raw speed. JIT (JVM, V8, CLR) gets near-native peak throughput after warmup. Most production runtimes combine all three. The right choice depends on: startup time requirements, peak throughput needs, developer iteration speed, and deployment constraints.",
       "tags": [
         "resource",
         "programming-languages"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Programming Languages/Concurrency Primitives (Mutex, Semaphore, Condition Variable)",
@@ -12383,7 +12383,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Programming Languages/DSL Design",
@@ -12419,7 +12419,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Programming Languages/Go — Goroutines and Channels",
@@ -12443,7 +12443,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Programming Languages/Immutability and Pure Functions",
@@ -12462,19 +12462,19 @@
       "label": "JIT Compilation",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Just-in-time compilation turns code into optimized machine code while a program is running. JITs trade startup and runtime complexity for adaptive optimization based on real execution behavior.",
+      "excerpt": "Just-in-time compilation profiles running code, identifies hot paths, and compiles them to optimized native machine code while the program executes. JITs achieve near-AOT performance through adaptive optimization — speculative inlining, escape analysis, type specialization — backed by deoptimization when assumptions break. The JVM's C2 compiler and V8's TurboFan are the canonical production examples.",
       "tags": [
         "resource",
         "programming-languages"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Programming Languages/Java — Garbage Collection",
       "label": "Java — Garbage Collection",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Java garbage collection automatically reclaims unreachable objects from the JVM heap. Different collectors optimize for throughput, latency, pause time, footprint, or heap size, so GC behavior is an operational concern.",
+      "excerpt": "Java GC is generational: most objects die in Eden (minor GC is fast, milliseconds), survivors are promoted to Old Gen where major GC is slower. Four collector choices matter in practice: G1 (balanced, default Java 9+), ZGC (sub-millisecond pauses, Java 15+), Shenandoah (similar to ZGC), and ParallelGC (throughput-first, batch jobs). GC pauses = stop-the-world events where all threads pause — minimizing them is the core JVM tuning goal for latency-sensitive services.",
       "tags": [
         "resource",
         "programming-languages"
@@ -12486,7 +12486,7 @@
       "label": "Java — JVM Internals",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "The JVM executes platform-independent bytecode with class loading, verification, interpretation, JIT compilation, garbage collection, and runtime services. JVM internals explain Java's portability, performance profile, and operational behavior.",
+      "excerpt": "The JVM is a stack-based virtual machine that compiles Java source to platform-independent bytecode, then executes it with a tiered JIT compiler (interpreter → C1 → C2/Graal) that performs aggressive adaptive optimizations. Understanding JVM internals explains Java's warmup curve, GC pauses, memory areas (heap/metaspace/code cache/stacks), and how to tune JVM flags for production services.",
       "tags": [
         "resource",
         "programming-languages"
@@ -12551,7 +12551,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/Programming Languages/Memory Models and Happens-Before Ordering",
@@ -12563,7 +12563,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/Programming Languages/Metaprogramming and Code Generation",
@@ -12671,7 +12671,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Programming Languages/Python — Metaclasses",
@@ -12702,36 +12702,36 @@
       "label": "Rust — Lifetimes",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Rust lifetimes describe how long references are valid so the compiler can prevent dangling references. Most lifetimes are inferred, but explicit annotations are needed when relationships between borrowed values are ambiguous.",
+      "excerpt": "Rust lifetimes are compile-time annotations that describe how long references must remain valid. They prevent dangling references by letting the borrow checker verify that no reference outlives the data it points to. Most lifetimes are inferred through elision rules — explicit annotations are only needed when the compiler can't determine the relationship between input and output references.",
       "tags": [
         "resource",
         "programming-languages"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Programming Languages/Rust — Ownership and Borrowing",
       "label": "Rust — Ownership and Borrowing",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Rust ownership and borrowing enforce memory safety without a garbage collector. Values have owners, references borrow values, and the compiler prevents dangling references and data races through strict rules.",
+      "excerpt": "Rust's ownership system enforces memory safety at compile time with zero runtime cost: every value has exactly one owner, values are dropped when their owner leaves scope, and references must obey borrow checker rules (one mutable OR many immutable, never both). This eliminates use-after-free, double-free, and data races before the program runs.",
       "tags": [
         "resource",
         "programming-languages"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Programming Languages/Rust — Traits and Generics",
       "label": "Rust — Traits and Generics",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Rust traits define shared behavior, and generics let code work over many concrete types with trait bounds. Together they provide static polymorphism, reusable APIs, and zero-cost abstraction patterns.",
+      "excerpt": "Rust traits are like interfaces that types opt into, enabling shared behavior with zero-cost static dispatch via generics (monomorphization) or dynamic dispatch via trait objects (dyn Trait). The difference matters: generics produce specialized machine code per type (fast, no allocation), dyn Trait uses a vtable at runtime (flexible, heap-allocated, one binary). Standard traits like Iterator, Display, From/Into, and Clone are the vocabulary of idiomatic Rust.",
       "tags": [
         "resource",
         "programming-languages"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Programming Languages/TypeScript — Generics",
@@ -12774,12 +12774,12 @@
       "label": "WebAssembly (WASM) Basics",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "WebAssembly is a portable low-level bytecode format designed for safe, near-native execution in browsers and other runtimes. It lets languages like Rust, C, and C++ run in web contexts while preserving sandboxing and predictable performance.",
+      "excerpt": "WebAssembly is a binary instruction format that runs in a sandboxed VM at near-native speed — in browsers, servers, and edge runtimes. Rust, C, and C++ compile to WASM via wasm-pack/Emscripten. The JS↔WASM boundary is expensive (marshaling), so WASM wins when computation dominates crossing. Real-world deployments: Figma's rendering engine, Google Earth Web, AutoCAD Web, FFmpeg in browsers. WASI extends WASM beyond browsers with portable system call interfaces.",
       "tags": [
         "resource",
         "programming-languages"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/RAG and Bobby Vector Search",
@@ -15734,7 +15734,7 @@
         "web-technologies",
         "graphics"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/What Is Obsidian",
@@ -29519,7 +29519,7 @@
     },
     {
       "source": "Resources/Programming Languages/C — Memory Management and Pointers",
-      "target": "Resources/Programming Languages"
+      "target": "Resources/Programming Languages/Garbage Collection Algorithms (Mark-Sweep, Generational)"
     },
     {
       "source": "Resources/Programming Languages/C — Memory Management and Pointers",
@@ -29528,6 +29528,10 @@
     {
       "source": "Resources/Programming Languages/C — Memory Management and Pointers",
       "target": "Resources/Security Deep Dive"
+    },
+    {
+      "source": "Resources/Programming Languages/Compiled vs Interpreted vs JIT Languages",
+      "target": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)"
     },
     {
       "source": "Resources/Programming Languages/Compiled vs Interpreted vs JIT Languages",
@@ -29670,6 +29674,10 @@
       "target": "Resources/Programming Languages/JavaScript — The Event Loop"
     },
     {
+      "source": "Resources/Programming Languages/JIT Compilation",
+      "target": "Resources/Programming Languages/WebAssembly (WASM) Basics"
+    },
+    {
       "source": "Resources/Programming Languages/Java — Garbage Collection",
       "target": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)"
     },
@@ -29687,6 +29695,10 @@
     },
     {
       "source": "Resources/Programming Languages/Java — JVM Internals",
+      "target": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)"
+    },
+    {
+      "source": "Resources/Programming Languages/Java — JVM Internals",
       "target": "Resources/Programming Languages/Compiled vs Interpreted vs JIT Languages"
     },
     {
@@ -29696,10 +29708,6 @@
     {
       "source": "Resources/Programming Languages/Java — JVM Internals",
       "target": "Resources/Programming Languages/Java — Garbage Collection"
-    },
-    {
-      "source": "Resources/Programming Languages/Java — JVM Internals",
-      "target": "Resources/Programming Languages/Memory Models and Happens-Before Ordering"
     },
     {
       "source": "Resources/Programming Languages/JavaScript — Closures",
@@ -29987,11 +29995,15 @@
     },
     {
       "source": "Resources/Programming Languages/Rust — Ownership and Borrowing",
-      "target": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems"
+      "target": "Resources/Programming Languages/C — Memory Management and Pointers"
     },
     {
       "source": "Resources/Programming Languages/Rust — Ownership and Borrowing",
-      "target": "Resources/Programming Languages/C — Memory Management and Pointers"
+      "target": "Resources/Programming Languages/Concurrency Primitives (Mutex, Semaphore, Condition Variable)"
+    },
+    {
+      "source": "Resources/Programming Languages/Rust — Ownership and Borrowing",
+      "target": "Resources/Programming Languages/Python — Memory Management and gc"
     },
     {
       "source": "Resources/Programming Languages/Rust — Ownership and Borrowing",
@@ -30007,7 +30019,11 @@
     },
     {
       "source": "Resources/Programming Languages/Rust — Traits and Generics",
-      "target": "Resources/Programming Languages/Language Design Tradeoffs"
+      "target": "Resources/Programming Languages/Go — Interface System"
+    },
+    {
+      "source": "Resources/Programming Languages/Rust — Traits and Generics",
+      "target": "Resources/Programming Languages/Rust — Lifetimes"
     },
     {
       "source": "Resources/Programming Languages/Rust — Traits and Generics",
@@ -30059,7 +30075,15 @@
     },
     {
       "source": "Resources/Programming Languages/WebAssembly (WASM) Basics",
+      "target": "Resources/DevOps & Infrastructure/Cloudflare Services Overview"
+    },
+    {
+      "source": "Resources/Programming Languages/WebAssembly (WASM) Basics",
       "target": "Resources/Programming Languages/Compiled vs Interpreted vs JIT Languages"
+    },
+    {
+      "source": "Resources/Programming Languages/WebAssembly (WASM) Basics",
+      "target": "Resources/Programming Languages/JIT Compilation"
     },
     {
       "source": "Resources/Programming Languages/WebAssembly (WASM) Basics",
@@ -30068,10 +30092,6 @@
     {
       "source": "Resources/Programming Languages/WebAssembly (WASM) Basics",
       "target": "Resources/Web Technologies/Browser Security Model (Same-Origin Policy)"
-    },
-    {
-      "source": "Resources/Programming Languages/WebAssembly (WASM) Basics",
-      "target": "Resources/Web Technologies/WebGL Basics"
     },
     {
       "source": "Resources/RAG and Bobby Vector Search",
@@ -33942,5 +33962,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-31T03:23:53Z"
+  "generated_at": "2026-05-31T04:13:15Z"
 }
