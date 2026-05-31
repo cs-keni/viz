@@ -5661,7 +5661,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 20
+      "degree": 19
     },
     {
       "id": "Resources/DevOps & Infrastructure/Serverless Architecture",
@@ -12972,7 +12972,7 @@
       "label": "Container Security",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Container security protects images, registries, runtimes, orchestrators, secrets, and host boundaries. Good practice includes minimal images, vulnerability scanning, non-root users, least privileges, signed artifacts, and controlled runtime permissions.",
+      "excerpt": "Container security covers images, Dockerfiles, registries, runtimes, Linux capabilities, secrets, Kubernetes policies, and host boundaries. The core insight is that containers share the host kernel, so least privilege and supply-chain controls matter more than the word 'container.",
       "tags": [
         "resource",
         "security-privacy"
@@ -12996,7 +12996,7 @@
       "label": "Data Privacy Regulations (GDPR, CCPA)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "GDPR and CCPA are major privacy regulations that shape how organizations collect, process, disclose, delete, and protect personal data. Engineering impact shows up in consent, data inventory, deletion, access requests, retention, and vendor controls.",
+      "excerpt": "GDPR and CCPA/CPRA turn privacy promises into engineering requirements: data inventory, lawful basis or notice, access/export/delete/correct flows, opt-outs, retention limits, vendor controls, and breach response. Treat this as engineering context, not legal advice.",
       "tags": [
         "resource",
         "security-privacy"
@@ -13092,7 +13092,7 @@
       "label": "PII Handling Best Practices",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "PII handling best practices reduce risk around data that identifies or can be linked to people. The core habits are minimization, classification, access control, encryption, retention limits, auditability, and careful logging.",
+      "excerpt": "PII handling is the engineering discipline of minimizing, classifying, protecting, auditing, and deleting data that identifies or can be linked to people. The biggest leaks often come from secondary copies: logs, analytics, screenshots, exports, warehouses, support tools, and backups.",
       "tags": [
         "resource",
         "security-privacy"
@@ -13104,7 +13104,7 @@
       "label": "Passkeys and Hardware Security Keys (WebAuthn)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Passkeys and hardware security keys use public-key cryptography through WebAuthn to provide phishing-resistant authentication. They reduce reliance on shared secrets by proving possession of a private key bound to the real site origin.",
+      "excerpt": "Passkeys and hardware security keys use WebAuthn/FIDO public-key authentication so the server stores a public key and the authenticator signs origin-bound challenges. The security win is phishing resistance: a fake domain cannot use the credential registered for the real relying party.",
       "tags": [
         "resource",
         "security-privacy"
@@ -13176,19 +13176,19 @@
       "label": "Secrets Scanning (GitGuardian, truffleHog)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Secrets scanning detects leaked credentials such as API keys, tokens, private keys, and passwords in code, commits, logs, and artifacts. Tools like GitGuardian and truffleHog reduce exposure, but leaked secrets still require rotation and incident response.",
+      "excerpt": "Secrets scanning detects API keys, tokens, private keys, and credentials in code, commits, logs, containers, tickets, and artifacts. The key point is response discipline: detection only matters if leaked credentials are revoked, rotated, scoped, and traced for use.",
       "tags": [
         "resource",
         "security-privacy"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Security & Privacy/Security Auditing",
       "label": "Security Auditing",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Security auditing evaluates whether systems, processes, access, and evidence match expected security controls. Good audits are scoped, evidence-based, risk-oriented, and followed by concrete remediation.",
+      "excerpt": "Security auditing checks whether controls exist, operate, and leave evidence. A good audit is scoped, evidence-based, risk-oriented, and tied to remediation; it is different from a pen test because it evaluates control posture, not just exploitability.",
       "tags": [
         "resource",
         "security-privacy"
@@ -13236,7 +13236,7 @@
       "label": "Supply Chain Security",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Supply chain security protects the software, dependencies, build systems, CI/CD pipelines, artifacts, vendors, and update channels a system relies on. It matters because attackers can compromise trusted inputs instead of attacking production directly.",
+      "excerpt": "Supply chain security protects dependencies, build systems, CI credentials, artifacts, registries, vendors, and update channels. The core idea is provenance: production should only run artifacts whose source, build path, signatures, and dependencies are known and trusted.",
       "tags": [
         "resource",
         "security-privacy"
@@ -13260,7 +13260,7 @@
       "label": "Vulnerability Disclosure and Bug Bounty Programs",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Vulnerability disclosure and bug bounty programs define how external researchers report security issues and how organizations triage, fix, reward, and communicate them. Clear scope and response expectations prevent chaos.",
+      "excerpt": "Explains how vulnerability disclosure and bug bounty programs turn external security reports into reproducible fixes, coordinated public communication, and researcher trust. The key mechanism is triage discipline: scope, safe harbor, severity, ownership, remediation SLA, and disclosure timing.",
       "tags": [
         "resource",
         "security-privacy"
@@ -13272,7 +13272,7 @@
       "label": "Zero-Day Vulnerabilities",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Zero-day vulnerabilities are security flaws unknown to the vendor or unpatched in affected systems. Defending against them depends on reducing blast radius, monitoring behavior, patch readiness, and layered controls.",
+      "excerpt": "Zero-day vulnerabilities are flaws with no available vendor patch at the moment defenders need to respond. The practical response is exposure discovery, compensating controls, rapid patch channels, and behavior-based detection rather than waiting for perfect certainty.",
       "tags": [
         "resource",
         "security-privacy"
@@ -30497,11 +30497,11 @@
     },
     {
       "source": "Resources/Security & Privacy/PII Handling Best Practices",
-      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
+      "target": "Resources/Security & Privacy/Data Privacy Regulations (GDPR, CCPA)"
     },
     {
       "source": "Resources/Security & Privacy/PII Handling Best Practices",
-      "target": "Resources/Security & Privacy/Data Privacy Regulations (GDPR, CCPA)"
+      "target": "Resources/Security & Privacy/Secrets Scanning (GitGuardian, truffleHog)"
     },
     {
       "source": "Resources/Security & Privacy/PII Handling Best Practices",
@@ -34072,5 +34072,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-31T21:48:15Z"
+  "generated_at": "2026-05-31T21:57:40Z"
 }
