@@ -4705,7 +4705,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)",
@@ -5061,7 +5061,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 15
+      "degree": 14
     },
     {
       "id": "Resources/Design & UX/Accessibility in Design (WCAG 2.1, 2.2)",
@@ -5661,7 +5661,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 24
+      "degree": 23
     },
     {
       "id": "Resources/DevOps & Infrastructure/Serverless Architecture",
@@ -12936,7 +12936,7 @@
       "label": "Authentication vs Authorization",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Authentication verifies who a user or service is, while authorization decides what that identity can do. Confusing the two leads to systems that know the user but still expose the wrong data or actions.",
+      "excerpt": "Authentication proves an actor's identity; authorization decides whether that actor may perform a specific action on a specific resource. Many serious breaches are authorization failures: the user is real, but the system forgets to check ownership, scope, role, or policy at the server boundary.",
       "tags": [
         "resource",
         "security-privacy"
@@ -12948,7 +12948,7 @@
       "label": "CSRF — Prevention",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Cross-Site Request Forgery tricks a browser into sending authenticated state-changing requests from another site. Prevention uses SameSite cookies, CSRF tokens, origin checks, and avoiding unsafe state changes on GET.",
+      "excerpt": "Cross-Site Request Forgery tricks a browser into sending an authenticated state-changing request that the user did not intend. Defenses include SameSite cookies, CSRF tokens, Origin/Referer validation, safe HTTP method semantics, and recognizing that XSS can bypass many CSRF controls.",
       "tags": [
         "resource",
         "security-privacy"
@@ -12960,7 +12960,7 @@
       "label": "Clickjacking Prevention",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Clickjacking tricks users into interacting with a hidden or disguised page embedded in another site. Prevention uses frame restrictions such as CSP frame-ancestors and X-Frame-Options, plus UI design for sensitive actions.",
+      "excerpt": "Clickjacking tricks a user into interacting with a legitimate page through a deceptive frame or overlay. The primary defense is browser-enforced framing control with CSP frame-ancestors and, for legacy support, X-Frame-Options; sensitive actions should also use clear confirmation and re-authentication where risk justifies it.",
       "tags": [
         "resource",
         "security-privacy"
@@ -12984,7 +12984,7 @@
       "label": "Cross-Site Scripting (XSS) — Prevention",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Cross-site scripting happens when attacker-controlled content runs as JavaScript in another user's browser. Prevention relies on contextual output encoding, sanitization for allowed HTML, safe frameworks, CSP, and avoiding dangerous DOM APIs.",
+      "excerpt": "Cross-site scripting occurs when attacker-controlled content executes as JavaScript in a trusted origin. Prevention depends on contextual output encoding, safe framework defaults, avoiding dangerous DOM APIs, sanitizing allowed rich text, HttpOnly cookies, and a restrictive Content Security Policy as defense in depth.",
       "tags": [
         "resource",
         "security-privacy"
@@ -13044,7 +13044,7 @@
       "label": "JWT — Structure, Signing, and Security",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "JWTs are signed JSON tokens made of header, payload, and signature sections. They are useful for portable claims, but security depends on validation, key management, expiration, audience checks, and avoiding sensitive payload data.",
+      "excerpt": "JWTs are compact signed claim containers with header, payload, and signature sections. They are useful for portable identity and authorization metadata, but only if callers verify signature, issuer, audience, algorithm, expiration, key ID, and token purpose every time.",
       "tags": [
         "resource",
         "security-privacy"
@@ -13056,7 +13056,7 @@
       "label": "OAuth 2.0 Flow",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "OAuth 2.0 is an authorization framework for delegated access, letting clients access resources with tokens instead of user passwords. The most common secure web flow is Authorization Code with PKCE.",
+      "excerpt": "OAuth 2.0 is a delegated authorization framework: it lets a client obtain scoped access tokens for a resource server without handling the user's password. The modern default for user-facing apps is Authorization Code with PKCE; login identity is OpenID Connect, not OAuth alone.",
       "tags": [
         "resource",
         "security-privacy"
@@ -13068,7 +13068,7 @@
       "label": "OWASP Top 10",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "The OWASP Top 10 is a widely used awareness document for the most critical web application security risks, with OWASP listing the 2025 release as the current version. It is a starting point for secure engineering, not a complete security program.",
+      "excerpt": "The OWASP Top 10 is a developer-facing awareness standard for major web application security risk categories; OWASP lists the 2025 release as the current version. Use it as a shared vocabulary and review checklist, not as proof that an application is secure.",
       "tags": [
         "resource",
         "security-privacy"
@@ -13080,7 +13080,7 @@
       "label": "OpenID Connect (OIDC)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "OpenID Connect adds an identity layer on top of OAuth 2.0 so applications can authenticate users. It introduces ID tokens, standard user claims, discovery metadata, and login-oriented flows.",
+      "excerpt": "OpenID Connect adds a standardized authentication layer to OAuth 2.0. It issues ID tokens with identity claims, discovery metadata, and JWKS-based signing keys so applications can implement login without inventing their own identity protocol.",
       "tags": [
         "resource",
         "security-privacy"
@@ -13109,14 +13109,14 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Security & Privacy/Password Hashing (bcrypt, Argon2, scrypt)",
       "label": "Password Hashing (bcrypt, Argon2, scrypt)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Password hashing protects stored passwords by using slow, salted, one-way functions such as bcrypt, Argon2, or scrypt. The goal is to make offline cracking expensive even if the password database leaks.",
+      "excerpt": "Password hashing protects stored passwords after database compromise by using salted, deliberately expensive, one-way functions. Argon2id, bcrypt, and scrypt slow offline guessing; they must be paired with rate limiting, MFA, breach checks, reset hygiene, and parameter upgrades over time.",
       "tags": [
         "resource",
         "security-privacy"
@@ -13164,7 +13164,7 @@
       "label": "SQL Injection — Prevention",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "SQL injection occurs when untrusted input becomes executable SQL. Prevention depends on parameterized queries, safe query builders, least-privilege database accounts, validation, and avoiding string-built SQL.",
+      "excerpt": "SQL injection happens when untrusted input is interpreted as SQL syntax instead of data. The primary defense is parameterized queries or safe query builders, backed by allowlisted dynamic identifiers, least-privilege database roles, safe errors, and tests around high-risk query paths.",
       "tags": [
         "resource",
         "security-privacy"
@@ -13181,7 +13181,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Security & Privacy/Security Auditing",
@@ -13193,14 +13193,14 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 16
+      "degree": 15
     },
     {
       "id": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)",
       "label": "Security Headers (CSP, HSTS, X-Frame-Options)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Security headers tell browsers to enforce protections around scripts, transport security, framing, content sniffing, referrers, and permissions. They are low-cost defense-in-depth controls, but they must be configured deliberately and tested.",
+      "excerpt": "Security headers let servers ask browsers to enforce defenses around scripts, HTTPS, framing, MIME sniffing, referrers, and powerful APIs. They are cheap defense in depth, but CSP and HSTS in particular need deliberate rollout and testing to avoid breaking the app or locking in bad config.",
       "tags": [
         "resource",
         "security-privacy"
@@ -13212,7 +13212,7 @@
       "label": "Session Management",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Session management keeps users authenticated across requests while controlling token lifetime, storage, renewal, invalidation, and theft risk. Secure sessions depend on cookie flags, rotation, expiration, CSRF defenses, and server-side authorization checks.",
+      "excerpt": "Session management keeps an authenticated user connected across stateless HTTP requests while limiting theft, fixation, replay, and excessive lifetime. Secure sessions require high-entropy identifiers, safe cookie flags, rotation on privilege changes, expiration, invalidation, CSRF defenses, and server-side authorization.",
       "tags": [
         "resource",
         "security-privacy"
@@ -13241,7 +13241,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/Security & Privacy/Threat Modeling (STRIDE)",
@@ -13304,7 +13304,7 @@
         "engineering",
         "interview-prep"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/Sleep Science/Alcohol and Sleep Quality",
@@ -30473,7 +30473,7 @@
     },
     {
       "source": "Resources/Security & Privacy/OWASP Top 10",
-      "target": "Resources/Security Deep Dive"
+      "target": "Resources/Security & Privacy/Supply Chain Security"
     },
     {
       "source": "Resources/Security & Privacy/OpenID Connect (OIDC)",
@@ -30525,15 +30525,15 @@
     },
     {
       "source": "Resources/Security & Privacy/Password Hashing (bcrypt, Argon2, scrypt)",
-      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
-    },
-    {
-      "source": "Resources/Security & Privacy/Password Hashing (bcrypt, Argon2, scrypt)",
       "target": "Resources/Security & Privacy/Authentication vs Authorization"
     },
     {
       "source": "Resources/Security & Privacy/Password Hashing (bcrypt, Argon2, scrypt)",
-      "target": "Resources/Security & Privacy/Security Auditing"
+      "target": "Resources/Security & Privacy/Passkeys and Hardware Security Keys (WebAuthn)"
+    },
+    {
+      "source": "Resources/Security & Privacy/Password Hashing (bcrypt, Argon2, scrypt)",
+      "target": "Resources/Security & Privacy/Secrets Scanning (GitGuardian, truffleHog)"
     },
     {
       "source": "Resources/Security & Privacy/Password Hashing (bcrypt, Argon2, scrypt)",
@@ -30589,7 +30589,7 @@
     },
     {
       "source": "Resources/Security & Privacy/SQL Injection — Prevention",
-      "target": "Resources/Databases"
+      "target": "Resources/Data Science & Analytics/SQL for Analytics"
     },
     {
       "source": "Resources/Security & Privacy/SQL Injection — Prevention",
@@ -34072,5 +34072,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-31T21:22:18Z"
+  "generated_at": "2026-05-31T21:29:37Z"
 }
