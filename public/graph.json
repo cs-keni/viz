@@ -647,7 +647,7 @@
       "tags": [
         "daily"
       ],
-      "degree": 0
+      "degree": 1
     },
     {
       "id": "Data Visualization Best Practices",
@@ -1063,15 +1063,6 @@
       "degree": 1
     },
     {
-      "id": "Object-Oriented Programming Concepts",
-      "label": "Object-Oriented Programming Concepts",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Open Source Contributing",
       "label": "Open Source Contributing",
       "folder": null,
@@ -1238,6 +1229,15 @@
         "jetpack-compose"
       ],
       "degree": 3
+    },
+    {
+      "id": "Prototype",
+      "label": "Prototype",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "Public Key Cryptography",
@@ -1989,7 +1989,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 12
+      "degree": 11
     },
     {
       "id": "Resources/Agent Evaluation",
@@ -4355,7 +4355,7 @@
         "study",
         "systems"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/Data Science & Analytics/A-B Testing Design",
@@ -5371,7 +5371,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/DevOps & Infrastructure/Disk I-O Optimization",
@@ -12374,7 +12374,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/Programming Languages/DSL Design",
@@ -12489,19 +12489,19 @@
       "label": "JavaScript — Closures",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "JavaScript closures let functions retain access to variables from their lexical scope after the outer function has returned. They enable callbacks, encapsulation, function factories, and many async patterns.",
+      "excerpt": "A closure is a function bundled with its lexical environment — references to variables from outer scopes that remain alive as long as the closure exists. Every JavaScript function is a closure. Key patterns: encapsulation (private state via closure), module pattern (IIFE returning API object), factory functions, memoization, debounce/throttle. Classic bug: var in loops closes over the same variable (all callbacks share the final value); fix with let (block scope) or IIFE. Memory leak: closures inadvertently retaining large DOM nodes or arrays.",
       "tags": [
         "resource",
         "programming-languages"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Programming Languages/JavaScript — Promises and Async-Await",
       "label": "JavaScript — Promises and Async-Await",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "JavaScript promises represent future completion or failure of asynchronous work, and async/await provides structured syntax for using them. Understanding promise states, chaining, microtasks, and error propagation is essential for modern JS.",
+      "excerpt": "Promises represent a future value — pending → fulfilled (value) or rejected (reason). .then()/.catch() chain reactions as microtasks. async/await is syntactic sugar: async functions always return a Promise, await suspends the function and resumes in a microtask. Key patterns: Promise.all (fail-fast parallel), Promise.allSettled (wait for all), Promise.race (first to settle), Promise.any (first to succeed). Common mistakes: forgetting await (fires but ignores result), sequential awaits when parallel is possible, not catching rejections.",
       "tags": [
         "resource",
         "programming-languages"
@@ -12513,7 +12513,7 @@
       "label": "JavaScript — Prototypes and Prototype Chain",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "JavaScript inheritance is prototype-based: objects delegate property lookup through a prototype chain. Classes in modern JavaScript are syntax over this prototype model, not a separate class-based runtime.",
+      "excerpt": "JavaScript uses prototype-based inheritance: every object has an internal [[Prototype]] link to another object (or null). Property lookup walks this chain until found or null is reached — O(chain length). Constructor functions set up the chain via .prototype; ES6 class syntax is syntactic sugar over the same prototype mechanism. Object.create(proto) creates an object with a specific prototype. Prototype pollution is a security vulnerability: if untrusted input can set __proto__ or constructor.prototype, it poisons all object instances.",
       "tags": [
         "resource",
         "programming-languages"
@@ -12525,7 +12525,7 @@
       "label": "JavaScript — The Event Loop",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "JavaScript's event loop coordinates call stack execution, queued tasks, microtasks, timers, and asynchronous callbacks. It explains why nonblocking I/O works and why long synchronous work freezes the page or server.",
+      "excerpt": "JavaScript is single-threaded: one call stack, executed to completion before anything else runs. The event loop coordinates three queues in priority order: synchronous code (call stack) → microtasks (Promise reactions, queueMicrotask) → macrotasks (setTimeout, setInterval, I/O callbacks). Microtasks drain completely before the next macrotask begins. Node.js adds phases: timers → pending I/O → idle → poll → check (setImmediate) → close callbacks. Long synchronous work blocks everything — rendering, user input, callbacks — which is why you never sleep() in JS.",
       "tags": [
         "resource",
         "programming-languages"
@@ -12585,7 +12585,7 @@
       "label": "Python — Async-Await and asyncio",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Python async/await and asyncio provide cooperative concurrency for many waiting tasks. They are strongest for I/O-heavy workloads where coroutines can yield control while sockets, timers, subprocesses, or queues wait.",
+      "excerpt": "Python asyncio provides cooperative concurrency: one thread, multiple coroutines that voluntarily yield control at `await` points. `async def` defines a coroutine; `await` suspends until an awaitable completes. asyncio.gather() runs multiple coroutines concurrently. asyncio.create_task() schedules a coroutine independently. The critical footgun: any blocking call (time.sleep, requests.get, file I/O) freezes the entire event loop — use asyncio.sleep, aiohttp, aiofiles instead. Best for: high-concurrency I/O servers (thousands of simultaneous connections) where threads would be too heavy.",
       "tags": [
         "resource",
         "programming-languages"
@@ -12597,19 +12597,7 @@
       "label": "Python — Context Managers",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Python context managers define setup and cleanup around a block using the `with` statement. They make resource handling deterministic for files, locks, transactions, temporary state, and cleanup-heavy workflows.",
-      "tags": [
-        "resource",
-        "programming-languages"
-      ],
-      "degree": 5
-    },
-    {
-      "id": "Resources/Programming Languages/Python — Decorators Deep Dive",
-      "label": "Python — Decorators Deep Dive",
-      "folder": "Resources",
-      "created": "2026-05-25",
-      "excerpt": "Python decorators wrap functions, methods, or classes to modify behavior without changing the decorated object's source body. They are useful for logging, caching, authorization, validation, registration, retries, and framework metadata.",
+      "excerpt": "Context managers implement __enter__ and __exit__ for guaranteed setup and teardown — even if exceptions occur. The 'with' statement calls __enter__ at entry and __exit__ at exit with exception info (return True to suppress). @contextmanager lets you write context managers as generator functions with a single yield. contextlib.ExitStack manages multiple dynamic context managers. Real uses: file handles, database transactions, locks, temporary directory/env, mocking. async with uses __aenter__/__aexit__ for async resources.",
       "tags": [
         "resource",
         "programming-languages"
@@ -12617,11 +12605,23 @@
       "degree": 7
     },
     {
+      "id": "Resources/Programming Languages/Python — Decorators Deep Dive",
+      "label": "Python — Decorators Deep Dive",
+      "folder": "Resources",
+      "created": "2026-05-25",
+      "excerpt": "A decorator is callable syntax sugar: @dec above 'def f' is equivalent to 'f = dec(f)'. Decorators receive a function (or class) and return a replacement. functools.wraps is mandatory when wrapping — it copies __name__, __doc__, __module__ so debugging, introspection, and frameworks (FastAPI, pytest) work correctly. Decorator factories take arguments and return decorators. Stacked decorators apply bottom-up at definition time. Common built-ins: @property (computed attributes), @staticmethod, @classmethod, @lru_cache, @dataclass.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 9
+    },
+    {
       "id": "Resources/Programming Languages/Python — GIL and Concurrency",
       "label": "Python — GIL and Concurrency",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Python concurrency is shaped by CPython's Global Interpreter Lock, which historically allowed only one thread to execute Python bytecode at a time. New free-threaded CPython builds change that story, but compatibility and extension support still matter.",
+      "excerpt": "CPython's Global Interpreter Lock (GIL) is a mutex that prevents multiple threads from executing Python bytecode simultaneously. This means CPU-bound multi-threaded Python does NOT parallelize — two threads on a 4-core machine use ~1 core. The GIL is released during I/O and by C extensions that explicitly release it (NumPy, OpenSSL). Fix CPU-bound work with multiprocessing (separate processes, no GIL) or NumPy/Cython/C extensions. Python 3.13 introduces free-threaded CPython (PEP 703) — GIL optional, but extension compatibility is still maturing.",
       "tags": [
         "resource",
         "programming-languages"
@@ -12633,12 +12633,12 @@
       "label": "Python — Generators and Iterators",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Python iterators provide a uniform protocol for pulling values one at a time, while generators create iterators with paused function state. They make lazy pipelines, streaming data, and memory-efficient traversal natural.",
+      "excerpt": "Python's iterator protocol: __iter__() returns self, __next__() returns the next value or raises StopIteration. Generator functions use 'yield' to produce values lazily — the function's frame is paused and resumed on each next() call, retaining all local state. 'yield from' delegates to a sub-generator. Generators are single-pass, memory-efficient: processing a 10GB log file with a generator uses O(1) memory. send() enables bidirectional communication (coroutine-like). Async generators combine 'async def' + 'yield' for async iteration.",
       "tags": [
         "resource",
         "programming-languages"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Programming Languages/Python — Internals and CPython",
@@ -15229,7 +15229,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 16
+      "degree": 15
     },
     {
       "id": "Resources/System Design/Scalability — Horizontal vs Vertical",
@@ -15700,7 +15700,7 @@
         "resource",
         "web-technologies"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/Web Technologies/Web Scraping Ethics and Techniques",
@@ -16124,6 +16124,15 @@
       "degree": 1
     },
     {
+      "id": "vs [ conditionals, getopts argument parsing, retry-with-backoff function, lockfile pattern, heredoc, process substitution, when-to-use-Python threshold (~50 lines), common gotchas table\n\n**Notes created or updated**\n- `Resources/DevOps & Infrastructure/Database Migrations Best Practices.md`\n- `Resources/DevOps & Infrastructure/Cron Jobs and Task Scheduling.md`\n- `Resources/DevOps & Infrastructure/systemd — Service and Process Management.md`\n- `Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O).md`\n- `Resources/DevOps & Infrastructure/Disk I-O Optimization.md`\n- `Resources/DevOps & Infrastructure/Memory Management in Operating Systems.md`\n- `Resources/DevOps & Infrastructure/Linux Command Line Essentials.md`\n- `Resources/DevOps & Infrastructure/Bash Scripting.md`\n\n**Open threads**\n- Wave 2-F complete. Next: Wave 2-G (CS Theory & Algorithms), starting with Batch G1 — Core Data Structures (9 notes)",
+      "label": "Bash Scripting.md`\n\n**Open threads**\n- Wave 2-F complete. Next: Wave 2-G (CS Theory & Algorithms), starting with Batch G1 — Core Data Structures (9 notes)",
+      "folder": "vs [ conditionals, getopts argument parsing, retry-with-backoff function, lockfile pattern, heredoc, process substitution, when-to-use-Python threshold (~50 lines), common gotchas table\n\n**Notes created or updated**\n- `Resources",
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "vs [ vs test",
       "label": "vs [ vs test",
       "folder": null,
@@ -16182,6 +16191,10 @@
     {
       "source": "Daily Notes/2026-05-19",
       "target": "VAULT_INDEX"
+    },
+    {
+      "source": "Daily Notes/2026-05-30",
+      "target": "vs [ conditionals, getopts argument parsing, retry-with-backoff function, lockfile pattern, heredoc, process substitution, when-to-use-Python threshold (~50 lines), common gotchas table\n\n**Notes created or updated**\n- `Resources/DevOps & Infrastructure/Database Migrations Best Practices.md`\n- `Resources/DevOps & Infrastructure/Cron Jobs and Task Scheduling.md`\n- `Resources/DevOps & Infrastructure/systemd — Service and Process Management.md`\n- `Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O).md`\n- `Resources/DevOps & Infrastructure/Disk I-O Optimization.md`\n- `Resources/DevOps & Infrastructure/Memory Management in Operating Systems.md`\n- `Resources/DevOps & Infrastructure/Linux Command Line Essentials.md`\n- `Resources/DevOps & Infrastructure/Bash Scripting.md`\n\n**Open threads**\n- Wave 2-F complete. Next: Wave 2-G (CS Theory & Algorithms), starting with Batch G1 — Core Data Structures (9 notes)"
     },
     {
       "source": "Maps/Bobby",
@@ -29717,7 +29730,7 @@
     },
     {
       "source": "Resources/Programming Languages/JavaScript — Prototypes and Prototype Chain",
-      "target": "Object-Oriented Programming Concepts"
+      "target": "Prototype"
     },
     {
       "source": "Resources/Programming Languages/JavaScript — Prototypes and Prototype Chain",
@@ -29733,6 +29746,10 @@
     },
     {
       "source": "Resources/Programming Languages/JavaScript — The Event Loop",
+      "target": "Resources/Programming Languages/JavaScript — Closures"
+    },
+    {
+      "source": "Resources/Programming Languages/JavaScript — The Event Loop",
       "target": "Resources/Programming Languages/JavaScript — Promises and Async-Await"
     },
     {
@@ -29742,10 +29759,6 @@
     {
       "source": "Resources/Programming Languages/JavaScript — The Event Loop",
       "target": "Resources/Web Technologies/How Browsers Work (Parsing, Rendering, Compositing)"
-    },
-    {
-      "source": "Resources/Programming Languages/JavaScript — The Event Loop",
-      "target": "Resources/Web Technologies/Web Performance Optimization"
     },
     {
       "source": "Resources/Programming Languages/Language Design Tradeoffs",
@@ -29813,11 +29826,11 @@
     },
     {
       "source": "Resources/Programming Languages/Python — Async-Await and asyncio",
-      "target": "Resources/Programming Languages/Concurrency Primitives (Mutex, Semaphore, Condition Variable)"
+      "target": "Resources/Programming Languages/JavaScript — The Event Loop"
     },
     {
       "source": "Resources/Programming Languages/Python — Async-Await and asyncio",
-      "target": "Resources/Programming Languages/JavaScript — The Event Loop"
+      "target": "Resources/Programming Languages/Python — Context Managers"
     },
     {
       "source": "Resources/Programming Languages/Python — Async-Await and asyncio",
@@ -29825,11 +29838,7 @@
     },
     {
       "source": "Resources/Programming Languages/Python — Async-Await and asyncio",
-      "target": "Resources/System Design/Real-Time Systems Design"
-    },
-    {
-      "source": "Resources/Programming Languages/Python — Context Managers",
-      "target": "Resources/DevOps & Infrastructure/Database Migrations Best Practices"
+      "target": "Resources/Programming Languages/Python — Generators and Iterators"
     },
     {
       "source": "Resources/Programming Languages/Python — Context Managers",
@@ -29841,6 +29850,10 @@
     },
     {
       "source": "Resources/Programming Languages/Python — Context Managers",
+      "target": "Resources/Programming Languages/Python — Decorators Deep Dive"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Context Managers",
       "target": "Resources/Programming Languages/Python — Generators and Iterators"
     },
     {
@@ -29849,11 +29862,11 @@
     },
     {
       "source": "Resources/Programming Languages/Python — Decorators Deep Dive",
-      "target": "Resources/API Design"
+      "target": "Resources/Programming Languages/Functional Programming Concepts"
     },
     {
       "source": "Resources/Programming Languages/Python — Decorators Deep Dive",
-      "target": "Resources/Programming Languages/Functional Programming Concepts"
+      "target": "Resources/Programming Languages/Python — Context Managers"
     },
     {
       "source": "Resources/Programming Languages/Python — Decorators Deep Dive",
@@ -29877,10 +29890,6 @@
     },
     {
       "source": "Resources/Programming Languages/Python — Generators and Iterators",
-      "target": "Resources/Data Engineering"
-    },
-    {
-      "source": "Resources/Programming Languages/Python — Generators and Iterators",
       "target": "Resources/DevOps & Infrastructure/Memory Management in Operating Systems"
     },
     {
@@ -29890,6 +29899,10 @@
     {
       "source": "Resources/Programming Languages/Python — Generators and Iterators",
       "target": "Resources/Programming Languages/Python — Context Managers"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Generators and Iterators",
+      "target": "Resources/Programming Languages/Python — Decorators Deep Dive"
     },
     {
       "source": "Resources/Programming Languages/Python — Internals and CPython",
@@ -33936,5 +33949,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-31T02:07:51Z"
+  "generated_at": "2026-05-31T02:21:38Z"
 }
