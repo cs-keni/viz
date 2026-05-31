@@ -4597,7 +4597,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Data Science & Analytics/Handling Missing Data",
@@ -4850,12 +4850,12 @@
       "label": "Database Normalization (1NF through BCNF)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Database normalization reduces redundancy and update anomalies by decomposing tables according to dependency rules. The practical point is preserving facts once, in the right place, unless performance demands a documented exception.",
+      "excerpt": "Normalization decomposes relational tables so each fact depends on the right key and update anomalies do not leak into application code. The useful version is practical: identify functional dependencies, split mixed-grain tables, and denormalize only with documented maintenance rules.",
       "tags": [
         "resource",
         "database-systems"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Database Systems/Full-Text Search (PostgreSQL FTS, Elasticsearch, Typesense)",
@@ -4874,12 +4874,12 @@
       "label": "NoSQL — Document Stores (MongoDB)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Document stores organize data as flexible JSON-like documents, often optimizing for aggregate-oriented reads and schema evolution. MongoDB is the common reference point, but document databases still require intentional modeling.",
+      "excerpt": "Document stores such as MongoDB store JSON-like documents and optimize for aggregate-oriented reads, flexible schema evolution, and horizontal scaling patterns. The design skill is choosing embed vs reference based on access patterns, document growth, consistency needs, and index shape.",
       "tags": [
         "resource",
         "database-systems"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Database Systems/NoSQL — Graph Databases (Neo4j)",
@@ -4946,12 +4946,12 @@
       "label": "PostgreSQL — Advanced Features (JSONB, Arrays, Extensions)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "PostgreSQL goes beyond classic relational storage with JSONB, arrays, full-text search, extensions, custom types, and strong indexing. Its strength is being a reliable relational core that can absorb many adjacent workloads.",
+      "excerpt": "PostgreSQL combines a strong relational core with JSONB, arrays, generated columns, partial indexes, full-text search, and extensions like PostGIS and pg_trgm. The pragmatic lesson is to use these features when they preserve one reliable system of record, but keep queryability, indexing, and constraints explicit.",
       "tags": [
         "resource",
         "database-systems"
       ],
-      "degree": 7
+      "degree": 10
     },
     {
       "id": "Resources/Database Systems/Redis Patterns (Caching, Pub Sub, Job Queues, Rate Limiting)",
@@ -4970,55 +4970,43 @@
       "label": "Relational Database Design",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Relational database design models data as tables, rows, relationships, keys, and constraints. Good schema design makes invariants explicit so application code is not the only thing protecting correctness.",
+      "excerpt": "Relational database design models durable facts as tables, keys, relationships, and constraints so correctness is enforced by the database, not only by application code. The practical skill is choosing the right grain for each table and making invariants explicit with keys, foreign keys, uniqueness, checks, and transactions.",
       "tags": [
         "resource",
         "database-systems"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/Database Systems/SQL — Indexes and Query Plans (EXPLAIN)",
       "label": "SQL — Indexes and Query Plans (EXPLAIN)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Indexes give databases faster access paths, while query plans show how the optimizer intends to execute SQL. EXPLAIN turns performance work from guessing into inspection.",
+      "excerpt": "Indexes create alternate access paths, and EXPLAIN shows how the optimizer plans to use them. The practical skill is matching index shape to query predicates, sort order, joins, and selectivity, then comparing estimated rows to actual rows.",
       "tags": [
         "resource",
         "database-systems"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/Database Systems/SQL — Joins (Inner, Left, Right, Full, Cross)",
       "label": "SQL — Joins (Inner, Left, Right, Full, Cross)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "SQL joins combine rows across tables using relationship predicates. Understanding inner, outer, and cross joins is essential for reading query intent and avoiding accidental row multiplication.",
+      "excerpt": "SQL joins combine rows by matching predicates, usually primary-key to foreign-key relationships. The main practical risks are accidental row multiplication, predicates in the wrong clause, and aggregating after joining at the wrong grain.",
       "tags": [
         "resource",
         "database-systems"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Database Systems/SQL — Subqueries and CTEs",
       "label": "SQL — Subqueries and CTEs",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Subqueries and common table expressions break SQL logic into nested or named steps. They improve readability when used well, but can also hide expensive intermediate work.",
-      "tags": [
-        "resource",
-        "database-systems"
-      ],
-      "degree": 4
-    },
-    {
-      "id": "Resources/Database Systems/SQL — Transactions and ACID Properties",
-      "label": "SQL — Transactions and ACID Properties",
-      "folder": "Resources",
-      "created": "2026-05-26",
-      "excerpt": "SQL transactions group work so it commits or rolls back as one unit. ACID captures atomicity, consistency, isolation, and durability: the core guarantees behind reliable relational state changes.",
+      "excerpt": "Subqueries and common table expressions express multi-step SQL logic inside one statement. Use them to name query stages, test existence, pre-aggregate at the right grain, and traverse hierarchies, but verify with EXPLAIN because readability can hide repeated work or materialization.",
       "tags": [
         "resource",
         "database-systems"
@@ -5026,16 +5014,28 @@
       "degree": 5
     },
     {
-      "id": "Resources/Database Systems/SQLite — Use Cases and Limits",
-      "label": "SQLite — Use Cases and Limits",
+      "id": "Resources/Database Systems/SQL — Transactions and ACID Properties",
+      "label": "SQL — Transactions and ACID Properties",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "SQLite is an embedded relational database stored in a local file. It is excellent for local apps, prototypes, edge deployments, tests, and small services, but it is not a drop-in replacement for client-server databases under high write concurrency.",
+      "excerpt": "Transactions group database changes so coupled state moves atomically and concurrent work sees controlled versions of reality. ACID is practical engineering: atomic commits, constraint-preserving state, isolation levels with known anomalies, and durability through logs/checkpoints/backups.",
       "tags": [
         "resource",
         "database-systems"
       ],
-      "degree": 3
+      "degree": 8
+    },
+    {
+      "id": "Resources/Database Systems/SQLite — Use Cases and Limits",
+      "label": "SQLite — Use Cases and Limits",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "SQLite is an embedded relational database: the app links the engine and stores the database in a local file. It is excellent for local-first apps, mobile, CLIs, tests, edge deployments, and small services, but write concurrency, network access, and multi-process operations define its limits.",
+      "tags": [
+        "resource",
+        "database-systems"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Database Systems/Time Series Databases (InfluxDB, TimescaleDB)",
@@ -20504,6 +20504,10 @@
       "target": "Resources/Database Systems/Relational Database Design"
     },
     {
+      "source": "Resources/Database Systems/Database Normalization (1NF through BCNF)",
+      "target": "Resources/Database Systems/SQL — Joins (Inner, Left, Right, Full, Cross)"
+    },
+    {
       "source": "Resources/Database Systems/Full-Text Search (PostgreSQL FTS, Elasticsearch, Typesense)",
       "target": "Resources/AI & Machine Learning/Semantic Search vs Keyword Search"
     },
@@ -20522,6 +20526,10 @@
     {
       "source": "Resources/Database Systems/NoSQL — Document Stores (MongoDB)",
       "target": "Resources/Database Systems/NoSQL — Graph Databases (Neo4j)"
+    },
+    {
+      "source": "Resources/Database Systems/NoSQL — Document Stores (MongoDB)",
+      "target": "Resources/Database Systems/PostgreSQL — Advanced Features (JSONB, Arrays, Extensions)"
     },
     {
       "source": "Resources/Database Systems/NoSQL — Document Stores (MongoDB)",
@@ -20597,6 +20605,10 @@
     },
     {
       "source": "Resources/Database Systems/PostgreSQL — Advanced Features (JSONB, Arrays, Extensions)",
+      "target": "Resources/Database Systems/SQL — Indexes and Query Plans (EXPLAIN)"
+    },
+    {
+      "source": "Resources/Database Systems/PostgreSQL — Advanced Features (JSONB, Arrays, Extensions)",
       "target": "Resources/Geospatial"
     },
     {
@@ -20624,6 +20636,10 @@
       "target": "Resources/Database Systems/SQL — Joins (Inner, Left, Right, Full, Cross)"
     },
     {
+      "source": "Resources/Database Systems/Relational Database Design",
+      "target": "Resources/Database Systems/SQL — Transactions and ACID Properties"
+    },
+    {
       "source": "Resources/Database Systems/SQL — Indexes and Query Plans (EXPLAIN)",
       "target": "Resources/Database Systems/Database Connection Pooling (pgBouncer, SQLAlchemy)"
     },
@@ -20633,7 +20649,15 @@
     },
     {
       "source": "Resources/Database Systems/SQL — Indexes and Query Plans (EXPLAIN)",
+      "target": "Resources/Database Systems/PostgreSQL — Advanced Features (JSONB, Arrays, Extensions)"
+    },
+    {
+      "source": "Resources/Database Systems/SQL — Indexes and Query Plans (EXPLAIN)",
       "target": "Resources/Database Systems/SQL — Joins (Inner, Left, Right, Full, Cross)"
+    },
+    {
+      "source": "Resources/Database Systems/SQL — Joins (Inner, Left, Right, Full, Cross)",
+      "target": "Resources/Database Systems/Database Normalization (1NF through BCNF)"
     },
     {
       "source": "Resources/Database Systems/SQL — Joins (Inner, Left, Right, Full, Cross)",
@@ -20646,6 +20670,10 @@
     {
       "source": "Resources/Database Systems/SQL — Joins (Inner, Left, Right, Full, Cross)",
       "target": "Resources/Database Systems/SQL — Subqueries and CTEs"
+    },
+    {
+      "source": "Resources/Database Systems/SQL — Subqueries and CTEs",
+      "target": "Resources/Data Science & Analytics/Funnel Analysis"
     },
     {
       "source": "Resources/Database Systems/SQL — Subqueries and CTEs",
@@ -20669,6 +20697,10 @@
     },
     {
       "source": "Resources/Database Systems/SQL — Transactions and ACID Properties",
+      "target": "Resources/Database Systems/Relational Database Design"
+    },
+    {
+      "source": "Resources/Database Systems/SQL — Transactions and ACID Properties",
       "target": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)"
     },
     {
@@ -20678,6 +20710,10 @@
     {
       "source": "Resources/Database Systems/SQLite — Use Cases and Limits",
       "target": "Resources/Database Systems/Relational Database Design"
+    },
+    {
+      "source": "Resources/Database Systems/SQLite — Use Cases and Limits",
+      "target": "Resources/Database Systems/SQL — Transactions and ACID Properties"
     },
     {
       "source": "Resources/Database Systems/SQLite — Use Cases and Limits",
@@ -34072,5 +34108,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-31T21:57:40Z"
+  "generated_at": "2026-05-31T22:19:30Z"
 }
