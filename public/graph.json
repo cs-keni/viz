@@ -73,6 +73,15 @@
       "degree": 1
     },
     {
+      "id": "\"duration_days\", \"churned\", \"plan_pro\", \"sessions_7d\", \"team_size\"",
+      "label": "\"duration_days\", \"churned\", \"plan_pro\", \"sessions_7d\", \"team_size\"",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "\"plan\", \"sessions\", \"days_active\"",
       "label": "\"plan\", \"sessions\", \"days_active\"",
       "folder": null,
@@ -4384,7 +4393,7 @@
         "study",
         "systems"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Data Science & Analytics/A-B Testing Design",
@@ -4451,7 +4460,7 @@
       "label": "Cohort Analysis",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Cohort analysis groups users or entities by a shared start condition and tracks behavior over time. It is especially useful for retention, activation, lifecycle, and product-quality questions.",
+      "excerpt": "Cohort analysis groups users or entities by a shared start condition and tracks behavior over age/time so aggregate growth does not hide retention quality. It is essential for activation, retention, lifecycle, subscription, and product-change analysis.",
       "tags": [
         "resource",
         "data-science-analytics"
@@ -4475,7 +4484,7 @@
       "label": "Dashboard Design Principles",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Dashboard design organizes metrics so users can monitor status, diagnose changes, and act. Effective dashboards prioritize audience, metric definitions, hierarchy, freshness, comparisons, and drill-down paths.",
+      "excerpt": "Dashboard design turns metrics into an operational decision surface for a specific audience. Good dashboards expose current status, trend, target, freshness, definitions, and drill-down paths; bad dashboards collect charts without a decision loop.",
       "tags": [
         "resource",
         "data-science-analytics"
@@ -4492,19 +4501,19 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Data Science & Analytics/Data Lake Architecture",
       "label": "Data Lake Architecture",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Data lake architecture stores raw and processed data in scalable object storage for analytics, ML, and archival use. Its value depends on metadata, governance, file formats, partitioning, and transformation discipline.",
+      "excerpt": "Data lake architecture stores raw, semi-structured, and curated data in cheap object storage, then adds metadata, table formats, governance, and transformation layers so it remains queryable. Without catalogs, partitioning, quality checks, and ownership, a lake becomes a data swamp.",
       "tags": [
         "resource",
         "data-science-analytics"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/Data Science & Analytics/Data Normalization and Scaling",
@@ -4523,7 +4532,7 @@
       "label": "Data Warehousing Concepts",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Data warehousing organizes cleaned, queryable data for analytics and reporting. Core concepts include facts, dimensions, star schemas, slowly changing dimensions, marts, lineage, and governance.",
+      "excerpt": "Data warehousing organizes operational data into consistent analytical models: facts, dimensions, star schemas, marts, lineage, tests, and governed definitions. Its value is shared truth: teams can ask product and business questions without rebuilding conflicting metrics from raw tables.",
       "tags": [
         "resource",
         "data-science-analytics"
@@ -4547,7 +4556,7 @@
       "label": "ETL vs ELT",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "ETL transforms data before loading it into a target store, while ELT loads raw data first and transforms it inside the warehouse or lakehouse. The choice affects governance, cost, flexibility, and pipeline ownership.",
+      "excerpt": "ETL transforms data before loading it into the target store; ELT loads raw data first and transforms it inside the warehouse or lakehouse. The right choice depends on privacy, governance, cost, compute location, reprocessing needs, and who owns transformation logic.",
       "tags": [
         "resource",
         "data-science-analytics"
@@ -4583,7 +4592,7 @@
       "label": "Funnel Analysis",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Funnel analysis measures how users move through a sequence of steps toward a goal. It identifies drop-off points, conversion rates, and where product or process changes may matter most.",
+      "excerpt": "Funnel analysis measures how users progress through an ordered sequence toward a goal, exposing step-level conversion, drop-off, and segment differences. Correct funnels require exact event definitions, identity resolution, ordering rules, time windows, and guardrails so conversion gains do not hide lower-quality users.",
       "tags": [
         "resource",
         "data-science-analytics"
@@ -4619,19 +4628,19 @@
       "label": "Metrics and KPIs — How to Choose",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Choosing metrics and KPIs means deciding what behavior the team should optimize and monitor. Strong metrics are aligned with goals, hard to game, clearly defined, and paired with guardrails.",
+      "excerpt": "Choosing metrics and KPIs means choosing incentives: what the team will notice, optimize, and trade off. Strong metrics have precise definitions, clear ownership, decision relevance, guardrails, and resistance to gaming.",
       "tags": [
         "resource",
         "data-science-analytics"
       ],
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "Resources/Data Science & Analytics/OLAP vs OLTP",
       "label": "OLAP vs OLTP",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "OLTP systems handle live transactions, while OLAP systems support analytical queries over large historical datasets. Confusing the two leads to slow apps, expensive queries, and unreliable reporting.",
+      "excerpt": "OLTP systems run live business transactions with low-latency correctness, while OLAP systems scan and aggregate historical data for analysis. The architecture boundary matters because analytical queries can lock, slow, or distort production systems if run against transactional databases directly.",
       "tags": [
         "resource",
         "data-science-analytics"
@@ -4679,7 +4688,7 @@
       "label": "SQL Window Functions",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "SQL window functions compute values across related rows without collapsing the result set. They are essential for rankings, running totals, moving averages, retention analysis, and event-sequence queries.",
+      "excerpt": "SQL window functions compute rankings, lag comparisons, cumulative totals, and rolling metrics across related rows while keeping row-level detail. The key mental model is partition, order, and frame: which rows are related, how they are sequenced, and which neighbors each calculation can see.",
       "tags": [
         "resource",
         "data-science-analytics"
@@ -4691,7 +4700,7 @@
       "label": "SQL for Analytics",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "SQL for analytics uses relational queries to answer business, product, and operational questions. The practical skill is joining, filtering, grouping, aggregating, and validating data without losing the meaning of the metric.",
+      "excerpt": "SQL for analytics turns relational tables into metric answers, but correctness depends on grain, joins, filters, time windows, and denominators. The practical skill is writing queries that match the metric definition and include sanity checks before anyone makes a decision from the result.",
       "tags": [
         "resource",
         "data-science-analytics"
@@ -4715,12 +4724,12 @@
       "label": "Survival Analysis",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Survival analysis models time until an event occurs, such as churn, failure, conversion, or relapse. It handles censored data where the event has not happened yet during the observation window.",
+      "excerpt": "Survival analysis models time until an event while correctly handling censored observations that have not yet experienced the event. It is the right tool for churn, reliability, conversion delay, relapse, retention, and any question where timing matters as much as occurrence.",
       "tags": [
         "resource",
         "data-science-analytics"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Data Science & Analytics/Time Series Analysis",
@@ -4739,7 +4748,7 @@
       "label": "Visualization Best Practices",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Visualization best practices help charts communicate patterns without distorting the data. Good visualizations choose the right chart type, scale, labeling, ordering, color, and context for the question.",
+      "excerpt": "Visualization best practices make comparisons truthful and fast to read: choose the chart for the question, preserve honest scale, label units and definitions, show uncertainty when it matters, and use color intentionally. A chart is good when it reduces misinterpretation, not when it merely looks polished.",
       "tags": [
         "resource",
         "data-science-analytics"
@@ -4751,7 +4760,7 @@
       "label": "dbt (Data Build Tool)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "dbt is a transformation tool that lets analytics teams build versioned, tested SQL models in the warehouse. It brings software engineering practices such as modularity, lineage, documentation, and CI to analytics work.",
+      "excerpt": "dbt turns warehouse SQL transformations into versioned, dependency-aware, tested models. It brings software-engineering discipline to analytics: modular SQL, lineage through ref(), source freshness, schema tests, documentation, environments, and CI.",
       "tags": [
         "resource",
         "data-science-analytics"
@@ -20020,7 +20029,7 @@
     },
     {
       "source": "Resources/Data Science & Analytics/Data Lake Architecture",
-      "target": "Resources/Data Engineering"
+      "target": "Resources/Data Science & Analytics/Data Cleaning Strategies"
     },
     {
       "source": "Resources/Data Science & Analytics/Data Lake Architecture",
@@ -20052,11 +20061,11 @@
     },
     {
       "source": "Resources/Data Science & Analytics/Data Warehousing Concepts",
-      "target": "Resources/Data Science & Analytics/Data Lake Architecture"
+      "target": "Resources/Data Science & Analytics/ETL vs ELT"
     },
     {
       "source": "Resources/Data Science & Analytics/Data Warehousing Concepts",
-      "target": "Resources/Data Science & Analytics/ETL vs ELT"
+      "target": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose"
     },
     {
       "source": "Resources/Data Science & Analytics/Data Warehousing Concepts",
@@ -20329,6 +20338,10 @@
     {
       "source": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)",
       "target": "Resources/Data Science & Analytics/Probability Theory Basics"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Survival Analysis",
+      "target": "\"duration_days\", \"churned\", \"plan_pro\", \"sessions_7d\", \"team_size\""
     },
     {
       "source": "Resources/Data Science & Analytics/Survival Analysis",
@@ -34059,5 +34072,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-31T21:15:27Z"
+  "generated_at": "2026-05-31T21:22:18Z"
 }
