@@ -722,15 +722,6 @@
       "degree": 1
     },
     {
-      "id": "Directed Acyclic Graphs",
-      "label": "Directed Acyclic Graphs",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Dopamine — Reward Prediction Error",
       "label": "Dopamine — Reward Prediction Error",
       "folder": null,
@@ -3218,7 +3209,7 @@
       "label": "Amortized Analysis",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Amortized analysis bounds the average cost per operation over a worst-case sequence, without relying on randomness. It explains why occasional expensive operations can still produce efficient long-run behavior.",
+      "excerpt": "Amortized analysis bounds the average cost per operation over a worst-case sequence — not a probabilistic average, but a guaranteed bound. Three methods: aggregate (total cost / n), accounting (assign 'credits' to cheap ops to pay for future expensive ops), potential (track 'stored work' in a potential function Φ). Classic examples: dynamic array append O(1) amortized via 2× doubling, stack multipop O(1) amortized per operation, DSU with path compression O(α(n)) amortized. Key distinction: amortized ≠ average-case — amortized gives worst-case guarantees over sequences.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
@@ -3254,12 +3245,12 @@
       "label": "B-Trees and B+ Trees",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "B-trees and B+ trees are balanced multiway search trees optimized for storage systems. They reduce disk and page reads by keeping many keys per node and shallow tree height.",
+      "excerpt": "B-trees and B+ trees are self-balancing search trees designed for block storage (disk/SSD). Each node holds many keys (order t means 2t-1 keys max per node) — keeping tree height ≤ log_t(n), meaning few disk reads per lookup. B+ trees differ from B-trees: internal nodes only hold keys for routing, all records live at leaf nodes, and leaves are linked in a doubly-linked list for range scans. PostgreSQL, MySQL InnoDB, SQLite all use B+ tree indexes. A B+ tree with page size 16KB holds ~1300 keys per internal node — a 3-level tree covers >2 billion rows.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/CS Theory & Algorithms/Backtracking",
@@ -3319,7 +3310,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns",
@@ -3331,19 +3322,19 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 11
+      "degree": 13
     },
     {
       "id": "Resources/CS Theory & Algorithms/Graph Traversal (BFS, DFS)",
       "label": "Graph Traversal (BFS, DFS)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Graph traversal systematically visits nodes and edges. Breadth-first search explores by distance layers, while depth-first search explores as far as possible before backtracking.",
+      "excerpt": "BFS explores by distance layers using a queue — guarantees shortest path in unweighted graphs. DFS explores as deep as possible before backtracking using recursion or an explicit stack. Both are O(V+E). BFS is the go-to for 'minimum steps/hops'; DFS for connected components, cycle detection, topological reasoning, and tree problems. The 2D grid as an implicit graph is the most common interview pattern — cells are nodes, 4-directional neighbors are edges.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 12
+      "degree": 14
     },
     {
       "id": "Resources/CS Theory & Algorithms/Graphs — Representations (Adjacency List vs Matrix)",
@@ -3355,7 +3346,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/CS Theory & Algorithms/Greedy Algorithms",
@@ -3391,7 +3382,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/CS Theory & Algorithms/Linked Lists (Singly, Doubly, Circular)",
@@ -3422,12 +3413,12 @@
       "label": "Minimum Spanning Trees (Kruskal, Prim)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Minimum spanning tree algorithms connect all vertices in a weighted undirected graph with minimum total edge cost and no cycles. Kruskal and Prim solve the same problem using different greedy strategies.",
+      "excerpt": "A minimum spanning tree connects all V vertices of a weighted undirected graph using exactly V-1 edges with minimum total weight. Kruskal's: sort all edges, greedily add cheapest edge that doesn't form a cycle (union-find for cycle detection) — O(E log E). Prim's: grow a tree from a start node by greedily adding the cheapest edge crossing the cut — O((V+E) log V) with a heap. Kruskal is better for sparse graphs, Prim for dense. The cut property justifies both: for any cut of the graph, the cheapest crossing edge is in some MST.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/CS Theory & Algorithms/NP-Completeness Overview",
@@ -3482,7 +3473,7 @@
       "label": "Segment Trees and Fenwick Trees",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Segment trees and Fenwick trees answer range queries while supporting updates efficiently. They are specialized data structures for sums, minimums, maximums, frequencies, and prefix-based calculations.",
+      "excerpt": "Segment trees and Fenwick trees both answer range queries + point updates in O(log n), vs O(n) for naive prefix sums when data changes. Segment tree: more powerful — supports range min/max/GCD/arbitrary associative operations, lazy propagation for range updates. Fenwick tree (BIT): simpler, less memory, only supports prefix-sum-based queries (range sum, frequency counting). Segment tree built on array of size 4n; Fenwick tree on array of size n+1. Both are log n but Fenwick has a smaller constant.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
@@ -3494,24 +3485,24 @@
       "label": "Shortest Path Algorithms (Dijkstra, Bellman-Ford, A-star, Floyd-Warshall)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Shortest path algorithms find low-cost routes through graphs. Dijkstra, Bellman-Ford, A*, and Floyd-Warshall differ in edge-weight assumptions, negative-weight support, heuristics, and all-pairs versus single-source scope.",
+      "excerpt": "Four shortest-path algorithms for four different constraints: BFS (unweighted), Dijkstra (non-negative weights, O((V+E) log V) with heap), Bellman-Ford (negative weights/cycles, O(VE)), A* (heuristic-guided single-target), Floyd-Warshall (all-pairs O(V³)). Dijkstra's key invariant: once a node is popped from the min-heap, its shortest distance is finalized — this breaks with negative edges. Negative cycles make shortest paths undefined because you can loop forever to decrease cost.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/CS Theory & Algorithms/Skip Lists",
       "label": "Skip Lists",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Skip lists maintain sorted order using layered linked lists with randomized promotion. They provide expected logarithmic search, insertion, and deletion while staying simpler than many balanced tree implementations.",
+      "excerpt": "A skip list is a sorted linked list with multiple 'express lane' levels. Each element is promoted to higher levels with probability p (typically 0.5), giving O(log n) expected search, insert, and delete. Unlike balanced BSTs (AVL, red-black), skip lists require no rotations — just random promotion. Redis uses a skip list for its sorted set (ZSET) because it supports O(log n) rank queries and range traversal naturally. Worst case is O(n) but this is astronomically unlikely with good randomness.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/CS Theory & Algorithms/Sliding Window Technique",
@@ -3578,12 +3569,12 @@
       "label": "Topological Sort",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Topological sort orders nodes in a directed acyclic graph so every dependency comes before the thing that depends on it. It is useful for build systems, course schedules, task planning, and dependency resolution.",
+      "excerpt": "Topological sort linearly orders vertices of a DAG so every directed edge u→v has u before v. Two algorithms: Kahn's BFS (repeatedly remove zero-indegree nodes — also detects cycles: if output has fewer than V nodes, a cycle exists) and DFS post-order (add each node to the front of a list when all its dependencies are done). O(V+E) for both. The canonical interview pattern: course schedule / task dependency problems.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black",
@@ -3595,7 +3586,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/CS Theory & Algorithms/Tries (Prefix Trees)",
@@ -3626,12 +3617,12 @@
       "label": "Union-Find (Disjoint Set Union)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Union-Find, or Disjoint Set Union, tracks which elements belong to the same connected component. Path compression and union by rank make repeated union and find operations nearly constant time in practice.",
+      "excerpt": "Union-Find (DSU) maintains a partition of n elements into disjoint sets. Two operations: find(x) returns the root/representative of x's set, union(x, y) merges two sets. With path compression + union by rank, both operations are nearly O(1) — amortized O(α(n)) where α is the inverse Ackermann function (effectively ≤ 5 for any practical n). Core uses: Kruskal's MST (cycle detection), dynamic connectivity, number of connected components, and grouping problems where merges happen incrementally.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Caching",
@@ -4760,7 +4751,7 @@
         "neetcode",
         "interview-prep"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/Database Internals Deep Dive",
@@ -8500,7 +8491,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 11
+      "degree": 9
     },
     {
       "id": "Resources/Mathematics/Boolean Algebra and Logic Gates",
@@ -8632,7 +8623,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 11
+      "degree": 8
     },
     {
       "id": "Resources/Mathematics/Information Theory — Entropy, Cross-Entropy, KL Divergence",
@@ -18531,11 +18522,11 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Amortized Analysis",
-      "target": "Resources/CS Theory & Algorithms/Union-Find (Disjoint Set Union)"
+      "target": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Amortized Analysis",
-      "target": "Resources/Mathematics/Big-O Notation and Complexity Analysis"
+      "target": "Resources/CS Theory & Algorithms/Union-Find (Disjoint Set Union)"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays",
@@ -18572,6 +18563,10 @@
     {
       "source": "Resources/CS Theory & Algorithms/Automata Theory Basics (DFA, NFA)",
       "target": "Resources/Mathematics/Boolean Algebra and Logic Gates"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/B-Trees and B+ Trees",
+      "target": "Resources/CS Theory & Algorithms/Skip Lists"
     },
     {
       "source": "Resources/CS Theory & Algorithms/B-Trees and B+ Trees",
@@ -18695,11 +18690,15 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Graph Traversal (BFS, DFS)",
+      "target": "Resources/CS Theory & Algorithms/Shortest Path Algorithms (Dijkstra, Bellman-Ford, A-star, Floyd-Warshall)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Graph Traversal (BFS, DFS)",
       "target": "Resources/CS Theory & Algorithms/Topological Sort"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Graph Traversal (BFS, DFS)",
-      "target": "Resources/Mathematics/Graph Theory Fundamentals"
+      "target": "Resources/CS Theory & Algorithms/Union-Find (Disjoint Set Union)"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Graphs — Representations (Adjacency List vs Matrix)",
@@ -18807,7 +18806,15 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Minimum Spanning Trees (Kruskal, Prim)",
+      "target": "Resources/CS Theory & Algorithms/Graphs — Representations (Adjacency List vs Matrix)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Minimum Spanning Trees (Kruskal, Prim)",
       "target": "Resources/CS Theory & Algorithms/Greedy Algorithms"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Minimum Spanning Trees (Kruskal, Prim)",
+      "target": "Resources/CS Theory & Algorithms/Heaps and Priority Queues"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Minimum Spanning Trees (Kruskal, Prim)",
@@ -18816,10 +18823,6 @@
     {
       "source": "Resources/CS Theory & Algorithms/Minimum Spanning Trees (Kruskal, Prim)",
       "target": "Resources/CS Theory & Algorithms/Union-Find (Disjoint Set Union)"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/Minimum Spanning Trees (Kruskal, Prim)",
-      "target": "Resources/Mathematics/Graph Theory Fundamentals"
     },
     {
       "source": "Resources/CS Theory & Algorithms/NP-Completeness Overview",
@@ -18891,15 +18894,19 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Segment Trees and Fenwick Trees",
+      "target": "Resources/CS Theory & Algorithms/Divide and Conquer"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Segment Trees and Fenwick Trees",
+      "target": "Resources/CS Theory & Algorithms/Heaps and Priority Queues"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Segment Trees and Fenwick Trees",
       "target": "Resources/CS Theory & Algorithms/Trees — Binary, BST, AVL, Red-Black"
     },
     {
-      "source": "Resources/CS Theory & Algorithms/Segment Trees and Fenwick Trees",
-      "target": "Resources/Data Structures and Algorithms Patterns"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/Segment Trees and Fenwick Trees",
-      "target": "Resources/Mathematics/Big-O Notation and Complexity Analysis"
+      "source": "Resources/CS Theory & Algorithms/Shortest Path Algorithms (Dijkstra, Bellman-Ford, A-star, Floyd-Warshall)",
+      "target": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Shortest Path Algorithms (Dijkstra, Bellman-Ford, A-star, Floyd-Warshall)",
@@ -19019,7 +19026,7 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Topological Sort",
-      "target": "Directed Acyclic Graphs"
+      "target": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Topological Sort",
@@ -19028,6 +19035,10 @@
     {
       "source": "Resources/CS Theory & Algorithms/Topological Sort",
       "target": "Resources/CS Theory & Algorithms/Graphs — Representations (Adjacency List vs Matrix)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Topological Sort",
+      "target": "Resources/CS Theory & Algorithms/Union-Find (Disjoint Set Union)"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Topological Sort",
@@ -19095,11 +19106,11 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Union-Find (Disjoint Set Union)",
-      "target": "Resources/CS Theory & Algorithms/Minimum Spanning Trees (Kruskal, Prim)"
+      "target": "Resources/CS Theory & Algorithms/Graph Traversal (BFS, DFS)"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Union-Find (Disjoint Set Union)",
-      "target": "Resources/Mathematics/Graph Theory Fundamentals"
+      "target": "Resources/CS Theory & Algorithms/Minimum Spanning Trees (Kruskal, Prim)"
     },
     {
       "source": "Resources/Caching",
@@ -33942,5 +33953,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-30T23:26:33Z"
+  "generated_at": "2026-05-31T01:23:59Z"
 }
