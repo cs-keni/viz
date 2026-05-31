@@ -12359,7 +12359,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Programming Languages/Compiled vs Interpreted vs JIT Languages",
@@ -12378,48 +12378,48 @@
       "label": "Concurrency Primitives (Mutex, Semaphore, Condition Variable)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Concurrency primitives are low-level coordination tools for sharing resources safely across threads or tasks. Mutexes protect critical sections, semaphores limit access counts, and condition variables let workers sleep until shared state changes.",
+      "excerpt": "Concurrency primitives are the atomic building blocks for thread coordination. Mutex = exclusive access to shared state (one thread at a time). Semaphore = counting permits (N threads at a time). Condition variable = sleep until a predicate becomes true. Understanding them at the implementation level explains why deadlocks happen, what lock granularity means, and why high-level abstractions (channels, actors) exist to avoid the pitfalls.",
       "tags": [
         "resource",
         "programming-languages"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Programming Languages/DSL Design",
       "label": "DSL Design",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "A domain-specific language is a small language designed around a narrow problem domain. Good DSLs make domain intent clear and prevent invalid states, while bad DSLs become underpowered programming languages with custom syntax and weak tooling.",
+      "excerpt": "A DSL (domain-specific language) is a mini-language tailored to one problem domain — SQL for queries, HCL for infrastructure, regex for patterns, RSpec for tests. External DSLs have their own parser; internal DSLs use the host language's syntax (Kotlin builders, Ruby blocks, Python with-statements). The key design tensions: expressiveness vs learnability, flexibility vs safety, and power vs 'this is just an underpowered general-purpose language.' Every DSL becomes a product surface requiring docs, versioning, error messages, and escape hatches.",
       "tags": [
         "resource",
         "programming-languages"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Programming Languages/Functional Programming Concepts",
       "label": "Functional Programming Concepts",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Functional programming emphasizes functions as values, immutability, expression-oriented code, composition, and avoiding hidden side effects. Its ideas appear in modern JavaScript, Python, Rust, Scala, Haskell, Elixir, and many UI/data workflows.",
+      "excerpt": "Functional programming treats computation as evaluating functions rather than executing statements. Core ideas: pure functions (no side effects, deterministic), immutable data, first-class functions, higher-order functions, composition, and explicit effect handling. FP concepts are not confined to Haskell — map/filter/reduce, closures, and function composition appear in JavaScript, Python, Rust, and Go daily. The practical value is reducing accidental complexity from hidden state mutations.",
       "tags": [
         "resource",
         "programming-languages"
       ],
-      "degree": 9
+      "degree": 11
     },
     {
       "id": "Resources/Programming Languages/Garbage Collection Algorithms (Mark-Sweep, Generational)",
       "label": "Garbage Collection Algorithms (Mark-Sweep, Generational)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Garbage collection algorithms reclaim memory that a program can no longer reach. Mark-sweep, copying, compacting, reference counting, and generational collectors make different tradeoffs among throughput, pause time, fragmentation, and implementation complexity.",
+      "excerpt": "GC algorithms make different tradeoffs among throughput, pause time, and fragmentation. Mark-sweep is simple but pauses and fragments. Copying collectors eliminate fragmentation via semi-space. Mark-compact combines both benefits at higher cost. Generational GC exploits that most objects die young. Reference counting is immediate but can't collect cycles. Modern production collectors (G1, ZGC, Shenandoah) are generational+concurrent to minimize pauses while managing large heaps.",
       "tags": [
         "resource",
         "programming-languages"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Programming Languages/Go — Goroutines and Channels",
@@ -12450,7 +12450,7 @@
       "label": "Immutability and Pure Functions",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Immutability and pure functions are core functional programming ideas that make code easier to reason about, test, parallelize, and refactor. They reduce hidden state changes by treating data as values and making effects explicit.",
+      "excerpt": "Immutability means values aren't changed after creation — updates produce new values. Pure functions produce the same output for the same input with no side effects. Together they enable referential transparency, safe parallelism, and easy testing. Structural sharing (persistent data structures) makes immutability efficient. The practical tradeoff: code is more predictable but requires unlearning in-place mutation habits. Redux, React state, Rust's default, Clojure's data model, and Elixir all center on immutability.",
       "tags": [
         "resource",
         "programming-languages"
@@ -12546,19 +12546,31 @@
       "label": "Language Design Tradeoffs",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Language design is a set of tradeoffs among safety, performance, expressiveness, simplicity, tooling, compatibility, and ecosystem goals. Good language choices are contextual, not universal.",
+      "excerpt": "Language design is a series of tradeoffs with no universally correct answers: static vs dynamic typing, manual vs GC memory management, checked vs unchecked exceptions, null vs Optional vs Result, expressive vs simple syntax, backward compatibility vs evolution. Understanding what each language chose and why helps you pick the right tool and write idiomatic code. Tony Hoare's 'billion dollar mistake' (null), Java's checked exceptions debate, Python's GIL, and Go's delayed generics are canonical design decision case studies.",
       "tags": [
         "resource",
         "programming-languages"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Programming Languages/Memory Models and Happens-Before Ordering",
       "label": "Memory Models and Happens-Before Ordering",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "A language memory model defines what reads and writes are allowed to do in concurrent programs. Happens-before ordering is the reasoning tool that tells whether one thread's writes must be visible to another.",
+      "excerpt": "Memory models define which writes are visible to which reads in concurrent programs. Without a model, compilers and CPUs can reorder operations in ways that break multithreaded code — even if it looks correct to a single-threaded reader. Happens-before is the formal relation: if A happens-before B, B is guaranteed to see A's writes. Locks, volatile/atomic operations, thread joins, and channel sends create happens-before edges. Data races (unsynchronized access to shared memory) are undefined behavior in C++ and Java — don't rely on 'it usually works.",
+      "tags": [
+        "resource",
+        "programming-languages"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Programming Languages/Metaprogramming and Code Generation",
+      "label": "Metaprogramming and Code Generation",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Metaprogramming lets code inspect, generate, or transform other code — at compile time (Rust macros, C++ templates, Zig comptime) or runtime (Python metaclasses, Java reflection, JS Proxy). Code generation from schemas (protobuf, OpenAPI, sqlc, Prisma) is the most practical form — a single source of truth generates type-safe code across languages. The risks: invisible behavior, poor stack traces, hard debugging, and build complexity. Use when the repetition is real, the source of truth is stable, and the generated output can be read.",
       "tags": [
         "resource",
         "programming-languages"
@@ -12566,23 +12578,11 @@
       "degree": 6
     },
     {
-      "id": "Resources/Programming Languages/Metaprogramming and Code Generation",
-      "label": "Metaprogramming and Code Generation",
-      "folder": "Resources",
-      "created": "2026-05-26",
-      "excerpt": "Metaprogramming and code generation let programs create, inspect, or transform other programs. They can remove repetition and encode patterns, but they also risk hiding behavior behind machinery that is harder to read and debug.",
-      "tags": [
-        "resource",
-        "programming-languages"
-      ],
-      "degree": 5
-    },
-    {
       "id": "Resources/Programming Languages/Monads (Accessible Explanation)",
       "label": "Monads (Accessible Explanation)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Monads are a functional programming abstraction for chaining computations that carry context, such as optional values, errors, async work, state, or I/O. The practical idea is not mystical: wrap a value, provide a way to chain the next step, and let the wrapper handle the context.",
+      "excerpt": "A monad is a pattern for composing computations that carry context (failure, optionality, async, state, logging) without manually threading that context through every call. The practical instances you already use: Rust's Option/Result with ? operator, JavaScript Promises with .then(), Haskell's do-notation. The 'bind' operation (flatMap/andThen/>>=/?) is the key — it chains the next computation only when the context allows it, handling the context rules (propagate None, short-circuit on error) automatically.",
       "tags": [
         "resource",
         "programming-languages"
@@ -12635,7 +12635,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Programming Languages/Python — Generators and Iterators",
@@ -12647,7 +12647,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Programming Languages/Python — Internals and CPython",
@@ -12719,7 +12719,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/Programming Languages/Rust — Traits and Generics",
@@ -12731,7 +12731,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/Programming Languages/TypeScript — Generics",
@@ -12755,7 +12755,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/Programming Languages/TypeScript — Utility Types (Partial, Pick, Omit, etc.)",
@@ -13757,7 +13757,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Software Engineering/API Design — Server-Sent Events",
@@ -14177,7 +14177,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/Software Engineering/Property-Based Testing",
@@ -15622,7 +15622,7 @@
         "web-technologies",
         "react"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/Web Technologies/Responsive Design Principles",
@@ -29563,6 +29563,10 @@
     },
     {
       "source": "Resources/Programming Languages/Concurrency Primitives (Mutex, Semaphore, Condition Variable)",
+      "target": "Resources/Programming Languages/Python — GIL and Concurrency"
+    },
+    {
+      "source": "Resources/Programming Languages/Concurrency Primitives (Mutex, Semaphore, Condition Variable)",
       "target": "Resources/Programming Languages/Rust — Ownership and Borrowing"
     },
     {
@@ -29582,6 +29586,10 @@
       "target": "Resources/Programming Languages/Metaprogramming and Code Generation"
     },
     {
+      "source": "Resources/Programming Languages/DSL Design",
+      "target": "Resources/Software Engineering/API Design — REST Principles"
+    },
+    {
       "source": "Resources/Programming Languages/Functional Programming Concepts",
       "target": "Resources/Programming Languages/Immutability and Pure Functions"
     },
@@ -29595,6 +29603,10 @@
     },
     {
       "source": "Resources/Programming Languages/Functional Programming Concepts",
+      "target": "Resources/Programming Languages/Python — Generators and Iterators"
+    },
+    {
+      "source": "Resources/Programming Languages/Functional Programming Concepts",
       "target": "Resources/Programming Languages/Rust — Traits and Generics"
     },
     {
@@ -29604,6 +29616,10 @@
     {
       "source": "Resources/Programming Languages/Garbage Collection Algorithms (Mark-Sweep, Generational)",
       "target": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)"
+    },
+    {
+      "source": "Resources/Programming Languages/Garbage Collection Algorithms (Mark-Sweep, Generational)",
+      "target": "Resources/Programming Languages/C — Memory Management and Pointers"
     },
     {
       "source": "Resources/Programming Languages/Garbage Collection Algorithms (Mark-Sweep, Generational)",
@@ -29655,7 +29671,7 @@
     },
     {
       "source": "Resources/Programming Languages/Immutability and Pure Functions",
-      "target": "Resources/Web Technologies/React — State Management (Zustand, Redux, Context API)"
+      "target": "Resources/Programming Languages/Rust — Ownership and Borrowing"
     },
     {
       "source": "Resources/Programming Languages/JIT Compilation",
@@ -29779,15 +29795,23 @@
     },
     {
       "source": "Resources/Programming Languages/Language Design Tradeoffs",
+      "target": "Resources/Programming Languages/Functional Programming Concepts"
+    },
+    {
+      "source": "Resources/Programming Languages/Language Design Tradeoffs",
+      "target": "Resources/Programming Languages/Garbage Collection Algorithms (Mark-Sweep, Generational)"
+    },
+    {
+      "source": "Resources/Programming Languages/Language Design Tradeoffs",
       "target": "Resources/Programming Languages/Go — Interface System"
     },
     {
       "source": "Resources/Programming Languages/Language Design Tradeoffs",
-      "target": "Resources/Programming Languages/Rust — Ownership and Borrowing"
+      "target": "Resources/Programming Languages/Memory Models and Happens-Before Ordering"
     },
     {
       "source": "Resources/Programming Languages/Language Design Tradeoffs",
-      "target": "Resources/Programming Languages/TypeScript — Type System Deep Dive"
+      "target": "Resources/Programming Languages/Rust — Ownership and Borrowing"
     },
     {
       "source": "Resources/Programming Languages/Memory Models and Happens-Before Ordering",
@@ -29806,6 +29830,14 @@
       "target": "Resources/Programming Languages/Java — JVM Internals"
     },
     {
+      "source": "Resources/Programming Languages/Memory Models and Happens-Before Ordering",
+      "target": "Resources/Programming Languages/Rust — Ownership and Borrowing"
+    },
+    {
+      "source": "Resources/Programming Languages/Metaprogramming and Code Generation",
+      "target": "Resources/Programming Languages/DSL Design"
+    },
+    {
       "source": "Resources/Programming Languages/Metaprogramming and Code Generation",
       "target": "Resources/Programming Languages/Python — Decorators Deep Dive"
     },
@@ -29815,11 +29847,11 @@
     },
     {
       "source": "Resources/Programming Languages/Metaprogramming and Code Generation",
-      "target": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers"
+      "target": "Resources/Programming Languages/Rust — Traits and Generics"
     },
     {
       "source": "Resources/Programming Languages/Metaprogramming and Code Generation",
-      "target": "Resources/Software Engineering/OpenAPI and API Documentation"
+      "target": "Resources/Software Engineering/API Design — gRPC and Protocol Buffers"
     },
     {
       "source": "Resources/Programming Languages/Monads (Accessible Explanation)",
@@ -29835,7 +29867,7 @@
     },
     {
       "source": "Resources/Programming Languages/Monads (Accessible Explanation)",
-      "target": "Resources/Programming Languages/Rust — Ownership and Borrowing"
+      "target": "Resources/Programming Languages/Rust — Traits and Generics"
     },
     {
       "source": "Resources/Programming Languages/Python — Async-Await and asyncio",
@@ -33962,5 +33994,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-31T04:13:15Z"
+  "generated_at": "2026-05-31T04:28:18Z"
 }
