@@ -704,6 +704,15 @@
       "degree": 1
     },
     {
+      "id": "Dependency Injection",
+      "label": "Dependency Injection",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Difficult Conversations",
       "label": "Difficult Conversations",
       "folder": null,
@@ -5539,7 +5548,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "Resources/DevOps & Infrastructure/Postmortem Writing",
@@ -12338,7 +12347,7 @@
         "resource",
         "study"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/Programming Languages/C — Memory Management and Pointers",
@@ -12386,7 +12395,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Programming Languages/Functional Programming Concepts",
@@ -12417,7 +12426,7 @@
       "label": "Go — Goroutines and Channels",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Go goroutines are lightweight concurrent functions managed by the Go runtime, and channels communicate values between goroutines. They support Go's CSP-inspired concurrency style, but still require careful cancellation, buffering, and ownership design.",
+      "excerpt": "Goroutines are lightweight coroutines managed by the Go runtime — start with 'go fn()'. Initial stack is 2–8KB (grows dynamically), so you can run millions concurrently. Channels (make(chan T)) are typed conduits: unbuffered channels synchronize sender+receiver (both block until both are ready); buffered channels allow limited decoupling. 'select' waits on multiple channel operations simultaneously. context.Context propagates cancellation and deadlines through goroutine trees. Goroutine leaks happen when goroutines block forever — always ensure goroutines can exit.",
       "tags": [
         "resource",
         "programming-languages"
@@ -12429,12 +12438,12 @@
       "label": "Go — Interface System",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Go interfaces define behavior implicitly: a type satisfies an interface by implementing its methods. This keeps abstractions lightweight, but interface design should stay small, consumer-owned, and behavior-focused.",
+      "excerpt": "Go interfaces are satisfied implicitly — a type implements an interface by having all its methods, with no declaration required. Interface values are fat pointers: (type descriptor, data pointer). The nil interface gotcha: a typed nil stored in an interface variable is not nil (the interface has a non-nil type). Interface composition (embedding) builds larger interfaces from small ones. Consumer-owns-interface principle: define interfaces where they're used, not where the type is defined. io.Reader/io.Writer are the canonical examples of single-method minimal interfaces.",
       "tags": [
         "resource",
         "programming-languages"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Programming Languages/Immutability and Pure Functions",
@@ -12482,7 +12491,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/Programming Languages/JavaScript — Closures",
@@ -12542,7 +12551,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/Programming Languages/Memory Models and Happens-Before Ordering",
@@ -12566,7 +12575,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Programming Languages/Monads (Accessible Explanation)",
@@ -12590,7 +12599,7 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Programming Languages/Python — Context Managers",
@@ -12645,19 +12654,19 @@
       "label": "Python — Internals and CPython",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "CPython is the reference Python implementation, built around bytecode execution, Python objects, reference counting, extension modules, and a large C runtime. Understanding CPython internals explains Python's performance, memory behavior, C extension ecosystem, and concurrency tradeoffs.",
+      "excerpt": "CPython compiles Python source to bytecode, then executes it in a stack-based virtual machine (ceval.c eval loop). Every Python value is a heap-allocated PyObject with ob_refcnt (reference count) and ob_type (pointer to type). The LEGB rule resolves names: Local → Enclosing → Global → Builtin. CPython interns small integers (-5 to 256) and short strings, so 'x is y' can be True unexpectedly. dis.dis() inspects bytecode. PyPy uses JIT compilation — pure Python loops run 10–100x faster than CPython.",
       "tags": [
         "resource",
         "programming-languages"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Programming Languages/Python — Memory Management and gc",
       "label": "Python — Memory Management and gc",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Python memory management in CPython combines reference counting, object allocation layers, and cyclic garbage collection. The `gc` module exposes controls for the cycle detector that supplements reference counting.",
+      "excerpt": "CPython memory management: reference counting frees objects immediately when ob_refcnt hits 0. Reference cycles (A→B→A) can't be freed by refcount alone — the cyclic GC handles them using 3 generations with collection thresholds (700/10/10). Memory arenas are 256KB; freed objects return to Python's pool, not the OS (MemFree may not drop after del). Small integers (-5 to 256) and interned strings are never freed. tracemalloc tracks which line allocated which memory. Use weakref to reference without keeping alive.",
       "tags": [
         "resource",
         "programming-languages"
@@ -12669,7 +12678,7 @@
       "label": "Python — Metaclasses",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Python metaclasses customize how classes themselves are created. They are powerful for frameworks, registries, validation, and DSL-like APIs, but are usually unnecessary for ordinary application code.",
+      "excerpt": "In Python, classes are objects created by metaclasses. 'type' is the default metaclass: type('Foo', (Base,), {'method': fn}) creates a class. Custom metaclasses intercept class creation via __new__ and __init__, allowing attribute injection, validation, registration, and DSL behavior. Django ORM's Model, abc.ABCMeta, and SQLAlchemy all use metaclasses. Modern Python prefers __init_subclass__ and class decorators for most metaclass use cases — metaclasses are the last resort when those don't suffice.",
       "tags": [
         "resource",
         "programming-languages"
@@ -12681,12 +12690,12 @@
       "label": "Python — Type System and mypy",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Python's type hints add optional static information to a dynamic language, and mypy checks those annotations before runtime. The goal is better maintainability and earlier bug detection without giving up Python's runtime flexibility.",
+      "excerpt": "Python type hints (PEP 484, 3.5+) add optional static annotations — not enforced at runtime but checked by mypy, pyright, or IDEs. Core types: int/str/list[int]/dict[str, int]/tuple[int, ...]/set[str]. Optional[T] = T | None. Union[A, B] = A | B. TypeVar for generics. Protocol for structural typing (duck-typing formalized). Literal for specific values. TypedDict for typed dicts. Run mypy --strict for maximum checking. TYPE_CHECKING guard imports type-only dependencies without runtime cost.",
       "tags": [
         "resource",
         "programming-languages"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Programming Languages/Rust — Lifetimes",
@@ -12722,26 +12731,26 @@
         "resource",
         "programming-languages"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/Programming Languages/TypeScript — Generics",
       "label": "TypeScript — Generics",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "TypeScript generics let functions, classes, and types operate over type parameters while preserving relationships between inputs and outputs. They are the foundation for reusable typed APIs.",
+      "excerpt": "TypeScript generics parameterize types so one definition works across many types without losing type information. Generic functions infer T from arguments (no explicit annotation needed at call site). Generic constraints (T extends U) restrict what types are allowed. The 'infer' keyword extracts part of a matched type inside conditional types. Common patterns: identity function, typed API response wrapper (ApiResponse<T>), repository pattern (Repository<T>), and extracting function parameter/return types (Parameters<F>, ReturnType<F>).",
       "tags": [
         "resource",
         "programming-languages"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/Programming Languages/TypeScript — Type System Deep Dive",
       "label": "TypeScript — Type System Deep Dive",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "TypeScript adds a structural static type system on top of JavaScript. Its type checker models runtime JavaScript patterns with unions, intersections, generics, narrowing, conditional types, and inference.",
+      "excerpt": "TypeScript's type system is structural (duck-typed: compatible if shapes match, not if explicitly declared), erased at runtime (no runtime type checking), and Turing-complete at the type level. Key features: union types (A|B), intersection types (A&B), type narrowing via typeof/instanceof/in/discriminated union, keyof/typeof operators, conditional types (T extends U ? A : B), mapped types ({[K in keyof T]: ...}), template literal types. 'any' disables checking; 'unknown' forces you to narrow first. 'never' is the empty type — used for exhaustive checks.",
       "tags": [
         "resource",
         "programming-languages"
@@ -12753,12 +12762,12 @@
       "label": "TypeScript — Utility Types (Partial, Pick, Omit, etc.)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "TypeScript utility types transform existing types into related shapes, such as optional fields, selected keys, omitted keys, readonly objects, or required properties. They reduce duplication and keep API types synchronized.",
+      "excerpt": "TypeScript's built-in utility types transform existing types into related shapes. Most important: Partial<T> (all optional), Required<T> (all required), Readonly<T> (immutable), Pick<T,K> (select fields), Omit<T,K> (remove fields), Record<K,V> (object map), Exclude<T,U> (filter union), Extract<T,U> (keep union members), NonNullable<T> (remove null/undefined), ReturnType<F>, Parameters<F>, Awaited<T>. They're built from mapped types and conditional types — understanding the implementation demystifies TypeScript's type-level programming.",
       "tags": [
         "resource",
         "programming-languages"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Programming Languages/WebAssembly (WASM) Basics",
@@ -13952,7 +13961,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/Software Engineering/Design Patterns — Behavioral (Observer, Strategy, Command, State, Iterator)",
@@ -14252,7 +14261,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 11
+      "degree": 9
     },
     {
       "id": "Resources/Software Engineering/Technical Debt — Types and Management",
@@ -15229,7 +15238,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 15
+      "degree": 14
     },
     {
       "id": "Resources/System Design/Scalability — Horizontal vs Vertical",
@@ -29614,19 +29623,15 @@
     },
     {
       "source": "Resources/Programming Languages/Go — Goroutines and Channels",
-      "target": "Resources/System Design/Real-Time Systems Design"
+      "target": "Resources/Programming Languages/Python — Async-Await and asyncio"
+    },
+    {
+      "source": "Resources/Programming Languages/Go — Interface System",
+      "target": "Dependency Injection"
     },
     {
       "source": "Resources/Programming Languages/Go — Interface System",
       "target": "Resources/Programming Languages/Go — Goroutines and Channels"
-    },
-    {
-      "source": "Resources/Programming Languages/Go — Interface System",
-      "target": "Resources/Programming Languages/Language Design Tradeoffs"
-    },
-    {
-      "source": "Resources/Programming Languages/Go — Interface System",
-      "target": "Resources/Software Engineering/Dependency Management"
     },
     {
       "source": "Resources/Programming Languages/Go — Interface System",
@@ -29906,7 +29911,7 @@
     },
     {
       "source": "Resources/Programming Languages/Python — Internals and CPython",
-      "target": "Resources/Programming Languages"
+      "target": "Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O)"
     },
     {
       "source": "Resources/Programming Languages/Python — Internals and CPython",
@@ -29938,15 +29943,11 @@
     },
     {
       "source": "Resources/Programming Languages/Python — Metaclasses",
-      "target": "Resources/Programming Languages/DSL Design"
-    },
-    {
-      "source": "Resources/Programming Languages/Python — Metaclasses",
-      "target": "Resources/Programming Languages/Metaprogramming and Code Generation"
-    },
-    {
-      "source": "Resources/Programming Languages/Python — Metaclasses",
       "target": "Resources/Programming Languages/Python — Decorators Deep Dive"
+    },
+    {
+      "source": "Resources/Programming Languages/Python — Metaclasses",
+      "target": "Resources/Programming Languages/Python — Internals and CPython"
     },
     {
       "source": "Resources/Programming Languages/Python — Metaclasses",
@@ -29962,11 +29963,11 @@
     },
     {
       "source": "Resources/Programming Languages/Python — Type System and mypy",
-      "target": "Resources/Programming Languages/TypeScript — Type System Deep Dive"
+      "target": "Resources/Programming Languages/Python — Metaclasses"
     },
     {
       "source": "Resources/Programming Languages/Python — Type System and mypy",
-      "target": "Resources/Software Engineering/Static Analysis Tools"
+      "target": "Resources/Programming Languages/TypeScript — Type System Deep Dive"
     },
     {
       "source": "Resources/Programming Languages/Rust — Lifetimes",
@@ -30018,11 +30019,7 @@
     },
     {
       "source": "Resources/Programming Languages/TypeScript — Generics",
-      "target": "Resources/Programming Languages/Java — JVM Internals"
-    },
-    {
-      "source": "Resources/Programming Languages/TypeScript — Generics",
-      "target": "Resources/Programming Languages/Rust — Traits and Generics"
+      "target": "Resources/Programming Languages/Python — Type System and mypy"
     },
     {
       "source": "Resources/Programming Languages/TypeScript — Generics",
@@ -30059,10 +30056,6 @@
     {
       "source": "Resources/Programming Languages/TypeScript — Utility Types (Partial, Pick, Omit, etc.)",
       "target": "Resources/Programming Languages/TypeScript — Type System Deep Dive"
-    },
-    {
-      "source": "Resources/Programming Languages/TypeScript — Utility Types (Partial, Pick, Omit, etc.)",
-      "target": "Resources/Software Engineering/Static Analysis Tools"
     },
     {
       "source": "Resources/Programming Languages/WebAssembly (WASM) Basics",
@@ -33949,5 +33942,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-31T02:21:38Z"
+  "generated_at": "2026-05-31T03:23:53Z"
 }
