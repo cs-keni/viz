@@ -3217,14 +3217,14 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "Resources/CS Theory & Algorithms/Automata Theory Basics (DFA, NFA)",
       "label": "Automata Theory Basics (DFA, NFA)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Automata theory studies abstract machines that recognize patterns in strings. Deterministic and nondeterministic finite automata model regular languages and provide the theory behind many regex and parser ideas.",
+      "excerpt": "Finite automata are abstract machines that read strings symbol by symbol and accept or reject them. DFA (deterministic): exactly one transition per state per symbol — simple to simulate. NFA (nondeterministic): may have multiple transitions or epsilon (ε) transitions — conceptually explores all paths in parallel. DFAs and NFAs recognize the same class: regular languages. NFA→DFA conversion via subset construction can produce exponential states (2^n DFA states from n NFA states). The Pumping Lemma is the standard tool for proving a language is NOT regular.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
@@ -3253,19 +3253,19 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/CS Theory & Algorithms/Bit Manipulation Tricks",
       "label": "Bit Manipulation Tricks",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Bit manipulation uses binary operations to represent sets, flags, masks, parity, and low-level arithmetic efficiently. Common tricks rely on AND, OR, XOR, shifts, complements, and two's-complement behavior.",
+      "excerpt": "Bit manipulation operates directly on binary representations using AND, OR, XOR, NOT, and shifts. Core tricks: x & (x-1) clears the lowest set bit (count set bits, check power of 2), x & (-x) isolates the lowest set bit (Fenwick tree), XOR cancels paired values (find single number), left/right shifts multiply/divide by powers of 2. Bitmask DP uses integers as sets: bit k set = element k included, enabling O(2^n × n) solutions for n≤20. Two's complement explains negative number representation: -x = ~x + 1.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/CS Theory & Algorithms/Bloom Filters",
@@ -3284,12 +3284,12 @@
       "label": "Computational Complexity Classes (P, NP, NP-Hard)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Computational complexity classes group problems by the resources needed to solve or verify them. P, NP, and NP-hard are central categories for reasoning about algorithmic tractability.",
+      "excerpt": "Complexity classes group decision problems by computational resources needed. P: solvable in polynomial time (O(n^k) for some k). NP: solution verifiable in polynomial time — includes P plus problems like SAT, Hamiltonian path. NP-hard: at least as hard as any NP problem (not necessarily in NP). NP-complete: in NP AND NP-hard — the hardest problems in NP. P vs NP is the million-dollar open question: does every efficiently verifiable problem have an efficient solution? Near-universal belief: P ≠ NP, but unproven. Polynomial-time reduction (A ≤p B) means 'if B is easy, A is easy.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/CS Theory & Algorithms/Divide and Conquer",
@@ -3301,19 +3301,19 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns",
       "label": "Dynamic Programming Patterns",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Dynamic programming solves problems with overlapping subproblems and optimal substructure by storing reusable results. Common patterns include one-dimensional DP, grid DP, knapsack, interval DP, tree DP, and state-machine DP.",
+      "excerpt": "Dynamic programming solves problems by breaking them into overlapping subproblems with optimal substructure. Six core patterns: 1D DP (linear recurrence — coin change, house robber), grid DP (2D table — unique paths, minimum path sum), 0/1 knapsack (include/exclude decision), interval DP (range merging — matrix chain, burst balloons), string DP (LCS, edit distance), bitmask DP (subset state — TSP). The hard part is defining the state: what information is needed to make the transition decision, and nothing more.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "Resources/CS Theory & Algorithms/Graph Traversal (BFS, DFS)",
@@ -3349,7 +3349,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)",
@@ -3392,12 +3392,12 @@
       "label": "Memoization vs Tabulation",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Memoization and tabulation are two dynamic programming implementation styles. Memoization caches recursive calls top-down, while tabulation fills a table bottom-up in dependency order.",
+      "excerpt": "Memoization (top-down DP) starts with a recursive solution and caches results — easy to write, only computes reached states, but uses call stack and hits Python's 1000-frame limit on deep problems. Tabulation (bottom-up DP) fills a table iteratively in dependency order — no recursion overhead, enables space optimization (rolling array), and is required when memoization would overflow the stack. Key tradeoff: memoization is faster to implement correctly; tabulation is faster to run and optimize. Python's @cache / @lru_cache makes top-down DP trivial to write.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/CS Theory & Algorithms/Minimum Spanning Trees (Kruskal, Prim)",
@@ -3416,7 +3416,7 @@
       "label": "NP-Completeness Overview",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "NP-completeness identifies problems that are both in NP and at least as hard as every problem in NP. It explains why many problems appear to resist efficient exact algorithms.",
+      "excerpt": "NP-completeness identifies problems that are simultaneously in NP (solution verifiable in polynomial time) and NP-hard (every NP problem reduces to it in polynomial time). Cook-Levin theorem (1971) proved SAT is NP-complete — the first such proof. From SAT, Karp's 1972 paper showed 21 more problems are NP-complete via chain of reductions. When facing an NP-hard problem: use approximation algorithms (with ratio guarantees), heuristics (simulated annealing, genetic algorithms), fixed-parameter tractable algorithms (O(2^k × n) for small parameter k), or exploit special graph structure.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
@@ -3440,12 +3440,12 @@
       "label": "Regular Expressions — Theory and Practice",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Regular expressions describe string patterns, originally corresponding to regular languages. Practical regex engines add features and tradeoffs that make regex powerful, useful, and sometimes dangerous for performance and readability.",
+      "excerpt": "Regular expressions describe patterns in strings, corresponding theoretically to regular languages (recognizable by finite automata). Python's re module uses a backtracking NFA engine — fast for typical patterns but vulnerable to catastrophic backtracking on adversarial inputs. Key operations: search (find anywhere), match (anchor at start), findall, sub, compile. Catastrophic backtracking: (a+)+ on 'aaaaab' — exponential backtracking because the engine can't tell it's hopeless. Fix: possessive quantifiers (not in Python's re) or use the re2 library (linear time guaranteed).",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/CS Theory & Algorithms/Searching Algorithms (Binary Search and Variants)",
@@ -3469,7 +3469,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/CS Theory & Algorithms/Shortest Path Algorithms (Dijkstra, Bellman-Ford, A-star, Floyd-Warshall)",
@@ -3548,7 +3548,7 @@
       "label": "String Matching Algorithms (KMP, Rabin-Karp)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "String matching algorithms find occurrences of a pattern inside text. KMP uses prefix structure to avoid backing up, while Rabin-Karp uses rolling hashes to compare candidate windows efficiently.",
+      "excerpt": "KMP (Knuth-Morris-Pratt) finds all occurrences of a pattern in a text in O(n+m) by precomputing a failure function (LPS array) that tells how far to shift the pattern on mismatch — never backing up in the text. Rabin-Karp uses polynomial rolling hashes to compare windows in O(1), making it O(n+m) average but O(nm) worst case (hash collisions). KMP is better for single-pattern exact search; Rabin-Karp is better for multi-pattern search (compare hash to a set of target hashes). The Z-function provides an alternative O(n+m) approach.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
@@ -4463,7 +4463,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 13
+      "degree": 12
     },
     {
       "id": "Resources/Data Science & Analytics/Data Lake Architecture",
@@ -4742,7 +4742,7 @@
         "neetcode",
         "interview-prep"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/Database Internals Deep Dive",
@@ -5713,7 +5713,7 @@
         "leetcode",
         "interview-prep"
       ],
-      "degree": 4
+      "degree": 3
     },
     {
       "id": "Resources/Economics & Finance/Behavioral Economics Overview",
@@ -6418,7 +6418,7 @@
         "study",
         "ai"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/Gaming/Competitive Gaming Psychology",
@@ -8482,7 +8482,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/Mathematics/Boolean Algebra and Logic Gates",
@@ -8494,7 +8494,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 8
+      "degree": 6
     },
     {
       "id": "Resources/Mathematics/Calculus — Derivatives and Integrals",
@@ -8542,7 +8542,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 8
+      "degree": 6
     },
     {
       "id": "Resources/Mathematics/Discrete Mathematics for CS",
@@ -8722,7 +8722,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/Mathematics/Optimization — Convex vs Non-Convex",
@@ -8734,7 +8734,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 8
+      "degree": 6
     },
     {
       "id": "Resources/Mathematics/Probability Distributions (Normal, Binomial, Poisson, Exponential)",
@@ -12865,7 +12865,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/Security",
@@ -18541,19 +18541,15 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Automata Theory Basics (DFA, NFA)",
+      "target": "Resources/CS Theory & Algorithms/Computational Complexity Classes (P, NP, NP-Hard)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Automata Theory Basics (DFA, NFA)",
       "target": "Resources/CS Theory & Algorithms/Regular Expressions — Theory and Practice"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Automata Theory Basics (DFA, NFA)",
       "target": "Resources/CS Theory & Algorithms/String Matching Algorithms (KMP, Rabin-Karp)"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/Automata Theory Basics (DFA, NFA)",
-      "target": "Resources/Formal Methods Agent Safety"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/Automata Theory Basics (DFA, NFA)",
-      "target": "Resources/Mathematics/Boolean Algebra and Logic Gates"
     },
     {
       "source": "Resources/CS Theory & Algorithms/B-Trees and B+ Trees",
@@ -18605,11 +18601,7 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Bit Manipulation Tricks",
-      "target": "Resources/Mathematics/Boolean Algebra and Logic Gates"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/Bit Manipulation Tricks",
-      "target": "Resources/Mathematics/Number Theory Basics (Primes, Modular Arithmetic)"
+      "target": "Resources/CS Theory & Algorithms/Segment Trees and Fenwick Trees"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Bloom Filters",
@@ -18629,19 +18621,23 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Computational Complexity Classes (P, NP, NP-Hard)",
+      "target": "Resources/CS Theory & Algorithms/Automata Theory Basics (DFA, NFA)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Computational Complexity Classes (P, NP, NP-Hard)",
+      "target": "Resources/CS Theory & Algorithms/Backtracking"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Computational Complexity Classes (P, NP, NP-Hard)",
       "target": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Computational Complexity Classes (P, NP, NP-Hard)",
+      "target": "Resources/CS Theory & Algorithms/Greedy Algorithms"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Computational Complexity Classes (P, NP, NP-Hard)",
       "target": "Resources/CS Theory & Algorithms/NP-Completeness Overview"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/Computational Complexity Classes (P, NP, NP-Hard)",
-      "target": "Resources/Mathematics/Big-O Notation and Complexity Analysis"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/Computational Complexity Classes (P, NP, NP-Hard)",
-      "target": "Resources/Mathematics/Combinatorics Basics (Permutations, Combinations)"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Divide and Conquer",
@@ -18661,19 +18657,19 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns",
+      "target": "Resources/CS Theory & Algorithms/Divide and Conquer"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns",
+      "target": "Resources/CS Theory & Algorithms/Greedy Algorithms"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns",
       "target": "Resources/CS Theory & Algorithms/Memoization vs Tabulation"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns",
       "target": "Resources/CS Theory & Algorithms/Recursion and Stack Frames"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns",
-      "target": "Resources/Dynamic Programming Deep Dive"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns",
-      "target": "Resources/Mathematics/Optimization — Convex vs Non-Convex"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Graph Traversal (BFS, DFS)",
@@ -18785,19 +18781,15 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Memoization vs Tabulation",
+      "target": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Memoization vs Tabulation",
       "target": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Memoization vs Tabulation",
       "target": "Resources/CS Theory & Algorithms/Recursion and Stack Frames"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/Memoization vs Tabulation",
-      "target": "Resources/Data Structures and Algorithms Patterns"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/Memoization vs Tabulation",
-      "target": "Resources/Mathematics/Optimization — Convex vs Non-Convex"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Minimum Spanning Trees (Kruskal, Prim)",
@@ -18829,11 +18821,11 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/NP-Completeness Overview",
-      "target": "Resources/CS Theory & Algorithms/Greedy Algorithms"
+      "target": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns"
     },
     {
       "source": "Resources/CS Theory & Algorithms/NP-Completeness Overview",
-      "target": "Resources/Mathematics/Combinatorics Basics (Permutations, Combinations)"
+      "target": "Resources/CS Theory & Algorithms/Greedy Algorithms"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Recursion and Stack Frames",
@@ -18862,10 +18854,6 @@
     {
       "source": "Resources/CS Theory & Algorithms/Regular Expressions — Theory and Practice",
       "target": "Resources/CS Theory & Algorithms/String Matching Algorithms (KMP, Rabin-Karp)"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/Regular Expressions — Theory and Practice",
-      "target": "Resources/Data Science & Analytics/Data Cleaning Strategies"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Regular Expressions — Theory and Practice",
@@ -19005,6 +18993,10 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/String Matching Algorithms (KMP, Rabin-Karp)",
+      "target": "Resources/CS Theory & Algorithms/Divide and Conquer"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/String Matching Algorithms (KMP, Rabin-Karp)",
       "target": "Resources/CS Theory & Algorithms/Regular Expressions — Theory and Practice"
     },
     {
@@ -19014,10 +19006,6 @@
     {
       "source": "Resources/CS Theory & Algorithms/String Matching Algorithms (KMP, Rabin-Karp)",
       "target": "Resources/CS Theory & Algorithms/Tries (Prefix Trees)"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/String Matching Algorithms (KMP, Rabin-Karp)",
-      "target": "Resources/Search Systems"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Topological Sort",
@@ -33948,5 +33936,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-31T01:40:24Z"
+  "generated_at": "2026-05-31T02:07:51Z"
 }
