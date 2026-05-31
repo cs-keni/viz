@@ -1509,7 +1509,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/AI & Machine Learning/Diffusion Models",
@@ -4403,7 +4403,7 @@
       "label": "Anomaly Detection Methods",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Anomaly detection finds observations or patterns that differ meaningfully from expected behavior. Useful methods range from simple thresholds to statistical baselines, clustering, isolation forests, and time-series models.",
+      "excerpt": "Anomaly detection flags observations that do not fit expected behavior, but the definition of expected behavior depends on seasonality, context, and false-alarm cost. Good systems combine statistical baselines, model scores, alert grouping, and human-readable context instead of treating every outlier as an incident.",
       "tags": [
         "resource",
         "data-science-analytics"
@@ -4427,7 +4427,7 @@
       "label": "Causal Inference (Correlation vs Causation)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Causal inference asks whether an action or exposure caused an outcome, not merely whether two variables moved together. It uses experiments, assumptions, controls, and quasi-experimental methods to reason about cause and effect.",
+      "excerpt": "Causal inference estimates what would happen under an intervention, not just which variables move together. It depends on design: randomized experiments when possible, or explicit assumptions through DAGs, matching, difference-in-differences, instrumental variables, regression discontinuity, and sensitivity analysis.",
       "tags": [
         "resource",
         "data-science-analytics"
@@ -4439,12 +4439,12 @@
       "label": "Clustering Algorithms (K-Means, DBSCAN, Hierarchical)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Clustering groups unlabeled data points by similarity. K-means, DBSCAN, and hierarchical clustering each make different assumptions about cluster shape, density, and how many groups exist.",
+      "excerpt": "Clustering groups unlabeled data by a chosen similarity measure, so the result is only as meaningful as the representation and distance metric. K-means assumes compact centroid-shaped clusters, DBSCAN assumes density-separated regions, and hierarchical clustering exposes nested structure without committing to one k upfront.",
       "tags": [
         "resource",
         "data-science-analytics"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Data Science & Analytics/Cohort Analysis",
@@ -4487,12 +4487,12 @@
       "label": "Data Cleaning Strategies",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Data cleaning turns messy, inconsistent, duplicated, or invalid data into a reliable analysis dataset. It is less glamorous than modeling but often determines whether conclusions are trustworthy.",
+      "excerpt": "Data cleaning makes raw data reliable by profiling, validating, standardizing, deduplicating, and documenting assumptions. The goal is not to make data look neat; it is to preserve meaning while preventing silent errors from contaminating dashboards, experiments, and models.",
       "tags": [
         "resource",
         "data-science-analytics"
       ],
-      "degree": 12
+      "degree": 11
     },
     {
       "id": "Resources/Data Science & Analytics/Data Lake Architecture",
@@ -4511,12 +4511,12 @@
       "label": "Data Normalization and Scaling",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Data normalization and scaling transform numeric features into comparable ranges or distributions. They are essential for distance-based models, gradient-based optimization, and stable feature interpretation.",
+      "excerpt": "Data normalization and scaling transform numeric features so units, skew, and magnitude do not dominate models for accidental reasons. Scaling is essential for distance-based methods, regularized regression, neural nets, and gradient optimization, but tree models often need it less.",
       "tags": [
         "resource",
         "data-science-analytics"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Data Science & Analytics/Data Warehousing Concepts",
@@ -4535,12 +4535,12 @@
       "label": "Dimensionality Reduction (PCA, t-SNE, UMAP)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Dimensionality reduction compresses high-dimensional data into fewer dimensions for visualization, denoising, or modeling. PCA, t-SNE, and UMAP differ in whether they preserve global variance, local neighborhoods, or manifold structure.",
+      "excerpt": "Dimensionality reduction compresses high-dimensional data for visualization, denoising, speed, or modeling. PCA preserves linear variance, t-SNE emphasizes local neighborhoods for plots, and UMAP builds a neighborhood graph that often keeps more global structure while still being visualization-first.",
       "tags": [
         "resource",
         "data-science-analytics"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Data Science & Analytics/ETL vs ELT",
@@ -4559,7 +4559,7 @@
       "label": "Feature Engineering",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Feature engineering turns raw data into model inputs that expose useful signal. It often matters more than model choice because features encode domain knowledge, time context, aggregations, and constraints.",
+      "excerpt": "Feature engineering turns raw events, attributes, text, and timestamps into model inputs that expose useful signal without leaking the answer. It is where domain knowledge enters the model: recency, frequency, ratios, windows, encodings, interactions, and point-in-time correctness often matter more than algorithm choice.",
       "tags": [
         "resource",
         "data-science-analytics"
@@ -4571,7 +4571,7 @@
       "label": "Feature Selection Methods",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Feature selection chooses which variables to keep for modeling. It improves interpretability, reduces noise, lowers cost, and can prevent overfitting when done with proper validation.",
+      "excerpt": "Feature selection removes irrelevant, redundant, expensive, unstable, or leaky variables so models generalize and remain explainable. The critical rule is that selection must happen inside validation folds; selecting on the full dataset leaks information and overstates performance.",
       "tags": [
         "resource",
         "data-science-analytics"
@@ -4595,7 +4595,7 @@
       "label": "Handling Missing Data",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Handling missing data means understanding why values are absent and choosing a treatment that preserves valid inference. Deletion, imputation, missingness indicators, and model-aware methods each carry assumptions.",
+      "excerpt": "Handling missing data starts by asking why the value is absent: random loss, conditional missingness, collection bias, optional behavior, or system failure. Deletion, imputation, missingness indicators, and model-aware methods each encode assumptions that can bias metrics and models if used blindly.",
       "tags": [
         "resource",
         "data-science-analytics"
@@ -4732,7 +4732,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Data Science & Analytics/Visualization Best Practices",
@@ -4744,7 +4744,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Data Science & Analytics/dbt (Data Build Tool)",
@@ -8487,7 +8487,7 @@
         "system-design",
         "bobby"
       ],
-      "degree": 14
+      "degree": 13
     },
     {
       "id": "Resources/Mathematics/Bayes' Theorem",
@@ -13184,7 +13184,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 17
+      "degree": 16
     },
     {
       "id": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)",
@@ -19883,6 +19883,10 @@
     },
     {
       "source": "Resources/Data Science & Analytics/Anomaly Detection Methods",
+      "target": "Resources/Data Science & Analytics/Clustering Algorithms (K-Means, DBSCAN, Hierarchical)"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Anomaly Detection Methods",
       "target": "Resources/Data Science & Analytics/Data Cleaning Strategies"
     },
     {
@@ -19892,10 +19896,6 @@
     {
       "source": "Resources/Data Science & Analytics/Anomaly Detection Methods",
       "target": "Resources/Observability"
-    },
-    {
-      "source": "Resources/Data Science & Analytics/Anomaly Detection Methods",
-      "target": "Resources/Security & Privacy/Security Auditing"
     },
     {
       "source": "Resources/Data Science & Analytics/Bayesian Statistics",
@@ -19935,11 +19935,11 @@
     },
     {
       "source": "Resources/Data Science & Analytics/Clustering Algorithms (K-Means, DBSCAN, Hierarchical)",
-      "target": "Resources/AI & Machine Learning/Cosine Similarity and Distance Metrics"
+      "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
     },
     {
       "source": "Resources/Data Science & Analytics/Clustering Algorithms (K-Means, DBSCAN, Hierarchical)",
-      "target": "Resources/AI & Machine Learning/Vector Embeddings — How They Work"
+      "target": "Resources/Data Science & Analytics/Data Normalization and Scaling"
     },
     {
       "source": "Resources/Data Science & Analytics/Clustering Algorithms (K-Means, DBSCAN, Hierarchical)",
@@ -20039,7 +20039,7 @@
     },
     {
       "source": "Resources/Data Science & Analytics/Data Normalization and Scaling",
-      "target": "Resources/Data Science & Analytics/Data Cleaning Strategies"
+      "target": "Resources/Data Science & Analytics/Dimensionality Reduction (PCA, t-SNE, UMAP)"
     },
     {
       "source": "Resources/Data Science & Analytics/Data Normalization and Scaling",
@@ -20075,11 +20075,11 @@
     },
     {
       "source": "Resources/Data Science & Analytics/Dimensionality Reduction (PCA, t-SNE, UMAP)",
-      "target": "Resources/Data Science & Analytics/Feature Engineering"
+      "target": "Resources/Data Science & Analytics/Data Normalization and Scaling"
     },
     {
       "source": "Resources/Data Science & Analytics/Dimensionality Reduction (PCA, t-SNE, UMAP)",
-      "target": "Resources/Data Science & Analytics/Visualization Best Practices"
+      "target": "Resources/Data Science & Analytics/Feature Engineering"
     },
     {
       "source": "Resources/Data Science & Analytics/ETL vs ELT",
@@ -20111,7 +20111,7 @@
     },
     {
       "source": "Resources/Data Science & Analytics/Feature Engineering",
-      "target": "Resources/MLOps and ML Engineering"
+      "target": "Resources/Data Science & Analytics/Time Series Analysis"
     },
     {
       "source": "Resources/Data Science & Analytics/Feature Selection Methods",
@@ -34030,5 +34030,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-31T20:58:40Z"
+  "generated_at": "2026-05-31T21:13:52Z"
 }
