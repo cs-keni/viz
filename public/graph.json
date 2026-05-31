@@ -1240,15 +1240,6 @@
       "degree": 3
     },
     {
-      "id": "Proof Techniques for Algorithms",
-      "label": "Proof Techniques for Algorithms",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Public Key Cryptography",
       "label": "Public Key Cryptography",
       "folder": null,
@@ -3214,7 +3205,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays",
@@ -3257,12 +3248,12 @@
       "label": "Backtracking",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Backtracking explores possible choices depth-first and abandons branches that cannot lead to valid solutions. It is useful for permutations, combinations, constraint satisfaction, puzzles, and exhaustive search with pruning.",
+      "excerpt": "Backtracking is DFS over a choice tree: make a choice, recurse, undo the choice (backtrack) when done. It generates all valid solutions by exploring the choice tree, pruning branches that violate constraints early. Generic template: choose from candidates, recurse with updated state, unchoose to restore. Classic problems: permutations O(n!), combinations/subsets O(2^n), N-queens, Sudoku solver. Pruning is the key to performance — a tight prune can reduce exponential O(k^n) to O(k^(n/2)) or better. Use backtracking when no polynomial solution exists and you need exhaustive search.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/CS Theory & Algorithms/Bit Manipulation Tricks",
@@ -3305,12 +3296,12 @@
       "label": "Divide and Conquer",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Divide and conquer solves problems by splitting them into smaller subproblems, solving those recursively, and combining the results. Merge sort, quicksort, binary search, and many tree algorithms use this pattern.",
+      "excerpt": "Divide and conquer splits a problem into independent subproblems, solves them recursively, and combines results. Runtime is described by a recurrence T(n) = aT(n/b) + f(n) — solved by the Master Theorem (3 cases by comparing f(n) to n^(log_b a)). Canonical examples: merge sort T(n)=2T(n/2)+O(n)=O(n log n), binary search T(n)=T(n/2)+O(1)=O(log n), Karatsuba multiplication T(n)=3T(n/2)+O(n)=O(n^1.585). The key insight: many problems that seem to require comparing all pairs O(n²) can be split and solved in O(n log n) by exploiting structure in the recombination step.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns",
@@ -3322,7 +3313,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 13
+      "degree": 16
     },
     {
       "id": "Resources/CS Theory & Algorithms/Graph Traversal (BFS, DFS)",
@@ -3353,12 +3344,12 @@
       "label": "Greedy Algorithms",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Greedy algorithms make the locally best choice at each step and hope it leads to a global optimum. They are fast and elegant when a proof shows the greedy choice is safe.",
+      "excerpt": "Greedy algorithms make the locally optimal choice at each step without reconsidering past choices. They work when the problem has the greedy choice property (local optimum can be extended to global optimum) and optimal substructure. Exchange argument is the standard correctness proof: assume an optimal solution differs from greedy, show you can swap to match greedy without worsening it. Classic problems: interval scheduling (sort by end time), Huffman coding (always merge two smallest), fractional knapsack. Greedy fails on 0/1 knapsack, coin change with non-standard denominations — use DP there.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)",
@@ -3370,7 +3361,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Resources/CS Theory & Algorithms/Heaps and Priority Queues",
@@ -3382,7 +3373,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/CS Theory & Algorithms/Linked Lists (Singly, Doubly, Circular)",
@@ -3437,12 +3428,12 @@
       "label": "Recursion and Stack Frames",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Recursion solves problems by having a function call itself on smaller inputs, with stack frames tracking each active call. Understanding base cases, call stacks, and return flow prevents infinite recursion and stack overflow.",
+      "excerpt": "Recursion expresses problems in terms of smaller versions of themselves. Each function call gets a stack frame containing: return address, local variables, function arguments, and saved registers. Python's default recursion limit is 1000 (raises RecursionError at depth 1000) — set sys.setrecursionlimit() for deep recursion or convert to iterative with an explicit stack. Tail call optimization (TCO) is NOT performed by Python or JVM — only Scheme, Haskell, and some compiled languages. The call tree is the mental model: each recursive call is a node, and the tree shape determines both time (nodes visited) and space (max depth = stack depth).",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/CS Theory & Algorithms/Regular Expressions — Theory and Practice",
@@ -3461,12 +3452,12 @@
       "label": "Searching Algorithms (Binary Search and Variants)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Searching algorithms locate items or boundaries in a data space. Binary search and its variants exploit monotonic structure to cut the search space in half repeatedly.",
+      "excerpt": "Binary search finds a target in a sorted array in O(log n) by halving the search space each step. Four variants: exact match, left boundary (first position ≥ target), right boundary (last position ≤ target), and binary search on answer (search over a solution space, not an array). The off-by-one problem is the main implementation trap — use a consistent template. Binary search on answer is the high-leverage insight: when a problem has monotonic feasibility (if k works, k+1 also works), you can binary search over k even without an explicit array.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/CS Theory & Algorithms/Segment Trees and Fenwick Trees",
@@ -3509,7 +3500,7 @@
       "label": "Sliding Window Technique",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "The sliding window technique maintains a contiguous range over an array or string while expanding and shrinking boundaries. It is useful for substring, subarray, frequency, and running-aggregate problems.",
+      "excerpt": "Sliding window maintains a contiguous range [left, right] over an array or string, expanding right to include new elements and shrinking left when a constraint is violated. Fixed-window: move both pointers together (max sum subarray of size k). Variable-window: expand right always, shrink left until constraint satisfied — gives O(n) because each element enters and exits the window exactly once. Key patterns: frequency map with character counts (longest substring without repeats, minimum window substring), monotonic deque for window max/min (O(n) vs O(n log n) heap).",
       "tags": [
         "resource",
         "cs-theory-algorithms"
@@ -3521,24 +3512,24 @@
       "label": "Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Comparison-based sorting orders items using pairwise comparisons. Merge sort, quicksort, heap sort, and Timsort differ in stability, memory use, worst-case behavior, cache behavior, and real-world performance.",
+      "excerpt": "The four comparison sorts worth knowing deeply: merge sort (stable, O(n log n), O(n) space, preferred for linked lists), quicksort (in-place, O(n log n) average, O(n²) worst-case — fixed by random pivot or median-of-three), heap sort (in-place, O(n log n) guaranteed, but poor cache locality), Timsort (Python/Java default — exploits natural runs, galloping mode, O(n) best on nearly-sorted data). Lower bound: any comparison sort requires Ω(n log n) comparisons — proved via decision tree argument. Stability means equal elements preserve original relative order.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/CS Theory & Algorithms/Sorting Algorithms — Non-Comparison (Radix, Counting, Bucket)",
       "label": "Sorting Algorithms — Non-Comparison (Radix, Counting, Bucket)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Non-comparison sorting algorithms use assumptions about keys instead of only pairwise comparisons. Radix, counting, and bucket sort can beat comparison-sort bounds when value ranges, digit structure, or distribution assumptions are favorable.",
+      "excerpt": "Non-comparison sorts bypass the Ω(n log n) lower bound by using structure in the keys rather than pairwise comparisons. Counting sort: O(n+k) for small integer ranges (k=max value). Radix sort: O(d×(n+k)) for d-digit integers, stable, processes one digit at a time using counting sort as subroutine. Bucket sort: O(n+k) average when input is uniformly distributed, O(n²) worst case. The catch: all require assumptions about keys (bounded integers, fixed-width, uniform distribution) that don't hold for general comparison-based sorting.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/CS Theory & Algorithms/Stacks and Queues",
@@ -3550,7 +3541,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/CS Theory & Algorithms/String Matching Algorithms (KMP, Rabin-Karp)",
@@ -3562,7 +3553,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/CS Theory & Algorithms/Topological Sort",
@@ -3605,7 +3596,7 @@
       "label": "Two-Pointer Technique",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "The two-pointer technique uses two indices or references that move through data in coordinated ways. It is common for sorted arrays, linked lists, pair searches, partitioning, and cycle detection.",
+      "excerpt": "Two-pointer uses two indices moving through data in coordinated ways to reduce O(n²) nested loops to O(n). Three flavors: (1) opposite-ends on a sorted array (two-sum, three-sum, container with most water), (2) slow/fast pointers (cycle detection, find middle, remove nth from end), (3) read/write pointers (remove duplicates in-place, partition, Dutch national flag). The key invariant: at each step, the two pointers maintain a property that lets you eliminate a portion of the search space — you prove progress by showing both pointers advance.",
       "tags": [
         "resource",
         "cs-theory-algorithms"
@@ -4751,7 +4742,7 @@
         "neetcode",
         "interview-prep"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/Database Internals Deep Dive",
@@ -8491,7 +8482,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 9
+      "degree": 5
     },
     {
       "id": "Resources/Mathematics/Boolean Algebra and Logic Gates",
@@ -8551,7 +8542,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/Mathematics/Discrete Mathematics for CS",
@@ -8731,7 +8722,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Mathematics/Optimization — Convex vs Non-Convex",
@@ -18586,7 +18577,15 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Backtracking",
+      "target": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Backtracking",
       "target": "Resources/CS Theory & Algorithms/Graph Traversal (BFS, DFS)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Backtracking",
+      "target": "Resources/CS Theory & Algorithms/Greedy Algorithms"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Backtracking",
@@ -18595,10 +18594,6 @@
     {
       "source": "Resources/CS Theory & Algorithms/Backtracking",
       "target": "Resources/CS Theory & Algorithms/Recursion and Stack Frames"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/Backtracking",
-      "target": "Resources/Mathematics/Combinatorics Basics (Permutations, Combinations)"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Bit Manipulation Tricks",
@@ -18650,6 +18645,10 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Divide and Conquer",
+      "target": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Divide and Conquer",
       "target": "Resources/CS Theory & Algorithms/Recursion and Stack Frames"
     },
     {
@@ -18659,10 +18658,6 @@
     {
       "source": "Resources/CS Theory & Algorithms/Divide and Conquer",
       "target": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/Divide and Conquer",
-      "target": "Resources/Mathematics/Big-O Notation and Complexity Analysis"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns",
@@ -18722,11 +18717,11 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Greedy Algorithms",
-      "target": "Proof Techniques for Algorithms"
+      "target": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Greedy Algorithms",
-      "target": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns"
+      "target": "Resources/CS Theory & Algorithms/Heaps and Priority Queues"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Greedy Algorithms",
@@ -18850,6 +18845,10 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Recursion and Stack Frames",
+      "target": "Resources/CS Theory & Algorithms/Dynamic Programming Patterns"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Recursion and Stack Frames",
       "target": "Resources/CS Theory & Algorithms/Memoization vs Tabulation"
     },
     {
@@ -18878,15 +18877,15 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Searching Algorithms (Binary Search and Variants)",
+      "target": "Resources/CS Theory & Algorithms/Divide and Conquer"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Searching Algorithms (Binary Search and Variants)",
+      "target": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Searching Algorithms (Binary Search and Variants)",
       "target": "Resources/CS Theory & Algorithms/Two-Pointer Technique"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/Searching Algorithms (Binary Search and Variants)",
-      "target": "Resources/Data Structures and Algorithms Patterns"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/Searching Algorithms (Binary Search and Variants)",
-      "target": "Resources/Mathematics/Big-O Notation and Complexity Analysis"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Segment Trees and Fenwick Trees",
@@ -18950,11 +18949,15 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Sliding Window Technique",
-      "target": "Resources/CS Theory & Algorithms/String Matching Algorithms (KMP, Rabin-Karp)"
+      "target": "Resources/CS Theory & Algorithms/Stacks and Queues"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Sliding Window Technique",
       "target": "Resources/CS Theory & Algorithms/Two-Pointer Technique"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)",
+      "target": "Resources/CS Theory & Algorithms/Amortized Analysis"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)",
@@ -18969,24 +18972,16 @@
       "target": "Resources/CS Theory & Algorithms/Sorting Algorithms — Non-Comparison (Radix, Counting, Bucket)"
     },
     {
-      "source": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)",
-      "target": "Resources/Mathematics/Big-O Notation and Complexity Analysis"
-    },
-    {
       "source": "Resources/CS Theory & Algorithms/Sorting Algorithms — Non-Comparison (Radix, Counting, Bucket)",
       "target": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Sorting Algorithms — Non-Comparison (Radix, Counting, Bucket)",
+      "target": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)"
+    },
+    {
+      "source": "Resources/CS Theory & Algorithms/Sorting Algorithms — Non-Comparison (Radix, Counting, Bucket)",
       "target": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/Sorting Algorithms — Non-Comparison (Radix, Counting, Bucket)",
-      "target": "Resources/Mathematics/Big-O Notation and Complexity Analysis"
-    },
-    {
-      "source": "Resources/CS Theory & Algorithms/Sorting Algorithms — Non-Comparison (Radix, Counting, Bucket)",
-      "target": "Resources/Mathematics/Number Theory Basics (Primes, Modular Arithmetic)"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Stacks and Queues",
@@ -19090,11 +19085,11 @@
     },
     {
       "source": "Resources/CS Theory & Algorithms/Two-Pointer Technique",
-      "target": "Resources/CS Theory & Algorithms/Searching Algorithms (Binary Search and Variants)"
+      "target": "Resources/CS Theory & Algorithms/Sliding Window Technique"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Two-Pointer Technique",
-      "target": "Resources/CS Theory & Algorithms/Sliding Window Technique"
+      "target": "Resources/CS Theory & Algorithms/Sorting Algorithms — Comparison-Based (Merge, Quick, Heap, Tim)"
     },
     {
       "source": "Resources/CS Theory & Algorithms/Union-Find (Disjoint Set Union)",
@@ -33953,5 +33948,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-31T01:23:59Z"
+  "generated_at": "2026-05-31T01:40:24Z"
 }
