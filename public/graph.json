@@ -73,6 +73,15 @@
       "degree": 1
     },
     {
+      "id": "\"plan\", \"sessions\", \"days_active\"",
+      "label": "\"plan\", \"sessions\", \"days_active\"",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "$COUNT -eq 0",
       "label": "$COUNT -eq 0",
       "folder": null,
@@ -277,7 +286,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 3
+      "degree": 1
     },
     {
       "id": "A/B Testing and Experimentation",
@@ -648,6 +657,17 @@
         "daily"
       ],
       "degree": 1
+    },
+    {
+      "id": "Daily Notes/2026-05-31",
+      "label": "2026-05-31",
+      "folder": "Daily Notes",
+      "created": "2026-05-31",
+      "excerpt": "Session 1",
+      "tags": [
+        "daily"
+      ],
+      "degree": 0
     },
     {
       "id": "Data Visualization Best Practices",
@@ -4371,12 +4391,12 @@
       "label": "A-B Testing Design",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "A/B testing compares product or system variants using randomized assignment and statistical analysis. Good test design defines the hypothesis, unit of randomization, metrics, sample size, guardrails, and stopping rules before launch.",
+      "excerpt": "A/B testing uses randomized assignment to estimate whether a product or system change caused a metric difference. Good design specifies the unit of randomization, primary metric, guardrails, sample size, exposure rules, and stopping plan before launch.",
       "tags": [
         "resource",
         "data-science-analytics"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/Data Science & Analytics/Anomaly Detection Methods",
@@ -4395,12 +4415,12 @@
       "label": "Bayesian Statistics",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Bayesian statistics treats probability as a degree of belief updated by evidence. It combines prior beliefs with observed data to produce posterior beliefs.",
+      "excerpt": "Bayesian statistics updates explicit prior beliefs with observed evidence to produce a posterior distribution. Its strength is decision-making under uncertainty; its risk is that priors, likelihood assumptions, and approximations can quietly drive the answer.",
       "tags": [
         "resource",
         "data-science-analytics"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Data Science & Analytics/Causal Inference (Correlation vs Causation)",
@@ -4412,7 +4432,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Resources/Data Science & Analytics/Clustering Algorithms (K-Means, DBSCAN, Hierarchical)",
@@ -4443,12 +4463,12 @@
       "label": "Confidence Intervals",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Confidence intervals estimate a plausible range for an unknown population value from sample data. They communicate uncertainty better than a single point estimate, but they are often misread as probabilities about one fixed interval.",
+      "excerpt": "Confidence intervals put uncertainty around an estimate by describing what repeated sampling would capture with a chosen frequency. They are more decision-useful than naked point estimates because width, direction, and practical effect size are visible.",
       "tags": [
         "resource",
         "data-science-analytics"
       ],
-      "degree": 8
+      "degree": 12
     },
     {
       "id": "Resources/Data Science & Analytics/Dashboard Design Principles",
@@ -4460,7 +4480,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Data Science & Analytics/Data Cleaning Strategies",
@@ -4587,7 +4607,7 @@
       "label": "Hypothesis Testing",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Hypothesis testing evaluates whether observed data is surprising under a null hypothesis. It is useful for experiments, but it depends heavily on assumptions, sample size, and careful interpretation.",
+      "excerpt": "Hypothesis testing asks whether observed data would be unusually extreme if a null hypothesis were true. A valid test requires predeclared hypotheses, an appropriate test statistic, assumptions about sampling, and interpretation that separates statistical significance from practical importance.",
       "tags": [
         "resource",
         "data-science-analytics"
@@ -4623,7 +4643,7 @@
       "label": "P-values and Statistical Significance",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "P-values measure how surprising observed data would be under a null hypothesis. Statistical significance is a thresholding convention, not proof that an effect is real, large, or important.",
+      "excerpt": "A p-value is the probability of data at least this extreme assuming the null hypothesis and test assumptions are true. Statistical significance is a thresholding convention, not evidence that an effect is large, causal, replicable, or worth acting on.",
       "tags": [
         "resource",
         "data-science-analytics"
@@ -4635,7 +4655,7 @@
       "label": "Probability Theory Basics",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Probability theory models uncertainty using events, random variables, distributions, expectation, and conditional probability. It underpins statistics, machine learning, experimentation, and risk reasoning.",
+      "excerpt": "Probability theory is the grammar of uncertainty: events, random variables, distributions, expectation, conditioning, independence, and Bayes' rule. The practical skill is spotting which assumptions make a probability calculation valid, especially independence, stationarity, and base rates.",
       "tags": [
         "resource",
         "data-science-analytics"
@@ -4647,12 +4667,12 @@
       "label": "Regression Analysis (Linear, Logistic, Polynomial)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Regression analysis models relationships between inputs and an outcome. Linear, logistic, and polynomial regression are foundational tools for prediction, explanation, and estimating effects with assumptions.",
+      "excerpt": "Regression models an outcome as a function of input features, using coefficients to predict, explain, or estimate associations. Linear, logistic, and polynomial regression are powerful because they are interpretable, but their coefficients only mean what the data design and assumptions allow.",
       "tags": [
         "resource",
         "data-science-analytics"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Data Science & Analytics/SQL Window Functions",
@@ -4683,12 +4703,12 @@
       "label": "Statistics Fundamentals (Mean, Median, Mode, Std Dev)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Statistics fundamentals summarize data with measures of center and spread. Mean, median, mode, variance, and standard deviation are the starting vocabulary for reasoning about datasets.",
+      "excerpt": "Statistics fundamentals compress a dataset into center, spread, shape, and uncertainty. The useful move is not memorizing mean/median/std-dev; it is knowing what each statistic assumes, how outliers and skew distort it, and when percentiles or distribution plots tell the truth better.",
       "tags": [
         "resource",
         "data-science-analytics"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Data Science & Analytics/Survival Analysis",
@@ -4707,12 +4727,12 @@
       "label": "Time Series Analysis",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Time series analysis studies data ordered over time, such as metrics, demand, latency, or prices. It focuses on trend, seasonality, autocorrelation, forecasting, and anomaly detection.",
+      "excerpt": "Time series analysis studies ordered observations where trend, seasonality, autocorrelation, lag, and regime shifts matter. The key discipline is respecting time: random splits, naive averages, and context-free anomaly rules often fail because observations are not independent.",
       "tags": [
         "resource",
         "data-science-analytics"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Data Science & Analytics/Visualization Best Practices",
@@ -8467,7 +8487,7 @@
         "system-design",
         "bobby"
       ],
-      "degree": 15
+      "degree": 14
     },
     {
       "id": "Resources/Mathematics/Bayes' Theorem",
@@ -10850,7 +10870,7 @@
         "study",
         "interview-prep"
       ],
-      "degree": 14
+      "degree": 12
     },
     {
       "id": "Resources/Observability Case Studies",
@@ -12251,7 +12271,7 @@
         "resource",
         "product-management"
       ],
-      "degree": 12
+      "degree": 10
     },
     {
       "id": "Resources/Product Management/Product Discovery vs Delivery",
@@ -15046,7 +15066,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/System Design/Design a Scheduling System (like Calendly)",
@@ -19843,6 +19863,14 @@
     },
     {
       "source": "Resources/Data Science & Analytics/A-B Testing Design",
+      "target": "Resources/Data Science & Analytics/Causal Inference (Correlation vs Causation)"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/A-B Testing Design",
+      "target": "Resources/Data Science & Analytics/Confidence Intervals"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/A-B Testing Design",
       "target": "Resources/Data Science & Analytics/Hypothesis Testing"
     },
     {
@@ -19852,14 +19880,6 @@
     {
       "source": "Resources/Data Science & Analytics/A-B Testing Design",
       "target": "Resources/Data Science & Analytics/P-values and Statistical Significance"
-    },
-    {
-      "source": "Resources/Data Science & Analytics/A-B Testing Design",
-      "target": "Resources/Product Management/Product Analytics Fundamentals"
-    },
-    {
-      "source": "Resources/Data Science & Analytics/A-B Testing Design",
-      "target": "Resources/System Design/Design a Recommendation System"
     },
     {
       "source": "Resources/Data Science & Analytics/Anomaly Detection Methods",
@@ -19879,6 +19899,10 @@
     },
     {
       "source": "Resources/Data Science & Analytics/Bayesian Statistics",
+      "target": "Resources/Data Science & Analytics/Confidence Intervals"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Bayesian Statistics",
       "target": "Resources/Data Science & Analytics/Hypothesis Testing"
     },
     {
@@ -19888,10 +19912,6 @@
     {
       "source": "Resources/Data Science & Analytics/Bayesian Statistics",
       "target": "Resources/Mathematics/Bayes' Theorem"
-    },
-    {
-      "source": "Resources/Data Science & Analytics/Bayesian Statistics",
-      "target": "Resources/Meta-Learning & Epistemics/Calibration and Epistemic Humility"
     },
     {
       "source": "Resources/Data Science & Analytics/Bayesian Statistics",
@@ -19948,6 +19968,10 @@
     {
       "source": "Resources/Data Science & Analytics/Confidence Intervals",
       "target": "Resources/Data Science & Analytics/A-B Testing Design"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Confidence Intervals",
+      "target": "Resources/Data Science & Analytics/Bayesian Statistics"
     },
     {
       "source": "Resources/Data Science & Analytics/Confidence Intervals",
@@ -20139,7 +20163,11 @@
     },
     {
       "source": "Resources/Data Science & Analytics/Hypothesis Testing",
-      "target": "A/B Testing Design"
+      "target": "Resources/Data Science & Analytics/A-B Testing Design"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Hypothesis Testing",
+      "target": "Resources/Data Science & Analytics/Causal Inference (Correlation vs Causation)"
     },
     {
       "source": "Resources/Data Science & Analytics/Hypothesis Testing",
@@ -20152,10 +20180,6 @@
     {
       "source": "Resources/Data Science & Analytics/Hypothesis Testing",
       "target": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)"
-    },
-    {
-      "source": "Resources/Data Science & Analytics/Hypothesis Testing",
-      "target": "Resources/Product Management/Product Analytics Fundamentals"
     },
     {
       "source": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose",
@@ -20191,7 +20215,7 @@
     },
     {
       "source": "Resources/Data Science & Analytics/P-values and Statistical Significance",
-      "target": "A/B Testing Design"
+      "target": "Resources/Data Science & Analytics/A-B Testing Design"
     },
     {
       "source": "Resources/Data Science & Analytics/P-values and Statistical Significance",
@@ -20223,15 +20247,23 @@
     },
     {
       "source": "Resources/Data Science & Analytics/Probability Theory Basics",
-      "target": "Resources/MLOps and ML Engineering"
+      "target": "Resources/Mathematics/Probability Distributions (Normal, Binomial, Poisson, Exponential)"
     },
     {
       "source": "Resources/Data Science & Analytics/Probability Theory Basics",
-      "target": "Resources/Mathematics/Probability Distributions (Normal, Binomial, Poisson, Exponential)"
+      "target": "Resources/Meta-Learning & Epistemics/Calibration and Epistemic Humility"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Regression Analysis (Linear, Logistic, Polynomial)",
+      "target": "\"plan\", \"sessions\", \"days_active\""
     },
     {
       "source": "Resources/Data Science & Analytics/Regression Analysis (Linear, Logistic, Polynomial)",
       "target": "Resources/Data Science & Analytics/Causal Inference (Correlation vs Causation)"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Regression Analysis (Linear, Logistic, Polynomial)",
+      "target": "Resources/Data Science & Analytics/Confidence Intervals"
     },
     {
       "source": "Resources/Data Science & Analytics/Regression Analysis (Linear, Logistic, Polynomial)",
@@ -20283,6 +20315,10 @@
     },
     {
       "source": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)",
+      "target": "Resources/Data Science & Analytics/Dashboard Design Principles"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)",
       "target": "Resources/Data Science & Analytics/Metrics and KPIs — How to Choose"
     },
     {
@@ -20292,10 +20328,6 @@
     {
       "source": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)",
       "target": "Resources/Data Science & Analytics/Probability Theory Basics"
-    },
-    {
-      "source": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)",
-      "target": "Resources/Observability"
     },
     {
       "source": "Resources/Data Science & Analytics/Survival Analysis",
@@ -20319,6 +20351,10 @@
     },
     {
       "source": "Resources/Data Science & Analytics/Time Series Analysis",
+      "target": "Resources/Data Science & Analytics/Causal Inference (Correlation vs Causation)"
+    },
+    {
+      "source": "Resources/Data Science & Analytics/Time Series Analysis",
       "target": "Resources/Data Science & Analytics/Dashboard Design Principles"
     },
     {
@@ -20327,7 +20363,7 @@
     },
     {
       "source": "Resources/Data Science & Analytics/Time Series Analysis",
-      "target": "Resources/Observability"
+      "target": "Resources/Data Science & Analytics/Statistics Fundamentals (Mean, Median, Mode, Std Dev)"
     },
     {
       "source": "Resources/Data Science & Analytics/Visualization Best Practices",
@@ -33994,5 +34030,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-31T15:05:26Z"
+  "generated_at": "2026-05-31T20:58:40Z"
 }
