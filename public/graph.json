@@ -5649,7 +5649,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)",
@@ -5661,7 +5661,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 23
+      "degree": 20
     },
     {
       "id": "Resources/DevOps & Infrastructure/Serverless Architecture",
@@ -5697,7 +5697,7 @@
         "resource",
         "devops-infrastructure"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/DevOps & Infrastructure/systemd — Service and Process Management",
@@ -12924,12 +12924,12 @@
       "label": "API Key Management",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "API key management controls how keys are created, scoped, stored, rotated, monitored, and revoked. Good key design limits blast radius with least privilege, environment separation, usage limits, and leak detection.",
+      "excerpt": "API keys are bearer credentials: possession usually equals access. Good API key management designs for leak containment with scoped keys, environment separation, hashed storage, short rotation paths, usage monitoring, rate limits, ownership metadata, and automated revocation.",
       "tags": [
         "resource",
         "security-privacy"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Security & Privacy/Authentication vs Authorization",
@@ -13008,7 +13008,7 @@
       "label": "Defense in Depth",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Defense in depth layers independent controls so one failure does not become total compromise. It combines preventive, detective, and responsive controls across code, identity, network, data, infrastructure, and operations.",
+      "excerpt": "Defense in depth layers independent preventive, detective, and responsive controls so one failure does not become total compromise. The useful test is whether each layer breaks a different part of the attack chain rather than duplicating the same brittle assumption.",
       "tags": [
         "resource",
         "security-privacy"
@@ -13020,7 +13020,7 @@
       "label": "Encryption — Symmetric vs Asymmetric",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Symmetric encryption uses the same secret key for encryption and decryption, while asymmetric encryption uses public/private key pairs. Real systems often combine them: asymmetric cryptography establishes trust and symmetric keys protect bulk data.",
+      "excerpt": "Symmetric encryption uses one shared secret key and is fast enough for bulk data; asymmetric cryptography uses public/private key pairs for identity, signatures, and key agreement. Real protocols usually combine them: asymmetric trust setup, symmetric session keys for data.",
       "tags": [
         "resource",
         "security-privacy"
@@ -13032,7 +13032,7 @@
       "label": "End-to-End Encryption",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "End-to-end encryption protects message contents so only the communicating endpoints can read them. Servers may route, store, and synchronize ciphertext, but they should not possess the keys needed to decrypt user content.",
+      "excerpt": "End-to-end encryption encrypts content on the sender's device and decrypts it only on intended recipient devices, so servers can route and store ciphertext without plaintext access. It improves privacy but complicates search, moderation, recovery, backups, multi-device sync, and abuse handling.",
       "tags": [
         "resource",
         "security-privacy"
@@ -13049,7 +13049,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Security & Privacy/OAuth 2.0 Flow",
@@ -13128,7 +13128,7 @@
       "label": "Penetration Testing Overview",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Penetration testing is an authorized attempt to find exploitable security weaknesses in systems, applications, networks, or processes. Its value depends on scope, rules of engagement, realistic attack paths, evidence, and actionable remediation.",
+      "excerpt": "Penetration testing is an authorized adversarial assessment that validates whether weaknesses can be chained into business impact. Good tests have clear scope, rules of engagement, safety limits, evidence, severity rationale, remediation guidance, and retesting.",
       "tags": [
         "resource",
         "security-privacy"
@@ -13140,19 +13140,19 @@
       "label": "Phishing — Recognition and Defense",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Phishing tricks users into revealing credentials, installing malware, approving access, or taking unsafe actions. Defense requires user reporting, email security, MFA, domain protections, safe links, and resilient account recovery.",
+      "excerpt": "Phishing tricks users into handing over credentials, sessions, approvals, money, or malware execution. Modern defense assumes some lures get through, so it combines phishing-resistant MFA, email authentication, safe reporting, browser/session controls, account recovery hardening, and anomaly detection.",
       "tags": [
         "resource",
         "security-privacy"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Security & Privacy/Public Key Infrastructure (PKI)",
       "label": "Public Key Infrastructure (PKI)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Public Key Infrastructure manages certificates, certificate authorities, trust chains, issuance, renewal, and revocation. PKI is how browsers, services, and organizations bind public keys to identities at scale.",
+      "excerpt": "Public Key Infrastructure binds public keys to identities through certificates, certificate authorities, trust stores, issuance, validation, renewal, and revocation. PKI is why browsers can decide that a TLS public key belongs to a domain rather than an impostor.",
       "tags": [
         "resource",
         "security-privacy"
@@ -13181,7 +13181,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Security & Privacy/Security Auditing",
@@ -13224,7 +13224,7 @@
       "label": "Social Engineering Attacks",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Social engineering attacks manipulate people rather than directly exploiting software. They work by abusing trust, urgency, authority, fear, helpfulness, or routine operational habits.",
+      "excerpt": "Social engineering attacks manipulate people and workflows instead of directly exploiting code. They succeed by abusing authority, urgency, helpfulness, routine, and weak verification paths such as help desks, account recovery, vendor payments, and executive approvals.",
       "tags": [
         "resource",
         "security-privacy"
@@ -13248,12 +13248,12 @@
       "label": "Threat Modeling (STRIDE)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Threat modeling identifies what can go wrong in a system before attackers or incidents expose it. STRIDE is a practical framework covering spoofing, tampering, repudiation, information disclosure, denial of service, and elevation of privilege.",
+      "excerpt": "Threat modeling is structured security design review before an incident or pen test finds the issue. STRIDE walks each asset, actor, trust boundary, and data flow through spoofing, tampering, repudiation, information disclosure, denial of service, and elevation of privilege.",
       "tags": [
         "resource",
         "security-privacy"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Security & Privacy/Vulnerability Disclosure and Bug Bounty Programs",
@@ -13284,7 +13284,7 @@
       "label": "Zero-Trust Architecture",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Zero-trust architecture assumes network location alone should not grant trust. Every request should be authenticated, authorized, encrypted, monitored, and limited according to identity, device, context, and policy.",
+      "excerpt": "Zero-trust architecture removes implicit trust from network location. Every user, device, service, and workload request should be strongly authenticated, explicitly authorized, encrypted, logged, and limited by context-aware policy.",
       "tags": [
         "resource",
         "security-privacy"
@@ -30269,7 +30269,7 @@
     },
     {
       "source": "Resources/Security & Privacy/API Key Management",
-      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
+      "target": "Resources/Security & Privacy/JWT — Structure, Signing, and Security"
     },
     {
       "source": "Resources/Security & Privacy/API Key Management",
@@ -30385,7 +30385,7 @@
     },
     {
       "source": "Resources/Security & Privacy/Defense in Depth",
-      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
+      "target": "Resources/Security & Privacy/API Key Management"
     },
     {
       "source": "Resources/Security & Privacy/Defense in Depth",
@@ -30397,15 +30397,15 @@
     },
     {
       "source": "Resources/Security & Privacy/Encryption — Symmetric vs Asymmetric",
-      "target": "Resources/DevOps & Infrastructure/Secret Management (Vault, AWS Secrets Manager)"
-    },
-    {
-      "source": "Resources/Security & Privacy/Encryption — Symmetric vs Asymmetric",
       "target": "Resources/Security & Privacy/End-to-End Encryption"
     },
     {
       "source": "Resources/Security & Privacy/Encryption — Symmetric vs Asymmetric",
       "target": "Resources/Security & Privacy/Public Key Infrastructure (PKI)"
+    },
+    {
+      "source": "Resources/Security & Privacy/Encryption — Symmetric vs Asymmetric",
+      "target": "Resources/Security & Privacy/Secrets Scanning (GitGuardian, truffleHog)"
     },
     {
       "source": "Resources/Security & Privacy/Encryption — Symmetric vs Asymmetric",
@@ -30749,19 +30749,19 @@
     },
     {
       "source": "Resources/Security & Privacy/Zero-Trust Architecture",
-      "target": "Resources/DevOps & Infrastructure/SSH Best Practices"
-    },
-    {
-      "source": "Resources/Security & Privacy/Zero-Trust Architecture",
-      "target": "Resources/DevOps & Infrastructure/VPN Architecture"
-    },
-    {
-      "source": "Resources/Security & Privacy/Zero-Trust Architecture",
       "target": "Resources/Security & Privacy/Authentication vs Authorization"
     },
     {
       "source": "Resources/Security & Privacy/Zero-Trust Architecture",
       "target": "Resources/Security & Privacy/Defense in Depth"
+    },
+    {
+      "source": "Resources/Security & Privacy/Zero-Trust Architecture",
+      "target": "Resources/Security & Privacy/Phishing — Recognition and Defense"
+    },
+    {
+      "source": "Resources/Security & Privacy/Zero-Trust Architecture",
+      "target": "Resources/Security & Privacy/Threat Modeling (STRIDE)"
     },
     {
       "source": "Resources/Security Deep Dive",
@@ -34072,5 +34072,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-31T21:42:06Z"
+  "generated_at": "2026-05-31T21:48:15Z"
 }
