@@ -868,6 +868,15 @@
       "degree": 3
     },
     {
+      "id": "Goodhart's Law",
+      "label": "Goodhart's Law",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Graph Algorithms (BFS, DFS, Dijkstra, A*)",
       "label": "Graph Algorithms (BFS, DFS, Dijkstra, A*)",
       "folder": null,
@@ -1197,7 +1206,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "Projects/Backlog",
@@ -3063,19 +3072,55 @@
       "label": "Blue Ocean Strategy",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Blue Ocean Strategy argues that companies can escape direct competition by creating new demand and redefining value curves. The goal is not merely differentiation, but making old tradeoffs less relevant.",
+      "excerpt": "Blue Ocean Strategy seeks uncontested demand by changing the value curve instead of competing on the same factors as incumbents. The mechanism is value innovation: eliminate, reduce, raise, and create factors so customers compare the offer on new terms.",
       "tags": [
         "resource",
         "business-strategy"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Business & Strategy/Brand Building",
       "label": "Brand Building",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Brand building creates memory, trust, differentiation, and preference over time. A strong brand reduces perceived risk, makes choices easier, and can compound distribution and pricing power.",
+      "excerpt": "Brand building creates memory, trust, preference, and distinct associations over time. A strong brand lowers perceived risk, improves conversion, supports pricing power, and makes distribution more efficient.",
+      "tags": [
+        "resource",
+        "business-strategy"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Business & Strategy/Business Model Canvas",
+      "label": "Business Model Canvas",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "The Business Model Canvas maps how a business creates, delivers, and captures value across customers, value proposition, channels, relationships, revenue, resources, activities, partners, and costs. Its real use is finding incoherence between boxes before the market does.",
+      "tags": [
+        "resource",
+        "business-strategy"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Business & Strategy/Competitive Moats (Network Effects, Switching Costs, Scale, IP)",
+      "label": "Competitive Moats (Network Effects, Switching Costs, Scale, IP)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Competitive moats are structural advantages that let a company defend profits against imitation and competition. Real moats include network effects, switching costs, scale economies, brand, distribution, data loops, regulation, and IP; 'better features' is usually not enough.",
+      "tags": [
+        "resource",
+        "business-strategy"
+      ],
+      "degree": 15
+    },
+    {
+      "id": "Resources/Business & Strategy/First-Mover vs Fast-Follower",
+      "label": "First-Mover vs Fast-Follower",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "First movers can gain learning, brand, data, network effects, and standards advantages, but fast followers can avoid education costs and copy what the market proves. Being first matters only when the early lead converts into a defensible advantage.",
       "tags": [
         "resource",
         "business-strategy"
@@ -3083,83 +3128,35 @@
       "degree": 7
     },
     {
-      "id": "Resources/Business & Strategy/Business Model Canvas",
-      "label": "Business Model Canvas",
-      "folder": "Resources",
-      "created": "2026-05-26",
-      "excerpt": "The Business Model Canvas maps how a business creates, delivers, and captures value through customer segments, value propositions, channels, relationships, revenue, resources, activities, partners, and costs.",
-      "tags": [
-        "resource",
-        "business-strategy"
-      ],
-      "degree": 5
-    },
-    {
-      "id": "Resources/Business & Strategy/Competitive Moats (Network Effects, Switching Costs, Scale, IP)",
-      "label": "Competitive Moats (Network Effects, Switching Costs, Scale, IP)",
-      "folder": "Resources",
-      "created": "2026-05-26",
-      "excerpt": "Competitive moats are durable advantages that protect a company from competitors. Common moats include network effects, switching costs, scale economies, brand, data, regulation, distribution, and intellectual property.",
-      "tags": [
-        "resource",
-        "business-strategy"
-      ],
-      "degree": 14
-    },
-    {
-      "id": "Resources/Business & Strategy/First-Mover vs Fast-Follower",
-      "label": "First-Mover vs Fast-Follower",
-      "folder": "Resources",
-      "created": "2026-05-26",
-      "excerpt": "First movers can gain learning, brand, data, and network advantages, but fast followers can avoid early mistakes and enter once demand is clearer. Timing advantage depends on moats, switching costs, capital, and execution.",
-      "tags": [
-        "resource",
-        "business-strategy"
-      ],
-      "degree": 6
-    },
-    {
       "id": "Resources/Business & Strategy/Go-to-Market Strategy",
       "label": "Go-to-Market Strategy",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Go-to-market strategy defines how a company reaches, sells to, onboards, and retains a target customer segment. It connects positioning, channels, pricing, sales motion, lifecycle, and success metrics.",
+      "excerpt": "Go-to-market strategy defines how a company reaches, converts, onboards, and retains a specific customer segment. It connects ICP, positioning, channel, pricing, sales motion, activation, customer success, and metrics into one adoption system.",
       "tags": [
         "resource",
         "business-strategy"
       ],
-      "degree": 9
+      "degree": 11
     },
     {
       "id": "Resources/Business & Strategy/North Star Metric",
       "label": "North Star Metric",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "A North Star Metric is a single product or business metric intended to represent delivered customer value and long-term growth. It works only when paired with guardrails and input metrics.",
+      "excerpt": "A North Star Metric is a single metric meant to represent delivered customer value and predict durable business growth. It works only with input metrics and guardrails, because optimizing one number blindly creates distortion.",
       "tags": [
         "resource",
         "business-strategy"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Business & Strategy/Platform vs Pipeline Business Models",
       "label": "Platform vs Pipeline Business Models",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Pipeline businesses create value through a linear chain, while platform businesses facilitate interactions among external participants. Platforms often depend on network effects, governance, trust, and balancing multiple sides.",
-      "tags": [
-        "resource",
-        "business-strategy"
-      ],
-      "degree": 4
-    },
-    {
-      "id": "Resources/Business & Strategy/Porter's Five Forces",
-      "label": "Porter's Five Forces",
-      "folder": "Resources",
-      "created": "2026-05-26",
-      "excerpt": "Porter's Five Forces analyzes industry attractiveness through rivalry, buyer power, supplier power, threat of substitutes, and threat of new entrants. It explains profit pressure beyond a company's internal execution.",
+      "excerpt": "Pipeline businesses create value through a controlled linear chain, while platform businesses enable external producers and consumers to interact. Platforms require governance, trust, liquidity, pricing across sides, and network-effect management, not just a marketplace UI.",
       "tags": [
         "resource",
         "business-strategy"
@@ -3167,11 +3164,59 @@
       "degree": 6
     },
     {
+      "id": "Resources/Business & Strategy/Porter's Five Forces",
+      "label": "Porter's Five Forces",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Porter's Five Forces explains industry profitability through rivalry, buyer power, supplier power, substitutes, and new entrants. The mechanism is margin pressure: each force changes who captures value, how prices are set, and how hard profits are to defend.",
+      "tags": [
+        "resource",
+        "business-strategy"
+      ],
+      "degree": 7
+    },
+    {
       "id": "Resources/Business & Strategy/SWOT Analysis",
       "label": "SWOT Analysis",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "SWOT analysis organizes strategy around internal strengths and weaknesses plus external opportunities and threats. It is useful as a quick scan, but weak if it becomes a generic list without decisions.",
+      "excerpt": "SWOT organizes strategy into internal strengths/weaknesses and external opportunities/threats. It is useful only when the list becomes choices: where to press an advantage, fix a constraint, exploit an opening, or defend against a real risk.",
+      "tags": [
+        "resource",
+        "business-strategy"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Business & Strategy/Subscription Business Metrics (MRR, ARR, NRR, GRR)",
+      "label": "Subscription Business Metrics (MRR, ARR, NRR, GRR)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Subscription metrics separate recurring revenue into new, expansion, contraction, churn, retained revenue, and cohorts. MRR/ARR show scale, while GRR and NRR show whether the business retains and expands customer value.",
+      "tags": [
+        "resource",
+        "business-strategy"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Resources/Business & Strategy/The Innovator's Dilemma (Clayton Christensen)",
+      "label": "The Innovator's Dilemma (Clayton Christensen)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Christensen's Innovator's Dilemma explains why well-managed incumbents miss disruption: they rationally serve profitable customers and ignore low-end or new-market technologies that initially look worse. Disruption succeeds when the entrant improves until it satisfies the mainstream market.",
+      "tags": [
+        "resource",
+        "business-strategy"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Business & Strategy/The Strategy of Precommitment",
+      "label": "The Strategy of Precommitment",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Precommitment deliberately constrains future choices to make a promise credible, change another actor's expectations, or protect against future temptation. It appears in game theory, negotiation, pricing, personal behavior, product strategy, and institutional design.",
       "tags": [
         "resource",
         "business-strategy"
@@ -3179,11 +3224,11 @@
       "degree": 4
     },
     {
-      "id": "Resources/Business & Strategy/Subscription Business Metrics (MRR, ARR, NRR, GRR)",
-      "label": "Subscription Business Metrics (MRR, ARR, NRR, GRR)",
+      "id": "Resources/Business & Strategy/Vertical vs Horizontal Integration",
+      "label": "Vertical vs Horizontal Integration",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Subscription metrics track recurring revenue health through MRR, ARR, churn, retention, NRR, GRR, expansion, and cohort behavior. They reveal whether growth is durable or leaking.",
+      "excerpt": "Vertical integration expands control upstream or downstream in the value chain, while horizontal integration expands across similar products, customers, or competitors. The strategic tradeoff is control and margin capture versus flexibility, capital intensity, complexity, and regulatory risk.",
       "tags": [
         "resource",
         "business-strategy"
@@ -3191,52 +3236,16 @@
       "degree": 5
     },
     {
-      "id": "Resources/Business & Strategy/The Innovator's Dilemma (Clayton Christensen)",
-      "label": "The Innovator's Dilemma (Clayton Christensen)",
+      "id": "Resources/Business & Strategy/Zero to One — Key Ideas (Peter Thiel)",
+      "label": "Zero to One — Key Ideas (Peter Thiel)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Innovator's Dilemma explains how successful incumbents can miss disruptive innovations because they rationally serve their best customers and margins. Disruptors often begin in overlooked, low-end, or new-market segments.",
+      "excerpt": "Zero to One argues that great startups create new value and durable differentiation rather than competing in commodity markets. Its key ideas are monopoly profits, secrets, definite optimism, technology leverage, small-market domination, and the critique that competition can destroy value.",
       "tags": [
         "resource",
         "business-strategy"
       ],
       "degree": 6
-    },
-    {
-      "id": "Resources/Business & Strategy/The Strategy of Precommitment",
-      "label": "The Strategy of Precommitment",
-      "folder": "Resources",
-      "created": "2026-05-26",
-      "excerpt": "Precommitment is a strategy of binding future choices to make a current signal credible or prevent later temptation. It appears in negotiation, game theory, personal behavior, product strategy, and institutional design.",
-      "tags": [
-        "resource",
-        "business-strategy"
-      ],
-      "degree": 3
-    },
-    {
-      "id": "Resources/Business & Strategy/Vertical vs Horizontal Integration",
-      "label": "Vertical vs Horizontal Integration",
-      "folder": "Resources",
-      "created": "2026-05-26",
-      "excerpt": "Vertical integration expands control across a supply chain, while horizontal integration expands across similar products, customers, or competitors. Each changes coordination, margin capture, flexibility, and market power.",
-      "tags": [
-        "resource",
-        "business-strategy"
-      ],
-      "degree": 3
-    },
-    {
-      "id": "Resources/Business & Strategy/Zero to One — Key Ideas (Peter Thiel)",
-      "label": "Zero to One — Key Ideas (Peter Thiel)",
-      "folder": "Resources",
-      "created": "2026-05-26",
-      "excerpt": "Zero to One argues that great startups create new value rather than merely competing in existing markets. Key ideas include monopoly profits, secrets, definite optimism, technology leverage, and starting with a small market.",
-      "tags": [
-        "resource",
-        "business-strategy"
-      ],
-      "degree": 4
     },
     {
       "id": "Resources/CI CD",
@@ -4483,7 +4492,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Data Science & Analytics/Confidence Intervals",
@@ -6136,7 +6145,7 @@
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Equity and Dilution",
@@ -6220,7 +6229,7 @@
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Solopreneurship and Indie Hacking",
@@ -18395,6 +18404,14 @@
       "target": "Resources/Business & Strategy/Go-to-Market Strategy"
     },
     {
+      "source": "Resources/Business & Strategy/Blue Ocean Strategy",
+      "target": "Resources/Business & Strategy/Zero to One — Key Ideas (Peter Thiel)"
+    },
+    {
+      "source": "Resources/Business & Strategy/Brand Building",
+      "target": "Positioning"
+    },
+    {
       "source": "Resources/Business & Strategy/Brand Building",
       "target": "Resources/Business & Strategy/Competitive Moats (Network Effects, Switching Costs, Scale, IP)"
     },
@@ -18409,6 +18426,10 @@
     {
       "source": "Resources/Business & Strategy/Business Model Canvas",
       "target": "Resources/Business & Strategy/Go-to-Market Strategy"
+    },
+    {
+      "source": "Resources/Business & Strategy/Business Model Canvas",
+      "target": "Resources/Business & Strategy/SWOT Analysis"
     },
     {
       "source": "Resources/Business & Strategy/Business Model Canvas",
@@ -18431,12 +18452,20 @@
       "target": "Resources/Economics & Finance/Network Effects in Economics (Metcalfe's Law)"
     },
     {
+      "source": "Resources/Business & Strategy/Competitive Moats (Network Effects, Switching Costs, Scale, IP)",
+      "target": "Resources/Entrepreneurship & Startups/Distribution is Everything"
+    },
+    {
       "source": "Resources/Business & Strategy/First-Mover vs Fast-Follower",
       "target": "Resources/Business & Strategy/Competitive Moats (Network Effects, Switching Costs, Scale, IP)"
     },
     {
       "source": "Resources/Business & Strategy/First-Mover vs Fast-Follower",
       "target": "Resources/Business & Strategy/The Innovator's Dilemma (Clayton Christensen)"
+    },
+    {
+      "source": "Resources/Business & Strategy/First-Mover vs Fast-Follower",
+      "target": "Resources/Entrepreneurship & Startups/Distribution is Everything"
     },
     {
       "source": "Resources/Business & Strategy/First-Mover vs Fast-Follower",
@@ -18448,11 +18477,19 @@
     },
     {
       "source": "Resources/Business & Strategy/Go-to-Market Strategy",
+      "target": "Resources/Business & Strategy/Business Model Canvas"
+    },
+    {
+      "source": "Resources/Business & Strategy/Go-to-Market Strategy",
       "target": "Resources/Entrepreneurship & Startups/Distribution is Everything"
     },
     {
       "source": "Resources/Business & Strategy/Go-to-Market Strategy",
       "target": "Resources/Entrepreneurship & Startups/Pricing Strategy (Value-Based, Cost-Plus, Freemium)"
+    },
+    {
+      "source": "Resources/Business & Strategy/North Star Metric",
+      "target": "Goodhart's Law"
     },
     {
       "source": "Resources/Business & Strategy/North Star Metric",
@@ -18465,6 +18502,10 @@
     {
       "source": "Resources/Business & Strategy/North Star Metric",
       "target": "Resources/Product Management/Product Analytics Fundamentals"
+    },
+    {
+      "source": "Resources/Business & Strategy/Platform vs Pipeline Business Models",
+      "target": "Resources/Business & Strategy/Business Model Canvas"
     },
     {
       "source": "Resources/Business & Strategy/Platform vs Pipeline Business Models",
@@ -18491,12 +18532,20 @@
       "target": "Resources/Business & Strategy/SWOT Analysis"
     },
     {
+      "source": "Resources/Business & Strategy/Porter's Five Forces",
+      "target": "Resources/Business & Strategy/Vertical vs Horizontal Integration"
+    },
+    {
       "source": "Resources/Business & Strategy/SWOT Analysis",
       "target": "Decision Matrices"
     },
     {
       "source": "Resources/Business & Strategy/SWOT Analysis",
       "target": "Resources/Business & Strategy/Business Model Canvas"
+    },
+    {
+      "source": "Resources/Business & Strategy/SWOT Analysis",
+      "target": "Resources/Business & Strategy/Go-to-Market Strategy"
     },
     {
       "source": "Resources/Business & Strategy/SWOT Analysis",
@@ -18508,11 +18557,19 @@
     },
     {
       "source": "Resources/Business & Strategy/Subscription Business Metrics (MRR, ARR, NRR, GRR)",
+      "target": "Resources/Data Science & Analytics/Cohort Analysis"
+    },
+    {
+      "source": "Resources/Business & Strategy/Subscription Business Metrics (MRR, ARR, NRR, GRR)",
       "target": "Resources/Entrepreneurship & Startups/Unit Economics (CAC, LTV, Payback Period, Churn)"
     },
     {
       "source": "Resources/Business & Strategy/Subscription Business Metrics (MRR, ARR, NRR, GRR)",
       "target": "Resources/Product Management/Product Analytics Fundamentals"
+    },
+    {
+      "source": "Resources/Business & Strategy/The Innovator's Dilemma (Clayton Christensen)",
+      "target": "Resources/Business & Strategy/Blue Ocean Strategy"
     },
     {
       "source": "Resources/Business & Strategy/The Innovator's Dilemma (Clayton Christensen)",
@@ -18539,12 +18596,20 @@
       "target": "Resources/Economics & Finance/Prisoner's Dilemma and Nash Equilibrium"
     },
     {
+      "source": "Resources/Business & Strategy/The Strategy of Precommitment",
+      "target": "Resources/Entrepreneurship & Startups/Pricing Strategy (Value-Based, Cost-Plus, Freemium)"
+    },
+    {
       "source": "Resources/Business & Strategy/Vertical vs Horizontal Integration",
       "target": "Resources/Business & Strategy/Business Model Canvas"
     },
     {
       "source": "Resources/Business & Strategy/Vertical vs Horizontal Integration",
       "target": "Resources/Business & Strategy/Competitive Moats (Network Effects, Switching Costs, Scale, IP)"
+    },
+    {
+      "source": "Resources/Business & Strategy/Vertical vs Horizontal Integration",
+      "target": "Resources/Business & Strategy/Platform vs Pipeline Business Models"
     },
     {
       "source": "Resources/Business & Strategy/Vertical vs Horizontal Integration",
@@ -18557,6 +18622,10 @@
     {
       "source": "Resources/Business & Strategy/Zero to One — Key Ideas (Peter Thiel)",
       "target": "Resources/Business & Strategy/Competitive Moats (Network Effects, Switching Costs, Scale, IP)"
+    },
+    {
+      "source": "Resources/Business & Strategy/Zero to One — Key Ideas (Peter Thiel)",
+      "target": "Resources/Business & Strategy/The Innovator's Dilemma (Clayton Christensen)"
     },
     {
       "source": "Resources/Business & Strategy/Zero to One — Key Ideas (Peter Thiel)",
@@ -34259,5 +34328,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-01T03:12:51Z"
+  "generated_at": "2026-06-01T03:21:51Z"
 }
