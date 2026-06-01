@@ -13352,7 +13352,7 @@
       "label": "Blue Light and Melatonin Suppression",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Blue-enriched evening light can suppress melatonin and delay circadian timing, especially when bright and close to bedtime. Light timing, brightness, duration, and personal sensitivity all matter.",
+      "excerpt": "Evening light, especially bright blue-enriched light, can suppress melatonin and delay circadian timing through melanopsin-sensitive retinal cells. Brightness, timing, duration, distance, and content stimulation matter more than treating every pixel as equally dangerous.",
       "tags": [
         "resource",
         "sleep-science"
@@ -13376,7 +13376,7 @@
       "label": "Circadian Rhythm — How It Works",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Circadian rhythm is the roughly 24-hour body clock shaped by light, timing, meals, activity, and routine. Morning light and consistent wake time are strong anchors for sleep timing.",
+      "excerpt": "Circadian rhythm is the body's roughly 24-hour timing system, coordinated by the suprachiasmatic nucleus and reset mainly by light. Morning light, consistent wake time, dim evenings, meal timing, exercise, and social rhythm all help Bobby reason about why sleep timing succeeds or drifts.",
       "tags": [
         "resource",
         "sleep-science"
@@ -13412,7 +13412,7 @@
       "label": "Napping — Types and Optimal Duration (Power Nap, Full Cycle)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Naps can reduce sleep pressure and improve alertness, but timing and duration determine whether they help or create grogginess. Short power naps are often safer for daytime alertness than long late naps.",
+      "excerpt": "Napping reduces sleep pressure and can improve alertness, mood, and performance, but duration and timing determine whether it helps or causes sleep inertia. Short 10-30 minute naps are usually safest; longer full-cycle naps are recovery tools, not daily compensation for chronic short sleep.",
       "tags": [
         "resource",
         "sleep-science"
@@ -13448,7 +13448,7 @@
       "label": "Sleep Cycles and Ultradian Rhythms",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Sleep cycles repeat roughly every 90 minutes, moving through NREM and REM stages. Early sleep tends to contain more deep sleep, while later sleep tends to contain more REM.",
+      "excerpt": "Sleep cycles are ultradian rhythms that usually repeat about every 80-120 minutes, shifting from NREM-heavy early cycles to REM-heavy later cycles. The useful lesson is not exact 90-minute bedtime math; it is protecting enough sleep opportunity for multiple complete cycles.",
       "tags": [
         "resource",
         "sleep-science"
@@ -13460,7 +13460,7 @@
       "label": "Sleep Deprivation — Cognitive and Physical Effects",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Sleep deprivation impairs attention, reaction time, learning, mood, immune function, metabolic health, and physical performance. Chronic sleep restriction can be especially deceptive because people adapt subjectively while performance remains impaired.",
+      "excerpt": "Sleep deprivation impairs attention, reaction time, learning, emotion regulation, immune function, metabolic health, cardiovascular risk, and physical recovery. Chronic restriction is deceptive because people may feel adapted while objective performance remains degraded.",
       "tags": [
         "resource",
         "sleep-science"
@@ -13484,7 +13484,7 @@
       "label": "Sleep Hygiene Best Practices",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Sleep hygiene is the set of habits and environmental choices that support reliable sleep: consistent wake time, morning light, reduced evening stimulation, caffeine timing, cool room, and a repeatable wind-down.",
+      "excerpt": "Sleep hygiene is the baseline system for reliable sleep: consistent wake time, morning light, enough sleep opportunity, late-caffeine cutoff, dim evenings, cool dark quiet room, and a repeatable wind-down. It helps many people, but persistent insomnia, apnea symptoms, restless legs, or severe daytime sleepiness need medical evaluation rather than more habit tweaks.",
       "tags": [
         "resource",
         "sleep-science"
@@ -13496,7 +13496,7 @@
       "label": "Sleep Pressure and Adenosine",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Sleep pressure builds during wakefulness partly through adenosine accumulation and decreases during sleep. Caffeine masks this pressure by blocking adenosine receptors rather than removing the underlying need for sleep.",
+      "excerpt": "Sleep pressure is the homeostatic drive that builds with time awake, partly through adenosine signaling, and falls during sleep. Caffeine blocks adenosine receptors, so it can hide sleepiness without repaying sleep debt.",
       "tags": [
         "resource",
         "sleep-science"
@@ -13508,7 +13508,7 @@
       "label": "Sleep Stages (NREM 1-2-3 and REM)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Sleep cycles through NREM and REM stages, each associated with different brain and body functions. Deep NREM supports physical restoration and memory consolidation, while REM is linked to dreaming, emotion, and learning.",
+      "excerpt": "Sleep is organized into NREM 1, NREM 2, NREM 3, and REM, each with different brain-wave patterns and recovery functions. Deep NREM is concentrated earlier in the night, REM increases later, and consumer wearables can estimate stages but cannot read them like a sleep lab.",
       "tags": [
         "resource",
         "sleep-science"
@@ -13520,7 +13520,7 @@
       "label": "Sleep Tracking — Metrics That Actually Matter",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Sleep tracking is useful for trends like duration, consistency, awakenings, resting heart rate, HRV, and subjective recovery. Consumer sleep-stage estimates are less reliable and should not drive anxiety.",
+      "excerpt": "Sleep tracking is useful for trends in sleep duration, consistency, awakenings, resting heart rate, HRV, SpO2 flags, and subjective recovery. Consumer stage estimates are much weaker than polysomnography, so the data should guide experiments rather than become a nightly grade.",
       "tags": [
         "resource",
         "sleep-science"
@@ -34423,5 +34423,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-01T16:07:19Z"
+  "generated_at": "2026-06-01T16:12:56Z"
 }
