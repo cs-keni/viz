@@ -10636,7 +10636,7 @@
       "label": "Alcohol and Health — What the Research Says",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Alcohol affects sleep, liver health, cancer risk, accidents, mood, and performance, and current public-health framing increasingly emphasizes that lower intake means lower risk. Any benefits are context-dependent and should not be treated as a reason to drink.",
+      "excerpt": "Alcohol is a psychoactive calorie source linked to injuries, dependence, liver disease, sleep disruption, cancer risk, and poorer training recovery. Current risk framing is simple: less alcohol generally means lower health risk, and any claimed benefit is not a reason to start drinking.",
       "tags": [
         "resource",
         "nutrition-diet"
@@ -10660,7 +10660,7 @@
       "label": "Caffeine Timing and Adenosine Clearance",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Caffeine timing matters because caffeine has a multi-hour half-life and blocks adenosine signals rather than erasing sleep pressure. Morning or early-day use is usually safer for sleep than afternoon or evening dosing.",
+      "excerpt": "Caffeine timing matters because caffeine blocks adenosine receptors for hours without removing the underlying sleep pressure. The practical rule is to use caffeine early and intentionally, then verify with sleep quality rather than assuming 'I can fall asleep' means it had no cost.",
       "tags": [
         "resource",
         "nutrition-diet"
@@ -10696,7 +10696,7 @@
       "label": "Creatine — Benefits, Safety, and Protocol",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Creatine monohydrate is one of the best-supported supplements for strength, power, and lean mass support. A simple daily dose is usually enough, and most healthy adults tolerate it well.",
+      "excerpt": "Creatine monohydrate is one of the best-supported supplements for repeated high-intensity performance, strength training volume, and lean-mass support. The practical protocol is simple: 3-5 g/day consistently, with optional loading if faster saturation matters.",
       "tags": [
         "resource",
         "nutrition-diet"
@@ -10708,7 +10708,7 @@
       "label": "Glycemic Index and Blood Sugar Management",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Glycemic index ranks carbohydrate foods by blood-glucose response, but real meals depend on portion size, fiber, protein, fat, food form, and individual context. It is a tool, not a complete nutrition system.",
+      "excerpt": "Glycemic index ranks carbohydrate foods by blood-glucose response in isolation, while glycemic load adds portion size and is usually more practical. Real blood sugar depends on fiber, protein, fat, food form, sleep, stress, exercise, insulin sensitivity, and diabetes status.",
       "tags": [
         "resource",
         "nutrition-diet"
@@ -10744,7 +10744,7 @@
       "label": "Hydration — How Much, When, and Electrolytes",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Hydration needs depend on body size, sweat rate, climate, diet, activity, and health context. Water is the foundation, while electrolytes matter most with heavy sweating, long exercise, heat, illness, or low-sodium diets.",
+      "excerpt": "Hydration is fluid balance, not a universal gallon-a-day rule. Total water needs depend on body size, sweat rate, climate, food intake, sodium, exercise, illness, and medications; electrolytes matter most with heavy sweat, heat, long endurance, sauna, vomiting, diarrhea, or low-sodium diets.",
       "tags": [
         "resource",
         "nutrition-diet"
@@ -10780,7 +10780,7 @@
       "label": "Magnesium — Uses, Forms, and Deficiency",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Magnesium supports muscle, nerve, energy, and enzymatic function. Forms differ in tolerability and use, and supplementation is most sensible when intake is low, symptoms or labs suggest deficiency, or a clinician recommends it.",
+      "excerpt": "Magnesium is an essential mineral for ATP handling, muscle and nerve function, blood pressure regulation, glucose metabolism, and hundreds of enzyme reactions. Food-first intake is safest; supplements differ by form, and the adult upper limit for supplemental magnesium is 350 mg/day unless medically supervised.",
       "tags": [
         "resource",
         "nutrition-diet"
@@ -10828,7 +10828,7 @@
       "label": "Omega-3 Fatty Acids — EPA, DHA, and Inflammation",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Omega-3 fatty acids EPA and DHA are important fats found mainly in fatty fish and algae. They are associated with heart, brain, and inflammatory pathways, but supplement value depends on diet, dose, and health context.",
+      "excerpt": "Omega-3s matter most in their long-chain EPA and DHA forms, which come mainly from fatty fish or algae and influence cell membranes, triglycerides, and inflammatory signaling. Supplement value depends on fish intake, dose, product quality, bleeding/medication context, and the specific outcome Kenny cares about.",
       "tags": [
         "resource",
         "nutrition-diet"
@@ -10840,7 +10840,7 @@
       "label": "Processed vs Whole Foods — What Matters",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Whole foods tend to provide fiber, micronutrients, satiety, and lower energy density, while highly processed foods can be easier to overeat. The meaningful distinction is overall diet pattern, not moral labeling of individual foods.",
+      "excerpt": "Processing exists on a spectrum: frozen vegetables, yogurt, olive oil, bread, protein powder, and candy are processed in very different ways. The meaningful question is whether a food pattern improves satiety, protein, fiber, micronutrients, and energy control, not whether every food is perfectly 'natural.",
       "tags": [
         "resource",
         "nutrition-diet"
@@ -10864,7 +10864,7 @@
       "label": "Supplements Worth Taking (Evidence-Based)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Evidence-based supplements are context-dependent tools, not replacements for sleep, training, diet quality, or medical care. Creatine, caffeine, protein powder, vitamin D when low, omega-3 when intake is low, and electrolytes in specific conditions are common practical examples.",
+      "excerpt": "Evidence-based supplements solve specific problems: deficiency, convenience, performance, or clinician-directed treatment. The boring short list is usually creatine, caffeine, protein powder, vitamin D when low, omega-3 when fish intake is low, electrolytes for heavy sweat, and targeted micronutrients based on diet or labs.",
       "tags": [
         "resource",
         "nutrition-diet"
@@ -10876,7 +10876,7 @@
       "label": "Vitamin D — Importance and Dosing",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Vitamin D supports bone health, immune function, and calcium regulation, with status influenced by sun exposure, diet, skin tone, latitude, season, and supplementation. Dosing is best guided by risk factors and blood levels when possible.",
+      "excerpt": "Vitamin D supports calcium absorption, bone mineralization, muscle function, and immune signaling, with deficiency risk shaped by sun exposure, skin tone, latitude, season, age, body size, and malabsorption. Dosing should be risk- and lab-aware because both deficiency and chronic high-dose supplementation can cause harm.",
       "tags": [
         "resource",
         "nutrition-diet"
@@ -34423,5 +34423,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-01T16:00:52Z"
+  "generated_at": "2026-06-01T16:07:19Z"
 }
