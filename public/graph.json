@@ -2064,7 +2064,7 @@
         "study",
         "ai"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Agent Security",
@@ -2546,7 +2546,7 @@
         "bobby",
         "memory"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Bobby/Bobby's Model Routing Logic (Haiku vs Sonnet)",
@@ -8215,7 +8215,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/Learning & Memory/Chunking Information",
@@ -9206,7 +9206,7 @@
         "resource",
         "meta-learning-epistemics"
       ],
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "Resources/Meta-Learning & Epistemics/Fermi Estimation Techniques",
@@ -11598,7 +11598,7 @@
       "label": "Absurdism (Camus)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Absurdism, associated with Albert Camus, begins from the conflict between human longing for meaning and an indifferent universe. Camus' answer is not despair, but revolt, freedom, and lucid living.",
+      "excerpt": "Absurdism, associated with Albert Camus, begins from the clash between human hunger for meaning and an indifferent universe. Camus rejects both false consolation and nihilistic surrender, arguing for lucid revolt: live, choose, and create without pretending the universe guarantees it.",
       "tags": [
         "resource",
         "philosophy"
@@ -11610,7 +11610,7 @@
       "label": "Effective Altruism — Ideas and Critiques",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Effective altruism applies evidence and reason to doing the most good, often through cause prioritization, cost-effectiveness, and long-term impact. Critiques focus on uncertainty, power, measurement, moral demandingness, and institutional failures.",
+      "excerpt": "Effective altruism applies evidence and reason to doing more good with limited resources through cause prioritization, cost-effectiveness, and moral scope expansion. Its strongest critiques target uncertainty, measurement limits, elitism, power concentration, moral demandingness, and governance failures.",
       "tags": [
         "resource",
         "philosophy"
@@ -11682,7 +11682,7 @@
       "label": "Falsifiability and the Demarcation Problem",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Falsifiability is the idea that scientific claims should be testable in ways that could prove them wrong. The demarcation problem asks how to distinguish science from non-science or pseudoscience.",
+      "excerpt": "Falsifiability says scientific claims should expose themselves to possible refutation, while the demarcation problem asks how to distinguish science from pseudoscience or non-science. It is a powerful test, but real science also depends on prediction, mechanism, replication, measurement, and research norms.",
       "tags": [
         "resource",
         "philosophy"
@@ -11718,7 +11718,7 @@
       "label": "Longtermism",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Longtermism is the view that positively influencing the long-run future is a major moral priority because future people may be vast in number. Its critiques focus on uncertainty, power, neglect of present harms, and speculative reasoning.",
+      "excerpt": "Longtermism argues that future people matter morally and may be vast in number, making the long-run future a major ethical priority. The central tension is whether huge stakes justify decisions under extreme uncertainty, especially when present people bear the costs.",
       "tags": [
         "resource",
         "philosophy"
@@ -11730,7 +11730,7 @@
       "label": "Moral Realism vs Anti-Realism",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Moral realism says moral truths exist independently of our attitudes, while moral anti-realism denies or reinterprets that independence. The debate shapes whether ethics is discovered, constructed, expressed, or negotiated.",
+      "excerpt": "Moral realism says some moral claims are true independently of our attitudes, while anti-realism denies or reinterprets attitude-independent moral facts. The debate shapes whether ethics is discovered, constructed, expressed, or negotiated.",
       "tags": [
         "resource",
         "philosophy"
@@ -11742,7 +11742,7 @@
       "label": "Personal Identity Over Time (Ship of Theseus)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Personal identity over time asks what makes a person the same person despite physical, psychological, and memory changes. The Ship of Theseus captures the puzzle of continuity through replacement.",
+      "excerpt": "Personal identity over time asks what makes someone the same person across bodily change, memory change, psychological development, and narrative revision. The Ship of Theseus and teleportation cases show that identity may be less like a hidden essence and more like continuity for practical purposes.",
       "tags": [
         "resource",
         "philosophy"
@@ -11778,7 +11778,7 @@
       "label": "Philosophy of Science (Popper, Kuhn, Lakatos)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Philosophy of science studies how scientific knowledge is produced, justified, revised, and socially organized. Popper, Kuhn, and Lakatos offer different models of falsification, paradigms, and research programs.",
+      "excerpt": "Philosophy of science studies how science produces reliable knowledge through evidence, theory, criticism, replication, and community norms. Popper emphasizes falsification, Kuhn emphasizes paradigms and revolutions, and Lakatos tries to distinguish progressive from degenerating research programs.",
       "tags": [
         "resource",
         "philosophy"
@@ -11790,7 +11790,7 @@
       "label": "Philosophy of Time — A-Theory vs B-Theory",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Philosophy of time asks whether past, present, and future are objectively different or equally real. A-theory treats the present as special, while B-theory treats time as an ordered relation without objective passage.",
+      "excerpt": "Philosophy of time asks whether past, present, and future are objectively different or equally real. A-theory treats temporal passage and the present as metaphysically special; B-theory treats time as an ordered relation without an objective moving now.",
       "tags": [
         "resource",
         "philosophy"
@@ -11814,7 +11814,7 @@
       "label": "Rationalism vs Empiricism",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Rationalism emphasizes reason, innate structure, or a priori knowledge, while empiricism emphasizes sensory experience and observation. Modern inquiry usually needs both conceptual reasoning and empirical correction.",
+      "excerpt": "Rationalism emphasizes reason, structure, deduction, and a priori knowledge; empiricism emphasizes observation, experience, and sensory evidence. Serious inquiry needs both: models without data float, and data without models is blind.",
       "tags": [
         "resource",
         "philosophy"
@@ -11826,7 +11826,7 @@
       "label": "Solipsism and External World Skepticism",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Solipsism and external world skepticism question whether anything beyond one's own mind can be known. They are important as philosophical stress tests, but not usually livable or useful as everyday operating beliefs.",
+      "excerpt": "Solipsism and external world skepticism ask whether anything beyond one's own experience can be known with certainty. They are useful epistemic stress tests, but everyday life usually rests on fallible realism, intersubjective evidence, and pragmatic action.",
       "tags": [
         "resource",
         "philosophy"
@@ -11838,7 +11838,7 @@
       "label": "Stoicism vs Buddhism — Comparison",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Stoicism and Buddhism both train attention, desire, suffering, and response to impermanence, but they differ in metaphysics, selfhood, virtue, and practice. Both can be useful without flattening them into the same philosophy.",
+      "excerpt": "Stoicism and Buddhism both train attention, desire, suffering, impermanence, and response to events, but they differ in selfhood, metaphysics, virtue, and liberation. The useful comparison preserves those differences instead of flattening both into generic calmness.",
       "tags": [
         "resource",
         "philosophy"
@@ -11874,7 +11874,7 @@
       "label": "Taoism Key Concepts (Wu Wei, Yin-Yang)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Taoism emphasizes living in accordance with the Tao, balancing opposites, simplicity, humility, and effortless action. Wu wei is not laziness; it is skillful action without unnecessary force.",
+      "excerpt": "Taoism emphasizes alignment with the Tao, non-forcing action, interdependent opposites, simplicity, humility, and responsiveness to the situation. Wu wei is not laziness; it is skilled action without unnecessary friction.",
       "tags": [
         "resource",
         "philosophy"
@@ -11886,7 +11886,7 @@
       "label": "The Simulation Hypothesis",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The simulation hypothesis argues that our experienced reality could be generated by a more fundamental computational system. It modernizes skepticism with computing language, but remains difficult to test.",
+      "excerpt": "The simulation hypothesis argues that experienced reality could be generated by a more fundamental computational substrate. Nick Bostrom's version is a probabilistic argument about advanced civilizations and ancestor simulations, not direct evidence that this world is simulated.",
       "tags": [
         "resource",
         "philosophy"
@@ -11898,7 +11898,7 @@
       "label": "Utilitarianism — Bentham and Mill",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Utilitarianism is a consequentialist ethical theory that evaluates actions by overall welfare or happiness. Bentham emphasized quantity of pleasure, while Mill distinguished higher and lower pleasures.",
+      "excerpt": "Utilitarianism is consequentialism focused on maximizing overall welfare, happiness, preference satisfaction, or reduced suffering. Bentham gives the stark quantitative version; Mill adds qualitative distinctions between higher and lower pleasures.",
       "tags": [
         "resource",
         "philosophy"
@@ -11910,7 +11910,7 @@
       "label": "Zen Buddhism Basics",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Zen Buddhism emphasizes direct experience, meditation, non-attachment, impermanence, and seeing through conceptual fixation. Its practical value is attention to what is actually present.",
+      "excerpt": "Zen Buddhism emphasizes direct experience, zazen, impermanence, non-attachment, and seeing through conceptual fixation. Its practical value is not exotic calm; it is training attention to meet the present situation without clinging to every story the mind produces.",
       "tags": [
         "resource",
         "philosophy"
@@ -29217,7 +29217,7 @@
     },
     {
       "source": "Resources/Philosophy/Falsifiability and the Demarcation Problem",
-      "target": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know"
+      "target": "Resources/Meta-Learning & Epistemics/Calibration and Epistemic Humility"
     },
     {
       "source": "Resources/Philosophy/Falsifiability and the Demarcation Problem",
@@ -29273,7 +29273,7 @@
     },
     {
       "source": "Resources/Philosophy/Personal Identity Over Time (Ship of Theseus)",
-      "target": "Resources/Agent Memory"
+      "target": "Resources/Bobby/Bobby's Memory System Design"
     },
     {
       "source": "Resources/Philosophy/Personal Identity Over Time (Ship of Theseus)",
@@ -34436,5 +34436,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-01T16:38:16Z"
+  "generated_at": "2026-06-01T16:45:18Z"
 }
