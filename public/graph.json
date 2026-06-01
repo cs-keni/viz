@@ -3161,7 +3161,7 @@
         "resource",
         "business-strategy"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Business & Strategy/Porter's Five Forces",
@@ -7998,12 +7998,12 @@
       "label": "Conway's Law",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Conway's Law says organizations tend to design systems that mirror their communication structures. Architecture and org design influence each other because teams build along coordination boundaries.",
+      "excerpt": "Conway's Law says systems tend to mirror the communication structures of the organizations that build them. Architecture and org design are coupled: team boundaries, ownership, and coordination paths show up as APIs, services, dependencies, and failure modes.",
       "tags": [
         "resource",
         "leadership-management"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Leadership & Management/Decision-Making Frameworks (DACI, RACI)",
@@ -8015,7 +8015,7 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Leadership & Management/Delegation — When and How",
@@ -8034,12 +8034,12 @@
       "label": "Engineering Levels and Ladders",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Engineering levels and ladders define expectations for impact, scope, autonomy, technical judgment, collaboration, and leadership across career stages. They make growth and promotion criteria more explicit.",
+      "excerpt": "Engineering levels and ladders define expectations for impact, scope, autonomy, ambiguity, technical judgment, collaboration, and leadership across IC and management tracks. They make hiring, feedback, promotion, and compensation more explicit, but must be calibrated with real examples.",
       "tags": [
         "resource",
         "leadership-management"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Leadership & Management/Engineering Management vs IC Track",
@@ -8070,19 +8070,31 @@
       "label": "Hiring — Structured Interviews",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Structured interviews use consistent criteria, questions, rubrics, and evidence collection to evaluate candidates more fairly and predictively. They reduce bias compared with improvised interview conversations.",
+      "excerpt": "Structured interviews improve hiring by evaluating candidates against consistent role criteria, questions, rubrics, and written evidence. They reduce bias and increase signal by replacing improvised vibe-based conversations with job-relevant assessment.",
       "tags": [
         "resource",
         "leadership-management"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Leadership & Management/Managing Up",
       "label": "Managing Up",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Managing up means proactively helping a manager make better decisions by clarifying goals, surfacing risks, communicating progress, understanding preferences, and asking for needed support. It is not manipulation; it is upward coordination.",
+      "excerpt": "Managing up is proactive upward coordination: clarifying goals, surfacing risks early, adapting to a manager's decision style, bringing options, and asking for needed support. It is not manipulation; it is taking ownership of the manager-report interface.",
+      "tags": [
+        "resource",
+        "leadership-management"
+      ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/Leadership & Management/Organizational Design (Functional vs Divisional vs Matrix)",
+      "label": "Organizational Design (Functional vs Divisional vs Matrix)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Organizational design chooses how authority, accountability, communication, and specialization are arranged. Functional, divisional, and matrix structures trade depth, speed, coordination, ownership clarity, and duplication; the right structure follows strategy and current bottlenecks.",
       "tags": [
         "resource",
         "leadership-management"
@@ -8090,28 +8102,16 @@
       "degree": 5
     },
     {
-      "id": "Resources/Leadership & Management/Organizational Design (Functional vs Divisional vs Matrix)",
-      "label": "Organizational Design (Functional vs Divisional vs Matrix)",
-      "folder": "Resources",
-      "created": "2026-05-26",
-      "excerpt": "Organizational design chooses how work, authority, communication, and accountability are structured. Functional, divisional, and matrix models trade specialization, speed, coordination, and clarity.",
-      "tags": [
-        "resource",
-        "leadership-management"
-      ],
-      "degree": 4
-    },
-    {
       "id": "Resources/Leadership & Management/Performance Reviews",
       "label": "Performance Reviews",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Performance reviews summarize impact, behavior, growth, expectations, and compensation or promotion implications over a defined period. Good reviews are evidence-based and should not surprise the person being reviewed.",
+      "excerpt": "Performance reviews summarize impact, behavior, growth, and expectations over a defined period, often affecting compensation or promotion. Good reviews are evidence-based, level-calibrated, bias-aware, and contain no major surprises because feedback happened continuously.",
       "tags": [
         "resource",
         "leadership-management"
       ],
-      "degree": 8
+      "degree": 11
     },
     {
       "id": "Resources/Leadership & Management/Psychological Safety in Teams (Amy Edmondson)",
@@ -8166,36 +8166,36 @@
       "label": "Technical Interview Design",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Technical interview design defines how to evaluate engineering candidates against job-relevant skills with structured tasks, rubrics, calibration, and candidate experience. Good interviews test work signal rather than puzzle performance alone.",
+      "excerpt": "Technical interview design should evaluate job-relevant engineering skill with consistent tasks, calibrated rubrics, and respectful candidate experience. A hard interview is not automatically high-signal; the question is whether it predicts the work the person will actually do.",
       "tags": [
         "resource",
         "leadership-management"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Leadership & Management/The Principal-Agent Problem",
       "label": "The Principal-Agent Problem",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The principal-agent problem occurs when someone acts on behalf of another but has different incentives, information, or risk exposure. It appears in management, sales, finance, politics, and contracting.",
+      "excerpt": "The principal-agent problem appears when one party delegates authority to another whose incentives, information, or risk exposure differ. In organizations, the practical fix is not just trust: align incentives, reduce information asymmetry, clarify accountability, and avoid metrics that reward proxy behavior over real outcomes.",
       "tags": [
         "resource",
         "leadership-management"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Leadership & Management/The Staff Engineer's Path",
       "label": "The Staff Engineer's Path",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Staff Engineer path is a senior individual-contributor track focused on technical leadership, cross-team influence, architecture, execution, mentorship, and organizational leverage without direct management authority.",
+      "excerpt": "The Staff Engineer path is senior IC leadership through technical judgment, cross-team influence, architecture, execution strategy, mentorship, and organizational leverage without direct people management. Staff work is less about writing the hardest code personally and more about making important technical outcomes happen.",
       "tags": [
         "resource",
         "leadership-management"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Learning & Memory/Active Recall vs Passive Review",
@@ -16075,6 +16075,15 @@
     {
       "id": "Synaptic Plasticity (Hebbian Learning)",
       "label": "Synaptic Plasticity (Hebbian Learning)",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "System Design Interview Prep",
+      "label": "System Design Interview Prep",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -24505,6 +24514,10 @@
     },
     {
       "source": "Resources/Leadership & Management/Conway's Law",
+      "target": "Resources/Leadership & Management/Decision-Making Frameworks (DACI, RACI)"
+    },
+    {
+      "source": "Resources/Leadership & Management/Conway's Law",
       "target": "Resources/Leadership & Management/Organizational Design (Functional vs Divisional vs Matrix)"
     },
     {
@@ -24550,6 +24563,10 @@
     {
       "source": "Resources/Leadership & Management/Engineering Levels and Ladders",
       "target": "Resources/Leadership & Management/Engineering Management vs IC Track"
+    },
+    {
+      "source": "Resources/Leadership & Management/Engineering Levels and Ladders",
+      "target": "Resources/Leadership & Management/Hiring — Structured Interviews"
     },
     {
       "source": "Resources/Leadership & Management/Engineering Levels and Ladders",
@@ -24601,6 +24618,10 @@
     },
     {
       "source": "Resources/Leadership & Management/Hiring — Structured Interviews",
+      "target": "Resources/Leadership & Management/Performance Reviews"
+    },
+    {
+      "source": "Resources/Leadership & Management/Hiring — Structured Interviews",
       "target": "Resources/Leadership & Management/Technical Interview Design"
     },
     {
@@ -24614,6 +24635,14 @@
     {
       "source": "Resources/Leadership & Management/Managing Up",
       "target": "Resources/Leadership & Management/Decision-Making Frameworks (DACI, RACI)"
+    },
+    {
+      "source": "Resources/Leadership & Management/Managing Up",
+      "target": "Resources/Leadership & Management/The Staff Engineer's Path"
+    },
+    {
+      "source": "Resources/Leadership & Management/Organizational Design (Functional vs Divisional vs Matrix)",
+      "target": "Resources/Business & Strategy/Platform vs Pipeline Business Models"
     },
     {
       "source": "Resources/Leadership & Management/Organizational Design (Functional vs Divisional vs Matrix)",
@@ -24638,6 +24667,10 @@
     {
       "source": "Resources/Leadership & Management/Performance Reviews",
       "target": "Resources/Leadership & Management/Giving Feedback (SBI Model — Situation, Behavior, Impact)"
+    },
+    {
+      "source": "Resources/Leadership & Management/Performance Reviews",
+      "target": "Resources/Leadership & Management/The Principal-Agent Problem"
     },
     {
       "source": "Resources/Leadership & Management/Psychological Safety in Teams (Amy Edmondson)",
@@ -24716,6 +24749,10 @@
       "target": "Resources/Software Engineering/Code Review Best Practices"
     },
     {
+      "source": "Resources/Leadership & Management/Technical Interview Design",
+      "target": "System Design Interview Prep"
+    },
+    {
       "source": "Resources/Leadership & Management/The Principal-Agent Problem",
       "target": "Incentive Design"
     },
@@ -24728,12 +24765,20 @@
       "target": "Resources/Leadership & Management/Delegation — When and How"
     },
     {
+      "source": "Resources/Leadership & Management/The Principal-Agent Problem",
+      "target": "Resources/Leadership & Management/Performance Reviews"
+    },
+    {
       "source": "Resources/Leadership & Management/The Staff Engineer's Path",
       "target": "Resources/Leadership & Management/Engineering Levels and Ladders"
     },
     {
       "source": "Resources/Leadership & Management/The Staff Engineer's Path",
       "target": "Resources/Leadership & Management/Engineering Management vs IC Track"
+    },
+    {
+      "source": "Resources/Leadership & Management/The Staff Engineer's Path",
+      "target": "Resources/Leadership & Management/Managing Up"
     },
     {
       "source": "Resources/Leadership & Management/The Staff Engineer's Path",
@@ -34368,5 +34413,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-01T03:28:45Z"
+  "generated_at": "2026-06-01T03:35:17Z"
 }
