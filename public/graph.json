@@ -447,7 +447,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 2
+      "degree": 1
     },
     {
       "id": "Bayesian Reasoning",
@@ -3909,19 +3909,19 @@
       "label": "Anchoring Bias",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Anchoring bias occurs when an initial number, frame, or example pulls later judgments toward it. It affects negotiation, estimation, prioritization, design discussions, and planning.",
+      "excerpt": "Anchoring bias happens when an initial number, example, design, salary, estimate, or framing point pulls later judgments toward it. The antidote is independent estimation, reference classes, ranges, and deliberately generating alternatives before discussing the first proposal.",
       "tags": [
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Cognitive Science & Biases/Availability Heuristic",
       "label": "Availability Heuristic",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The availability heuristic estimates likelihood based on how easily examples come to mind. Vivid, recent, emotional, or repeated examples can make rare events feel common or common events feel invisible.",
+      "excerpt": "The availability heuristic estimates likelihood or importance from how easily examples come to mind. Vividness, recency, emotion, media exposure, and personal experience can make mentally loud events feel statistically common.",
       "tags": [
         "resource",
         "cognitive-science-biases"
@@ -3933,24 +3933,24 @@
       "label": "Baader-Meinhof Phenomenon (Frequency Illusion)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Baader-Meinhof phenomenon, or frequency illusion, happens when something newly noticed suddenly seems everywhere. Attention and memory make the pattern more visible, not necessarily more frequent.",
+      "excerpt": "The Baader-Meinhof phenomenon, or frequency illusion, happens when newly noticed information suddenly seems everywhere. The frequency often has not changed; attention, salience, and memory have changed.",
       "tags": [
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 3
+      "degree": 5
     },
     {
       "id": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference",
       "label": "Cognitive Biases — Complete Reference",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Cognitive biases are systematic tendencies in perception, memory, attention, and judgment that can distort reasoning. They are not personal defects; they are predictable shortcuts that need awareness, feedback, and better decision processes.",
+      "excerpt": "Cognitive biases are systematic distortions in attention, memory, probability judgment, social interpretation, and decision-making. They are not signs of stupidity; they are useful shortcuts misapplied outside the context where they work.",
       "tags": [
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 14
+      "degree": 24
     },
     {
       "id": "Resources/Cognitive Science & Biases/Cognitive Load Theory",
@@ -3969,7 +3969,7 @@
       "label": "Confirmation Bias",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Confirmation bias is the tendency to seek, interpret, and remember evidence that supports existing beliefs. It is especially dangerous when identity, ego, or sunk cost is attached to being right.",
+      "excerpt": "Confirmation bias is the tendency to seek, interpret, and remember evidence in ways that protect an existing belief. It becomes most dangerous when the belief is tied to identity, public commitment, sunk cost, or a plan Kenny already wants to be true.",
       "tags": [
         "resource",
         "cognitive-science-biases"
@@ -4005,24 +4005,24 @@
       "label": "Dunning-Kruger Effect",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Dunning-Kruger effect describes how low skill can impair the ability to accurately judge skill, leading to overconfidence. The broader lesson is that calibration depends on feedback and domain knowledge.",
+      "excerpt": "The Dunning-Kruger effect is a calibration problem: low skill can impair the ability to judge skill because the same knowledge needed to perform well is needed to notice mistakes. The useful takeaway is not mocking beginners; it is building feedback loops that align confidence with evidence.",
       "tags": [
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Cognitive Science & Biases/Fundamental Attribution Error",
       "label": "Fundamental Attribution Error",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Fundamental attribution error is overemphasizing personality and underemphasizing situation when explaining other people's behavior. It can make mistakes look like character flaws instead of context, incentives, or constraints.",
+      "excerpt": "Fundamental attribution error is overexplaining other people's behavior by personality while underweighting situation, incentives, workload, information, and constraints. The practical correction is to ask what context would make the behavior understandable before jumping to character judgment.",
       "tags": [
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Cognitive Science & Biases/Heuristics in Decision-Making",
@@ -4041,12 +4041,12 @@
       "label": "In-Group - Out-Group Bias",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "In-group and out-group bias makes people favor their own group and interpret outsiders more negatively. It shapes trust, conflict, hiring, communities, politics, and team dynamics.",
+      "excerpt": "In-group and out-group bias makes people grant nuance, trust, and good intent to 'us' while flattening 'them' into stereotypes. It can emerge from arbitrary labels, intensify under competition, and distort hiring, politics, communities, and engineering team conflict.",
       "tags": [
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Cognitive Science & Biases/Inductive vs Deductive vs Abductive Reasoning",
@@ -4077,12 +4077,12 @@
       "label": "Loss Aversion (Prospect Theory — Kahneman and Tversky)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Loss aversion is the tendency for losses to feel more psychologically powerful than equivalent gains. In prospect theory, people evaluate outcomes relative to a reference point rather than pure final wealth.",
+      "excerpt": "Loss aversion is the tendency for losses relative to a reference point to feel more powerful than equivalent gains. In Kahneman and Tversky's prospect theory, people evaluate outcomes relative to reference points with diminishing sensitivity and different risk attitudes for gains versus losses.",
       "tags": [
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Cognitive Science & Biases/Mental Models — Full Reference",
@@ -4113,12 +4113,12 @@
       "label": "Optimism Bias",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Optimism bias is the tendency to overestimate positive outcomes and underestimate negative ones for oneself or one's plan. It can support motivation, but needs risk checks when decisions are expensive.",
+      "excerpt": "Optimism bias is overestimating the likelihood of favorable outcomes and underestimating risk for oneself, one's team, or one's plan. It is useful for motivation but dangerous when it replaces base rates, premortems, and contingency planning.",
       "tags": [
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Cognitive Science & Biases/Overfitting in Human Reasoning",
@@ -4137,12 +4137,12 @@
       "label": "Planning Fallacy",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The planning fallacy is underestimating how long tasks will take despite knowing similar tasks have taken longer before. The outside view, buffers, and historical data are the main antidotes.",
+      "excerpt": "The planning fallacy is underestimating time, cost, and blockers because the inside view imagines an ideal path. The strongest countermeasure is the outside view: compare against similar past work, then add explicit risk buffers.",
       "tags": [
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Cognitive Science & Biases/Recency Bias",
@@ -4161,12 +4161,12 @@
       "label": "Status Quo Bias",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Status quo bias is the preference for existing conditions simply because they are familiar or default. It can protect stability, but also preserves outdated systems, habits, and assumptions.",
+      "excerpt": "Status quo bias is preferring the current state because it is familiar, default, or already installed. It can protect stability, but it also lets outdated routines, tools, architectures, and assumptions survive without being re-chosen.",
       "tags": [
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Cognitive Science & Biases/Streetlight Effect (Looking Where It Is Easy)",
@@ -4185,12 +4185,12 @@
       "label": "Sunk Cost Fallacy",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The sunk cost fallacy is continuing a choice because of past investment rather than future value. Money, time, effort, identity, and public commitment can all make quitting feel irrationally hard.",
+      "excerpt": "The sunk cost fallacy is continuing because of unrecoverable past investment rather than future expected value. It is powered by loss aversion, identity, public commitment, and the desire to make past effort feel meaningful.",
       "tags": [
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Cognitive Science & Biases/Survivorship Bias",
@@ -6071,7 +6071,7 @@
         "career",
         "life"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/Engineering Judgment and Tool Tradeoffs",
@@ -8233,7 +8233,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 14
+      "degree": 11
     },
     {
       "id": "Resources/Learning & Memory/Chunking Information",
@@ -9224,7 +9224,7 @@
         "resource",
         "meta-learning-epistemics"
       ],
-      "degree": 9
+      "degree": 12
     },
     {
       "id": "Resources/Meta-Learning & Epistemics/Fermi Estimation Techniques",
@@ -11043,7 +11043,7 @@
         "resource",
         "personal-finance"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Personal Finance/Insurance Types You Actually Need",
@@ -19480,7 +19480,7 @@
     },
     {
       "source": "Resources/Cognitive Science & Biases/Availability Heuristic",
-      "target": "Base rates"
+      "target": "Resources/Cognitive Science & Biases/Baader-Meinhof Phenomenon (Frequency Illusion)"
     },
     {
       "source": "Resources/Cognitive Science & Biases/Availability Heuristic",
@@ -19504,11 +19504,51 @@
     },
     {
       "source": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference",
+      "target": "Resources/Cognitive Science & Biases/Anchoring Bias"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference",
       "target": "Resources/Cognitive Science & Biases/Availability Heuristic"
     },
     {
       "source": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference",
+      "target": "Resources/Cognitive Science & Biases/Baader-Meinhof Phenomenon (Frequency Illusion)"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference",
       "target": "Resources/Cognitive Science & Biases/Confirmation Bias"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference",
+      "target": "Resources/Cognitive Science & Biases/Dunning-Kruger Effect"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference",
+      "target": "Resources/Cognitive Science & Biases/Fundamental Attribution Error"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference",
+      "target": "Resources/Cognitive Science & Biases/In-Group - Out-Group Bias"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference",
+      "target": "Resources/Cognitive Science & Biases/Loss Aversion (Prospect Theory — Kahneman and Tversky)"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference",
+      "target": "Resources/Cognitive Science & Biases/Optimism Bias"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference",
+      "target": "Resources/Cognitive Science & Biases/Planning Fallacy"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference",
+      "target": "Resources/Cognitive Science & Biases/Status Quo Bias"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference",
+      "target": "Resources/Cognitive Science & Biases/Sunk Cost Fallacy"
     },
     {
       "source": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference",
@@ -19528,11 +19568,11 @@
     },
     {
       "source": "Resources/Cognitive Science & Biases/Confirmation Bias",
-      "target": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know"
+      "target": "Resources/Learning & Memory/Productive Disagreement"
     },
     {
       "source": "Resources/Cognitive Science & Biases/Confirmation Bias",
-      "target": "Resources/Learning & Memory/Productive Disagreement"
+      "target": "Resources/Meta-Learning & Epistemics/Calibration and Epistemic Humility"
     },
     {
       "source": "Resources/Cognitive Science & Biases/Confirmation Bias",
@@ -19564,15 +19604,15 @@
     },
     {
       "source": "Resources/Cognitive Science & Biases/Dunning-Kruger Effect",
-      "target": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know"
-    },
-    {
-      "source": "Resources/Cognitive Science & Biases/Dunning-Kruger Effect",
       "target": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)"
     },
     {
       "source": "Resources/Cognitive Science & Biases/Dunning-Kruger Effect",
       "target": "Resources/Learning & Memory/Growth Mindset vs Fixed Mindset"
+    },
+    {
+      "source": "Resources/Cognitive Science & Biases/Dunning-Kruger Effect",
+      "target": "Resources/Meta-Learning & Epistemics/Calibration and Epistemic Humility"
     },
     {
       "source": "Resources/Cognitive Science & Biases/Fundamental Attribution Error",
@@ -19644,7 +19684,7 @@
     },
     {
       "source": "Resources/Cognitive Science & Biases/Loss Aversion (Prospect Theory — Kahneman and Tversky)",
-      "target": "Resources/Economics and Personal Finance"
+      "target": "Resources/Personal Finance/Index Funds vs Active Management — The Data"
     },
     {
       "source": "Resources/Cognitive Science & Biases/Mental Models — Full Reference",
@@ -19676,11 +19716,11 @@
     },
     {
       "source": "Resources/Cognitive Science & Biases/Optimism Bias",
-      "target": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know"
+      "target": "Resources/Learning & Memory/Inversion Thinking"
     },
     {
       "source": "Resources/Cognitive Science & Biases/Optimism Bias",
-      "target": "Resources/Learning & Memory/Inversion Thinking"
+      "target": "Resources/Meta-Learning & Epistemics/Calibration and Epistemic Humility"
     },
     {
       "source": "Resources/Cognitive Science & Biases/Overfitting in Human Reasoning",
@@ -34423,5 +34463,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-01T16:18:40Z"
+  "generated_at": "2026-06-01T16:25:01Z"
 }
