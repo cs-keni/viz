@@ -717,15 +717,6 @@
       "degree": 2
     },
     {
-      "id": "Debugging",
-      "label": "Debugging",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Decision Matrices",
       "label": "Decision Matrices",
       "folder": null,
@@ -940,15 +931,6 @@
       "excerpt": "",
       "tags": [],
       "degree": 3
-    },
-    {
-      "id": "Instructional Design",
-      "label": "Instructional Design",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
     },
     {
       "id": "Inversion",
@@ -2923,7 +2905,7 @@
         "resource",
         "books-ideas"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Books & Ideas/The Body Keeps the Score — Key Ideas (van der Kolk)",
@@ -3957,12 +3939,12 @@
       "label": "Cognitive Load Theory",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Cognitive load theory explains learning in terms of limited working memory and schema formation. Good instruction reduces unnecessary load, manages complexity, and helps learners build durable mental structures.",
+      "excerpt": "Cognitive load theory explains learning through limited working memory and long-term schema construction. Good teaching reduces extraneous load, sequences intrinsic complexity, and uses examples until the learner has enough schemas to reason independently.",
       "tags": [
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Cognitive Science & Biases/Confirmation Bias",
@@ -3981,7 +3963,7 @@
       "label": "Decision Fatigue",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Decision fatigue is the decline in decision quality after repeated cognitive effort, uncertainty, or self-control demands. Reducing low-value choices preserves attention for decisions that matter.",
+      "excerpt": "Decision fatigue is the drop in decision quality that can follow repeated choices, uncertainty, cognitive effort, stress, or self-control demands. The practical fix is not heroic willpower; it is reducing low-value choices with defaults, templates, checklists, and timing important decisions for higher-energy windows.",
       "tags": [
         "resource",
         "cognitive-science-biases"
@@ -3993,7 +3975,7 @@
       "label": "Dual Process Theory (System 1 vs System 2)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Dual process theory distinguishes fast, automatic, intuitive processing from slower, effortful, analytical processing. The System 1/System 2 framing is useful, but simplified and should not be treated as literal separate brains.",
+      "excerpt": "Dual process theory contrasts fast, automatic, pattern-based cognition with slower, effortful, analytical reasoning. The System 1/System 2 frame is useful for deciding when to trust intuition, but it is a simplification, not two literal brains.",
       "tags": [
         "resource",
         "cognitive-science-biases"
@@ -4029,7 +4011,7 @@
       "label": "Heuristics in Decision-Making",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Heuristics are mental shortcuts that make decisions faster under uncertainty. They are useful when matched to the environment and dangerous when mistaken for complete analysis.",
+      "excerpt": "Heuristics are decision shortcuts that trade precision for speed, effort, and robustness. They are powerful when matched to the environment and dangerous when treated as universal laws.",
       "tags": [
         "resource",
         "cognitive-science-biases"
@@ -4053,7 +4035,7 @@
       "label": "Inductive vs Deductive vs Abductive Reasoning",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Deductive reasoning derives necessary conclusions from premises, inductive reasoning generalizes from observations, and abductive reasoning infers the best explanation. Good problem-solving often uses all three.",
+      "excerpt": "Deductive reasoning derives necessary conclusions from premises, inductive reasoning generalizes from observations, and abductive reasoning infers the best explanation. Strong problem-solving uses all three while respecting what each can and cannot prove.",
       "tags": [
         "resource",
         "cognitive-science-biases"
@@ -4065,7 +4047,7 @@
       "label": "Logical Fallacies — Full List",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Logical fallacies are flawed argument patterns that weaken reasoning, such as straw man, ad hominem, false dilemma, circular reasoning, slippery slope, and appeal to authority. They are useful for analysis, but can be misused as debate weapons.",
+      "excerpt": "Logical fallacies are recurring flaws in argument structure, relevance, evidence, or framing. They are useful for repairing reasoning, but often misused as debate labels that end conversation instead of clarifying the actual weak point.",
       "tags": [
         "resource",
         "cognitive-science-biases"
@@ -4089,19 +4071,19 @@
       "label": "Mental Models — Full Reference",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Mental models are reusable thinking tools for explaining systems, predicting outcomes, and making decisions. A strong model library includes technical, psychological, economic, probabilistic, and systems models.",
+      "excerpt": "Mental models are reusable simplifications that help explain systems, predict outcomes, and make decisions. A good model library is plural: incentives, bottlenecks, feedback loops, opportunity cost, base rates, compounding, tradeoffs, and second-order effects all catch different failure modes.",
       "tags": [
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Cognitive Science & Biases/Nudge Theory (Thaler and Sunstein)",
       "label": "Nudge Theory (Thaler and Sunstein)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Nudge theory studies how choice architecture changes behavior without forbidding options. Defaults, friction, ordering, reminders, and framing can guide choices, for good or manipulative ends.",
+      "excerpt": "Nudge theory, associated with Richard Thaler and Cass Sunstein, studies how choice architecture changes behavior without removing options. Defaults, friction, ordering, reminders, and framing can help people follow their own goals or manipulate them into serving someone else's.",
       "tags": [
         "resource",
         "cognitive-science-biases"
@@ -4125,12 +4107,12 @@
       "label": "Overfitting in Human Reasoning",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Overfitting in human reasoning is building an explanation too tightly around limited examples, noise, or recent experience. The result feels insightful but fails to generalize.",
+      "excerpt": "Overfitting in human reasoning is building a rule, identity, or explanation too tightly around limited examples, noise, or recent experience. Like ML overfitting, it feels insightful in-sample and fails when applied to new situations.",
       "tags": [
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Cognitive Science & Biases/Planning Fallacy",
@@ -4149,7 +4131,7 @@
       "label": "Recency Bias",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Recency bias overweights recent information relative to older but still relevant evidence. It affects hiring, investing, debugging, sports judgment, product decisions, and self-evaluation.",
+      "excerpt": "Recency bias overweights the latest information relative to older but still relevant evidence. It can distort performance reviews, debugging, investing, dating, sports judgment, self-evaluation, and product decisions unless records or rolling windows restore context.",
       "tags": [
         "resource",
         "cognitive-science-biases"
@@ -4173,7 +4155,7 @@
       "label": "Streetlight Effect (Looking Where It Is Easy)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The streetlight effect is looking for answers where measurement is easiest rather than where the answer is most likely. It shows up in analytics, debugging, research, and productivity metrics.",
+      "excerpt": "The streetlight effect is searching where evidence is easiest to collect instead of where the answer is most likely to be found. It shows up in dashboards, debugging, research, productivity metrics, and any environment where measurable data crowds out important but harder-to-see causes.",
       "tags": [
         "resource",
         "cognitive-science-biases"
@@ -4197,12 +4179,12 @@
       "label": "Survivorship Bias",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Survivorship bias happens when analysis focuses only on examples that made it through a selection process. It distorts lessons from startups, careers, investing, fitness, history, and engineering incidents.",
+      "excerpt": "Survivorship bias happens when analysis focuses only on examples that passed a selection filter while missing failures that disappeared. It makes success stories, startup advice, investing backtests, fitness transformations, and career narratives look more repeatable than they are.",
       "tags": [
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Communication & Writing/Active Listening",
@@ -4518,7 +4500,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/Data Science & Analytics/Data Cleaning Strategies",
@@ -5126,7 +5108,7 @@
         "resource",
         "design-ux"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Design & UX/Design Handoff to Engineering",
@@ -8389,7 +8371,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 18
+      "degree": 17
     },
     {
       "id": "Resources/Learning & Memory/Metacognition",
@@ -9224,7 +9206,7 @@
         "resource",
         "meta-learning-epistemics"
       ],
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "Resources/Meta-Learning & Epistemics/Fermi Estimation Techniques",
@@ -9248,7 +9230,7 @@
         "resource",
         "meta-learning-epistemics"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Meta-Learning & Epistemics/How to Find the Crux of a Disagreement",
@@ -10579,7 +10561,7 @@
         "resource",
         "neuroscience"
       ],
-      "degree": 11
+      "degree": 9
     },
     {
       "id": "Resources/Neuroscience/Psychedelics and Neuroplasticity (Current Research)",
@@ -12213,7 +12195,7 @@
         "startups",
         "projects"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/Product Management/Activation Metrics",
@@ -16030,15 +16012,6 @@
       "degree": 1
     },
     {
-      "id": "Startup",
-      "label": "Startup",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Statistical Significance and P-Values",
       "label": "Statistical Significance and P-Values",
       "folder": null,
@@ -19556,7 +19529,7 @@
     },
     {
       "source": "Resources/Cognitive Science & Biases/Cognitive Load Theory",
-      "target": "Instructional Design"
+      "target": "Resources/Cognitive Science & Biases/Mental Models — Full Reference"
     },
     {
       "source": "Resources/Cognitive Science & Biases/Cognitive Load Theory",
@@ -19580,11 +19553,11 @@
     },
     {
       "source": "Resources/Cognitive Science & Biases/Decision Fatigue",
-      "target": "Resources/Cognitive Science & Biases/Nudge Theory (Thaler and Sunstein)"
+      "target": "Resources/Cognitive Science & Biases/Cognitive Load Theory"
     },
     {
       "source": "Resources/Cognitive Science & Biases/Decision Fatigue",
-      "target": "Resources/Neuroscience/Prefrontal Cortex and Decision-Making"
+      "target": "Resources/Cognitive Science & Biases/Nudge Theory (Thaler and Sunstein)"
     },
     {
       "source": "Resources/Cognitive Science & Biases/Decision Fatigue",
@@ -19600,7 +19573,7 @@
     },
     {
       "source": "Resources/Cognitive Science & Biases/Dual Process Theory (System 1 vs System 2)",
-      "target": "Resources/Neuroscience/Prefrontal Cortex and Decision-Making"
+      "target": "Resources/Meta-Learning & Epistemics/Calibration and Epistemic Humility"
     },
     {
       "source": "Resources/Cognitive Science & Biases/Dunning-Kruger Effect",
@@ -19652,7 +19625,7 @@
     },
     {
       "source": "Resources/Cognitive Science & Biases/Inductive vs Deductive vs Abductive Reasoning",
-      "target": "Debugging"
+      "target": "Resources/Cognitive Science & Biases/Overfitting in Human Reasoning"
     },
     {
       "source": "Resources/Cognitive Science & Biases/Inductive vs Deductive vs Abductive Reasoning",
@@ -19688,10 +19661,6 @@
     },
     {
       "source": "Resources/Cognitive Science & Biases/Mental Models — Full Reference",
-      "target": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them"
-    },
-    {
-      "source": "Resources/Cognitive Science & Biases/Mental Models — Full Reference",
       "target": "Resources/Learning & Memory/Second-Order Thinking"
     },
     {
@@ -19699,16 +19668,20 @@
       "target": "Resources/Learning & Memory/Systems Thinking"
     },
     {
+      "source": "Resources/Cognitive Science & Biases/Mental Models — Full Reference",
+      "target": "Resources/Meta-Learning & Epistemics/How to Build a Mental Model"
+    },
+    {
       "source": "Resources/Cognitive Science & Biases/Nudge Theory (Thaler and Sunstein)",
       "target": "Resources/Cognitive Science & Biases/Status Quo Bias"
     },
     {
       "source": "Resources/Cognitive Science & Biases/Nudge Theory (Thaler and Sunstein)",
-      "target": "Resources/Personal Productivity/Habit Stacking"
+      "target": "Resources/Design & UX/Dark Patterns — A Catalog of What to Avoid"
     },
     {
       "source": "Resources/Cognitive Science & Biases/Nudge Theory (Thaler and Sunstein)",
-      "target": "Resources/Product Engineering"
+      "target": "Resources/Personal Productivity/Habit Stacking"
     },
     {
       "source": "Resources/Cognitive Science & Biases/Optimism Bias",
@@ -19772,7 +19745,7 @@
     },
     {
       "source": "Resources/Cognitive Science & Biases/Streetlight Effect (Looking Where It Is Easy)",
-      "target": "Resources/Data Science & Analytics/Dashboard Design Principles"
+      "target": "Resources/Cognitive Science & Biases/Survivorship Bias"
     },
     {
       "source": "Resources/Cognitive Science & Biases/Streetlight Effect (Looking Where It Is Easy)",
@@ -19800,7 +19773,7 @@
     },
     {
       "source": "Resources/Cognitive Science & Biases/Survivorship Bias",
-      "target": "Startup"
+      "target": "Resources/Books & Ideas/The Black Swan — Key Ideas (Taleb)"
     },
     {
       "source": "Resources/Cognitive Science & Biases/Survivorship Bias",
@@ -34463,5 +34436,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-01T16:25:01Z"
+  "generated_at": "2026-06-01T16:31:28Z"
 }
