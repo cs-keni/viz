@@ -7838,7 +7838,7 @@
         "philosophy",
         "engineering"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/LLM System Design",
@@ -8215,7 +8215,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 11
+      "degree": 10
     },
     {
       "id": "Resources/Learning & Memory/Chunking Information",
@@ -9206,7 +9206,7 @@
         "resource",
         "meta-learning-epistemics"
       ],
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "Resources/Meta-Learning & Epistemics/Fermi Estimation Techniques",
@@ -10537,7 +10537,7 @@
         "resource",
         "neuroscience"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/Neuroscience/Neuron Structure and Electrochemical Signaling",
@@ -11572,20 +11572,20 @@
       "label": "AI Ethics — Alignment and Safety",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "AI ethics around alignment and safety asks how advanced systems can reliably pursue human-compatible goals, avoid harmful behavior, remain controllable, and be evaluated before deployment. It combines technical, governance, and moral questions.",
+      "excerpt": "AI alignment and safety ask how increasingly capable systems can remain reliably useful, controllable, honest, robust, and human-compatible under real deployment pressure. The issue is both technical and moral: objectives, oversight, incentives, power, and accountability all interact.",
       "tags": [
         "resource",
         "philosophy",
         "ai"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Philosophy/AI Ethics — Bias, Fairness, and Accountability",
       "label": "AI Ethics — Bias, Fairness, and Accountability",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "AI bias, fairness, and accountability concern how automated systems can reproduce unequal data, incentives, and institutional power. Fairness is not one metric; it requires context, affected stakeholders, auditability, and responsibility.",
+      "excerpt": "AI fairness is not one metric; it is a governance problem about data, proxies, unequal error costs, feedback loops, institutional power, and who can contest automated decisions. Accountability requires traceable responsibility, not vague 'the model decided' explanations.",
       "tags": [
         "resource",
         "philosophy",
@@ -11622,7 +11622,7 @@
       "label": "Epistemology — How We Know Things",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Epistemology studies knowledge, belief, justification, evidence, truth, skepticism, and uncertainty. It matters because every serious reasoning system depends on how claims are supported and revised.",
+      "excerpt": "Epistemology studies knowledge, justification, evidence, skepticism, testimony, and uncertainty. The practical question is not 'can we be absolutely certain?' but 'what standards make a belief responsible enough to act on, update, or doubt?",
       "tags": [
         "resource",
         "philosophy"
@@ -11634,7 +11634,7 @@
       "label": "Ethics — Consequentialism",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Consequentialism judges actions by their outcomes. It is powerful for policy, engineering, and AI ethics, but struggles with prediction, rights, distribution, and whether good ends can justify harmful means.",
+      "excerpt": "Consequentialism judges actions by outcomes, making it powerful for policy, engineering tradeoffs, public health, and AI risk. Its central tension is whether uncertain aggregate benefit can justify rights violations, unfair distribution, or harmful means.",
       "tags": [
         "resource",
         "philosophy"
@@ -11646,7 +11646,7 @@
       "label": "Ethics — Deontology (Kant's Categorical Imperative)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Deontology judges actions by duties, rules, rights, and respect for persons rather than outcomes alone. Kant's categorical imperative asks whether an action's principle could be universalized and whether people are treated as ends.",
+      "excerpt": "Deontology judges actions by duties, rights, consent, and respect for persons rather than outcomes alone. Kant's categorical imperative asks whether a maxim could be universal law and whether people are treated as ends, not merely as means.",
       "tags": [
         "resource",
         "philosophy"
@@ -11658,7 +11658,7 @@
       "label": "Ethics — Virtue Ethics (Aristotle)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Virtue ethics focuses on character, practical wisdom, and becoming the kind of person who acts well. Aristotle frames virtues as trained dispositions aimed at human flourishing.",
+      "excerpt": "Virtue ethics asks what kind of person a choice trains you to become. Aristotle frames virtues as habituated excellences guided by practical wisdom, aimed at eudaimonia: a flourishing human life.",
       "tags": [
         "resource",
         "philosophy"
@@ -11670,7 +11670,7 @@
       "label": "Existentialism Basics (Sartre, Camus, Heidegger)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Existentialism focuses on freedom, responsibility, meaning, authenticity, anxiety, and the human condition. Sartre, Camus, and Heidegger differ, but all examine what it means to live without easy external guarantees.",
+      "excerpt": "Existentialism focuses on freedom, responsibility, authenticity, anxiety, mortality, absurdity, and meaning without guaranteed external scripts. Sartre, Camus, and Heidegger differ, but all ask what it means to live as a choosing being in an uncertain world.",
       "tags": [
         "resource",
         "philosophy"
@@ -11694,7 +11694,7 @@
       "label": "Free Will — Compatibilism vs Hard Determinism",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Free will debates ask whether human choice is compatible with determinism, causation, and responsibility. Compatibilists redefine freedom around agency and reasons, while hard determinists deny ultimate free will.",
+      "excerpt": "Free will debates ask whether agency and responsibility survive determinism, causation, neuroscience, and luck. Compatibilists ground freedom in reasons-responsive action; hard determinists deny ultimate desert while often preserving practical accountability.",
       "tags": [
         "resource",
         "philosophy"
@@ -11706,7 +11706,7 @@
       "label": "Hard Problem of Consciousness (Chalmers)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "David Chalmers' hard problem of consciousness asks why and how physical processes give rise to subjective experience. It differs from easier problems like explaining behavior, attention, reportability, or neural mechanisms.",
+      "excerpt": "David Chalmers' hard problem asks why physical information processing is accompanied by subjective experience at all. It differs from the easy problems of explaining behavior, attention, memory, report, and neural mechanisms.",
       "tags": [
         "resource",
         "philosophy"
@@ -11754,7 +11754,7 @@
       "label": "Philosophy of Language (Wittgenstein, Austin)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Philosophy of language studies meaning, reference, use, speech acts, and how words connect to the world. Wittgenstein emphasized language games, while Austin showed that saying things can also be doing things.",
+      "excerpt": "Philosophy of language studies meaning, reference, use, and speech acts. Wittgenstein emphasized that meaning depends on language games and forms of life; Austin showed that speech does things, not merely describes things.",
       "tags": [
         "resource",
         "philosophy"
@@ -11766,7 +11766,7 @@
       "label": "Philosophy of Mind — Consciousness",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Philosophy of mind studies consciousness, mental states, identity, perception, intentionality, and the mind-body relationship. It asks how subjective experience relates to physical brains and behavior.",
+      "excerpt": "Philosophy of mind asks how mental states, consciousness, intentionality, and subjective experience relate to physical brains and behavior. The field matters for AI because intelligence, reportability, and consciousness are not obviously the same property.",
       "tags": [
         "resource",
         "philosophy"
@@ -11802,7 +11802,7 @@
       "label": "Pragmatism (Peirce, James, Dewey)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Pragmatism evaluates ideas through their practical consequences, inquiry, and usefulness in experience. Peirce, James, and Dewey differ, but all resist philosophy detached from action.",
+      "excerpt": "Pragmatism evaluates ideas by their practical consequences in inquiry, experience, and problem-solving. Peirce, James, and Dewey differ, but all resist philosophy that floats free of action, evidence, and revision.",
       "tags": [
         "resource",
         "philosophy"
@@ -11850,7 +11850,7 @@
       "label": "Stoicism — Core Principles",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Stoicism teaches that virtue, judgment, and what is within one's control matter more than external fortune. Its core value today is disciplined agency without denial of emotion or reality.",
+      "excerpt": "Stoicism teaches that virtue, judgment, and what is within one's control matter more than external fortune. Its modern value is disciplined agency under uncertainty, not emotional suppression or passive acceptance.",
       "tags": [
         "resource",
         "philosophy"
@@ -11862,7 +11862,7 @@
       "label": "Stoicism — Daily Practices (Negative Visualization, Memento Mori, Amor Fati)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Stoic daily practices train perspective, gratitude, courage, and steadiness. Negative visualization, memento mori, and amor fati are tools for relating better to uncertainty, loss, and difficulty.",
+      "excerpt": "Stoic practices turn philosophy into attention training: negative visualization prepares for loss, memento mori clarifies priorities, amor fati reframes events as material for virtue, and evening review audits judgment without self-hatred.",
       "tags": [
         "resource",
         "philosophy"
@@ -11891,7 +11891,7 @@
         "resource",
         "philosophy"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Philosophy/Utilitarianism — Bentham and Mill",
@@ -29121,7 +29121,7 @@
     },
     {
       "source": "Resources/Philosophy/AI Ethics — Bias, Fairness, and Accountability",
-      "target": "Resources/LLM Capabilities and AI Ethics"
+      "target": "Resources/Philosophy/AI Ethics — Alignment and Safety"
     },
     {
       "source": "Resources/Philosophy/AI Ethics — Bias, Fairness, and Accountability",
@@ -29157,7 +29157,7 @@
     },
     {
       "source": "Resources/Philosophy/Epistemology — How We Know Things",
-      "target": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know"
+      "target": "Resources/Meta-Learning & Epistemics/Calibration and Epistemic Humility"
     },
     {
       "source": "Resources/Philosophy/Epistemology — How We Know Things",
@@ -29237,15 +29237,15 @@
     },
     {
       "source": "Resources/Philosophy/Hard Problem of Consciousness (Chalmers)",
-      "target": "Resources/Neuroscience/Neurochemistry Overview (Dopamine, Serotonin, GABA, Glutamate, Norepinephrine)"
-    },
-    {
-      "source": "Resources/Philosophy/Hard Problem of Consciousness (Chalmers)",
       "target": "Resources/Philosophy/AI Ethics — Alignment and Safety"
     },
     {
       "source": "Resources/Philosophy/Hard Problem of Consciousness (Chalmers)",
       "target": "Resources/Philosophy/Philosophy of Mind — Consciousness"
+    },
+    {
+      "source": "Resources/Philosophy/Hard Problem of Consciousness (Chalmers)",
+      "target": "Resources/Philosophy/The Simulation Hypothesis"
     },
     {
       "source": "Resources/Philosophy/Longtermism",
@@ -34436,5 +34436,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-01T16:31:28Z"
+  "generated_at": "2026-06-01T16:38:16Z"
 }
