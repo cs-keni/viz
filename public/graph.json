@@ -7228,7 +7228,7 @@
       "label": "Back Health for Desk Workers",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Back health for desk workers depends on movement variety, strength, load tolerance, sleep, stress, and workstation setup. Sitting is not automatically harmful, but staying rigid and inactive for long periods can be.",
+      "excerpt": "Back health for desk workers is about movement variability and capacity, not fear of sitting. Ergonomics, walking, trunk/hip strength, sleep, stress management, and early attention to red flags matter more than holding one perfect posture.",
       "tags": [
         "resource",
         "health-fitness"
@@ -7240,7 +7240,7 @@
       "label": "Blood Work Markers Worth Tracking",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Blood work can reveal health patterns that subjective feeling misses, but markers need clinical context. Commonly useful areas include lipids, glucose control, blood count, thyroid, liver, kidney, iron, vitamin D, and inflammation markers.",
+      "excerpt": "Blood work can catch health patterns that subjective feeling misses, but markers need clinical context and trend interpretation. The useful approach is tracking a small set of high-signal panels with a clinician: lipids, glucose regulation, CBC, CMP, thyroid when indicated, iron/ferritin, vitamin D, and inflammatory markers when there is a reason.",
       "tags": [
         "resource",
         "health-fitness"
@@ -7252,7 +7252,7 @@
       "label": "Breathing Techniques (Box Breathing, Physiological Sigh, Wim Hof)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Breathing techniques use deliberate breath patterns to influence arousal, attention, and perceived stress. Box breathing, the physiological sigh, and Wim Hof-style breathing differ in intensity and should be matched to context and safety.",
+      "excerpt": "Breathing techniques are state-regulation tools, not magic physiology hacks. Box breathing steadies attention, the physiological sigh quickly downshifts arousal through long exhalation, and Wim Hof-style hyperventilation/breath holds are intense enough to require strict safety boundaries.",
       "tags": [
         "resource",
         "health-fitness"
@@ -7276,7 +7276,7 @@
       "label": "Cold Exposure — Benefits and Protocols",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Cold exposure may help alertness, perceived recovery, and cold tolerance, but evidence for broad health claims is still limited and risks are real. Protocols should be conservative, brief, and avoided by people with relevant cardiovascular or medical risk unless cleared.",
+      "excerpt": "Cold exposure is an optional stress tool that can improve alertness, cold tolerance, and perceived soreness, but broad longevity and recovery claims are often overmarketed. Use conservative protocols, avoid breath holds in water, and do not place cold immersion immediately after hypertrophy-focused lifting if muscle growth is the goal.",
       "tags": [
         "resource",
         "health-fitness"
@@ -7336,7 +7336,7 @@
       "label": "Fasting Protocols for Health vs Performance",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Fasting protocols can support calorie control or metabolic goals for some people, but they may conflict with training performance, recovery, medication timing, or disordered eating risk. The protocol should match the goal and individual context.",
+      "excerpt": "Fasting protocols can simplify calorie control or improve adherence for some people, but they are not automatically superior to calorie-matched eating and can conflict with training, protein distribution, medication timing, diabetes risk, pregnancy, or eating-disorder history. Choose fasting only when it serves the goal.",
       "tags": [
         "resource",
         "health-fitness"
@@ -7348,7 +7348,7 @@
       "label": "Heart Rate Variability (HRV) as a Recovery Metric",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Heart rate variability reflects variation between heartbeats and is often used as a recovery and stress signal. It is useful as a trend, not a single-day verdict, and should be interpreted alongside sleep, mood, performance, and illness.",
+      "excerpt": "Heart rate variability is beat-to-beat timing variation, used as a proxy for autonomic nervous system state and recovery. It is useful as a personal trend when measured consistently, but single-day wearable readiness scores should be interpreted alongside sleep, illness, alcohol, stress, soreness, and performance.",
       "tags": [
         "resource",
         "health-fitness"
@@ -7384,7 +7384,7 @@
       "label": "NEAT (Non-Exercise Activity Thermogenesis)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "NEAT is the energy used for non-exercise movement like walking, standing, chores, fidgeting, and daily activity. It can meaningfully affect energy expenditure and health without feeling like formal workouts.",
+      "excerpt": "NEAT is the energy spent on everyday movement outside formal exercise: walking, standing, chores, errands, pacing, fidgeting, and posture changes. It can vary dramatically between people and often drops unconsciously during dieting, stress, or desk-heavy work.",
       "tags": [
         "resource",
         "health-fitness"
@@ -7432,7 +7432,7 @@
       "label": "Sauna — Evidence and Use",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Sauna bathing is associated with cardiovascular and relaxation benefits, but much evidence is observational and individual safety matters. It should be treated as a heat-stress recovery tool, not a cure-all.",
+      "excerpt": "Sauna is controlled heat stress: heart rate rises, sweating increases, and many people experience relaxation. Observational Finnish studies associate frequent sauna use with lower cardiovascular and all-cause mortality, but causality is not settled; safety, hydration, alcohol avoidance, and medical context matter.",
       "tags": [
         "resource",
         "health-fitness"
@@ -7444,7 +7444,7 @@
       "label": "Step Count and NEAT",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Step count is a practical proxy for everyday movement and NEAT. It supports health, energy expenditure, and desk-work recovery without requiring every activity to become structured exercise.",
+      "excerpt": "Step count is a practical proxy for daily movement and NEAT: imperfect, but easy to measure and improve. For sedentary technical work, increasing baseline steps supports energy expenditure, cardiometabolic health, back comfort, and mental resets without adding much recovery cost.",
       "tags": [
         "resource",
         "health-fitness"
@@ -7468,7 +7468,7 @@
       "label": "Stretching — Static vs Dynamic vs PNF",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Static, dynamic, and PNF stretching use different methods to improve range of motion or prepare for activity. Dynamic stretching fits warmups, static stretching fits flexibility work, and PNF uses contraction-relaxation patterns.",
+      "excerpt": "Static, dynamic, and PNF stretching solve different problems: dynamic movement prepares for activity, static holds build passive range over time, and PNF uses contraction-relaxation to access range. Stretching helps range of motion, but active mobility and strength make that range usable.",
       "tags": [
         "resource",
         "health-fitness"
@@ -7480,7 +7480,7 @@
       "label": "Sunlight Exposure and Health",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Sunlight supports circadian rhythm, mood, and vitamin D synthesis, but ultraviolet exposure also increases skin cancer and eye-disease risk. The practical balance is morning light, outdoor time, and sun protection when UV exposure is significant.",
+      "excerpt": "Sunlight is useful for circadian timing, alertness, mood, and vitamin D synthesis, but UV exposure also increases skin aging, eye damage, and skin cancer risk. The practical balance is morning outdoor light for rhythm, sensible outdoor time, and sun protection when UV is meaningful.",
       "tags": [
         "resource",
         "health-fitness"
@@ -7504,7 +7504,7 @@
       "label": "Wrist Health for Programmers",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Wrist health for programmers depends on input ergonomics, varied movement, reasonable workload, and early response to discomfort. The goal is reducing repetitive strain before it becomes persistent pain.",
+      "excerpt": "Wrist health for programmers is mostly load management: keep wrists near neutral, reduce long static/repetitive input bouts, vary devices and posture, and respond early to pain, numbness, or tingling. Ergonomic gear helps only when it changes the forces and positions that are causing symptoms.",
       "tags": [
         "resource",
         "health-fitness"
@@ -34421,5 +34421,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-01T03:52:28Z"
+  "generated_at": "2026-06-01T03:58:50Z"
 }
