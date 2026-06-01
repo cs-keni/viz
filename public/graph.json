@@ -4207,31 +4207,31 @@
       "label": "Active Listening",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Active listening is the practice of giving full attention, reflecting meaning, asking clarifying questions, and checking understanding. It improves trust, conflict resolution, coaching, research, and collaboration.",
+      "excerpt": "Active listening means deliberately understanding content, emotion, and context before responding. It uses attention, reflection, clarifying questions, summaries, and checked understanding to improve trust, coaching, research, negotiation, and conflict resolution.",
       "tags": [
         "resource",
         "communication-writing"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Communication & Writing/Async vs Sync Communication — When to Use Each",
       "label": "Async vs Sync Communication — When to Use Each",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Async communication is best for durable context, updates, decisions, and focused work, while synchronous communication is best for ambiguity, conflict, brainstorming, urgency, and relationship repair. The right mode depends on bandwidth and stakes.",
+      "excerpt": "Async communication is best for durable context, updates, and low-urgency decisions; sync communication is best for ambiguity, conflict, urgency, creative exchange, and relationship repair. The right mode depends on complexity, emotional stakes, urgency, and need for a record.",
       "tags": [
         "resource",
         "communication-writing"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Communication & Writing/Conflict Resolution Strategies",
       "label": "Conflict Resolution Strategies",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Conflict resolution turns disagreement into clearer interests, options, boundaries, and decisions. Useful strategies include de-escalation, active listening, reframing, separating people from problems, and choosing the right forum.",
+      "excerpt": "Conflict resolution turns disagreement into clearer facts, interests, boundaries, options, and decisions. Useful strategies include de-escalation, active listening, separating observations from interpretations, naming shared goals, and choosing the right forum.",
       "tags": [
         "resource",
         "communication-writing"
@@ -4243,7 +4243,7 @@
       "label": "Email Etiquette and Efficiency",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Email etiquette and efficiency depend on clear subjects, explicit asks, concise context, appropriate recipients, and respectful response expectations. Good email reduces coordination cost.",
+      "excerpt": "Efficient email makes triage and response easy through specific subjects, an early ask, concise context, clear owners, and appropriate recipients. Bad email externalizes thinking cost onto the reader.",
       "tags": [
         "resource",
         "communication-writing"
@@ -4255,7 +4255,7 @@
       "label": "Explaining Complex Ideas Simply (The Curse of Knowledge)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Explaining complex ideas simply requires noticing the curse of knowledge: experts forget what beginners do not know. Good explanation uses audience models, concrete examples, progressive disclosure, and checked understanding.",
+      "excerpt": "The curse of knowledge makes experts forget what beginners do not know. Clear explanation starts from the audience's current model, uses concrete examples, introduces vocabulary gradually, layers complexity, and checks understanding.",
       "tags": [
         "resource",
         "communication-writing"
@@ -4267,7 +4267,7 @@
       "label": "Negotiation Fundamentals (BATNA, ZOPA)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Negotiation fundamentals include interests, alternatives, BATNA, reservation price, ZOPA, anchors, concessions, and relationship dynamics. Strong negotiators improve their alternatives and understand the other side's constraints.",
+      "excerpt": "Negotiation is agreement-seeking under different interests. Core tools include BATNA, reservation price, ZOPA, anchors, interests vs positions, and traded concessions; preparation is mostly improving alternatives and understanding the other side's constraints.",
       "tags": [
         "resource",
         "communication-writing"
@@ -4279,19 +4279,19 @@
       "label": "Non-Violent Communication (NVC — Marshall Rosenberg)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Non-Violent Communication frames difficult conversations through observations, feelings, needs, and requests. It tries to reduce blame and increase mutual understanding without avoiding boundaries.",
+      "excerpt": "Non-Violent Communication structures hard conversations around observations, feelings, needs, and requests. It reduces blame by separating what happened from evaluation, while still allowing clear boundaries and specific asks.",
       "tags": [
         "resource",
         "communication-writing"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Communication & Writing/Persuasion — Cialdini's Six Principles",
       "label": "Persuasion — Cialdini's Six Principles",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Cialdini's persuasion principles describe common influence patterns: reciprocity, commitment and consistency, social proof, authority, liking, and scarcity. They are useful for understanding influence and for noticing manipulation.",
+      "excerpt": "Cialdini's six persuasion principles explain influence shortcuts: reciprocity, commitment/consistency, social proof, authority, liking, and scarcity. They are useful for ethical communication and for recognizing manipulation.",
       "tags": [
         "resource",
         "communication-writing"
@@ -4303,7 +4303,7 @@
       "label": "Presentation Design (Assertion-Evidence vs Bullet Slides)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Presentation design improves audience understanding by replacing vague topic slides with clear assertions supported by visual evidence. Assertion-evidence slides make the message explicit and reduce cognitive burden.",
+      "excerpt": "Assertion-evidence presentation design replaces topic titles and bullet clutter with a clear slide claim supported by visual evidence. Each slide should make one point that the audience can understand quickly.",
       "tags": [
         "resource",
         "communication-writing"
@@ -4315,7 +4315,7 @@
       "label": "Public Speaking — Fear and Techniques",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Public speaking improves through preparation, audience focus, structure, rehearsal, breathing, exposure, and recovery from small mistakes. Fear is normal; skill comes from reducing uncertainty and increasing reps.",
+      "excerpt": "Public speaking fear is a normal evaluation-threat response, not proof of inability. Skill improves through audience-focused structure, out-loud rehearsal, controlled breathing, exposure, pauses, and recovery plans for mistakes.",
       "tags": [
         "resource",
         "communication-writing"
@@ -4327,7 +4327,7 @@
       "label": "Rhetoric — Logos, Ethos, Pathos",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Rhetoric studies persuasive communication through logic, credibility, emotion, audience, structure, and style. Logos, ethos, and pathos are classic lenses for how arguments persuade.",
+      "excerpt": "Rhetoric studies how communication persuades an audience through reason, credibility, emotion, arrangement, and style. Logos, ethos, and pathos are not tricks; they explain why facts need trust and relevance to land.",
       "tags": [
         "resource",
         "communication-writing"
@@ -4339,7 +4339,7 @@
       "label": "Storytelling with Data",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Storytelling with data turns analysis into a clear argument through audience focus, chart choice, annotation, context, sequencing, and visual emphasis. The goal is insight and decision support, not decorative charts.",
+      "excerpt": "Storytelling with data turns analysis into a decision-ready argument through audience focus, chart choice, context, annotation, sequencing, and visual emphasis. The goal is not decorative charts; it is making the important comparison impossible to miss.",
       "tags": [
         "resource",
         "communication-writing"
@@ -4351,7 +4351,7 @@
       "label": "Technical Writing Best Practices",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Technical writing explains systems, procedures, decisions, and concepts so readers can understand and act. Good technical writing is accurate, structured, audience-aware, searchable, and maintained.",
+      "excerpt": "Technical writing helps a specific reader understand, operate, troubleshoot, or decide about a system. Good docs define audience and task, lead with purpose, separate facts from rationale, include examples, and stay maintained or get deleted.",
       "tags": [
         "resource",
         "communication-writing"
@@ -4363,7 +4363,7 @@
       "label": "The Pyramid Principle (Barbara Minto)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Pyramid Principle structures communication by leading with the answer, then supporting it with grouped, logically ordered arguments. It is useful for executive summaries, strategy memos, and decision communication.",
+      "excerpt": "The Pyramid Principle leads with the answer, then supports it with grouped, logically ordered arguments. It is useful for executive communication because busy readers need orientation before evidence.",
       "tags": [
         "resource",
         "communication-writing"
@@ -4375,7 +4375,7 @@
       "label": "Writing Clearly — Principles (Williams, Pinker)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Clear writing makes ideas easier to understand by reducing ambiguity, needless abstraction, weak structure, and reader effort. Principles from Joseph Williams and Steven Pinker emphasize concrete subjects, strong verbs, coherence, and reader empathy.",
+      "excerpt": "Clear writing reduces reader effort by making agents, actions, structure, and context explicit. Principles from Joseph Williams and Steven Pinker emphasize concrete subjects, strong verbs, old-to-new information flow, coherence, and empathy for what the reader does not yet know.",
       "tags": [
         "resource",
         "communication-writing"
@@ -4387,7 +4387,7 @@
       "label": "Writing for Developers — Docs, READMEs, Commit Messages",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Writing for developers includes docs, READMEs, commit messages, pull request descriptions, comments, and decision records. Good developer writing preserves intent, reduces onboarding cost, and improves collaboration.",
+      "excerpt": "Developer writing includes READMEs, docs, commit messages, PR descriptions, comments, runbooks, and ADRs. Good developer writing preserves intent and tradeoffs so future maintainers can safely use, review, debug, and change the system.",
       "tags": [
         "resource",
         "communication-writing"
@@ -8147,7 +8147,7 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Leadership & Management/Running Effective Meetings",
@@ -19770,6 +19770,10 @@
     },
     {
       "source": "Resources/Communication & Writing/Active Listening",
+      "target": "Resources/Communication & Writing/Non-Violent Communication (NVC — Marshall Rosenberg)"
+    },
+    {
+      "source": "Resources/Communication & Writing/Active Listening",
       "target": "Resources/Leadership & Management/1-on-1 Meeting Best Practices"
     },
     {
@@ -19783,6 +19787,10 @@
     {
       "source": "Resources/Communication & Writing/Async vs Sync Communication — When to Use Each",
       "target": "Resources/Leadership & Management/Async Communication Culture"
+    },
+    {
+      "source": "Resources/Communication & Writing/Async vs Sync Communication — When to Use Each",
+      "target": "Resources/Leadership & Management/Remote Team Management"
     },
     {
       "source": "Resources/Communication & Writing/Async vs Sync Communication — When to Use Each",
@@ -34413,5 +34421,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-01T03:35:17Z"
+  "generated_at": "2026-06-01T03:45:35Z"
 }
