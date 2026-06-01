@@ -13340,7 +13340,7 @@
       "label": "Alcohol and Sleep Quality",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Alcohol can make sleep onset feel easier but usually worsens sleep quality by fragmenting sleep, reducing REM early in the night, increasing awakenings, and worsening breathing issues. It is a poor sleep aid.",
+      "excerpt": "Alcohol can shorten sleep onset because it is sedating, but it usually worsens sleep architecture by fragmenting the second half of the night, suppressing REM early, increasing awakenings, and worsening snoring or sleep apnea. It is one of the most common hidden causes of 'I fell asleep fine but slept badly.",
       "tags": [
         "resource",
         "sleep-science"
@@ -13364,7 +13364,7 @@
       "label": "Chronotypes (Early Bird vs Night Owl — Genetics)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Chronotype is a person's natural tendency toward earlier or later sleep-wake timing, influenced by genetics, age, light exposure, and schedule. It is real, but habits and environment still shape actual sleep timing.",
+      "excerpt": "Chronotype is the biological tendency toward earlier or later sleep-wake timing, shaped by genetics, age, light exposure, and obligations. It should be respected when designing routines, but it is not a fixed excuse to ignore light timing, wake consistency, and social constraints.",
       "tags": [
         "resource",
         "sleep-science"
@@ -13388,7 +13388,7 @@
       "label": "Jet Lag Management",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Jet lag happens when the internal circadian clock is misaligned with the destination schedule. Light timing, meal timing, sleep scheduling, caffeine, and sometimes melatonin can help shift rhythm.",
+      "excerpt": "Jet lag is circadian misalignment after rapid travel across time zones, not just travel fatigue. Light timing is the strongest lever, with destination schedule, meal timing, caffeine, naps, and sometimes carefully timed melatonin used to shift the clock without worsening sleep.",
       "tags": [
         "resource",
         "sleep-science"
@@ -13400,7 +13400,7 @@
       "label": "Melatonin Supplementation — When and How Much",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Melatonin is a circadian timing signal, not a general knockout sleep drug. It may help jet lag or delayed sleep timing, but product quality, timing, dose, medication interactions, and unknown long-term safety all matter.",
+      "excerpt": "Melatonin is mainly a circadian timing signal, not a knockout sedative. It is most useful for jet lag or delayed sleep timing when dose and timing are chosen carefully; routine high-dose nightly use is a poor substitute for light timing, sleep hygiene, or medical evaluation.",
       "tags": [
         "resource",
         "sleep-science"
@@ -13424,7 +13424,7 @@
       "label": "Noise and Sleep (White, Pink, Brown Noise)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Noise can fragment sleep even when it does not fully wake someone. White, pink, or brown noise may help by masking unpredictable sounds, but volume and personal comfort matter.",
+      "excerpt": "Noise hurts sleep mainly when it is sudden, meaningful, or variable enough to trigger micro-awakenings. White, pink, brown noise, fans, earplugs, and room changes can help by masking unpredictability, but volume should stay low enough to avoid becoming a new stressor.",
       "tags": [
         "resource",
         "sleep-science"
@@ -13436,7 +13436,7 @@
       "label": "Pre-Sleep Nutrition and Sleep Quality",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Pre-sleep nutrition can affect sleep through digestion, blood sugar, reflux, caffeine, alcohol, hydration, and meal size. The best pattern is individual, but heavy late meals and alcohol often hurt sleep quality.",
+      "excerpt": "Pre-sleep nutrition affects sleep through digestion, reflux, blood sugar, body temperature, alcohol, caffeine, hydration, and hunger. The practical rule is to avoid heavy late meals and alcohol as sleep aids while using small protein/carb snacks only when hunger is the actual sleep disruptor.",
       "tags": [
         "resource",
         "sleep-science"
@@ -13472,7 +13472,7 @@
       "label": "Sleep Disorders Overview (Apnea, Insomnia, RLS)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Sleep disorders like sleep apnea, insomnia, and restless legs syndrome can impair health and daytime function beyond ordinary poor habits. Persistent symptoms, loud snoring, choking awakenings, or severe daytime sleepiness deserve medical evaluation.",
+      "excerpt": "Sleep apnea, chronic insomnia, and restless legs syndrome are not solved by generic sleep hygiene when symptoms are persistent or impairing. Bobby should recognize red flags like choking awakenings, loud snoring, severe daytime sleepiness, weeks of insomnia, restless leg urges, and drowsy driving as reasons for medical evaluation.",
       "tags": [
         "resource",
         "sleep-science"
@@ -13532,7 +13532,7 @@
       "label": "Social Jetlag — The Weekend Sleep Shift",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Social jetlag is the mismatch between biological sleep timing and social schedules, often seen when weekday and weekend sleep times shift. Large shifts can make Monday feel like crossing time zones.",
+      "excerpt": "Social jetlag is the gap between biological sleep timing and required social timing, often created by late weekends plus early weekday alarms. It can make Monday feel like a time-zone shift, so the practical fix is smaller wake-time swings, morning light, and strategic catch-up sleep without pushing the clock later.",
       "tags": [
         "resource",
         "sleep-science"
@@ -13544,7 +13544,7 @@
       "label": "Temperature and Sleep Quality",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Sleep quality is affected by thermoregulation, and many people sleep better in a cool room with breathable bedding. Temperature needs are individual, but overheating commonly fragments sleep.",
+      "excerpt": "Sleep depends on thermoregulation: core temperature tends to fall before sleep, and overheating commonly fragments the night. The practical target is a cool, breathable sleep environment, usually around the mid-60s Fahrenheit for many adults, adjusted for comfort, age, bedding, and medical context.",
       "tags": [
         "resource",
         "sleep-science"
@@ -34423,5 +34423,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-01T16:12:56Z"
+  "generated_at": "2026-06-01T16:18:40Z"
 }
