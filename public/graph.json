@@ -7974,24 +7974,24 @@
       "label": "1-on-1 Meeting Best Practices",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "1-on-1 meetings are recurring manager-report conversations for support, context, feedback, career development, and trust. The best ones are employee-centered, consistent, and action-oriented.",
+      "excerpt": "1-on-1s are recurring private conversations for trust, context, feedback, coaching, and career development, not default status meetings. A strong 1-on-1 has a shared agenda, employee-owned topics, manager follow-through, and space for issues that dashboards will not reveal.",
       "tags": [
         "resource",
         "leadership-management"
       ],
-      "degree": 8
+      "degree": 13
     },
     {
       "id": "Resources/Leadership & Management/Async Communication Culture",
       "label": "Async Communication Culture",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Async communication culture uses written context, clear ownership, durable decisions, and respectful response expectations so teams can coordinate without constant meetings. It works best with strong writing and explicit norms.",
+      "excerpt": "Async communication culture uses written context, durable decisions, clear ownership, and explicit response expectations so teams can coordinate without constant interruption. It works only when writing quality, norms, and escalation paths are strong.",
       "tags": [
         "resource",
         "leadership-management"
       ],
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "Resources/Leadership & Management/Conway's Law",
@@ -8010,24 +8010,24 @@
       "label": "Decision-Making Frameworks (DACI, RACI)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "DACI and RACI clarify roles in decisions and execution. They reduce ambiguity by naming who drives, approves, contributes, is informed, is responsible, accountable, consulted, or informed.",
+      "excerpt": "DACI and RACI clarify decision and execution roles so work does not stall in ambiguity. DACI is strongest for decisions; RACI is strongest for recurring responsibilities and cross-functional execution.",
       "tags": [
         "resource",
         "leadership-management"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/Leadership & Management/Delegation — When and How",
       "label": "Delegation — When and How",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Delegation transfers ownership of outcomes, decisions, or tasks to create leverage and growth. Good delegation clarifies context, authority, expectations, support, and feedback loops.",
+      "excerpt": "Delegation transfers ownership with context, authority, expectations, support, and feedback loops. Good delegation creates leverage and growth; bad delegation is either dumping unclear work or taking it back before the person can learn.",
       "tags": [
         "resource",
         "leadership-management"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Leadership & Management/Engineering Levels and Ladders",
@@ -8046,24 +8046,24 @@
       "label": "Engineering Management vs IC Track",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Engineering management and individual contributor tracks are distinct leadership paths. Managers lead through people, systems, and priorities; senior ICs lead through technical judgment, architecture, execution, and influence.",
+      "excerpt": "Engineering management and senior IC work are parallel leadership tracks with different leverage: managers shape teams, people systems, priorities, and execution; ICs shape technical direction, architecture, quality, and influence without direct authority. The right path depends on energy, strengths, and desired daily work, not status.",
       "tags": [
         "resource",
         "leadership-management"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Leadership & Management/Giving Feedback (SBI Model — Situation, Behavior, Impact)",
       "label": "Giving Feedback (SBI Model — Situation, Behavior, Impact)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The SBI feedback model structures feedback around the situation, observed behavior, and impact. It reduces vague judgment by grounding feedback in specific events and consequences.",
+      "excerpt": "The SBI model makes feedback specific by naming the situation, observable behavior, and impact. It avoids character judgments and mind-reading, making feedback easier to understand, discuss, and act on.",
       "tags": [
         "resource",
         "leadership-management"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Leadership & Management/Hiring — Structured Interviews",
@@ -8111,14 +8111,26 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Leadership & Management/Psychological Safety in Teams (Amy Edmondson)",
       "label": "Psychological Safety in Teams (Amy Edmondson)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Psychological safety is a shared belief that people can speak up, ask questions, admit mistakes, and challenge ideas without interpersonal punishment. It supports learning, quality, and risk detection.",
+      "excerpt": "Psychological safety, from Amy Edmondson's research, is a shared belief that people can speak up, ask questions, admit mistakes, and challenge ideas without interpersonal punishment. It enables learning and risk detection; it is not comfort, consensus, or low standards.",
+      "tags": [
+        "resource",
+        "leadership-management"
+      ],
+      "degree": 10
+    },
+    {
+      "id": "Resources/Leadership & Management/Radical Candor (Kim Scott)",
+      "label": "Radical Candor (Kim Scott)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Radical Candor combines caring personally with challenging directly. The useful managerial move is to give specific truth early while showing commitment to the person, avoiding both harshness without care and kindness that withholds needed feedback.",
       "tags": [
         "resource",
         "leadership-management"
@@ -8126,40 +8138,28 @@
       "degree": 8
     },
     {
-      "id": "Resources/Leadership & Management/Radical Candor (Kim Scott)",
-      "label": "Radical Candor (Kim Scott)",
-      "folder": "Resources",
-      "created": "2026-05-26",
-      "excerpt": "Radical Candor combines caring personally with challenging directly. The framework warns against ruinous empathy, obnoxious aggression, manipulative insincerity, and silence disguised as kindness.",
-      "tags": [
-        "resource",
-        "leadership-management"
-      ],
-      "degree": 7
-    },
-    {
       "id": "Resources/Leadership & Management/Remote Team Management",
       "label": "Remote Team Management",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Remote team management requires deliberate communication, documentation, trust, rituals, timezone awareness, outcome focus, and social connection. It exposes weak management habits that offices can sometimes hide.",
+      "excerpt": "Remote team management makes implicit office coordination explicit through documentation, rituals, outcomes, timezone norms, onboarding, feedback, and intentional connection. Remote work exposes weak management habits because visibility can no longer substitute for clarity.",
       "tags": [
         "resource",
         "leadership-management"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Leadership & Management/Running Effective Meetings",
       "label": "Running Effective Meetings",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Effective meetings have a clear purpose, right participants, useful preparation, active facilitation, explicit decisions, and follow-up. Meetings are expensive coordination tools, not default containers for work.",
+      "excerpt": "Effective meetings are expensive coordination tools with a clear purpose, prepared context, right participants, facilitation, explicit decisions, and follow-up. The default question should be whether synchronous time will resolve ambiguity faster than written async work.",
       "tags": [
         "resource",
         "leadership-management"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Leadership & Management/Technical Interview Design",
@@ -24481,11 +24481,19 @@
     },
     {
       "source": "Resources/Leadership & Management/1-on-1 Meeting Best Practices",
+      "target": "Resources/Leadership & Management/Performance Reviews"
+    },
+    {
+      "source": "Resources/Leadership & Management/1-on-1 Meeting Best Practices",
       "target": "Resources/Leadership & Management/Psychological Safety in Teams (Amy Edmondson)"
     },
     {
       "source": "Resources/Leadership & Management/Async Communication Culture",
       "target": "Resources/Communication & Writing/Technical Writing Best Practices"
+    },
+    {
+      "source": "Resources/Leadership & Management/Async Communication Culture",
+      "target": "Resources/Leadership & Management/Decision-Making Frameworks (DACI, RACI)"
     },
     {
       "source": "Resources/Leadership & Management/Async Communication Culture",
@@ -24509,6 +24517,10 @@
     },
     {
       "source": "Resources/Leadership & Management/Decision-Making Frameworks (DACI, RACI)",
+      "target": "Resources/Leadership & Management/Async Communication Culture"
+    },
+    {
+      "source": "Resources/Leadership & Management/Decision-Making Frameworks (DACI, RACI)",
       "target": "Resources/Leadership & Management/Delegation — When and How"
     },
     {
@@ -24518,6 +24530,10 @@
     {
       "source": "Resources/Leadership & Management/Decision-Making Frameworks (DACI, RACI)",
       "target": "Resources/Leadership & Management/The Principal-Agent Problem"
+    },
+    {
+      "source": "Resources/Leadership & Management/Delegation — When and How",
+      "target": "Resources/Leadership & Management/1-on-1 Meeting Best Practices"
     },
     {
       "source": "Resources/Leadership & Management/Delegation — When and How",
@@ -24545,6 +24561,10 @@
     },
     {
       "source": "Resources/Leadership & Management/Engineering Management vs IC Track",
+      "target": "Resources/Leadership & Management/1-on-1 Meeting Best Practices"
+    },
+    {
+      "source": "Resources/Leadership & Management/Engineering Management vs IC Track",
       "target": "Resources/Leadership & Management/Delegation — When and How"
     },
     {
@@ -24562,6 +24582,10 @@
     {
       "source": "Resources/Leadership & Management/Giving Feedback (SBI Model — Situation, Behavior, Impact)",
       "target": "Resources/Leadership & Management/Performance Reviews"
+    },
+    {
+      "source": "Resources/Leadership & Management/Giving Feedback (SBI Model — Situation, Behavior, Impact)",
+      "target": "Resources/Leadership & Management/Psychological Safety in Teams (Amy Edmondson)"
     },
     {
       "source": "Resources/Leadership & Management/Giving Feedback (SBI Model — Situation, Behavior, Impact)",
@@ -24625,6 +24649,10 @@
     },
     {
       "source": "Resources/Leadership & Management/Psychological Safety in Teams (Amy Edmondson)",
+      "target": "Resources/Leadership & Management/Giving Feedback (SBI Model — Situation, Behavior, Impact)"
+    },
+    {
+      "source": "Resources/Leadership & Management/Psychological Safety in Teams (Amy Edmondson)",
       "target": "Resources/Leadership & Management/Radical Candor (Kim Scott)"
     },
     {
@@ -24633,11 +24661,19 @@
     },
     {
       "source": "Resources/Leadership & Management/Radical Candor (Kim Scott)",
+      "target": "Resources/Leadership & Management/1-on-1 Meeting Best Practices"
+    },
+    {
+      "source": "Resources/Leadership & Management/Radical Candor (Kim Scott)",
       "target": "Resources/Leadership & Management/Giving Feedback (SBI Model — Situation, Behavior, Impact)"
     },
     {
       "source": "Resources/Leadership & Management/Radical Candor (Kim Scott)",
       "target": "Resources/Leadership & Management/Psychological Safety in Teams (Amy Edmondson)"
+    },
+    {
+      "source": "Resources/Leadership & Management/Remote Team Management",
+      "target": "Resources/Leadership & Management/1-on-1 Meeting Best Practices"
     },
     {
       "source": "Resources/Leadership & Management/Remote Team Management",
@@ -24662,6 +24698,10 @@
     {
       "source": "Resources/Leadership & Management/Running Effective Meetings",
       "target": "Resources/Leadership & Management/Decision-Making Frameworks (DACI, RACI)"
+    },
+    {
+      "source": "Resources/Leadership & Management/Running Effective Meetings",
+      "target": "Resources/Leadership & Management/Remote Team Management"
     },
     {
       "source": "Resources/Leadership & Management/Technical Interview Design",
@@ -34328,5 +34368,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-01T03:21:51Z"
+  "generated_at": "2026-06-01T03:28:45Z"
 }
