@@ -1074,6 +1074,15 @@
       "degree": 1
     },
     {
+      "id": "Negotiation Strategies",
+      "label": "Negotiation Strategies",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Network Monitoring — SNMP, NetFlow, Synthetic Checks, Observability Stack",
       "label": "Network Monitoring — SNMP, NetFlow, Synthetic Checks, Observability Stack",
       "folder": null,
@@ -4474,7 +4483,7 @@
         "resource",
         "data-science-analytics"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Data Science & Analytics/Confidence Intervals",
@@ -6110,12 +6119,12 @@
       "label": "Customer Discovery",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Customer discovery is the process of learning whether a real customer segment has a painful problem, current alternatives, buying motivation, and budget. The goal is evidence, not compliments.",
+      "excerpt": "Customer discovery tests whether a specific customer segment has a painful problem, current workaround, buying trigger, budget, and decision process. Good discovery asks about recent behavior and concrete situations, not whether someone likes your idea.",
       "tags": [
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 12
+      "degree": 14
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Distribution is Everything",
@@ -6146,12 +6155,12 @@
       "label": "Finding Product-Market Fit",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Product-market fit happens when a product satisfies a strong market need well enough that customers pull it forward. It is visible through retention, usage, referrals, urgency, willingness to pay, and painful disappointment if the product disappears.",
+      "excerpt": "Product-market fit is evidence that a specific customer segment urgently values a product enough to retain, pay, expand, and pull it forward. It is measured through retention, usage intensity, willingness to pay, referrals, sales-cycle compression, and customer disappointment if the product disappeared.",
       "tags": [
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 11
+      "degree": 14
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Founder-Market Fit",
@@ -6182,36 +6191,36 @@
       "label": "Jobs to Be Done Framework",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Jobs to Be Done frames customers as hiring products to make progress in a specific situation. It focuses on context, desired outcomes, switching triggers, anxieties, and competing alternatives.",
+      "excerpt": "Jobs to Be Done frames customers as hiring products to make progress in a specific situation, with functional, emotional, and social dimensions. The useful output is a switching story: trigger, old solution, anxieties, desired outcome, and competing alternatives.",
       "tags": [
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Entrepreneurship & Startups/MVP Design — What Minimum Actually Means",
       "label": "MVP Design — What Minimum Actually Means",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "An MVP is the smallest experiment that can test a meaningful product or business assumption. Minimum means minimum learning vehicle, not a low-quality version of the final product.",
+      "excerpt": "An MVP is the smallest credible experiment that tests a risky product or business assumption. Minimum means minimum learning vehicle, not minimum quality: the artifact must be good enough that the result reflects customer demand rather than prototype brokenness.",
       "tags": [
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 9
+      "degree": 11
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Pricing Strategy (Value-Based, Cost-Plus, Freemium)",
       "label": "Pricing Strategy (Value-Based, Cost-Plus, Freemium)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Pricing strategy determines how a business captures value from what it creates. Common approaches include value-based pricing, cost-plus pricing, competitive pricing, usage pricing, subscriptions, tiers, and freemium.",
+      "excerpt": "Pricing strategy decides how a company captures value, segments customers, funds service costs, and signals positioning. The main approaches are value-based, cost-plus, competitive, usage-based, tiered, subscription, and freemium, each with different unit-economic and behavioral consequences.",
       "tags": [
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Solopreneurship and Indie Hacking",
@@ -6230,36 +6239,36 @@
       "label": "Startup Funding (Bootstrapping, Angel, Pre-Seed, Seed, Series A)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Startup funding ranges from bootstrapping and customer revenue to angel checks, pre-seed, seed, and Series A venture rounds. Each path changes expectations around speed, ownership, control, risk, and exit size.",
+      "excerpt": "Startup funding choices define growth expectations, ownership dilution, control, runway, and exit pressure. Bootstrapping, angels, pre-seed, seed, and Series A each finance a different level of evidence: problem, product, traction, repeatable go-to-market, and scale.",
       "tags": [
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Startup vs Small Business — Key Differences",
       "label": "Startup vs Small Business — Key Differences",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "A startup is designed to search for a scalable, repeatable business model under uncertainty, while a small business usually executes a more known model in a defined market. The difference is growth ambition, uncertainty, financing, and operating style.",
+      "excerpt": "Startups search for a repeatable, scalable business model under extreme uncertainty; small businesses usually execute a more known model with cash-flow discipline. The distinction matters because funding, growth targets, hiring, risk tolerance, and success metrics are different games.",
       "tags": [
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Term Sheets — Key Terms to Negotiate",
       "label": "Term Sheets — Key Terms to Negotiate",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "A term sheet outlines the economic and control terms of a startup financing. Key terms include valuation, investment amount, liquidation preference, pro rata rights, board control, option pool, vesting, and protective provisions.",
+      "excerpt": "A term sheet defines the economics and control rights of a startup financing: valuation, investment amount, option pool, liquidation preference, pro rata rights, board composition, protective provisions, vesting, and information rights. Headline valuation is only one variable; preferences and control terms decide outcomes under stress.",
       "tags": [
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Entrepreneurship & Startups/The Art of the Pivot",
@@ -6278,12 +6287,12 @@
       "label": "The Lean Startup Method (Build-Measure-Learn)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Lean Startup method treats startups as experiments that move through build-measure-learn loops. The goal is validated learning: discovering whether assumptions about customers, problems, solutions, and business models are true.",
+      "excerpt": "Lean Startup treats a startup as a sequence of experiments that test risky assumptions about customers, problems, solutions, channels, and economics. Build-measure-learn only works when the team defines the hypothesis, success threshold, and decision rule before building.",
       "tags": [
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Timing a Market",
@@ -6302,12 +6311,12 @@
       "label": "Unit Economics (CAC, LTV, Payback Period, Churn)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Unit economics measure whether acquiring and serving a customer creates durable profit. Core metrics include CAC, LTV, gross margin, payback period, churn, retention, expansion, and contribution margin.",
+      "excerpt": "Unit economics measure whether each customer relationship produces gross profit after acquisition and service costs. Core formulas include CAC, gross-margin LTV, payback period, logo churn, revenue churn, net revenue retention, and contribution margin.",
       "tags": [
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 7
+      "degree": 10
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Y Combinator — Lessons and Application Advice",
@@ -16118,6 +16127,15 @@
       "degree": 1
     },
     {
+      "id": "User Research Methods",
+      "label": "User Research Methods",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "User-Centered Design",
       "label": "User-Centered Design",
       "folder": null,
@@ -22213,6 +22231,10 @@
       "target": "Resources/Entrepreneurship & Startups/MVP Design — What Minimum Actually Means"
     },
     {
+      "source": "Resources/Entrepreneurship & Startups/Customer Discovery",
+      "target": "User Research Methods"
+    },
+    {
       "source": "Resources/Entrepreneurship & Startups/Distribution is Everything",
       "target": "Resources/Business & Strategy/Competitive Moats (Network Effects, Switching Costs, Scale, IP)"
     },
@@ -22249,6 +22271,10 @@
       "target": "Resources/Entrepreneurship & Startups/The Lean Startup Method (Build-Measure-Learn)"
     },
     {
+      "source": "Resources/Entrepreneurship & Startups/Finding Product-Market Fit",
+      "target": "Resources/Entrepreneurship & Startups/Unit Economics (CAC, LTV, Payback Period, Churn)"
+    },
+    {
       "source": "Resources/Entrepreneurship & Startups/Founder-Market Fit",
       "target": "Resources/Entrepreneurship & Startups/Customer Discovery"
     },
@@ -22282,6 +22308,10 @@
     },
     {
       "source": "Resources/Entrepreneurship & Startups/Jobs to Be Done Framework",
+      "target": "Resources/Entrepreneurship & Startups/MVP Design — What Minimum Actually Means"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Jobs to Be Done Framework",
       "target": "User-Centered Design"
     },
     {
@@ -22294,11 +22324,19 @@
     },
     {
       "source": "Resources/Entrepreneurship & Startups/MVP Design — What Minimum Actually Means",
+      "target": "Resources/Entrepreneurship & Startups/Finding Product-Market Fit"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/MVP Design — What Minimum Actually Means",
       "target": "Resources/Entrepreneurship & Startups/The Lean Startup Method (Build-Measure-Learn)"
     },
     {
       "source": "Resources/Entrepreneurship & Startups/Pricing Strategy (Value-Based, Cost-Plus, Freemium)",
       "target": "Resources/Economics & Finance/Behavioral Economics Overview"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Pricing Strategy (Value-Based, Cost-Plus, Freemium)",
+      "target": "Resources/Entrepreneurship & Startups/Customer Discovery"
     },
     {
       "source": "Resources/Entrepreneurship & Startups/Pricing Strategy (Value-Based, Cost-Plus, Freemium)",
@@ -22333,6 +22371,10 @@
       "target": "Resources/Entrepreneurship & Startups/Term Sheets — Key Terms to Negotiate"
     },
     {
+      "source": "Resources/Entrepreneurship & Startups/Startup Funding (Bootstrapping, Angel, Pre-Seed, Seed, Series A)",
+      "target": "Resources/Entrepreneurship & Startups/Unit Economics (CAC, LTV, Payback Period, Churn)"
+    },
+    {
       "source": "Resources/Entrepreneurship & Startups/Startup vs Small Business — Key Differences",
       "target": "Resources/Entrepreneurship & Startups/Finding Product-Market Fit"
     },
@@ -22342,7 +22384,15 @@
     },
     {
       "source": "Resources/Entrepreneurship & Startups/Startup vs Small Business — Key Differences",
+      "target": "Resources/Entrepreneurship & Startups/Startup Funding (Bootstrapping, Angel, Pre-Seed, Seed, Series A)"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Startup vs Small Business — Key Differences",
       "target": "Resources/Entrepreneurship & Startups/Unit Economics (CAC, LTV, Payback Period, Churn)"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Term Sheets — Key Terms to Negotiate",
+      "target": "Negotiation Strategies"
     },
     {
       "source": "Resources/Entrepreneurship & Startups/Term Sheets — Key Terms to Negotiate",
@@ -22378,6 +22428,10 @@
     },
     {
       "source": "Resources/Entrepreneurship & Startups/The Lean Startup Method (Build-Measure-Learn)",
+      "target": "Resources/Entrepreneurship & Startups/Finding Product-Market Fit"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/The Lean Startup Method (Build-Measure-Learn)",
       "target": "Resources/Entrepreneurship & Startups/MVP Design — What Minimum Actually Means"
     },
     {
@@ -22395,6 +22449,10 @@
     {
       "source": "Resources/Entrepreneurship & Startups/Unit Economics (CAC, LTV, Payback Period, Churn)",
       "target": "Metrics That Matter vs Vanity Metrics"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Unit Economics (CAC, LTV, Payback Period, Churn)",
+      "target": "Resources/Data Science & Analytics/Cohort Analysis"
     },
     {
       "source": "Resources/Entrepreneurship & Startups/Unit Economics (CAC, LTV, Payback Period, Churn)",
@@ -34165,5 +34223,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-01T02:54:48Z"
+  "generated_at": "2026-06-01T03:04:42Z"
 }
