@@ -456,11 +456,20 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 2
+      "degree": 1
     },
     {
       "id": "Blameless Postmortems",
       "label": "Blameless Postmortems",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "Bottlenecks",
+      "label": "Bottlenecks",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -2428,7 +2437,7 @@
         "resource",
         "biology-life-sciences"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/Biology & Life Sciences/The Microbiome — Gut Flora and Health",
@@ -2732,7 +2741,7 @@
       "label": "Atomic Habits — Key Ideas (James Clear)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Atomic Habits presents habit change as identity-aligned behavior shaped by cues, cravings, responses, and rewards. Its practical power is focusing on environment design and small repeatable systems.",
+      "excerpt": "Atomic Habits presents behavior change as small repeatable actions shaped by cues, cravings, responses, rewards, identity, and environment. Its practical value is converting goals into low-friction systems instead of relying on motivation.",
       "tags": [
         "resource",
         "books-ideas"
@@ -2744,7 +2753,7 @@
       "label": "Clean Code — Key Ideas (Robert C. Martin)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Clean Code argues that code should be readable, intentional, small, well-named, tested, and maintainable. Some advice is debated, but the book's central concern is reducing comprehension cost.",
+      "excerpt": "Clean Code argues that code quality is mostly comprehension quality: naming, function shape, tests, duplication, and local clarity determine how expensive future change becomes. Its advice is useful but not scripture; some rules age poorly or become counterproductive when applied without context.",
       "tags": [
         "resource",
         "books-ideas"
@@ -2756,7 +2765,7 @@
       "label": "Deep Work — Key Ideas (Newport)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Deep Work argues that cognitively demanding, distraction-free concentration is increasingly valuable and increasingly rare. Newport emphasizes deliberate practice, attention protection, scheduling, and reducing shallow work.",
+      "excerpt": "Deep Work argues that sustained, distraction-free concentration on cognitively demanding tasks is both increasingly valuable and increasingly rare. The useful takeaway is not monk-like purity; it is treating attention as a scarce production input that needs scheduling, ritual, and protection.",
       "tags": [
         "resource",
         "books-ideas"
@@ -2768,7 +2777,7 @@
       "label": "Designing Data-Intensive Applications — Key Ideas (Kleppmann)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Designing Data-Intensive Applications explains the tradeoffs behind storage, replication, partitioning, transactions, consistency, batch processing, stream processing, and distributed systems. It is a systems-thinking book for modern data infrastructure.",
+      "excerpt": "Designing Data-Intensive Applications explains modern data systems as tradeoffs among reliability, scalability, maintainability, consistency, availability, latency, and operational complexity. Its central lesson is that every abstraction hides failure modes that reappear at scale.",
       "tags": [
         "resource",
         "books-ideas"
@@ -2864,7 +2873,7 @@
       "label": "Sapiens — Key Ideas (Harari)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Sapiens tells a broad, interpretive history of humanity through cognitive, agricultural, imperial, scientific, and capitalist revolutions. Its most memorable idea is that shared fictions let large groups cooperate.",
+      "excerpt": "Sapiens is a sweeping interpretive history arguing that shared fictions let humans cooperate at massive scale across tribes, empires, money, religion, science, and capitalism. Its strength is synthesis and narrative; its weakness is overcompression and contestable big-history claims.",
       "tags": [
         "resource",
         "books-ideas"
@@ -2924,7 +2933,7 @@
       "label": "The Hard Thing About Hard Things — Key Ideas (Horowitz)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Hard Thing About Hard Things is Ben Horowitz's practical account of leading companies through fear, layoffs, crisis, ambiguity, and imperfect decisions. It emphasizes that leadership is often about surviving non-ideal reality.",
+      "excerpt": "The Hard Thing About Hard Things is Ben Horowitz's account of leadership when the situation is ugly: layoffs, fear, executive failure, strategic reversals, and lonely decisions. Its central value is emotional realism about company-building under pressure.",
       "tags": [
         "resource",
         "books-ideas"
@@ -2960,7 +2969,7 @@
       "label": "The Pragmatic Programmer — Key Ideas (Hunt, Thomas)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Pragmatic Programmer is a practical software craftsmanship book about responsibility, feedback, automation, orthogonality, testing, debugging, and continuous learning. Its core message is to act like an owner of the work.",
+      "excerpt": "The Pragmatic Programmer is a software craftsmanship book about ownership, feedback, automation, orthogonality, reversibility, debugging, and continuous learning. Its core message is that good engineers actively shape the conditions for good work instead of passively accepting entropy.",
       "tags": [
         "resource",
         "books-ideas"
@@ -2972,7 +2981,7 @@
       "label": "The Selfish Gene — Key Ideas (Dawkins)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Selfish Gene popularized a gene-centered view of evolution, explaining behavior through replication, selection, kinship, altruism, and memes. The title is metaphorical: genes are not conscious agents.",
+      "excerpt": "The Selfish Gene popularizes the gene-centered view of evolution: organisms can be understood as vehicles for replicators shaped by natural selection. The title is metaphorical, not a moral endorsement of selfish behavior.",
       "tags": [
         "resource",
         "books-ideas"
@@ -2984,7 +2993,7 @@
       "label": "The Staff Engineer's Path — Key Ideas (Reilly)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Staff Engineer's Path explains senior individual-contributor leadership through scope, influence, strategy, execution, mentorship, and visibility. It helps engineers grow without assuming management is the only path.",
+      "excerpt": "The Staff Engineer's Path explains senior individual-contributor work as leverage through scope, judgment, influence, execution, mentorship, and organizational visibility. Its key correction is that staff engineering is not just more coding; it is technical leadership across ambiguous systems and people.",
       "tags": [
         "resource",
         "books-ideas"
@@ -3008,7 +3017,7 @@
       "label": "Thinking Fast and Slow — Key Ideas (Kahneman)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Thinking, Fast and Slow presents Daniel Kahneman's distinction between fast intuitive judgment and slower deliberate reasoning. Its enduring value is showing how human judgment can be useful, biased, confident, and wrong.",
+      "excerpt": "Thinking, Fast and Slow popularizes Kahneman's fast/slow cognition frame and a large catalog of judgment errors. Its value is not that System 1 is bad and System 2 is good; it is that confidence, fluency, vividness, and framing can make weak judgments feel obvious.",
       "tags": [
         "resource",
         "books-ideas"
@@ -3020,7 +3029,7 @@
       "label": "Thinking in Systems — Key Ideas (Meadows)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Thinking in Systems teaches how to understand stocks, flows, feedback loops, delays, leverage points, and unintended consequences. It is a practical guide to seeing behavior as the product of system structure.",
+      "excerpt": "Thinking in Systems teaches that persistent behavior comes from system structure: stocks, flows, feedback loops, delays, rules, goals, and paradigms. Its practical power is moving Bobby and Kenny away from single-cause blame toward leverage points.",
       "tags": [
         "resource",
         "books-ideas"
@@ -3044,7 +3053,7 @@
       "label": "Zero to One — Key Ideas (Thiel)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Zero to One argues that startups create the most value by building something new and defensible rather than competing in crowded markets. Its key lens is monopoly-like differentiation through unique insight.",
+      "excerpt": "Zero to One argues that startups create outsized value by discovering non-obvious truths and building defensible monopolistic positions rather than competing in crowded markets. Its lens is sharp but ideological: useful for strategy, dangerous if treated as complete startup doctrine.",
       "tags": [
         "resource",
         "books-ideas"
@@ -3229,7 +3238,7 @@
         "resource",
         "business-strategy"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/CI CD",
@@ -3896,7 +3905,7 @@
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Cognitive Science & Biases/Availability Heuristic",
@@ -3980,7 +3989,7 @@
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Cognitive Science & Biases/Dunning-Kruger Effect",
@@ -4088,7 +4097,7 @@
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Cognitive Science & Biases/Optimism Bias",
@@ -5774,7 +5783,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 12
+      "degree": 10
     },
     {
       "id": "Resources/Economics & Finance/Bitcoin — Blockchain, Proof of Work, Mining",
@@ -6038,7 +6047,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Economics and Personal Finance",
@@ -8179,7 +8188,7 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/Learning & Memory/Active Recall vs Passive Review",
@@ -16102,6 +16111,15 @@
       "degree": 1
     },
     {
+      "id": "Technical Leadership Without Management",
+      "label": "Technical Leadership Without Management",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "The 3-2-1 Backup Rule and Backup Strategy",
       "label": "The 3-2-1 Backup Rule and Backup Strategy",
       "folder": null,
@@ -18061,7 +18079,7 @@
     },
     {
       "source": "Resources/Books & Ideas/Atomic Habits — Key Ideas (James Clear)",
-      "target": "Resources/Economics & Finance/Behavioral Economics Overview"
+      "target": "Resources/Cognitive Science & Biases/Nudge Theory (Thaler and Sunstein)"
     },
     {
       "source": "Resources/Books & Ideas/Clean Code — Key Ideas (Robert C. Martin)",
@@ -18313,7 +18331,7 @@
     },
     {
       "source": "Resources/Books & Ideas/The Staff Engineer's Path — Key Ideas (Reilly)",
-      "target": "Resources/Leadership & Management/The Staff Engineer's Path"
+      "target": "Technical Leadership Without Management"
     },
     {
       "source": "Resources/Books & Ideas/The Structure of Scientific Revolutions — Key Ideas (Kuhn)",
@@ -18329,7 +18347,7 @@
     },
     {
       "source": "Resources/Books & Ideas/Thinking Fast and Slow — Key Ideas (Kahneman)",
-      "target": "Bayesian Reasoning"
+      "target": "Resources/Cognitive Science & Biases/Anchoring Bias"
     },
     {
       "source": "Resources/Books & Ideas/Thinking Fast and Slow — Key Ideas (Kahneman)",
@@ -18337,15 +18355,15 @@
     },
     {
       "source": "Resources/Books & Ideas/Thinking Fast and Slow — Key Ideas (Kahneman)",
-      "target": "Resources/Economics & Finance/Behavioral Economics Overview"
+      "target": "Resources/Cognitive Science & Biases/Dual Process Theory (System 1 vs System 2)"
+    },
+    {
+      "source": "Resources/Books & Ideas/Thinking in Systems — Key Ideas (Meadows)",
+      "target": "Bottlenecks"
     },
     {
       "source": "Resources/Books & Ideas/Thinking in Systems — Key Ideas (Meadows)",
       "target": "Feedback Loops"
-    },
-    {
-      "source": "Resources/Books & Ideas/Thinking in Systems — Key Ideas (Meadows)",
-      "target": "Resources/Biology & Life Sciences/Systems Biology"
     },
     {
       "source": "Resources/Books & Ideas/Thinking in Systems — Key Ideas (Meadows)",
@@ -18369,7 +18387,7 @@
     },
     {
       "source": "Resources/Books & Ideas/Zero to One — Key Ideas (Thiel)",
-      "target": "Resources/Business & Strategy/Zero to One — Key Ideas (Peter Thiel)"
+      "target": "Resources/Economics & Finance/Winner-Take-All Markets"
     },
     {
       "source": "Resources/Books & Ideas/Zero to One — Key Ideas (Thiel)",
@@ -34436,5 +34454,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-01T16:45:18Z"
+  "generated_at": "2026-06-01T18:31:08Z"
 }
