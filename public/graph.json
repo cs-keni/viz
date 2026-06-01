@@ -7264,7 +7264,7 @@
       "label": "Cardio Types — HIIT vs LISS vs Zone 2",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Cardio methods differ by intensity and adaptation: HIIT trains high-intensity capacity, LISS builds easy aerobic volume, and Zone 2 targets sustainable aerobic base. The right mix depends on goals, recovery, and preference.",
+      "excerpt": "HIIT, LISS, and Zone 2 are different cardio tools, not competing religions. HIIT trains high-end capacity with high fatigue cost, LISS builds easy movement volume, and Zone 2 develops sustainable aerobic metabolism near the first lactate/ventilatory threshold.",
       "tags": [
         "resource",
         "health-fitness"
@@ -7288,7 +7288,7 @@
       "label": "Compound Lifts (Squat, Deadlift, Bench Press, OHP)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Compound lifts train multiple joints and muscle groups at once, making them efficient strength and muscle-building movements. Squat, deadlift, bench press, and overhead press are common anchors but not mandatory for every person.",
+      "excerpt": "Compound lifts train coordinated force across multiple joints, which makes them efficient anchors for strength and muscle but also more technically sensitive than isolation work. Squat, deadlift, bench press, and overhead press are movement-pattern tools, not mandatory identity tests.",
       "tags": [
         "resource",
         "health-fitness"
@@ -7300,7 +7300,7 @@
       "label": "Deload Weeks",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "A deload week intentionally reduces training stress to dissipate fatigue while preserving momentum. Deloads are useful when fatigue accumulates, performance stalls, or a program has run hard for several weeks.",
+      "excerpt": "A deload week deliberately reduces training stress so fatigue falls while skill and habit remain. It is most useful after hard blocks, repeated performance stalls, poor recovery signs, or schedule stress, and usually works by cutting volume more than movement practice.",
       "tags": [
         "resource",
         "health-fitness"
@@ -7312,7 +7312,7 @@
       "label": "Exercise Science Fundamentals",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Exercise science studies how the body adapts to training stress through strength, endurance, mobility, recovery, and energy systems. Useful programming balances overload, specificity, fatigue, and consistency.",
+      "excerpt": "Exercise science is the training version of systems engineering: apply a specific stress, recover from it, and the body adapts by changing muscle, tendons, heart, mitochondria, nervous system, and skill. The useful frame is stimulus-recovery-adaptation, with progressive overload and specificity constrained by fatigue, sleep, nutrition, injury history, and adherence.",
       "tags": [
         "resource",
         "health-fitness"
@@ -7324,7 +7324,7 @@
       "label": "Eye Strain and Screen Time (20-20-20 Rule)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Eye strain from screen work often comes from sustained near focus, glare, dryness, poor lighting, and long uninterrupted sessions. The 20-20-20 rule is a simple break habit: every 20 minutes, look 20 feet away for about 20 seconds.",
+      "excerpt": "Digital eye strain usually comes from prolonged near focus, reduced blinking, glare, dry eyes, poor lighting, uncorrected vision issues, and long uninterrupted sessions. The 20-20-20 rule is a low-cost reset: every 20 minutes, look about 20 feet away for about 20 seconds.",
       "tags": [
         "resource",
         "health-fitness"
@@ -7360,7 +7360,7 @@
       "label": "Hypertrophy vs Strength Programming",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Hypertrophy programming prioritizes muscle growth, while strength programming prioritizes force output in specific movements. They overlap, but differ in volume, intensity, exercise selection, and progression.",
+      "excerpt": "Hypertrophy programming optimizes muscle growth; strength programming optimizes force output in specific movements. They overlap, but hypertrophy is driven mostly by hard volume and proximity to failure, while strength also depends heavily on neural skill, heavy-load practice, leverages, and specificity.",
       "tags": [
         "resource",
         "health-fitness"
@@ -7372,7 +7372,7 @@
       "label": "Mobility and Flexibility Training",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Mobility is active control through range of motion, while flexibility is the available passive range. Good training combines strength, control, and appropriate stretching rather than chasing range alone.",
+      "excerpt": "Flexibility is available range of motion; mobility is active control and strength inside that range. Useful mobility work is specific to a task, combines stretching with loaded control, and avoids chasing extreme range that does not improve movement or comfort.",
       "tags": [
         "resource",
         "health-fitness"
@@ -7396,7 +7396,7 @@
       "label": "Overtraining vs Overreaching",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Overreaching is short-term accumulated fatigue that can be recovered from, while overtraining is a more serious maladaptive state from prolonged stress and insufficient recovery. The distinction matters for programming and health.",
+      "excerpt": "Overreaching is short-term accumulated fatigue; overtraining syndrome is a longer maladaptive state where performance, mood, sleep, and health degrade because stress chronically exceeds recovery. The distinction matters because functional overreaching can be programmed, while nonfunctional overreaching and overtraining require backing off.",
       "tags": [
         "resource",
         "health-fitness"
@@ -7408,7 +7408,7 @@
       "label": "Posture and Desk Ergonomics",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Desk ergonomics reduces strain by matching monitor, chair, keyboard, mouse, lighting, and break habits to the body. The best posture is variable: comfort comes from movement and setup, not holding one perfect position.",
+      "excerpt": "Desk ergonomics reduces strain by fitting monitor, chair, keyboard, mouse, lighting, and break rhythm to the body. The best posture is not one perfect pose; it is a neutral-enough setup plus frequent variation before static loading becomes discomfort.",
       "tags": [
         "resource",
         "health-fitness"
@@ -7420,7 +7420,7 @@
       "label": "Recovery — Sleep, Nutrition, Active Recovery",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Recovery is the process that turns training stress into adaptation. Sleep, nutrition, hydration, low-intensity movement, stress management, and appropriate programming all determine whether work becomes progress.",
+      "excerpt": "Recovery is the process that converts training stress into adaptation through sleep, food, hydration, low-intensity movement, and fatigue management. It is not passive laziness; it is the biological budget that determines whether workouts become progress or accumulated wear.",
       "tags": [
         "resource",
         "health-fitness"
@@ -7456,7 +7456,7 @@
       "label": "Strength Training Principles (Progressive Overload, Specificity)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Strength training improves force production by progressively challenging muscles and nervous system patterns. The core principles are overload, specificity, sufficient volume, technical consistency, and recovery.",
+      "excerpt": "Strength training improves force production by exposing muscles, tendons, and movement patterns to progressively harder but recoverable resistance. The key mechanisms are progressive overload, specificity, sufficient hard volume, technical practice, and fatigue management.",
       "tags": [
         "resource",
         "health-fitness"
@@ -7492,7 +7492,7 @@
       "label": "VO2 Max — What It Is and How to Improve It",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "VO2 max measures the maximum rate of oxygen use during intense exercise and is a strong marker of aerobic fitness. It improves through consistent aerobic training, intervals, and enough recovery.",
+      "excerpt": "VO2 max is the maximum rate the body can take in, deliver, and use oxygen during intense exercise. It reflects heart stroke volume, blood oxygen transport, muscle capillaries, mitochondrial use, genetics, and training history; it improves with both aerobic base work and high-intensity intervals.",
       "tags": [
         "resource",
         "health-fitness"
@@ -7516,7 +7516,7 @@
       "label": "Zone 2 Cardio — Science and Benefits",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Zone 2 cardio is sustainable aerobic work that improves mitochondrial function, fat oxidation, endurance base, and recovery capacity. It should feel controlled enough to maintain for a long duration.",
+      "excerpt": "Zone 2 cardio is steady aerobic work below the point where lactate and breathing accelerate sharply. Its value is low-fatigue volume: better mitochondrial density, fat oxidation, capillary support, and endurance base without the recovery cost of frequent intervals.",
       "tags": [
         "resource",
         "health-fitness"
@@ -34421,5 +34421,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-01T03:45:35Z"
+  "generated_at": "2026-06-01T03:52:28Z"
 }
