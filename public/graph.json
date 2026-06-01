@@ -760,6 +760,15 @@
       "degree": 1
     },
     {
+      "id": "Disaster Recovery and Business Continuity",
+      "label": "Disaster Recovery and Business Continuity",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Dopamine — Reward Prediction Error",
       "label": "Dopamine — Reward Prediction Error",
       "folder": null,
@@ -1614,7 +1623,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 5
+      "degree": 4
     },
     {
       "id": "Resources/AI & Machine Learning/Local LLMs (Ollama, llama.cpp, LM Studio)",
@@ -4802,48 +4811,48 @@
       "label": "Database Backups and Point-in-Time Recovery",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Database backups are only useful if they can be restored, and point-in-time recovery uses backups plus logs to recover to a specific moment. Recovery planning should be tested, not assumed.",
+      "excerpt": "Backups are only real if restores work; point-in-time recovery combines a base backup with transaction logs to recover to a chosen moment before corruption, deletion, or outage. Design around RPO, RTO, restore drills, retention, encryption, and ownership.",
       "tags": [
         "resource",
         "database-systems"
       ],
-      "degree": 9
+      "degree": 11
     },
     {
       "id": "Resources/Database Systems/Database Change Data Capture (CDC)",
       "label": "Database Change Data Capture (CDC)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Change Data Capture streams database changes into downstream systems without requiring every application path to publish events manually. CDC is useful for analytics, search indexing, cache updates, replication, and event-driven integration.",
+      "excerpt": "Change Data Capture reads committed database changes, often from transaction logs, and publishes them to downstream systems such as Kafka, warehouses, caches, and search indexes. CDC reduces dual-write bugs but introduces ordering, schema evolution, replay, delete handling, and consumer idempotency responsibilities.",
       "tags": [
         "resource",
         "database-systems"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Database Systems/Database Connection Pooling (pgBouncer, SQLAlchemy)",
       "label": "Database Connection Pooling (pgBouncer, SQLAlchemy)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Connection pooling reuses database connections so applications do not open expensive new sessions for every request. Tools like pgBouncer and SQLAlchemy pools protect the database from connection storms and improve latency.",
+      "excerpt": "Connection pooling reuses a bounded set of database sessions so app traffic does not overwhelm the database with connection setup and idle backends. The sizing problem is global: app replicas, workers, ORMs, pgBouncer mode, query latency, and database max connections all multiply together.",
       "tags": [
         "resource",
         "database-systems"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Database Systems/Database Indexing Strategies (B-Tree, Hash, GIN, GiST)",
       "label": "Database Indexing Strategies (B-Tree, Hash, GIN, GiST)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Database indexes are access structures tuned for different query shapes. B-tree indexes cover common equality and range queries, while hash, GIN, and GiST indexes support more specialized lookup patterns.",
+      "excerpt": "Index strategy matches data structures to query predicates: B-tree for equality/range/order, hash for equality, GIN for containment and terms, GiST for generalized spatial/range searches, plus partial/expression/covering indexes for workload-specific shortcuts. Every index should pay rent by serving real queries.",
       "tags": [
         "resource",
         "database-systems"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/Database Systems/Database Normalization (1NF through BCNF)",
@@ -4862,12 +4871,12 @@
       "label": "Full-Text Search (PostgreSQL FTS, Elasticsearch, Typesense)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Full-text search indexes terms, rankings, and language-aware matching so users can find documents by meaning-adjacent text instead of exact values. PostgreSQL FTS, Elasticsearch, and Typesense cover different complexity levels.",
+      "excerpt": "Full-text search uses inverted indexes, tokenization, normalization, ranking, and filters so users can find relevant documents beyond exact matches. PostgreSQL FTS is good for integrated basic search, Typesense for simple product search UX, and Elasticsearch/OpenSearch for larger distributed search and analytics needs.",
       "tags": [
         "resource",
         "database-systems"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/Database Systems/NoSQL — Document Stores (MongoDB)",
@@ -4879,67 +4888,67 @@
         "resource",
         "database-systems"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Database Systems/NoSQL — Graph Databases (Neo4j)",
       "label": "NoSQL — Graph Databases (Neo4j)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Graph databases model data as nodes, edges, and properties, making relationship traversal a first-class operation. They are strongest when the relationships are the product, not just supporting metadata.",
+      "excerpt": "Graph databases such as Neo4j make relationships first-class with nodes, typed edges, properties, and traversal-oriented queries. They fit fraud rings, recommendations, permissions, dependency graphs, and knowledge graphs when relationship depth is the hard part.",
       "tags": [
         "resource",
         "database-systems"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Database Systems/NoSQL — Key-Value Stores (Redis)",
       "label": "NoSQL — Key-Value Stores (Redis)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Key-value stores map keys directly to values and optimize for simple, fast lookups. Redis is the common example, often used for caching, counters, locks, queues, pub/sub, and rate limiting.",
+      "excerpt": "Key-value stores optimize for direct lookup by key; Redis extends that model with in-memory data structures, TTLs, atomic operations, persistence modes, and replication. The practical distinction is whether Redis holds derived/cacheable state or source-of-truth state that needs durability guarantees.",
       "tags": [
         "resource",
         "database-systems"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Database Systems/NoSQL — Wide-Column Stores (Cassandra)",
       "label": "NoSQL — Wide-Column Stores (Cassandra)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Wide-column stores like Cassandra organize data by partition keys and clustering columns for massive distributed writes and reads at known access patterns. They reward query-first modeling and punish ad hoc querying.",
+      "excerpt": "Wide-column stores like Cassandra distribute data by partition key and order rows by clustering columns, giving high write throughput and availability for known query patterns. The design rule is query-first modeling: duplicate data deliberately so each table answers one access pattern efficiently.",
       "tags": [
         "resource",
         "database-systems"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Database Systems/ORM Patterns and Pitfalls (N+1 Problem, Lazy Loading)",
       "label": "ORM Patterns and Pitfalls (N+1 Problem, Lazy Loading)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "ORMs map database tables to application objects, improving ergonomics but sometimes hiding query cost. The N+1 problem, lazy loading surprises, and leaky abstractions are the classic failure modes.",
+      "excerpt": "ORMs map tables and relationships into application objects, improving ergonomics while hiding generated SQL, query count, transaction boundaries, and loading behavior. The classic N+1 problem happens when lazy relationship access inside a loop emits one extra query per row.",
       "tags": [
         "resource",
         "database-systems"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Database Systems/Optimistic vs Pessimistic Locking",
       "label": "Optimistic vs Pessimistic Locking",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Optimistic locking assumes conflicts are rare and checks before commit, while pessimistic locking blocks concurrent writers earlier. The right choice depends on contention, user experience, and correctness requirements.",
+      "excerpt": "Optimistic locking lets concurrent work proceed and rejects stale writes at commit time, while pessimistic locking blocks conflicting work earlier with database locks. Choose based on contention, conflict cost, user experience, and whether retries are safe.",
       "tags": [
         "resource",
         "database-systems"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Database Systems/PostgreSQL — Advanced Features (JSONB, Arrays, Extensions)",
@@ -4958,12 +4967,12 @@
       "label": "Redis Patterns (Caching, Pub Sub, Job Queues, Rate Limiting)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Redis is commonly used as a cache, pub/sub broker, lightweight queue, distributed coordination tool, counter store, and rate limiter. The main engineering risk is treating every Redis pattern as equally durable or reliable.",
+      "excerpt": "Redis supports caching, pub/sub, streams, lightweight queues, counters, locks, and rate limiting through fast atomic data-structure operations. The core design question is durability: cache misses are fine, lost jobs or lost money are not.",
       "tags": [
         "resource",
         "database-systems"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Database Systems/Relational Database Design",
@@ -4975,7 +4984,7 @@
         "resource",
         "database-systems"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Database Systems/SQL — Indexes and Query Plans (EXPLAIN)",
@@ -4999,7 +5008,7 @@
         "resource",
         "database-systems"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Database Systems/SQL — Subqueries and CTEs",
@@ -5023,7 +5032,7 @@
         "resource",
         "database-systems"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Database Systems/SQLite — Use Cases and Limits",
@@ -5042,12 +5051,12 @@
       "label": "Time Series Databases (InfluxDB, TimescaleDB)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Time series databases optimize for timestamped measurements, retention policies, downsampling, and range queries over time. They fit metrics, IoT readings, financial ticks, logs, and operational telemetry.",
+      "excerpt": "Time series databases optimize timestamped measurements with high ingest, time-range queries, compression, retention, downsampling, and label/tag filtering. The modeling challenge is controlling cardinality while preserving the dimensions needed for debugging and analysis.",
       "tags": [
         "resource",
         "database-systems"
       ],
-      "degree": 3
+      "degree": 5
     },
     {
       "id": "Resources/Databases",
@@ -15159,7 +15168,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "Resources/System Design/Eventual Consistency",
@@ -15255,7 +15264,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "Resources/System Design/Real-Time Systems Design",
@@ -20445,6 +20454,10 @@
     },
     {
       "source": "Resources/Database Systems/Database Backups and Point-in-Time Recovery",
+      "target": "Disaster Recovery and Business Continuity"
+    },
+    {
+      "source": "Resources/Database Systems/Database Backups and Point-in-Time Recovery",
       "target": "Resources/Database Systems/Database Change Data Capture (CDC)"
     },
     {
@@ -20458,6 +20471,10 @@
     {
       "source": "Resources/Database Systems/Database Change Data Capture (CDC)",
       "target": "Resources/Database Systems/Database Backups and Point-in-Time Recovery"
+    },
+    {
+      "source": "Resources/Database Systems/Database Change Data Capture (CDC)",
+      "target": "Resources/Database Systems/Full-Text Search (PostgreSQL FTS, Elasticsearch, Typesense)"
     },
     {
       "source": "Resources/Database Systems/Database Change Data Capture (CDC)",
@@ -20477,6 +20494,10 @@
     },
     {
       "source": "Resources/Database Systems/Database Connection Pooling (pgBouncer, SQLAlchemy)",
+      "target": "Resources/Database Systems/SQL — Transactions and ACID Properties"
+    },
+    {
+      "source": "Resources/Database Systems/Database Connection Pooling (pgBouncer, SQLAlchemy)",
       "target": "Resources/System Design/Load Balancing Strategies"
     },
     {
@@ -20490,6 +20511,10 @@
     {
       "source": "Resources/Database Systems/Database Indexing Strategies (B-Tree, Hash, GIN, GiST)",
       "target": "Resources/Database Systems/SQL — Indexes and Query Plans (EXPLAIN)"
+    },
+    {
+      "source": "Resources/Database Systems/Database Indexing Strategies (B-Tree, Hash, GIN, GiST)",
+      "target": "Resources/Database Systems/SQL — Joins (Inner, Left, Right, Full, Cross)"
     },
     {
       "source": "Resources/Database Systems/Database Normalization (1NF through BCNF)",
@@ -20510,6 +20535,10 @@
     {
       "source": "Resources/Database Systems/Full-Text Search (PostgreSQL FTS, Elasticsearch, Typesense)",
       "target": "Resources/AI & Machine Learning/Semantic Search vs Keyword Search"
+    },
+    {
+      "source": "Resources/Database Systems/Full-Text Search (PostgreSQL FTS, Elasticsearch, Typesense)",
+      "target": "Resources/Database Systems/Database Change Data Capture (CDC)"
     },
     {
       "source": "Resources/Database Systems/Full-Text Search (PostgreSQL FTS, Elasticsearch, Typesense)",
@@ -20541,11 +20570,19 @@
     },
     {
       "source": "Resources/Database Systems/NoSQL — Graph Databases (Neo4j)",
-      "target": "Resources/AI & Machine Learning/Knowledge Distillation"
+      "target": "Resources/Database Systems/NoSQL — Document Stores (MongoDB)"
+    },
+    {
+      "source": "Resources/Database Systems/NoSQL — Graph Databases (Neo4j)",
+      "target": "Resources/Database Systems/Relational Database Design"
     },
     {
       "source": "Resources/Database Systems/NoSQL — Graph Databases (Neo4j)",
       "target": "Resources/Mathematics/Graph Theory Fundamentals"
+    },
+    {
+      "source": "Resources/Database Systems/NoSQL — Key-Value Stores (Redis)",
+      "target": "Resources/Database Systems/Database Backups and Point-in-Time Recovery"
     },
     {
       "source": "Resources/Database Systems/NoSQL — Key-Value Stores (Redis)",
@@ -20561,6 +20598,10 @@
     },
     {
       "source": "Resources/Database Systems/NoSQL — Wide-Column Stores (Cassandra)",
+      "target": "Resources/Database Systems/Time Series Databases (InfluxDB, TimescaleDB)"
+    },
+    {
+      "source": "Resources/Database Systems/NoSQL — Wide-Column Stores (Cassandra)",
       "target": "Resources/System Design/Consistent Hashing"
     },
     {
@@ -20570,6 +20611,10 @@
     {
       "source": "Resources/Database Systems/NoSQL — Wide-Column Stores (Cassandra)",
       "target": "Resources/System Design/PACELC Theorem"
+    },
+    {
+      "source": "Resources/Database Systems/ORM Patterns and Pitfalls (N+1 Problem, Lazy Loading)",
+      "target": "Resources/Database Systems/Database Connection Pooling (pgBouncer, SQLAlchemy)"
     },
     {
       "source": "Resources/Database Systems/ORM Patterns and Pitfalls (N+1 Problem, Lazy Loading)",
@@ -20590,6 +20635,10 @@
     {
       "source": "Resources/Database Systems/Optimistic vs Pessimistic Locking",
       "target": "Resources/Database Systems/SQL — Transactions and ACID Properties"
+    },
+    {
+      "source": "Resources/Database Systems/Optimistic vs Pessimistic Locking",
+      "target": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)"
     },
     {
       "source": "Resources/Database Systems/Optimistic vs Pessimistic Locking",
@@ -20622,6 +20671,10 @@
     {
       "source": "Resources/Database Systems/Redis Patterns (Caching, Pub Sub, Job Queues, Rate Limiting)",
       "target": "Resources/System Design/Message Queues (Kafka, RabbitMQ, SQS)"
+    },
+    {
+      "source": "Resources/Database Systems/Redis Patterns (Caching, Pub Sub, Job Queues, Rate Limiting)",
+      "target": "Resources/System Design/Rate Limiting Algorithms (Token Bucket, Leaky Bucket, Sliding Window)"
     },
     {
       "source": "Resources/Database Systems/Relational Database Design",
@@ -20722,6 +20775,10 @@
     {
       "source": "Resources/Database Systems/Time Series Databases (InfluxDB, TimescaleDB)",
       "target": "Resources/Data Science & Analytics/Data Warehousing Concepts"
+    },
+    {
+      "source": "Resources/Database Systems/Time Series Databases (InfluxDB, TimescaleDB)",
+      "target": "Resources/Database Systems/Database Indexing Strategies (B-Tree, Hash, GIN, GiST)"
     },
     {
       "source": "Resources/Database Systems/Time Series Databases (InfluxDB, TimescaleDB)",
@@ -34108,5 +34165,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-05-31T22:19:30Z"
+  "generated_at": "2026-06-01T02:54:48Z"
 }
