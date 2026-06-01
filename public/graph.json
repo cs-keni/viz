@@ -6083,19 +6083,19 @@
       "label": "Building in Public",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Building in public means sharing progress, decisions, lessons, metrics, and failures while creating a product or business. It can create trust and distribution, but it also risks performative work, copycats, and audience distraction.",
+      "excerpt": "Building in public shares progress, decisions, metrics, lessons, and failures while creating a product. It can create trust, feedback, and distribution, but only works when public output compounds real execution instead of replacing it.",
       "tags": [
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Cap Table Basics",
       "label": "Cap Table Basics",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "A cap table records who owns a company, including founders, employees, investors, options, convertible instruments, and share classes. It is the source of truth for ownership, dilution, and financing scenarios.",
+      "excerpt": "A cap table is the source of truth for company ownership across founders, employees, investors, option pools, SAFEs, notes, and share classes. It should model current ownership, fully diluted ownership, future financing, and exit waterfalls.",
       "tags": [
         "resource",
         "entrepreneurship-startups"
@@ -6107,12 +6107,12 @@
       "label": "Community-Led Growth",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Community-led growth uses shared identity, trust, peer learning, and participation to support acquisition, retention, feedback, and advocacy. It works when community members receive real value beyond being marketed to.",
+      "excerpt": "Community-led growth uses shared identity, peer learning, trust, and participation to support acquisition, retention, feedback, and advocacy. It works when members receive value from each other, not just from the company broadcasting into a branded channel.",
       "tags": [
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Customer Discovery",
@@ -6131,19 +6131,19 @@
       "label": "Distribution is Everything",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Distribution is the ability to reach, persuade, sell to, and retain the right customers. A strong product without a path to customers can fail, while strong distribution can compound product learning and market power.",
+      "excerpt": "Distribution is the system for reaching, persuading, selling to, and retaining the right customers. Product quality matters, but without a repeatable channel and message-market fit, even strong products can stall.",
       "tags": [
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 5
+      "degree": 10
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Equity and Dilution",
       "label": "Equity and Dilution",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Equity represents ownership in a company, while dilution reduces an owner's percentage when new shares are issued. Dilution can be worthwhile when new capital or talent increases the company's total value enough.",
+      "excerpt": "Equity is ownership; dilution is the percentage reduction that happens when a company issues new shares for capital, hiring, advisors, or convertible instruments. Dilution is acceptable when the new money or talent increases expected company value more than the ownership percentage falls.",
       "tags": [
         "resource",
         "entrepreneurship-startups"
@@ -6167,24 +6167,24 @@
       "label": "Founder-Market Fit",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Founder-market fit is the alignment between a founder's insight, credibility, relationships, motivation, and market needs. It increases the odds of finding useful problems, earning trust, and persisting through ambiguity.",
+      "excerpt": "Founder-market fit is the founder's unfair alignment with a market through lived experience, domain expertise, relationships, credibility, taste, or obsession. It improves access and judgment, but it must still be validated through customer evidence.",
       "tags": [
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Entrepreneurship & Startups/How VC Funds Work (Management Fees, Carry, Fund Size)",
       "label": "How VC Funds Work (Management Fees, Carry, Fund Size)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Venture capital funds raise money from limited partners, invest through general partners, charge management fees, and earn carried interest on gains. Fund size and power-law returns shape investor behavior.",
+      "excerpt": "VC funds raise capital from limited partners, invest through general partners, charge management fees, and earn carry on profits. Fund size and power-law returns explain why VCs push for huge markets, fast growth, and outcomes large enough to return the fund.",
       "tags": [
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Jobs to Be Done Framework",
@@ -6227,12 +6227,12 @@
       "label": "Solopreneurship and Indie Hacking",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Solopreneurship and indie hacking focus on building small, profitable, often software-enabled businesses without needing venture-scale growth. The emphasis is autonomy, distribution, low overhead, and direct customer revenue.",
+      "excerpt": "Solopreneurship and indie hacking build small, profitable, software-enabled businesses with low overhead and direct customer revenue rather than venture-scale expectations. The operating system is focus: narrow market, simple product, owned distribution, automation, and cash discipline.",
       "tags": [
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Startup Funding (Bootstrapping, Angel, Pre-Seed, Seed, Series A)",
@@ -6268,19 +6268,19 @@
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Entrepreneurship & Startups/The Art of the Pivot",
       "label": "The Art of the Pivot",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "A pivot is a strategic change in customer, problem, product, channel, business model, or positioning based on evidence. Good pivots preserve learning while abandoning assumptions that are not working.",
+      "excerpt": "A pivot is an evidence-driven change to customer, problem, product, channel, revenue model, or positioning that preserves validated learning while abandoning a failing assumption. Good pivots are disciplined; random restarts are just thrashing.",
       "tags": [
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Entrepreneurship & Startups/The Lean Startup Method (Build-Measure-Learn)",
@@ -6299,12 +6299,12 @@
       "label": "Timing a Market",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Market timing is the fit between a product idea and the external conditions that make adoption possible. Technology readiness, customer pain, regulation, budgets, behavior, and distribution channels can make the same idea too early, too late, or right on time.",
+      "excerpt": "Market timing is the fit between an idea and external readiness: enabling technology, urgent pain, budget, regulation, cultural behavior, and distribution channels. The same product can be too early, too late, or right on time depending on whether customers are ready to change.",
       "tags": [
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 5
+      "degree": 8
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Unit Economics (CAC, LTV, Payback Period, Churn)",
@@ -6316,19 +6316,19 @@
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Y Combinator — Lessons and Application Advice",
       "label": "Y Combinator — Lessons and Application Advice",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Y Combinator is a startup accelerator and investor known for advice such as make something people want, talk to users, launch quickly, and focus on growth. Strong applications are clear, specific, evidence-based, and founder-market aware.",
+      "excerpt": "Y Combinator's durable advice is operational: make something people want, talk to users, launch quickly, measure growth, and explain the company clearly. A strong YC-style application is specific about customer, problem, product, traction, insight, team, and why now.",
       "tags": [
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Film & Storytelling/Character Arc Design",
@@ -22192,6 +22192,10 @@
     },
     {
       "source": "Resources/Entrepreneurship & Startups/Building in Public",
+      "target": "Resources/Entrepreneurship & Startups/Distribution is Everything"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Building in Public",
       "target": "Resources/Entrepreneurship & Startups/Solopreneurship and Indie Hacking"
     },
     {
@@ -22217,6 +22221,10 @@
     {
       "source": "Resources/Entrepreneurship & Startups/Community-Led Growth",
       "target": "Resources/Entrepreneurship & Startups/Building in Public"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Community-Led Growth",
+      "target": "Resources/Entrepreneurship & Startups/Distribution is Everything"
     },
     {
       "source": "Resources/Entrepreneurship & Startups/Customer Discovery",
@@ -22245,6 +22253,10 @@
     {
       "source": "Resources/Entrepreneurship & Startups/Distribution is Everything",
       "target": "Resources/Entrepreneurship & Startups/Community-Led Growth"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Distribution is Everything",
+      "target": "Resources/Entrepreneurship & Startups/Unit Economics (CAC, LTV, Payback Period, Churn)"
     },
     {
       "source": "Resources/Entrepreneurship & Startups/Equity and Dilution",
@@ -22284,6 +22296,10 @@
     },
     {
       "source": "Resources/Entrepreneurship & Startups/Founder-Market Fit",
+      "target": "Resources/Entrepreneurship & Startups/Timing a Market"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Founder-Market Fit",
       "target": "Resources/Entrepreneurship & Startups/Y Combinator — Lessons and Application Advice"
     },
     {
@@ -22297,6 +22313,10 @@
     {
       "source": "Resources/Entrepreneurship & Startups/How VC Funds Work (Management Fees, Carry, Fund Size)",
       "target": "Resources/Entrepreneurship & Startups/Startup vs Small Business — Key Differences"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/How VC Funds Work (Management Fees, Carry, Fund Size)",
+      "target": "Resources/Entrepreneurship & Startups/Term Sheets — Key Terms to Negotiate"
     },
     {
       "source": "Resources/Entrepreneurship & Startups/Jobs to Be Done Framework",
@@ -22349,6 +22369,10 @@
     {
       "source": "Resources/Entrepreneurship & Startups/Solopreneurship and Indie Hacking",
       "target": "Resources/Entrepreneurship & Startups/Building in Public"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Solopreneurship and Indie Hacking",
+      "target": "Resources/Entrepreneurship & Startups/Distribution is Everything"
     },
     {
       "source": "Resources/Entrepreneurship & Startups/Solopreneurship and Indie Hacking",
@@ -22419,6 +22443,10 @@
       "target": "Resources/Entrepreneurship & Startups/The Lean Startup Method (Build-Measure-Learn)"
     },
     {
+      "source": "Resources/Entrepreneurship & Startups/The Art of the Pivot",
+      "target": "Resources/Entrepreneurship & Startups/Timing a Market"
+    },
+    {
       "source": "Resources/Entrepreneurship & Startups/The Lean Startup Method (Build-Measure-Learn)",
       "target": "A-B Testing Fundamentals"
     },
@@ -22441,6 +22469,10 @@
     {
       "source": "Resources/Entrepreneurship & Startups/Timing a Market",
       "target": "Resources/Business & Strategy/The Innovator's Dilemma (Clayton Christensen)"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Timing a Market",
+      "target": "Resources/Entrepreneurship & Startups/Distribution is Everything"
     },
     {
       "source": "Resources/Entrepreneurship & Startups/Timing a Market",
@@ -22469,6 +22501,10 @@
     {
       "source": "Resources/Entrepreneurship & Startups/Y Combinator — Lessons and Application Advice",
       "target": "Resources/Entrepreneurship & Startups/Finding Product-Market Fit"
+    },
+    {
+      "source": "Resources/Entrepreneurship & Startups/Y Combinator — Lessons and Application Advice",
+      "target": "Resources/Entrepreneurship & Startups/Founder-Market Fit"
     },
     {
       "source": "Resources/Entrepreneurship & Startups/Y Combinator — Lessons and Application Advice",
@@ -34223,5 +34259,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-01T03:04:42Z"
+  "generated_at": "2026-06-01T03:12:51Z"
 }
