@@ -679,6 +679,17 @@
       "degree": 0
     },
     {
+      "id": "Daily Notes/2026-06-01",
+      "label": "2026-06-01",
+      "folder": "Daily Notes",
+      "created": "2026-06-01",
+      "excerpt": "Session 1",
+      "tags": [
+        "daily"
+      ],
+      "degree": 0
+    },
+    {
       "id": "Data Visualization Best Practices",
       "label": "Data Visualization Best Practices",
       "folder": null,
@@ -1040,15 +1051,6 @@
     {
       "id": "Meaning-Making and Narrative",
       "label": "Meaning-Making and Narrative",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Mental Health & Psychology",
-      "label": "Mental Health & Psychology",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -2468,7 +2470,7 @@
         "resource",
         "biology-life-sciences"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Bobby Commands",
@@ -7389,7 +7391,7 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/Health & Fitness/Overtraining vs Overreaching",
@@ -7449,7 +7451,7 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Health & Fitness/Strength Training Principles (Progressive Overload, Specificity)",
@@ -10646,7 +10648,7 @@
       "label": "Anti-Inflammatory Foods",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Anti-inflammatory eating usually means a pattern rich in minimally processed plants, fiber, unsaturated fats, fish, legumes, and adequate protein, not a single miracle food. The goal is a dietary pattern that supports metabolic and cardiovascular health.",
+      "excerpt": "Anti-inflammatory eating is a dietary pattern, not a list of miracle ingredients: high-fiber plants, legumes, fish or omega-3 sources, olive oil, nuts, adequate protein, and fewer ultra-processed foods. It matters because chronic low-grade inflammation tracks with metabolic, cardiovascular, and gut health, but food cannot cancel out poor sleep, inactivity, smoking, or excess alcohol.",
       "tags": [
         "resource",
         "nutrition-diet"
@@ -10670,7 +10672,7 @@
       "label": "Caffeine — Pharmacology and Optimization",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Caffeine is a stimulant that blocks adenosine receptors, increasing alertness and reducing perceived fatigue. Useful dosing depends on tolerance, sleep sensitivity, timing, anxiety, and performance needs.",
+      "excerpt": "Caffeine improves alertness and performance mainly by blocking adenosine receptors, but its half-life, tolerance, anxiety effects, and sleep cost make timing more important than dose escalation. A practical range is often 1-3 mg/kg for focus and 3-6 mg/kg for performance, with late-day use treated as borrowing from sleep.",
       "tags": [
         "resource",
         "nutrition-diet"
@@ -10682,7 +10684,7 @@
       "label": "Caloric Deficit and Surplus",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "A caloric deficit generally drives weight loss, while a surplus supports weight gain. Body composition outcomes depend on protein, training, sleep, adherence, and the size of the deficit or surplus.",
+      "excerpt": "A caloric deficit drives weight loss and a surplus drives weight gain, but body composition depends on protein, resistance training, sleep, and the size of the energy gap. The practical skill is choosing a deficit or surplus small enough to repeat and large enough to measure.",
       "tags": [
         "resource",
         "nutrition-diet"
@@ -10718,7 +10720,7 @@
       "label": "Gut Microbiome Basics",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The gut microbiome is the community of microbes living in the digestive tract, influencing digestion, immune function, metabolites, and possibly mood. Diet diversity, fiber, fermented foods, sleep, stress, and antibiotics all affect it.",
+      "excerpt": "The gut microbiome is the ecosystem of bacteria, fungi, viruses, and other microbes that metabolize fiber, produce short-chain fatty acids, train immune responses, and interact with digestion and mood. The actionable basics are dietary diversity, fiber, fermented foods if tolerated, sleep, stress management, and caution with unnecessary antibiotics.",
       "tags": [
         "resource",
         "nutrition-diet"
@@ -10730,7 +10732,7 @@
       "label": "Gut-Brain Axis",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The gut-brain axis describes communication between the digestive system, microbiome, immune system, hormones, and nervous system. It is real biology, but consumer claims often run ahead of actionable evidence.",
+      "excerpt": "The gut-brain axis is bidirectional signaling between the gut, microbiome, immune system, endocrine system, vagus nerve, and brain. It explains why stress affects digestion and diet can affect physiology, while also setting a boundary: most mood claims from probiotics and gut products outrun the evidence.",
       "tags": [
         "resource",
         "nutrition-diet"
@@ -10754,7 +10756,7 @@
       "label": "Intermittent Fasting — Methods and Evidence",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Intermittent fasting restricts eating windows or days and may help some people reduce calorie intake or improve metabolic markers. Evidence does not make it universally superior, and safety depends on health status and context.",
+      "excerpt": "Intermittent fasting restricts eating windows or fasting days and often works by reducing opportunities to eat, not by bypassing energy balance. It can be a useful adherence tool, but it is not universally superior and can conflict with training, protein targets, medications, or eating-disorder risk.",
       "tags": [
         "resource",
         "nutrition-diet"
@@ -10766,7 +10768,7 @@
       "label": "Macronutrients — Protein, Fat, Carbohydrates",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Macronutrients are the major energy-providing nutrients: protein, fat, and carbohydrates. Each has different roles in muscle repair, hormones, energy, satiety, performance, and overall diet quality.",
+      "excerpt": "Macronutrients are the calorie-bearing levers of diet design: protein provides amino acids for tissue repair, fat supports cell membranes and hormones, and carbohydrates replenish glycogen for high-output work. The useful question is not which macro is morally best, but which mix supports Kenny's goal, training, satiety, labs, and adherence.",
       "tags": [
         "resource",
         "nutrition-diet"
@@ -10790,7 +10792,7 @@
       "label": "Meal Timing and Performance",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Meal timing can affect training energy, recovery, digestion, and sleep, but total intake usually matters more for body composition. Timing is most important around hard training, long sessions, and personal tolerance.",
+      "excerpt": "Meal timing affects training energy, recovery, digestion, and sleep, while total daily calories and protein still dominate body composition. Timing matters most for hard sessions, long sessions, two-a-day training, and people whose digestion or sleep is sensitive.",
       "tags": [
         "resource",
         "nutrition-diet"
@@ -10802,7 +10804,7 @@
       "label": "Metabolic Rate and TDEE",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Metabolic rate and total daily energy expenditure estimate how much energy the body uses. TDEE includes resting metabolism, movement, exercise, digestion, and adaptive changes.",
+      "excerpt": "Metabolic rate and TDEE estimate daily energy expenditure from resting metabolism, food digestion, exercise, and non-exercise movement. Calculators are useful starting guesses, but body-weight trends and step/activity data are the calibration system.",
       "tags": [
         "resource",
         "nutrition-diet"
@@ -10814,7 +10816,7 @@
       "label": "Micronutrients — Key Vitamins and Minerals",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Micronutrients are vitamins and minerals needed in small amounts for metabolism, immunity, bone health, oxygen transport, and nervous system function. Deficiency risk depends on diet, health status, lifestyle, and medical context.",
+      "excerpt": "Micronutrients are vitamins and minerals required in small amounts for metabolism, blood, bone, thyroid, immunity, and nervous system function. Deficiency and excess both matter, so the serious approach is diet diversity plus targeted labs or supplementation when risk is real.",
       "tags": [
         "resource",
         "nutrition-diet"
@@ -10850,7 +10852,7 @@
       "label": "Protein Intake for Muscle Building and Recovery",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Protein intake supports muscle repair, hypertrophy, satiety, and recovery. For active people, daily total protein matters most, with distribution across meals helping muscle protein synthesis.",
+      "excerpt": "Protein intake supports hypertrophy, recovery, satiety, and lean-mass retention, with daily total intake doing most of the work. For active adults, roughly 1.6-2.2 g/kg/day split across 3-5 protein-rich meals is a practical evidence-based target.",
       "tags": [
         "resource",
         "nutrition-diet"
@@ -27914,7 +27916,7 @@
     },
     {
       "source": "Resources/Nutrition & Diet/Caloric Deficit and Surplus",
-      "target": "Resources/Health & Fitness/NEAT (Non-Exercise Activity Thermogenesis)"
+      "target": "Resources/Health & Fitness/Step Count and NEAT"
     },
     {
       "source": "Resources/Nutrition & Diet/Caloric Deficit and Surplus",
@@ -27962,7 +27964,7 @@
     },
     {
       "source": "Resources/Nutrition & Diet/Gut-Brain Axis",
-      "target": "Mental Health & Psychology"
+      "target": "Resources/Biology & Life Sciences/The Stress Response (Fight-or-Flight, Freeze, Fawn)"
     },
     {
       "source": "Resources/Nutrition & Diet/Gut-Brain Axis",
@@ -34421,5 +34423,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-01T03:58:50Z"
+  "generated_at": "2026-06-01T16:00:52Z"
 }
