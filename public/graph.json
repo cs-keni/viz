@@ -2296,7 +2296,7 @@
       "label": "CRISPR — How Gene Editing Works",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "CRISPR gene editing uses guide RNA and Cas enzymes to target specific DNA sequences for cutting or modification. It is powerful for research and therapy, but delivery, off-target effects, ethics, and long-term monitoring matter.",
+      "excerpt": "CRISPR gene editing uses guide RNA, Cas enzymes, PAM recognition, DNA cutting or modification, and cellular repair pathways such as NHEJ or HDR to alter genetic sequences. Surface this when explaining biotechnology power and limits: targeting is programmable, but delivery, repair outcomes, off-target effects, mosaicism, ethics, and long-term monitoring matter.",
       "tags": [
         "resource",
         "biology-life-sciences"
@@ -2308,7 +2308,7 @@
       "label": "Cell Biology Basics (Organelles and Their Roles)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Cell biology studies the structures and processes that make cells function. Organelles like the nucleus, mitochondria, ribosomes, endoplasmic reticulum, Golgi apparatus, lysosomes, and membranes divide cellular labor.",
+      "excerpt": "Cell biology explains cells as regulated, compartmentalized systems that store information, produce proteins, generate ATP, traffic molecules, recycle damage, sense signals, and maintain boundaries. Surface this when Kenny needs biology grounded in organelle mechanisms rather than a parts-list view of the cell.",
       "tags": [
         "resource",
         "biology-life-sciences"
@@ -2332,7 +2332,7 @@
       "label": "Evolution — Natural Selection and Genetic Drift",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Evolution is change in heritable traits across generations, driven by mechanisms including natural selection, genetic drift, mutation, gene flow, and sexual selection. Selection is not intentional; it filters variation through differential survival and reproduction.",
+      "excerpt": "Evolution is change in heritable variation across generations through mutation, natural selection, genetic drift, gene flow, recombination, and sexual selection. Surface this when Kenny needs the mechanism: selection filters variation by reproductive success in context, while drift changes allele frequencies by chance.",
       "tags": [
         "resource",
         "biology-life-sciences"
@@ -2344,7 +2344,7 @@
       "label": "Evolutionary Psychology Overview",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Evolutionary psychology studies how evolved pressures may have shaped cognition, emotion, and behavior. It can generate useful hypotheses, but it is vulnerable to just-so stories when evidence is weak.",
+      "excerpt": "Evolutionary psychology uses evolutionary reasoning to generate hypotheses about cognition, emotion, motivation, fear, cooperation, mating, status, and social behavior. Surface this with caution: it is useful when tied to evidence and comparative/cross-cultural data, but weak when it becomes just-so storytelling.",
       "tags": [
         "resource",
         "biology-life-sciences"
@@ -2356,7 +2356,7 @@
       "label": "Genetics — DNA to Protein to Phenotype",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Genetics links DNA sequence, gene expression, proteins, traits, and environment. Phenotype is not a simple one-gene output; it emerges from gene networks, regulation, development, and context.",
+      "excerpt": "Genetics connects DNA sequence to RNA, proteins, regulation, development, environment, and phenotype, but most traits are not one-gene destinies. Surface this when explaining inheritance, disease risk, gene expression, polygenic traits, epigenetics, CRISPR, or why genotype becomes phenotype through systems.",
       "tags": [
         "resource",
         "biology-life-sciences"
@@ -2368,7 +2368,7 @@
       "label": "Hormones Overview (Cortisol, Testosterone, Estrogen, Insulin, GH)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Hormones are signaling molecules that coordinate metabolism, stress, reproduction, growth, sleep, and energy balance. Cortisol, testosterone, estrogen, insulin, and growth hormone are context-dependent regulators, not simple good-or-bad chemicals.",
+      "excerpt": "Hormones are blood-borne signaling molecules that coordinate stress, metabolism, reproduction, growth, sleep, and energy balance through receptors, rhythms, and feedback loops. Surface this when Kenny needs hormone topics separated from bro-science: context, timing, receptor sensitivity, and clinical ranges matter more than isolated numbers.",
       "tags": [
         "resource",
         "biology-life-sciences"
@@ -2380,7 +2380,7 @@
       "label": "Immune System Overview (Innate vs Adaptive)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The immune system protects the body through innate fast defenses and adaptive targeted responses. Innate immunity recognizes broad patterns, while adaptive immunity uses B cells, T cells, antibodies, and memory.",
+      "excerpt": "The immune system protects against pathogens, damaged cells, and abnormal growth through fast innate defenses and slower, specific adaptive responses with memory. Surface this when explaining vaccines, infection, inflammation, autoimmunity, cancer immunology, allergies, or why 'boosting immunity' is usually the wrong frame.",
       "tags": [
         "resource",
         "biology-life-sciences"
@@ -2392,7 +2392,7 @@
       "label": "Inflammation — Acute vs Chronic",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Acute inflammation is a short-term protective response to injury or infection, while chronic inflammation persists and can contribute to disease. The goal is regulation and resolution, not eliminating inflammation entirely.",
+      "excerpt": "Inflammation is a protective immune response involving blood vessels, immune cells, cytokines, and tissue repair; acute inflammation resolves, while chronic unresolved inflammation can drive disease. Surface this when correcting the oversimplification that inflammation is always bad or should simply be suppressed.",
       "tags": [
         "resource",
         "biology-life-sciences"
@@ -2404,7 +2404,7 @@
       "label": "Insulin and Blood Sugar Regulation",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Insulin helps regulate blood glucose by signaling cells to take up and store nutrients. Blood sugar regulation depends on diet, activity, muscle, liver function, sleep, stress, hormones, and insulin sensitivity.",
+      "excerpt": "Insulin regulates blood glucose and nutrient storage by helping muscle, fat, and liver coordinate uptake, glycogen synthesis, fat storage, and glucose output. Surface this when explaining blood sugar without demonizing insulin: dysregulation, insulin resistance, sleep, stress, activity, muscle mass, and meal composition are the real context.",
       "tags": [
         "resource",
         "biology-life-sciences"
@@ -34534,5 +34534,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-02T08:47:48Z"
+  "generated_at": "2026-06-02T08:54:28Z"
 }
