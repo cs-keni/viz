@@ -7562,7 +7562,7 @@
       "label": "History of Artificial Intelligence (1950s-Present)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "AI history moves through symbolic AI, expert systems, AI winters, statistical machine learning, deep learning, transformers, and foundation models. The field repeatedly cycles between ambition, disappointment, new methods, and scale.",
+      "excerpt": "AI history cycles through symbolic reasoning, expert systems, AI winters, statistical machine learning, deep learning, transformers, and foundation models, with progress driven by algorithms, data, compute, benchmarks, and commercial incentives. Surface this when grounding AI hype in the field's recurring pattern of ambition, disappointment, scaling, and reframing.",
       "tags": [
         "resource",
         "history-of-technology"
@@ -7586,7 +7586,7 @@
       "label": "History of Cryptography",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Cryptography evolved from hand ciphers and wartime codebreaking into public-key systems, internet security, digital signatures, cryptocurrencies, and privacy-preserving protocols. Its history tracks the tension between secrecy, trust, commerce, and state power.",
+      "excerpt": "Cryptography evolved from classical ciphers and wartime codebreaking into public-key systems, digital signatures, TLS, end-to-end encryption, cryptocurrencies, and zero-knowledge proofs, tracking a long tension between privacy, commerce, state power, and trust. Surface this when explaining why modern internet security depends on math, protocols, institutions, and key management.",
       "tags": [
         "resource",
         "history-of-technology"
@@ -7598,7 +7598,7 @@
       "label": "History of Mobile Computing",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Mobile computing developed through laptops, PDAs, cellular networks, BlackBerry-style messaging, smartphones, app stores, and sensor-rich always-connected devices. It changed software around location, cameras, notifications, and constant presence.",
+      "excerpt": "Mobile computing evolved from laptops and PDAs into cellular, BlackBerry, smartphones, app stores, sensors, cameras, maps, and always-connected personal devices. Surface this when explaining why modern software assumes touch, location, notifications, camera input, app distribution, and distracted one-handed use.",
       "tags": [
         "resource",
         "history-of-technology"
@@ -7610,7 +7610,7 @@
       "label": "History of Open Source",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Open source grew from academic and hacker sharing cultures into a dominant software production model. It includes free software ideals, pragmatic open-source licensing, Linux, Apache, Git, GitHub, and modern dependency ecosystems.",
+      "excerpt": "Open source grew from academic and hacker sharing into a dominant software production model through free software ideals, permissive and copyleft licenses, Linux, Apache, Git, GitHub, package managers, and cloud-era commercialization. Surface this when explaining why modern software depends on unpaid maintainers, shared infrastructure, licenses, and supply-chain trust.",
       "tags": [
         "resource",
         "history-of-technology"
@@ -7622,7 +7622,7 @@
       "label": "History of Personal Computing (Altair to iPhone)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Personal computing moved computers from institutions to individuals through hobbyist kits, Apple, IBM PCs, GUIs, laptops, the internet, and smartphones. The iPhone completed a shift toward always-connected pocket computing.",
+      "excerpt": "Personal computing moved computation from institutions to individuals through microprocessors, hobbyist kits, Apple, IBM PCs, GUIs, Microsoft platforms, laptops, the web, and smartphones. Surface this when explaining why modern software assumes direct manipulation, personal apps, files, windows, mobile access, and user-level computing power.",
       "tags": [
         "resource",
         "history-of-technology"
@@ -7634,7 +7634,7 @@
       "label": "History of Programming Languages",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Programming languages evolved from machine code and assembly into high-level, structured, object-oriented, functional, scripting, systems, and domain-specific languages. Each generation traded control, safety, expressiveness, performance, and developer speed differently.",
+      "excerpt": "Programming languages evolved by raising abstraction while negotiating tradeoffs between machine control, safety, expressiveness, portability, performance, and developer speed. Surface this when explaining why C, Java, JavaScript, Python, Go, Rust, and TypeScript feel different: they were built for different eras, machines, organizations, and failure modes.",
       "tags": [
         "resource",
         "history-of-technology"
@@ -7646,7 +7646,7 @@
       "label": "History of Search Engines",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Search engines evolved from human directories and early crawlers into ranking systems, ad platforms, vertical search, semantic search, and AI-assisted retrieval. The key shift was from indexing pages to ranking relevance at web scale.",
+      "excerpt": "Search engines evolved from human directories and early crawlers into ranking systems, ad platforms, semantic retrieval, vertical search, and AI-assisted answers; the key shift was ranking relevance and authority at web scale. Surface this when discussing retrieval, SEO, PageRank, ads, RAG, or why assistants inherit search's relevance problem.",
       "tags": [
         "resource",
         "history-of-technology"
@@ -7658,7 +7658,7 @@
       "label": "History of Social Media",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Social media evolved from forums, blogs, and early networks into algorithmic feeds, creator economies, messaging platforms, and attention markets. Its history is also a history of identity, virality, moderation, and surveillance advertising.",
+      "excerpt": "Social media evolved from forums, blogs, and social graphs into algorithmic feeds, creator economies, messaging networks, and attention markets, reshaping identity, news, politics, friendship, and advertising. Surface this when discussing social graphs, virality, moderation, recommendation algorithms, FOMO, or surveillance-ad incentives.",
       "tags": [
         "resource",
         "history-of-technology"
@@ -7682,7 +7682,7 @@
       "label": "History of Video Games",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Video game history runs from arcade experiments and home consoles through PC gaming, 3D graphics, online play, mobile games, esports, streaming, and live-service economies. It is both technology history and culture history.",
+      "excerpt": "Video game history runs from lab experiments and arcades through consoles, PCs, 3D graphics, online play, mobile, esports, streaming, and live-service economies, shaped by hardware limits, input devices, distribution, and player culture. Surface this when connecting Kenny's gaming interest to technology, design, business models, and culture.",
       "tags": [
         "resource",
         "history-of-technology"
@@ -7694,7 +7694,7 @@
       "label": "History of the Internet (ARPANET to Web3)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The internet evolved from packet-switching research and ARPANET into a global network built on TCP/IP, DNS, email, the web, broadband, mobile, cloud, and newer decentralization claims. Its history is a story of open protocols, institutions, commercialization, and power shifts.",
+      "excerpt": "The internet grew from packet-switching research and ARPANET into global infrastructure because open internetworking protocols, academic/government institutions, commercialization, DNS, email, the web, broadband, mobile, and cloud made networks interoperable and economically valuable. Surface this when explaining why the internet is not one company, why protocols mattered, or how open infrastructure later produced platform power.",
       "tags": [
         "resource",
         "history-of-technology"
@@ -7706,7 +7706,7 @@
       "label": "History of the Transistor and Integrated Circuit",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The transistor replaced vacuum tubes and made modern electronics possible, while the integrated circuit packed many components onto one chip. Together they enabled computing, consumer electronics, telecommunications, and Moore's Law scaling.",
+      "excerpt": "The transistor replaced fragile vacuum tubes with solid-state switching, and the integrated circuit packed many transistors onto chips, enabling Moore's Law, personal computing, mobile devices, cloud, AI, and modern electronics. Surface this when explaining the material foundation under all software.",
       "tags": [
         "resource",
         "history-of-technology"
@@ -7718,7 +7718,7 @@
       "label": "History of the Web (Web 1.0 to 2.0 to 3.0)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The web evolved from linked documents into interactive platforms, social applications, cloud-backed SaaS, and contested Web3 decentralization narratives. Its history is distinct from the internet: the web is one application layer built on internet protocols.",
+      "excerpt": "The web evolved from linked documents into interactive applications, social platforms, cloud-backed SaaS, and contested Web3 decentralization narratives; it is an application layer on top of the internet, not the internet itself. Surface this when explaining browsers, frontend work, platform power, or why web history mixes documents, apps, media, and commerce.",
       "tags": [
         "resource",
         "history-of-technology"
@@ -7759,7 +7759,7 @@
         "resource",
         "history-of-technology"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/History of Technology/The Browser Wars",
@@ -13629,7 +13629,7 @@
         "resource",
         "society-culture-history"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Society, Culture & History/The Attention Economy",
@@ -24236,15 +24236,15 @@
     },
     {
       "source": "Resources/History of Technology/History of Social Media",
-      "target": "Resources/History of Technology/The Age of Surveillance Capitalism"
-    },
-    {
-      "source": "Resources/History of Technology/History of Social Media",
       "target": "Resources/Mental Health & Psychology/FOMO and Digital Anxiety"
     },
     {
       "source": "Resources/History of Technology/History of Social Media",
       "target": "Resources/Personal Productivity/Notification Hygiene"
+    },
+    {
+      "source": "Resources/History of Technology/History of Social Media",
+      "target": "Resources/Society, Culture & History/Surveillance Capitalism (Shoshana Zuboff)"
     },
     {
       "source": "Resources/History of Technology/History of Video Game Consoles",
@@ -34531,5 +34531,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-02T06:06:42Z"
+  "generated_at": "2026-06-02T07:23:31Z"
 }
