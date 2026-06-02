@@ -8567,7 +8567,7 @@
       "label": "Boolean Algebra and Logic Gates",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Boolean algebra reasons about true/false values with operations such as AND, OR, NOT, XOR, NAND, and NOR. Logic gates implement these operations in hardware and shape digital circuits, conditionals, filters, and bit manipulation.",
+      "excerpt": "Explains Boolean algebra as the math of true/false values and logic gates as hardware implementations of AND, OR, NOT, XOR, NAND, and NOR. Covers truth tables, De Morgan's laws, functional completeness, bit masks, condition simplification, circuit intuition, and policy-logic failure modes.",
       "tags": [
         "resource",
         "mathematics"
@@ -8591,7 +8591,7 @@
       "label": "Central Limit Theorem",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "The Central Limit Theorem says that sums or averages of many independent random variables tend toward a normal distribution under broad conditions. It explains why normal approximations appear so often in statistics.",
+      "excerpt": "Explains the Central Limit Theorem as the reason standardized sums and sample means often become approximately normal even when raw data is not. Covers the formula, standard error, confidence-interval intuition, sample-size effects, heavy-tail/dependence caveats, and how CLT differs from the Law of Large Numbers.",
       "tags": [
         "resource",
         "mathematics"
@@ -8615,7 +8615,7 @@
       "label": "Combinatorics Basics (Permutations, Combinations)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Combinatorics counts arrangements and selections. Permutations care about order, combinations do not, and both are foundational for probability, algorithm analysis, search spaces, and counting arguments.",
+      "excerpt": "Explains combinatorics as disciplined counting: permutations count ordered arrangements, combinations count unordered selections, and inclusion-exclusion fixes overcounting. Connects factorial growth, search spaces, probability denominators, backtracking, brute-force limits, and common order/repetition traps.",
       "tags": [
         "resource",
         "mathematics"
@@ -8627,7 +8627,7 @@
       "label": "Discrete Mathematics for CS",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Discrete mathematics studies countable structures such as sets, logic, graphs, integers, relations, functions, and combinatorics. It is the mathematical foundation for algorithms, data structures, databases, cryptography, and formal reasoning.",
+      "excerpt": "Explains discrete mathematics as the math of countable structures that computer science manipulates directly: bits, sets, logic, graphs, relations, functions, strings, integers, proofs, and finite states. Connects each area to algorithms, databases, type systems, cryptography, automata, verification, and engineering reasoning.",
       "tags": [
         "resource",
         "mathematics"
@@ -8651,7 +8651,7 @@
       "label": "Expected Value and Variance",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Expected value is the long-run average outcome of a random variable, while variance measures how spread out outcomes are around that average. Together they summarize central tendency and uncertainty.",
+      "excerpt": "Explains expected value as a probability-weighted average and variance as squared spread around that average. Includes formulas, dice and risk examples, linearity of expectation, standard deviation, covariance caveats, decision-making tradeoffs, and why averages alone can hide tail risk.",
       "tags": [
         "resource",
         "mathematics"
@@ -8663,7 +8663,7 @@
       "label": "Fourier Transform Intuition",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "The Fourier transform represents signals as combinations of frequencies instead of values over time or space. It is useful for audio, images, compression, filtering, signal processing, and understanding periodic structure.",
+      "excerpt": "Builds intuition for the Fourier transform as changing a signal from time/space values into frequency components. Explains sine/cosine decomposition, low vs high frequencies, DFT/FFT, filtering, convolution, spectrograms, compression, aliasing, and why frequency-domain thinking helps audio, images, ML, and signal processing.",
       "tags": [
         "resource",
         "mathematics"
@@ -8711,7 +8711,7 @@
       "label": "Lagrange Multipliers",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Lagrange multipliers solve constrained optimization problems by combining an objective with constraint equations. At an optimum, the objective gradient aligns with constraint gradients under regularity conditions.",
+      "excerpt": "Explains Lagrange multipliers as constrained-optimization tools: at an equality-constrained optimum, the objective gradient aligns with the constraint gradient. Includes a worked circle constraint example, Lagrangian setup, shadow-price intuition, regularization links, and caveats around constraint qualifications and local optima.",
       "tags": [
         "resource",
         "mathematics"
@@ -8723,7 +8723,7 @@
       "label": "Law of Large Numbers",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "The Law of Large Numbers says sample averages converge toward expected value as sample size grows. It explains why repeated measurement and large samples reduce random noise, while not eliminating bias.",
+      "excerpt": "Explains the Law of Large Numbers as convergence of sample averages toward expected value as valid independent data accumulates. Covers weak/strong intuition, coin-flip examples, Monte Carlo dependence, random error versus bias, and why large samples can still be confidently wrong.",
       "tags": [
         "resource",
         "mathematics"
@@ -8747,7 +8747,7 @@
       "label": "Markov Chains",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Markov chains model systems that move between states where the next state depends only on the current state. They are useful for queues, random walks, language modeling history, simulations, ranking, and stochastic processes.",
+      "excerpt": "Explains Markov chains as probabilistic state-transition systems where the next state depends only on the current state. Covers transition matrices, memorylessness, random walks, stationary distributions, absorbing states, PageRank intuition, MCMC links, and when the Markov assumption breaks.",
       "tags": [
         "resource",
         "mathematics"
@@ -8771,7 +8771,7 @@
       "label": "Monte Carlo Methods",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Monte Carlo methods use random sampling to estimate quantities that may be hard to compute exactly. They are useful for simulation, integration, uncertainty estimation, randomized algorithms, and probabilistic inference.",
+      "excerpt": "Explains Monte Carlo methods as random-sampling estimators for expectations, probabilities, integrals, and simulations that are hard to compute exactly. Covers pi estimation, error scaling, variance reduction, bootstrap-style uncertainty, MCMC, and the tradeoff between flexible approximation and slow convergence.",
       "tags": [
         "resource",
         "mathematics"
@@ -8795,7 +8795,7 @@
       "label": "Number Theory Basics (Primes, Modular Arithmetic)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Number theory studies integers, divisibility, primes, congruences, and modular arithmetic. It underlies hashing, cryptography, randomized algorithms, checksums, and many programming puzzle patterns.",
+      "excerpt": "Explains number theory for computing: divisibility, primes, GCD, modular arithmetic, congruence, modular inverses, fast exponentiation, sieves, hashing, cyclic buffers, checksums, and public-key crypto intuition. Emphasizes how remainder arithmetic creates wraparound systems and why integer structure matters in algorithms.",
       "tags": [
         "resource",
         "mathematics"
@@ -8807,7 +8807,7 @@
       "label": "Optimization — Convex vs Non-Convex",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Optimization searches for inputs or parameters that minimize or maximize an objective. Convex optimization has nicer global guarantees, while non-convex optimization can contain local minima, saddle points, and difficult landscapes.",
+      "excerpt": "Explains optimization as choosing variables to minimize or maximize an objective, with convex problems offering global guarantees and non-convex problems requiring local-search pragmatism. Covers objectives, constraints, gradients, curvature, regularization, initialization, saddle points, learning rates, and ML loss-landscape expectations.",
       "tags": [
         "resource",
         "mathematics"
@@ -8831,7 +8831,7 @@
       "label": "Set Theory",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Set theory studies collections of distinct objects and operations such as union, intersection, difference, complement, and membership. It is a basic language for logic, databases, probability, type systems, and discrete math.",
+      "excerpt": "Explains set theory as the language of membership, containment, union, intersection, difference, complement, cardinality, power sets, Cartesian products, and relations. Connects set operations to SQL, permissions, filters, probability events, type systems, and common boundary/universe mistakes.",
       "tags": [
         "resource",
         "mathematics"
@@ -13245,7 +13245,7 @@
         "resource",
         "security-privacy"
       ],
-      "degree": 13
+      "degree": 12
     },
     {
       "id": "Resources/Security & Privacy/Session Management",
@@ -15903,7 +15903,7 @@
         "windows-wsl2",
         "security"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Windows & WSL2/Windows Registry — How It Works",
@@ -25431,7 +25431,7 @@
     },
     {
       "source": "Resources/Mathematics/Boolean Algebra and Logic Gates",
-      "target": "Resources/Security & Privacy/Security Headers (CSP, HSTS, X-Frame-Options)"
+      "target": "Resources/Windows & WSL2/Windows Permissions and UAC"
     },
     {
       "source": "Resources/Mathematics/Calculus — Derivatives and Integrals",
@@ -34566,5 +34566,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-02T16:00:37Z"
+  "generated_at": "2026-06-02T16:09:42Z"
 }
