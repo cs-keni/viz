@@ -11034,7 +11034,7 @@
       "label": "Estate Planning Basics (Will, Beneficiaries, Power of Attorney)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Estate planning defines what happens to assets, dependents, medical decisions, and legal authority if someone dies or becomes incapacitated. Core tools include wills, beneficiary designations, powers of attorney, healthcare directives, and sometimes trusts.",
+      "excerpt": "Estate planning defines who can act for you, who receives assets, and how dependents and medical decisions are handled if you die or become incapacitated. Surface this when discussing wills, beneficiary designations, powers of attorney, healthcare directives, trusts, account inventories, or reducing burden on family during emergencies.",
       "tags": [
         "resource",
         "personal-finance"
@@ -11046,7 +11046,7 @@
       "label": "FIRE Movement — Financial Independence, Retire Early",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The FIRE movement focuses on reaching financial independence through high savings rates, low expenses, investing, and withdrawal planning. Its strongest lesson is optionality, even when early retirement is not the goal.",
+      "excerpt": "FIRE is the pursuit of financial independence through high savings rates, controlled spending, diversified investing, and withdrawal planning; the strongest lesson is autonomy, not quitting work as an identity. Surface this when discussing savings rate, optionality, burnout, retirement targets, or how spending affects both current surplus and the required portfolio.",
       "tags": [
         "resource",
         "personal-finance"
@@ -11070,7 +11070,7 @@
       "label": "Insurance Types You Actually Need",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Insurance transfers large, low-probability risks that could be financially devastating. Health, auto, disability, liability, home or renters, and term life coverage are common core categories depending on circumstances.",
+      "excerpt": "Insurance is for low-probability, high-severity risks that would break the financial plan, not for every small predictable expense. Surface this when discussing health, auto, renters/homeowners, disability, term life, umbrella liability, deductibles, or why complex insurance-investment hybrids deserve skepticism.",
       "tags": [
         "resource",
         "personal-finance"
@@ -11082,7 +11082,7 @@
       "label": "Negotiating Salary — Scripts and Tactics",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Salary negotiation improves compensation by clarifying market value, alternatives, scope, timing, and total rewards. Effective negotiation is collaborative, specific, and anchored in evidence rather than apology.",
+      "excerpt": "Salary negotiation improves lifetime earnings by combining market data, alternatives, demonstrated impact, timing, scope, and total-compensation framing. Surface this when preparing offers, raises, promotions, recruiter calls, or scripts that are firm without being adversarial.",
       "tags": [
         "resource",
         "personal-finance"
@@ -11094,7 +11094,7 @@
       "label": "Net Worth Tracking",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Net worth tracking measures assets minus liabilities over time. It is useful for seeing direction and allocation, but it should be interpreted alongside cash flow, liquidity, risk, and life context.",
+      "excerpt": "Net worth tracking measures assets minus liabilities over time, but the useful interpretation depends on liquidity, allocation, debt quality, cash flow, and life context. Surface this when building a financial dashboard, checking progress, or separating a useful metric from identity and comparison.",
       "tags": [
         "resource",
         "personal-finance"
@@ -11106,7 +11106,7 @@
       "label": "Real Estate vs Stocks — Long-Term Comparison",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Real estate and stocks differ in liquidity, leverage, diversification, maintenance, taxes, cash flow, volatility, and effort. Long-term comparisons depend heavily on geography, financing, expenses, taxes, and investor behavior.",
+      "excerpt": "Real estate and stocks build wealth through different mechanisms: real estate often combines leverage, local market exposure, cash flow, tax treatment, and operational work, while stocks offer liquid diversified business ownership. Surface this when comparing investment paths, homeownership, rentals, leverage, liquidity, or why raw return charts hide effort and risk.",
       "tags": [
         "resource",
         "personal-finance"
@@ -11118,7 +11118,7 @@
       "label": "Sequence of Returns Risk",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Sequence of returns risk is the danger that poor investment returns early in a withdrawal period permanently damage a portfolio. It matters most when money is being withdrawn, not merely accumulated.",
+      "excerpt": "Sequence of returns risk is the danger that poor returns early in a withdrawal period permanently impair a portfolio even when average returns look acceptable. Surface this when discussing retirement, FIRE, withdrawal rates, cash buffers, flexible spending, or why path matters more once money is being spent down.",
       "tags": [
         "resource",
         "personal-finance"
@@ -11130,7 +11130,7 @@
       "label": "Side Income and Tax Implications",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Side income can create tax obligations, recordkeeping needs, estimated payments, deductible expenses, and self-employment tax exposure. The key is to treat side work like a small business before tax season.",
+      "excerpt": "Side income is taxable business activity once it moves beyond casual one-offs, bringing self-employment tax, estimated payments, deductible expenses, bookkeeping, entity, insurance, and retirement-account questions. Surface this when discussing freelancing, indie hacking, creator income, consulting, 1099 work, or why side money needs an operating system.",
       "tags": [
         "resource",
         "personal-finance"
@@ -11166,7 +11166,7 @@
       "label": "The 4% Rule (Safe Withdrawal Rate)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The 4% rule is a retirement withdrawal heuristic based on historical portfolio simulations. It is a starting point, not a guarantee, because fees, taxes, time horizon, asset allocation, inflation, and valuation matter.",
+      "excerpt": "The 4% rule is a retirement withdrawal heuristic from historical portfolio simulations: withdraw 4% initially, then adjust that dollar amount for inflation, but success depends on time horizon, valuation, asset allocation, fees, taxes, flexibility, and sequence risk. Surface this when doing FIRE math or explaining why a withdrawal rate is not a guarantee.",
       "tags": [
         "resource",
         "personal-finance"
@@ -34531,5 +34531,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-02T03:36:14Z"
+  "generated_at": "2026-06-02T05:25:01Z"
 }
