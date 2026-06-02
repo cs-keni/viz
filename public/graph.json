@@ -2284,12 +2284,12 @@
       "label": "Aging Biology — Hallmarks of Aging",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The hallmarks of aging are biological processes associated with age-related decline, including genomic instability, telomere attrition, epigenetic changes, proteostasis loss, mitochondrial dysfunction, senescence, and altered signaling. The framework is useful but not a menu of proven human interventions.",
+      "excerpt": "Explains the hallmarks of aging as interacting mechanisms behind age-related decline, including DNA damage, telomere attrition, epigenetic drift, proteostasis loss, mitochondrial dysfunction, nutrient sensing, senescence, stem-cell exhaustion, and inflammaging. Emphasizes that the framework guides research but is not a proven menu of human anti-aging interventions.",
       "tags": [
         "resource",
         "biology-life-sciences"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Biology & Life Sciences/CRISPR — How Gene Editing Works",
@@ -2320,12 +2320,12 @@
       "label": "Epigenetics — Gene Expression Without Sequence Change",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Epigenetics studies changes in gene expression that do not alter DNA sequence, including DNA methylation, histone modification, and chromatin structure. It explains how context can affect gene activity without rewriting the genome.",
+      "excerpt": "Explains epigenetics as regulation of gene activity without changing DNA sequence, including DNA methylation, histone modification, chromatin accessibility, imprinting, development, stress biology, aging clocks, and environmental limits. Emphasizes that epigenetics is real plasticity, not a magical claim that thoughts directly rewrite genes on command.",
       "tags": [
         "resource",
         "biology-life-sciences"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Biology & Life Sciences/Evolution — Natural Selection and Genetic Drift",
@@ -2373,7 +2373,7 @@
         "resource",
         "biology-life-sciences"
       ],
-      "degree": 3
+      "degree": 5
     },
     {
       "id": "Resources/Biology & Life Sciences/Immune System Overview (Innate vs Adaptive)",
@@ -2397,7 +2397,7 @@
         "resource",
         "biology-life-sciences"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Biology & Life Sciences/Insulin and Blood Sugar Regulation",
@@ -2416,55 +2416,31 @@
       "label": "Longevity Research Overview (Sirtuins, mTOR, Senolytics)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Longevity research studies pathways and interventions that might affect healthspan or lifespan, including sirtuins, mTOR, senolytics, caloric restriction, exercise, and metabolic signals. Human evidence is much weaker than animal and mechanistic hype.",
+      "excerpt": "Maps major longevity research pathways such as sirtuins, mTOR, AMPK, senolytics, caloric restriction, rapamycin, NAD metabolism, exercise, and biological-age biomarkers. Separates mechanism-rich animal evidence from proven human healthspan practices so Bobby can stay curious without buying hype.",
       "tags": [
         "resource",
         "biology-life-sciences"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Biology & Life Sciences/Mitochondria and ATP — The Energy Currency",
       "label": "Mitochondria and ATP — The Energy Currency",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Mitochondria are cellular organelles that convert energy from nutrients into ATP through pathways such as the Krebs cycle and electron transport chain. They also influence signaling, cell death, heat production, and metabolic health.",
+      "excerpt": "Explains how mitochondria convert food-derived electrons into ATP through the Krebs cycle, electron transport chain, proton gradients, and ATP synthase. Also covers mitochondria as signaling organelles involved in apoptosis, reactive oxygen species, heat production, exercise adaptation, metabolic flexibility, and aging.",
       "tags": [
         "resource",
         "biology-life-sciences"
       ],
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "Resources/Biology & Life Sciences/Neurotransmitter Synthesis and Regulation",
       "label": "Neurotransmitter Synthesis and Regulation",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Neurotransmitters are synthesized, stored, released, detected, cleared, and recycled through tightly regulated processes. Their effects depend on receptors, brain regions, timing, transporters, enzymes, and circuit context.",
-      "tags": [
-        "resource",
-        "biology-life-sciences"
-      ],
-      "degree": 3
-    },
-    {
-      "id": "Resources/Biology & Life Sciences/Systems Biology",
-      "label": "Systems Biology",
-      "folder": "Resources",
-      "created": "2026-05-26",
-      "excerpt": "Systems biology studies living organisms as interacting networks rather than isolated parts. It uses models, omics data, feedback loops, and pathway analysis to understand emergent biological behavior.",
-      "tags": [
-        "resource",
-        "biology-life-sciences"
-      ],
-      "degree": 7
-    },
-    {
-      "id": "Resources/Biology & Life Sciences/The Microbiome — Gut Flora and Health",
-      "label": "The Microbiome — Gut Flora and Health",
-      "folder": "Resources",
-      "created": "2026-05-26",
-      "excerpt": "The microbiome is the community of bacteria, archaea, fungi, viruses, and other organisms living in and on the body, especially in the gut. It influences digestion, immunity, metabolism, and signaling, but consumer claims often outrun evidence.",
+      "excerpt": "Explains how neurotransmitters are synthesized, stored, released, detected, cleared, recycled, and regulated through enzymes, vesicles, receptors, transporters, autoreceptors, and circuit feedback. Pushes back on simple 'low serotonin' stories by showing why brain chemistry depends on location, receptor type, timing, and network context.",
       "tags": [
         "resource",
         "biology-life-sciences"
@@ -2472,16 +2448,40 @@
       "degree": 4
     },
     {
-      "id": "Resources/Biology & Life Sciences/The Stress Response (Fight-or-Flight, Freeze, Fawn)",
-      "label": "The Stress Response (Fight-or-Flight, Freeze, Fawn)",
+      "id": "Resources/Biology & Life Sciences/Systems Biology",
+      "label": "Systems Biology",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The stress response coordinates nervous-system, hormonal, and behavioral patterns such as fight, flight, freeze, and fawn. These responses can be adaptive in threat but costly when chronically activated.",
+      "excerpt": "Explains systems biology as the study of living organisms through interacting networks, feedback loops, omics data, dynamic models, and emergent behavior. Useful as Bobby's antidote to single-cause biological explanations: genes, proteins, cells, microbes, hormones, and environment produce outcomes through context-dependent systems.",
+      "tags": [
+        "resource",
+        "biology-life-sciences"
+      ],
+      "degree": 9
+    },
+    {
+      "id": "Resources/Biology & Life Sciences/The Microbiome — Gut Flora and Health",
+      "label": "The Microbiome — Gut Flora and Health",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Explains the microbiome as a living ecosystem that affects digestion, immunity, metabolism, inflammation, and gut-brain signaling through metabolites such as short-chain fatty acids, bile acids, and microbial compounds. Emphasizes strain-specific evidence, diet/fiber fundamentals, antibiotics, and why consumer stool tests and probiotic claims need skepticism.",
       "tags": [
         "resource",
         "biology-life-sciences"
       ],
       "degree": 5
+    },
+    {
+      "id": "Resources/Biology & Life Sciences/The Stress Response (Fight-or-Flight, Freeze, Fawn)",
+      "label": "The Stress Response (Fight-or-Flight, Freeze, Fawn)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Explains the stress response as a coordinated nervous-system, endocrine, immune, and behavioral survival program rather than a personality flaw. Covers sympathetic activation, the HPA axis, fight/flight/freeze/fawn patterns, chronic allostatic load, and practical regulation signals Bobby can use when Kenny is stuck in threat mode.",
+      "tags": [
+        "resource",
+        "biology-life-sciences"
+      ],
+      "degree": 6
     },
     {
       "id": "Resources/Bobby Commands",
@@ -9197,7 +9197,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "Resources/Mental Health & Psychology/The Role of Play in Adult Life",
@@ -17651,6 +17651,10 @@
     },
     {
       "source": "Resources/Biology & Life Sciences/Aging Biology — Hallmarks of Aging",
+      "target": "Resources/Biology & Life Sciences/Epigenetics — Gene Expression Without Sequence Change"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Aging Biology — Hallmarks of Aging",
       "target": "Resources/Biology & Life Sciences/Inflammation — Acute vs Chronic"
     },
     {
@@ -17696,6 +17700,10 @@
     {
       "source": "Resources/Biology & Life Sciences/Epigenetics — Gene Expression Without Sequence Change",
       "target": "Resources/Biology & Life Sciences/Genetics — DNA to Protein to Phenotype"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Epigenetics — Gene Expression Without Sequence Change",
+      "target": "Resources/Mental Health & Psychology/Stress Response — HPA Axis (Cortisol Cascade)"
     },
     {
       "source": "Resources/Biology & Life Sciences/Evolution — Natural Selection and Genetic Drift",
@@ -17787,11 +17795,19 @@
     },
     {
       "source": "Resources/Biology & Life Sciences/Longevity Research Overview (Sirtuins, mTOR, Senolytics)",
+      "target": "Resources/Biology & Life Sciences/Mitochondria and ATP — The Energy Currency"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Longevity Research Overview (Sirtuins, mTOR, Senolytics)",
       "target": "Resources/Chemistry & Biochemistry/Nootropics — Evidence-Based Overview"
     },
     {
       "source": "Resources/Biology & Life Sciences/Longevity Research Overview (Sirtuins, mTOR, Senolytics)",
       "target": "Resources/Health & Fitness/Exercise Science Fundamentals"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Mitochondria and ATP — The Energy Currency",
+      "target": "Resources/Biology & Life Sciences/Aging Biology — Hallmarks of Aging"
     },
     {
       "source": "Resources/Biology & Life Sciences/Mitochondria and ATP — The Energy Currency",
@@ -17811,11 +17827,19 @@
     },
     {
       "source": "Resources/Biology & Life Sciences/Neurotransmitter Synthesis and Regulation",
+      "target": "Resources/Biology & Life Sciences/Systems Biology"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Neurotransmitter Synthesis and Regulation",
       "target": "Resources/Chemistry & Biochemistry/How Drugs Affect the Brain (Receptor Mechanisms)"
     },
     {
       "source": "Resources/Biology & Life Sciences/Neurotransmitter Synthesis and Regulation",
       "target": "Resources/Chemistry & Biochemistry/The Chemistry of Sleep (Melatonin, Adenosine, GABA)"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/Systems Biology",
+      "target": "Resources/Biology & Life Sciences/Hormones Overview (Cortisol, Testosterone, Estrogen, Insulin, GH)"
     },
     {
       "source": "Resources/Biology & Life Sciences/Systems Biology",
@@ -17839,7 +17863,15 @@
     },
     {
       "source": "Resources/Biology & Life Sciences/The Microbiome — Gut Flora and Health",
+      "target": "Resources/Biology & Life Sciences/Inflammation — Acute vs Chronic"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/The Microbiome — Gut Flora and Health",
       "target": "Resources/Biology & Life Sciences/Systems Biology"
+    },
+    {
+      "source": "Resources/Biology & Life Sciences/The Stress Response (Fight-or-Flight, Freeze, Fawn)",
+      "target": "Resources/Biology & Life Sciences/Hormones Overview (Cortisol, Testosterone, Estrogen, Insulin, GH)"
     },
     {
       "source": "Resources/Biology & Life Sciences/The Stress Response (Fight-or-Flight, Freeze, Fawn)",
@@ -34534,5 +34566,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-02T08:54:28Z"
+  "generated_at": "2026-06-02T15:33:44Z"
 }
