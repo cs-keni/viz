@@ -495,6 +495,15 @@
       "degree": 1
     },
     {
+      "id": "Circadian Rhythm and Light Exposure",
+      "label": "Circadian Rhythm and Light Exposure",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Climate Change — Science and Impacts",
       "label": "Climate Change — Science and Impacts",
       "folder": null,
@@ -789,6 +798,15 @@
       "degree": 1
     },
     {
+      "id": "Emotional Regulation",
+      "label": "Emotional Regulation",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Endpoint Management — MDM, Intune, Jamf, Compliance Policy",
       "label": "Endpoint Management — MDM, Intune, Jamf, Compliance Policy",
       "folder": null,
@@ -908,6 +926,15 @@
     {
       "id": "Hash Functions",
       "label": "Hash Functions",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
+      "id": "History of Artificial Intelligence (1950s–Present)",
+      "label": "History of Artificial Intelligence (1950s–Present)",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -1055,7 +1082,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "Metrics That Matter vs Vanity Metrics",
@@ -1370,7 +1397,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 13
+      "degree": 15
     },
     {
       "id": "Resources/AI & Machine Learning/AI Alignment Overview",
@@ -1382,7 +1409,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "Resources/AI & Machine Learning/AI Memory Architectures",
@@ -1706,7 +1733,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "Resources/AI & Machine Learning/Model Quantization (INT4, INT8, GGUF)",
@@ -2729,12 +2756,12 @@
       "label": "Antifragile — Key Ideas (Taleb)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Antifragile argues that some systems benefit from volatility, stress, disorder, and uncertainty. Taleb distinguishes fragile, robust, and antifragile systems and favors optionality over prediction.",
+      "excerpt": "Antifragile argues that some systems gain from volatility because stressors reveal weakness, trigger adaptation, or create asymmetric upside. Surface this when discussing resilience, optionality, learning, health stressors, engineering risk, or why over-optimized systems can become brittle.",
       "tags": [
         "resource",
         "books-ideas"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Books & Ideas/Atomic Habits — Key Ideas (James Clear)",
@@ -2801,19 +2828,7 @@
       "label": "Gödel, Escher, Bach — Key Ideas (Hofstadter)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Gödel, Escher, Bach explores minds, meaning, recursion, self-reference, formal systems, music, art, and consciousness. Its central fascination is how strange loops can produce meaning from symbol manipulation.",
-      "tags": [
-        "resource",
-        "books-ideas"
-      ],
-      "degree": 3
-    },
-    {
-      "id": "Resources/Books & Ideas/Human Compatible — Key Ideas (Stuart Russell)",
-      "label": "Human Compatible — Key Ideas (Stuart Russell)",
-      "folder": "Resources",
-      "created": "2026-05-26",
-      "excerpt": "Human Compatible argues that AI should be designed around uncertainty about human preferences rather than fixed objectives. Russell reframes alignment as building systems that defer, learn, and remain corrigible.",
+      "excerpt": "Gödel, Escher, Bach argues that minds and meaning can emerge from recursive symbol systems: rules at one level create patterns at another, and self-reference creates strange loops. Surface this when discussing recursion, consciousness, analogy, AI, formal systems, or why intelligence is more than mechanical rule-following but may still arise from it.",
       "tags": [
         "resource",
         "books-ideas"
@@ -2821,16 +2836,28 @@
       "degree": 4
     },
     {
-      "id": "Resources/Books & Ideas/Life 3.0 — Key Ideas (Tegmark)",
-      "label": "Life 3.0 — Key Ideas (Tegmark)",
+      "id": "Resources/Books & Ideas/Human Compatible — Key Ideas (Stuart Russell)",
+      "label": "Human Compatible — Key Ideas (Stuart Russell)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Life 3.0 explores artificial intelligence, consciousness, cosmic futures, and choices about beneficial AI. Tegmark frames intelligence as the ability to accomplish goals and asks what future humans want.",
+      "excerpt": "Human Compatible argues that the standard AI model of optimizing a fixed objective is dangerous when objectives are misspecified; safer AI should remain uncertain about human preferences, learn from behavior, and allow correction. Surface this when discussing alignment as a design principle rather than a last-minute safety patch.",
       "tags": [
         "resource",
         "books-ideas"
       ],
-      "degree": 3
+      "degree": 5
+    },
+    {
+      "id": "Resources/Books & Ideas/Life 3.0 — Key Ideas (Tegmark)",
+      "label": "Life 3.0 — Key Ideas (Tegmark)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Life 3.0 frames AI as the moment life may redesign both its software and hardware, forcing humans to choose what future intelligence should optimize. Surface this when discussing AI futures, consciousness, long-term governance, or how to think beyond the simplistic doom-versus-hype split.",
+      "tags": [
+        "resource",
+        "books-ideas"
+      ],
+      "degree": 4
     },
     {
       "id": "Resources/Books & Ideas/Man's Search for Meaning — Key Ideas (Viktor Frankl)",
@@ -2861,12 +2888,12 @@
       "label": "Poor Charlie's Almanack — Key Ideas (Munger)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Poor Charlie's Almanack collects Charlie Munger's ideas on multidisciplinary thinking, incentives, inversion, mental models, rationality, investing, and judgment. Its core message is to build worldly wisdom across disciplines.",
+      "excerpt": "Poor Charlie's Almanack collects Charlie Munger's practical rationality: use a latticework of mental models, invert problems, respect incentives, stay inside your circle of competence, and let compounding work. Surface this when discussing judgment, investing, incentives, decision quality, or cross-domain reasoning.",
       "tags": [
         "resource",
         "books-ideas"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Books & Ideas/Sapiens — Key Ideas (Harari)",
@@ -2885,48 +2912,48 @@
       "label": "Superintelligence — Key Ideas (Bostrom)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Superintelligence explores the possibility that machine intelligence could exceed human intelligence and create severe control problems. Bostrom focuses on takeoff scenarios, instrumental goals, alignment, and governance.",
+      "excerpt": "Superintelligence argues that if AI systems exceed human strategic ability, small objective errors could become catastrophic because capable agents tend to seek resources, preserve options, and resist shutdown. Surface this when discussing AI risk, takeoff speed, instrumental convergence, alignment, or governance before capabilities arrive.",
       "tags": [
         "resource",
         "books-ideas"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Books & Ideas/The Almanack of Naval Ravikant — Key Ideas",
       "label": "The Almanack of Naval Ravikant — Key Ideas",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Almanack of Naval Ravikant collects Naval's ideas about wealth, judgment, leverage, specific knowledge, accountability, happiness, and freedom. Its recurring theme is building a life around compounding judgment and autonomy.",
+      "excerpt": "The Almanack of Naval Ravikant is a compact worldview about wealth, leverage, judgment, and happiness: build specific knowledge, attach it to permissionless leverage, keep ownership, and use freedom rather than status as the scoreboard. Surface this when discussing autonomy, compounding, indie businesses, or the difference between getting rich and merely being busy.",
       "tags": [
         "resource",
         "books-ideas"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Books & Ideas/The Black Swan — Key Ideas (Taleb)",
       "label": "The Black Swan — Key Ideas (Taleb)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Black Swan examines rare, high-impact, hard-to-predict events and the human tendency to explain them afterward. Taleb warns against overconfidence, naive models, and hidden tail risk.",
+      "excerpt": "The Black Swan is Taleb's argument that rare, high-impact events dominate complex domains while humans over-trust neat forecasts and explain surprises afterward. Surface this when discussing tail risk, uncertainty, investing, AI timelines, startups, or planning under conditions where the biggest outcomes are not normally distributed.",
       "tags": [
         "resource",
         "books-ideas"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Books & Ideas/The Body Keeps the Score — Key Ideas (van der Kolk)",
       "label": "The Body Keeps the Score — Key Ideas (van der Kolk)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Body Keeps the Score argues that trauma affects the brain, body, memory, emotion, and relationships. It popularized body-aware trauma treatment, though specific interventions should be interpreted through current clinical evidence.",
+      "excerpt": "The Body Keeps the Score frames trauma as a nervous-system and body-level adaptation, not only a remembered event, while requiring clinical caution because some claims and interventions are contested. Surface this when discussing trauma, PTSD, emotional regulation, somatic symptoms, or why Bobby should respond with care rather than diagnosis.",
       "tags": [
         "resource",
         "books-ideas"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Books & Ideas/The Hard Thing About Hard Things — Key Ideas (Horowitz)",
@@ -2945,12 +2972,12 @@
       "label": "The Innovator's Dilemma — Key Ideas (Christensen)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Innovator's Dilemma explains how successful companies can fail by rationally serving current customers and profit models while disruptive entrants improve from overlooked markets. The threat is structural, not stupidity.",
+      "excerpt": "The Innovator's Dilemma explains why well-managed incumbents can lose to disruptive entrants by rationally serving their best customers, margin structures, and resource-allocation processes. Surface this when discussing startups, platform shifts, AI disruption, or why a company can make locally correct decisions that become strategically fatal.",
       "tags": [
         "resource",
         "books-ideas"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Books & Ideas/The Power of Now — Key Ideas (Eckhart Tolle)",
@@ -3005,12 +3032,12 @@
       "label": "The Structure of Scientific Revolutions — Key Ideas (Kuhn)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Structure of Scientific Revolutions argues that science often develops through paradigms, normal science, anomalies, crises, and revolutionary shifts. Kuhn changed how people discuss scientific progress.",
+      "excerpt": "The Structure of Scientific Revolutions argues that science advances through paradigms: shared examples, methods, standards, and assumptions that make normal science possible until anomalies trigger crisis and replacement. Surface this when discussing scientific disagreement, framework shifts, AI research fashions, or why evidence is interpreted through a model rather than seen raw.",
       "tags": [
         "resource",
         "books-ideas"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Books & Ideas/Thinking Fast and Slow — Key Ideas (Kahneman)",
@@ -3041,12 +3068,12 @@
       "label": "Why We Sleep — Key Ideas (Matthew Walker)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Why We Sleep popularized the importance of sleep for memory, emotion, metabolism, immunity, performance, and health. Some specific claims have been debated, but the broad message that sleep is foundational remains useful.",
+      "excerpt": "Why We Sleep popularized sleep as a foundation for memory, mood, metabolism, immunity, and performance, while also attracting criticism for some overstated or disputed quantitative claims. Surface this when discussing sleep habits, recovery, cognitive performance, or why Bobby should treat sleep as high-leverage but check popular-science specifics.",
       "tags": [
         "resource",
         "books-ideas"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Books & Ideas/Zero to One — Key Ideas (Thiel)",
@@ -5951,7 +5978,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Economics & Finance/Prisoner's Dilemma and Nash Equilibrium",
@@ -10950,7 +10977,7 @@
         "resource",
         "personal-finance"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Personal Finance/Credit Scores — How They Work and How to Improve Them",
@@ -10998,7 +11025,7 @@
         "resource",
         "personal-finance"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Personal Finance/Estate Planning Basics (Will, Beneficiaries, Power of Attorney)",
@@ -11094,7 +11121,7 @@
         "resource",
         "personal-finance"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Personal Finance/Side Income and Tax Implications",
@@ -18070,6 +18097,10 @@
       "target": "Resources/Miscellaneous High-Value Topics/Risk Management Frameworks"
     },
     {
+      "source": "Resources/Books & Ideas/Antifragile — Key Ideas (Taleb)",
+      "target": "Resources/Personal Finance/Emergency Fund — Size and Structure"
+    },
+    {
       "source": "Resources/Books & Ideas/Atomic Habits — Key Ideas (James Clear)",
       "target": "Goal Setting Frameworks (SMART, OKRs)"
     },
@@ -18139,7 +18170,15 @@
     },
     {
       "source": "Resources/Books & Ideas/Gödel, Escher, Bach — Key Ideas (Hofstadter)",
+      "target": "Resources/AI & Machine Learning/AI Agents and Tool Use"
+    },
+    {
+      "source": "Resources/Books & Ideas/Gödel, Escher, Bach — Key Ideas (Hofstadter)",
       "target": "Resources/Philosophy/Philosophy of Mind — Consciousness"
+    },
+    {
+      "source": "Resources/Books & Ideas/Human Compatible — Key Ideas (Stuart Russell)",
+      "target": "Resources/AI & Machine Learning/AI Agents and Tool Use"
     },
     {
       "source": "Resources/Books & Ideas/Human Compatible — Key Ideas (Stuart Russell)",
@@ -18152,6 +18191,10 @@
     {
       "source": "Resources/Books & Ideas/Human Compatible — Key Ideas (Stuart Russell)",
       "target": "Resources/Books & Ideas/Superintelligence — Key Ideas (Bostrom)"
+    },
+    {
+      "source": "Resources/Books & Ideas/Life 3.0 — Key Ideas (Tegmark)",
+      "target": "Resources/AI & Machine Learning/AI Alignment Overview"
     },
     {
       "source": "Resources/Books & Ideas/Life 3.0 — Key Ideas (Tegmark)",
@@ -18202,6 +18245,10 @@
       "target": "Mental Models"
     },
     {
+      "source": "Resources/Books & Ideas/Poor Charlie's Almanack — Key Ideas (Munger)",
+      "target": "Resources/Personal Finance/Compound Interest — The Eighth Wonder of the World"
+    },
+    {
       "source": "Resources/Books & Ideas/Sapiens — Key Ideas (Harari)",
       "target": "Resources/Biology & Life Sciences/Evolution — Natural Selection and Genetic Drift"
     },
@@ -18219,6 +18266,10 @@
     },
     {
       "source": "Resources/Books & Ideas/Superintelligence — Key Ideas (Bostrom)",
+      "target": "Resources/AI & Machine Learning/Model Evaluation Metrics"
+    },
+    {
+      "source": "Resources/Books & Ideas/Superintelligence — Key Ideas (Bostrom)",
       "target": "Resources/Books & Ideas/Human Compatible — Key Ideas (Stuart Russell)"
     },
     {
@@ -18228,6 +18279,10 @@
     {
       "source": "Resources/Books & Ideas/The Almanack of Naval Ravikant — Key Ideas",
       "target": "Decision-Making Frameworks"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Almanack of Naval Ravikant — Key Ideas",
+      "target": "Mental Models"
     },
     {
       "source": "Resources/Books & Ideas/The Almanack of Naval Ravikant — Key Ideas",
@@ -18248,6 +18303,14 @@
     {
       "source": "Resources/Books & Ideas/The Black Swan — Key Ideas (Taleb)",
       "target": "Resources/Miscellaneous High-Value Topics/Risk Management Frameworks"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Black Swan — Key Ideas (Taleb)",
+      "target": "Resources/Personal Finance/Sequence of Returns Risk"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Body Keeps the Score — Key Ideas (van der Kolk)",
+      "target": "Emotional Regulation"
     },
     {
       "source": "Resources/Books & Ideas/The Body Keeps the Score — Key Ideas (van der Kolk)",
@@ -18284,6 +18347,10 @@
     {
       "source": "Resources/Books & Ideas/The Innovator's Dilemma — Key Ideas (Christensen)",
       "target": "Resources/Business & Strategy/The Innovator's Dilemma (Clayton Christensen)"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Innovator's Dilemma — Key Ideas (Christensen)",
+      "target": "Resources/Economics & Finance/Platform Economics (Multi-Sided Markets)"
     },
     {
       "source": "Resources/Books & Ideas/The Power of Now — Key Ideas (Eckhart Tolle)",
@@ -18335,6 +18402,10 @@
     },
     {
       "source": "Resources/Books & Ideas/The Structure of Scientific Revolutions — Key Ideas (Kuhn)",
+      "target": "History of Artificial Intelligence (1950s–Present)"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Structure of Scientific Revolutions — Key Ideas (Kuhn)",
       "target": "Mental Models"
     },
     {
@@ -18368,6 +18439,10 @@
     {
       "source": "Resources/Books & Ideas/Thinking in Systems — Key Ideas (Meadows)",
       "target": "Resources/Learning & Memory/Systems Thinking"
+    },
+    {
+      "source": "Resources/Books & Ideas/Why We Sleep — Key Ideas (Matthew Walker)",
+      "target": "Circadian Rhythm and Light Exposure"
     },
     {
       "source": "Resources/Books & Ideas/Why We Sleep — Key Ideas (Matthew Walker)",
@@ -34454,5 +34529,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-01T18:31:08Z"
+  "generated_at": "2026-06-02T02:22:21Z"
 }
