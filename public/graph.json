@@ -10950,7 +10950,7 @@
       "label": "Asset Allocation by Age and Risk Tolerance",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Asset allocation divides a portfolio across assets such as stocks, bonds, cash, and alternatives based on goals, time horizon, risk tolerance, and need for liquidity. Age is a proxy, not the full answer.",
+      "excerpt": "Asset allocation divides money across stocks, bonds, cash, and other assets based on time horizon, risk capacity, risk tolerance, liquidity needs, and failure consequences; age is only a rough proxy. Surface this when discussing portfolio risk, rebalancing, target-date funds, or why investment choices should follow goals rather than vibes.",
       "tags": [
         "resource",
         "personal-finance"
@@ -10962,7 +10962,7 @@
       "label": "Budgeting Methods (50-30-20, Zero-Based, Envelope)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Budgeting methods are systems for directing income toward needs, wants, savings, debt, and goals. The best method is the one that matches a person's cognitive style, volatility, and behavior.",
+      "excerpt": "Budgeting methods are behavior systems for directing cash flow, reducing surprise, and aligning spending with priorities; the right method depends on income volatility, cognitive load, debt, goals, and emotional friction. Surface this when someone needs a practical money system rather than moralizing about discipline.",
       "tags": [
         "resource",
         "personal-finance"
@@ -10974,7 +10974,7 @@
       "label": "Compound Interest — The Eighth Wonder of the World",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Compound interest is growth on prior growth, making time, rate of return, fees, and consistency extremely important. It works for savings and investing, but it also works against borrowers through compounding debt.",
+      "excerpt": "Compound interest is growth on prior growth: time, rate, contribution consistency, fees, taxes, and drawdowns determine whether compounding works for or against you. Surface this when explaining why starting early, avoiding high-interest debt, minimizing fees, and staying invested matter more than clever financial moves.",
       "tags": [
         "resource",
         "personal-finance"
@@ -10986,7 +10986,7 @@
       "label": "Credit Scores — How They Work and How to Improve Them",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Credit scores estimate borrowing risk using credit-report data, but different models and lenders can produce different scores. Payment history, utilization, account age, credit mix, and new inquiries are common inputs.",
+      "excerpt": "Credit scores estimate repayment risk from credit-report data, with payment history and utilization usually dominating, but models, lenders, and use cases differ. Surface this when discussing loans, apartments, credit cards, report errors, utilization, or why credit improvement is mostly boring consistency.",
       "tags": [
         "resource",
         "personal-finance"
@@ -10998,7 +10998,7 @@
       "label": "Debt — Types and Payoff Strategies (Avalanche vs Snowball)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Debt varies by interest rate, collateral, tax treatment, flexibility, and risk. Payoff strategies such as avalanche and snowball trade mathematical efficiency against motivation and behavioral momentum.",
+      "excerpt": "Debt should be evaluated by interest rate, collateral, tax treatment, amortization, flexibility, default consequences, and psychology; avalanche and snowball strategies trade mathematical efficiency against motivation. Surface this when prioritizing payoff, comparing debt types, or explaining why high-interest debt is negative compounding.",
       "tags": [
         "resource",
         "personal-finance"
@@ -11010,7 +11010,7 @@
       "label": "Dollar Cost Averaging",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Dollar cost averaging invests equal amounts at regular intervals regardless of market movement. It reduces timing regret and creates discipline, though lump-sum investing often has higher expected returns when markets trend upward.",
+      "excerpt": "Dollar cost averaging invests fixed amounts on a schedule, reducing timing regret and turning investing into a habit, while lump-sum investing often has higher expected return when markets trend upward. Surface this when discussing paycheck investing, deploying cash, market-timing anxiety, or the difference between mathematical expectation and behavioral adherence.",
       "tags": [
         "resource",
         "personal-finance"
@@ -11022,7 +11022,7 @@
       "label": "Emergency Fund — Size and Structure",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "An emergency fund is liquid money reserved for unexpected expenses, income disruption, or urgent repairs. Its size depends on job stability, dependents, fixed expenses, insurance coverage, and risk tolerance.",
+      "excerpt": "An emergency fund is liquid, safe cash reserved for income disruption, urgent repairs, medical bills, moves, deductibles, or other shocks, sized by essential expenses and risk exposure rather than gross income. Surface this when discussing financial resilience, avoiding forced debt, or why cash drag can be rational.",
       "tags": [
         "resource",
         "personal-finance"
@@ -11058,7 +11058,7 @@
       "label": "Index Funds vs Active Management — The Data",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Index funds passively track a market index, while active managers try to outperform through selection and timing. Costs, taxes, persistence, and benchmark choice are central to the long-run comparison.",
+      "excerpt": "Index funds are the hard-to-beat baseline because they deliver broad market exposure at low cost, while active management must overcome fees, taxes, benchmark risk, survivorship bias, and inconsistent skill. Surface this when discussing investing defaults, fund selection, fee drag, or why simple diversified portfolios often beat complex ones.",
       "tags": [
         "resource",
         "personal-finance"
@@ -11142,7 +11142,7 @@
       "label": "Tax Loss Harvesting",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Tax loss harvesting realizes investment losses in taxable accounts to offset gains and, within limits, ordinary income. It can improve after-tax outcomes, but wash-sale rules, transaction costs, tracking, and future tax rates matter.",
+      "excerpt": "Tax loss harvesting realizes losses in taxable accounts to offset capital gains and limited ordinary income while maintaining similar market exposure, but wash-sale rules, replacement assets, recordkeeping, future tax rates, and transaction costs matter. Surface this when discussing taxable investing, market downturns, after-tax returns, or why tax deferral is useful but not magic.",
       "tags": [
         "resource",
         "personal-finance"
@@ -11154,7 +11154,7 @@
       "label": "Tax-Advantaged Accounts (401k, Roth IRA, HSA, SEP-IRA)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Tax-advantaged accounts change when and how investment income is taxed, including workplace plans, IRAs, HSAs, and self-employed retirement accounts. Rules, limits, eligibility, and withdrawal treatment change over time and depend on circumstances.",
+      "excerpt": "Tax-advantaged accounts are wrappers that change when and how savings are taxed, including traditional pre-tax accounts, Roth accounts, HSAs, 401(k)s, IRAs, and self-employed plans. Surface this when explaining retirement account order, employer matches, Roth-vs-traditional tradeoffs, HSA triple tax advantage, or why current limits and eligibility must be verified.",
       "tags": [
         "resource",
         "personal-finance"
@@ -34531,5 +34531,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-02T03:12:52Z"
+  "generated_at": "2026-06-02T03:36:14Z"
 }
