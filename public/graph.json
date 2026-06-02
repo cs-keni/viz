@@ -9528,7 +9528,7 @@
       "label": "Risk Management Frameworks",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "Risk management frameworks help identify, assess, prioritize, mitigate, transfer, accept, and monitor things that could go wrong. The practical value is forcing risks into explicit language before they become surprises.",
+      "excerpt": "Explains risk management as making failure modes explicit before they become surprises. Covers risk registers, likelihood-impact matrices, detectability, reversibility, correlated risks, premortems, avoid/reduce/transfer/accept responses, and how Bobby can help Kenny strengthen fragile plans.",
       "tags": [
         "resource",
         "misc-high-value"
@@ -9540,7 +9540,7 @@
       "label": "Root Cause Analysis (5 Whys, Fishbone)",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "Root cause analysis looks past the visible symptom to the system conditions that allowed a failure to happen. 5 Whys and fishbone diagrams are simple tools for exploring causal chains, but they need evidence and systems thinking to avoid shallow blame.",
+      "excerpt": "Explains root cause analysis as evidence-based systems learning after a failure, not blame assignment. Covers problem definition, 5 Whys, fishbone categories, contributing causes, safeguards, corrective actions, and the trap of stopping at the nearest human mistake.",
       "tags": [
         "resource",
         "misc-high-value"
@@ -9552,7 +9552,7 @@
       "label": "Rubber Duck Debugging",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "Rubber duck debugging is the practice of explaining a problem step by step to reveal hidden assumptions, missing details, and contradictions. It works because forcing a clear explanation often exposes the bug before another person needs to intervene.",
+      "excerpt": "Explains rubber duck debugging as forcing vague confusion into precise, step-by-step explanation until hidden assumptions break. Includes a script Bobby can use, what to inspect, when to escalate, and why explanation often reveals bugs before another engineer needs to intervene.",
       "tags": [
         "resource",
         "misc-high-value",
@@ -9565,7 +9565,7 @@
       "label": "Technical Interview Preparation Guide",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "Technical interview preparation should balance algorithms, system design, project storytelling, behavioral examples, communication practice, and company-specific research. The goal is not memorization alone, but reliable problem-solving under time and social pressure.",
+      "excerpt": "Explains technical interview preparation as a balanced system: DSA patterns, system design, project deep dives, behavioral STAR stories, communication practice, company research, timed mocks, and post-interview retros. Emphasizes making skill visible under pressure rather than memorizing random solutions.",
       "tags": [
         "resource",
         "misc-high-value",
@@ -9579,7 +9579,7 @@
       "label": "The Art of the README",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "A README is the front door of a project: it should explain what the project is, why it exists, how to run it, how to use it, and where to go next. The best READMEs optimize for quick orientation and successful first execution.",
+      "excerpt": "Explains a README as the project front door: what it is, who it serves, how to run it, how to use it, how to test it, and where to go next. Includes a practical README template, portfolio/recruiter considerations, trust signals, and common failure modes like stale setup commands.",
       "tags": [
         "resource",
         "misc-high-value",
@@ -9592,7 +9592,7 @@
       "label": "The Importance of Slack (Buffer Time in Schedules)",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "Slack is unused capacity intentionally left in a schedule or system so it can absorb surprises, recovery, thinking, coordination, and change. Without slack, systems look efficient right up until small disruptions cascade into stress, lateness, and brittle decisions.",
+      "excerpt": "Explains slack as intentional unused capacity that lets schedules, teams, queues, budgets, and attention absorb variability. Covers utilization fragility, queueing intuition, recovery time, creative incubation, project buffers, and why 100% utilization looks efficient until small surprises cascade.",
       "tags": [
         "resource",
         "misc-high-value",
@@ -9605,7 +9605,7 @@
       "label": "The Maker's Schedule vs Manager's Schedule (Paul Graham)",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "Paul Graham's maker-versus-manager schedule distinction explains why meetings can be cheap for managers but expensive for builders. Makers need long, uninterrupted blocks for deep work, while managers can often operate in smaller calendar slots.",
+      "excerpt": "Explains Paul Graham's maker-versus-manager schedule distinction: makers need long uninterrupted blocks for deep creation, while managers often work through many short coordination slots. Covers context switching, calendar fragmentation, meeting placement, office hours, async updates, and why collaboration norms must respect both schedules.",
       "tags": [
         "resource",
         "misc-high-value",
@@ -9618,7 +9618,7 @@
       "label": "The Programmer's Brain (Felienne Hermans)",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "The Programmer's Brain explains programming through cognition: working memory limits, long-term memory, reading strategies, chunking, naming, misconceptions, and learning transfer. Its practical takeaway is that code comprehension is a human cognitive task, not just a technical one.",
+      "excerpt": "Summarizes Felienne Hermans' The Programmer's Brain as a cognitive view of programming: working memory limits, long-term memory, chunking, naming, reading strategies, misconceptions, and learning transfer. Focuses on practical implications for code readability, onboarding, review, and study.",
       "tags": [
         "resource",
         "misc-high-value",
@@ -9631,7 +9631,7 @@
       "label": "The STAR Interview Method",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "The STAR method structures interview stories as Situation, Task, Action, and Result. It is useful because it turns vague claims about skill into concrete evidence of context, responsibility, decisions, and impact.",
+      "excerpt": "Explains the STAR interview method as evidence structure: Situation, Task, Action, Result, plus optional reflection. Includes a conversion template, before/after example, story bank categories, metrics guidance, and common mistakes like vague teamwork claims or spending too long on context.",
       "tags": [
         "resource",
         "misc-high-value",
@@ -9644,7 +9644,7 @@
       "label": "The XY Problem",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "The XY problem happens when someone needs help with goal X but asks about attempted solution Y, causing helpers to optimize the wrong thing. The fix is to surface the original goal, constraints, and why Y seemed necessary.",
+      "excerpt": "Explains the XY problem as asking for help with attempted solution Y while hiding real goal X. Covers examples, why it happens, how askers can avoid it, how helpers can detect it, and why Bobby should often back up one level before solving narrow technical requests.",
       "tags": [
         "resource",
         "misc-high-value",
@@ -9657,7 +9657,7 @@
       "label": "Why Meetings Are Expensive (Cost of Interruption)",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "Meetings are expensive because their cost includes every participant's time, context switching, preparation, recovery, and opportunity cost. A meeting is worth it when shared understanding or decision quality improves enough to justify that cost.",
+      "excerpt": "Explains meeting cost as participant time plus context switching, preparation, recovery, opportunity cost, and fragmented deep work. Includes meeting cost math, when sync is worth it, async alternatives, decision-meeting rules, and why meetings should end with decisions, owners, and next actions.",
       "tags": [
         "resource",
         "misc-high-value",
@@ -9670,7 +9670,7 @@
       "label": "Writing Good Documentation",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "Good documentation helps the right reader complete a real task or understand a real system with less friction. It should make audience, purpose, prerequisites, examples, edge cases, and maintenance ownership explicit.",
+      "excerpt": "Explains good documentation as reader-centered task support: tutorials, how-to guides, explanations, references, troubleshooting, and decision records each serve different needs. Covers audience, prerequisites, examples, failure modes, ownership, freshness, and why docs are a product surface, not a dumping ground.",
       "tags": [
         "resource",
         "misc-high-value",
@@ -34622,5 +34622,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-02T18:06:54Z"
+  "generated_at": "2026-06-02T18:28:51Z"
 }
