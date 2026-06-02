@@ -9361,7 +9361,7 @@
       "label": "Changelog and Release Notes Writing",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "Changelogs and release notes translate project changes into useful history for users, teammates, and future maintainers. Good entries group changes by impact, explain migration needs, and distinguish features, fixes, breaking changes, security updates, and known issues.",
+      "excerpt": "Explains changelogs and release notes as user-facing change history, not commit dumps. Covers audience, semantic versioning, categories, migration notes, known issues, before/after examples, and the difference between internal implementation detail and behavior users need to understand.",
       "tags": [
         "resource",
         "misc-high-value",
@@ -9374,7 +9374,7 @@
       "label": "Code as Communication (Writing for Readers)",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "Code is communication with future readers as much as instruction for machines. Good code makes intent, structure, constraints, and failure behavior legible so maintainers can change it without reconstructing the author's entire mental state.",
+      "excerpt": "Explains code as communication with future maintainers: names, structure, tests, comments, APIs, and error handling should reveal intent and constraints. Includes before/after examples, cognitive-load failure modes, and why readable code is a safety feature, not aesthetic polish.",
       "tags": [
         "resource",
         "misc-high-value",
@@ -9387,7 +9387,7 @@
       "label": "Decision-Making Under Uncertainty",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "Decision-making under uncertainty means choosing without complete information by separating known facts, assumptions, probabilities, stakes, reversibility, and feedback loops. Good decisions are judged by process quality and expected value, not only by whether the outcome happened to work.",
+      "excerpt": "Explains decision-making under uncertainty as choosing with incomplete information by separating facts, assumptions, probabilities, stakes, reversibility, expected value, and feedback loops. Includes a practical decision template, premortem, value-of-information reasoning, and outcome-versus-process failure modes.",
       "tags": [
         "resource",
         "misc-high-value"
@@ -9399,7 +9399,7 @@
       "label": "How to Ask for Help Effectively (XY Problem)",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "Asking for help effectively means sharing the real goal, current approach, observed behavior, constraints, and what has already been tried. This avoids the XY problem, where someone asks about a chosen solution instead of the underlying problem.",
+      "excerpt": "Explains how to ask for help by sharing the real goal, exact context, observed behavior, attempted fixes, constraints, and a specific question. Focuses on avoiding the XY problem, creating minimal reproductions, and making it easy for teammates or AI tools to reason without guessing.",
       "tags": [
         "resource",
         "misc-high-value",
@@ -9412,7 +9412,7 @@
       "label": "How to Do a Brag Document",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "A brag document is a running record of accomplishments, impact, feedback, responsibilities, metrics, and lessons. It helps with performance reviews, resumes, interviews, promotion packets, and personal confidence because evidence is captured before memory fades.",
+      "excerpt": "Explains a brag document as career evidence management: a running record of accomplishments, impact, feedback, scope, metrics, collaboration, and lessons. Includes a monthly template, resume conversion pattern, promotion/interview use, and the failure mode of only tracking obvious shipped features.",
       "tags": [
         "resource",
         "misc-high-value",
@@ -9425,7 +9425,7 @@
       "label": "How to Give a Good Demo",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "A good demo makes value visible quickly by showing a real workflow, not by reciting implementation details. It needs a clear audience, tight setup, realistic data, a rehearsed path, backup plan, and explicit takeaway.",
+      "excerpt": "Explains a good demo as a short story of value: audience, problem, realistic workflow, visible before/after, rehearsed path, explicit takeaway, and fallback plan. Covers demo structure, narration, data setup, recovery, and why implementation details should serve the user's visible outcome.",
       "tags": [
         "resource",
         "misc-high-value",
@@ -9438,7 +9438,7 @@
       "label": "How to Onboard onto a New Codebase",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "Onboarding onto a new codebase requires building a map of the system before trying to change it: setup, tests, entry points, data flow, ownership boundaries, conventions, and deployment path. The fastest path is to make small verified changes while documenting discoveries.",
+      "excerpt": "Explains codebase onboarding as building a working map before making risky changes: setup, tests, entry points, request/data flow, ownership boundaries, conventions, deployment path, and first safe change. Includes a practical first-day/first-week workflow and common traps like reading everything or editing before tracing behavior.",
       "tags": [
         "resource",
         "misc-high-value",
@@ -9451,7 +9451,7 @@
       "label": "How to Run a Design Review",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "A design review is a structured critique of a proposed technical approach before implementation. Good reviews test assumptions, alternatives, interfaces, failure modes, operational risk, and maintainability without turning into taste debates.",
+      "excerpt": "Explains design reviews as structured stress tests before implementation hardens around a bad choice. Covers review timing, agenda, reviewer prompts, assumptions, alternatives, interfaces, failure modes, security/privacy/performance/operability risks, decision recording, and avoiding taste debates.",
       "tags": [
         "resource",
         "misc-high-value",
@@ -9464,7 +9464,7 @@
       "label": "How to Run a Good Retrospective",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "A good retrospective turns recent work into specific learning and action without becoming blame, venting, or vague process theater. It asks what happened, what helped, what hurt, what should change, and who owns the follow-up.",
+      "excerpt": "Explains retrospectives as structured learning loops that turn recent work into specific behavior changes. Covers timeline building, psychological safety, separating facts from interpretations, root causes, action-item ownership, follow-up review, and avoiding blame or vague process theater.",
       "tags": [
         "resource",
         "misc-high-value"
@@ -9476,7 +9476,7 @@
       "label": "How to Say No Without Burning Bridges",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "Saying no well means protecting priorities while preserving respect, clarity, and future relationship. The best refusals are timely, direct, brief, grounded in constraints, and sometimes paired with a smaller alternative.",
+      "excerpt": "Explains saying no as respectful priority protection: timely, direct, brief, constraint-based, and sometimes paired with a smaller alternative. Includes scripts for work and social contexts, boundary failure modes, and why a clean no preserves more trust than an overloaded yes.",
       "tags": [
         "resource",
         "misc-high-value",
@@ -9489,7 +9489,7 @@
       "label": "How to Write a Good Technical Spec",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "A good technical spec clarifies the problem, goals, non-goals, proposed design, alternatives, tradeoffs, risks, rollout, and validation plan before implementation. Its purpose is to make decisions explicit enough that reviewers can improve the plan while changes are still cheap.",
+      "excerpt": "Explains a technical spec as a decision document that makes problem, goals, non-goals, design, alternatives, data flow, APIs, migrations, risks, rollout, validation, and rollback explicit before implementation. Includes a reusable spec template and failure modes like solution-first writing and hidden assumptions.",
       "tags": [
         "resource",
         "misc-high-value",
@@ -9502,7 +9502,7 @@
       "label": "Negotiating Job Offers — Full Playbook",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "Negotiating job offers means improving compensation, role fit, start date, location, title, learning opportunity, and risk while preserving the relationship. A strong negotiation uses market data, alternatives, clear priorities, gratitude, and written confirmation.",
+      "excerpt": "Explains job-offer negotiation as improving total fit and compensation while preserving relationship: BATNA, market data, priorities, total package, timing, scripts, written confirmation, and risk. Covers base, bonus, equity, signing bonus, remote, title, start date, benefits, and common mistakes like accepting before negotiating.",
       "tags": [
         "resource",
         "misc-high-value",
@@ -9515,7 +9515,7 @@
       "label": "Reading Other People's Code",
       "folder": "Resources",
       "created": "2026-05-27",
-      "excerpt": "Reading other people's code is a deliberate skill: start from behavior, trace execution paths, inspect tests, map data flow, identify invariants, and resist judging style before understanding constraints. The goal is to reconstruct intent accurately enough to change the code safely.",
+      "excerpt": "Explains reading other people's code as reconstructing intent from behavior, tests, entry points, data flow, invariants, side effects, and history. Includes a practical tracing workflow, questions to ask, and failure modes like style-first judgment or editing before understanding hidden constraints.",
       "tags": [
         "resource",
         "misc-high-value",
@@ -34622,5 +34622,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-02T17:49:09Z"
+  "generated_at": "2026-06-02T18:06:54Z"
 }
