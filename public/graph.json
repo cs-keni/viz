@@ -486,15 +486,6 @@
       "degree": 12
     },
     {
-      "id": "Chemistry & Biochemistry",
-      "label": "Chemistry & Biochemistry",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Circadian Rhythm and Light Exposure",
       "label": "Circadian Rhythm and Light Exposure",
       "folder": null,
@@ -3870,7 +3861,7 @@
         "resource",
         "chemistry-biochemistry"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Claude Code Skills",
@@ -8677,7 +8668,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Mathematics/Gradient and Partial Derivatives",
@@ -11972,12 +11963,12 @@
       "label": "Classical Mechanics Fundamentals",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Classical mechanics studies motion, forces, energy, momentum, and rotation at everyday scales. It is the foundation for engineering intuition even though relativity and quantum mechanics supersede it in extreme regimes.",
+      "excerpt": "Classical mechanics explains motion through forces, constraints, energy, momentum, and rotation, and remains the default engineering model when speeds are far below light speed and quantum effects average out. Surface this when Kenny needs physical intuition for systems, simulations, robotics, games, or why conservation laws are more fundamental than memorized formulas.",
       "tags": [
         "resource",
         "physics"
       ],
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "Resources/Physics/Dark Matter and Dark Energy",
@@ -11996,7 +11987,7 @@
       "label": "Electromagnetism Basics (Maxwell's Equations, Intuition)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Electromagnetism unifies electric and magnetic fields, charges, currents, light, and electromagnetic waves. Maxwell's equations describe how fields are created, interact, and propagate.",
+      "excerpt": "Electromagnetism unifies electric fields, magnetic fields, charges, currents, circuits, light, radio, motors, and electronics through Maxwell's equations. Surface this when explaining how software ultimately runs on controlled charge motion and how changing fields become waves.",
       "tags": [
         "resource",
         "physics"
@@ -12008,7 +11999,7 @@
       "label": "Entropy — Physical and Information Interpretations",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Entropy measures multiplicity, uncertainty, or missing information depending on context. In physics it relates to the number of microstates compatible with a macrostate; in information theory it measures uncertainty in messages.",
+      "excerpt": "Entropy measures how many microscopic configurations fit a macroscopic description in physics, and how much uncertainty a message source has in information theory. Surface this when Kenny needs the bridge between thermodynamics, probability, compression, uncertainty, computation, and the arrow of time.",
       "tags": [
         "resource",
         "physics"
@@ -12032,19 +12023,19 @@
       "label": "General Relativity — Key Ideas (Spacetime, Gravity as Curvature)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "General relativity describes gravity as the curvature of spacetime caused by mass-energy. Objects follow paths through curved spacetime, explaining orbits, gravitational time dilation, black holes, and cosmic expansion.",
+      "excerpt": "General relativity describes gravity as spacetime curvature caused by mass-energy, with objects following geodesics through curved geometry. Surface this when explaining gravitational time dilation, black holes, gravitational waves, cosmic expansion, GPS corrections, or why gravity is deeper than a force pulling at a distance.",
       "tags": [
         "resource",
         "physics"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Physics/Heisenberg Uncertainty Principle",
       "label": "Heisenberg Uncertainty Principle",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Heisenberg uncertainty principle says certain pairs of properties, such as position and momentum, cannot both be known with arbitrary precision. This is a structural feature of quantum systems, not just measurement clumsiness.",
+      "excerpt": "The Heisenberg uncertainty principle says conjugate variables such as position and momentum cannot both have arbitrarily sharp values, with `Delta x Delta p >= hbar/2`. Surface this when correcting the misconception that quantum uncertainty is just measurement clumsiness.",
       "tags": [
         "resource",
         "physics"
@@ -12097,14 +12088,14 @@
         "resource",
         "physics"
       ],
-      "degree": 6
+      "degree": 5
     },
     {
       "id": "Resources/Physics/Quantum Entanglement and Superposition",
       "label": "Quantum Entanglement and Superposition",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Superposition allows quantum systems to exist in combinations of states, while entanglement creates correlations between systems that cannot be explained classically. These ideas are central to quantum information and quantum computing.",
+      "excerpt": "Superposition lets quantum states combine amplitudes, while entanglement creates joint states whose correlations cannot be reduced to independent parts. Surface this when explaining quantum computing, Bell tests, measurement, and why entanglement is precise physics rather than faster-than-light messaging.",
       "tags": [
         "resource",
         "physics"
@@ -12116,19 +12107,19 @@
       "label": "Quantum Mechanics Fundamentals",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Quantum mechanics describes physical systems at microscopic scales using states, amplitudes, measurement probabilities, operators, and quantized observables. It replaces classical certainty with probabilistic structure.",
+      "excerpt": "Quantum mechanics describes microscopic systems with states, amplitudes, operators, interference, quantized observables, and probabilistic measurement outcomes. Surface this when explaining atoms, chemistry, semiconductors, lasers, quantum computing, or why quantum theory replaces classical certainty with structured probability.",
       "tags": [
         "resource",
         "physics"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Physics/Special Relativity — Key Ideas (Time Dilation, Length Contraction)",
       "label": "Special Relativity — Key Ideas (Time Dilation, Length Contraction)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Special relativity shows that time and space measurements depend on relative motion, while the speed of light is invariant. Time dilation, length contraction, and mass-energy equivalence follow from this structure.",
+      "excerpt": "Special relativity shows that space and time measurements depend on inertial frame while the speed of light remains invariant, producing time dilation, length contraction, relativity of simultaneity, and `E = mc^2`. Surface this when explaining high-speed physics, GPS corrections, particle lifetimes, or why relativity is precise frame accounting, not generic subjectivity.",
       "tags": [
         "resource",
         "physics"
@@ -12164,7 +12155,7 @@
       "label": "The Standard Model of Particle Physics",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Standard Model describes known elementary particles and three fundamental interactions: electromagnetic, weak, and strong forces. It is extremely successful, but does not include gravity, dark matter, or dark energy.",
+      "excerpt": "The Standard Model organizes known elementary particles and the electromagnetic, weak, and strong interactions using quantum fields, gauge symmetries, force carriers, and the Higgs mechanism. Surface this when explaining what matter is made of, why the Higgs mattered, and why a wildly successful theory can still be incomplete.",
       "tags": [
         "resource",
         "physics"
@@ -12188,19 +12179,19 @@
       "label": "Thermodynamics — Four Laws",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Thermodynamics studies heat, work, energy, temperature, and entropy in physical systems. Its four laws define thermal equilibrium, energy conservation, entropy increase, and the unattainability of absolute zero.",
+      "excerpt": "Thermodynamics describes heat, work, energy, temperature, and entropy in systems with many particles, using four laws that constrain what transformations are possible. Surface this when explaining engines, batteries, biology, computation, chemistry, climate, or why every useful process has energy and entropy costs.",
       "tags": [
         "resource",
         "physics"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Physics/Wave-Particle Duality",
       "label": "Wave-Particle Duality",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Wave-particle duality is the quantum idea that entities like photons and electrons show wave-like or particle-like behavior depending on experimental context. They are not simply classical waves or classical particles.",
+      "excerpt": "Wave-particle duality is the failure of classical categories: photons and electrons can interfere like waves while being detected in discrete events. Surface this when explaining the double-slit experiment, probability amplitudes, measurement context, and why quantum objects are not simply small classical particles.",
       "tags": [
         "resource",
         "physics"
@@ -29568,7 +29559,19 @@
     },
     {
       "source": "Resources/Physics/Classical Mechanics Fundamentals",
+      "target": "Resources/Physics/General Relativity — Key Ideas (Spacetime, Gravity as Curvature)"
+    },
+    {
+      "source": "Resources/Physics/Classical Mechanics Fundamentals",
+      "target": "Resources/Physics/Quantum Mechanics Fundamentals"
+    },
+    {
+      "source": "Resources/Physics/Classical Mechanics Fundamentals",
       "target": "Resources/Physics/Special Relativity — Key Ideas (Time Dilation, Length Contraction)"
+    },
+    {
+      "source": "Resources/Physics/Classical Mechanics Fundamentals",
+      "target": "Resources/Physics/Thermodynamics — Four Laws"
     },
     {
       "source": "Resources/Physics/Dark Matter and Dark Energy",
@@ -29632,7 +29635,7 @@
     },
     {
       "source": "Resources/Physics/Heisenberg Uncertainty Principle",
-      "target": "Resources/Physics/Quantum Computing Basics (Qubits, Superposition, Entanglement)"
+      "target": "Resources/Mathematics/Fourier Transform Intuition"
     },
     {
       "source": "Resources/Physics/Heisenberg Uncertainty Principle",
@@ -29776,7 +29779,7 @@
     },
     {
       "source": "Resources/Physics/Thermodynamics — Four Laws",
-      "target": "Chemistry & Biochemistry"
+      "target": "Resources/Chemistry & Biochemistry/The Chemistry of Sleep (Melatonin, Adenosine, GABA)"
     },
     {
       "source": "Resources/Physics/Thermodynamics — Four Laws",
@@ -34531,5 +34534,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-02T08:04:36Z"
+  "generated_at": "2026-06-02T08:15:21Z"
 }
