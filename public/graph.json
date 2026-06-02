@@ -708,6 +708,17 @@
       "degree": 0
     },
     {
+      "id": "Daily Notes/2026-06-02",
+      "label": "2026-06-02",
+      "folder": "Daily Notes",
+      "created": "2026-06-02",
+      "excerpt": "Session 1",
+      "tags": [
+        "daily"
+      ],
+      "degree": 0
+    },
+    {
       "id": "Data Visualization Best Practices",
       "label": "Data Visualization Best Practices",
       "folder": null,
@@ -5805,7 +5816,7 @@
       "label": "Behavioral Economics Overview",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Behavioral economics studies how real human judgment departs from perfectly rational models. It combines economics, psychology, bounded rationality, heuristics, biases, defaults, framing, and incentives.",
+      "excerpt": "Behavioral economics adds realistic psychology to economic choice: bounded rationality, loss aversion, defaults, framing, present bias, social norms, and choice architecture. Surface this when better information alone is not changing behavior, especially around habits, money, products, health, or policy nudges.",
       "tags": [
         "resource",
         "economics-finance"
@@ -5865,7 +5876,7 @@
       "label": "GDP and Economic Indicators",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "GDP measures the market value of final goods and services produced in an economy, but it is only one indicator. Inflation, unemployment, productivity, wages, debt, trade, inequality, and sentiment all add context.",
+      "excerpt": "GDP measures final production, but economic health needs a dashboard: real GDP, GDP per capita, unemployment, labor-force participation, inflation, productivity, wages, debt, inequality, and sentiment. Surface this when a conversation treats one number as a full verdict on how people are actually doing.",
       "tags": [
         "resource",
         "economics-finance"
@@ -5877,7 +5888,7 @@
       "label": "Game Theory Fundamentals",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Game theory studies strategic situations where each participant's outcome depends on what others do. It is useful for understanding incentives, coordination, competition, bargaining, signaling, and repeated interaction.",
+      "excerpt": "Game theory studies strategic situations where each actor's best move depends on what others do, revealing why incentives, information, commitment, and repetition matter. Surface this when discussing competition, negotiation, pricing, arms races, platform behavior, cooperation, or why individual rationality can produce bad group outcomes.",
       "tags": [
         "resource",
         "economics-finance"
@@ -5901,7 +5912,7 @@
       "label": "Inflation — Types, Causes, and Effects",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Inflation is a sustained rise in the general price level, reducing purchasing power. It can arise from demand pressure, supply shocks, expectations, monetary conditions, and sector-specific bottlenecks.",
+      "excerpt": "Inflation is a sustained rise in the general price level, caused by demand pressure, supply shocks, money and credit conditions, expectations, or sector bottlenecks. Surface this when discussing prices, wages, central banks, cost of living, or why inflation episodes need diagnosis before policy.",
       "tags": [
         "resource",
         "economics-finance"
@@ -5913,7 +5924,7 @@
       "label": "Interest Rates and Central Banks (The Fed, ECB)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Central banks influence financial conditions through interest rates, balance sheets, liquidity tools, and communication. The Fed and ECB use monetary policy to pursue mandates around price stability, employment, and broader economic stability.",
+      "excerpt": "Central banks influence the economy through policy rates, liquidity, balance sheets, bank reserves, credit conditions, and expectations, but they operate with delays and imperfect control. Surface this when discussing the Fed, ECB, inflation, recessions, mortgages, asset prices, or why rate changes affect more than borrowing costs.",
       "tags": [
         "resource",
         "economics-finance"
@@ -5925,7 +5936,7 @@
       "label": "Microeconomics vs Macroeconomics",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Microeconomics studies individual markets, firms, consumers, incentives, and prices, while macroeconomics studies aggregate output, inflation, unemployment, growth, and policy. The two levels connect but use different abstractions.",
+      "excerpt": "Microeconomics studies choices, prices, firms, incentives, and individual markets; macroeconomics studies aggregates like GDP, inflation, unemployment, growth, money, and policy. Surface this when an argument jumps from individual logic to economy-wide outcomes or confuses household budgeting with government policy.",
       "tags": [
         "resource",
         "economics-finance"
@@ -5937,7 +5948,7 @@
       "label": "Monetary Policy vs Fiscal Policy",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Monetary policy is conducted by central banks through rates, liquidity, and financial conditions, while fiscal policy is conducted by governments through taxation, spending, transfers, and borrowing. They interact but have different tools, timelines, and political constraints.",
+      "excerpt": "Monetary policy works through central-bank rates, liquidity, credit, and expectations; fiscal policy works through government spending, taxes, transfers, and borrowing. Surface this when policy debates mix up who has which tool, how fast each tool works, and whether the problem is demand, supply, distribution, or financial stability.",
       "tags": [
         "resource",
         "economics-finance"
@@ -5961,7 +5972,7 @@
       "label": "Network Effects in Economics (Metcalfe's Law)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Network effects occur when a product or platform becomes more valuable as more people use it. They can create strong defensibility, winner-take-most markets, switching costs, and platform power.",
+      "excerpt": "Network effects occur when a product becomes more valuable as adoption grows, creating self-reinforcing demand, defensibility, lock-in, and sometimes market concentration. Surface this when evaluating platforms, social products, marketplaces, protocols, developer ecosystems, or whether a company has a real moat rather than ordinary scale.",
       "tags": [
         "resource",
         "economics-finance"
@@ -5973,7 +5984,7 @@
       "label": "Platform Economics (Multi-Sided Markets)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Platform economics studies businesses that coordinate multiple groups, such as buyers and sellers, riders and drivers, or creators and audiences. Value depends on pricing, trust, liquidity, governance, and cross-side network effects.",
+      "excerpt": "Platform economics studies businesses that coordinate multiple participant groups whose value depends on each other, such as buyers and sellers, riders and drivers, creators and audiences, or developers and users. Surface this when discussing marketplaces, app stores, social platforms, take rates, trust systems, subsidies, liquidity, and who captures platform value.",
       "tags": [
         "resource",
         "economics-finance"
@@ -5985,7 +5996,7 @@
       "label": "Prisoner's Dilemma and Nash Equilibrium",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Prisoner's Dilemma shows how individually rational choices can produce collectively worse outcomes. Nash equilibrium captures a stable strategy profile where no player wants to change alone.",
+      "excerpt": "The Prisoner's Dilemma shows how dominant individual incentives can create collectively worse outcomes, while Nash equilibrium names a strategy profile where no player wants to deviate alone. Surface this when discussing cooperation failures, arms races, climate policy, workplace incentives, platform competition, or why trust and enforcement change outcomes.",
       "tags": [
         "resource",
         "economics-finance"
@@ -6021,7 +6032,7 @@
       "label": "Supply and Demand Fundamentals",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Supply and demand explain how prices and quantities emerge from buyers' willingness to pay and sellers' willingness to produce. The framework is simple but powerful when paired with elasticity, market structure, and real-world frictions.",
+      "excerpt": "Supply and demand explain how prices coordinate buyers and sellers, but the model only works when you track elasticity, curve shifts, market power, information, and externalities. Surface this when discussing prices, shortages, wages, housing, product demand, inflation claims, or why a market outcome is not automatically fair.",
       "tags": [
         "resource",
         "economics-finance"
@@ -6069,7 +6080,7 @@
       "label": "Winner-Take-All Markets",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Winner-take-all and winner-take-most markets concentrate rewards among a small number of firms or individuals. They often arise from network effects, scale economies, distribution advantages, superstar dynamics, or platform control.",
+      "excerpt": "Winner-take-all and winner-take-most markets concentrate rewards when small advantages compound through network effects, scale economies, distribution, ranking systems, superstar dynamics, or platform control. Surface this when discussing tech giants, creators, careers, marketplaces, AI model leaders, or why fair competition can still end in concentration.",
       "tags": [
         "resource",
         "economics-finance"
@@ -34529,5 +34540,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-02T02:22:21Z"
+  "generated_at": "2026-06-02T02:30:59Z"
 }
