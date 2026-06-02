@@ -504,15 +504,6 @@
       "degree": 1
     },
     {
-      "id": "Climate Change — Science and Impacts",
-      "label": "Climate Change — Science and Impacts",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Code Smells",
       "label": "Code Smells",
       "folder": null,
@@ -5828,7 +5819,7 @@
       "label": "Bitcoin — Blockchain, Proof of Work, Mining",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Bitcoin is a decentralized digital asset system using a blockchain, proof-of-work consensus, mining incentives, cryptographic signatures, and a fixed issuance schedule. Its design trades throughput and energy use for censorship resistance and settlement assurance.",
+      "excerpt": "Bitcoin is a decentralized settlement system that uses hash-linked blocks, proof-of-work mining, difficulty adjustment, cryptographic signatures, and economic incentives to maintain a ledger without a central operator. Surface this when discussing censorship resistance, mining energy, probabilistic finality, monetary scarcity, or why Bitcoin trades throughput for settlement assurance.",
       "tags": [
         "resource",
         "economics-finance"
@@ -5840,7 +5831,7 @@
       "label": "Cryptocurrency — Technical Overview",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Cryptocurrency uses cryptography, distributed ledgers, consensus mechanisms, wallets, and incentives to coordinate digital assets without a traditional central operator. Technical novelty does not remove economic, security, governance, or regulatory risk.",
+      "excerpt": "Cryptocurrency combines public-key cryptography, distributed ledgers, consensus rules, wallets, incentives, and sometimes smart contracts to coordinate digital ownership without a traditional central operator. Surface this when separating the technical architecture from speculation, fraud, custody risk, governance, regulation, and real use cases.",
       "tags": [
         "resource",
         "economics-finance"
@@ -5852,7 +5843,7 @@
       "label": "DeFi Basics (Protocols, Liquidity Pools, Yield)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Decentralized finance uses smart contracts to provide trading, lending, borrowing, derivatives, stablecoins, and liquidity pools. It is programmable finance, but smart-contract, oracle, governance, leverage, and liquidity risks are central.",
+      "excerpt": "DeFi uses smart contracts for trading, lending, borrowing, stablecoins, derivatives, and liquidity provision, but headline yield is compensation for smart-contract, oracle, liquidity, leverage, governance, and counterparty-like risks. Surface this when discussing AMMs, liquidity pools, stablecoins, yield farming, or why 'decentralized' does not mean risk-free.",
       "tags": [
         "resource",
         "economics-finance"
@@ -5864,7 +5855,7 @@
       "label": "Externalities and Market Failure",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Externalities occur when market actions impose costs or benefits on third parties not reflected in prices. They are a major reason markets can fail to produce socially efficient outcomes.",
+      "excerpt": "Externalities occur when private decisions impose costs or benefits on third parties that prices do not reflect, creating market failure even when buyers and sellers act rationally. Surface this when discussing pollution, climate, vaccines, education, congestion, data privacy, or why market prices can miss social costs.",
       "tags": [
         "resource",
         "economics-finance"
@@ -5900,7 +5891,7 @@
       "label": "Globalization — Benefits and Costs",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Globalization integrates economies through trade, capital, migration, supply chains, technology, and institutions. It can raise efficiency and growth while also creating disruption, dependency, inequality, and political backlash.",
+      "excerpt": "Globalization integrates economies through trade, capital, migration, supply chains, technology, and institutions, creating aggregate gains while concentrating adjustment costs. Surface this when discussing cheap goods, offshoring, supply-chain fragility, trade policy, inequality, industrial policy, or why efficiency and resilience can conflict.",
       "tags": [
         "resource",
         "economics-finance"
@@ -5960,7 +5951,7 @@
       "label": "NFTs — What They Are and Why They Matter (or Don't)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "NFTs are blockchain tokens intended to represent unique assets, claims, or records. Their importance depends on use case: provenance and digital coordination can matter, but ownership, rights, speculation, liquidity, and permanence are often misunderstood.",
+      "excerpt": "NFTs are unique blockchain tokens that can represent a record, claim, collectible, or access right, but token ownership is not the same as copyright, custody, permanence, or legal ownership. Surface this when discussing digital scarcity, creator markets, game assets, provenance, speculative bubbles, or why the token and the referenced asset must be separated.",
       "tags": [
         "resource",
         "economics-finance"
@@ -6008,7 +5999,7 @@
       "label": "Public Goods and the Free Rider Problem",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Public goods are non-rival and non-excludable, meaning one person's use does not reduce another's and people cannot easily be excluded. The free rider problem makes voluntary funding difficult.",
+      "excerpt": "Public goods are non-rival and non-excludable, so private markets tend to underfund them because people can benefit without paying. Surface this when discussing open source, infrastructure, research, clean air, national defense, public health, or why valuable systems often need institutions beyond voluntary payment.",
       "tags": [
         "resource",
         "economics-finance"
@@ -6020,7 +6011,7 @@
       "label": "Rent-Seeking vs Wealth Creation",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Wealth creation increases real value, productivity, usefulness, or capacity, while rent-seeking captures value through control, privilege, scarcity, regulation, or gatekeeping. Distinguishing them clarifies economic and ethical arguments.",
+      "excerpt": "Wealth creation expands real surplus through productivity, usefulness, innovation, or capacity; rent-seeking captures existing value through privilege, gatekeeping, artificial scarcity, regulatory capture, or market power. Surface this when judging businesses, policies, careers, monopolies, platforms, or whether an activity improves the world or just improves someone's claim on it.",
       "tags": [
         "resource",
         "economics-finance"
@@ -6044,7 +6035,7 @@
       "label": "Technology and Labor Markets (Automation and Jobs)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Technology changes labor markets by automating tasks, complementing workers, creating new jobs, shifting bargaining power, and changing skill demand. The effects depend on institutions, timing, diffusion, and who captures productivity gains.",
+      "excerpt": "Technology changes labor markets by automating tasks, complementing workers, creating new demand, shifting bargaining power, and changing who captures productivity gains. Surface this when discussing AI job disruption, reskilling, wages, automation anxiety, or why task-level analysis beats blanket doom or optimism.",
       "tags": [
         "resource",
         "economics-finance"
@@ -6056,7 +6047,7 @@
       "label": "The Economics of Attention",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The economics of attention treats human attention as a scarce resource competed for by media, platforms, advertisers, creators, and products. Business models shape incentives around engagement, interruption, personalization, and habit formation.",
+      "excerpt": "The economics of attention treats human attention as a scarce, rivalrous input monetized by platforms, advertisers, creators, and products, creating incentives for engagement, interruption, personalization, and habit formation. Surface this when discussing social media, focus, feeds, ads, notification design, creator economies, or why willpower problems are often market-design problems.",
       "tags": [
         "resource",
         "economics-finance"
@@ -6068,7 +6059,7 @@
       "label": "Universal Basic Income — Arguments For and Against",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Universal Basic Income is a recurring cash payment to all members of a population, usually without means testing or work requirements. Arguments center on poverty, autonomy, bureaucracy, labor incentives, inflation, cost, and political feasibility.",
+      "excerpt": "Universal Basic Income is an unconditional cash floor that trades targeting efficiency for simplicity, autonomy, bargaining power, and reduced benefit cliffs. Surface this when discussing automation policy, poverty, welfare bureaucracy, labor incentives, inflation concerns, or the difference between pilot evidence and national-scale design.",
       "tags": [
         "resource",
         "economics-finance"
@@ -7768,7 +7759,7 @@
         "resource",
         "history-of-technology"
       ],
-      "degree": 7
+      "degree": 6
     },
     {
       "id": "Resources/History of Technology/The Browser Wars",
@@ -13590,7 +13581,7 @@
         "resource",
         "society-culture-history"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Society, Culture & History/Colonialism and Its Long-Term Effects",
@@ -13638,7 +13629,7 @@
         "resource",
         "society-culture-history"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Society, Culture & History/The Attention Economy",
@@ -22105,15 +22096,15 @@
     },
     {
       "source": "Resources/Economics & Finance/Externalities and Market Failure",
-      "target": "Climate Change — Science and Impacts"
-    },
-    {
-      "source": "Resources/Economics & Finance/Externalities and Market Failure",
       "target": "Resources/Economics & Finance/Public Goods and the Free Rider Problem"
     },
     {
       "source": "Resources/Economics & Finance/Externalities and Market Failure",
       "target": "Resources/Economics & Finance/Supply and Demand Fundamentals"
+    },
+    {
+      "source": "Resources/Economics & Finance/Externalities and Market Failure",
+      "target": "Resources/Society, Culture & History/Climate Change — Science and Policy"
     },
     {
       "source": "Resources/Economics & Finance/GDP and Economic Indicators",
@@ -22301,11 +22292,11 @@
     },
     {
       "source": "Resources/Economics & Finance/The Economics of Attention",
-      "target": "Resources/History of Technology/The Age of Surveillance Capitalism"
+      "target": "Resources/Personal Productivity/Distraction Management"
     },
     {
       "source": "Resources/Economics & Finance/The Economics of Attention",
-      "target": "Resources/Personal Productivity/Distraction Management"
+      "target": "Resources/Society, Culture & History/Surveillance Capitalism (Shoshana Zuboff)"
     },
     {
       "source": "Resources/Economics & Finance/Universal Basic Income — Arguments For and Against",
@@ -34540,5 +34531,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-02T02:30:59Z"
+  "generated_at": "2026-06-02T03:12:52Z"
 }
