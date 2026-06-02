@@ -6366,7 +6366,7 @@
       "label": "Character Arc Design",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Character arc design tracks how a character changes or resists change through desire, flaw, pressure, choice, consequence, and revelation. Strong arcs connect external plot to internal transformation.",
+      "excerpt": "Explains character arcs as change or resistance under pressure: want versus need, flaw, wound, lie, value conflict, choice, consequence, and revelation. Covers positive, negative, flat, tragic, redemptive, and ambiguous arcs with craft-level failure modes.",
       "tags": [
         "resource",
         "film-storytelling"
@@ -6378,7 +6378,7 @@
       "label": "Cinematography Fundamentals",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Cinematography uses camera placement, movement, lens choice, framing, lighting, exposure, color, and composition to shape how a story is seen and felt. It translates narrative meaning into visual experience.",
+      "excerpt": "Explains cinematography as visual meaning through framing, lens choice, camera movement, lighting, exposure, color, composition, depth, and point of view. Covers how shots control attention and emotion rather than merely making images look pretty.",
       "tags": [
         "resource",
         "film-storytelling"
@@ -6390,7 +6390,7 @@
       "label": "Editing Principles (Continuity, Montage, Jump Cut)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Film editing shapes time, rhythm, attention, emotion, and meaning by arranging shots. Continuity, montage, and jump cuts represent different ways to preserve, compress, or disrupt the viewer's experience.",
+      "excerpt": "Explains film editing as control of time, rhythm, attention, causality, and emotion through shot order. Covers continuity editing, 180-degree rule, match cuts, cutting on action, montage, jump cuts, Kuleshov effect, pacing, and why cuts create meaning.",
       "tags": [
         "resource",
         "film-storytelling"
@@ -6402,7 +6402,7 @@
       "label": "Genre Conventions",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Genre conventions are recurring expectations around plot, tone, character, setting, conflict, pacing, and payoff. They help audiences orient, but strong stories often satisfy and subvert conventions deliberately.",
+      "excerpt": "Explains genre conventions as audience contracts around tone, stakes, pacing, plot patterns, character types, setting, and payoff. Covers familiarity versus surprise, trope use, hybrid genres, subversion, and why breaking a convention works only when the storyteller understands what the audience came for.",
       "tags": [
         "resource",
         "film-storytelling"
@@ -6414,7 +6414,7 @@
       "label": "Narrative Structure (3-Act, Hero's Journey, Story Circle, Save the Cat)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Narrative structure frameworks organize stories through setup, escalation, transformation, crisis, and resolution. Models like 3-act structure, Hero's Journey, Story Circle, and Save the Cat are tools, not formulas.",
+      "excerpt": "Explains narrative structure frameworks as tools for managing setup, desire, escalation, crisis, transformation, and payoff. Compares three-act structure, Hero's Journey, Dan Harmon's Story Circle, and Save the Cat while emphasizing causal momentum over formula.",
       "tags": [
         "resource",
         "film-storytelling"
@@ -6426,7 +6426,7 @@
       "label": "Screenplay Writing Basics",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Screenplay writing tells stories through visible action, dialogue, scene structure, pacing, and cinematic implication. A screenplay is a blueprint for a film, not a novel in script format.",
+      "excerpt": "Explains screenplay writing as visual, performable storytelling through scenes, action lines, dialogue, subtext, conflict, formatting, page economy, and cinematic implication. Emphasizes that a screenplay is a production blueprint, not a novel with dialogue margins.",
       "tags": [
         "resource",
         "film-storytelling"
@@ -6438,7 +6438,7 @@
       "label": "The Pixar Storytelling Formula",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Pixar storytelling formula is a compact story scaffold: once there was, every day, until one day, because of that, until finally. It emphasizes disruption, causality, escalation, and resolution.",
+      "excerpt": "Explains the Pixar storytelling formula as a compact causality scaffold: once there was, every day, until one day, because of that, until finally. Shows how it tests baseline, disruption, escalation, consequence, and resolution without reducing storytelling to a corporate template.",
       "tags": [
         "resource",
         "film-storytelling"
@@ -6450,7 +6450,7 @@
       "label": "The Role of Conflict in Story",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Conflict is the pressure that forces characters to reveal values, make choices, and change. It can be external, internal, interpersonal, social, moral, or existential, and it gives story its forward motion.",
+      "excerpt": "Explains conflict as meaningful resistance between desire and outcome, not merely fighting. Covers external, internal, interpersonal, social, moral, and existential conflict; stakes, escalation, choice, revelation, and the failure mode of conflict without consequence.",
       "tags": [
         "resource",
         "film-storytelling"
@@ -6462,7 +6462,7 @@
       "label": "Why Certain Stories Resonate (Evolutionary Psychology of Narrative)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Certain stories resonate because they engage social learning, threat detection, status, love, betrayal, belonging, morality, identity, and transformation. Evolutionary psychology can offer hypotheses, but should not reduce art to one adaptive function.",
+      "excerpt": "Explains story resonance through simulated social learning, threat detection, status, attachment, betrayal, morality, identity, transformation, and meaning-making. Uses evolutionary psychology cautiously: stories may rehearse human problems, but art cannot be reduced to one adaptive function.",
       "tags": [
         "resource",
         "film-storytelling"
@@ -6474,7 +6474,7 @@
       "label": "Worldbuilding Principles",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Worldbuilding creates coherent settings through history, geography, culture, power, technology, economy, ecology, constraints, and lived detail. Strong worlds feel bigger than the plot but still serve the story.",
+      "excerpt": "Explains worldbuilding as designing coherent constraints: geography, history, institutions, economics, technology, magic, ecology, culture, daily life, and power. Emphasizes that strong worlds feel bigger than the plot while still pressuring character choice, and warns against lore dumping.",
       "tags": [
         "resource",
         "film-storytelling"
@@ -9709,7 +9709,7 @@
       "label": "Audio Production Workflow (DAWs, Plugins)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Audio production workflow moves from idea capture to arrangement, recording, editing, sound design, mixing, and export inside a digital audio workstation. DAWs and plugins provide the tools, but workflow creates the result.",
+      "excerpt": "Explains modern audio production as a pipeline from idea capture to arrangement, recording/programming, editing, sound design, mixing, mastering/export, and revision inside a DAW. Covers MIDI, audio tracks, plugins, buses, automation, stems, reference tracks, and workflow failure modes.",
       "tags": [
         "resource",
         "music"
@@ -9721,7 +9721,7 @@
       "label": "Harmony and Chord Progressions",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Harmony studies how chords relate, move, create tension, and resolve. Chord progressions shape emotional direction through function, voice leading, key, rhythm, and expectation.",
+      "excerpt": "Explains harmony as the movement of chords through stability, tension, color, and resolution. Covers tonic/subdominant/dominant function, roman numerals, voice leading, borrowed chords, common progressions, and why the same melody changes meaning over different chords.",
       "tags": [
         "resource",
         "music"
@@ -9733,7 +9733,7 @@
       "label": "How Streaming Royalties Work",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Streaming royalties flow through platforms, rightsholders, labels, distributors, publishers, songwriters, performers, and collecting societies. Payouts are not a simple fixed per-stream wage; contracts, markets, rights type, and royalty pools matter.",
+      "excerpt": "Explains streaming royalties as rights-flow economics, not a simple per-stream wage. Distinguishes master recording royalties from publishing royalties, labels from distributors, PROs from publishers, pro-rata pools from user-centric models, contract recoupment, territory effects, and why artist take-home varies wildly.",
       "tags": [
         "resource",
         "music"
@@ -9745,7 +9745,7 @@
       "label": "Lo-Fi Music — Why It Aids Focus",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Lo-fi music can aid focus because it often combines steady rhythm, limited lyrics, soft textures, repetition, and low emotional volatility. It creates a background atmosphere without demanding full attention.",
+      "excerpt": "Explains why lo-fi can support focus through steady tempo, low lyrical load, predictable loops, soft timbres, mild novelty, noise masking, and moderate arousal. Distinguishes useful background music from distraction, and notes when silence, ambient sound, or higher-energy music works better.",
       "tags": [
         "resource",
         "music"
@@ -9757,7 +9757,7 @@
       "label": "Mixing Fundamentals",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Mixing balances tracks through level, panning, EQ, compression, reverb, delay, automation, and arrangement clarity. The goal is a coherent listening experience where important elements are audible and emotionally effective.",
+      "excerpt": "Explains mixing as arranging perception through level, panning, EQ, compression, saturation, reverb, delay, automation, frequency masking, stereo placement, and reference listening. Emphasizes that the goal is emotional clarity, not making every track loud or impressive in isolation.",
       "tags": [
         "resource",
         "music"
@@ -9769,7 +9769,7 @@
       "label": "Music Genres and Their Origins",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Music genres are historical, cultural, commercial, and sonic categories that organize listening and identity. Their origins often involve migration, technology, community, power, and cross-pollination.",
+      "excerpt": "Explains music genres as cultural, sonic, technological, and commercial categories rather than fixed boxes. Covers blues, jazz, rock, hip-hop, electronic, pop, migration, recording technology, scenes, identity, industry labeling, hybridization, and why genre history carries power and memory.",
       "tags": [
         "resource",
         "music"
@@ -9781,7 +9781,7 @@
       "label": "Music Theory Fundamentals (Scales, Chords, Intervals)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Music theory fundamentals describe the building blocks of pitch relationships, including notes, intervals, scales, chords, keys, and harmony. Theory names patterns musicians already hear and use.",
+      "excerpt": "Explains music theory as a naming system for pitch relationships: intervals, scales, chords, keys, consonance, dissonance, tension, and resolution. Focuses on why patterns feel stable or unstable and how theory helps Bobby talk about music without turning creativity into rules.",
       "tags": [
         "resource",
         "music"
@@ -9793,7 +9793,7 @@
       "label": "Rhythm and Time Signatures",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Rhythm organizes sound in time through beat, meter, tempo, subdivision, syncopation, groove, and time signatures. It is the temporal structure that makes music move.",
+      "excerpt": "Explains rhythm as music's organization of time: beat, tempo, meter, subdivision, syncopation, groove, swing, and time signatures. Emphasizes that rhythm feels bodily because it shapes expectation, movement, and attention, not just notation.",
       "tags": [
         "resource",
         "music"
@@ -9805,7 +9805,7 @@
       "label": "Sound Design Basics (Oscillators, Filters, Envelopes)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Sound design shapes timbre through oscillators, filters, envelopes, modulation, effects, sampling, and synthesis. It is the craft of making sounds feel textured, expressive, and intentional.",
+      "excerpt": "Explains sound design as sculpting timbre over time with oscillators, filters, envelopes, LFOs, modulation, sampling, layering, and effects. Connects waveform shape, ADSR envelopes, filter cutoff/resonance, and spatial effects to why one note can feel warm, aggressive, eerie, or futuristic.",
       "tags": [
         "resource",
         "music"
@@ -9817,7 +9817,7 @@
       "label": "The Psychology of Music (Why We Like What We Like)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The psychology of music studies why people respond to rhythm, melody, harmony, timbre, repetition, surprise, memory, identity, and social context. Musical taste blends biology, learning, culture, and personal history.",
+      "excerpt": "Explains music preference through prediction, repetition, surprise, rhythm, movement, timbre, memory, identity, culture, reward, and context. Emphasizes that taste is personal but not random: brains like patterns they can partly predict and partly be surprised by.",
       "tags": [
         "resource",
         "music"
@@ -34622,5 +34622,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-02T16:19:03Z"
+  "generated_at": "2026-06-02T17:34:43Z"
 }
