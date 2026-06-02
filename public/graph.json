@@ -8244,7 +8244,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 9
+      "degree": 8
     },
     {
       "id": "Resources/Learning & Memory/Chunking Information",
@@ -9235,7 +9235,7 @@
         "resource",
         "meta-learning-epistemics"
       ],
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "Resources/Meta-Learning & Epistemics/Fermi Estimation Techniques",
@@ -11951,7 +11951,7 @@
       "label": "Chaos Theory and Complexity",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Chaos theory studies deterministic systems that are highly sensitive to initial conditions, while complexity studies systems with many interacting parts and emergent behavior. Both explain why simple rules can produce hard-to-predict outcomes.",
+      "excerpt": "Chaos theory studies deterministic nonlinear systems whose outcomes are highly sensitive to initial conditions, while complexity studies many interacting components that produce emergent behavior. Surface this when explaining why prediction can fail even without randomness, especially in weather, software systems, markets, ecosystems, teams, and habits.",
       "tags": [
         "resource",
         "physics"
@@ -11975,7 +11975,7 @@
       "label": "Dark Matter and Dark Energy",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Dark matter and dark energy are names for major gaps in cosmology: unseen gravitational mass and the accelerated expansion of the universe. Together they dominate standard cosmological models, but their underlying nature remains unknown.",
+      "excerpt": "Dark matter and dark energy are operational names for two major cosmological gaps: extra gravitating mass inferred from galaxies/lensing/CMB structure, and accelerated cosmic expansion inferred from supernovae and large-scale cosmology. Surface this when explaining how science can strongly infer something exists while still not knowing what it is.",
       "tags": [
         "resource",
         "physics"
@@ -12011,7 +12011,7 @@
       "label": "Fermi Estimation (Orders of Magnitude Thinking)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Fermi estimation uses rough assumptions and orders of magnitude to estimate unknown quantities. It is useful for physics, engineering, product sizing, system design, and sanity-checking claims.",
+      "excerpt": "Fermi estimation breaks unknown quantities into rough factors to get an order-of-magnitude answer and expose the assumptions that dominate uncertainty. Surface this when Kenny needs a fast sanity check for system design, traffic, storage, cost, market size, physics, or everyday quantitative claims.",
       "tags": [
         "resource",
         "physics"
@@ -12047,7 +12047,7 @@
       "label": "Information Theory (Shannon Entropy)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Information theory quantifies uncertainty, communication, compression, and noise. Shannon entropy measures expected information content and connects communication engineering to probability, physics, and machine learning.",
+      "excerpt": "Information theory quantifies uncertainty, compression, communication, noise, and channel limits through Shannon entropy and related measures. Surface this when connecting physics, communication systems, machine learning, compression, error correction, and why information is not the same as meaning.",
       "tags": [
         "resource",
         "physics"
@@ -12059,7 +12059,7 @@
       "label": "Many-Worlds Interpretation of Quantum Mechanics",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Many-Worlds interpretation says the quantum wavefunction evolves without collapse, and measurement corresponds to branching into non-interacting outcomes. It is an interpretation of quantum mechanics, not a proven multiverse story.",
+      "excerpt": "Many-Worlds is an interpretation of quantum mechanics where the wavefunction evolves without collapse and measurement corresponds to branching into decohered outcome histories. Surface this when explaining quantum measurement carefully: it is a serious interpretation, not settled fact or generic pop-culture multiverse evidence.",
       "tags": [
         "resource",
         "physics"
@@ -12071,7 +12071,7 @@
       "label": "Phase Transitions and Emergence",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Phase transitions occur when systems shift qualitatively as conditions change, such as water freezing or magnets ordering. Emergence describes higher-level behavior that arises from many lower-level interactions.",
+      "excerpt": "Phase transitions occur when a system changes macroscopic behavior as a control parameter crosses a threshold, while emergence describes higher-level patterns arising from many lower-level interactions. Surface this when explaining water freezing, magnets ordering, traffic jams, network effects, model behavior, or why system-level properties can be real without being obvious from parts.",
       "tags": [
         "resource",
         "physics"
@@ -12083,7 +12083,7 @@
       "label": "Quantum Computing Basics (Qubits, Superposition, Entanglement)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Quantum computing uses qubits, superposition, entanglement, and interference to perform certain computations differently from classical computers. It is promising for specific problem classes, not a universal faster computer.",
+      "excerpt": "Quantum computing uses qubits, unitary gates, superposition, entanglement, interference, measurement, and error correction to solve some problem classes differently from classical computers. Surface this when correcting hype: quantum computers are not universally faster, but they may be transformative for simulation, cryptography, and specific algorithms.",
       "tags": [
         "resource",
         "physics"
@@ -12131,7 +12131,7 @@
       "label": "String Theory — Accessible Overview",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "String theory proposes that fundamental entities are tiny vibrating strings rather than point particles, offering a possible framework for quantum gravity. It is mathematically rich but experimentally unconfirmed.",
+      "excerpt": "String theory proposes that fundamental particles are vibrational modes of tiny one-dimensional strings, offering a mathematically rich route toward quantum gravity but lacking direct experimental confirmation. Surface this when discussing the gap between elegance, unification, mathematical productivity, and empirical testability.",
       "tags": [
         "resource",
         "physics"
@@ -12143,7 +12143,7 @@
       "label": "The Big Bang Theory",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Big Bang theory describes the universe expanding and cooling from an early hot, dense state. Its evidence includes cosmic expansion, the cosmic microwave background, and light-element abundances.",
+      "excerpt": "The Big Bang theory describes the universe expanding and cooling from an early hot, dense state, supported by cosmic expansion, the cosmic microwave background, and light-element abundances. Surface this when correcting the misconception that it was an explosion into empty space or a complete theory of ultimate origin.",
       "tags": [
         "resource",
         "physics"
@@ -12167,7 +12167,7 @@
       "label": "Thermodynamics and the Arrow of Time",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The arrow of time is the observed direction from past to future, closely tied to entropy increase. Many microscopic laws are time-symmetric, but macroscopic systems overwhelmingly move toward higher-entropy states.",
+      "excerpt": "The arrow of time is the asymmetry between past and future, tied in thermodynamics to entropy increase from low-entropy initial conditions despite many microscopic laws being time-symmetric. Surface this when discussing irreversibility, memory, causality, cosmology, and why time's direction is a statistical and cosmological puzzle.",
       "tags": [
         "resource",
         "physics"
@@ -29611,7 +29611,7 @@
     },
     {
       "source": "Resources/Physics/Fermi Estimation (Orders of Magnitude Thinking)",
-      "target": "Resources/Learning & Memory/Calibration — Knowing What You Don't Know"
+      "target": "Resources/Meta-Learning & Epistemics/Calibration and Epistemic Humility"
     },
     {
       "source": "Resources/Physics/Fermi Estimation (Orders of Magnitude Thinking)",
@@ -34534,5 +34534,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-02T08:15:21Z"
+  "generated_at": "2026-06-02T08:38:58Z"
 }
