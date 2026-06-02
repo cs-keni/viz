@@ -3712,7 +3712,7 @@
       "label": "Alcohol Metabolism (Ethanol to Acetaldehyde to Acetate)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Alcohol metabolism primarily converts ethanol to acetaldehyde and then acetate, mostly in the liver. Acetaldehyde is toxic, and metabolism affects sleep, inflammation, liver stress, cancer risk, and hangover symptoms.",
+      "excerpt": "Alcohol metabolism converts ethanol to toxic acetaldehyde and then acetate, mainly in the liver, while shifting NAD+/NADH redox balance and stressing sleep, inflammation, liver metabolism, and cancer risk. Surface this when explaining alcohol as biochemistry rather than just behavior or calories.",
       "tags": [
         "resource",
         "chemistry-biochemistry"
@@ -3724,7 +3724,7 @@
       "label": "Biochemistry — Proteins and Enzymes",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Proteins are amino-acid polymers that fold into functional structures, and enzymes are proteins or RNA molecules that catalyze reactions. Protein shape, binding sites, and environmental conditions determine function.",
+      "excerpt": "Proteins are amino-acid polymers that fold into dynamic three-dimensional machines, while enzymes catalyze reactions by lowering activation energy without changing equilibrium. Surface this when explaining metabolism, muscle, signaling, disease mutations, digestion, drug targets, or why protein shape determines function.",
       "tags": [
         "resource",
         "chemistry-biochemistry"
@@ -3736,7 +3736,7 @@
       "label": "Caffeine Mechanism (Adenosine Antagonism)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Caffeine mainly works by blocking adenosine receptors, reducing the feeling of sleep pressure and increasing alertness. It does not erase sleep debt, and its half-life makes timing important.",
+      "excerpt": "Caffeine primarily blocks adenosine receptors, masking sleep pressure and increasing alertness while also affecting dopamine/norepinephrine signaling indirectly. Surface this when Kenny needs caffeine framed as signal masking with half-life, tolerance, anxiety, and sleep tradeoffs rather than free energy.",
       "tags": [
         "resource",
         "chemistry-biochemistry"
@@ -3748,7 +3748,7 @@
       "label": "Chemical Bonding (Ionic, Covalent, Hydrogen, Van der Waals)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Chemical bonding explains how atoms and molecules stick together through electron sharing, electron transfer, polarity, and weak intermolecular forces. Ionic, covalent, hydrogen, and van der Waals interactions shape chemistry and biology.",
+      "excerpt": "Chemical bonding explains how atoms and molecules stick together through electron transfer, electron sharing, polarity, and weaker intermolecular forces. Surface this when explaining protein folding, DNA base pairing, solubility, boiling points, drug binding, membranes, or why molecular shape controls function.",
       "tags": [
         "resource",
         "chemistry-biochemistry"
@@ -3760,7 +3760,7 @@
       "label": "DNA and RNA — Structure and Function",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "DNA stores genetic information in a double-stranded nucleotide sequence, while RNA helps copy, regulate, and express that information. DNA, RNA, and proteins form the core information flow of biology.",
+      "excerpt": "DNA stores genetic information in a stable double-stranded nucleotide sequence, while RNA copies, regulates, translates, and sometimes catalyzes biological information flow. Surface this when explaining genes, viruses, CRISPR, cancer, inheritance, mRNA vaccines, or why nucleic-acid structure enables copying.",
       "tags": [
         "resource",
         "chemistry-biochemistry"
@@ -3772,7 +3772,7 @@
       "label": "How Drugs Affect the Brain (Receptor Mechanisms)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Brain-active drugs change neural signaling by interacting with receptors, transporters, enzymes, and ion channels. Effects depend on target, dose, timing, brain region, tolerance, individual biology, and context.",
+      "excerpt": "Brain-active drugs change signaling by acting on receptors, transporters, enzymes, ion channels, and neurotransmitter release, with effects shaped by dose, receptor subtype, brain region, tolerance, withdrawal, and context. Surface this when explaining psychoactive substances without moralizing or oversimplifying mechanism into safety.",
       "tags": [
         "resource",
         "chemistry-biochemistry"
@@ -3784,7 +3784,7 @@
       "label": "Metabolic Pathways (Glycolysis, Krebs Cycle, Electron Transport Chain)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Metabolic pathways transform nutrients into usable energy and cellular building blocks. Glycolysis, the Krebs cycle, and the electron transport chain are central to ATP production.",
+      "excerpt": "Central metabolism converts fuel into ATP, reducing power, heat, and biosynthetic intermediates through glycolysis, pyruvate oxidation, the Krebs cycle, and the electron transport chain. Surface this when explaining mitochondria, exercise, fasting, insulin, fatigue, alcohol metabolism, or why ATP production is controlled chemistry rather than a calorie slogan.",
       "tags": [
         "resource",
         "chemistry-biochemistry"
@@ -3796,7 +3796,7 @@
       "label": "Nootropics — Evidence-Based Overview",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Nootropics are substances marketed or used to improve cognition, but evidence, safety, regulation, and effect size vary widely. Sleep, exercise, treatment of real disorders, caffeine, and creatine have stronger grounding than most supplement stacks.",
+      "excerpt": "Nootropics are substances marketed or used to improve cognition, but evidence, effect size, safety, regulation, and user baseline vary widely. Surface this when Kenny is considering cognitive enhancers: first identify the bottleneck, then compare evidence-backed basics like sleep, exercise, treating disorders, caffeine timing, and creatine against supplement hype.",
       "tags": [
         "resource",
         "chemistry-biochemistry"
@@ -3808,7 +3808,7 @@
       "label": "Organic Chemistry Basics",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Organic chemistry studies carbon-containing molecules, functional groups, structure, reactivity, and mechanisms. It matters because proteins, fats, carbohydrates, DNA, drugs, and many materials are organic chemistry in action.",
+      "excerpt": "Organic chemistry studies carbon-based molecules through structure, functional groups, stereochemistry, electron movement, and reaction mechanisms. Surface this when explaining why tiny molecular changes alter drugs, nutrients, proteins, fats, carbohydrates, DNA chemistry, plastics, and metabolism.",
       "tags": [
         "resource",
         "chemistry-biochemistry"
@@ -3820,7 +3820,7 @@
       "label": "Periodic Table Essentials",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The periodic table organizes elements by atomic number, electron structure, and recurring chemical properties. Its rows and columns reveal patterns in reactivity, bonding, size, electronegativity, and metallic character.",
+      "excerpt": "The periodic table organizes elements by atomic number and electron configuration, making it a predictive map for valence, bonding, reactivity, size, ionization energy, electronegativity, and metallic character. Surface this when Kenny needs chemistry explained from electron structure rather than memorized element trivia.",
       "tags": [
         "resource",
         "chemistry-biochemistry"
@@ -3832,7 +3832,7 @@
       "label": "Pharmacology Basics — How Drugs Work",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Pharmacology studies how drugs interact with the body through absorption, distribution, metabolism, excretion, receptors, dose-response, efficacy, potency, and side effects. Effects depend on both molecule and context.",
+      "excerpt": "Pharmacology explains what drugs do to the body through receptors, enzymes, transporters, ion channels, dose-response, efficacy, potency, and what the body does to drugs through absorption, distribution, metabolism, and excretion. Surface this for mechanism-level drug conversations while keeping medical-use boundaries explicit.",
       "tags": [
         "resource",
         "chemistry-biochemistry"
@@ -3844,7 +3844,7 @@
       "label": "Protein Synthesis (Transcription and Translation)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Protein synthesis turns genetic information into proteins through transcription and translation. DNA is transcribed into RNA, then ribosomes translate mRNA codons into amino-acid chains.",
+      "excerpt": "Protein synthesis turns genetic information into protein through transcription from DNA to RNA and translation from mRNA codons to amino-acid chains. Surface this when explaining gene expression, mutations, ribosomes, antibiotics, mRNA vaccines, biotechnology, or how genotype becomes cellular function.",
       "tags": [
         "resource",
         "chemistry-biochemistry"
@@ -3856,7 +3856,7 @@
       "label": "The Chemistry of Sleep (Melatonin, Adenosine, GABA)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Sleep chemistry involves timing signals like melatonin, sleep-pressure signals like adenosine, inhibitory signaling through GABA, and many interacting systems. No single chemical explains sleep by itself.",
+      "excerpt": "Sleep chemistry involves circadian timing signals like melatonin, homeostatic sleep pressure through adenosine, inhibitory signaling through GABA, wake stabilization through orexin, and stress/arousal chemistry. Surface this when Kenny needs sleep explained as interacting systems rather than one magic molecule or supplement.",
       "tags": [
         "resource",
         "chemistry-biochemistry"
@@ -34534,5 +34534,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-02T08:38:58Z"
+  "generated_at": "2026-06-02T08:47:48Z"
 }
