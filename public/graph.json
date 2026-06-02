@@ -1990,7 +1990,7 @@
         "resource",
         "ai-ml"
       ],
-      "degree": 24
+      "degree": 25
     },
     {
       "id": "Resources/AI & Machine Learning/Variational Autoencoders (VAEs)",
@@ -8543,7 +8543,7 @@
       "label": "Bayes' Theorem",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Bayes' theorem updates belief in a hypothesis after observing evidence. It relates prior probability, likelihood, evidence probability, and posterior probability.",
+      "excerpt": "Explains Bayes' theorem as disciplined belief updating: posterior probability equals prior times likelihood divided by evidence. Includes the formula, medical-test base-rate example, odds form, repeated updating, ML applications, and common mistakes around base rates and causal interpretation.",
       "tags": [
         "resource",
         "mathematics"
@@ -8555,7 +8555,7 @@
       "label": "Big-O Notation and Complexity Analysis",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Big-O notation describes how algorithm cost grows as input size increases. Complexity analysis helps compare approaches by time, space, and scalability rather than by machine-specific timing.",
+      "excerpt": "Explains Big-O notation as asymptotic growth reasoning for time and space complexity, including common classes, examples, worst/average/amortized cases, lower bounds, and practical caveats. Emphasizes that Big-O is a scalability filter, not a substitute for benchmarking or understanding constants, cache behavior, and input shape.",
       "tags": [
         "resource",
         "mathematics"
@@ -8579,7 +8579,7 @@
       "label": "Calculus — Derivatives and Integrals",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Calculus studies change and accumulation through derivatives and integrals. Derivatives measure local rate of change, while integrals measure accumulated quantity over an interval.",
+      "excerpt": "Explains calculus as the math of local change and accumulated quantity: derivatives measure instant slope or sensitivity, while integrals add infinitesimal pieces into totals. Connects limits, the Fundamental Theorem of Calculus, optimization, motion, probability density, and gradient-based machine learning.",
       "tags": [
         "resource",
         "mathematics"
@@ -8603,7 +8603,7 @@
       "label": "Chain Rule (in Context of Backprop)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "The chain rule computes derivatives of composed functions by multiplying local derivative effects. Backpropagation applies the chain rule through a neural network so each parameter receives its contribution to the loss.",
+      "excerpt": "Explains the chain rule as multiplication of local derivative effects through composed functions, then maps that directly onto neural-network backpropagation. Covers computation graphs, upstream gradients, local gradients, forward/backward passes, automatic differentiation, and vanishing/exploding gradient failure modes.",
       "tags": [
         "resource",
         "mathematics"
@@ -8639,7 +8639,7 @@
       "label": "Eigenvalues and Eigenvectors",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Eigenvectors are directions that a linear transformation only scales, and eigenvalues are the scaling factors. They reveal hidden structure in matrices and appear in PCA, graph analysis, differential equations, and stability reasoning.",
+      "excerpt": "Explains eigenvectors as directions a transformation does not rotate, and eigenvalues as the scale factors along those directions. Connects the equation A v = lambda v to PCA, graph ranking, stability analysis, differential equations, and why dominant eigenvectors reveal hidden structure.",
       "tags": [
         "resource",
         "mathematics"
@@ -8675,7 +8675,7 @@
       "label": "Gradient and Partial Derivatives",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Partial derivatives measure how a multivariable function changes with respect to one input, and the gradient collects those derivatives into a vector. Gradients drive optimization by pointing toward steepest local increase.",
+      "excerpt": "Explains partial derivatives as one-variable-at-a-time sensitivities and gradients as the vector of all local sensitivities. Covers steepest ascent/descent, directional derivatives, feature scaling, saddle points, gradient magnitude, and why gradients are the training signal for modern ML.",
       "tags": [
         "resource",
         "mathematics"
@@ -8687,7 +8687,7 @@
       "label": "Graph Theory Fundamentals",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Graph theory studies nodes and edges, making it the natural language for networks, dependencies, maps, social systems, state spaces, and many algorithms. Core ideas include directedness, weights, paths, cycles, connectivity, trees, and traversal.",
+      "excerpt": "Explains graph theory as the math of entities and relationships, covering vertices, edges, directed/weighted graphs, paths, cycles, connectivity, trees, DAGs, adjacency representations, traversal, shortest paths, and graph failure modes. Connects the abstraction to dependencies, routing, recommendations, social networks, state spaces, and distributed systems.",
       "tags": [
         "resource",
         "mathematics"
@@ -8699,7 +8699,7 @@
       "label": "Information Theory — Entropy, Cross-Entropy, KL Divergence",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Information theory measures uncertainty, surprise, and difference between probability distributions. Entropy, cross-entropy, and KL divergence are central to compression, machine learning losses, language models, and variational inference.",
+      "excerpt": "Explains entropy, cross-entropy, and KL divergence as measures of uncertainty, coding cost, and mismatch between probability distributions. Connects Shannon information to compression, language-model next-token loss, log loss, perplexity, VAEs, and why KL direction matters.",
       "tags": [
         "resource",
         "mathematics"
@@ -8735,7 +8735,7 @@
       "label": "Linear Algebra — Vectors and Matrices",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Linear algebra studies vectors, matrices, linear transformations, and systems of equations. It is the mathematical language behind graphics, machine learning, optimization, embeddings, and many engineering models.",
+      "excerpt": "Builds intuition for vectors as quantities with direction or feature coordinates, and matrices as linear transformations, datasets, or systems of equations. Connects span, basis, rank, independence, projections, and matrix shape to ML embeddings, graphics, optimization, and data pipelines.",
       "tags": [
         "resource",
         "mathematics"
@@ -8759,7 +8759,7 @@
       "label": "Matrix Multiplication and Dot Products",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Dot products measure alignment between vectors, while matrix multiplication composes linear transformations and combines rows with columns. These operations power projections, neural network layers, graphics transforms, and similarity search.",
+      "excerpt": "Explains dot products as alignment-weighted sums and matrix multiplication as composing linear transformations or batching many dot products. Includes dimensions, worked examples, projection intuition, neural-network layers, attention scores, and common shape/order mistakes.",
       "tags": [
         "resource",
         "mathematics"
@@ -8783,7 +8783,7 @@
       "label": "Multivariable Calculus Basics",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Multivariable calculus extends calculus to functions with multiple inputs or outputs. It introduces partial derivatives, gradients, Jacobians, Hessians, and constrained optimization.",
+      "excerpt": "Extends single-variable calculus to functions with many inputs and outputs, covering partial derivatives, gradients, Jacobians, Hessians, level sets, constrained optimization, and directional derivatives. Frames ML loss landscapes as high-dimensional surfaces where local slope and curvature guide parameter updates.",
       "tags": [
         "resource",
         "mathematics"
@@ -8819,7 +8819,7 @@
       "label": "Probability Distributions (Normal, Binomial, Poisson, Exponential)",
       "folder": "Resources",
       "created": "2026-05-25",
-      "excerpt": "Probability distributions describe how likely different outcomes are. Normal, binomial, Poisson, and exponential distributions model common patterns such as measurement noise, success counts, event counts, and waiting times.",
+      "excerpt": "Explains probability distributions as data-generating models, comparing normal, binomial, Poisson, and exponential distributions by support, parameters, formulas, assumptions, examples, and failure modes. Emphasizes choosing distributions by mechanism, not by superficial histogram shape.",
       "tags": [
         "resource",
         "mathematics"
@@ -15371,7 +15371,7 @@
         "study",
         "ai"
       ],
-      "degree": 8
+      "degree": 7
     },
     {
       "id": "Resources/Vault Structure",
@@ -25679,15 +25679,15 @@
     },
     {
       "source": "Resources/Mathematics/Matrix Multiplication and Dot Products",
+      "target": "Resources/AI & Machine Learning/Transformer Architecture Deep Dive"
+    },
+    {
+      "source": "Resources/Mathematics/Matrix Multiplication and Dot Products",
       "target": "Resources/Mathematics/Eigenvalues and Eigenvectors"
     },
     {
       "source": "Resources/Mathematics/Matrix Multiplication and Dot Products",
       "target": "Resources/Mathematics/Linear Algebra — Vectors and Matrices"
-    },
-    {
-      "source": "Resources/Mathematics/Matrix Multiplication and Dot Products",
-      "target": "Resources/Transformer Architecture"
     },
     {
       "source": "Resources/Mathematics/Monte Carlo Methods",
@@ -34566,5 +34566,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-02T15:33:44Z"
+  "generated_at": "2026-06-02T16:00:37Z"
 }
