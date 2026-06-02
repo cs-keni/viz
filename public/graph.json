@@ -5129,7 +5129,7 @@
       "label": "Color Theory Fundamentals",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Color theory covers hue, saturation, value, contrast, harmony, semantics, accessibility, and emotional association. In product design, color should support hierarchy, meaning, state, and legibility.",
+      "excerpt": "Color in product design communicates hierarchy, state, brand, affordance, and emotion through hue, saturation, value, contrast, and semantic meaning, but it must preserve accessibility and never carry meaning alone. Surface this when choosing UI palettes, status colors, contrast, data colors, or design-system tokens.",
       "tags": [
         "resource",
         "design-ux"
@@ -5201,7 +5201,7 @@
       "label": "Gestalt Principles in Design",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Gestalt principles describe how people perceive visual patterns as organized wholes. Proximity, similarity, continuity, closure, common region, and figure-ground help designers create clear visual grouping.",
+      "excerpt": "Gestalt principles describe how people perceive visual elements as organized wholes: proximity, similarity, continuity, closure, figure-ground, common region, and connectedness create perceived relationships before users read labels. Surface this when layout feels visually noisy, grouped incorrectly, or hard to scan.",
       "tags": [
         "resource",
         "design-ux"
@@ -5213,7 +5213,7 @@
       "label": "Grid Systems in Design",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Grid systems create layout structure through columns, rows, margins, gutters, spacing, and alignment. They help interfaces feel organized, scalable, and easier to scan.",
+      "excerpt": "Grid systems create layout order through columns, margins, gutters, spacing scales, baselines, and responsive breakpoints, making interfaces easier to scan and implement consistently. Surface this when layouts feel arbitrary, cards do not align, responsive behavior is unclear, or design handoff lacks structure.",
       "tags": [
         "resource",
         "design-ux"
@@ -5225,7 +5225,7 @@
       "label": "Human-Centered Design Process",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Human-centered design starts with people's needs, contexts, constraints, and behaviors, then iterates through research, synthesis, ideation, prototyping, testing, and implementation. It treats design as learning, not decoration.",
+      "excerpt": "Human-centered design is an iterative learning process that starts from real human needs, contexts, constraints, and behaviors, then moves through research, synthesis, ideation, prototyping, testing, and implementation. Surface this when a product conversation jumps straight to features, visuals, or engineering before validating the user's problem.",
       "tags": [
         "resource",
         "design-ux"
@@ -5237,7 +5237,7 @@
       "label": "Information Architecture",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Information architecture organizes content, navigation, labels, and relationships so people can find and understand what they need. It is the structure beneath usable digital experiences.",
+      "excerpt": "Information architecture organizes content, navigation, labels, search, hierarchy, and relationships so users can find and understand what they need. Surface this when a product feels confusing even though individual screens look polished, especially in dashboards, docs, settings, knowledge bases, and multi-step workflows.",
       "tags": [
         "resource",
         "design-ux"
@@ -5249,7 +5249,7 @@
       "label": "Interaction Design Principles (Fitts's Law, Hick's Law, Jakob's Law)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Interaction design principles explain how people perceive, choose, and act in interfaces. Fitts's Law, Hick's Law, and Jakob's Law are useful heuristics for targets, choices, and familiar patterns.",
+      "excerpt": "Interaction design principles explain how target size, distance, choice count, familiarity, feedback, constraints, and error recovery shape usability; Fitts's Law, Hick's Law, and Jakob's Law are practical heuristics, not magic formulas. Surface this when diagnosing tiny buttons, crowded menus, unfamiliar patterns, slow feedback, or preventable user errors.",
       "tags": [
         "resource",
         "design-ux"
@@ -5309,7 +5309,7 @@
       "label": "Typography Fundamentals",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Typography shapes readability, hierarchy, tone, and information density through typeface choice, size, weight, line length, spacing, alignment, and contrast. Good typography makes content easier to use.",
+      "excerpt": "Typography controls readability, hierarchy, tone, density, and scanability through typeface, size, weight, line length, line height, spacing, alignment, and contrast. Surface this when UI text feels cluttered, hard to scan, off-brand, inaccessible, or visually inconsistent.",
       "tags": [
         "resource",
         "design-ux"
@@ -5321,7 +5321,7 @@
       "label": "UX Research Methods Overview",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "UX research methods help teams understand user needs, behavior, context, usability, and attitudes. Methods include interviews, surveys, usability tests, field studies, diary studies, analytics, and concept testing.",
+      "excerpt": "UX research methods answer different kinds of uncertainty: interviews and field studies explain why, usability tests reveal task friction, surveys estimate prevalence, analytics show behavior at scale, and diary studies capture longitudinal context. Surface this when a team needs to choose a research method instead of defaulting to surveys or vibes.",
       "tags": [
         "resource",
         "design-ux"
@@ -5333,7 +5333,7 @@
       "label": "User Personas",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "User personas are synthesized representations of target users, including goals, contexts, behaviors, needs, and constraints. They are useful when evidence-based and dangerous when invented as demographic stereotypes.",
+      "excerpt": "User personas are evidence-based summaries of behavioral patterns, goals, contexts, constraints, and decision criteria, not fictional demographic posters. Surface this when a team needs shared user memory, but challenge personas that are invented, stale, or less actionable than jobs-to-be-done scenarios.",
       "tags": [
         "resource",
         "design-ux"
@@ -5345,7 +5345,7 @@
       "label": "Wireframing vs Prototyping",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Wireframes sketch structure and information layout, while prototypes simulate interaction, flow, and behavior. Both reduce uncertainty, but they answer different design questions.",
+      "excerpt": "Wireframes answer structure and hierarchy questions, while prototypes answer flow, interaction, feedback, and realism questions; fidelity should match the risk being tested. Surface this when deciding whether to sketch, mock up, prototype, or build before the team wastes effort polishing the wrong artifact.",
       "tags": [
         "resource",
         "design-ux"
@@ -34531,5 +34531,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-02T05:25:01Z"
+  "generated_at": "2026-06-02T05:45:25Z"
 }
