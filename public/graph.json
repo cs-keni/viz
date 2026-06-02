@@ -2125,7 +2125,7 @@
       "label": "Black Holes — Formation, Types, Hawking Radiation",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Black holes are regions where gravity is strong enough that nothing inside the event horizon can escape. They form through stellar collapse, mergers, and galactic growth, and theoretical Hawking radiation links gravity, quantum mechanics, and thermodynamics.",
+      "excerpt": "Explains black holes as spacetime regions with event horizons, not cosmic vacuum cleaners. Covers stellar-mass and supermassive black holes, accretion disks, tidal forces, mergers, gravitational waves, Hawking radiation, information puzzles, and how astronomers infer black holes from motion, light, and spacetime signals.",
       "tags": [
         "resource",
         "astronomy-space"
@@ -2137,7 +2137,7 @@
       "label": "Cosmic Calendar (Carl Sagan) — Scale of the Universe",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Cosmic Calendar compresses the universe's history into one calendar year, making deep time easier to grasp. On this scale, human civilization appears in the final moments of December 31.",
+      "excerpt": "Explains Carl Sagan's Cosmic Calendar as a scale model compressing 13.8 billion years into one year. Shows how galaxies, the solar system, life, dinosaurs, humans, agriculture, and modern civilization fall into late-year or final-day moments, making deep time emotionally legible.",
       "tags": [
         "resource",
         "astronomy-space"
@@ -2149,7 +2149,7 @@
       "label": "Exoplanet Detection Methods (Transit, Radial Velocity)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Exoplanets are usually detected indirectly through methods such as transits, radial velocity, direct imaging, microlensing, and astrometry. Each method has biases that shape what kinds of planets are easiest to find.",
+      "excerpt": "Explains exoplanet detection as inference from tiny changes in starlight and stellar motion. Covers transit depth, radial-velocity Doppler shifts, direct imaging, microlensing, astrometry, atmospheric spectroscopy, selection biases, false positives, and why detection method shapes what planets we think are common.",
       "tags": [
         "resource",
         "astronomy-space"
@@ -2161,7 +2161,7 @@
       "label": "Gravitational Waves — LIGO and Discovery",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Gravitational waves are ripples in spacetime produced by accelerating massive objects, especially compact-object mergers. LIGO's first direct detection opened a new observational channel for astronomy.",
+      "excerpt": "Explains gravitational waves as tiny ripples in spacetime from accelerating massive objects, detected by laser interferometers such as LIGO. Covers GW150914, strain, matched filtering, compact-object mergers, neutron-star multi-messenger astronomy, noise control, and why this is astronomy by measuring spacetime rather than light.",
       "tags": [
         "resource",
         "astronomy-space"
@@ -2173,7 +2173,7 @@
       "label": "James Webb Space Telescope — Key Discoveries",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The James Webb Space Telescope observes infrared light to study early galaxies, star formation, exoplanet atmospheres, disks, nebulae, and solar-system objects. Its discoveries are reshaping details of cosmic history rather than replacing all prior astronomy.",
+      "excerpt": "Explains JWST's key scientific impact as infrared, high-resolution imaging and spectroscopy across early galaxies, star formation, exoplanet atmospheres, disks, brown dwarfs, and solar-system objects. Covers why L2, infrared sensitivity, redshift, dust penetration, and spectra matter, with current examples like early massive galaxies and WASP-39 b atmospheric chemistry.",
       "tags": [
         "resource",
         "astronomy-space"
@@ -2185,7 +2185,7 @@
       "label": "Mars Colonization — Technical and Biological Challenges",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Mars colonization is constrained by radiation, low gravity, thin atmosphere, dust, cold, closed-loop life support, entry and landing, psychology, medicine, and supply chains. It is much harder than simply reaching Mars.",
+      "excerpt": "Explains Mars colonization as a systems-engineering and biology problem, not just a destination. Covers radiation, 0.38g gravity, thin CO2 atmosphere, dust, cold, entry/descent/landing, closed-loop life support, ISRU, psychology, medicine, governance, and the distinction between exploration bases and self-sustaining settlement.",
       "tags": [
         "resource",
         "astronomy-space"
@@ -2197,7 +2197,7 @@
       "label": "Orbital Mechanics Basics (Kepler, Delta-V, Hohmann Transfer)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Orbital mechanics describes motion under gravity using concepts such as Kepler's laws, energy, angular momentum, delta-v, and transfer orbits. Getting somewhere in space means changing orbit, not steering through a flat map.",
+      "excerpt": "Explains orbital mechanics as changing gravitational paths with timed velocity changes, not steering through space like a flat map. Covers Kepler's laws, vis-viva intuition, delta-v, Hohmann transfers, plane changes, gravity assists, launch windows, and counterintuitive effects like speeding up to raise orbit and slow angular motion.",
       "tags": [
         "resource",
         "astronomy-space"
@@ -2209,7 +2209,7 @@
       "label": "Rocket Science Basics (Tsiolkovsky Rocket Equation)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Rocket science is dominated by the rocket equation, which links velocity change to exhaust velocity and mass ratio. The equation explains why staging, high-efficiency engines, and low dry mass matter so much.",
+      "excerpt": "Explains rocket science through the Tsiolkovsky rocket equation: delta-v equals exhaust velocity times log mass ratio. Covers why staging, specific impulse, dry mass, gravity/drag losses, payload fraction, reusability, and orbital velocity make spaceflight unforgiving.",
       "tags": [
         "resource",
         "astronomy-space"
@@ -2221,7 +2221,7 @@
       "label": "Search for Extraterrestrial Intelligence (SETI)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "SETI searches for evidence of extraterrestrial technology, usually through radio, optical, infrared, and technosignature surveys. It is constrained by distance, assumptions about communication, signal rarity, and limited search coverage.",
+      "excerpt": "Explains SETI as the search for extraterrestrial technology rather than life itself, using radio, optical, infrared, atmospheric, artifact, and other technosignature strategies. Covers narrowband signals, laser pulses, waste heat, false positives, search-volume limits, and why silence only constrains the assumptions actually searched.",
       "tags": [
         "resource",
         "astronomy-space"
@@ -2233,7 +2233,7 @@
       "label": "Solar System Overview",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The solar system includes the Sun, planets, dwarf planets, moons, asteroids, comets, Kuiper Belt objects, and the distant Oort Cloud. Its structure reflects gravity, angular momentum, accretion, and billions of years of collisions and migration.",
+      "excerpt": "Explains the solar system as a gravitationally structured remnant of a protoplanetary disk: Sun, rocky planets, gas/ice giants, moons, asteroids, Kuiper Belt objects, comets, and the distant Oort Cloud. Emphasizes scale, formation, migration, resonances, impacts, and why moons and small bodies are scientifically important.",
       "tags": [
         "resource",
         "astronomy-space"
@@ -2245,7 +2245,7 @@
       "label": "Space Exploration Timeline (Sputnik to Artemis)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Space exploration progressed from Sputnik and early human spaceflight through Apollo, space stations, robotic probes, reusable rockets, commercial launch, and Artemis. The timeline is a mix of science, geopolitics, engineering, and institutional risk.",
+      "excerpt": "Explains space exploration as a timeline shaped by geopolitics, science, military technology, robotics, reusable launch, commercial providers, space stations, and Artemis. Includes Sputnik, Gagarin, Apollo, Shuttle, ISS, robotic probes, SpaceX-era launch economics, Artemis I/II, and the current Artemis III shift toward 2027 LEO rendezvous/docking tests.",
       "tags": [
         "resource",
         "astronomy-space"
@@ -2257,7 +2257,7 @@
       "label": "Stellar Evolution (Star Birth, Main Sequence, Supernovae, Remnants)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Stellar evolution describes how stars form from gas clouds, spend most of their lives fusing hydrogen, and end as white dwarfs, neutron stars, or black holes depending on mass. A star's mass is the dominant variable.",
+      "excerpt": "Explains stellar evolution as gravity-versus-fusion over time: clouds collapse into protostars, main-sequence stars fuse hydrogen, mass sets lifetime, and endings become white dwarfs, neutron stars, or black holes. Covers hydrostatic equilibrium, fusion shells, red giants, supernovae, remnants, and chemical enrichment.",
       "tags": [
         "resource",
         "astronomy-space"
@@ -2269,7 +2269,7 @@
       "label": "The Drake Equation",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Drake Equation organizes the question of detectable extraterrestrial civilizations into factors such as star formation, planets, habitability, life, intelligence, technology, and civilization lifetime. Its value is conceptual more than predictive.",
+      "excerpt": "Explains the Drake Equation as structured uncertainty about detectable civilizations, multiplying factors for star formation, planets, habitability, life, intelligence, technology, and civilization lifetime. Emphasizes that astronomy terms improved with exoplanet surveys while biological and sociological terms remain order-of-magnitude unknowns.",
       "tags": [
         "resource",
         "astronomy-space"
@@ -2281,7 +2281,7 @@
       "label": "The Fermi Paradox — Great Filter and Solutions",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Fermi Paradox asks why we see no clear evidence of extraterrestrial civilizations if the galaxy has many stars, planets, and time. Proposed answers include rarity, self-destruction, communication limits, non-expansion, and observation bias.",
+      "excerpt": "Explains the Fermi Paradox as the tension between a vast old galaxy and no confirmed extraterrestrial civilizations. Covers the Great Filter, rare life, rare intelligence, short-lived civilizations, non-expansion, communication limits, zoo/dark forest ideas, search bias, and why the paradox exposes assumptions more than it proves solitude.",
       "tags": [
         "resource",
         "astronomy-space"
@@ -34622,5 +34622,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-02T17:34:43Z"
+  "generated_at": "2026-06-02T17:49:09Z"
 }
