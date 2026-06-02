@@ -746,6 +746,15 @@
       "degree": 1
     },
     {
+      "id": "Deliberate Practice",
+      "label": "Deliberate Practice",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Dependency Injection",
       "label": "Dependency Injection",
       "folder": null,
@@ -2481,7 +2490,7 @@
         "resource",
         "biology-life-sciences"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Bobby Commands",
@@ -5803,7 +5812,7 @@
         "resource",
         "economics-finance"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Economics & Finance/Bitcoin — Blockchain, Proof of Work, Mining",
@@ -6503,43 +6512,7 @@
       "label": "Competitive Gaming Psychology",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Competitive gaming psychology studies performance under pressure, attention, tilt, confidence, motivation, teamwork, practice, and decision-making. Mental skill can decide outcomes when mechanical skill is similar.",
-      "tags": [
-        "resource",
-        "gaming"
-      ],
-      "degree": 5
-    },
-    {
-      "id": "Resources/Gaming/Difficulty Scaling in Games",
-      "label": "Difficulty Scaling in Games",
-      "folder": "Resources",
-      "created": "2026-05-26",
-      "excerpt": "Difficulty scaling adjusts challenge over time through enemy behavior, resource pressure, level design, progression, adaptive systems, and optional mastery. Good scaling preserves tension without feeling unfair or patronizing.",
-      "tags": [
-        "resource",
-        "gaming"
-      ],
-      "degree": 4
-    },
-    {
-      "id": "Resources/Gaming/Esports Industry Overview",
-      "label": "Esports Industry Overview",
-      "folder": "Resources",
-      "created": "2026-05-26",
-      "excerpt": "Esports is the organized competitive gaming ecosystem of players, teams, leagues, publishers, sponsors, broadcasters, platforms, tournaments, and fans. Its economics depend heavily on game ownership, media rights, sponsorship, and community engagement.",
-      "tags": [
-        "resource",
-        "gaming"
-      ],
-      "degree": 3
-    },
-    {
-      "id": "Resources/Gaming/Game Balance Design",
-      "label": "Game Balance Design",
-      "folder": "Resources",
-      "created": "2026-05-26",
-      "excerpt": "Game balance tunes systems so choices, challenges, rewards, and strategies feel fair, interesting, and sustainable. Balance is contextual: perfect symmetry is not always the goal.",
+      "excerpt": "Explains competitive gaming psychology through attention control, tilt, arousal, confidence, deliberate practice, teamwork, communication, recovery, and decision-making under pressure. Connects sports-psych concepts to ranked ladders, tournaments, mechanics, VOD review, scrims, and why emotional regulation determines whether skill appears in match.",
       "tags": [
         "resource",
         "gaming"
@@ -6547,47 +6520,143 @@
       "degree": 8
     },
     {
-      "id": "Resources/Gaming/Game Design Fundamentals",
-      "label": "Game Design Fundamentals",
+      "id": "Resources/Gaming/Difficulty Scaling in Games",
+      "label": "Difficulty Scaling in Games",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Game design creates structured play through goals, rules, feedback, challenge, choice, progression, and reward. Good design aligns mechanics, dynamics, aesthetics, and player motivation.",
+      "excerpt": "Explains difficulty scaling as tuning challenge over time through teaching, testing, enemy behavior, resource pressure, level design, optional mastery, adaptive systems, and player-selected modes. Focuses on fairness perception, readable failure, rubber-banding risks, difficulty curves, and why challenge should feel earned rather than arbitrary.",
       "tags": [
         "resource",
         "gaming"
       ],
-      "degree": 7
+      "degree": 8
+    },
+    {
+      "id": "Resources/Gaming/Esports Industry Overview",
+      "label": "Esports Industry Overview",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Explains esports as a hybrid of competitive sport, media product, software platform, publisher-owned IP, sponsorship business, streaming ecosystem, and fandom. Covers teams, leagues, tournaments, publishers, patch control, revenue sources, player careers, sustainability problems, and why esports economics differ from traditional sports.",
+      "tags": [
+        "resource",
+        "gaming"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/Gaming/Game Balance Design",
+      "label": "Game Balance Design",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Explains game balance as tuning incentives so choices, challenges, rewards, economies, strategies, and skill expression stay fair and interesting. Covers dominant strategies, perceived fairness, asymmetry, metagames, buffs/nerfs, economy sinks/sources, telemetry, playtesting, and why perfect numerical equality is not the same as good balance.",
+      "tags": [
+        "resource",
+        "gaming"
+      ],
+      "degree": 11
+    },
+    {
+      "id": "Resources/Gaming/Game Design Fundamentals",
+      "label": "Game Design Fundamentals",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Explains game design as the craft of shaping player behavior through goals, rules, feedback, challenge, agency, progression, and reward. Uses the mechanics-dynamics-aesthetics lens, player motivation, failure modes like dominant strategies and unclear feedback, and concrete examples Bobby can use when discussing why a game actually feels good.",
+      "tags": [
+        "resource",
+        "gaming"
+      ],
+      "degree": 8
     },
     {
       "id": "Resources/Gaming/Game Narrative Design",
       "label": "Game Narrative Design",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Game narrative design integrates story with mechanics, player agency, world, pacing, dialogue, quests, and environmental storytelling. The challenge is making story respond to play rather than merely interrupt it.",
+      "excerpt": "Explains game narrative design as interactive storytelling through mechanics, agency, quests, world state, environmental storytelling, dialogue, pacing, and emergent systems. Covers linear vs branching vs systemic narrative, ludonarrative dissonance, player-authored moments, and why game stories work best when play carries meaning.",
       "tags": [
         "resource",
         "gaming"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Gaming/Game Physics Engines Overview",
       "label": "Game Physics Engines Overview",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Game physics engines simulate motion, collision, forces, constraints, rigid bodies, and sometimes soft bodies or fluids. They prioritize believable, stable, performant behavior over perfect physical realism.",
+      "excerpt": "Explains game physics engines as systems for believable motion, collision detection, collision response, constraints, rigid bodies, triggers, raycasts, and stable simulation. Emphasizes that games optimize for feel, consistency, and performance rather than perfect realism, with examples like tunneling, fixed timesteps, and character-controller tradeoffs.",
       "tags": [
         "resource",
         "gaming"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Gaming/Gaming and Flow State",
       "label": "Gaming and Flow State",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Gaming can produce flow when challenge and skill are well matched, goals are clear, feedback is immediate, and attention is fully absorbed. Flow explains why well-designed games feel compelling and time-distorting.",
+      "excerpt": "Explains why games produce flow: clear goals, immediate feedback, challenge-skill balance, agency, deep attention, and recoverable failure. Covers boredom/anxiety tuning, progression curves, multiplayer disruption, compulsive engagement boundaries, and how flow differs from grind or variable-reward capture.",
+      "tags": [
+        "resource",
+        "gaming"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Gaming/Monetization Models in Games (Gacha, Battle Pass, DLC)",
+      "label": "Monetization Models in Games (Gacha, Battle Pass, DLC)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Explains game monetization models as design incentives, not just pricing: premium, DLC, subscriptions, cosmetics, battle passes, ads, loot boxes, and gacha all shape progression, retention, trust, fairness, and content cadence. Highlights pay-to-win boundaries, FOMO, whales, live-service economics, and ethical design tradeoffs.",
+      "tags": [
+        "resource",
+        "gaming"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Gaming/Open World Design",
+      "label": "Open World Design",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Explains open world design as creating meaningful freedom through spatial structure, landmarks, traversal, density, pacing, systemic interaction, discovery, and consequence. Emphasizes scale versus density, curiosity loops, traversal feel, player-authored goals, and the failure mode of large maps filled with low-meaning checklist content.",
+      "tags": [
+        "resource",
+        "gaming"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Resources/Gaming/Pathfinding Algorithms (A*, NavMesh)",
+      "label": "Pathfinding Algorithms (A*, NavMesh)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Explains game pathfinding as converting space into graphs or navigation meshes, then finding believable routes with A*, heuristics, costs, steering, replanning, and local avoidance. Connects algorithm correctness to level design, AI readability, performance budgets, dynamic obstacles, and why valid paths still need to look intentional.",
+      "tags": [
+        "resource",
+        "gaming"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Gaming/Procedural Generation Techniques",
+      "label": "Procedural Generation Techniques",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Explains procedural generation as controlled possibility-space design, not just randomness. Covers seeds, noise, grammars, constraint solving, templates, cellular automata, roguelike maps, terrain, loot tables, validation filters, authored constraints, and why generated content must be curated for pacing, fairness, and readability.",
+      "tags": [
+        "resource",
+        "gaming"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/Gaming/The Game Loop (Input, Update, Render)",
+      "label": "The Game Loop (Input, Update, Render)",
+      "folder": "Resources",
+      "created": "2026-05-26",
+      "excerpt": "Explains the game loop as the runtime heartbeat that repeatedly reads input, advances simulation, and renders frames. Covers fixed vs variable timesteps, delta time, physics stability, input latency, update ordering, interpolation, and why responsive feedback is the engineering foundation of game feel.",
       "tags": [
         "resource",
         "gaming"
@@ -6595,76 +6664,16 @@
       "degree": 7
     },
     {
-      "id": "Resources/Gaming/Monetization Models in Games (Gacha, Battle Pass, DLC)",
-      "label": "Monetization Models in Games (Gacha, Battle Pass, DLC)",
-      "folder": "Resources",
-      "created": "2026-05-26",
-      "excerpt": "Game monetization models include premium purchase, DLC, subscriptions, cosmetics, battle passes, ads, loot boxes, and gacha systems. Monetization shapes design incentives and can conflict with player trust.",
-      "tags": [
-        "resource",
-        "gaming"
-      ],
-      "degree": 4
-    },
-    {
-      "id": "Resources/Gaming/Open World Design",
-      "label": "Open World Design",
-      "folder": "Resources",
-      "created": "2026-05-26",
-      "excerpt": "Open world design creates large navigable spaces with exploration, landmarks, traversal, activities, pacing, systemic interaction, and player-driven goals. The core challenge is making freedom meaningful rather than empty.",
-      "tags": [
-        "resource",
-        "gaming"
-      ],
-      "degree": 6
-    },
-    {
-      "id": "Resources/Gaming/Pathfinding Algorithms (A*, NavMesh)",
-      "label": "Pathfinding Algorithms (A*, NavMesh)",
-      "folder": "Resources",
-      "created": "2026-05-26",
-      "excerpt": "Pathfinding algorithms help game agents move through environments using graph search, heuristics, navigation meshes, and local avoidance. A* and NavMesh systems balance correctness, realism, and performance.",
-      "tags": [
-        "resource",
-        "gaming"
-      ],
-      "degree": 4
-    },
-    {
-      "id": "Resources/Gaming/Procedural Generation Techniques",
-      "label": "Procedural Generation Techniques",
-      "folder": "Resources",
-      "created": "2026-05-26",
-      "excerpt": "Procedural generation creates game content algorithmically, including levels, terrain, items, quests, names, maps, and encounters. Good procedural systems combine randomness, constraints, authored rules, and quality control.",
-      "tags": [
-        "resource",
-        "gaming"
-      ],
-      "degree": 4
-    },
-    {
-      "id": "Resources/Gaming/The Game Loop (Input, Update, Render)",
-      "label": "The Game Loop (Input, Update, Render)",
-      "folder": "Resources",
-      "created": "2026-05-26",
-      "excerpt": "The game loop repeatedly processes input, updates simulation state, and renders output. It is the runtime heartbeat that turns code, assets, and rules into continuous interactive experience.",
-      "tags": [
-        "resource",
-        "gaming"
-      ],
-      "degree": 6
-    },
-    {
       "id": "Resources/Gaming/The Psychology of Loot Boxes and Variable Rewards",
       "label": "The Psychology of Loot Boxes and Variable Rewards",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Loot boxes and variable rewards use uncertainty, anticipation, scarcity, loss aversion, and social comparison to increase engagement and spending. They raise design, ethical, and regulatory concerns when they exploit vulnerable players.",
+      "excerpt": "Explains loot boxes and variable rewards through variable-ratio reinforcement, anticipation, dopamine reward prediction, near misses, scarcity, sunk cost, loss aversion, social comparison, and monetization ethics. Distinguishes healthy surprise from gambling-adjacent manipulation, with practical warning signs like opaque odds, FOMO, whales, and frictionless spending.",
       "tags": [
         "resource",
         "gaming"
       ],
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "Resources/Geospatial",
@@ -8692,7 +8701,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Mathematics/Information Theory — Entropy, Cross-Entropy, KL Divergence",
@@ -8776,7 +8785,7 @@
         "resource",
         "mathematics"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Mathematics/Multivariable Calculus Basics",
@@ -16059,15 +16068,6 @@
       "degree": 1
     },
     {
-      "id": "Stress Response",
-      "label": "Stress Response",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
       "id": "Synaptic Plasticity (Hebbian Learning — \"Neurons that Fire Together\")",
       "label": "Synaptic Plasticity (Hebbian Learning — \"Neurons that Fire Together\")",
       "folder": null,
@@ -22871,6 +22871,14 @@
     },
     {
       "source": "Resources/Gaming/Competitive Gaming Psychology",
+      "target": "Deliberate Practice"
+    },
+    {
+      "source": "Resources/Gaming/Competitive Gaming Psychology",
+      "target": "Resources/Biology & Life Sciences/The Stress Response (Fight-or-Flight, Freeze, Fawn)"
+    },
+    {
+      "source": "Resources/Gaming/Competitive Gaming Psychology",
       "target": "Resources/Gaming/Game Balance Design"
     },
     {
@@ -22878,8 +22886,8 @@
       "target": "Resources/Gaming/Gaming and Flow State"
     },
     {
-      "source": "Resources/Gaming/Competitive Gaming Psychology",
-      "target": "Stress Response"
+      "source": "Resources/Gaming/Difficulty Scaling in Games",
+      "target": "Resources/Gaming/Competitive Gaming Psychology"
     },
     {
       "source": "Resources/Gaming/Difficulty Scaling in Games",
@@ -22906,6 +22914,10 @@
       "target": "Resources/Gaming/Competitive Gaming Psychology"
     },
     {
+      "source": "Resources/Gaming/Esports Industry Overview",
+      "target": "Resources/Gaming/Game Balance Design"
+    },
+    {
       "source": "Resources/Gaming/Game Balance Design",
       "target": "A-B Testing Fundamentals"
     },
@@ -22915,7 +22927,15 @@
     },
     {
       "source": "Resources/Gaming/Game Balance Design",
+      "target": "Resources/Gaming/Difficulty Scaling in Games"
+    },
+    {
+      "source": "Resources/Gaming/Game Balance Design",
       "target": "Resources/Gaming/Game Design Fundamentals"
+    },
+    {
+      "source": "Resources/Gaming/Game Design Fundamentals",
+      "target": "Resources/Gaming/Difficulty Scaling in Games"
     },
     {
       "source": "Resources/Gaming/Game Design Fundamentals",
@@ -22942,6 +22962,14 @@
       "target": "Resources/Gaming/Game Design Fundamentals"
     },
     {
+      "source": "Resources/Gaming/Game Narrative Design",
+      "target": "Resources/Gaming/Open World Design"
+    },
+    {
+      "source": "Resources/Gaming/Game Physics Engines Overview",
+      "target": "Resources/Gaming/Difficulty Scaling in Games"
+    },
+    {
       "source": "Resources/Gaming/Game Physics Engines Overview",
       "target": "Resources/Gaming/Game Balance Design"
     },
@@ -22966,6 +22994,10 @@
       "target": "Resources/Gaming/Game Design Fundamentals"
     },
     {
+      "source": "Resources/Gaming/Gaming and Flow State",
+      "target": "Resources/Gaming/The Psychology of Loot Boxes and Variable Rewards"
+    },
+    {
       "source": "Resources/Gaming/Monetization Models in Games (Gacha, Battle Pass, DLC)",
       "target": "Resources/Design & UX/Dark Patterns — A Catalog of What to Avoid"
     },
@@ -22975,11 +23007,19 @@
     },
     {
       "source": "Resources/Gaming/Monetization Models in Games (Gacha, Battle Pass, DLC)",
+      "target": "Resources/Gaming/Game Balance Design"
+    },
+    {
+      "source": "Resources/Gaming/Monetization Models in Games (Gacha, Battle Pass, DLC)",
       "target": "Resources/Gaming/The Psychology of Loot Boxes and Variable Rewards"
     },
     {
       "source": "Resources/Gaming/Open World Design",
       "target": "Resources/Film & Storytelling/Worldbuilding Principles"
+    },
+    {
+      "source": "Resources/Gaming/Open World Design",
+      "target": "Resources/Gaming/Game Narrative Design"
     },
     {
       "source": "Resources/Gaming/Open World Design",
@@ -23002,6 +23042,10 @@
       "target": "Resources/Gaming/The Game Loop (Input, Update, Render)"
     },
     {
+      "source": "Resources/Gaming/Pathfinding Algorithms (A*, NavMesh)",
+      "target": "Resources/Mathematics/Graph Theory Fundamentals"
+    },
+    {
       "source": "Resources/Gaming/Procedural Generation Techniques",
       "target": "Randomness and Probability Distributions"
     },
@@ -23014,8 +23058,16 @@
       "target": "Resources/Gaming/Open World Design"
     },
     {
+      "source": "Resources/Gaming/Procedural Generation Techniques",
+      "target": "Resources/Mathematics/Monte Carlo Methods"
+    },
+    {
       "source": "Resources/Gaming/The Game Loop (Input, Update, Render)",
       "target": "Resources/Design & UX/Motion Design Principles"
+    },
+    {
+      "source": "Resources/Gaming/The Game Loop (Input, Update, Render)",
+      "target": "Resources/Gaming/Competitive Gaming Psychology"
     },
     {
       "source": "Resources/Gaming/The Game Loop (Input, Update, Render)",
@@ -23028,6 +23080,10 @@
     {
       "source": "Resources/Gaming/The Psychology of Loot Boxes and Variable Rewards",
       "target": "Resources/Design & UX/Dark Patterns — A Catalog of What to Avoid"
+    },
+    {
+      "source": "Resources/Gaming/The Psychology of Loot Boxes and Variable Rewards",
+      "target": "Resources/Economics & Finance/Behavioral Economics Overview"
     },
     {
       "source": "Resources/Gaming/The Psychology of Loot Boxes and Variable Rewards",
@@ -34566,5 +34622,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-02T16:09:42Z"
+  "generated_at": "2026-06-02T16:19:03Z"
 }
