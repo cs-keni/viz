@@ -5117,7 +5117,7 @@
       "label": "Accessibility in Design (WCAG 2.1, 2.2)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Accessibility in design ensures products can be used by people with varied vision, hearing, motor, cognitive, and situational needs. WCAG 2.1 and 2.2 organize guidance around perceivable, operable, understandable, and robust experiences.",
+      "excerpt": "Accessibility in design makes products perceivable, operable, understandable, and robust for people with varied vision, hearing, motor, cognitive, and situational needs. Surface this when discussing WCAG 2.1/2.2, keyboard use, contrast, forms, focus, screen readers, motion sensitivity, touch targets, or why accessibility is product quality rather than a post-launch checklist.",
       "tags": [
         "resource",
         "design-ux"
@@ -5141,7 +5141,7 @@
       "label": "Dark Patterns — A Catalog of What to Avoid",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Dark patterns are deceptive or manipulative interface designs that push users into choices they might not otherwise make. They can increase short-term metrics while damaging trust, autonomy, and sometimes legal compliance.",
+      "excerpt": "Dark patterns are interface choices that manipulate, deceive, coerce, or exhaust users into decisions that serve the business against user intent. Surface this when metrics improve through confusion, friction asymmetry, hidden costs, forced continuity, privacy obstruction, or emotional pressure.",
       "tags": [
         "resource",
         "design-ux"
@@ -5153,7 +5153,7 @@
       "label": "Design Handoff to Engineering",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Design handoff to engineering translates product intent, interaction states, edge cases, assets, accessibility requirements, and design tokens into buildable guidance. Good handoff is collaboration, not a file drop.",
+      "excerpt": "Design handoff to engineering is a collaboration contract that captures intent, states, responsive behavior, tokens, assets, accessibility requirements, edge cases, and tradeoffs before implementation. Surface this when engineers are guessing from mockups, designs omit empty/error/loading states, or production diverges from Figma.",
       "tags": [
         "resource",
         "design-ux"
@@ -5165,7 +5165,7 @@
       "label": "Design Systems Overview",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Design systems are shared foundations for product design and engineering, including components, tokens, patterns, guidelines, and governance. They improve consistency and speed when treated as living infrastructure.",
+      "excerpt": "A design system is shared product infrastructure: tokens, components, patterns, content rules, accessibility guidance, and governance that keep design and engineering decisions coherent at scale. Surface this when teams are duplicating UI, arguing over one-off styles, drifting from accessibility, or treating a component library as the whole system.",
       "tags": [
         "resource",
         "design-ux"
@@ -5177,7 +5177,7 @@
       "label": "Designing for Emotion",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Designing for emotion considers how products make people feel through clarity, control, trust, delight, safety, momentum, and identity. Emotional design should support user goals rather than manipulate them.",
+      "excerpt": "Designing for emotion shapes how users feel through clarity, control, trust, momentum, safety, delight, identity, and recovery from mistakes; emotional design supports goals when incentives are aligned and becomes manipulation when they are not. Surface this when a product technically works but makes users anxious, stupid, unsafe, or unmotivated.",
       "tags": [
         "resource",
         "design-ux"
@@ -5189,7 +5189,7 @@
       "label": "Figma Workflow and Components",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Figma workflows use files, pages, frames, components, variants, auto layout, styles, variables, libraries, and comments to support collaborative design. Good structure makes design easier to maintain and hand off.",
+      "excerpt": "Figma workflow quality comes from organized files, frames, auto layout, components, variants, variables, libraries, naming, comments, and design-system alignment that make design maintainable and buildable. Surface this when design files become hard to review, component states drift, or engineering handoff depends on screenshots and guessing.",
       "tags": [
         "resource",
         "design-ux"
@@ -5261,7 +5261,7 @@
       "label": "Micro-Interactions Design",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Micro-interactions are small product moments that handle feedback, status, affordance, confirmation, error prevention, and delight. They make interfaces feel responsive and understandable.",
+      "excerpt": "Micro-interactions are small product moments made of a trigger, rules, feedback, and loops/modes; they clarify status, prevent errors, and build trust at the instant users act. Surface this when discussing toggles, saves, uploads, validation, hover states, loading, empty states, or why tiny UX details change perceived quality.",
       "tags": [
         "resource",
         "design-ux"
@@ -5273,7 +5273,7 @@
       "label": "Mobile-First Design",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Mobile-first design starts with constrained screen space, touch interaction, performance, and core tasks before expanding to larger screens. It forces prioritization and helps create responsive experiences.",
+      "excerpt": "Mobile-first design starts from constrained screens, touch input, performance budgets, context switching, and core task priority, then progressively enhances for larger screens. Surface this when a product is cluttered, desktop-biased, hard to use one-handed, or missing responsive behavior.",
       "tags": [
         "resource",
         "design-ux"
@@ -5285,7 +5285,7 @@
       "label": "Motion Design Principles",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Motion design uses animation and transition to clarify state changes, guide attention, express continuity, and provide feedback. Good motion supports understanding; excessive motion becomes noise or an accessibility problem.",
+      "excerpt": "Motion design uses time, easing, duration, choreography, and continuity to explain state changes, guide attention, provide feedback, and preserve spatial context. Surface this when animation needs to clarify what changed rather than add decorative movement or create accessibility problems.",
       "tags": [
         "resource",
         "design-ux"
@@ -5297,7 +5297,7 @@
       "label": "The Aesthetic-Usability Effect",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The aesthetic-usability effect is the tendency for users to perceive attractive designs as easier to use. Visual polish can increase tolerance and trust, but it cannot fully compensate for broken usability.",
+      "excerpt": "The aesthetic-usability effect is the tendency for users to perceive attractive designs as easier to use, especially early, because visual harmony can increase trust and tolerance. Surface this when explaining why polish matters, while guarding against the mistake of using beauty to mask broken task flow or accessibility.",
       "tags": [
         "resource",
         "design-ux"
@@ -34531,5 +34531,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-02T05:45:25Z"
+  "generated_at": "2026-06-02T05:55:45Z"
 }
