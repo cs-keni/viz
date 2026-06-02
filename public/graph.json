@@ -7550,7 +7550,7 @@
       "label": "Bell Labs and Its Innovations",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Bell Labs was one of the most productive industrial research labs in history, contributing the transistor, information theory, Unix, C, lasers, cellular concepts, and major physics discoveries. It shows what long-horizon research institutions can produce.",
+      "excerpt": "Bell Labs produced the transistor, information theory, Unix, C, lasers, cellular concepts, and major physics discoveries because monopoly-era telecom funding supported long-horizon research tied to real engineering problems. Surface this when discussing why breakthrough technology often comes from institutions, not lone genius alone.",
       "tags": [
         "resource",
         "history-of-technology"
@@ -7574,7 +7574,7 @@
       "label": "History of Cloud Computing",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Cloud computing evolved from time-sharing, virtualization, hosting, and utility computing into on-demand infrastructure, platforms, serverless, managed databases, and global developer services. AWS popularized the modern cloud model.",
+      "excerpt": "Cloud computing evolved from time-sharing, virtualization, hosting, and utility computing into on-demand infrastructure, managed services, serverless, and global developer platforms. Surface this when explaining why startups can scale without buying servers, why architecture became a recurring cost decision, and why cloud providers became strategic infrastructure.",
       "tags": [
         "resource",
         "history-of-technology"
@@ -7670,7 +7670,7 @@
       "label": "History of Video Game Consoles",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Video game console history moves through arcade-inspired home systems, the 1983 crash, Nintendo's revival, 3D graphics, optical media, online services, motion controls, and hybrid hardware. Consoles are shaped by hardware cycles, exclusive games, distribution, and living-room culture.",
+      "excerpt": "Video game consoles are specialized consumer computing platforms shaped by hardware generations, controller design, exclusive software, licensing, media formats, online services, and living-room identity. Surface this when connecting gaming history to platform strategy, hardware constraints, and why console generations feel culturally distinct.",
       "tags": [
         "resource",
         "history-of-technology"
@@ -7730,7 +7730,7 @@
       "label": "Moore's Law — History and Decline",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Moore's Law described the repeated doubling of transistor density, driving decades of cheaper and faster computing. Its slowing has shifted progress toward specialization, parallelism, chiplets, accelerators, and software efficiency.",
+      "excerpt": "Moore's Law began as Gordon Moore's observation that transistor counts on chips were doubling on a predictable cadence, then became an industry roadmap that drove cheaper, faster computing for decades. Surface this when explaining why software got used to free speedups, why that era is slowing, and why modern progress depends more on specialization, parallelism, chiplets, accelerators, and efficiency.",
       "tags": [
         "resource",
         "history-of-technology"
@@ -7742,7 +7742,7 @@
       "label": "Rise of the Smartphone (The iPhone Moment)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The smartphone rose from earlier mobile phones, PDAs, BlackBerry, and touch devices, but the iPhone crystallized a new model: multitouch, full web, sensors, app ecosystem, and pocket computing as daily infrastructure.",
+      "excerpt": "The iPhone did not invent the smartphone, but it crystallized the modern model: multitouch, a real browser, sensors, camera, app distribution, and pocket computing as everyday infrastructure. Surface this when explaining why mobile changed not just devices, but software distribution, attention, commerce, maps, media, social behavior, and platform power.",
       "tags": [
         "resource",
         "history-of-technology"
@@ -7754,7 +7754,7 @@
       "label": "The Age of Surveillance Capitalism",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The age of surveillance capitalism describes business models that extract, predict, and shape behavior through data collection and targeted advertising. The concept is associated with Shoshana Zuboff and helps explain platform incentives.",
+      "excerpt": "Surveillance capitalism, associated with Shoshana Zuboff, describes platform business models that collect behavioral data, predict behavior, and shape attention for advertising, personalization, and influence. Surface this when discussing social media incentives, privacy, recommendation systems, attention capture, or why free digital services often have hidden extraction economics.",
       "tags": [
         "resource",
         "history-of-technology"
@@ -7766,7 +7766,7 @@
       "label": "The Browser Wars",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The browser wars were battles over the web's main user interface, from Netscape vs Internet Explorer to later competition involving Firefox, Chrome, Safari, and Edge. They shaped standards, performance, security, and platform power.",
+      "excerpt": "The browser wars were fights to control the web's main user interface, from Netscape vs Internet Explorer through Firefox, Chrome, Safari, and Edge, shaping standards, rendering engines, JavaScript performance, security, and platform power. Surface this when explaining why frontend compatibility, web standards, and browser engines still matter.",
       "tags": [
         "resource",
         "history-of-technology"
@@ -7778,7 +7778,7 @@
       "label": "The Dotcom Boom and Bust",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The dotcom boom and bust was a late-1990s internet investment bubble followed by a crash, but the underlying infrastructure and user behavior kept growing. It is a classic case of real technology plus unsustainable speculation.",
+      "excerpt": "The dotcom boom and bust was a late-1990s internet investment bubble where real technological transformation was paired with unsustainable valuations, weak business models, and premature timing. Surface this when discussing hype cycles, AI bubbles, startup discipline, or why real technology can still produce irrational markets.",
       "tags": [
         "resource",
         "history-of-technology"
@@ -7790,7 +7790,7 @@
       "label": "The Homebrew Computer Club",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Homebrew Computer Club was a Silicon Valley hobbyist community that helped launch personal computing culture. It connected hardware tinkerers, software enthusiasts, and early entrepreneurs, including Apple founders.",
+      "excerpt": "The Homebrew Computer Club was a 1970s Silicon Valley hobbyist community where affordable microprocessors, open sharing, demos, and entrepreneurial energy helped launch personal computing culture, including Apple's early path. Surface this when discussing how communities turn technical components into movements.",
       "tags": [
         "resource",
         "history-of-technology"
@@ -7802,7 +7802,7 @@
       "label": "The Open Source Movement (Linux, GNU, Apache)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The open source movement blends free software ideals with practical collaborative development. GNU, Linux, Apache, BSD, and later GitHub made open infrastructure central to modern computing.",
+      "excerpt": "The open source movement blends GNU's free-software ideals, Linux's distributed kernel development, Apache's web infrastructure dominance, permissive and copyleft licensing, and corporate adoption into the foundation of modern software. Surface this when explaining why open source is simultaneously commons, ideology, production model, dependency supply chain, and platform strategy.",
       "tags": [
         "resource",
         "history-of-technology"
@@ -7814,7 +7814,7 @@
       "label": "Xerox PARC — Ideas That Changed Computing",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Xerox PARC pioneered or refined key personal-computing ideas: graphical interfaces, Ethernet, laser printing, object-oriented environments, WYSIWYG editing, and networked workstations. Its story is also a lesson in invention versus commercialization.",
+      "excerpt": "Xerox PARC pioneered or refined graphical workstations, Ethernet, laser printing, Smalltalk, WYSIWYG editing, object-oriented environments, and networked office computing, but Xerox struggled to commercialize the whole vision. Surface this when explaining the gap between invention and market capture.",
       "tags": [
         "resource",
         "history-of-technology"
@@ -34531,5 +34531,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-02T07:23:31Z"
+  "generated_at": "2026-06-02T07:39:16Z"
 }
