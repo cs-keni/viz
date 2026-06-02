@@ -12240,7 +12240,7 @@
       "label": "Activation Metrics",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Activation metrics measure whether new users reach an early moment of value. Good activation metrics are behavior-based, predictive of retention, and specific to the product's value proposition.",
+      "excerpt": "Activation metrics measure whether new users reach a meaningful early value moment that predicts retention, not merely whether they signed up or finished onboarding. Surface this when diagnosing early funnel quality, onboarding, acquisition waste, or first-use product value.",
       "tags": [
         "resource",
         "product-management"
@@ -12252,7 +12252,7 @@
       "label": "Customer Interviews — How to Run Them",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Customer interviews reveal real problems, workflows, motivations, constraints, and alternatives when they focus on specific past behavior rather than hypothetical opinions. Good interviews reduce product risk.",
+      "excerpt": "Customer interviews reveal problems, workflows, constraints, alternatives, urgency, and language when they focus on specific past behavior instead of hypothetical opinions. Surface this when validating demand, writing JTBD, or avoiding compliments that do not predict adoption.",
       "tags": [
         "resource",
         "product-management"
@@ -12264,7 +12264,7 @@
       "label": "Design Sprints (Jake Knapp)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Design sprints are time-boxed processes for answering important product questions through mapping, sketching, deciding, prototyping, and testing. They compress discovery, alignment, and learning into a focused cycle.",
+      "excerpt": "Design sprints compress product learning into a time-boxed process: map the problem, sketch solutions, decide, prototype, and test with users. Surface this when a team is debating a high-risk product direction that can be tested with a realistic prototype before full build.",
       "tags": [
         "resource",
         "product-management"
@@ -12276,7 +12276,7 @@
       "label": "Feature Flags in Product",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Feature flags let teams control feature exposure independently of deployment. They support gradual rollout, experimentation, permissioning, operational safety, and fast rollback, but add complexity and cleanup debt.",
+      "excerpt": "Feature flags separate deployment from release, letting product teams expose features gradually, run experiments, gate permissions, use kill switches, and learn safely while managing flag debt. Surface this when discussing rollout strategy, beta cohorts, A/B tests, plan gating, or reversible launches.",
       "tags": [
         "resource",
         "product-management"
@@ -12288,7 +12288,7 @@
       "label": "Metrics Hierarchy (Input vs Output Metrics)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "A metrics hierarchy links high-level outcomes to controllable inputs. Output metrics show results, while input metrics describe behaviors, activities, or product changes teams can influence.",
+      "excerpt": "A metrics hierarchy links lagging outcomes to leading inputs and guardrails so teams know what they can influence and what tradeoffs to avoid. Surface this when metrics are vanity counts, teams optimize locally, or nobody can explain how a metric changes decisions.",
       "tags": [
         "resource",
         "product-management"
@@ -12300,7 +12300,7 @@
       "label": "Net Promoter Score (NPS) — Uses and Limits",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Net Promoter Score asks how likely users are to recommend a product, then groups responses into promoters, passives, and detractors. It is useful as a lightweight sentiment signal but weak as a standalone product truth.",
+      "excerpt": "Net Promoter Score asks likelihood to recommend, then subtracts detractors from promoters; it can indicate sentiment trends but is weak as a standalone truth because sampling, timing, culture, response bias, and missing behavioral context distort it. Surface this when NPS is being overused as a product scoreboard.",
       "tags": [
         "resource",
         "product-management"
@@ -12312,7 +12312,7 @@
       "label": "Prioritization Frameworks (RICE, ICE, MoSCoW, Kano)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Prioritization frameworks help product teams compare work by impact, effort, confidence, urgency, customer value, and strategic fit. RICE, ICE, MoSCoW, and Kano are useful aids, but they do not replace judgment.",
+      "excerpt": "Prioritization frameworks make tradeoffs explicit: RICE uses reach, impact, confidence, and effort; ICE is faster but rougher; MoSCoW separates commitment levels; Kano distinguishes basic, performance, and delight needs. Surface this when a team needs structured debate without pretending scores replace judgment.",
       "tags": [
         "resource",
         "product-management"
@@ -12324,7 +12324,7 @@
       "label": "Product Analytics Fundamentals",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Product analytics uses event data, funnels, cohorts, segmentation, and experiments to understand how users experience a product. It is strongest when tied to clear questions and reliable instrumentation.",
+      "excerpt": "Product analytics uses event instrumentation, funnels, cohorts, segmentation, and experiments to understand user behavior, but it only works when tied to clear product questions and trustworthy data definitions. Surface this when teams need evidence about activation, retention, conversion, churn, or where users get stuck.",
       "tags": [
         "resource",
         "product-management"
@@ -12336,7 +12336,7 @@
       "label": "Product Discovery vs Delivery",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Product discovery reduces uncertainty about problems, users, value, usability, feasibility, and viability, while delivery turns validated direction into reliable shipped product. Healthy teams do both continuously.",
+      "excerpt": "Product discovery reduces uncertainty about value, usability, feasibility, and viability; delivery turns validated direction into reliable production value. Surface this when a team is either researching forever or shipping blindly without testing assumptions.",
       "tags": [
         "resource",
         "product-management"
@@ -12348,7 +12348,7 @@
       "label": "Product Roadmaps — Types and Tradeoffs (Outcome vs Feature)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Product roadmaps communicate product direction, priorities, and sequencing. Feature roadmaps emphasize outputs, while outcome roadmaps emphasize customer or business changes the team is trying to produce.",
+      "excerpt": "Product roadmaps communicate product intent, sequencing, and tradeoffs; feature roadmaps promise outputs, while outcome roadmaps organize work around customer and business changes. Surface this when planning under uncertainty, aligning stakeholders, or avoiding backlog-as-roadmap theater.",
       "tags": [
         "resource",
         "product-management"
@@ -12360,7 +12360,7 @@
       "label": "Product Strategy Framework",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Product strategy connects customer problems, business goals, market position, product bets, and execution focus. It explains where the product will play, how it will win, and what tradeoffs the team accepts.",
+      "excerpt": "Product strategy connects customer segments, problems, differentiation, business model, product bets, and metrics into explicit choices about where to play and how to win. Surface this when a team has many feature ideas but no coherent tradeoff logic.",
       "tags": [
         "resource",
         "product-management"
@@ -12372,7 +12372,7 @@
       "label": "Retention Analysis",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Retention analysis measures whether users continue using a product over time. It reveals product value, habit formation, fit, and customer health more reliably than acquisition or signup numbers alone.",
+      "excerpt": "Retention analysis measures whether users continue getting value over time using cohorts, return behavior, churn, and natural usage cadence. Surface this when acquisition looks strong but users do not come back, or when product-market fit needs evidence beyond signups.",
       "tags": [
         "resource",
         "product-management"
@@ -12384,7 +12384,7 @@
       "label": "The Dual Track Agile Approach",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Dual Track Agile separates discovery work from delivery work while keeping them connected. One track reduces uncertainty about what to build; the other builds and ships validated work reliably.",
+      "excerpt": "Dual Track Agile runs discovery and delivery in parallel: one track reduces product risk while the other builds production-quality increments, with shared context between product, design, and engineering. Surface this when teams need continuous learning without stopping delivery or shipping unvalidated work.",
       "tags": [
         "resource",
         "product-management"
@@ -12396,7 +12396,7 @@
       "label": "Usability Testing",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Usability testing observes representative users attempting realistic tasks to identify friction, confusion, and mismatches between design intent and user behavior. It tests usability, not whether the product should exist.",
+      "excerpt": "Usability testing observes representative users attempting realistic tasks so teams can find friction, confusion, missing feedback, accessibility barriers, and mismatches between design intent and behavior. Surface this when a design looks clear internally but user task success is unproven.",
       "tags": [
         "resource",
         "product-management"
@@ -12408,7 +12408,7 @@
       "label": "User Stories and Jobs to Be Done",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "User stories express product work from a user's perspective, while Jobs to Be Done focuses on progress customers seek in specific situations. Both are useful when they preserve context and intent rather than becoming templates.",
+      "excerpt": "User stories describe desired behavior from a user's perspective, while Jobs to Be Done captures the progress a customer seeks in a specific situation. Surface this when requirements become ticket templates without context, acceptance criteria, or evidence of the underlying job.",
       "tags": [
         "resource",
         "product-management"
@@ -34531,5 +34531,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-02T05:55:45Z"
+  "generated_at": "2026-06-02T06:06:42Z"
 }
