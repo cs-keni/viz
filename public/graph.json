@@ -896,7 +896,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 3
+      "degree": 2
     },
     {
       "id": "Goodhart's Law",
@@ -923,7 +923,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 3
+      "degree": 2
     },
     {
       "id": "Hash Functions",
@@ -1197,15 +1197,6 @@
     {
       "id": "Package Management and Dependency Resolution",
       "label": "Package Management and Dependency Resolution",
-      "folder": null,
-      "created": null,
-      "excerpt": "",
-      "tags": [],
-      "degree": 1
-    },
-    {
-      "id": "Partitioning and Sharding",
-      "label": "Partitioning and Sharding",
       "folder": null,
       "created": null,
       "excerpt": "",
@@ -2770,12 +2761,12 @@
       "label": "Atomic Habits — Key Ideas (James Clear)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Atomic Habits presents behavior change as small repeatable actions shaped by cues, cravings, responses, rewards, identity, and environment. Its practical value is converting goals into low-friction systems instead of relying on motivation.",
+      "excerpt": "Atomic Habits argues that behavior change works through four laws (obvious, attractive, easy, satisfying), that identity drives consistency better than motivation, and that environment design matters more than willpower. Its practical value is converting goals into low-friction systems.",
       "tags": [
         "resource",
         "books-ideas"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Books & Ideas/Clean Code — Key Ideas (Robert C. Martin)",
@@ -2806,12 +2797,12 @@
       "label": "Designing Data-Intensive Applications — Key Ideas (Kleppmann)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Designing Data-Intensive Applications explains modern data systems as tradeoffs among reliability, scalability, maintainability, consistency, availability, latency, and operational complexity. Its central lesson is that every abstraction hides failure modes that reappear at scale.",
+      "excerpt": "Designing Data-Intensive Applications is the definitive guide to how databases, queues, streams, and distributed systems actually work under the hood — their guarantees, failure modes, and tradeoffs. Its central lesson: every abstraction hides failure modes that reappear at scale, and architecture quality depends on understanding which guarantees are real.",
       "tags": [
         "resource",
         "books-ideas"
       ],
-      "degree": 3
+      "degree": 5
     },
     {
       "id": "Resources/Books & Ideas/Drive — Key Ideas (Daniel Pink)",
@@ -2962,12 +2953,12 @@
       "label": "The Hard Thing About Hard Things — Key Ideas (Horowitz)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Hard Thing About Hard Things is Ben Horowitz's account of leadership when the situation is ugly: layoffs, fear, executive failure, strategic reversals, and lonely decisions. Its central value is emotional realism about company-building under pressure.",
+      "excerpt": "The Hard Thing About Hard Things is Ben Horowitz's account of leadership when the situation is ugly: layoffs, fear, executive failure, strategic reversals, and lonely decisions. Its most useful frameworks are Peacetime vs Wartime CEO mode, the truth-telling imperative, and the mechanics of doing layoffs right. Surface when Kenny is facing founder pressure, high-stakes decisions with no good options, or organizational truth-telling.",
       "tags": [
         "resource",
         "books-ideas"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Books & Ideas/The Innovator's Dilemma — Key Ideas (Christensen)",
@@ -2998,12 +2989,12 @@
       "label": "The Pragmatic Programmer — Key Ideas (Hunt, Thomas)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "The Pragmatic Programmer is a software craftsmanship book about ownership, feedback, automation, orthogonality, reversibility, debugging, and continuous learning. Its core message is that good engineers actively shape the conditions for good work instead of passively accepting entropy.",
+      "excerpt": "The Pragmatic Programmer is a software craftsmanship book whose enduring ideas are DRY (about knowledge duplication, not just code), orthogonality (independent change paths), tracer bullets (thin end-to-end slices for real feedback), and broken windows (visible neglect invites more neglect). Its core message: good engineers actively shape the conditions for good work instead of passively accepting entropy.",
       "tags": [
         "resource",
         "books-ideas"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Books & Ideas/The Selfish Gene — Key Ideas (Dawkins)",
@@ -3046,12 +3037,12 @@
       "label": "Thinking Fast and Slow — Key Ideas (Kahneman)",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Thinking, Fast and Slow popularizes Kahneman's fast/slow cognition frame and a large catalog of judgment errors. Its value is not that System 1 is bad and System 2 is good; it is that confidence, fluency, vividness, and framing can make weak judgments feel obvious.",
+      "excerpt": "Thinking, Fast and Slow maps how fast intuitive cognition and slow deliberate reasoning interact — and where the seams fail. Its most useful ideas are attribute substitution (answering a different question than was asked), WYSIATI (coherent stories from incomplete evidence), and the experiencing vs. remembering self distinction.",
       "tags": [
         "resource",
         "books-ideas"
       ],
-      "degree": 3
+      "degree": 5
     },
     {
       "id": "Resources/Books & Ideas/Thinking in Systems — Key Ideas (Meadows)",
@@ -3946,7 +3937,7 @@
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Cognitive Science & Biases/Baader-Meinhof Phenomenon (Frequency Illusion)",
@@ -4162,7 +4153,7 @@
         "resource",
         "cognitive-science-biases"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Cognitive Science & Biases/Recency Bias",
@@ -4868,7 +4859,7 @@
         "resource",
         "database-systems"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/Database Systems/Database Connection Pooling (pgBouncer, SQLAlchemy)",
@@ -5129,12 +5120,12 @@
       "label": "Color Theory Fundamentals",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Color in product design communicates hierarchy, state, brand, affordance, and emotion through hue, saturation, value, contrast, and semantic meaning, but it must preserve accessibility and never carry meaning alone. Surface this when choosing UI palettes, status colors, contrast, data colors, or design-system tokens.",
+      "excerpt": "Color in product design communicates hierarchy, state, brand, affordance, and emotion through hue, saturation, value, contrast, and semantic meaning. It must never carry meaning alone. Surface this when choosing UI palettes, status colors, contrast ratios, data colors, or design-system tokens — including colorblindness and WCAG compliance.",
       "tags": [
         "resource",
         "design-ux"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Design & UX/Dark Patterns — A Catalog of What to Avoid",
@@ -5314,7 +5305,7 @@
         "resource",
         "design-ux"
       ],
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "Resources/Design & UX/UX Research Methods Overview",
@@ -6275,7 +6266,7 @@
         "resource",
         "entrepreneurship-startups"
       ],
-      "degree": 10
+      "degree": 9
     },
     {
       "id": "Resources/Entrepreneurship & Startups/Startup vs Small Business — Key Differences",
@@ -8037,7 +8028,7 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Leadership & Management/Delegation — When and How",
@@ -8121,7 +8112,7 @@
         "resource",
         "leadership-management"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Leadership & Management/Performance Reviews",
@@ -11387,7 +11378,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Personal Productivity/Inbox Zero Strategy",
@@ -11531,7 +11522,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 19
+      "degree": 20
     },
     {
       "id": "Resources/Personal Productivity/Reward Systems and Dopamine Loops",
@@ -11543,7 +11534,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Personal Productivity/Task Management Philosophies (GTD, Autofocus, ZTD)",
@@ -11677,7 +11668,7 @@
         "resource",
         "philosophy"
       ],
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "Resources/Philosophy/Ethics — Deontology (Kant's Categorical Imperative)",
@@ -11732,12 +11723,12 @@
       "label": "Free Will — Compatibilism vs Hard Determinism",
       "folder": "Resources",
       "created": "2026-05-26",
-      "excerpt": "Free will debates ask whether agency and responsibility survive determinism, causation, neuroscience, and luck. Compatibilists ground freedom in reasons-responsive action; hard determinists deny ultimate desert while often preserving practical accountability.",
+      "excerpt": "Free will debates ask whether meaningful agency and moral responsibility survive determinism, causation, and neuroscience. The real disagreement is not whether choices have causes — they do — but whether caused choices can still be genuinely yours. Compatibilists say yes; hard incompatibilists say the kind of freedom that grounds desert-based responsibility doesn't exist.",
       "tags": [
         "resource",
         "philosophy"
       ],
-      "degree": 3
+      "degree": 5
     },
     {
       "id": "Resources/Philosophy/Hard Problem of Consciousness (Chalmers)",
@@ -11809,7 +11800,7 @@
         "resource",
         "philosophy"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Philosophy/Philosophy of Science (Popper, Kuhn, Lakatos)",
@@ -14135,7 +14126,7 @@
         "resource",
         "software-engineering"
       ],
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "Resources/Software Engineering/Git Flow vs Trunk-Based",
@@ -15016,7 +15007,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "Resources/System Design/Design Twitter X Feed",
@@ -15208,7 +15199,7 @@
         "resource",
         "system-design"
       ],
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "Resources/System Design/Eventual Consistency",
@@ -18127,15 +18118,19 @@
     },
     {
       "source": "Resources/Books & Ideas/Atomic Habits — Key Ideas (James Clear)",
-      "target": "Goal Setting Frameworks (SMART, OKRs)"
-    },
-    {
-      "source": "Resources/Books & Ideas/Atomic Habits — Key Ideas (James Clear)",
-      "target": "Habit Formation — Cue, Routine, Reward"
-    },
-    {
-      "source": "Resources/Books & Ideas/Atomic Habits — Key Ideas (James Clear)",
       "target": "Resources/Cognitive Science & Biases/Nudge Theory (Thaler and Sunstein)"
+    },
+    {
+      "source": "Resources/Books & Ideas/Atomic Habits — Key Ideas (James Clear)",
+      "target": "Resources/Personal Productivity/Habit Stacking"
+    },
+    {
+      "source": "Resources/Books & Ideas/Atomic Habits — Key Ideas (James Clear)",
+      "target": "Resources/Personal Productivity/Procrastination — Root Causes and Fixes"
+    },
+    {
+      "source": "Resources/Books & Ideas/Atomic Habits — Key Ideas (James Clear)",
+      "target": "Resources/Personal Productivity/Reward Systems and Dopamine Loops"
     },
     {
       "source": "Resources/Books & Ideas/Clean Code — Key Ideas (Robert C. Martin)",
@@ -18163,7 +18158,7 @@
     },
     {
       "source": "Resources/Books & Ideas/Designing Data-Intensive Applications — Key Ideas (Kleppmann)",
-      "target": "Partitioning and Sharding"
+      "target": "Resources/Database Systems/Database Change Data Capture (CDC)"
     },
     {
       "source": "Resources/Books & Ideas/Designing Data-Intensive Applications — Key Ideas (Kleppmann)",
@@ -18172,6 +18167,14 @@
     {
       "source": "Resources/Books & Ideas/Designing Data-Intensive Applications — Key Ideas (Kleppmann)",
       "target": "Resources/System Design/Database Replication"
+    },
+    {
+      "source": "Resources/Books & Ideas/Designing Data-Intensive Applications — Key Ideas (Kleppmann)",
+      "target": "Resources/System Design/Database Sharding"
+    },
+    {
+      "source": "Resources/Books & Ideas/Designing Data-Intensive Applications — Key Ideas (Kleppmann)",
+      "target": "Resources/System Design/Distributed Transactions (2PC, Saga Pattern)"
     },
     {
       "source": "Resources/Books & Ideas/Drive — Key Ideas (Daniel Pink)",
@@ -18351,7 +18354,11 @@
     },
     {
       "source": "Resources/Books & Ideas/The Hard Thing About Hard Things — Key Ideas (Horowitz)",
-      "target": "Resources/Entrepreneurship & Startups/Startup Funding (Bootstrapping, Angel, Pre-Seed, Seed, Series A)"
+      "target": "Resources/Leadership & Management/Decision-Making Frameworks (DACI, RACI)"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Hard Thing About Hard Things — Key Ideas (Horowitz)",
+      "target": "Resources/Leadership & Management/Organizational Design (Functional vs Divisional vs Matrix)"
     },
     {
       "source": "Resources/Books & Ideas/The Hard Thing About Hard Things — Key Ideas (Horowitz)",
@@ -18392,6 +18399,10 @@
     {
       "source": "Resources/Books & Ideas/The Pragmatic Programmer — Key Ideas (Hunt, Thomas)",
       "target": "Resources/Software Engineering/Clean Code Principles"
+    },
+    {
+      "source": "Resources/Books & Ideas/The Pragmatic Programmer — Key Ideas (Hunt, Thomas)",
+      "target": "Resources/Software Engineering/Feature Flags and Progressive Rollout"
     },
     {
       "source": "Resources/Books & Ideas/The Pragmatic Programmer — Key Ideas (Hunt, Thomas)",
@@ -18447,11 +18458,19 @@
     },
     {
       "source": "Resources/Books & Ideas/Thinking Fast and Slow — Key Ideas (Kahneman)",
+      "target": "Resources/Cognitive Science & Biases/Availability Heuristic"
+    },
+    {
+      "source": "Resources/Books & Ideas/Thinking Fast and Slow — Key Ideas (Kahneman)",
       "target": "Resources/Cognitive Science & Biases/Cognitive Biases — Complete Reference"
     },
     {
       "source": "Resources/Books & Ideas/Thinking Fast and Slow — Key Ideas (Kahneman)",
       "target": "Resources/Cognitive Science & Biases/Dual Process Theory (System 1 vs System 2)"
+    },
+    {
+      "source": "Resources/Books & Ideas/Thinking Fast and Slow — Key Ideas (Kahneman)",
+      "target": "Resources/Cognitive Science & Biases/Planning Fallacy"
     },
     {
       "source": "Resources/Books & Ideas/Thinking in Systems — Key Ideas (Meadows)",
@@ -21056,6 +21075,10 @@
     {
       "source": "Resources/Design & UX/Color Theory Fundamentals",
       "target": "Resources/Design & UX/Design Systems Overview"
+    },
+    {
+      "source": "Resources/Design & UX/Color Theory Fundamentals",
+      "target": "Resources/Design & UX/Typography Fundamentals"
     },
     {
       "source": "Resources/Design & UX/Dark Patterns — A Catalog of What to Avoid",
@@ -29410,6 +29433,14 @@
       "target": "Resources/Mental Health & Psychology/Neuroplasticity"
     },
     {
+      "source": "Resources/Philosophy/Free Will — Compatibilism vs Hard Determinism",
+      "target": "Resources/Philosophy/Ethics — Consequentialism"
+    },
+    {
+      "source": "Resources/Philosophy/Free Will — Compatibilism vs Hard Determinism",
+      "target": "Resources/Philosophy/Philosophy of Mind — Consciousness"
+    },
+    {
       "source": "Resources/Philosophy/Hard Problem of Consciousness (Chalmers)",
       "target": "Resources/Philosophy/AI Ethics — Alignment and Safety"
     },
@@ -34678,5 +34709,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-03T01:57:21Z"
+  "generated_at": "2026-06-03T03:17:26Z"
 }
