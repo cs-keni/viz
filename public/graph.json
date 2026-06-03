@@ -381,7 +381,7 @@
         "environment",
         "wsl2"
       ],
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "Areas/Gaming",
@@ -406,7 +406,7 @@
         "job-search",
         "career"
       ],
-      "degree": 13
+      "degree": 16
     },
     {
       "id": "Areas/Pokemon Collection",
@@ -419,6 +419,127 @@
         "pokemon",
         "tcg",
         "collection"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "Areas/Self/5-Year Vision",
+      "label": "5-Year Vision",
+      "folder": "Areas",
+      "created": "2026-06-02",
+      "excerpt": "Kenny's 5-year vision: confident mid-level SWE or higher working on automation, AI-assisted systems, or developer tooling. Financially stable, healthier habits, strong portfolio of real projects, and a personal knowledge system that improves how he thinks. Currently: new grad, active job search, building toward this.",
+      "tags": [
+        "area",
+        "self-knowledge"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Areas/Self/Core Values and Principles",
+      "label": "Core Values and Principles",
+      "folder": "Areas",
+      "created": "2026-06-02",
+      "excerpt": "Kenny's core values: growth over appearance, ownership of outcomes, practicality over theory for its own sake, honesty including about being stuck, curiosity about how things actually work, and reliability over bursts. Bobby should use this to calibrate how to challenge, teach, and support Kenny.",
+      "tags": [
+        "area",
+        "self-knowledge"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Areas/Self/Energy and Work Patterns",
+      "label": "Energy and Work Patterns",
+      "folder": "Areas",
+      "created": "2026-06-02",
+      "excerpt": "Kenny is a night owl: wakes 9-10 AM, best deep work in afternoon and late night, gaming with friends 9 PM–midnight most nights. Peak focus windows: 11 AM–3 PM and 10 PM–2 AM. Bobby should use this to time-sensitive task suggestions and avoid pushing early-morning deep work.",
+      "tags": [
+        "area",
+        "self-knowledge"
+      ],
+      "degree": 6
+    },
+    {
+      "id": "Areas/Self/Health Baselines",
+      "label": "Health Baselines",
+      "folder": "Areas",
+      "created": "2026-06-02",
+      "excerpt": "Kenny's health baseline: sleep 2-3 AM to 9-10 AM (needs improvement), 2 meals/day, rice-based practical cooking, no consistent exercise routine yet. Goals are sustainable and modest — not extreme. Bobby should give practical advice that fits the real schedule, not aspirational fitness-influencer protocols.",
+      "tags": [
+        "area",
+        "self-knowledge"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Areas/Self/Keyboard Shortcuts",
+      "label": "Keyboard Shortcuts",
+      "folder": "Areas",
+      "created": "2026-06-02",
+      "excerpt": "Kenny's keyboard shortcut reference: Windows system, browser, VS Code, and terminal. Bobby should mention relevant shortcuts naturally when teaching new tools, not dump them all at once.",
+      "tags": [
+        "area",
+        "self-knowledge",
+        "reference"
+      ],
+      "degree": 1
+    },
+    {
+      "id": "Areas/Self/Learning Style",
+      "label": "Learning Style",
+      "folder": "Areas",
+      "created": "2026-06-02",
+      "excerpt": "Kenny learns best through simple-first explanations connected to real examples, with understanding of the 'why' before the 'how'. He gets frustrated by skipped steps, unjustified jargon, and code without design reasoning. Bobby should teach: simple intuition → technical version → example → pattern. Default to Python 3.",
+      "tags": [
+        "area",
+        "self-knowledge"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Areas/Self/Productivity Stack",
+      "label": "Productivity Stack",
+      "folder": "Areas",
+      "created": "2026-06-02",
+      "excerpt": "Kenny's productivity stack: Obsidian (second brain + Bobby memory), VS Code with WSL2 remote, Claude Code (architecture/planning/repo reasoning), Codex/GPT-5.5 (implementation/debugging), Gemini (UI/research), GitHub Copilot (inline autocomplete). Bobby should understand this stack to route requests correctly and not suggest tools already covered.",
+      "tags": [
+        "area",
+        "self-knowledge"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Areas/Self/Reading List",
+      "label": "Reading List",
+      "folder": "Areas",
+      "created": "2026-06-02",
+      "excerpt": "Kenny's reading list: books he wants to read across software engineering, AI/ML, productivity, and career. Currently hasn't started most of these. Bobby should use this to recommend what to read next relative to Kenny's current goals, and to connect book ideas to active projects.",
+      "tags": [
+        "area",
+        "self-knowledge"
+      ],
+      "degree": 8
+    },
+    {
+      "id": "Areas/Self/Tech Stack Preferences",
+      "label": "Tech Stack Preferences",
+      "folder": "Areas",
+      "created": "2026-06-02",
+      "excerpt": "Kenny's preferred stack: Python (default for algorithms, AI/ML, scripting), TypeScript/React (frontend, full-stack), Postgres/Supabase (primary database), Tailwind + Framer Motion (UI), FastAPI or Node/Express (backend). Still early career — preferences are practical and widely-used, not hype-chasing.",
+      "tags": [
+        "area",
+        "self-knowledge"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "Areas/Self/Work Environment Preferences",
+      "label": "Work Environment Preferences",
+      "folder": "Areas",
+      "created": "2026-06-02",
+      "excerpt": "Kenny works best with autonomy, clear expectations, direct honest feedback, and protected deep work time. He likes collaborative teams with good review culture and willingness to explain things. Does not like constant interruption, vague feedback, or ego-driven environments. Useful context for evaluating job opportunities and understanding how Bobby should structure interactions.",
+      "tags": [
+        "area",
+        "self-knowledge"
       ],
       "degree": 3
     },
@@ -1248,7 +1369,7 @@
         "python",
         "voice-assistant"
       ],
-      "degree": 25
+      "degree": 27
     },
     {
       "id": "Projects/Bobby Brain Viz",
@@ -2745,6 +2866,15 @@
       "degree": 5
     },
     {
+      "id": "Resources/Books & Ideas/",
+      "label": "Books & Ideas",
+      "folder": "Resources",
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "Resources/Books & Ideas/Antifragile — Key Ideas (Taleb)",
       "label": "Antifragile — Key Ideas (Taleb)",
       "folder": "Resources",
@@ -2766,7 +2896,7 @@
         "resource",
         "books-ideas"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Books & Ideas/Clean Code — Key Ideas (Robert C. Martin)",
@@ -2778,7 +2908,7 @@
         "resource",
         "books-ideas"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Books & Ideas/Deep Work — Key Ideas (Newport)",
@@ -2790,7 +2920,7 @@
         "resource",
         "books-ideas"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Books & Ideas/Designing Data-Intensive Applications — Key Ideas (Kleppmann)",
@@ -2802,7 +2932,7 @@
         "resource",
         "books-ideas"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/Books & Ideas/Drive — Key Ideas (Daniel Pink)",
@@ -2994,7 +3124,7 @@
         "resource",
         "books-ideas"
       ],
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "Resources/Books & Ideas/The Selfish Gene — Key Ideas (Dawkins)",
@@ -3018,7 +3148,7 @@
         "resource",
         "books-ideas"
       ],
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "Resources/Books & Ideas/The Structure of Scientific Revolutions — Key Ideas (Kuhn)",
@@ -7438,7 +7568,7 @@
         "resource",
         "health-fitness"
       ],
-      "degree": 19
+      "degree": 20
     },
     {
       "id": "Resources/Health & Fitness/Sauna — Evidence and Use",
@@ -8220,7 +8350,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 23
+      "degree": 24
     },
     {
       "id": "Resources/Learning & Memory/Anki — Optimal Card Design",
@@ -8268,7 +8398,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 20
+      "degree": 21
     },
     {
       "id": "Resources/Learning & Memory/Desirable Difficulties in Learning",
@@ -8496,7 +8626,7 @@
         "resource",
         "learning-memory"
       ],
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "Resources/Learning & Memory/The Learning Pyramid",
@@ -8897,7 +9027,7 @@
         "resource",
         "mental-health-psychology"
       ],
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "Resources/Mental Health & Psychology/Chronic Stress — Long-Term Physical and Mental Effects",
@@ -10868,7 +10998,7 @@
         "resource",
         "nutrition-diet"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Nutrition & Diet/Supplements Worth Taking (Evidence-Based)",
@@ -11198,7 +11328,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "Resources/Personal Productivity/Capture Systems (Ubiquitous Capture)",
@@ -11258,7 +11388,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "Resources/Personal Productivity/Digital Minimalism",
@@ -11570,7 +11700,7 @@
         "resource",
         "personal-productivity"
       ],
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "Resources/Personal Productivity/Weekly Review Process",
@@ -13525,6 +13655,15 @@
         "sleep-science"
       ],
       "degree": 6
+    },
+    {
+      "id": "Resources/Sleep Science/Sleep Stages (NREM 1/2/3 and REM)",
+      "label": "3 and REM)",
+      "folder": "Resources",
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "Resources/Sleep Science/Sleep Tracking — Metrics That Actually Matter",
@@ -16203,6 +16342,15 @@
       "degree": 2
     },
     {
+      "id": "`",
+      "label": "`",
+      "folder": null,
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
+    },
+    {
       "id": "spaced-repetition-makes-memory-a-choice",
       "label": "spaced-repetition-makes-memory-a-choice",
       "folder": null,
@@ -16263,6 +16411,154 @@
     {
       "source": "Areas/Job Search",
       "target": "Resources/System Design Notes"
+    },
+    {
+      "source": "Areas/Self/5-Year Vision",
+      "target": "Areas/Job Search"
+    },
+    {
+      "source": "Areas/Self/5-Year Vision",
+      "target": "Areas/Self/Core Values and Principles"
+    },
+    {
+      "source": "Areas/Self/5-Year Vision",
+      "target": "Areas/Self/Tech Stack Preferences"
+    },
+    {
+      "source": "Areas/Self/5-Year Vision",
+      "target": "Projects/Bobby"
+    },
+    {
+      "source": "Areas/Self/Core Values and Principles",
+      "target": "Areas/Job Search"
+    },
+    {
+      "source": "Areas/Self/Core Values and Principles",
+      "target": "Areas/Self/5-Year Vision"
+    },
+    {
+      "source": "Areas/Self/Core Values and Principles",
+      "target": "Areas/Self/Learning Style"
+    },
+    {
+      "source": "Areas/Self/Energy and Work Patterns",
+      "target": "Areas/Self/Health Baselines"
+    },
+    {
+      "source": "Areas/Self/Energy and Work Patterns",
+      "target": "Resources/Mental Health & Psychology/Burnout — Signs, Stages, and Recovery"
+    },
+    {
+      "source": "Areas/Self/Energy and Work Patterns",
+      "target": "Resources/Personal Productivity/Deep Work (Cal Newport)"
+    },
+    {
+      "source": "Areas/Self/Energy and Work Patterns",
+      "target": "Resources/Personal Productivity/Time Blocking"
+    },
+    {
+      "source": "Areas/Self/Health Baselines",
+      "target": "Areas/Self/Energy and Work Patterns"
+    },
+    {
+      "source": "Areas/Self/Health Baselines",
+      "target": "Resources/Health & Fitness/Recovery — Sleep, Nutrition, Active Recovery"
+    },
+    {
+      "source": "Areas/Self/Health Baselines",
+      "target": "Resources/Nutrition & Diet/Protein Intake for Muscle Building and Recovery"
+    },
+    {
+      "source": "Areas/Self/Health Baselines",
+      "target": "Resources/Sleep Science/Sleep Stages (NREM 1/2/3 and REM)"
+    },
+    {
+      "source": "Areas/Self/Keyboard Shortcuts",
+      "target": "`"
+    },
+    {
+      "source": "Areas/Self/Learning Style",
+      "target": "Areas/Self/Core Values and Principles"
+    },
+    {
+      "source": "Areas/Self/Learning Style",
+      "target": "Resources/Learning & Memory/Active Recall vs Passive Review"
+    },
+    {
+      "source": "Areas/Self/Learning Style",
+      "target": "Resources/Learning & Memory/Deliberate Practice (Anders Ericsson)"
+    },
+    {
+      "source": "Areas/Self/Learning Style",
+      "target": "Resources/Learning & Memory/The Feynman Technique"
+    },
+    {
+      "source": "Areas/Self/Productivity Stack",
+      "target": "Areas/Dev Setup"
+    },
+    {
+      "source": "Areas/Self/Productivity Stack",
+      "target": "Areas/Self/Tech Stack Preferences"
+    },
+    {
+      "source": "Areas/Self/Productivity Stack",
+      "target": "Projects/Bobby"
+    },
+    {
+      "source": "Areas/Self/Reading List",
+      "target": "Resources/Books & Ideas/"
+    },
+    {
+      "source": "Areas/Self/Reading List",
+      "target": "Resources/Books & Ideas/Atomic Habits — Key Ideas (James Clear)"
+    },
+    {
+      "source": "Areas/Self/Reading List",
+      "target": "Resources/Books & Ideas/Clean Code — Key Ideas (Robert C. Martin)"
+    },
+    {
+      "source": "Areas/Self/Reading List",
+      "target": "Resources/Books & Ideas/Deep Work — Key Ideas (Newport)"
+    },
+    {
+      "source": "Areas/Self/Reading List",
+      "target": "Resources/Books & Ideas/Designing Data-Intensive Applications — Key Ideas (Kleppmann)"
+    },
+    {
+      "source": "Areas/Self/Reading List",
+      "target": "Resources/Books & Ideas/The Pragmatic Programmer — Key Ideas (Hunt, Thomas)"
+    },
+    {
+      "source": "Areas/Self/Reading List",
+      "target": "Resources/Books & Ideas/The Staff Engineer's Path — Key Ideas (Reilly)"
+    },
+    {
+      "source": "Areas/Self/Reading List",
+      "target": "Resources/Personal Productivity/Building a Second Brain (BASB — Tiago Forte)"
+    },
+    {
+      "source": "Areas/Self/Tech Stack Preferences",
+      "target": "Areas/Dev Setup"
+    },
+    {
+      "source": "Areas/Self/Tech Stack Preferences",
+      "target": "Areas/Self/5-Year Vision"
+    },
+    {
+      "source": "Areas/Self/Tech Stack Preferences",
+      "target": "Areas/Self/Productivity Stack"
+    },
+    {
+      "source": "Areas/Self/Work Environment Preferences",
+      "target": "Areas/Job Search"
+    },
+    {
+      "source": "Areas/Self/Work Environment Preferences",
+      "target": "Areas/Self/Core Values and Principles"
+    },
+    {
+      "source": "Areas/Self/Work Environment Preferences",
+      "target": "Areas/Self/Energy and Work Patterns"
     },
     {
       "source": "Daily Notes/2026-05-19",
@@ -34709,5 +35005,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-03T03:17:26Z"
+  "generated_at": "2026-06-03T05:18:29Z"
 }
