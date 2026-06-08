@@ -822,6 +822,17 @@
       "degree": 0
     },
     {
+      "id": "Daily Notes/2026-06-08",
+      "label": "2026-06-08",
+      "folder": "Daily Notes",
+      "created": "2026-06-08",
+      "excerpt": "Session 1",
+      "tags": [
+        "daily"
+      ],
+      "degree": 0
+    },
+    {
       "id": "Data Visualization Best Practices",
       "label": "Data Visualization Best Practices",
       "folder": null,
@@ -3425,7 +3436,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 16
+      "degree": 18
     },
     {
       "id": "Resources/CS Theory & Algorithms/Automata Theory Basics (DFA, NFA)",
@@ -3569,7 +3580,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 14
+      "degree": 16
     },
     {
       "id": "Resources/CS Theory & Algorithms/Heaps and Priority Queues",
@@ -8653,6 +8664,35 @@
       "degree": 4
     },
     {
+      "id": "Resources/LeetCode/217. Contains Duplicate",
+      "label": "217. Contains Duplicate",
+      "folder": "Resources",
+      "created": "2026-06-08",
+      "excerpt": "LeetCode 217 asks whether any integer appears at least twice in an array. Kenny solved it with the hash-set seen pattern: scan once, return true on the first repeated value, otherwise add each new value to a set; the key tradeoff is O(n) space for average O(n) time.",
+      "tags": [
+        "resource",
+        "study",
+        "leetcode",
+        "dsa",
+        "python"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "Resources/LeetCode/LeetCode Practice",
+      "label": "LeetCode Practice",
+      "folder": "Resources",
+      "created": "2026-06-08",
+      "excerpt": "Kenny's LeetCode practice hub for problem notes, spaced review, and DSA pattern tracking. Use this when Kenny asks to review a previous LeetCode problem, explain a pattern without spoiling the solution, or track consistency over time.",
+      "tags": [
+        "resource",
+        "study",
+        "leetcode",
+        "dsa"
+      ],
+      "degree": 5
+    },
+    {
       "id": "Resources/MLOps and ML Engineering",
       "label": "MLOps and ML Engineering",
       "folder": "Resources",
@@ -8679,6 +8719,15 @@
         "mathematics"
       ],
       "degree": 5
+    },
+    {
+      "id": "Resources/Mathematics/Big-O Notation",
+      "label": "Big-O Notation",
+      "folder": "Resources",
+      "created": null,
+      "excerpt": "",
+      "tags": [],
+      "degree": 1
     },
     {
       "id": "Resources/Mathematics/Big-O Notation and Complexity Analysis",
@@ -25725,6 +25774,34 @@
       "target": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them"
     },
     {
+      "source": "Resources/LeetCode/217. Contains Duplicate",
+      "target": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays"
+    },
+    {
+      "source": "Resources/LeetCode/217. Contains Duplicate",
+      "target": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)"
+    },
+    {
+      "source": "Resources/LeetCode/217. Contains Duplicate",
+      "target": "Resources/LeetCode/LeetCode Practice"
+    },
+    {
+      "source": "Resources/LeetCode/LeetCode Practice",
+      "target": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays"
+    },
+    {
+      "source": "Resources/LeetCode/LeetCode Practice",
+      "target": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)"
+    },
+    {
+      "source": "Resources/LeetCode/LeetCode Practice",
+      "target": "Resources/LeetCode/217. Contains Duplicate"
+    },
+    {
+      "source": "Resources/LeetCode/LeetCode Practice",
+      "target": "Resources/Mathematics/Big-O Notation"
+    },
+    {
       "source": "Resources/MLOps and ML Engineering",
       "target": "Projects/Backlog"
     },
@@ -35005,5 +35082,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-03T05:18:29Z"
+  "generated_at": "2026-06-08T19:06:45Z"
 }
