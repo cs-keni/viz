@@ -3580,7 +3580,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "Resources/CS Theory & Algorithms/Heaps and Priority Queues",
@@ -8676,6 +8676,21 @@
         "dsa",
         "python"
       ],
+      "degree": 5
+    },
+    {
+      "id": "Resources/LeetCode/242. Valid Anagram",
+      "label": "242. Valid Anagram",
+      "folder": "Resources",
+      "created": "2026-06-08",
+      "excerpt": "LeetCode 242 asks whether two strings contain exactly the same characters with the same frequencies. Kenny solved it with a frequency dictionary: count characters in `s`, decrement while scanning `t`, and return false on missing or negative counts; the main debugging lesson was that mutation order matters.",
+      "tags": [
+        "resource",
+        "study",
+        "leetcode",
+        "dsa",
+        "python"
+      ],
       "degree": 4
     },
     {
@@ -8690,7 +8705,7 @@
         "leetcode",
         "dsa"
       ],
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "Resources/MLOps and ML Engineering",
@@ -25786,6 +25801,18 @@
       "target": "Resources/LeetCode/LeetCode Practice"
     },
     {
+      "source": "Resources/LeetCode/242. Valid Anagram",
+      "target": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)"
+    },
+    {
+      "source": "Resources/LeetCode/242. Valid Anagram",
+      "target": "Resources/LeetCode/217. Contains Duplicate"
+    },
+    {
+      "source": "Resources/LeetCode/242. Valid Anagram",
+      "target": "Resources/LeetCode/LeetCode Practice"
+    },
+    {
       "source": "Resources/LeetCode/LeetCode Practice",
       "target": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays"
     },
@@ -25796,6 +25823,10 @@
     {
       "source": "Resources/LeetCode/LeetCode Practice",
       "target": "Resources/LeetCode/217. Contains Duplicate"
+    },
+    {
+      "source": "Resources/LeetCode/LeetCode Practice",
+      "target": "Resources/LeetCode/242. Valid Anagram"
     },
     {
       "source": "Resources/LeetCode/LeetCode Practice",
@@ -35082,5 +35113,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-08T19:12:11Z"
+  "generated_at": "2026-06-08T19:51:42Z"
 }
