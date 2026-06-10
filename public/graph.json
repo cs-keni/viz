@@ -841,7 +841,7 @@
       "tags": [
         "daily"
       ],
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "Data Visualization Best Practices",
@@ -3591,7 +3591,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "Resources/CS Theory & Algorithms/Heaps and Priority Queues",
@@ -8675,6 +8675,21 @@
       "degree": 4
     },
     {
+      "id": "Resources/LeetCode/1. Two Sum",
+      "label": "1. Two Sum",
+      "folder": "Resources",
+      "created": "2026-06-09",
+      "excerpt": "LeetCode 1 asks for the original indices of two numbers that add to a target. Kenny's key learning was that the optimal pattern is hash map complement lookup, not two pointers: store previous values as value -> index, compute the needed complement, and return when that complement has already been seen.",
+      "tags": [
+        "resource",
+        "study",
+        "leetcode",
+        "dsa",
+        "python"
+      ],
+      "degree": 7
+    },
+    {
       "id": "Resources/LeetCode/217. Contains Duplicate",
       "label": "217. Contains Duplicate",
       "folder": "Resources",
@@ -8687,7 +8702,7 @@
         "dsa",
         "python"
       ],
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "Resources/LeetCode/242. Valid Anagram",
@@ -8702,7 +8717,7 @@
         "dsa",
         "python"
       ],
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "Resources/LeetCode/LeetCode Practice",
@@ -8716,7 +8731,7 @@
         "leetcode",
         "dsa"
       ],
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "Resources/MLOps and ML Engineering",
@@ -8753,7 +8768,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "Resources/Mathematics/Big-O Notation and Complexity Analysis",
@@ -16654,6 +16669,10 @@
     {
       "source": "Daily Notes/2026-05-30",
       "target": "vs [ conditionals, getopts argument parsing, retry-with-backoff function, lockfile pattern, heredoc, process substitution, when-to-use-Python threshold (~50 lines), common gotchas table\n\n**Notes created or updated**\n- `Resources/DevOps & Infrastructure/Database Migrations Best Practices.md`\n- `Resources/DevOps & Infrastructure/Cron Jobs and Task Scheduling.md`\n- `Resources/DevOps & Infrastructure/systemd — Service and Process Management.md`\n- `Resources/DevOps & Infrastructure/Performance Profiling (CPU, Memory, I-O).md`\n- `Resources/DevOps & Infrastructure/Disk I-O Optimization.md`\n- `Resources/DevOps & Infrastructure/Memory Management in Operating Systems.md`\n- `Resources/DevOps & Infrastructure/Linux Command Line Essentials.md`\n- `Resources/DevOps & Infrastructure/Bash Scripting.md`\n\n**Open threads**\n- Wave 2-F complete. Next: Wave 2-G (CS Theory & Algorithms), starting with Batch G1 — Core Data Structures (9 notes)"
+    },
+    {
+      "source": "Daily Notes/2026-06-09",
+      "target": "Resources/LeetCode/1. Two Sum"
     },
     {
       "source": "Daily Notes/2026-06-09",
@@ -25808,6 +25827,26 @@
       "target": "Resources/Learning & Memory/Mental Models — What They Are and How to Build Them"
     },
     {
+      "source": "Resources/LeetCode/1. Two Sum",
+      "target": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)"
+    },
+    {
+      "source": "Resources/LeetCode/1. Two Sum",
+      "target": "Resources/LeetCode/217. Contains Duplicate"
+    },
+    {
+      "source": "Resources/LeetCode/1. Two Sum",
+      "target": "Resources/LeetCode/242. Valid Anagram"
+    },
+    {
+      "source": "Resources/LeetCode/1. Two Sum",
+      "target": "Resources/LeetCode/LeetCode Practice"
+    },
+    {
+      "source": "Resources/LeetCode/1. Two Sum",
+      "target": "Resources/Mathematics/Big-O Notation"
+    },
+    {
       "source": "Resources/LeetCode/217. Contains Duplicate",
       "target": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays"
     },
@@ -25838,6 +25877,10 @@
     {
       "source": "Resources/LeetCode/LeetCode Practice",
       "target": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)"
+    },
+    {
+      "source": "Resources/LeetCode/LeetCode Practice",
+      "target": "Resources/LeetCode/1. Two Sum"
     },
     {
       "source": "Resources/LeetCode/LeetCode Practice",
@@ -35132,5 +35175,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-10T06:23:46Z"
+  "generated_at": "2026-06-10T06:52:29Z"
 }
