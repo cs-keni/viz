@@ -844,6 +844,17 @@
       "degree": 3
     },
     {
+      "id": "Daily Notes/2026-06-10",
+      "label": "2026-06-10",
+      "folder": "Daily Notes",
+      "created": "2026-06-10",
+      "excerpt": "Session 1",
+      "tags": [
+        "daily"
+      ],
+      "degree": 1
+    },
+    {
       "id": "Data Visualization Best Practices",
       "label": "Data Visualization Best Practices",
       "folder": null,
@@ -3591,7 +3602,7 @@
         "resource",
         "cs-theory-algorithms"
       ],
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "Resources/CS Theory & Algorithms/Heaps and Priority Queues",
@@ -8717,6 +8728,21 @@
         "dsa",
         "python"
       ],
+      "degree": 7
+    },
+    {
+      "id": "Resources/LeetCode/49. Group Anagrams",
+      "label": "49. Group Anagrams",
+      "folder": "Resources",
+      "created": "2026-06-10",
+      "excerpt": "LeetCode 49 asks Kenny to group strings that are anagrams of each other. The core pattern is hash map grouping by canonical signature: either sort each word into a shared key like `aet`, or build a 26-count tuple key for O(n*k) time under lowercase-English constraints.",
+      "tags": [
+        "resource",
+        "study",
+        "leetcode",
+        "dsa",
+        "python"
+      ],
       "degree": 6
     },
     {
@@ -8731,7 +8757,7 @@
         "leetcode",
         "dsa"
       ],
-      "degree": 9
+      "degree": 11
     },
     {
       "id": "Resources/MLOps and ML Engineering",
@@ -8768,7 +8794,7 @@
       "created": null,
       "excerpt": "",
       "tags": [],
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "Resources/Mathematics/Big-O Notation and Complexity Analysis",
@@ -16681,6 +16707,10 @@
     {
       "source": "Daily Notes/2026-06-09",
       "target": "Resources/LeetCode/242. Valid Anagram"
+    },
+    {
+      "source": "Daily Notes/2026-06-10",
+      "target": "Resources/LeetCode/49. Group Anagrams"
     },
     {
       "source": "Maps/Bobby",
@@ -25871,6 +25901,22 @@
       "target": "Resources/LeetCode/LeetCode Practice"
     },
     {
+      "source": "Resources/LeetCode/49. Group Anagrams",
+      "target": "Resources/CS Theory & Algorithms/Hash Tables — Collision Resolution (Chaining, Open Addressing)"
+    },
+    {
+      "source": "Resources/LeetCode/49. Group Anagrams",
+      "target": "Resources/LeetCode/242. Valid Anagram"
+    },
+    {
+      "source": "Resources/LeetCode/49. Group Anagrams",
+      "target": "Resources/LeetCode/LeetCode Practice"
+    },
+    {
+      "source": "Resources/LeetCode/49. Group Anagrams",
+      "target": "Resources/Mathematics/Big-O Notation"
+    },
+    {
       "source": "Resources/LeetCode/LeetCode Practice",
       "target": "Resources/CS Theory & Algorithms/Arrays and Dynamic Arrays"
     },
@@ -25889,6 +25935,10 @@
     {
       "source": "Resources/LeetCode/LeetCode Practice",
       "target": "Resources/LeetCode/242. Valid Anagram"
+    },
+    {
+      "source": "Resources/LeetCode/LeetCode Practice",
+      "target": "Resources/LeetCode/49. Group Anagrams"
     },
     {
       "source": "Resources/LeetCode/LeetCode Practice",
@@ -35175,5 +35225,5 @@
       "target": "Resources/Windows & WSL2/Windows Terminal Configuration"
     }
   ],
-  "generated_at": "2026-06-10T06:52:29Z"
+  "generated_at": "2026-06-10T07:08:08Z"
 }
